@@ -25,4 +25,4 @@ at a specific time. Some of us might have different priorities and other respons
 **_5._** We will speak up when we do not understand the material and use our teammates
 as resources.🙋🏻
 
-Don't forget, together we shine brighter.✨ Let's continue learning, coding, and growing!🙌
+Don't forget, together we shine brighter.✨ Let's continue learning, coding, and growing\!🙌

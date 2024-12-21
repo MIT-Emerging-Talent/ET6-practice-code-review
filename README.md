@@ -1,22 +1,28 @@
 # _The Shining Stars_ 🌟
 
-Welcome to **_The Shining Stars_**,👋  
+Welcome to **_The Shining Stars_**,  
 
-a group brought together by our shared passion for
-coding, creativity, and collaboration.🌈 As a team, we embrace challenges as
-opportunities to learn, grow, and innovate. Our goal is not just to complete
-tasks but to cultivate a sense of community where every member feels inspired to
-contribute their unique strengths.🤝
+a team united by our enthusiasm for coding and collaboration.
+Together, we aim to learn, grow, and create solutions as we navigate challenges
+in a supportive and inspiring environment.
+By combining teamwork and creativity, we strive to sharpen our skills and
+enjoy the process of coding as a team. 🚀💻
 
-By working together, we aim to build solutions that are both impactful and
-meaningful. Whether tackling complex problems or brainstorming new ideas, we
-foster an environment of mutual support and continuous improvement. Every line
-of code we write reflects our commitment to excellence and our belief in the
-power of teamwork.💪
+## _Our Norms_ 🌠
 
-At **_The Shining Stars_**, we don't just code —we create, we connect, and we shine
-brighter with every step forward.💫  
-Let's keep growing, learning, and making a difference together! 🚀  
-Don't forget\! together we shine brighter. ✨
+**_1._** We will respect each other’s time in synchronous and asynchronous communication.⌚
 
-![alt text](notes/time-to-shine-spongebob-shine.gif)
+**_2._** We will work together, share ideas, and help each other whenever needed
+and possible to achieve the best results.🤝
+
+**_3._** We will give constructive criticism about the work, and not about the person
+who did the job, fostering an amicable work environment to ensure that everyone
+has a chance to express their opinions.💭
+
+**_4._** We will wait for each other and won’t pressure anyone to work or study
+at a specific time. Some of us might have different priorities and other responsibilities.🤗
+
+**_5._** We will speak up when we do not understand the material and use our teammates
+as resources.🙋🏻
+
+Don't forget, together we shine brighter.✨ Let's continue learning, coding, and growing\!🙌

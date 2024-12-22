@@ -2,7 +2,7 @@
 # _Our Norms_ 🌠
 
 We are a group of collaborative and enthusiastic learners united under the
- name The Shining Stars.
+ name The Shining Stars.🌟
   
  Our goal is to foster an inclusive and supportive environment where everyone
 feels empowered to contribute, grow, and learn together. By combining our
@@ -24,5 +24,5 @@ has a chance to express their opinions.💭
 **_4._** We will wait for each other and won’t pressure anyone to work or study
 at a specific time. Some of us might have different priorities and other responsibilities.🤗
 
-**_5._** We will speak up when we do not understand the material and use our teammates
-as resources.🙋🏻
+**_5._** We will speak up when we do not understand the material and seek
+support from our teammates as resources.🙋🏻

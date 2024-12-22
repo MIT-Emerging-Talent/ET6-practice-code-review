@@ -1,4 +1,16 @@
+
 # _Our Norms_ 🌠
+
+We are a group of collaborative and enthusiastic learners united under the
+ name The Shining Stars.
+  
+ Our goal is to foster an inclusive and supportive environment where everyone
+feels empowered to contribute, grow, and learn together. By combining our
+strengths, respecting our differences, and encouraging open communication,
+we strive to achieve excellence in our projects and make this journey both
+ productive and enjoyable.
+
+# _Team Guidelines_ 📜
 
 **_1._** We will respect each other’s time in synchronous and asynchronous communication.⌚
 

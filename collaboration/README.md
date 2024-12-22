@@ -14,7 +14,6 @@ and supporting team goals with shared responsibility and commitment.
   decisions.
 - Maintain clear and effective communication by utilizing Slack for
   collaboration, discussions and questions.
-- Using WhatsApp for quick and easy updates.
 - Respect each other’s time and commitment during meetings and team
   interactions, with a maximum meeting duration of 2 hours.
 - Create a supportive environment where all ideas and questions are

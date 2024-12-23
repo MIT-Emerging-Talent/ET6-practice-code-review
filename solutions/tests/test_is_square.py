@@ -1,7 +1,7 @@
 import unittest
 
 
-from solutions.is_square import is_square
+from ..is_square import is_square
 
 
 

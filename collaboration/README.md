@@ -22,4 +22,4 @@ welcomed and valued.
 inclusion for all members.
 - Address challenges as a team by leveraging collective support to
 achieve shared goals.
-- Hold roundtable meetings twice a week for updtates and challenges.
+- Hold roundtable meetings twice a week for updates and challenges.

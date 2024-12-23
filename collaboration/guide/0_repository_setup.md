@@ -19,7 +19,6 @@ repository and configure it for collaboration:
   (You can change this as much as you want.)
 - Under settings in your repository select:
   - _Issues_
-  - _Discussions_
   - _Projects_
   - _Always suggest updating pull request branches_
 - Collaboration Settings

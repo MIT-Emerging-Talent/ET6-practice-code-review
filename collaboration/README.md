@@ -2,8 +2,6 @@
 
 <!-- group norms summary -->
 
-# Rock Stars Norms
-
 We are a group of collaborative and enthusiastic learners united under the
  name ROCK STARS🌟
   
@@ -13,8 +11,6 @@ Group - 23 is committed to building a culture of trust, respect, and
    fosters teamwork, and drives success.
 
 <!-- group norms list -->
-
-# Team Rock Stars Guidelines
 
   **1.** Clearly stating "I can do that" is enough to build Cognitive trust.
   **2.** By being consistent since it builds a reputation for reliability.

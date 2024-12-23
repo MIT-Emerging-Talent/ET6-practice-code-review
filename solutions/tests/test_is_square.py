@@ -1,8 +1,8 @@
 import unittest
 
 
-
 from ..is_square import is_square
+
 
 class TestIsSquare(unittest.TestCase):
     def test_negative_number(self):
@@ -88,4 +88,3 @@ class TestIsSquare(unittest.TestCase):
         actual = is_square(101)
         expected = False
         self.assertEqual(actual, expected)
-

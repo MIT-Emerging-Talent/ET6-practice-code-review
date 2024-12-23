@@ -1,7 +1,6 @@
 import unittest
 
-
-from ..is_square import is_square
+from solutions.is_square import is_square
 
 
 class TestIsSquare(unittest.TestCase):

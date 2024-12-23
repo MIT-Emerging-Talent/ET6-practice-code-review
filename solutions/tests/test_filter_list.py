@@ -1,6 +1,6 @@
 import unittest
 
-from ..filter_list import filter_list
+from solutions.filter_list import filter_list
 
 
 class TestFilterList(unittest.TestCase):

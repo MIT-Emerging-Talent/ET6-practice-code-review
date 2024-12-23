@@ -4,7 +4,6 @@ import unittest
 from ..is_square import is_square
 
 
-
 class TestIsSquare(unittest.TestCase):
     def test_negative_number(self):
         """It should return False for negative numbers."""

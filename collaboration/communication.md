@@ -33,12 +33,16 @@ ______________________________________________________________________
 
 | Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
 ------ | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
+| WuorBhang |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday |✓ Saturday |
+✘ |
+
+| John Doe |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday |✓ Saturday |
+✘ |
 
 ### How many hours everyone has per day
 
-- name: _5h_;
-- name: _6h_;
+- WuorBhang: _5h_;
+- John Doe: _8h_;
 - name: _5h_;
 - name: _4h_;
 - name: _3h_;

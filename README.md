@@ -1,6 +1,6 @@
-# California !(image.png) Group
+# California Group🌟
 
-Welcome to **California !(image.png) Group**,
+Welcome to **California Group**,
 
 California is dedicated to fostering a culture of trust, respect, and
  accountability while promoting open communication and efficient collaboration.

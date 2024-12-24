@@ -35,11 +35,13 @@ ______________________________________________________________________
 
 **1.** | Wuor Bhang |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday
  |✓ Saturday |✘ Sunday |
+**2.** | Ava Abdullah |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✘ Friday
+ |✓ Saturday |✓ Sunday |
 
 ### How many hours everyone has per day
 
 - WuorBhang: _5h_;
-- name: _8h_;
+- AvaAbdullah: _2h_;
 - name: _5h_;
 - name: _4h_;
 - name: _3h_;

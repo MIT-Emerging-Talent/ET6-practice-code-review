@@ -17,9 +17,16 @@ This repository serves as the hub for our group collaboration, where we:
 
 ---
 
-## 🛠 How to Contribute
-TESTTESTETTSTESTTEST
+## 🛠 How to Contribu
 We encourage all team members to actively participate. Here's how you can contribute:
 
+test
+test
+test
+test
 
+test
+test
+test
+test
 

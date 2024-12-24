@@ -1,4 +1,4 @@
-# California Group🌟
+# California Group
 
 Welcome to **California Group**,
 

@@ -31,8 +31,7 @@ ______________________________________________________________________
 
 ### Availability for calling/messaging
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
+| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 
 **1.** | Wuor Bhang |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday
  |✓ Saturday |✘ |

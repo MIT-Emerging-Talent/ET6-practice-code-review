@@ -1,5 +1,4 @@
 <!--
-
     this template is for inspiration, feel free to change it however you like!
 
     Careful! be sure to protect your privacy when filling out this document
@@ -25,18 +24,18 @@ how often will we get in touch on each channel, and what we will discuss there:
 - **Pull Requests**: Reviewing code changes
 - **Slack/Discord**: Slack, WhatsApp and Email
 - **Video Calls**: Google meet and Zoom call
-
+- **Email**: Email for formal communication and feedback
+  
 ______________________________________________________________________
 
 ## Availability
 
 ### Availability for calling/messaging
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
+| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 
-| Wuor Bhang |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday |✓ Saturday |
-✘ |
+**1.** Wuor Bhang |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday
+ |✓ Saturday |✘ Sunday |
 
 ### How many hours everyone has per day
 

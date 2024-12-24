@@ -20,10 +20,10 @@ ______________________________________________________________________
 
 how often will we get in touch on each channel, and what we will discuss there:
 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+- **Issues**: Adding availability to the schedule
+- **Pull Requests**: Reviewing code changes
+- **Slack/Discord**: Slack, WhatsApp and Email
+- **Video Calls**: Google meet and Zoom call
 
 ______________________________________________________________________
 
@@ -33,12 +33,14 @@ ______________________________________________________________________
 
 | Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
 ------ | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
+
+**_1_** | Wuor Bhang |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday
+ |✓ Saturday |✘ |
 
 ### How many hours everyone has per day
 
-- name: _5h_;
-- name: _6h_;
+- WuorBhang: _5h_;
+- name: _8h_;
 - name: _5h_;
 - name: _4h_;
 - name: _3h_;

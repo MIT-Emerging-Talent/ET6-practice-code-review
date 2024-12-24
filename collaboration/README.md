@@ -5,7 +5,7 @@
 We are a group of collaborative and enthusiastic learners united under the
  name ROCK STARS🌟
   
-Group - 23 is committed to building a culture of trust, respect, and
+ROCK STAR is committed to building a culture of trust, respect, and
  accountability while ensuring open communication and efficient collaboration.
   Together, we aim to create an environment that values diverse perspectives,
    fosters teamwork, and drives success.

@@ -32,7 +32,7 @@ Some boundaries around our project.
   - amount of time available to work on the project
 -->
 
-| Member      | External issues  |
+| Member      | Internal involuntary issues  |
 | ----------- | ----------- |
 | Abdallah | Constraints |
 | Member   | Constraints        |
@@ -50,7 +50,7 @@ Some boundaries around our project.
   - the number of hours you want to spend working
   - only using the colors black and white
 -->
-| Member      | External issues  |
+| Member      | Internal voluntary issues  |
 | ----------- | ----------- |
 | Abdallah | Constraints |
 | Member   | Constraints        |

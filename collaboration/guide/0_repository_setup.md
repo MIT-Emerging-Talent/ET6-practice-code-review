@@ -14,7 +14,8 @@ repository and configure it for collaboration:
   - Change your repository's name
   - Change your
     [repository description](https://stackoverflow.com/questions/7757751/how-do-you-change-a-repository-description-on-github)
-  - Add or remove topics from your repository
+  - Add or remove topics from your
+   repository
 - Under settings in your repository select:
   - _Issues_
   - _Discussions_

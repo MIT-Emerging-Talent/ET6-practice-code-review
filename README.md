@@ -21,4 +21,4 @@ This repository serves as the hub for our group collaboration, where we:
 
 We encourage all team members to actively participate. Here's how you can contribute:
 
-This is my first sentance here!
+This is my first sentence here in this group project!

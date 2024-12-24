@@ -34,7 +34,7 @@ ______________________________________________________________________
 | Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
 ------ | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
 
-**_1_** | Wuor Bhang |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday
+**1.** | Wuor Bhang |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday
  |✓ Saturday |✘ |
 
 ### How many hours everyone has per day

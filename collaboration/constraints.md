@@ -15,6 +15,15 @@ Some boundaries around our project.
   - ...
 -->
 
+| Member      | External issues  |
+| ----------- | ----------- |
+| Abdallah    | Constraints  |
+| Member   | Constraints        |
+| Member   | Constraints        |
+| Member   | Constraints        |
+| Member   | Constraints        |
+| Member   | Constraints        |
+
 ## Internal: Involuntary
 
 <!--
@@ -22,6 +31,15 @@ Some boundaries around our project.
   - each of your individual skill levels
   - amount of time available to work on the project
 -->
+
+| Member      | External issues  |
+| ----------- | ----------- |
+| Abdallah | Constraints |
+| Member   | Constraints        |
+| Member   | Constraints        |
+| Member   | Constraints        |
+| Member   | Constraints        |
+| Member   | Constraints        |
 
 ## Internal: Voluntary
 
@@ -32,3 +50,11 @@ Some boundaries around our project.
   - the number of hours you want to spend working
   - only using the colors black and white
 -->
+| Member      | External issues  |
+| ----------- | ----------- |
+| Abdallah | Constraints |
+| Member   | Constraints        |
+| Member   | Constraints        |
+| Member   | Constraints        |
+| Member   | Constraints        |
+| Member   | Constraints        |

@@ -1,10 +1,12 @@
 # Collaboration
 
 <!-- group norms summary -->
-# Group Norms
+# Group Norms Summary
 
 Our group is committed to fostering a safe, respectful, and inclusive environment where members feel valued, communicate openly, and work collaboratively. We prioritize trust, accountability, constructive discussions focused on ideas, and adaptability, ensuring we embrace diverse perspectives, meet commitments, and support each other in achieving shared goals.
 <!-- group norms list -->
+# Group Norms
+
 ## Discussions
 - We as a group will try first of all to maintain a healthy and safe work environment.
 - We as a group will be open to an unexpected direction and strive to learn.

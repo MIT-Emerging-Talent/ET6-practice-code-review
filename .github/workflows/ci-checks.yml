@@ -4,19 +4,19 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   ls_linting:
-      runs-on: ubuntu-latest
-      steps:  
-        - uses: actions/checkout@v4
-        - uses: ls-lint/action@v2.2.3
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ls-lint/action@v2.2.3
 
   md_formatting:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - uses: nosborn/github-action-markdown-cli@v3.3.0
-      with:
-        files: .
-        config_file: .markdownlint.yml
+      - uses: actions/checkout@v4
+      - uses: nosborn/github-action-markdown-cli@v3.3.0
+        with:
+          files: .
+          config_file: .markdownlint.yml
 
   py_formatting:
     runs-on: ubuntu-latest
@@ -59,5 +59,5 @@ jobs:
         run: python --version
         shell: bash
       - name: Python - Run Tests
-        run: python -m unittest
+        run: python3 -m unittest discover solutions/tests
         shell: bash

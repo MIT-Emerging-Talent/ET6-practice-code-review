@@ -17,7 +17,7 @@ class TestCheckStraightLine(unittest.TestCase):
         """
         solution = Solution()
         coordinates = [[1, 2], [2, 3], [3, 4]]
-        self.assertTrue(solution.check_line(coordinates))
+        self.assertTrue(solution.check_straight_line(coordinates))
 
     def test_points_not_on_line(self):
         """
@@ -25,7 +25,7 @@ class TestCheckStraightLine(unittest.TestCase):
         """
         solution = Solution()
         coordinates = [[1, 1], [2, 2], [3, 4]]
-        self.assertFalse(solution.check_line(coordinates))
+        self.assertFalse(solution.check_straight_line(coordinates))
 
     def test_vertical_line(self):
         """
@@ -33,7 +33,7 @@ class TestCheckStraightLine(unittest.TestCase):
         """
         solution = Solution()
         coordinates = [[2, 1], [2, 3], [2, 5]]
-        self.assertTrue(solution.check_line(coordinates))
+        self.assertTrue(solution.check_straight_line(coordinates))
 
     def test_insufficient_points(self):
         """
@@ -42,7 +42,7 @@ class TestCheckStraightLine(unittest.TestCase):
         solution = Solution()
         coordinates = [[1, 1]]
         with self.assertRaises(ValueError):
-            solution.check_line(coordinates)
+            solution.check_straight_line(coordinates)
 
     def test_horizontal_line(self):
         """
@@ -50,7 +50,7 @@ class TestCheckStraightLine(unittest.TestCase):
         """
         solution = Solution()
         coordinates = [[1, 2], [3, 2], [5, 2]]
-        self.assertTrue(solution.check_line(coordinates))
+        self.assertTrue(solution.check_straight_line(coordinates))
 
     def test_boundary_case(self):
         """
@@ -58,7 +58,7 @@ class TestCheckStraightLine(unittest.TestCase):
         """
         solution = Solution()
         coordinates = [[-1000000, -1000000], [0, 0], [1000000, 1000000]]
-        self.assertTrue(solution.check_line(coordinates))
+        self.assertTrue(solution.check_straight_line(coordinates))
 
 
 if __name__ == "__main__":

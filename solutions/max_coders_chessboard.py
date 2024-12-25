@@ -1,15 +1,16 @@
 """
-This module provides a function to calculate the maximum number of Coders 
-that can be placed on an n x n chessboard such that no two Coders attack 
+This module provides a function to calculate the maximum number of Coders
+that can be placed on an n x n chessboard such that no two Coders attack
 each other. It also generates the configuration of the chessboard.
 """
 
 from typing import List, Tuple
 
+
 def max_coders_chessboard(n: int) -> Tuple[int, List[str]]:
     """
-    Calculates the maximum number of Coders that can be placed on an n x n 
-    chessboard without any two Coders attacking each other. 
+    Calculates the maximum number of Coders that can be placed on an n x n
+    chessboard without any two Coders attacking each other.
 
     Arguments:
     n : int
@@ -34,8 +35,10 @@ def max_coders_chessboard(n: int) -> Tuple[int, List[str]]:
     (1, ['C'])
     """
     if not (1 <= n <= 1000):
-        raise ValueError("The size of the chessboard must be between 1 and 1000 inclusive.")
-    
+        raise ValueError(
+            "The size of the chessboard must be between 1 and 1000 inclusive."
+        )
+
     count = 0
     board = []
 
@@ -43,10 +46,10 @@ def max_coders_chessboard(n: int) -> Tuple[int, List[str]]:
         row = []
         for j in range(n):
             if (i + j) % 2 == 0:  # Checkerboard pattern
-                row.append('C')
+                row.append("C")
                 count += 1
             else:
-                row.append('.')
-        board.append(''.join(row))
+                row.append(".")
+        board.append("".join(row))
 
     return count, board

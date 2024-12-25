@@ -4,12 +4,13 @@ Module for checking if a set of coordinates lie on a straight line.
 
 from typing import List
 
+
 class Solution:
     """
     A solution to determine if given points lie on a straight line.
     """
 
-    def check_line(self, coordinates: List[List[int]]) -> bool:
+    def check_straight_line(self, coordinates: List[List[int]]) -> bool:
         """
         Determines if the given coordinates form a straight line.
 

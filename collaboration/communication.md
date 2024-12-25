@@ -39,10 +39,14 @@ ______________________________________________________________________
 **2.** | Anyak Abraham |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday
  |✘ Saturday |✘ Sunday |
 
+**3.** | Ava Abdullah |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✘ Friday
+ |✓ Saturday |✓ Sunday |
+
 ### How many hours everyone has per day
 
 - WuorBhang: _5h_;
 - Abraham: _6h_;
+- Ava Abdullah: _2h_;
 - name: _5h_;
 - name: _4h_;
 - name: _3h_;

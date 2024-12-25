@@ -26,11 +26,11 @@ These are factors that come from the outside and are beyond the team's control:
 
 <!-- We decided to break the MD013/line-length rule for aesthetic reasons-->
 
-| **Constraint**                    | **Description**                                                                 |
+| **Constraint**                    | **Description**                                                                  |
 |------------------------------------|---------------------------------------------------------------------------------|
-| **Project Deadlines** ⏳           | Deadlines set externally that affect how quickly we need to deliver.           |
-| **Number of Unit Tests** 🧪       | The number of unit tests required to pass a code review.                       |
-| **Schedules**                      | Academic, work, or personal commitments that limit availability.              |
+| **Project Deadlines** ⏳           | Deadlines set externally that affect how quickly we need to deliver.            |
+| **Number of Unit Tests** 🧪       | The number of unit tests required to pass a code review.                         |
+| **Schedules**                      | Academic, work, or personal commitments that limit availability.                |
 | **Power or Connectivity Issues** ⚡| Unpredictable external problems like power outages or poor internet that could disrupt work. |
 
 ---
@@ -39,10 +39,10 @@ These are factors that come from the outside and are beyond the team's control:
 
 These are factors that come from within the team, and we have no control over them:
 
-| **Constraint**            | **Description**                                                                 |
+| **Constraint**            | **Description**                                                                |
 |--------------------------|---------------------------------------------------------------------------------|
-| **Individual Skill Levels** 🧑‍💻 | Varying levels of expertise among team members.                                |
-| **Task Preferences** ✅     | Specific tasks you enjoy or want to focus on to improve your skills.           |
+| **Individual Skill Levels** 🧑‍💻 | Varying levels of expertise among team members.                           |
+| **Task Preferences** ✅     | Specific tasks you enjoy or want to focus on to improve your skills.         |
 | **Time Availability** ⏰   | The amount of time available to work on the project may vary from person to person. |
 | **Communication Delays** 💬 | Just a heads-up, replies might take a little longer since we're all working at different times or with flexible schedules. |
 
@@ -97,4 +97,4 @@ allow us to work together in solving them.
 
 Please don’t hesitate to share your constraints or ask for help if you’re stuck.
 This is a learning experience for all of us, and we’re here to support each other!
-The more open we are, the better we can work together. 🤝
+**The more open we are, the better we can work together.** 🤝

@@ -11,7 +11,6 @@ MD007: # Unordered list indentation
 # Line length and whitespace
 MD013: # Line length
   line_length: 8000
-  strict: false
   stern: false
 
 # Spacing and formatting

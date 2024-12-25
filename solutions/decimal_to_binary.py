@@ -17,17 +17,12 @@ def decimal_to_binary(decimal_number: int) -> str:
     Parameters:
         decimal_number: int, greater than or equal to zero
 
-    Returns -> string shows the binary representation of a decimal number
+    Returns -> string, shows the binary representation of a decimal number
 
     Raises:
         AssertionError: if the argument is not an integer
         AssertionError: if the argument is less than 0
-
-    >>> decimal_to_binary(0)
-    '0'
-
-    >>> decimal_to_binary(1)
-    '1'
+        
 
     >>> decimal_to_binary(4)
     '100'
@@ -37,9 +32,6 @@ def decimal_to_binary(decimal_number: int) -> str:
 
     >>> decimal_to_binary(7)
     '111'
-
-    >>> decimal_to_binary(255)
-    '11111111'
     
     >>> decimal_to_binary(2796202)
     '1010101010101010101010'

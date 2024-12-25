@@ -15,6 +15,8 @@ ______________________________________________________________________
 
 | Day | How | The topic of discussion | | --- | :-: | ----------------------- |
 
+The team did not specify a specific schedule for working.
+Here's a recap of our meetings dates.
 | 20/12 | Google Meet | First Team meeting |
 | 22/12 | Google Meet | Second Team meeting |
 
@@ -22,11 +24,13 @@ ______________________________________________________________________
 
 how often will we get in touch on each channel, and what we will discuss there:
 
-The team agreed to meet twice per week for online meetings and to be active and responsive on slack and whatsapp. 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+The team agreed to meet twice per week for online meetings.
+The team agreed to be active and responsive on slack and whatsapp.
+
+- **Issues**: be active on communication channels
+- **Pull Requests**: notify the team through slack
+- **Slack/Discord**: be regularly active on communication channels
+- **Video Calls**: twice per week
 
 ______________________________________________________________________
 
@@ -36,16 +40,22 @@ ______________________________________________________________________
 
 | Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
 ------ | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
-The team did not specify which days they are available to reply on. However, the team is responsive on communication channels. 
+| _name_ | | | | |
+The team did not specify which days they are available to reply on.
+However, the team is responsive on communication channels such as whatsapp and slack.
 
 ### How many hours everyone has per day
 
 - name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- Ahd :
+- Al-hassen: _2h_
+- Duha: _2h_
+- Ghyath:
+- Hamza:
+- Hassan:
+- Maab:
+- Nada: _4h_
+- Salih: _4h_
 
 ## Asking for Help
 

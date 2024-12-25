@@ -31,22 +31,14 @@ ______________________________________________________________________
 
 ### Availability for calling/messaging
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
-
-**1.** | Wuor Bhang |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday
- |✓ Saturday |✘ Sunday |
-
-**2.** | Anyak Abraham |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday
- |✘ Saturday |✘ Sunday |
-
-**3.** | Ava Abdullah |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✘ Friday
- |✓ Saturday |✓ Sunday |
+| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
+------ | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
+| _name_ | | | | | | | |
 
 ### How many hours everyone has per day
 
-- WuorBhang: _5h_;
-- Abraham: _6h_;
-- Ava Abdullah: _2h_;
+- name: _5h_;
+- name: _6h_;
 - name: _5h_;
 - name: _4h_;
 - name: _3h_;

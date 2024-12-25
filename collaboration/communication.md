@@ -27,8 +27,6 @@ The team is generally available throughout the week as follows:
 
 ## Asking for Help
 
-## Asking for Help
-
 | Time Stuck        | Action                                                             |
 |-------------------|--------------------------------------------------------------------|
 | 0–30 minutes      | Attempt to solve the issue independently.                          |

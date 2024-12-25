@@ -1,7 +1,7 @@
 # Learning Goals
 
 ## Collective
-As a team, Git It Done, we aim to:
+As a team, **Git It Done**, we aim to:
 
 1- **Strengthen Python Proficiency:** Deepen our understanding of Python programming, including syntax, libraries, and best practices.
 

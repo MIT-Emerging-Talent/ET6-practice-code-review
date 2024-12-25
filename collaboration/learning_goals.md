@@ -16,7 +16,7 @@ As a team, Git It Done, we aim to:
 
 ## Individual
 
-###Mojtaba Fayyaz###
+### Mojtaba Fayyaz
 
 1- **Master Basic Python Concepts:** Focus on understanding Python data structures (e.g., lists, dictionaries, sets), control flow, functions, and file handling.
 

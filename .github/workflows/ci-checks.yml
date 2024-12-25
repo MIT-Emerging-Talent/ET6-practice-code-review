@@ -50,8 +50,7 @@ jobs:
       - name: Python - Check Linting - pylint
         run: "pylint solutions tests  || echo '::warning title=Pylint Error(s)::Discuss solutions and trade-offs in code review.'"
         shell: bash
-
-  py_tests:
+    py_tests:
   runs-on: ubuntu-latest
   steps:
     - uses: actions/checkout@v4

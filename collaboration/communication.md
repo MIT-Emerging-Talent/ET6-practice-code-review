@@ -14,12 +14,15 @@ ______________________________________________________________________
 ## Communication Schedule
 
 | Day | How | The topic of discussion | | --- | :-: | ----------------------- |
-| | | |
+
+| 20/12 | Google Meet | First Team meeting |
+| 22/12 | Google Meet | Second Team meeting |
 
 ## Communication Channels
 
 how often will we get in touch on each channel, and what we will discuss there:
 
+The team agreed to meet twice per week for online meetings and to be active and responsive on slack and whatsapp. 
 - **Issues**:
 - **Pull Requests**:
 - **Slack/Discord**:
@@ -34,6 +37,7 @@ ______________________________________________________________________
 | Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
 ------ | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
 | _name_ | | | | | | | |
+The team did not specify which days they are available to reply on. However, the team is responsive on communication channels. 
 
 ### How many hours everyone has per day
 

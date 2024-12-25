@@ -24,6 +24,8 @@ we can plan better, support each other, and ensure smooth progress as a team.
 
 These are factors that come from the outside and are beyond the team's control:
 
+<!-- We decided to break the MD013/line-length rule for aesthetic reasons-->
+
 | **Constraint**                    | **Description**                                                                 |
 |------------------------------------|---------------------------------------------------------------------------------|
 | **Project Deadlines** ⏳           | Deadlines set externally that affect how quickly we need to deliver.           |

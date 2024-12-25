@@ -10,6 +10,7 @@ with palindromes of different lengths.
 import unittest
 from solutions.longest_palindromic_substring import Solution
 
+
 class TestLongestPalindromicSubstring(unittest.TestCase):
     """
     Unit tests for the Solution class's longest_palindrome method.
@@ -107,5 +108,6 @@ class TestLongestPalindromicSubstring(unittest.TestCase):
         result = self.solution.longest_palindrome("abccba")
         self.assertEqual(result, "abccba")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()

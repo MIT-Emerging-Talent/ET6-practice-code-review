@@ -7,6 +7,7 @@ This implementation efficiently finds the longest palindromic substring in
 O(n^2) time complexity with O(1) space complexity.
 """
 
+
 class Solution:
     """
     A class that provides a method to find the longest palindromic substring in a string.
@@ -33,8 +34,8 @@ class Solution:
 
         Returns:
             str: The longest palindromic substring found in the input string.
-                 If there are multiple substrings of the same maximum length,
-                 any one of them can be returned.
+                If there are multiple substrings of the same maximum length,
+                any one of them can be returned.
 
         Example:
             >>> solution = Solution()
@@ -61,7 +62,7 @@ class Solution:
             while left >= 0 and right < len(s) and s[left] == s[right]:
                 left -= 1
                 right += 1
-            return s[left + 1:right]
+            return s[left + 1 : right]
 
         longest = ""
         for i in range(len(s)):

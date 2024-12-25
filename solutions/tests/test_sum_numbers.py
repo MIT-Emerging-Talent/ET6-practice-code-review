@@ -43,13 +43,13 @@ class Testsum_numbers(unittest.TestCase):
     
     def test_zero(self):
       """This test checks if the function raises an Exception for zero input."""
-      with self.assertRaises(Exception):
+      with self.assertRaises(AssertionError):
             sum_numbers(0)
 
       
     def test_negative_int(self):
       """this test checks negative number it should raise Exception: Input must be greater than 0"""
-      with self.assertRaises(Exception):
+      with self.assertRaises(AssertionError):
             sum_numbers(-3)
       
     def test_float(self):

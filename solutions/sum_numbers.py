@@ -10,8 +10,7 @@ The author: Maab Mohamedkhair"""
 def sum_numbers(n):
     
     """ sum numbers 
-sum numbers is a recursive function return the sum of count down numbers 
-from n -> 1
+sum numbers is a function return the sum of numbers from n -> 1
 
 Base case: n == 1 
     return 1
@@ -21,7 +20,7 @@ recursion case: for n > 1
 
 parameters: n = any positive integer less than 1000 because python limitation in recursion 
 
-return : the sum of all numbers less than n inclusive and greater than or equal one
+return : the integer sum of all numbers less than n inclusive and greater than or equal one
 
 Examples:
 
@@ -34,20 +33,18 @@ Examples:
 >>> sum_numbers(0)
 Traceback (most recent call last):
 ...
-Exception: Input must be greater than 0
+AssertionError: Input must be greater than 0
 """
 
 
     #checks n is less than 1000
     if (n>1000):
         raise RecursionError
-    assert isinstance(n, int), "input must be integer"
+    assert isinstance(n, int), "input must be integer grater than 0"
     
     #checks if the value is greater than Zero
-    if n<=0:
-        raise Exception("Input must be greater than 0")
-    
-    
+    assert n>0, "Input must be greater than 0"
+        
     # Base Case
     #the function smallest version
     if n == 1:

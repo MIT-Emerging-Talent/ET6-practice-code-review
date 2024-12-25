@@ -16,7 +16,7 @@ repository and configure it for collaboration:
   - Add or remove topics from your repository
   - Update your main README with your group name and an initial overview of your
     project.(You can change this as much as you want.)
-    
+
 - Under settings in your repository select:
   - _Issues_
   - _Projects_

@@ -36,7 +36,7 @@ ______________________________________________________________________
 **1.** | Wuor Bhang |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday
  |✓ Saturday |✘ Sunday |
 
-**3.** | Anyak Abraham |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday
+**2.** | Anyak Abraham |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday
  |✘ Saturday |✘ Sunday |
 
 **3.** | Ava Abdullah |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✘ Friday

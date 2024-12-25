@@ -3,7 +3,7 @@
 
 ## ✨ Summary  
 
-Our group norms emphasize **availability**, **trust**, **inclusivity**, and **adaptability** as cornerstones of effective collaboration. Trust is built through reliability, empathy, and accountability, fostering both cognitive and affective connections. Clear communication, respect, and time management ensure productive teamwork, while flexibility allows us to adapt to individual needs and project demands. Leadership is approached collaboratively, and norms evolve to maintain relevance, supported thorough documentation and consistent standards.
+Our group norms emphasize **availability**, **trust**, **inclusivity**, and **adaptability** as cornerstones of effective collaboration. Trust is built through reliability, empathy, and accountability, fostering both cognitive and affective connections. Clear communication, respect, and time management ensure productive teamwork, while flexibility allows us to adapt to individual needs and project demands. Leadership is approached collaboratively, and norms evolve to maintain relevance, supported by thorough documentation and consistent standards.
 
 ---
 <!-- group norms list -->

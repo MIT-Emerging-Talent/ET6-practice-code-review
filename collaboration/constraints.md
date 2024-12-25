@@ -31,6 +31,8 @@ These are factors that come from the outside and are beyond the team's control:
 | **Schedules**                      | Academic, work, or personal commitments that limit availability.              |
 | **Power or Connectivity Issues** ⚡| Unpredictable external problems like power outages or poor internet that could disrupt work. |
 
+---
+
 ### Internal: Involuntary Constraints 🚶‍♀️
 
 These are factors that come from within the team, and we have no control over them:

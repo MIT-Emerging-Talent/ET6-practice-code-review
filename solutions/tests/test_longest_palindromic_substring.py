@@ -81,23 +81,17 @@ class TestLongestPalindromicSubstring(unittest.TestCase):
         result = self.solution.longest_palindrome("abacdfgdcaba")
         self.assertEqual(result, "aba")
 
-    def test_palindrome_with_spaces(self):
+    def test_long_string_with_repeats(self):
         """
-        Test for a string with spaces.
-        Input: 'a man a plan a canal panama' (the longest palindrome is 'a man a plan a canal panama').
-        Expected result: 'a man a plan a canal panama'.
+        Test for a string with a large palindromic substring formed by repeated characters.
+        Input: A large string with repeated 'a's around 'abba'.
+        Expected result: The entire string since it's all palindromic.
         """
-        result = self.solution.longest_palindrome("a man a plan a canal panama")
-        self.assertEqual(result, "a man a plan a canal panama")
-
-    def test_long_string(self):
-        """
-        Test for a long string with a palindromic substring in the middle.
-        Input: A large string with 'abcd' in the middle and a palindrome 'abba' around it.
-        Expected result: 'abba'.
-        """
-        result = self.solution.longest_palindrome("a" * 1000 + "abba" + "a" * 1000)
-        self.assertEqual(result, "abba")
+        input_string = "a" * 1000 + "abba" + "a" * 1000
+        expected_result = input_string
+        result = self.solution.longest_palindrome(input_string)
+        print(f"Test result: {result}")
+        self.assertEqual(result, expected_result)
 
     def test_palindrome_with_duplicates(self):
         """

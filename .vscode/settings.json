@@ -117,5 +117,8 @@
   "cSpell.words": [
     "babad",
     "cbbd"
-  ]
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
 }

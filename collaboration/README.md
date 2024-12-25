@@ -1,7 +1,7 @@
 # Collaboration
 <!-- group norms summary -->
 
-**Summary**: These  group norms were discussed and agreed upon by the team, and will be used to build and maintain effective communication and collaboration.
+**Summary**: Norms were agreed upon and will be used to maintain effective teamwork.
 
 <!-- group norms list -->
 ## Our List of Group Norms

@@ -27,6 +27,7 @@ collective and individual learning goals for this project:
 - Improve problem-solving speed.
 - Focus on writing clear, concise, and documented code.
 - Strengthen understanding of algorithms and advanced data structures.
+- I'm going to help my team mates to achieve learning goals
 
 ### Henry Ogoe (<djokwa@gmail.com>)
 

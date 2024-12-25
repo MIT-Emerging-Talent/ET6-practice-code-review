@@ -42,6 +42,9 @@ These are factors that come from within the team, and we have no control over th
 your skills.
 - **Time Availability:** ⏰ The amount of time available to work on the project
 may vary from person to person.
+- **Communication Delays:** 💬: Just a heads-up,
+replies might take a little longer since we're all working at different times
+or with flexible schedules.
 
 ---
 
@@ -52,9 +55,22 @@ project. These can be voluntarily agreed upon to make the project manageable:
 
 - **Coding Style & Conventions:** 🎨 Deciding on a standard coding style (e.g.,
 indentations, naming conventions).
-- **Code Review Checklist:** ✅ Creating a checklist for code reviews to ensure consistency.
+- **Code Review Checklist:** ✅ Creating a checklist for code reviews to
+ensure consistency
+and all code must be reviewed before merging into the main branch with
+constructive feedback
 - **Hours to Spend Working:** 🕒 Deciding on a specific amount of time the team
 wants to spend working per week.
+- **GitHub & Version Control Constraints:** 🔄
+- All work must be committed to GitHub regularly.
+Each task or feature should be worked on in its own separate branch.
+- **Branch names:** 🌿 must be descriptive and clear and related to the problem
+- **time-sensitive tasks :** ⏱️ Should be addressed promptly
+(e.g., bug fixes or urgent feature additions)
+- **Resource Constraints:** 📚 All team members need to have access to the necessary
+tools and resources (VS Code, GitHub, Necessary extensions)
+- **Communication Tools:** 🛠️ Slack for daily updates,
+Google meet for weekly meetings
 
 ---
 
@@ -92,4 +108,4 @@ VS Code]
 
 Please don’t hesitate to share your constraints or ask for help if you’re stuck.
 This is a learning experience for all of us, and we’re here to support each other!
-The more open we are, the better we can work together. 🤝
+**The more open we are, the better we can work together.** 🤝

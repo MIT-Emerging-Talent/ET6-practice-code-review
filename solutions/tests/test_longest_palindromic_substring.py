@@ -1,5 +1,14 @@
+"""
+Unit tests for the longest_palindromic_substring module.
+
+This module contains unit tests for the Solution class's
+longest_palindrome method. The tests cover various input
+cases, including common scenarios, edge cases, and strings
+with palindromes of different lengths.
+"""
+
 import unittest
-from ..longest_palindromic_substring import Solution
+from solutions.longest_palindromic_substring import Solution
 
 class TestLongestPalindromicSubstring(unittest.TestCase):
     """

@@ -37,7 +37,7 @@ ______________________________________________________________________
 
 ### How many hours everyone has per day
 
-- name: _5h_;
+- Sukhrob: _5h_;
 - name: _6h_;
 - name: _5h_;
 - name: _4h_;

@@ -19,7 +19,7 @@
 ### 🔒 Accountability
 
 - Setting clear goals and expectations for the role and responsibilities of each
-- Setting deadlines for completing (part of or all of) deliverables
+- Setting deadlines for completing part of or all of deliverables
 
 ### ⚖️ Conflict Resolution
 

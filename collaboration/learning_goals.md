@@ -34,4 +34,4 @@ Will be added by Mohamed
 ### Improve Code Quality ✨  
 
 - Write clean, tested, and well-documented code to maintain project reliability. 💻  
-- Anticipate and resolve potential issues proactively to enhance overall code efficiency. 🧠  
+- Anticipate   and resolve potential issues proactively to enhance overall code efficiency. 🧠

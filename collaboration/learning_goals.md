@@ -1,4 +1,4 @@
-# Learning Goals
+# Learning Goals 🏹
 
 ## Collective Goals
 

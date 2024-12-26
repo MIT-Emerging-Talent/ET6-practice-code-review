@@ -1,4 +1,4 @@
-# Collaboration
+# Group Norms 📜
 
 <!-- group norms summary -->
 
@@ -9,6 +9,8 @@ Our group values respect, open communication, and mutual support. We commit to
  and success is celebrated together.
 
 <!-- group norms list -->
+
+## Detailed List of Norms
 
 1. Respect each other's time and communicate delays promptly.
 2. Share ideas and help teammates whenever possible.

@@ -35,6 +35,8 @@ Saturday ✓ Sunday
 
 **5.**  Cynthia Wairimu ✓ Monday ✓ Tuesday ✓ Wednesday ✓ Thursday ✓ Friday
 
+**6.**  Hasan Zemzem ✓ Monday ✓ Tuesday ✓ Wednesday ✓ Thursday ✓ Friday
+
 ### How many hours everyone has per day
 
  1. WuorBhang: _5h_;
@@ -42,7 +44,8 @@ Saturday ✓ Sunday
  3. Ava Abdullah: _2h_;
  4. Sadam Husen: _1:30h_;
  5. Cynthia Wairimu: _4h_;
- 6. name: _3h_;
+ 6. Hasan Zemzem: _1-2h_;
+ 7. name: _3h_;
 
 ## Asking for Help
 

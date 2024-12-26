@@ -13,9 +13,10 @@ ______________________________________________________________________
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion | Start Time | Duration | Participants | Remark |:-: | ----------------------- |
-| 22/12/2024 | Via Google Meet | Geeting to know each other | 3 AM EST | 1 Hr | 6 ppls | Discuss Group Norms |
-| 26/12/2024 | Via Google Meet | Tools of Collarborative Development | 10 AM EST | ? Hr | ? ppls | ??? |
+| Day | How | The topic of discussion | Start Time | Duration | Participants | Remark |
+| --- | --- | --- | --- | --- | --- | --- |
+| 22/12/2024 | Via Google Meet | Getting to know each other | 3 AM EST | 1 Hr | 6 ppl | Discuss Group Norms |
+| 26/12/2024 | Via Google Meet | Tools of Collaborative Development | 10 AM EST | ? Hr | ? ppl | ??? |
 
 ## Communication Channels
 
@@ -26,7 +27,7 @@ how often will we get in touch on each channel, and what we will discuss there: 
 - **Issues**: Keep posting or updating on Slack every day at least a message.
 - **Pull Requests**: Will decide later.
 - **Slack/Discord**: Slack
-- **Video Calls**: Google Meet (faciliatator will provide the link)
+- **Video Calls**: Google Meet (facilitator will provide the link)
 
 ______________________________________________________________________
 

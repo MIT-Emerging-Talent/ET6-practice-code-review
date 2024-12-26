@@ -19,7 +19,12 @@
 ### Conduct Peer Code Reviews 👀  
 
 - Review team members’ code solutions for quality, functionality, and adherence to standards. ✔️  
-- Execute tests and debugging processes to identify issues and discuss improvements effectively. 🐞  
+- Execute tests and debugging processes to identify issues and discuss improvements effectively. 🐞
+
+### Adopt TDD (Test-Driven Development) Practices
+
+- Begin coding with tests to ensure accuracy and reliability.  
+- Collaborate to refine test cases, making sure they cover edge cases and expected behavior.
 
 ## Individual Goals 🎯
 
@@ -36,4 +41,9 @@
 ### Improve Code Quality ✨  
 
 - Write clean, tested, and well-documented code to maintain project reliability. 💻  
-- Anticipate   and resolve potential issues proactively to enhance overall code efficiency. 🧠
+- Anticipate and resolve potential issues proactively to enhance overall code efficiency. 🧠
+
+### Strengthen TDD Skills
+
+- Practice writing failing tests first, followed by code to pass those tests.  
+- Refactor code confidently, ensuring functionality through robust test coverage.

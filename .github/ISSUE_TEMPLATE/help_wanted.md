@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 name: help wanted
 about: A template issue for when you're blocked on certain lines of code.  This template
   has many sections to get you thinking about your problem, you don't need to fill
@@ -7,6 +8,14 @@ title: ''
 labels: help wanted
 assignees: ''
 
+=======
+name: help wanted 
+about: > 
+  A template issue for when you're blocked on certain lines of code. 
+  This template has many sections to get you thinking about your problem, 
+  you don't need to fill all of them. 
+labels: "help wanted"
+>>>>>>> 368ebaf (md formatting fix)
 ---
 
 <!--

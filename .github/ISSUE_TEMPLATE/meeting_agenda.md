@@ -1,11 +1,19 @@
 ---
+<<<<<<< HEAD
 name: meeting agenda
 about: A template issue for planning meetings
 title: 'Agenda: __'
 labels: ''
 assignees: ''
 
+=======
+name: meeting agenda 
+about: A template issue for planning meetings 
+title: "Agenda: \_\_" 
+labels: agenda
+>>>>>>> 368ebaf (md formatting fix)
 ---
+
 
 <!-- Make your issue easy to find:
 

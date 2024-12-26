@@ -86,15 +86,11 @@ ask for help based on how long you've been stuck on the same problem:
   **Members**: Abel Teka, Banchiamlak Tessema  
   **Task**: To prepare and submit Group Norms and conduct a review on Group 5.
 
----
-
 ### **Group 2**  
 
   **Members**: Robel Mengsteab, Zeinab Mohammed  
   **Task**: To prepare and submit Communication and Conduct a code review for
    Group 4’s tasks and provide feedback.
-
----
 
 ### **Group 3**  
 
@@ -102,23 +98,17 @@ ask for help based on how long you've been stuck on the same problem:
   **Task**: Prepare and submit Constraints and Refine group communication
    practices based on feedback.
 
----
-
 ### **Group 4**  
 
   **Members**: Viktoriya Haiduk, Mohamed Elnageeb  
   **Task**:Prepare and submit Learning goals and Conduct a code review plus a
   feedback.
 
----
-
 ### **Group 5**  
 
   **Members**: Gai Samuel, Yonatan Yishak  
   **Task**: Lead the retrospective meeting and document key outcomes and Conduct
    a code review on Group 1 .
-
----
 
 ## Review Responsibilities
 

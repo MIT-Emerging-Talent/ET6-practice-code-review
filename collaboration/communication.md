@@ -45,7 +45,7 @@ Saturday ✓ Sunday
  4. Sadam Husen: _1:30h_;
  5. Cynthia Wairimu: _4h_;
  6. Hasan Zemzem: _1-2h_;
- 7. name: _3h_;
+ 7. Ibrahim Elmisbah: _2h_;
 
 ## Asking for Help
 

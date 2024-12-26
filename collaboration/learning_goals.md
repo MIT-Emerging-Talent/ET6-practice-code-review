@@ -49,9 +49,10 @@ collective and individual learning goals for this project:
 
 ### Alemayehu Kiros (<alemayehu8363@gmail.com>)
 
-- Develop speed in problem-solving.
-- Learn and apply new programming features.
-- Gain more experience in reviewing and critiquing code.
+- Develop logical problem-solving skills.
+- Learn collaboration coding.
+- Improve technical communication
+- Build the foundation of programing skill
 
 ### Khadija al Ramlawi (<kalramlawi@gmail.com>)
 

@@ -4,7 +4,7 @@
 
 | Day       | How (Channel)     | Topic of Discussion                                                    |
 |-----------|-------------------|------------------------------------------------------------------------|
-| Eveyday   | Slack             | Quick updates on progress and blockers.                                |
+| Everyday   | Slack             | Quick updates on progress and blockers.                                |
 | Wednesday | GitHub Issues     | Task tracking, reviewing challenges, and assigning tasks.             |
 | Saturday  | Zoom              | Weekly team meeting to review progress, discuss pull requests, and plan next steps. |
 

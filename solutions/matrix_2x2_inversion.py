@@ -24,10 +24,11 @@ def matrix_2x2_inversion(matrix: list[list[float]]) -> list[list[float]]:
         list: a list of lists representing the inverse of the input matrix.
         
     Raises:
-        AssertionError: if the input matrix is not a 2x2 matrix.
-        ValueError: if the determinant of input matrix is zero.
         TypeError: if the input matrix is not a list of lists.
         TypeError: if one of the elements of the input matrix is not int or float.
+        AssertionError: if the input matrix is not a 2x2 matrix.
+        ValueError: if the determinant of input matrix is zero.
+
         
     Examples:
     >>> matrix_2x2_inversion([[1, 2], [3, 4]])
@@ -37,4 +38,21 @@ def matrix_2x2_inversion(matrix: list[list[float]]) -> list[list[float]]:
     >>> matrix_2x2_inversion([[1, 2.0], [3, 4]])
     [[-2.0, 1.0], [1.5, -0.5]]
     """
-    return matrix
+    
+    
+    
+    
+    # Calculate the determinant
+    determinant = matrix[0][0] * matrix[1][1] - matrix[0][1] * matrix[1][0]
+    
+    # If determinant is 0, the matrix is not invertible
+    if determinant == 0:
+        raise ValueError("Matrix is not invertible because determinant is zero.")
+    
+    # Calculate the inverse using the 2x2 matrix formula
+    inverse = [
+        [matrix[1][1] / determinant, -matrix[0][1] / determinant],
+        [-matrix[1][0] / determinant, matrix[0][0] / determinant]
+    ]
+    
+    return inverse

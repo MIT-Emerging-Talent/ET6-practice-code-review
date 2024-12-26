@@ -4,19 +4,19 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   ls_linting:
-      runs-on: ubuntu-latest
-      steps:  
-        - uses: actions/checkout@v4
-        - uses: ls-lint/action@v2.2.3
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ls-lint/action@v2.2.3
 
   md_formatting:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - uses: nosborn/github-action-markdown-cli@v3.3.0
-      with:
-        files: .
-        config_file: .markdownlint.yml
+      - uses: actions/checkout@v4
+      - uses: nosborn/github-action-markdown-cli@v3.3.0
+        with:
+          files: .
+          config_file: .markdownlint.yml
 
   py_formatting:
     runs-on: ubuntu-latest
@@ -55,9 +55,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: python version
-        run: python --version
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x" # Specify the Python version (e.g., '3.10').
+      - name: Install Dependencies
+        run: pip install -r requirements.txt # Install any required dependencies (if applicable).
         shell: bash
-      - name: Python - Run Tests
-        run: python -m unittest
+      - name: Run Tests
+        run: python -m unittest discover -s tests -p "test_*.py" # Adjust the directory and pattern if necessary.
         shell: bash

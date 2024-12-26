@@ -31,6 +31,7 @@ def calculate_average(num1: float, num2: float) -> float:
     >>> calculate_average(-3, 3)
     0.0
     """
+    
     assert isinstance(num1, (int, float)), "num1 must be a number"
     assert isinstance(num2, (int, float)), "num2 must be a number"
     

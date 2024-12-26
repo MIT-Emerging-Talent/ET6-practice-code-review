@@ -17,7 +17,7 @@ Some boundaries around our project.
 
 | Member      | External issues  |
 | ----------- | ----------- |
-| Abdallah    | Constraints  |
+| Abdallah    | Internet connectivity, work  |
 | Huda  | Internet connectivity       |
 | Member   | Constraints        |
 | Member   | Constraints        |

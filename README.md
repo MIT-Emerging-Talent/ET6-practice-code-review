@@ -18,3 +18,5 @@ At **_The Shining Stars_**, we don’t just code —we create, we connect, and w
 brighter with every step forward.💫  
 Let’s keep growing, learning, and making a difference together! 🚀  
 Don't forget\! together we shine brighter. ✨
+
+![alt text](time-to-shine-spongebob-shine.gif)

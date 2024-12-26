@@ -5,26 +5,26 @@
 
 # This Project is All About Teamwork! 🤝
 
-Together, we dive into coding and testing challenges, sharpening our problem-solving and collaboration skills as a united team. Our mission is to work in harmony, review each other’s solutions, and grow through shared learning and constructive feedback. We believe that exceptional solutions stem from exceptional teamwork. That's why we are dedicated to building and supporting each other every step of the way. Let's make amazing things happen, together! ⭐
+Together, we dive into coding and testing challenges, sharpening our problem-solving and collaboration skills as a united team. Our mission is to work in harmony, review each others solutions, and grow through shared learning and constructive feedback. We believe that exceptional solutions stem from exceptional teamwork. That's why we are dedicated to building and supporting each other every step of the way. Let's make amazing things happen, together! ⭐
 
 ---
 
 ## 🚀 Project Overview
 
-### What We’ll Do
+### What We will Do
 
-- 🧠 **Coding Challenges**: We’ll face a variety of coding problems, each offering new learning opportunities.
-- 🔍 **Review Each Other’s Solutions**: After completing tasks, we’ll give and receive feedback to ensure high-quality results and growth.
-- 🛠️ **Collaborate on Testing**: Testing is a key part of the process. We’ll work together to ensure our solutions are robust and reliable.
+- 🧠 **Coding Challenges**: We will face a variety of coding problems, each offering new learning opportunities.
+- 🔍 **Review Each Others Solutions**: After completing tasks, we will give and receive feedback to ensure high-quality results and growth.
+- 🛠️ **Collaborate on Testing**: Testing is a key part of the process. We will work together to ensure our solutions are robust and reliable.
 - 💬 **Communicate Effectively**: From code discussions to problem-solving, clear and open communication is key to our success.
-- 🚧 **Solve Roadblocks Together**: No one is left behind. If a challenge arises, we’ll come together to brainstorm and troubleshoot.
-- 🌱 **Learn and Grow**: The goal isn’t just to finish the tasks, but to grow as a team through shared knowledge and experiences.
+- 🚧 **Solve Roadblocks Together**: No one is left behind. If a challenge arises, we will come together to brainstorm and troubleshoot.
+- 🌱 **Learn and Grow**: The goal is not just to finish the tasks, but to grow as a team through shared knowledge and experiences.
 
 ---
 
 ## 🌟 How We Collaborate
 
-🧩 We take collaboration seriously. Here’s how we do it:
+🧩 We take collaboration seriously. Here is how we do it:
 
 - [Our Norms](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-24/blob/main/collaboration/README.md)
 - [Our Communication](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-24/blob/main/collaboration/communication.md)
@@ -51,6 +51,6 @@ Our squad is made up of some seriously talented people who bring the 🔥 to thi
 
 ### 💥 Here We Go  
 
-With the team all set, we’re ready to make some magic happen. Stay with us for the ride, things are about to get awesome! 💪
+With the team all set, we are ready to make some magic happen. Stay with us for the ride, things are about to get awesome! 💪
 
 ![Demo GIF](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTBrZHhqdG9tNG9sNDd2c2YwdThvaW5qc3d2OHB1ZHJmajN4Z2hweCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o85xHhy12MVG2fkVW/giphy.webp)

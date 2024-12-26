@@ -15,4 +15,7 @@ At **Code Vinci**, we blend **art and technology** to build smart, elegant, and 
 We believe coding is more than just logic; it’s a **form of art**.  
 Every project we create is a **masterpiece**, carefully crafted with creativity and precision. 🎭  
 
+Group Values.
+Respect, communication, inclusivity and adaptability are central to effective teamwork.
+
 > **Code Vinci—where art meets code, and innovation becomes reality.** ✨  

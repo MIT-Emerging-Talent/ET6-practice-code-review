@@ -30,17 +30,19 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 | Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 
-**4.** | Sadam Husen |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday |✓
-Saturday |✓ Sunday |
+**4.**  Sadam Husen ✓ Monday ✓ Tuesday ✓ Wednesday ✓ Thursday ✓ Friday ✓
+Saturday ✓ Sunday
+
+**5.**  Cynthia Wairimu ✓ Monday ✓ Tuesday ✓ Wednesday ✓ Thursday ✓ Friday
 
 ### How many hours everyone has per day
 
-- WuorBhang: _5h_;
-- Abraham: _6h_;
-- Ava Abdullah: _2h_;
-- Sadam Husen: _1:30h_;
-- name: _4h_;
-- name: _3h_;
+ 1. WuorBhang: _5h_;
+ 2. Abraham: _6h_;
+ 3. Ava Abdullah: _2h_;
+ 4. Sadam Husen: _1:30h_;
+ 5. Cynthia Wairimu: _4h_;
+ 6. name: _3h_;
 
 ## Asking for Help
 

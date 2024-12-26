@@ -13,17 +13,19 @@ ______________________________________________________________________
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion | | --- | :-: | ----------------------- |
-| | | |
+| Day       | How          | The Topic of Discussion |
+|-----------|--------------|-------------------------|
+| Wednesday | Zoom/Slack   | Weekly Planning         |
+| Saturday  | Zoom/Slack   | Check-In                |
 
 ## Communication Channels
 
 how often will we get in touch on each channel, and what we will discuss there:
 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+- **Issues**: _to be discussed in the next meeting
+- **Pull Requests**: _to be discusssed in the next meeting_
+- **Slack**: _to be discussed in the next meeting_
+- **Zoom Calls**: _to be discussed in the next meeting_
 
 ______________________________________________________________________
 
@@ -31,17 +33,31 @@ ______________________________________________________________________
 
 ### Availability for calling/messaging
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
+| Day       | Monday   | Tuesday  | Wednesday | Thursday | Friday   | Saturday  | Sunday    |
+|-----------|----------|----------|-----------|----------|----------|-----------|-----------|
+| Sukhrob   | 12pm-4pm | 12pm-4pm | 12pm-4pm  | 12pm-4pm | 12pm-4pm  | 12pm-4pm | 12pm-4pm |
+| Yuri      | 10am-4pm | 10am-4pm | 10am-4pm  | 10am-4pm | 10am-4pm | 11am-3pm  | 11am-3pm  |
+| Khadija   |          |          |           |          |          |           |           |
+| Dmytro    |          |          |           |          |          |           |           |
+| Mykyta    |          |          |           |          |          |           |           |
+| Olumide   |          |          |           |          |          |           |           |
+| Manezha   |          |          |           |          |          |           |           |
+| Alemyahu  |          |          |           |          |          |           |           |
+| Mitchell  |          |          |           |          |          |           |           |
+| Henry     |          |          |           |          |          |           |           |
 
 ### How many hours everyone has per day
 
-- Sukhrob: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- Sukhrob: _4h_;
+- Yuri: _6h_;
+- Khadija: __;
+- Dmytro: __;
+- Mykyta: __;
+- Olumide: __;
+- Manezha: __;
+- Alemyahu: __;
+- Mitchell: __;
+- Henry: __;
 
 ## Asking for Help
 

@@ -61,7 +61,7 @@ normally and agree on what works for everyone
 <summary> How and where team communicates about different aspects of the project?
   </summary>
 
-- This is currently up for vote. Check back for final update
+- Slack and Whatsapp are the two major means of communication for the team
 
 </details>
 

@@ -1,4 +1,4 @@
-# The Shining Stars 🌟
+# _The Shining Stars_ 🌟
 
 Welcome to **_The Shining Stars_**,👋  
 

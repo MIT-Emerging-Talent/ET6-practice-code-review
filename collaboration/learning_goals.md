@@ -16,3 +16,12 @@ collaboration with peers.
 
 * Improve Documentation, focus on writing clear and comprehensive documentation
 for my code and projects.
+### Nagham al baba
+
+* Improve coding skills by solving challenges.
+
+* Enhance collaboration through teamwork and discussions.
+
+* Strengthen code review abilities by providing feedback.
+
+* Improve documentation for better team understanding.

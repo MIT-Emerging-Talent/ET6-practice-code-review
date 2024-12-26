@@ -1,58 +1,57 @@
-""" sum numbers 
-sum numbers is a recursive function return the sum of count down numbers 
+"""
+Sum Numbers
 
-created: 25/12/2024
-Team number:28
-Team name:MIT Alpha
-The author: Maab Mohamedkhair"""
+sum_numbers is a recursive function that returns the sum of countdown numbers.
 
-
-def sum_numbers(n):
-    
-    """ sum numbers 
-sum numbers is a function return the sum of numbers from n -> 1
-
-Base case: n == 1 
-    return 1
-
-recursion case: for n > 1
-    smaller_result of n + the value of sum_numbers(n - 1)
-
-parameters: n = any positive integer less than 1000 because python limitation in recursion 
-
-return : the integer sum of all numbers less than n inclusive and greater than or equal one
-
-Examples:
-
->>> sum_numbers(4)
-10
-
->>> sum_numbers(5)
-15
-
->>> sum_numbers(0)
-Traceback (most recent call last):
-...
-AssertionError: Input must be greater than 0
+Created: 25/12/2024  
+Team Number: 28  
+Team Name: MIT Alpha  
+Author: Maab Mohamedkhair
 """
 
+def sum_numbers(n):
+    """
+    sum_numbers is a function that returns the sum of numbers from n -> 1.
 
-    #checks n is less than 1000
-    if (n>1000):
-        raise RecursionError
-    assert isinstance(n, int), "input must be integer grater than 0"
+    Base case: 
+        n == 1 
+        return 1
+
+    Recursive case: 
+        For n > 1:
+        smaller_result of n + the value of sum_numbers(n - 1)
+
+    Parameters: 
+        n (int): Any positive integer less than 1000 due to Python's recursion limitation.
+
+    Returns: 
+        int: The sum of all numbers from n down to 1 (inclusive).
+
+    Raises:
+        AssertionError: If n is not a positive integer less than 1000.
+
+    Examples:
+    >>> sum_numbers(4)
+    10
+
+    >>> sum_numbers(5)
+    15
+
+    >>> sum_numbers(0)
+    Traceback (most recent call last):
+    ...
+    AssertionError: Input must be greater than 0.
     
-    #checks if the value is greater than Zero
-    assert n>0, "Input must be greater than 0"
-        
-    # Base Case
-    #the function smallest version
+    """
+    # Ensure n is a positive integer and within the recursion limit
+    assert isinstance(n, int), "Input must be an integer greater than 0."
+    assert n > 0, "Input must be greater than 0."
+    assert n < 1000, "Input must be less than 1000."
+
+    # Base case
     if n == 1:
         return 1
-    
-    # Recursive Case  |  breakdown to smaller problem and turn around
-    smaller_result = n+ sum_numbers(n - 1)
-    
-    # Recursive Build up all the parts from the stack
+
+    # Recursive case
+    smaller_result = n + sum_numbers(n - 1)
     return smaller_result
-    

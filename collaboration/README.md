@@ -64,5 +64,3 @@ Our goal is to create a family-like, friendly, and collaborative work environmen
 
 - Encourage collaboration by sharing knowledge, skills, and resources.
 - Focus on solutions, not blame, when challenges arise.
-
----

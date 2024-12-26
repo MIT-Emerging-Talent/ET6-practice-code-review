@@ -1,6 +1,6 @@
 # Learning Goals
 
-![Collaboration Image](assets/collaboration.jpg)
+![Collaboration Image](assets/goals.jpg)
 
 ## Collective Learning Goals
 As a team, we aim to achieve the following:

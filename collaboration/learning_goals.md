@@ -1,8 +1,6 @@
 # Learning Goals
 
-- Gain a solid understanding of collaborative and individual coding workflows using Git and GitHub. 🛠️  
-- Develop the ability to provide and apply constructive feedback in code reviews. 💬  
-- Enhance skills in writing clean, tested, and well-documented code. ✍️  
+Will be added by Mohamed
 
 ## Collective Goals 🌟
 

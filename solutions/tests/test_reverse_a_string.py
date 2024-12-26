@@ -71,3 +71,6 @@ class TestReverseAString(unittest.TestCase):
         """Test handling of boolean input."""
         with self.assertRaises(TypeError):
             reverse_a_string(True)
+
+if __name__ == "__main__":
+    unittest.main()

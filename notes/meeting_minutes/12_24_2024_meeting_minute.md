@@ -2,7 +2,8 @@
 
 ## Overview
 
-These minutes summarize the key points discussed and actions taken during today's meeting.
+These minutes summarize the key points discussed and
+actions taken during today's meeting.
 Please feel free to add your comments in a thread under this post
 if you find anything missing or necessary to be mentioned.
 
@@ -23,7 +24,8 @@ creating pull requests.
 
 ### **3. Branching Strategy**
 
-- Yuriy shared a helpful document detailing the steps and commands needed: [Link to Document](https://docs.google.com/document/d/1s7MtaQa2fEymATpsIrafiELQtkR74MqlJbXQesfy9j4/edit?tab=t.0#heading=h.1vmv8c9atm1b).
+- Yuriy shared a helpful document detailing the steps and commands needed.
+Please find it in our slack channel.
 - Decided to create individual branches for each file worked on locally
 and "push" them to GitHub rather than working directly in the `main` branch.
 - Ensured branch naming aligns with Yuriy's file for consistency and accessibility:
@@ -33,7 +35,8 @@ and "push" them to GitHub rather than working directly in the `main` branch.
 ### **4. Practical Steps Practiced**
 
 - Gained familiarity with creating and pushing branches.
-- Practiced the full cycle of creating pull requests, assigning "Reviewers," and completing the review process.
+- Practiced the full cycle of creating pull requests,
+assigning "Reviewers," and completing the review process.
 - Each participant shared their screen to demonstrate these steps.
 
 ### **5. Resolving Issues**
@@ -48,7 +51,8 @@ and "push" them to GitHub rather than working directly in the `main` branch.
 
 - Clarified the misunderstanding between:
   - `README.md` in the root directory which is mainly for Group's overview and description.
-  - `README.md` in the "collaboration" directory which we'll post our final Group's norms.
+  - `README.md` in the "collaboration" directory
+which we'll post our final Group's norms.
 
 ### **8. Collaboration Strategy**
 

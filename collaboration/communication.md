@@ -44,12 +44,13 @@ All technical discussions will be conducted on Slack. General discussions will u
 |-----------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------:|
 | **Madiha** |   ✓    |    ✓    |     ✓     |     ✓    |    ✓    |     ✓     |    ✓   |
 | **Fatima** |   ✓    |    ✓    |     ✓     |     ✓    |    ✓    |     ✓     |    ✓   |
+| **Shahroz** |   ✓    |    ✓    |     ✓     |     ✓    |        |           |    ✓   |
 
 ### Hours Available Per Day
 
 - Fatima: _5h_  
 - Madiha: _5h_  
-- Member 1: _6h_  
+- M Shahroz: _4h_  
 - Member 2: _4h_  
 - Member 3: _3h_  
 

@@ -18,6 +18,8 @@ ______________________________________________________________________
 | 22/12/2024 | Via Google Meet | Getting to know each other | 3 AM EST | 1 Hr | 6 ppl | Discuss Group Norms |
 | 26/12/2024 | Via Google Meet | Tools of Collaborative Development | 10 AM EST | ? Hr | ? ppl | ??? |
 
+.......
+
 ## Communication Channels
 
 how often will we get in touch on each channel, and what we will discuss there: (Evan's Guide line)

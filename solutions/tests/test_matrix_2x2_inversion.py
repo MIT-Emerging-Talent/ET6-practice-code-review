@@ -19,7 +19,30 @@ from solutions.matrix_2x2_inversion import matrix_2x2_inversion
 
 class TestMatrix2x2Inversion(unittest.TestCase):
     """ Tests suite for the matrix_2x2_inversion function. """
-  
+    # Standard test cases
     def test_matrix_with_integer_elements(self):
-        """ It should return the inverse of the input matrix. """
+        """ It should return the inverse of the input matrix, handling integers. """
         self.assertEqual(matrix_2x2_inversion([[1, 2], [3, 4]]), [[-2.0, 1.0], [1.5, -0.5]])
+        
+    def test_matrix_with_float_elements(self):
+        """ It should return the inverse of the input matrix, handling floats. """
+        self.assertEqual(matrix_2x2_inversion([[1.0, 2.0], [3.0, 4.0]]), [[-2.0, 1.0], [1.5, -0.5]])
+        
+    def test_matrix_with_mixed_elements(self):
+        """ It should return the inverse of the input matrix, handling mixed-types elements. """
+        self.assertEqual(matrix_2x2_inversion([[1, 2.0], [3, 4]]), [[-2.0, 1.0], [1.5, -0.5]])
+        
+    def test_matrix_with_negative_elements(self):
+        """ It should return the inverse of the input matrix, handling negative elements. """
+        self.assertEqual(matrix_2x2_inversion([[-1, -2], [-3, -4]]), [[2.0, -1.0], [-1.5, 0.5]])
+        
+    def test_identity_matrix(self):
+        """ It should return the identity matrix. """
+        self.assertEqual(matrix_2x2_inversion([[1, 0], [0, 1]]), [[1, 0], [0, 1]])
+        
+    def test_symmetric_matrix(self):
+        """ It should return the inverse. """
+        self.assertEqual(matrix_2x2_inversion([[2, 1], [1, 2]]), [[0.6666666666666666, -0.3333333333333333], 
+                                                                   [-0.3333333333333333, 0.6666666666666666]])
+        
+    

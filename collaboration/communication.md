@@ -30,6 +30,14 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 | Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 
+**1.** | Wuor Bhang |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday
+ |✓ Saturday |✘ Sunday |
+
+**2.** | Anyak Abraham |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✓ Friday
+ |✘ Saturday |✘ Sunday |
+
+**3.** | Ava Abdullah |✓ Monday |✓ Tuesday |✓ Wednesday |✓ Thursday |✘ Friday
+ |✓ Saturday |✓ Sunday |
 **4.**  Sadam Husen ✓ Monday ✓ Tuesday ✓ Wednesday ✓ Thursday ✓ Friday ✓
 Saturday ✓ Sunday
 

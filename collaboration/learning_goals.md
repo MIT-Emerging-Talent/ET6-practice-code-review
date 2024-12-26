@@ -35,11 +35,13 @@ collective and individual learning goals for this project:
 - Practice code reviews and incorporating feedback effectively.
 - Explore advanced programming techniques.
 
-### Suhrob Muborakshoev (<suhrob.m89@gmail.com>)
+### Sukhrob Muborakshoev (<suhrob.m89@gmail.com>, <www.github.com/suhrobmuborakhso>)
 
-- Focus on creating efficient and optimized solutions.
+- Learn to docstring a python file.
+- Learn how to properly unittest python file.
 - Enhance debugging skills.
-- Strengthen collaboration and teamwork.
+- Learn the proper workflow on Git.
+- Strengthen collaboration and teamwork in both Git and Slack.
 
 ### Manezhah Mohmand (<mohmandmanezha@gmail.com>)
 

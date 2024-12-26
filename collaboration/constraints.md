@@ -21,6 +21,7 @@ Some boundaries around our project.
   constraints that come from within your team, and you have no control over:
   - each of your individual skill levels
   - amount of time available to work on the project
+  - Most members are inactive on slack
 -->
 
 ## Internal: Voluntary

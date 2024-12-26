@@ -12,7 +12,8 @@ Some boundaries around our project
 - **Coding Standards:** All coding, documentation, and reviews will adhere to
   established rules based on reviewed examples.
 - **Restricted Pushes:** We’re not allowed to push directly to the `master` branch.
-- **Branch Merging Rules:** A branch can only be merged after a pull request has been
+- **Branch Merging Rules:** A branch can only be merged after a pull request has
+ been
   reviewed and approved.
 - **Team Size:** There are only 5 people on our team. This can be an advantage but
   also a limitation if we need more help.
@@ -21,7 +22,8 @@ Some boundaries around our project
 
 - **Different Schedules:** Everyone has their own commitments, so it’s hard to find
   regular meeting times. But we’ll make sure to catch up and contribute equally.
-- **Learning Together:** Some of us are still building our skills, so we’ll need to
+- **Learning Together:** Some of us are still building our skills, so we’ll need
+ to
   collaborate and support each other more as we learn.
 - **Limited Availability:** Balancing this project with other responsibilities might
   sometimes make it hard to stay fully available.

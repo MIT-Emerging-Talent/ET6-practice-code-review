@@ -31,3 +31,5 @@ The team is generally available throughout the week as follows:
 | 0–30 minutes      | Attempt to solve the issue independently.                          |
 | 30–60 minutes     | Ask the team for input or pair programming assistance.             |
 | 60+ minutes       | Reach out to coaches on Slack or GitHub for guidance.              |
+
+<!-- Note: The markdown issues in this document are intentional because markdown is restricted. -->

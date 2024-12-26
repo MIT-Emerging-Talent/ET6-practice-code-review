@@ -86,4 +86,4 @@ We prioritize respect, cultural sensitivity, constructive feedback,to ensure col
 - **Cultural Sensitivity:**
   - Be aware of and respect cultural differences, fostering an inclusive environment.
 - **Celebrating Milestones:**
-  - Acknowledge and celebrate project wins, big or small, to foster a sense of achievement.
+  - Acknowledge and celebrate project wins to foster sense of achievement.

@@ -114,10 +114,7 @@
 
   // Enable/disable update table of contents on save
   "markdown.extension.toc.updateOnSave": false,
-  "cSpell.words": [
-    "babad",
-    "cbbd"
-  ],
+  "cSpell.words": ["babad", "cbbd"],
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   }

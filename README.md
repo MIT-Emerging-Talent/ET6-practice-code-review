@@ -14,7 +14,9 @@ foster an environment of mutual support and continuous improvement. Every line
 of code we write reflects our commitment to excellence and our belief in the
 power of teamwork.💪
 
-At **_The Shining Stars_**, we don’t just code —we create, we connect, and we shine
+At **_The Shining Stars_**, we don't just code —we create, we connect, and we shine
 brighter with every step forward.💫  
-Let’s keep growing, learning, and making a difference together! 🚀  
+Let's keep growing, learning, and making a difference together! 🚀  
 Don't forget\! together we shine brighter. ✨
+
+![alt text](notes/time-to-shine-spongebob-shine.gif)

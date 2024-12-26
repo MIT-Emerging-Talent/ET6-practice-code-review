@@ -80,7 +80,7 @@ We prioritize respect, cultural sensitivity, constructive feedback,to ensure col
 - **Feedback Culture:**
   - Create a safe space for giving and receiving constructive feedback.
   - Focus feedback on improvement, not fault-finding.
-- **Inclusivity:**
+- **Being Inclusive:**
   - Ensure everyone has an equal chance to contribute, especially during discussions.
   - Rotate responsibilities like meeting facilitation to distribute ownership.
 - **Cultural Sensitivity:**

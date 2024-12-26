@@ -50,7 +50,7 @@ Saturday ✓ Sunday
 
 ### How many hours everyone has per day
 
- 1. WuorBhang: _5h_;
+ 1. WuorBhang: _6h_;
  2. Abraham: _6h_;
  3. Ava Abdullah: _2h_;
  4. Sadam Husen: _1:30h_;

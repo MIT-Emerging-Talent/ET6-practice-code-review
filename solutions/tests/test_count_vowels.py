@@ -9,7 +9,7 @@ Created on 2024-12-27
 """
 
 import unittest
-from ..count_vowels import count_vowels
+from solutions.count_vowels import count_vowels
 
 
 class TestCountVowels(unittest.TestCase):

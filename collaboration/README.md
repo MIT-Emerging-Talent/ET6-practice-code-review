@@ -12,7 +12,7 @@
 
 -Foster respectful dialogue where everyone feels safe to share their ideas and concerns.
 
--Be mindful of language barriers and adapt communication styles as needed (e.g., using visual aids).
+-Be mindful of language barriers and adapt simple communication styles.
 
 ---
 
@@ -28,13 +28,13 @@
 
 -Respect individual limitations, whether they are related to time or other factors.
 
--Provide support when someone is struggling and encourage team members to ask for help.
+-Provide support and encourage team members to ask for help.
 
 ---
 
 ## **5-Cultural Sensitivity:**
 
--Be aware of cultural practices, those that influence work habits, holidays, and communication styles.
+-Be aware of cultural practices, those that influence work habits and communication.
 
 -Accommodate differences whenever possible to create an inclusive working environment.
 

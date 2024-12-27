@@ -51,19 +51,21 @@ Some boundaries around our project are here now live.
   - only using the colors black and white
 -->
 
-**1. Language and Frameworks:** Use Python (minimum version 3.10.0).
+**1. Language and Frameworks:**
+
+- Use Python (minimum version 3.10.0).
   
   **(a). Naming Conventions:**
   
-  File names must be in lowercase and use underscores (e.g., `good_fruit_names.py`).
+- File names must be in lowercase and use underscores (e.g., `good_fruit_names.py`).
   
-  Testing files must follow the naming pattern `test_<module_name>.py` (e.g., `test_good_fruit_names.py`).
+- Testing files must follow the naming pattern `test_<module_name>.py` (e.g., `test_good_fruit_names.py`).
   
   **(b). Collaboration Tools:**
 
-  Use GitHub Issues and Projects for task tracking.
+- Use GitHub Issues and Projects for task tracking.
 
-  Use Slack for communication.
+- Use Slack for communication.
 
 **2. Team Roles:**
 
@@ -77,14 +79,14 @@ Some boundaries around our project are here now live.
 
 **3. Scope of the Module:**
 
-  Input: A name (string).
+- Input: A name (string).
 
-  Output: Boolean value indicating if the name contains consecutive identical letters.
+- Output: Boolean value indicating if the name contains consecutive identical letters.
 
-  Edge cases: Handle special characters, empty strings, and numeric values gracefully.
+- Edge cases: Handle special characters, empty strings, and numeric values gracefully.
 
 **4. Documentation:**
 
-  Include a README file with clear instructions on usage.
+- Include a README file with clear instructions on usage.
 
-  Provide example input and output.
+- Provide example input and output.

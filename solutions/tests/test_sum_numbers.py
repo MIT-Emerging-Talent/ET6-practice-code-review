@@ -1,6 +1,6 @@
 """
-Team Number: 28  
-Team Name: MIT Alpha  
+Team Number: 28
+Team Name: MIT Alpha
 Author: Maab Mohamedkhair
 """
 
@@ -11,7 +11,7 @@ from ..sum_numbers import sum_numbers
 class TestSumNumbers(unittest.TestCase):
     """
     This class contains unit tests for the (sum_numbers) function.
-    The function takes a positive integer, counts down until it reaches one, 
+    The function takes a positive integer, counts down until it reaches one,
     and returns the sum of all numbers.
     """
 
@@ -57,5 +57,5 @@ class TestSumNumbers(unittest.TestCase):
             sum_numbers(1000)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

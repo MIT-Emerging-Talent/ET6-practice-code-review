@@ -12,28 +12,29 @@ Created on 2024-12-26
 Author: Awaab98
 """
 
+
 def matrix_2x2_inversion(matrix: list[list[float]]) -> list[list[float]]:
     """
     Calculates the inverse of a 2x2 matrix.
-    
+
     The function calculates the inverse of a 2x2 matrix. The input matrix
-    must be an invertible 2x2 matrix (i.e., the determinant is not zero). 
-    
+    must be an invertible 2x2 matrix (i.e., the determinant is not zero).
+
 
     Parameters:
-        matrix: list, a list of lists representing a 2x2 matrix in which 
+        matrix: list, a list of lists representing a 2x2 matrix in which
         every element is either int of float.
 
     Returns:
         list: a list of lists representing the inverse of the input matrix.
-        
+
     Raises:
         TypeError: if the input matrix is not a list of lists.
         TypeError: if one of the elements of the input matrix is not int or float.
         AssertionError: if the input matrix is not a 2x2 matrix.
         ValueError: if the determinant of input matrix is zero.
 
-        
+
     Examples:
     >>> matrix_2x2_inversion([[1, 2], [3, 4]])
     [[-2.0, 1.0], [1.5, -0.5]]
@@ -55,7 +56,6 @@ def matrix_2x2_inversion(matrix: list[list[float]]) -> list[list[float]]:
     if len(matrix) != 2 or not all(len(row) == 2 for row in matrix):
         raise AssertionError("Input matrix must be a 2x2 matrix.")
 
-
     # Calculate the determinant
     determinant = matrix[0][0] * matrix[1][1] - matrix[0][1] * matrix[1][0]
 
@@ -66,7 +66,7 @@ def matrix_2x2_inversion(matrix: list[list[float]]) -> list[list[float]]:
     # Calculate the inverse using the 2x2 matrix formula
     inverse = [
         [matrix[1][1] / determinant, -matrix[0][1] / determinant],
-        [-matrix[1][0] / determinant, matrix[0][0] / determinant]
+        [-matrix[1][0] / determinant, matrix[0][0] / determinant],
     ]
 
     return inverse

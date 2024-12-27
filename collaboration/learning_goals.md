@@ -1,6 +1,4 @@
-# File edited after making new branch
-
-# Learning Goals
+# Group 18 Learning Goals
 
 ![Collaboration Image](../assets/goals.jpg)
 

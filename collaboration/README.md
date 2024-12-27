@@ -12,7 +12,7 @@ growth.
 
    <!-- group norms list -->
 
-## 📋 Group Norms for Collaboration
+## 📋 Group Norms for Collaboration:
 
  **💌 Foster a Safe and Inclusive Environment**  
    Create a supportive space where everyone feels comfortable  
@@ -39,14 +39,12 @@ growth.
    Use a shared calender to accommodate schedules and streamline  
    communication.  
 
- **📢 Ensure Transparent Communication**  
-   Use appropriate channels for updates, discussions, and  
-   decisions.
+ **📢 Ensure Transparent Communication**   
 * Discussions and Progress Tracking: 
 
-  GitHub Issues, Pull Requests, and the project board.
+  GitHub Issues, Pull Requests, project board.
 
-* Quick Updates : Slack.
+* Quick Updates: Slack.
 
 * Planning and Documentation: Shared Google Docs.
 

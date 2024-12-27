@@ -27,3 +27,6 @@ class TestNameShuffler(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+# run test: python3 -m unittest solutions.tests.test_name_shuffler

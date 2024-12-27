@@ -23,11 +23,13 @@ Examples:
 """
 
 def name_shuffler(string: str):
-
+    
     assert isinstance(string, str) and string.strip(), "Input must be a non-empty string"
     
     split_str = string.split(' ')
+    
     reverse_str = split_str[::-1]
+    
     return ' '.join(reverse_str)
 
 name_shuffler('Mojtaba')

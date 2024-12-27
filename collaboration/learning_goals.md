@@ -7,7 +7,8 @@
 As a team, we aim to achieve the following:
 
 1. **Master Collaborative Tools:**
-   - Become proficient in using GitHub for version control, collaboration, and project management.
+   - Become proficient in using GitHub for version control, 
+   collaboration, and project management.
    - Ensure effective communication and documentation within the repository.
 
 2. **Build a Culture of Teamwork:**
@@ -30,7 +31,8 @@ As a team, we aim to achieve the following:
 
 ## Individual Learning Goals
 
-As part of the program, Every team member will focus on achieving the following personal goals:
+As part of the program, Every team member will focus on 
+achieving the following personal goals:
 
 1. **Enhance GitHub Proficiency:**
    - Understand and use Git commands to manage repositories effectively.

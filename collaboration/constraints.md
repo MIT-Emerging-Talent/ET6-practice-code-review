@@ -8,7 +8,7 @@
 
 ***Time Zones***: Group members are located in different parts of the world, making it challenging to find universally convenient meeting times.
 
-***Communication Tools**: Limitations of WhatsApp and Slack for certain tasks like file sharing or code reviews.
+***Communication Tools***: Limitations of WhatsApp and Slack for certain tasks like file sharing or code reviews.
 
 ***Solution for external constraints***
 
@@ -16,7 +16,7 @@ We will make a sustainable and inclusive schedule for meeting times to accommoda
 We will leverage GitHub for version control and document centralization while keeping Slack and WhatsApp for quick updates.
 We will set a protocol, meeting notes or summary and recordings for effective communication for those unable to attend synchronous meetings.
 
-## . Internal Constraints: Involuntary
+## 2. Internal Constraints: Involuntary
 
 ***Skill Gaps*** Not all group members may have the same proficiency in tools like GitHub or collaboration platforms.
 

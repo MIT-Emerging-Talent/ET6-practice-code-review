@@ -44,6 +44,3 @@ def count_vowels(text: str) -> int:
         if char.lower() in list_vowels:
             count += 1
     return count
-
-
-count_vowels("Hello")

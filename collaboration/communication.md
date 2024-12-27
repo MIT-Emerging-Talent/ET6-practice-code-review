@@ -23,7 +23,7 @@ how often will we get in touch on each channel, and what we will discuss there:
 - **Issues**: Adding availability to the schedule
 - **Pull Requests**: Reviewing each other's code and giving feedback
 - **Slack/Discord**: Email, Slack, and WhatsApp
-- **Video Calls**: Zoom and Google Meet 
+- **Video Calls**: Zoom and Google Meet
 
 ______________________________________________________________________
 
@@ -35,9 +35,11 @@ ______________________________________________________________________
 ------ | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
 **Madiha**| Monday &check;| Tuesday &check;| Wednesday &check;| Thursday &check;| Friday &check;| Saturday &check;| Sunday &check;|  |
 
+**Shahroz**| Monday &check;| Tuesday &check;| Wednesday &check;| Thursday &check;| Sunday &check;|  |
+
 ### How many hours everyone has per day
 
-- name: _5h_;
+- Shahroz: _4h_;
 - name: _6h_;
 - Madiha: _5h_;
 - name: _4h_;

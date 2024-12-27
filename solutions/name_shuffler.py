@@ -24,12 +24,10 @@ Examples:
 
 def name_shuffler(string: str):
 
-    assert isinstance(string, str), "Input should be a str"
+    assert isinstance(string, str) and string.strip(), "Input must be a non-empty string"
     
-    splitStr = string.split(' ')
-
-    reverseStr = splitStr[::-1]
-    return ' '.join(reverseStr)
-
+    split_str = string.split(' ')
+    reverse_str = split_str[::-1]
+    return ' '.join(reverse_str)
 
 name_shuffler('Mojtaba')

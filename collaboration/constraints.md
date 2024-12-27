@@ -34,7 +34,7 @@ Some boundaries around our project.
 
 | Member      | Internal involuntary issues  |
 | ----------- | ----------- |
-| Abdallah | Constraints |
+| Abdallah |  |
 | Member   | Constraints        |
 | Member   | Constraints        |
 | Member   | Constraints        |

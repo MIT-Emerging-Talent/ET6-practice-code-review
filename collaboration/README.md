@@ -21,3 +21,5 @@ to delivering quality work while maintaining understanding of different prioriti
 7. Maintain open communication about progress and challenges.
 8. Create a welcoming and supportive environment.
 9. Address conflicts directly and respectfully.
+10. Escalating unresolved conflicts or issues as a team to a mentor for guidance
+ when they cannot be solved directly.

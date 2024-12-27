@@ -22,8 +22,7 @@ class TestCountVowels(unittest.TestCase):
         """It should be zero empty string"""
         self.assertEqual(count_vowels(""), 0)
 
-
-    def text_zero_occurrence(self):
+    def test_zero_occurrence(self):
         """It should be zero vowel in a string"""
         self.assertEqual(count_vowels("0"), 0)
 
@@ -44,11 +43,12 @@ class TestCountVowels(unittest.TestCase):
         self.assertEqual(count_vowels("Hello, World!"), 3)
 
     def test_non_string_item(self):
-        """It should raise TypeError with a specific message 
+        """It should raise TypeError with a specific message
         when the input is not a string"""
         with self.assertRaises(AssertionError) as context:
             count_vowels(1)
         self.assertEqual(str(context.exception), "Input should be a string")
+
 
 if __name__ == "__main__":
     unittest.main()

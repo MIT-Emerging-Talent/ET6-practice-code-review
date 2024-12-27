@@ -39,15 +39,14 @@ growth.
    Use a shared calender to accommodate schedules and streamline  
    communication.  
 
- **📢 Ensure Transparent Communication**  
+**📢 Ensure Transparent Communication**  
+ Discussions and Progress Tracking: GitHub Issues, Pull Requests, project board.
 
-* Discussions and Progress Tracking: GitHub Issues, Pull Requests, project board.
+ Quick Updates: Slack.
 
-* Quick Updates: Slack.
+ Planning and Documentation: Shared Google Docs.
 
-* Planning and Documentation: Shared Google Docs.
-
-* Synchronous Meetings: Zoom for discussions or decision-making.
+ Synchronous Meetings: Zoom for discussions or decision-making.
   
  **🎉 Celebrate Contributions and Milestones**  
    Recognize and celebrate team achievements. Foster a positive  

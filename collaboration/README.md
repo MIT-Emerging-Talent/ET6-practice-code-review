@@ -2,8 +2,8 @@
 
 <!-- group norms summary -->
 
-Our group values respect, open communication, and mutual support. We commit to
- delivering quality work while maintaining understanding for different priorities
+Our group values respect, open communication, and mutual support. we are committed
+to delivering quality work while maintaining understanding of different priorities
  and schedules. Through constructive feedback and direct conflict resolution,
  we create a collaborative environment where everyone's perspectives are valued
  and success is celebrated together.

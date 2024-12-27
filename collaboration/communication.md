@@ -28,10 +28,10 @@ ______________________________________________________________________
 Our group will get in touch **twice a week** until the  
 deadline of the project which is (**Jan 10th**)  
 
-### Below are the primary communication channels and their purposes:
+### Below are the primary communication channels and their purposes
 
 - **Issues**: For bugs, task tracking and more [Evan link on issues](https://mitemergingtalent.slack.com/files/U03PC2VR746/F0862S5644E/creating-issues-from-repository.mp4)
-- **Pull Requests**: Code review and discussion 
+- **Pull Requests**: Code review and discussion
 [git and github for poets is a great video to learn PR](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
 - **Slack**: Daily communication, quick updates, screen shots, e.tc.
 - **Video Calls**: Yuri will set this up bi-Weekly check-ins, in-depth discussion
@@ -80,7 +80,7 @@ based on how long you've been stuck on the same problem:
 1. _30 -> 60 min_: Ask your group for help
 1. _60+ min_: Tag your coaches in Slack or GitHub
 
-## Additional notes 
+## Additional notes
 
 - All team abide by the **group norms** at all times
 - Please document everything so everyone can understand

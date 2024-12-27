@@ -18,7 +18,6 @@ repository and configure it for collaboration:
 
   project. (You can change this as much as you want.)
 
-
 - Under settings in your repository select:
   - _Issues_
   - _Projects_

@@ -1,8 +1,9 @@
+import unittest
+
 import sys
 print("sys.path:", sys.path)
 
-import unittest
-from solutions.name_shuffler import name_shuffler
+from ..name_shuffler import name_shuffler
 
 # Test Cases for the name_shuffler function
 class TestNameShuffler(unittest.TestCase):

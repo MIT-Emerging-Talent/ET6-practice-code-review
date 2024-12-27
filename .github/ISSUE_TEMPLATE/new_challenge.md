@@ -1,11 +1,9 @@
 ---
-name: new challenge
-about: 'A template issue for describing a new challenge on the project board. Place
-  this issue in the TODO column of your group''s project board. '
-title: ''
-labels: ''
-assignees: ''
-
+name: new challenge 
+about: > 
+  A template issue for describing a new challenge on the project board. 
+  Place this issue in the TODO column of your group's project board. 
+  
 ---
 
 <!--

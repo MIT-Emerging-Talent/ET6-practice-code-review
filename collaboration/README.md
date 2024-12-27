@@ -1,5 +1,4 @@
 # Collaboration
-<!-- group norms summary -->
 
 **Summary**: Norms were agreed upon and will be used to maintain effective teamwork.
 

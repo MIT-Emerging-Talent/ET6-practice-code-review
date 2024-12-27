@@ -2,7 +2,7 @@
 
 # Constraints
 
-Some boundaries around our project.
+Some boundaries around our project are here now live.
 
 ## External
 

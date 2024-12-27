@@ -15,16 +15,16 @@ Some boundaries around our project are here now live.
   - ...
 -->
 
-- **Deadline:** Ensure the project is completed and tested before 10th/Jan/2025.
+**1. Deadline:** Ensure the project is completed and tested before 10th/Jan/2025.
 
-  - **Code Review:** The code must pass at least 4 unit tests to be considered complete.
+**2. Code Review:** The code must pass at least 4 unit tests to be considered complete.
 
-- **Libraries:** Use only standard Python libraries and `pytest` for testing.
+**3. Libraries:** Use only standard Python libraries and `pytest` for testing.
 
-- **Version Control:** Use Git and GitHub for collaboration. Main branch
+**4. Version Control:** Use Git and GitHub for collaboration. Main branch
  protection enabled.
 
-- **Packaging:** Ensure the module is packaged for installation using `setup.py`.
+**5. Packaging:** Ensure the module is packaged for installation using `setup.py`.
 
 ## Internal: Involuntary
 
@@ -35,10 +35,10 @@ Some boundaries around our project are here now live.
   - Most members are inactive on slack
 -->
 
-- **Daily Time Commitment:** Each team member commits at least 2 hours per day
+**1. Daily Time Commitment:** Each team member commits at least 2 hours per day
  to work on his/her own project.
 
-- **Hardware:** All team members must use devices capable of running
+**2. Hardware:** All team members must use devices capable of running
  Python 3.10.0 or higher.
 
 ## Internal: Voluntary
@@ -51,40 +51,40 @@ Some boundaries around our project are here now live.
   - only using the colors black and white
 -->
 
-- **Language and Frameworks:** Use Python (minimum version 3.10.0).
+**1. Language and Frameworks:** Use Python (minimum version 3.10.0).
   
-- **Naming Conventions:**
+  **(a). Naming Conventions:**
   
-  - File names must be in lowercase and use underscores (e.g., `good_fruit_names.py`).
+  File names must be in lowercase and use underscores (e.g., `good_fruit_names.py`).
   
-  - Testing files must follow the naming pattern `test_<module_name>.py` (e.g., `test_good_fruit_names.py`).
+  Testing files must follow the naming pattern `test_<module_name>.py` (e.g., `test_good_fruit_names.py`).
   
-- **Collaboration Tools:**
+  **(b). Collaboration Tools:**
 
-  - Use GitHub Issues and Projects for task tracking.
+  Use GitHub Issues and Projects for task tracking.
 
-  - Use Slack for communication.
+  Use Slack for communication.
 
-- **Team Roles:**
+**2. Team Roles:**
 
-  - **Developer:** Writes the main logic for the module.
+  **(a). Developer:** Writes the main logic for the module.
 
-  - **Tester:** Develops unit tests and ensures code coverage.
+  **(b). Tester:** Develops unit tests and ensures code coverage.
 
-  - **Documenter:** Prepares project documentation, including a README.md file.
+  **(c). Documenter:** Prepares project documentation, including a README.md file.
 
-  - **Reviewer:** Reviews pull requests before merging to the main branch.
+  **(d). Reviewer:** Reviews pull requests before merging to the main branch.
 
-- **Scope of the Module:**
+**3. Scope of the Module:**
 
-  - Input: A name (string).
+  Input: A name (string).
 
-  - Output: Boolean value indicating if the name contains consecutive identical letters.
+  Output: Boolean value indicating if the name contains consecutive identical letters.
 
-  - Edge cases: Handle special characters, empty strings, and numeric values gracefully.
+  Edge cases: Handle special characters, empty strings, and numeric values gracefully.
 
-- **Documentation:**
+**4. Documentation:**
 
-  - Include a README file with clear instructions on usage.
+  Include a README file with clear instructions on usage.
 
-  - Provide example input and output.
+  Provide example input and output.

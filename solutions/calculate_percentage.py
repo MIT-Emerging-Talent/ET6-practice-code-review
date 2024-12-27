@@ -10,7 +10,7 @@ Created on 26.12.2024
 @author: Yevheniia Rudenko
 """
 
-def calculate_percentage(part: float, whole: float) -> float:
+def calculate_percentage(numerator: float, denominator: float) -> float:
     """Calculate what percentage the first number is of the second. This function calculates the percentage by dividing part by whole and then multiplying by 100.
     
     Parameters:

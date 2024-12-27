@@ -25,6 +25,7 @@ This document outlines our team's communication practices and expectations.
 | **Day**       | **How**          | **Topic of Discussion**|
 |---------------|------------------|---------------------------------------------------------|
 | zday    | Video Meeting| Demo of completed tasks and brainstorming next steps|
+=======
 
 ---
 

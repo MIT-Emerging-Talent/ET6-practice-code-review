@@ -35,7 +35,7 @@ Some boundaries around our project.
 | Member      | Internal involuntary issues  |
 | ----------- | ----------- |
 | Abdallah | Constraints |
-| Member   | Constraints        |
+| Huda   | New to GitHub        |
 | Member   | Constraints        |
 | Member   | Constraints        |
 | Member   | Constraints        |

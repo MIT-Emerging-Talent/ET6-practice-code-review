@@ -42,7 +42,9 @@ growth.
  **📢 Ensure Transparent Communication**  
    Use appropriate channels for updates, discussions, and  
    decisions.
-* Discussions and Progress Tracking: GitHub Issues, Pull Requests, and the project board.
+* Discussions and Progress Tracking: 
+
+  GitHub Issues, Pull Requests, and the project board.
 
 * Quick Updates : Slack.
 

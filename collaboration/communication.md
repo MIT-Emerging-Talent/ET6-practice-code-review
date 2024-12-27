@@ -47,17 +47,51 @@ ______________________________________________________________________
 
 ### Availability for calling/messaging
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
+#### Monday to Wednesday
+
+| Day        | Monday          | Tuesday         | Wednesday       |
+|------------|-----------------|-----------------|-----------------|
+| **Huda** | 10 AM - 12 PM (2h)  | 11 AM - 1 PM (2h) | 10 AM - 12 PM (2h) |
+| **Member 2** | 5h               | 6h               | 5h               |
+| **Member 3** | 5h               | 6h               | 5h               |
+| **Member 4** | 5h               | 6h               | 5h               |
+| **Member 5** | 5h               | 6h               | 5h               |
+| **Member 6** | 5h               | 6h               | 5h               |
+| **Member 7** | 5h               | 6h               | 5h               |
+
+#### Thursday to Saturday
+
+| Day        | Thursday        | Friday          | Saturday        |
+|------------|-----------------|-----------------|-----------------|
+| **Huda** | 10 AM - 12 PM (2h) | 11 AM - 1 PM (2h)| 10 AM - 12 PM (2h)|
+| **Member 2** | 4h               | 3h               | 5h               |
+| **Member 3** | 4h               | 3h               | 5h               |
+| **Member 4** | 4h               | 3h               | 5h               |
+| **Member 5** | 4h               | 3h               | 5h               |
+| **Member 6** | 4h               | 3h               | 5h               |
+| **Member 7** | 4h               | 3h               | 5h               |
+
+#### Sunday
+
+| Day        | Sunday          |
+|------------|-----------------|
+| **Huda** | 11 AM - 1 PM (2h) |
+| **Member 2** | 4h               |
+| **Member 3** | 4h               |
+| **Member 4** | 4h               |
+| **Member 5** | 4h               |
+| **Member 6** | 4h               |
+| **Member 7** | 4h               |
 
 ### How many hours everyone has per day
 
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- **Huda**: 2h
+- **Member 2**: 6h
+- **Member 3**: 5h
+- **Member 4**: 5h
+- **Member 5**: 5h
+- **Member 6**: 5h
+- **Member 7**: 5h
 
 ## Asking for Help
 

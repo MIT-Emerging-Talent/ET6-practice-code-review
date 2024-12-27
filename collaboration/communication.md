@@ -13,8 +13,15 @@ ______________________________________________________________________
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion | | --- | :-: | ----------------------- |
-| | | |
+| Day       | How              | The Topic of Discussion                       |
+|-----------|------------------|-----------------------------------------------|
+| Monday    | Slack/WhatsApp   | Project Progress Updates and Any Questions    |
+| Tuesday   | Slack/WhatsApp   | Project Progress Updates and Any Questions    |
+| Wednesday | Slack/WhatsApp   | Project Progress Updates and Any Questions    |
+| Thursday  | Slack/WhatsApp   | Project Progress Updates and Any Questions    |
+| Friday    | Google Meet      | Project Progress Updates and Any Questions    |
+| Saturday  | Slack/WhatsApp   | Project Progress Updates and Any Questions    |
+| Sunday    | Slack/WhatsApp   | Project Progress Updates and Any Questions    |
 
 ## Communication Channels
 

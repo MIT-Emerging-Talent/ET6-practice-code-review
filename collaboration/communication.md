@@ -29,10 +29,12 @@ This is the schedule for each week, and it will be updated weekly.
 
 All technical discussions will be conducted on Slack. General discussions will use WhatsApp.
 
+
 - **Issues**: Adding availability to the schedule  
 - **Pull Requests**: Reviewing each other's code and giving feedback  
 - **Slack/Discord**: Email, Slack, and WhatsApp  
 - **Video Calls**: Zoom and Google Meet  
+
 
 ---
 
@@ -121,11 +123,22 @@ All technical discussions will be conducted on Slack. General discussions will u
   - [Decision 1]  
   - [Decision 2]  
 
+
 - **Action Items:**  
   - [Action 1]  
   - [Action 2]  
 
 ---
+
+**Shahroz**| Monday &check;| Tuesday &check;| Wednesday &check;| Thursday &check;| Sunday &check;|  |
+
+### How many hours everyone has per day
+
+- Shahroz: _4h_;
+- name: _6h_;
+- Madiha: _5h_;
+- name: _4h_;
+- name: _3h_;
 
 ## Asking for Help
 

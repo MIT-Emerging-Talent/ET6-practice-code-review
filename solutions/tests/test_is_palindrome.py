@@ -1,36 +1,35 @@
 import unittest
-
 from solutions.is_palindrome import is_palindrome
 
 
 class TestIsPalindrome(unittest.TestCase):
     """Test the is_palindrome function"""
 
-    def TestEmptyString(self):
+    def test_empty_string(self):
         """It should return True for an empty string"""
         self.assertTrue(is_palindrome(""))
 
-    def TestSingleCharacter(self):
+    def test_single_character(self):
         """It should return True for a single character"""
         self.assertTrue(is_palindrome("a"))
 
-    def TestPalindrome(self):
+    def test_palindrome(self):
         """It should return True for a valid palindrome"""
         self.assertTrue(is_palindrome("racecar"))
 
-    def TestNonPalindrome(self):
+    def test_non_palindrome(self):
         """It should return False for a non-palindrome"""
         self.assertFalse(is_palindrome("hello"))
 
-    def TestPalindromeWithSpaces(self):
+    def test_palindrome_with_spaces(self):
         """It should ignore spaces and check for palindrome"""
         self.assertTrue(is_palindrome("A man a plan a canal Panama"))
 
-    def TestPalindromeWithMixedCase(self):
+    def test_palindrome_with_mixed_case(self):
         """It should ignore case and check for palindrome"""
         self.assertTrue(is_palindrome("RaceCar"))
 
-    def TestNotString(self):
+    def test_not_string(self):
         """It should raise AssertionError for non-string input"""
         with self.assertRaises(AssertionError):
             is_palindrome(123)

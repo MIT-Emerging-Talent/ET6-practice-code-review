@@ -45,17 +45,16 @@ The team did not specify which days they are available to reply on.
 However, the team is responsive on communication channels - whatsapp and slack.
 
 ### How many hours everyone has per day
-
-- name: _5h_;
-- Ahd :
+- Ahd : _2h_
 - Al-hassen: _2h_
 - Duha: _2h_
-- Ghyath:
+- Ghyath: _2h_
 - Hamza:
 - Hassan:
 - Maab:
 - Nada: _4h_
 - Salih: _4h_
+- Shaima: _2h_
 
 ## Asking for Help
 

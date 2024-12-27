@@ -8,19 +8,23 @@
 
 ### Master Collaborative Git Workflows 🚀  
 
-### Push Markdown Files and Solutions📂:
+### Push Markdown Files and Solutions📂
+
 - Learn how to organize and structure Markdown files effectively for documentation📝.
 - Practice pushing your work to the repository following best practices, such as clear commit messages and proper folder structures✅.
 
-### Manage Pull Requests🔀:
+### Manage Pull Requests🔀
+
 - Create pull requests to propose changes to the main repository📤.
 - Review and respond to feedback on your pull requests💬.
 
-### Resolve Merge Conflicts⚔️:
+### Resolve Merge Conflicts⚔️
+
 - Understand why merge conflicts occur and how to resolve them using Git tools🤔.
 - Learn techniques to minimize the likelihood of conflicts, such as pulling the latest changes before committing🔄.
 
-### Follow Team Agreements🤝:
+### Follow Team Agreements🤝
+
 - Adhere to guidelines, conventions and norms/rules set by the team, naming branches for example📋.
 - Collaborate effectively while respecting team decisions and workflows🌟.
 

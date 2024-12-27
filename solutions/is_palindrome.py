@@ -8,6 +8,7 @@ Created on 27 12 2024
 @author: muqaddas96
 """
 
+
 def is_palindrome(text: str) -> bool:
     """Check if a string is a palindrome.
 
@@ -27,9 +28,9 @@ def is_palindrome(text: str) -> bool:
     True
     """
     assert isinstance(text, str), "input must be a string"
-    
+
     # Remove spaces and convert to lowercase
     normalized_text = "".join(text.split()).lower()
-    
+
     # Check if it reads the same forward and backward
     return normalized_text == normalized_text[::-1]

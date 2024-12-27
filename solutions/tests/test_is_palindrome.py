@@ -2,6 +2,7 @@ import unittest
 
 from solutions.is_palindrome import is_palindrome
 
+
 class TestIsPalindrome(unittest.TestCase):
     """Test the is_palindrome function"""
 
@@ -33,6 +34,7 @@ class TestIsPalindrome(unittest.TestCase):
         """It should raise AssertionError for non-string input"""
         with self.assertRaises(AssertionError):
             is_palindrome(123)
+
 
 if __name__ == "__main__":
     unittest.main()

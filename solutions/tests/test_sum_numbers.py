@@ -30,7 +30,8 @@ class TestSumNumbers(unittest.TestCase):
 
     # Edge cases
     def test_large_number(self):
-        """This test checks the function's performance for a large number close to the recursion limit."""
+        """This test checks the function's performance for
+        a large number close to the recursion limit."""
         self.assertEqual(sum_numbers(900), 405450)
 
     # Defensive tests
@@ -50,7 +51,8 @@ class TestSumNumbers(unittest.TestCase):
             sum_numbers(1.4)
 
     def test_exceed_recursion_limit(self):
-        """This test checks if the function raises an AssertionError for numbers greater than or equal 1000."""
+        """This test checks if the function raises
+        an AssertionError for numbers greater than or equal 1000."""
         with self.assertRaises(AssertionError):
             sum_numbers(1000)
 

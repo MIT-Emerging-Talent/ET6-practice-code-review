@@ -71,9 +71,8 @@ class TestDecimalToBinary(unittest.TestCase):
         """it should raise an error if the input is less than 0"""
         with self.assertRaises(AssertionError):
             decimal_to_binary(-4)
-        
+
     def test_none_input(self):
         """It should raise AssertionError for None input"""
         with self.assertRaises(AssertionError):
             decimal_to_binary(None)
-    

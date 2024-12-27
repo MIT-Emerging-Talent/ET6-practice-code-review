@@ -1,6 +1,6 @@
 import unittest
 
-from ..is_palindrome import is_palindrome
+from solutions.is_palindrome import is_palindrome
 
 class TestIsPalindrome(unittest.TestCase):
     """Test the is_palindrome function"""

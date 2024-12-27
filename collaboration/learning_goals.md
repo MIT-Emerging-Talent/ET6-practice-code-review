@@ -20,3 +20,13 @@
 - Learn and implement learned practices in documentation and testing to ensure
   code reliability and readability.
 - Expand my knowledge of various python functions and commands.
+
+### **Huda**
+
+1. **Practice Documentation and Testing**
+   - Develop skills in writing clear and comprehensive documentation.
+   - Gain expertise in predictive stepping and Test-Driven Development (TDD).
+
+2. **Master Git and GitHub Essential Practices**
+   - Practice essential Git and GitHub workflows.
+   - Focus on collaborative workflows to enhance team productivity.

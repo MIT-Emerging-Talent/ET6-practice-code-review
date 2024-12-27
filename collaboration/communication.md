@@ -41,6 +41,7 @@ use WhatsApp.
 
 ### Availability for Calling/Messaging
 
+<!-- Ignored the max line length cause it it looks good in this way -->
 | Day        | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 |------------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------:|
 | **Madiha** |   ✓    |    ✓    |     ✓     |     ✓    |    ✓    |     ✓     |    ✓   |
@@ -116,7 +117,7 @@ use WhatsApp.
 - **Decisions Made:**  
   - [Decision 1]  
   - [Decision 2]  
-- **Action Items:**  
+ **Action Items:**  
   - [Action 1]  
   - [Action 2]  
 

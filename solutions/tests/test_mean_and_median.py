@@ -13,7 +13,7 @@ Created on Dec 27, 2024.
 
 """
 import unittest
-from solutions.mean_and_median import mean_and_median
+from .mean_and_median import mean_and_median
 
 class TestMeanAndMedian(unittest.TestCase):
   """Unit tests for the function `mean_and_median`."""

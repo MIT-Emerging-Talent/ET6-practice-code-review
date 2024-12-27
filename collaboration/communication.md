@@ -25,12 +25,21 @@ ______________________________________________________________________
 
 ## Communication Channels
 
-how often will we get in touch on each channel, and what we will discuss there:
+### How often will we get in touch on each channel, and what we will discuss there
 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+- **Issues**: Use GitHub issues for the following:
+  - **Help Wanted**: When you're blocked on certain lines of code and need assistance.
+  - **Meeting Agenda**: To plan and organize topics for meetings.
+  - **New Challenge**: For new tasks or challenges to be added to the TODO
+   column on the project board.
+  - **Question**: For any questions, whether technical or general, that you
+   want to discuss with the team.
+
+- **Pull Requests**: Discuss code changes and feedback.Ensure PRs are linked
+   and reviewed.
+- **Slack/WhatsApp**: For daily updates, quick questions, and general communication.
+- **Google Meet**: Weekly Friday meeting for project progress updates and to
+   address any questions or blockers.
 
 ______________________________________________________________________
 

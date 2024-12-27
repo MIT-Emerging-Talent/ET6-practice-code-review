@@ -53,7 +53,7 @@ Some boundaries around our project.
 | Member      | Internal voluntary issues  |
 | ----------- | ----------- |
 | Abdallah | Constraints |
-| Member   | Constraints        |
+| Huda   | The code difficulty        |
 | Member   | Constraints        |
 | Member   | Constraints        |
 | Member   | Constraints        |

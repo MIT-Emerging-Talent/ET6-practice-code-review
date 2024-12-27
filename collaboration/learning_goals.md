@@ -69,9 +69,12 @@ collective and individual learning goals for this project:
 
 ### Olumide Kolawole (<olumidekolawole26@gmail.com>)
 
-- Explore advanced programming features.
-- Practice reviewing and providing constructive feedback.
-- Learn to write more maintainable and reusable code.
+- Learn how to write proper documentation
+for python code
+- Practice how to utilize github
+and git for collaborative projects
+- Learn to write unit test.
+- Master giving appropriate code review
 
 ### Mykyta Kondratiev (<kondratiev.mikita@gmail.com>)
 

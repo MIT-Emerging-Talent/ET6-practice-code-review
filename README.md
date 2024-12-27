@@ -19,3 +19,11 @@ Group Values.
 Respect, communication, inclusivity and adaptability are central to effective teamwork.
 
 > **Code Vinci—where art meets code, and innovation becomes reality.** ✨  
+
+## **Code Vinci’s Group Norms**
+
+1. Trust and Communication  
+We are open, honest and responsive, regularly updating progress on Slack to foster trust and inclusivity. We are avoiding rushed judgments, we are mindful of different progress levels and uplift one another. 
+2. Conflict Resolution  
+We are discussing conflict calmly and respectfully, focusing on solutions, involving neutral members if needed and taking breaks to cool off during heated moments.
+

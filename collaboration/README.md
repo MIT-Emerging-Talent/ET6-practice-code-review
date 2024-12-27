@@ -15,7 +15,7 @@ Our group values respect, collaboration, and inclusivity by fostering a safe spa
 * Be respectful and considerate when providing feedback or suggestions.  
 * We must communicate respectfully to build trust.  
 * We will value each other's time by being prepared and punctual. (Waiting time for every meeting will be 5 minutes).  
-* Respecting everyone’s cultural/emotional background.   
+* Respecting everyone’s cultural/emotional background.
 * We will value each other’s diverse perspectives and create a safe, collaborative space.
 
 ### Standardization

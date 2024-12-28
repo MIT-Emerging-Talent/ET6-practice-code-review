@@ -36,7 +36,7 @@ Some boundaries around our project.
 | ----------- | ----------- |
 | Abdallah | Constraints |
 | Huda   | New to GitHub        |
-| Member   | New to GitHub        |
+| Mohammad    | New to GitHub        |
 | Member   | Constraints        |
 | Member   | Constraints        |
 | Member   | Constraints        |
@@ -54,7 +54,7 @@ Some boundaries around our project.
 | ----------- | ----------- |
 | Abdallah | Constraints |
 | Huda   | The code difficulty        |
-| Member   | The code difficulty        |
+| Mohammad   | The code difficulty        |
 | Member   | Constraints        |
 | Member   | Constraints        |
 | Member   | Constraints        |

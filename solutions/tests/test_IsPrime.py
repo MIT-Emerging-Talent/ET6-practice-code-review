@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on XX XX XX
+
+@author: Mohammed Elfadil
+"""
 import unittest
 
 from solutions.IsPrime import IsPrime

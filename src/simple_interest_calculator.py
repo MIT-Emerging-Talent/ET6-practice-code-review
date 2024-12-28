@@ -20,13 +20,22 @@ def main():
         rate = float(input("Enter the annual interest rate (in %): "))
         time = float(input("Enter the time (in years): "))
 
+        # Validate input to ensure positive values
+        if principal <= 0 or rate <= 0 or time <= 0:
+            print("All values must be positive. Please try again.")
+            return
+
         # Calculate simple interest
         interest = calculate_simple_interest(principal, rate, time)
 
-        # Display the result
-        print(f"The simple interest for a principal of {principal} at a rate of {rate}% for {time} years is: {interest}")
+        # Display the result (formatted to 2 decimal places)
+        print(
+            f"The simple interest for a principal of {principal} at a rate of {rate}% for {time} years is: {interest:.2f}"
+        )
     except ValueError:
-        print("Invalid input. Please enter numeric values for principal, rate, and time.")
+        print(
+            "Invalid input. Please enter numeric values for principal, rate, and time."
+        )
 
 
 if __name__ == "__main__":

@@ -40,9 +40,9 @@ def binary_to_decimal(binary : str) -> int:
     assert set(binary) <= {'0', '1'}, "Binary string contains invalid characters"
     # The strategy recursively converts a binary string to its decimal value
     # by processing each digit and reducing the string until empty
-    if len(binary) ==0:
+    if len(binary) == 0:
         # Base Case,  f(ϵ)=0
         return 0
     # Recursive Case, f(b1b2…bn) = b1 . 2^(n−1) + f(b2b3…b<n-1>)
-    #      /Return Step/                      /Recursive Case/   /Reduction Step/
-    return int(binary[0])*2**(len(binary)-1) +  binary_to_decimal(binary[1:])
+    #      /Return Step/                         /Recursive Case/ /Reduction Step/
+    return int(binary[0]) * 2 ** (len(binary) - 1) + binary_to_decimal(binary[1:])

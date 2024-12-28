@@ -57,6 +57,7 @@ Our goal is to create a family-like, friendly, and collaborative work environmen
 
 - Treat everyone with kindness and respect
 - Offer help proactively when someone is struggling with a task.
+- Recognize and appreciate the contributions and ideas shared by others.
 
 ---
 
@@ -64,5 +65,12 @@ Our goal is to create a family-like, friendly, and collaborative work environmen
 
 - Encourage collaboration by sharing knowledge, skills, and resources.
 - Focus on solutions, not blame, when challenges arise.
+- Take responsibility for your assignments and ensure commitments are met on time.
+
+---
+
+## **Positive Environment**
+
+- Express gratitude by regularly appreciating the contributions of your teammates.
 
 ---

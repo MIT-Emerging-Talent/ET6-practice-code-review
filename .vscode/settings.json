@@ -116,5 +116,8 @@
   "markdown.extension.toc.updateOnSave": false,
   "cSpell.words": [
     "Versity"
+  ],
+  "githubPullRequests.ignoredPullRequestBranches": [
+    "main"
   ]
 }

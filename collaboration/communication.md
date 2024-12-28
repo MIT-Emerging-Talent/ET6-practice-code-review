@@ -13,10 +13,10 @@ How often will we get in touch on each channel, and what we will discuss there:
 
 ### Availability for Calling/Messaging
 
-| Day          | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
-|--------------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------:|
-| **Madiha**  |   ✓    |    ✓    |     ✓     |    ✓     |    ✓   |    ✓     |    ✓   |
-| **Shahroz** |   ✓    |    ✓    |     ✓     |    ✓     |        |    ✓     |    ✓   |
+| Day    | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday|
+|--------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------|
+| **Madiha** |   ✓   |    ✓  |     ✓   |    ✓     |    ✓   |    ✓     |    ✓|
+| **Shahroz**|   ✓|    ✓    |     ✓    |    ✓     |        |    ✓     |    ✓ |
 
 ### How Many Hours Everyone Has Per Day
 
@@ -28,8 +28,10 @@ How often will we get in touch on each channel, and what we will discuss there:
 
 ## Asking for Help
 
-There's a fine line between confidently learning from your mistakes and stubbornly
-getting nowhere. Here is a general guide for when to ask for help based on how long
+There's a fine line between confidently learning from your mistakes
+and stubbornly
+getting nowhere. Here is a general guide for when to ask for help
+based on how long
 you've been stuck on the same problem:
 
 1. _0 → 30 min_: Try on your own.

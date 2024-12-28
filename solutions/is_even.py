@@ -5,7 +5,7 @@ Created on XX XX XX
 
 A module for checking to see if an integer is even.
 
-@author: Luyando Ennie Chitindi
+@author: Luyando .E. Chitindi
 """
 def is_even(number:int) -> bool:
     """

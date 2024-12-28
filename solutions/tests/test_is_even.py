@@ -3,7 +3,7 @@
 """
 Created on XX XX XX
 
-@Luyando .E. Chitindi
+@Luyando Ennie Chitindi
 """
 
 import unittest

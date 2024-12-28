@@ -19,7 +19,7 @@ Some boundaries around our project.
 | ----------- | ----------- |
 | Abdallah    | Internet connectivity, work  |
 | Huda  | Internet connectivity       |
-| Member   | Constraints        |
+| Mohammad   | Time management        |
 | Member   | Constraints        |
 | Member   | Constraints        |
 | Member   | Constraints        |
@@ -36,7 +36,7 @@ Some boundaries around our project.
 | ----------- | ----------- |
 | Abdallah | Constraints |
 | Huda   | New to GitHub        |
-| Member   | Constraints        |
+| Member   | New to GitHub        |
 | Member   | Constraints        |
 | Member   | Constraints        |
 | Member   | Constraints        |
@@ -54,7 +54,7 @@ Some boundaries around our project.
 | ----------- | ----------- |
 | Abdallah | Constraints |
 | Huda   | The code difficulty        |
-| Member   | Constraints        |
+| Member   | The code difficulty        |
 | Member   | Constraints        |
 | Member   | Constraints        |
 | Member   | Constraints        |

@@ -4,6 +4,9 @@ def main() -> None:
 
     This function prompts the user for a greeting and then determines and prints
     the value associated with that greeting using the `value` function.
+
+    Created on 28-12-2024
+    Author: @arvidon
     """
     greeting: str = input("Greetings: ")  # Get user input as a string
     print(value(greeting))  # Call the value function and print its result

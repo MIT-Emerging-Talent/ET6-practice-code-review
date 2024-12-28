@@ -24,3 +24,7 @@ class TestSumOfDigits(unittest.TestCase):
   def test_large_number(self):
     """Test the sum_of_digits function with a large number"""
     self.assertEqual(sum_of_digits(1234567890), 45)
+
+  def test_negative_number(self):
+    """Test the sum_of_digits function with a negative number"""
+    self.assertEqual(sum_of_digits(-123), -6)

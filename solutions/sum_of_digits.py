@@ -33,9 +33,12 @@ def sum_of_digits(number: int) -> int:
     >>> sum_of_digits(-123)
     -6
     """
-    sum = 0
+    digit_sum = 0
     
-    for digit in str(number):
-        sum += int(digit)
-    
-    return sum
+    for digit in str(abs(number)):
+        digit_sum += int(digit)
+
+    if number < 0:
+        digit_sum *= -1
+        
+    return digit_sum

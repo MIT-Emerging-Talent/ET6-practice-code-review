@@ -3,21 +3,18 @@
 ## 🚧 **Clear Boundaries for Efficiency**
 
 To ensure efficiency and balanced contributions, the project
- should have **clear boundaries**.  
+ should have **clear boundaries**.
 
 - Roles and responsibilities should be **well-defined** to prevent
- overlapping efforts.  
+ overlapping efforts.
 - Expectations should be set for **balanced contributions**, considering
- each member’s **constraints**.  
+ each member’s **constraints**.
 - A **culture of constructive feedback** and solution-focused discussions should
- be established.  
-- A **clear process** for resolving conflicts is essential.  
+  be established.
+- A **clear process** for resolving conflicts is essential.
 
 These boundaries aim to create a **productive** and
- **supportive environment** for the team.  
-🌱
-
----
+ **supportive environment** for the team.
 
 ## 🌍 **External Constraints**
 
@@ -29,7 +26,7 @@ The team faces several **external constraints** impacting collaboration:
 - **👨‍👩‍👧‍👦 Family & Work**: Some members are constrained by family
  and work responsibilities.
 - **📚 Academic Commitments**: Others face time limitations due
- to university final exams.  
+ to university final exams.
 
 ---
 
@@ -42,10 +39,9 @@ with Git and GitHub.
 - **🛠️ Technical Expertise**: Limited technical expertise, combined with
  new skills required, is a challenge to the team members.  
 - **⏳ Time Availability**: Balancing professional commitments and personal
- responsibilities limits availability.  
+ responsibilities limits availability.
 
 These factors create hurdles in both **skill development** and **team collaboration**.
-💡
 
 ---
 
@@ -62,5 +58,4 @@ Members commit to the following **voluntary constraints** to ensure steady progr
  GitHub issues and pull requests.  
 
 These guidelines aim to foster effective teamwork, **skill development**,
- and steady project progress.  
-🌟
+ and steady project progress.🌟

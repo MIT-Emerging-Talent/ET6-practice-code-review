@@ -1,6 +1,20 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+A module for #Please write something here
+
+Module contents:
+    - only_ints: #Please write something here
+
+Created on XX XX XX
+@author: Mohammad
+"""
+
+
 def only_ints(param1, param2):
     """
-    Using this function, you will be able to take two parameters, and it will return True if both parameters are integers, and otherwise it is false
+    Using this function, you will be able to take two parameters, and it will return True
+    if both parameters are integers, and otherwise it is false
 
     Parameters:
     param1 (int): The first parameter to check, expected to be an integer.

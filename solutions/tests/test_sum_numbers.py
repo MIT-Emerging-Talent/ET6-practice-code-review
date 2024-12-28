@@ -1,6 +1,6 @@
 """
-Team Number: 28  
-Team Name: MIT Alpha  
+Team Number: 28
+Team Name: MIT Alpha
 Author: Maab Mohamedkhair
 """
 
@@ -11,7 +11,7 @@ from ..sum_numbers import sum_numbers
 class TestSumNumbers(unittest.TestCase):
     """
     This class contains unit tests for the (sum_numbers) function.
-    The function takes a positive integer, counts down until it reaches one, 
+    The function takes a positive integer, counts down until it reaches one,
     and returns the sum of all numbers.
     """
 
@@ -30,7 +30,8 @@ class TestSumNumbers(unittest.TestCase):
 
     # Edge cases
     def test_large_number(self):
-        """This test checks the function's performance for a large number close to the recursion limit."""
+        """This test checks the function's performance for
+        a large number close to the recursion limit."""
         self.assertEqual(sum_numbers(900), 405450)
 
     # Defensive tests
@@ -50,10 +51,11 @@ class TestSumNumbers(unittest.TestCase):
             sum_numbers(1.4)
 
     def test_exceed_recursion_limit(self):
-        """This test checks if the function raises an AssertionError for numbers greater than or equal 1000."""
+        """This test checks if the function raises
+        an AssertionError for numbers greater than or equal 1000."""
         with self.assertRaises(AssertionError):
             sum_numbers(1000)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

@@ -61,7 +61,8 @@ class TestDecimalToBinary(unittest.TestCase):
     def test_a_big_number(self):
         """It should evaluate 7429742 to"""
         self.assertEqual(decimal_to_binary(1023), "1111111111")
-    #test defensive assertions
+
+    # test defensive assertions
     def test_defensive_check_repetitions_is_not_int(self):
         """it should raise an error if the input is not an integer"""
         with self.assertRaises(AssertionError):
@@ -71,9 +72,8 @@ class TestDecimalToBinary(unittest.TestCase):
         """it should raise an error if the input is less than 0"""
         with self.assertRaises(AssertionError):
             decimal_to_binary(-4)
-        
+
     def test_none_input(self):
         """It should raise AssertionError for None input"""
         with self.assertRaises(AssertionError):
             decimal_to_binary(None)
-    

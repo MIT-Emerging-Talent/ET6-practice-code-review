@@ -1,6 +1,6 @@
 """
-Team Number: 28  
-Team Name: MIT Alpha  
+Team Number: 28
+Team Name: MIT Alpha
 Author: Maab Mohamedkhair
 """
 
@@ -35,11 +35,11 @@ class TestIsPrime(unittest.TestCase):
     # Edge cases
     def test_number_two(self):
         """This test checks if the function considers two as a prime number."""
-        self.assertEqual(find_prime(2), True) # 2 is the only even prime
+        self.assertEqual(find_prime(2), True)  # 2 is the only even prime
 
     def test_number_one(self):
         """This test checks the function behavior with the smallest value."""
-        self.assertEqual(find_prime(1), False) # 1 is the common factor for all numbers
+        self.assertEqual(find_prime(1), False)  # 1 is the common factor for all numbers
 
     # Defensive tests
     def test_float_numbers(self):

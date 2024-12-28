@@ -6,7 +6,7 @@ Module contents:
     - value: Determines the value of the greeting based on certain conditions.
 
 Created on 28-12-2024
-@author: @arvidon
+author: @arvidon
 """
 
 def main() -> None:

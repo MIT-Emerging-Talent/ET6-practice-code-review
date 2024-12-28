@@ -1,22 +1,3 @@
-<!--
-    This template is for inspiration; feel free to change it however you like!
-
-    Careful! Be sure to protect your privacy when filling out this document.
-    Everything you write here will be public, so share only what you are comfortable
-    sharing online. You can share the rest in confidence with your group via another
-    channel.
--->
-
-# Communication
-
----
-
-## Communication Schedule
-
-| Day  | How   | The Topic of Discussion |
-|------|-------|--------------------------|
-|      |       |                          |
-
 ## Communication Channels
 
 How often will we get in touch on each channel, and what we will discuss there:

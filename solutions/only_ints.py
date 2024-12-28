@@ -25,6 +25,6 @@ def only_ints(param1, param2):
     TypeError: If any of the parameters is not an integer.
     """
     if not isinstance(param1, int) or not isinstance(param2, int):
-        return False  # If either parameter isn't an integer, return False
+        return False # If either parameter isn't an integer, return False
 
     return True  # If both parameters are integers, return True

@@ -12,8 +12,6 @@ import unittest
 
 # Import the function to be tested
 from ..only_ints import only_ints
-
-
 class TestOnlyInts(unittest.TestCase):
     """
     Tests for the only_ints function, ensuring it works correctly

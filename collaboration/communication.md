@@ -1,4 +1,4 @@
-## Communication Channels
+# Communication Channels
 
 How often will we get in touch on each channel, and what we will discuss there:
 

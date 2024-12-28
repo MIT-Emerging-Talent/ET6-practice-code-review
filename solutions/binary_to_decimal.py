@@ -10,7 +10,8 @@ Created on Dec 28, 2024.
 @author: AL-HASSEN SABEEH
 """
 
-def binary_to_decimal(binary : str) -> int:
+
+def binary_to_decimal(binary: str) -> int:
     """
     Converts a binary string to its decimal representation.
 
@@ -37,7 +38,7 @@ def binary_to_decimal(binary : str) -> int:
     """
     # The binary input should be a string containing only '0' or '1' characters
     assert isinstance(binary, str), "Binary is not a string"
-    assert set(binary) <= {'0', '1'}, "Binary string contains invalid characters"
+    assert set(binary) <= {"0", "1"}, "Binary string contains invalid characters"
     # The strategy recursively converts a binary string to its decimal value
     # by processing each digit and reducing the string until empty
     if len(binary) == 0:

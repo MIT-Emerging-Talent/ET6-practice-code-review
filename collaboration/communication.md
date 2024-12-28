@@ -33,9 +33,11 @@ ______________________________________________________________________
 
 | Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
 ------ | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-**Madiha**| Monday &check;| Tuesday &check;| Wednesday &check;| Thursday &check;| Friday &check;| Saturday &check;| Sunday &check;|  |
+**Madiha**| Monday &check;| Tuesday &check;| Wednesday &check;| Thursday &check;
+| Friday &check;| Saturday &check;| Sunday &check;|  |
 
-**Shahroz**| Monday &check;| Tuesday &check;| Wednesday &check;| Thursday &check;| Sunday &check;|  |
+**Shahroz**| Monday &check;| Tuesday &check;| Wednesday &check;| Thursday &check;|
+Sunday &check;|  |
 
 ### How many hours everyone has per day
 

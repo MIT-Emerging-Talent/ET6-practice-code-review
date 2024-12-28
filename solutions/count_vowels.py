@@ -14,7 +14,7 @@ Return the total count of vowels as an integer.
 '''
 
 def count_vowels(text: str) -> int:
-    """Count the number of vowels (A,E,I,O,U,a,e,i,o,u) in a string.
+    """Count the number of vowels (a,e,i,o,u) in a string.
     
     Parameters:
         text: str, the input string to check
@@ -24,25 +24,29 @@ def count_vowels(text: str) -> int:
     Raises:
         AssertionError: if the argument is not a string
     
-    >>> count_vowels("FATIMA")
-    3
-    >>> count_vowels("Helloworld")
-    3
-    >>> count_vowels("Madiha")
-    3
+    >>> count_vowels("hello")
+    2
+    >>> count_vowels("APPLE")
+    2
+    >>> count_vowels("why")
+    0
     """
-  assert isinstance(text, str), "input must be a string"
-  vowels = "aeiouAEIOU"
-  count = 0
-  for letter in text:
-    if letter in vowels:
-      count += 1
-  return count
+    assert isinstance(text, str), "input must be a string"
+    vowels = "aeiouAEIOU"
+    count = 0
+    for letter in text:
+        if letter in vowels:
+            count += 1
+    return count
 
 
-
+#call the function
 # print(count_vowels("hello"))
-
+# print(count_vowels("fly"))
+# print(count_vowels("AEIOU"))
+# print(count_vowels(""))
+# print(count_vowels("high"))
+# print(count_vowels("hellO World"))
 
   # if vowels== "":
   #   return 0

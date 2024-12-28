@@ -33,6 +33,8 @@ def sum_of_digits(number: int) -> int:
     >>> sum_of_digits(-123)
     -6
     """
+    assert isinstance(number, int), "The input number must be an integer"
+    
     digit_sum = 0
     
     for digit in str(abs(number)):

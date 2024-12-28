@@ -3,7 +3,7 @@
 """
 Created on XX XX XX
 
-A module for checking if an integer is even.
+A module for checking to see if an integer is even.
 
 @author: Luyando Ennie Chitindi
 """

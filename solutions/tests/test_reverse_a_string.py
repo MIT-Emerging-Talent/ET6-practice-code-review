@@ -8,15 +8,14 @@ Test categories:
     - Standard cases: typical strings (basic reversal functionality)
     - Edge cases: empty strings, palindromes, large strings
     - Defensive tests: invalid inputs (non-string types)
-
 """
-import unittest
 
+import unittest
 from ..reverse_a_string import reverse_a_string
 
-
-
 class TestReverseAString(unittest.TestCase):
+    """Tests for the reverse_a_string function."""
+
     def test_empty_string(self):
         """Test reversing an empty string."""
         self.assertEqual(reverse_a_string(""), "")
@@ -31,7 +30,7 @@ class TestReverseAString(unittest.TestCase):
 
     def test_palindrome(self):
         """Test reversing a palindrome."""
-        #Edge case: Palindrome should equal itself when reversed.
+        # Edge case: Palindrome should equal itself when reversed.
         self.assertEqual(reverse_a_string("repaper"), "repaper")
 
     def test_numbers_and_special_characters(self):
@@ -54,7 +53,7 @@ class TestReverseAString(unittest.TestCase):
 
     def test_only_whitespace(self):
         """Test reversing a string that contains only whitespace."""
-        #Edge case: Verifies handling of strings with only spaces.
+        # Edge case: Verifies handling of strings with only spaces.
         self.assertEqual(reverse_a_string("    "), "    ")
 
     def test_non_string_input(self):

@@ -4,7 +4,7 @@
 Test module for binary_to_decimal function.
 Includes deliberately faulty tests for debugging practice.
 
-Test categories: 
+Test categories:
     - Edge Cases: '0', '1' and a large string.
     - Standard Cases: A collection of different binary strings.
     - Defensive Tests: wrong input types, assertions.
@@ -20,7 +20,7 @@ from ..binary_to_decimal import binary_to_decimal
 class TestBinaryToDecimal(unittest.TestCase):
     """Test the binary_to_decimal function"""
 
-    #Test Edge Cases
+    # Test Edge Cases
     def test_binary_0(self):
         """It should evaluate '0' to 0"""
         self.assertEqual(binary_to_decimal('0'), 0)

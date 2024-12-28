@@ -6,7 +6,7 @@ A module for converting a binary string to a decimal number.
 Module contents:
     - binary_to_decimal: generates the decimal representation of a binary string.
 
-Created on Dec 28, 2024. 
+Created on Dec 28, 2024.
 @author: AL-HASSEN SABEEH
 """
 
@@ -30,7 +30,7 @@ def binary_to_decimal(binary : str) -> int:
 
     >>> binary_to_decimal('111')
     7
-    
+
     >>> binary_to_decimal('1010101010101010101010')
     2796202
     """

@@ -33,7 +33,7 @@ def is_leap(year) -> bool:
 
     >>> is_leap(2004)
     True
-    """  
+    """
     assert isinstance(year, int), "entered year is not an integer"
     assert year >= 0, "year is less than 0"
 

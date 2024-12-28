@@ -1,10 +1,12 @@
 # Git it Done  
 
 ## Overview  
+
 Welcome to the **Git it Done** repository!  
 
 This is a collaborative learning project where our team works together to solve
 problems and learn new skills. Each teammate will:  
+
 - Solve 2 problems.  
 - Help resolve 2 problems contributed by others.  
 

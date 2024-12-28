@@ -8,8 +8,6 @@ to delivering quality work while maintaining understanding of different prioriti
  we create a collaborative environment where everyone's perspectives are valued
  and success is celebrated together.
 
- This is for demo
-
 <!-- group norms list -->
 
 ## Detailed List of Norms

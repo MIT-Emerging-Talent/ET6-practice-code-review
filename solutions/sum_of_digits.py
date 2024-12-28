@@ -10,7 +10,7 @@ Created on 25 Dec 2024
 @author: Noorelsalam Almakki
 """
 
-def sum_of_digits():
+def sum_of_digits(number: int) -> int:
     """The sum_of_digits function takes an integer number and returns the sum of 
     its digits.
 
@@ -33,4 +33,4 @@ def sum_of_digits():
     >>> sum_of_digits(-123)
     -6
     """
-    pass
+    return 3

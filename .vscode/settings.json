@@ -114,9 +114,6 @@
 
   // Enable/disable update table of contents on save
   "markdown.extension.toc.updateOnSave": false,
-<<<<<<< HEAD
-  "workbench.editor.enablePreviewFromCodeNavigation": false
-=======
 
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
@@ -126,5 +123,4 @@
       "source.organizeImports.ruff": true
     }
   }
->>>>>>> 8e42c8768ebeadede5391f31dc632e3693f995f2
 }

@@ -29,7 +29,7 @@ class TestBinaryToDecimal(unittest.TestCase):
         """It should evaluate '1' to 1"""
         self.assertEqual(binary_to_decimal('1'), 1)
 
-    #Test Standard Cases
+    # Test Standard Cases
     def test_binary_10(self):
         """It should evaluate '10' to 2"""
         self.assertEqual(binary_to_decimal('10'), 2)
@@ -50,7 +50,7 @@ class TestBinaryToDecimal(unittest.TestCase):
         """It should evaluate '1010101010101010101010' to 1023"""
         self.assertEqual(binary_to_decimal('1010101010101010101010'), 2796202)
 
-    #Test Defensive Assertions
+    # Test Defensive Assertions
     def test_defensive_check_binary_is_not_string(self):
         """it should raise an error if the input is not string"""
         with self.assertRaises(AssertionError):

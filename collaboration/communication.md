@@ -49,45 +49,45 @@ ______________________________________________________________________
 
 #### Monday to Wednesday
 
-| Day        | Monday          | Tuesday         | Wednesday       |
-|------------|-----------------|-----------------|-----------------|
-| **Huda** | 10 AM - 12 PM (2h)  | 11 AM - 1 PM (2h) | 10 AM - 12 PM (2h) |
-| **Abdallah** | 6 PM - 8 PM (2h) | 6 PM - 8 PM (2h) | 6 PM - 8 PM (2h) |
-| **Kimya** | 10 AM - 12 PM (2h) | 11 AM - 1 PM (2h)| 10 AM - 12 PM (2h)      |
-| **Member 4** | 5h               | 6h               | 5h               |
-| **Member 5** | 5h               | 6h               | 5h               |
-| **Member 6** | 5h               | 6h               | 5h               |
-| **Member 7** | 5h               | 6h               | 5h               |
+| Day          | Monday            | Tuesday           | Wednesday         |
+|--------------|-------------------|-------------------|-------------------|
+| **Huda**     | 10 AM - 12 PM (2h)| 11 AM - 1 PM (2h) | 10 AM - 12 PM (2h)|
+| **Abdallah** | 6 PM - 8 PM (2h)  | 6 PM - 8 PM (2h)  | 6 PM - 8 PM (2h)  |
+| **Kimya**    | 10 AM - 12 PM (2h)| 11 AM - 1 PM (2h) | 10 AM - 12 PM (2h)|
+| **Mohammad** | 2 PM - 4 PM (2h)  | 2 PM - 4 PM (2h)  | 7 PM - 10 PM (2h) |
+| **Member 5** | 5h                | 6h                | 5h                |
+| **Member 6** | 5h                | 6h                | 5h                |
+| **Member 7** | 5h                | 6h                | 5h                |
 
 #### Thursday to Saturday
 
-| Day        | Thursday        | Friday          | Saturday        |
-|------------|-----------------|-----------------|-----------------|
-| **Huda** | 10 AM - 12 PM (2h) | 11 AM - 1 PM (2h)| 10 AM - 12 PM (2h)|
-| **Abdallah** | 6 PM - 8 PM (2h)  | 6 PM - 8 PM (2h) | 10 AM - 17:00 PM (7h) |
-| **Member 3** | 4h               | 3h               | 5h               |
-| **Member 4** | 4h               | 3h               | 5h               |
-| **Member 5** | 4h               | 3h               | 5h               |
-| **Member 6** | 4h               | 3h               | 5h               |
-| **Member 7** | 4h               | 3h               | 5h               |
+| Day          | Thursday          | Friday            | Saturday          |
+|--------------|-------------------|-------------------|-------------------|
+| **Huda**     | 10 AM - 12 PM (2h)| 11 AM - 1 PM (2h) | 10 AM - 12 PM (2h)|
+| **Abdallah** | 6 PM - 8 PM (2h)  | 6 PM - 8 PM (2h)  | 10 AM - 17 PM (7h)|
+| **Mohammad** | 10 AM - 12 PM (2h)| 9 AM - 11 PM (2h) | 12 PM - 2 PM (2h) |                                       
+| **Member 4** | 4h                | 3h                | 5h                |
+| **Member 5** | 4h                | 3h                | 5h                |
+| **Member 6** | 4h                | 3h                | 5h                |
+| **Member 7** | 4h                | 3h                | 5h                |
 
 #### Sunday
 
-| Day        | Sunday          |
-|------------|-----------------|
-| **Huda** | 11 AM - 1 PM (2h) |
-| **Abdallah** | 10 AM - 17:00 PM (7h)               |
-| **Member 3** | 4h               |
-| **Member 4** | 4h               |
-| **Member 5** | 4h               |
-| **Member 6** | 4h               |
-| **Member 7** | 4h               |
+| Day          | Sunday              |
+|--------------|---------------------|
+| **Huda**     | 11 AM - 1 PM (2h)   |
+| **Abdallah** | 10 AM - 17 PM (7h)  |
+| **Mohammad** | 2 PM - 4 PM (2h)    |             
+| **Member 4** | 4h                  |
+| **Member 5** | 4h                  |
+| **Member 6** | 4h                  | 
+| **Member 7** | 4h                  |
 
 ### How many hours everyone has per day
 
 - **Huda**: 2h
 - **Abdallah**: 2-3 hrs
-- **Member 3**: 5h
+- **Mohammad**: 2h
 - **Member 4**: 5h
 - **Member 5**: 5h
 - **Member 6**: 5h

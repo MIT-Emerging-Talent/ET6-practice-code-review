@@ -1,5 +1,6 @@
 # Collaboration
 
+demo
 <!-- group norms summary -->
 Our goal is to create a family-like, friendly, and collaborative work environment.
 We value open and honest communication without fear of judgment and ensure everyone

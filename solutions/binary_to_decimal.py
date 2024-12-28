@@ -19,8 +19,8 @@ def binary_to_decimal(binary : str) -> int:
     Returns -> int, represent the decimal value of a binary string
 
     Raises:
-        AssertionError: if the argument is not an string
-        AssertionError: if it contain characters other than 'o' or '1'
+        AssertionError: if the argument is not a string
+        AssertionError: if it contains characters other than '0' or '1'
 
     >>> binary_to_decimal('100')
     4
@@ -33,11 +33,10 @@ def binary_to_decimal(binary : str) -> int:
     
     >>> binary_to_decimal('1010101010101010101010')
     2796202
-    
     """
     # The binary input should be a string containing only '0' or '1' characters
-    assert isinstance(binary, str), "Binary is not an string"
-    assert set(binary) <= {'0', '1'}, "AssertionError: String contains invalid characters"
+    assert isinstance(binary, str), "Binary is not a string"
+    assert set(binary) <= {'0', '1'}, "Binary string contains invalid characters"
     # The strategy recursively converts a binary string to its decimal value
     # by processing each digit and reducing the string until empty
     if len(binary) ==0:

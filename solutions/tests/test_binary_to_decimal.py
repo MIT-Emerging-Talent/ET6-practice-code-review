@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Test module for binary_to_decimal function. 
-Includes deliberately faulty tests for debugging practice. 
+Test module for binary_to_decimal function.
+Includes deliberately faulty tests for debugging practice.
 
 Test categories: 
     - Edge Cases: '0', '1' and a large string.
     - Standard Cases: A collection of different binary strings.
-    - Defensive Tests: wrong input types, assertions. 
+    - Defensive Tests: wrong input types, assertions.
 
 Created on Dec 28, 2024.
 

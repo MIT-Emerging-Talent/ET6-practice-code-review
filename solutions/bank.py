@@ -5,11 +5,9 @@ Module contents:
     - main: Gets user input and prints the value based on the greeting.
     - value: Determines the value of the greeting based on certain conditions.
 
-Created on 28-12-2024
-author: @arvidon
 """
 
-def main() -> None:
+def main() :
     """
     Main function to get user input and print the value based on the greeting.
 

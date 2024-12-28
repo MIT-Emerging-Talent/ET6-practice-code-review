@@ -5,9 +5,9 @@ Test module for is_leap function.
 Contains intentionally buggy tests for debugging practice.
 
 Test categories:
-    - Standard cases: typical lists with different lengths
-    - Edge cases: empty lists, single elements
-    - Defensive tests: wrong input types, assertions
+    - Standard cases: Common leap and non-leap years
+    - Edge cases: Smallest leap year, non-leap years close to leap years
+    - Defensive tests: Handling of invalid inputs (e.g., non-integer, negative values)
 
 Created on XX XX XX
 
@@ -15,6 +15,7 @@ Created on XX XX XX
 """
 
 import unittest
+
 from ..is_leap_year import is_leap
 
 

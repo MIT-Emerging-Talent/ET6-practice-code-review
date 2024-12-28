@@ -14,7 +14,7 @@ ______________________________________________________________________
 ## Communication Schedule
 
 | Day | How | The topic of discussion | | --- | :-: | ----------------------- |
-| | | |
+| Monday|Zoom Call |Communication file |
 
 ## Communication Channels
 

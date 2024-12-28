@@ -63,7 +63,7 @@ ______________________________________________________________________
 | Alemayehu   | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
 | Dmytro      | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
 | Henry       | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
-| Khadija     | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
+| Khadija     | 12-6PM | 12-6PM  | 12-6PM    | 12-6PM   | 12-6PM | 12-5PM   | 12-5PM |
 | Manezhah    | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
 | Mithchell   | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
 | Mykyta      | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
@@ -76,7 +76,7 @@ ______________________________________________________________________
 - Alemayehu: _4h_;
 - Dmytro: _3h_;
 - Henry: _3h_;
-- Khadija: _3h_;
+- Khadija: _5h_;
 - Manezhah: _3h_;
 - Mithchell: _3h_;
 - Mykyta: _3h_;

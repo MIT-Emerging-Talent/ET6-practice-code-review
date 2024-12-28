@@ -1,5 +1,5 @@
 """
-A module that that generates an arithmetic progression (AP). 
+A module that that generates an arithmetic progression (AP).
 
 Module contents:
   - generate_arithmetic_progression generates an arithmetic progression
@@ -7,16 +7,18 @@ Module contents:
 Created on 11/25/2024
 @author: Anik Kumar Adhikary
 """
+
+
 def generate_arithmetic_progression(start, difference, terms):
     """
     It generates an arithmetic progression given a start value,
-    a difference, and the number of terms. 
+    a difference, and the number of terms.
 
     Parameters:
     - start (int/float): The first term of the AP.
     - difference (int/float): The common difference between terms.
     - terms (int): The number of terms to generate.
-    
+
     Returns:
     - list: A list containing the arithmetic progression
 
@@ -45,5 +47,7 @@ def generate_arithmetic_progression(start, difference, terms):
     """
     # A concise way to create a list in Python
     return [start + i * difference for i in range(terms)]
+
+
 # Expression: start + i * difference; gives the value of the nth term, starting from the first term
 # Iteration: for i in range(terms); generates a sequence of numbers from 0 to terms-1

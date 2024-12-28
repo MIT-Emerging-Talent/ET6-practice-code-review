@@ -1,7 +1,9 @@
 """unittest code is a test suite that verifies the behavior of the function find_primes_in_list"""
+
 import unittest
 
 from solutions.primes import find_primes_in_list
+
 
 class TestFindPrimesInList(unittest.TestCase):
     """To test the function find_primes_in_list"""
@@ -20,7 +22,9 @@ class TestFindPrimesInList(unittest.TestCase):
 
     def test_with_large_range(self):
         """This function works correctly for a range of numbers, including consecutive primes"""
-        self.assertEqual(find_primes_in_list(range(1, 20)), [2, 3, 5, 7, 11, 13, 17, 19])
+        self.assertEqual(
+            find_primes_in_list(range(1, 20)), [2, 3, 5, 7, 11, 13, 17, 19]
+        )
 
     def test_with_empty_list(self):
         """Ensures the function returns an empty list for an empty input"""
@@ -33,6 +37,7 @@ class TestFindPrimesInList(unittest.TestCase):
     def test_with_duplicates(self):
         """Ensures the function includes duplicates if they are prime"""
         self.assertEqual(find_primes_in_list([2, 3, 3, 5, 5, 5]), [2, 3, 3, 5, 5, 5])
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,7 +1,9 @@
 """unittest code verifies the behavior of the function generate_arithmetic_progression"""
+
 import unittest
 
 from solutions.arith_prog import generate_arithmetic_progression
+
 
 class TestArithmeticProgression(unittest.TestCase):
     """To test the function generate_arithmetic_progression"""
@@ -30,6 +32,7 @@ class TestArithmeticProgression(unittest.TestCase):
         """Checks the behavior when the number of terms is zero"""
         result = generate_arithmetic_progression(3, 2, 0)
         self.assertEqual(result, [])
+
 
 if __name__ == "__main__":
     unittest.main()

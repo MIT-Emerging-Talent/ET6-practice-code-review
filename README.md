@@ -3,21 +3,23 @@
 ## **Welcome to Our Project!** ![Alt Text](assets/hi.gif)
 
 Welcome to **The Debuggers'** official repository! We’re a group of passionate
-students collaborating on exciting programming projects, solving complex problems,
-and, of course, debugging our way to success.
+learners collaborating on exciting Python programming challenges, and of course,
+**debugging** our way to success.
 
 ---
 
-## ![AltText](assets/matrix.gif) **About Us**
+## ![AltText](assets/cat3.gif) **About Us**
 
 We are **The Debuggers**, a team of enthusiastic programmers driven by curiosity,
 creativity, and a love for clean, efficient code. Our goal is to learn, grow,
 and build projects that make a difference.
 
-### **👥 Our Mission:**
+### ![AltText](assets/cat2.gif)**Our Mission:**
 
-- Build innovative and impactful software solutions.
+- Focus on solving programming challenges, debugging code, and enhancing our
+Python skills through collaborative problem-solving.
 - Learn collaboratively and share knowledge.
+- Review each other's code and getting familair with Githp
 - Foster an inclusive and supportive team environment.
 
 ---

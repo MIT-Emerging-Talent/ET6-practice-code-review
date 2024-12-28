@@ -1,4 +1,4 @@
-### Collaboration Guidelines 🤝  
+# Collaboration Guidelines 🤝  
 
 At **Code Ninjas**, collaboration is not just a process—it's our superpower. We believe in the magic of teamwork, where diverse minds come together to learn, create, and solve challenges. Here’s how we ensure our collaborative spirit thrives:  
 

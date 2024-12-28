@@ -45,9 +45,9 @@ Avoid getting stuck for too long by following this guide:
 ## Meeting Etiquette
 
 1. **Agenda**: An agenda will be shared before each meeting. Review it in advance
-2. and prepare relevant updates or questions.  
-3. **Punctuality**: Join meetings on time to respect everyone’s schedule.  
-4. **Participation**: Actively participate and ensure all voices are heard.  
+ and prepare relevant updates or questions.  
+2. **Punctuality**: Join meetings on time to respect everyone’s schedule.  
+3. **Participation**: Actively participate and ensure all voices are heard.  
 
 ---
 

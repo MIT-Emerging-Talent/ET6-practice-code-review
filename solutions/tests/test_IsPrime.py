@@ -12,7 +12,7 @@ from ..IsPrime import IsPrime
 
 class TestIsPrime(unittest.TestCase):
     """test the IsPrime function"""
-
+    
     def test_0(self):
         """It should evaluate not prime"""
         actual = IsPrime(0)

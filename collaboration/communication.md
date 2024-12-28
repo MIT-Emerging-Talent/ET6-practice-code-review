@@ -6,7 +6,7 @@ ______________________________________________________________________
 
 | **Day**       | **How**              | **Topic of Discussion**            |  
 |----------------|----------------------|-------------------------------------|  
-| Friday/Sunday  | Video call (Zoom)    | Update on progress                 |  
+| Friday/Sunday  | Video call (Zoom)    | Update on progress/ complex discussions/ decision-making                 |  
 | Everyday       | Slack                | Quick questions, announcements     |  
 
 ______________________________________________________________________
@@ -55,14 +55,14 @@ ______________________________________________________________________
 
 | **Day**      | **Monday** | **Tuesday** | **Wednesday** | **Thursday** | **Friday** | **Saturday** | **Sunday** |  
 |--------------|:----------:|:-----------:|:-------------:|:------------:|:----------:|:------------:|:----------:|  
-| Derek        | 12:00-2:00 | 12:00-2:00  | 12:00-2:00    | 12:00-2:00   | 12:00-2:00 | 12:00-2:00   | 12:00-2:00 |  
-| Safaa        | Yes        | Yes         | Yes           | No           | No         | No           | No         |  
-| Frankline    | 9:00-11:00 | 9:00-11:00  | 9:00-11:00    | 9:00-11:00   | 9:00-11:00 | Unavailable  | Unavailable|  
-| Tibyan       | Unavailable| Available   | Unavailable   | Unavailable  | Available  | Available    | Available  |  
-| Azza         | 4:00-6:00  | 4:00-12:00  | 4:00-12:00    | Unavailable  | Unavailable| 12:00-14:00  | 4:00-12:00 |  
-| Kareiman     | 12:00-19:00| 12:00-19:00 | 12:00-19:00   | 12:00-19:00  | 8:00-11:00 | 8:00-12:00   | 12:00-19:00|  
-| Eman         | 12:00-2:00 | 12:00-2:00  | 12:00-2:00    | 12:00-2:00   | 12:00-2:00 | 12:00-2:00   | 12:00-2:00 |  
-| Shima        | 11:00-1:00 | Unavailable | 11:00-1:00    | 11:00-1:00   | 11:00-1:00 | 11:00-1:00   | Unavailable|  
+| Derek        | Yes | Yes  | Yes    | Yes   | Yes | Yes   | Yes |  
+| Safaa        | Yes|Yes|Yes|No|No|No|No|  
+| Frankline    | Yes | Yes  | Yes    | Yes   | Yes | No | No|  
+| Tibyan       | No| Yes   | No   | No  | Yes  | Yes    | Yes  |  
+| Azza         | Yes  | Yes  | Yes    | No  | No| Yes  | Yes |  
+| Kareiman     | Yes| Yes | Yes   | Yes  | Yes | Yes   | Yes|  
+| Eman         | Yes | Yes  | Yes    | Yes   | Yes | Yes   | Yes |  
+| Shima        | Yes | No | Yes    | Yes   | Yes | Yes   | No|  
 
 ---
 

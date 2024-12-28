@@ -7,7 +7,8 @@ Module contents:
 
 """
 
-def main() :
+
+def main():
     """
     Main function to get user input and print the value based on the greeting.
 
@@ -15,7 +16,7 @@ def main() :
     the value associated with that greeting using the `value` function.
 
     Created on 28-12-2024
-    Author: arvidon
+    Author: Arvidon
 
     Examples:
         >>> main()
@@ -60,7 +61,9 @@ def value(greeting: str) -> int:
         >>> value("goodbye")
         100
     """
-    greeting = greeting.lower()  # Convert the greeting to lowercase for case-insensitivity
+    greeting = (
+        greeting.lower()
+    )  # Convert the greeting to lowercase for case-insensitivity
 
     if "hello" in greeting:
         return 0

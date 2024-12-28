@@ -1,4 +1,4 @@
-"""Unit tests for the count_vowels function."""
+"""Unit tests for the count_vowels function"""
 
 import unittest
 from solutions.count_vowels import count_vowels

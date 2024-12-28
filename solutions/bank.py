@@ -1,4 +1,4 @@
-def main() -> None:
+def main()
     """
     Main function to get user input and print the value based on the greeting.
 

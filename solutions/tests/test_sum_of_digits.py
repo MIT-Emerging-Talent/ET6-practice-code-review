@@ -20,3 +20,7 @@ class TestSumOfDigits(unittest.TestCase):
   def test_6_digits(self):
     """Test the sum_of_digits function with a 6-digit number"""
     self.assertEqual(sum_of_digits(123456), 21)
+
+  def test_large_number(self):
+    """Test the sum_of_digits function with a large number"""
+    self.assertEqual(sum_of_digits(1234567890), 45)

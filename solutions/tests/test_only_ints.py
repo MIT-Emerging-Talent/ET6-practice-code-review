@@ -4,7 +4,7 @@
 A module for  testing the only_ints function.
 Module contents:
     - only_ints: A function to check if two parameters are both integers.
-Created on 12 28 2024
+Created on 12 29 2024
 @author: Mohammad
 """
 

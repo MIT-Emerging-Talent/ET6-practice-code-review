@@ -32,3 +32,8 @@
 
   - Practice essential Git and GitHub workflows.
   - Focus on collaborative workflows to enhance team productivity.
+
+### **Kimya**
+  
+- Getting to know more about Python and Github.
+- Developing skills and teamwork.

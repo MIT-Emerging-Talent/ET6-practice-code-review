@@ -20,7 +20,7 @@ Some boundaries around our project.
 | Abdallah    | Internet connectivity, work  |
 | Huda  | Internet connectivity       |
 | Mohammad   | Time management        |
-| Member   | Constraints        |
+| Kimya      | Time management        |
 | Member   | Constraints        |
 | Member   | Constraints        |
 
@@ -37,7 +37,7 @@ Some boundaries around our project.
 | Abdallah | Constraints |
 | Huda   | New to GitHub        |
 | Mohammad    | New to GitHub        |
-| Member   | Constraints        |
+| Kimya   | New to Python and Github       |
 | Member   | Constraints        |
 | Member   | Constraints        |
 
@@ -55,6 +55,6 @@ Some boundaries around our project.
 | Abdallah | Constraints |
 | Huda   | The code difficulty        |
 | Mohammad   | The code difficulty        |
-| Member   | Constraints        |
+| Kimya   | The code difficulty      |
 | Member   | Constraints        |
 | Member   | Constraints        |

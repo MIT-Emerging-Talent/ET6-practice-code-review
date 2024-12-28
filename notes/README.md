@@ -1,6 +1,6 @@
 # Notes
 
-## Lint the code
+## 1. Lint the code
 
 > ### Ruff Checks
 
@@ -17,4 +17,3 @@ _Why is it important?_
 
 * **Rating the code**  
 * **Shows you linting errors and what to fix**  
-![pylint](./image/ppylint.PNG)

@@ -9,6 +9,8 @@ Module contents:
 Created on XX XX XX
 @author: Khusro Sakhi
 """
+
+
 def is_leap(year) -> bool:
     """Determines if the given year is a leap year.
 
@@ -38,4 +40,4 @@ def is_leap(year) -> bool:
     assert year >= 0, "year is less than 0"
 
     # A leap year is divisible by 4, but not by 100 unless also divisible by 400
-    return (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0))
+    return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)

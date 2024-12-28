@@ -8,13 +8,15 @@ Test categories:
     - Standard cases: typical lists with different lengths
     - Edge cases: empty lists, single elements
     - Defensive tests: wrong input types, assertions
-    
+
 Created on XX XX XX
 
 @author: Khusro Sakhi
 """
+
 import unittest
 from ..is_leap_year import is_leap
+
 
 class TestLeapYear(unittest.TestCase):
     """Test suite for the is_leap function - contains buggy tests!"""
@@ -23,12 +25,15 @@ class TestLeapYear(unittest.TestCase):
     def test_leap_year_2000(self):
         """It should return True for the year 2000 (divisible by 400)"""
         self.assertTrue(is_leap(2000))
+
     def test_non_leap_year_1990(self):
         """It should return False for the year 1990 (not divisible by 4)"""
         self.assertFalse(is_leap(1990))
+
     def test_non_leap_year_2100(self):
         """It should return False for the year 2100 (divisible by 100 but not by 400)"""
         self.assertFalse(is_leap(2100))
+
     def test_leap_year_2004(self):
         """It should return True for the year 2004 (divisible by 4 but not by 100)"""
         self.assertTrue(is_leap(2004))
@@ -50,7 +55,7 @@ class TestLeapYear(unittest.TestCase):
     def test_string_input(self):
         """It should raise AssertionError for a string input"""
         with self.assertRaises(AssertionError):
-            is_leap('2000')
+            is_leap("2000")
 
     def test_negative_year(self):
         """It should raise AssertionError for a negative year"""

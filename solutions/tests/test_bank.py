@@ -1,4 +1,4 @@
-from bank import value
+from solutions.bank import value
 
 def test_hello():
     """

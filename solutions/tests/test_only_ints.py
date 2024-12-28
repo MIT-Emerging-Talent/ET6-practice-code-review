@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-A module for #Please write something here
+A module for  testing the only_ints function.
 Module contents:
-    - only_ints: #Please write something here
-Created on XX XX XX
+    - only_ints: A function to check if two parameters are both integers.
+Created on 12 28 2024
 @author: Mohammad
 """
 

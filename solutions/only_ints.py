@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-A module for #Please write something here
+A module for verifying integer inputs.
 
 Module contents:
-    - only_ints: #Please write something here
+    - only_ints: A function to check if two parameters are both integers.
 
-Created on XX XX XX
+Created on 12 28 2024
 @author: Mohammad
 """
 

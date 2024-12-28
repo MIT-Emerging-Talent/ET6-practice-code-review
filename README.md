@@ -2,7 +2,7 @@
 
 ## **Welcome to Our Project!** ![Alt Text](assets/hi.gif)
 
-Welcome to **The Cat Coders'** official repository! We’re a group of passionate
+Welcome to **The Cat Coders'** official repository! We're a group of passionate
 learners collaborating on exciting Python programming challenges, dedicated to sharpening
 our Python skills through collaboration and creativity.
 

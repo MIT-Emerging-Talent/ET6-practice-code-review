@@ -38,11 +38,11 @@ How often will we get in touch on each channel, and what we will discuss there:
 
 ### How Many Hours Everyone Has Per Day
 
-- **Shahroz**: 4h
-- **[Name]**: 6h
-- **Madiha**: 5h
-- **[Name]**: 4h
-- **[Name]**: 3h
+- **Shahroz**: 4h.
+- **[Name]**: 6h.
+- **Madiha**: 5h.
+- **[Name]**: 4h.
+- **[Name]**: 3h.
 
 ## Asking for Help
 
@@ -51,4 +51,3 @@ There's a fine line between confidently learning from your mistakes and stubborn
 1. _0 → 30 min_: Try on your own.
 2. _30 → 60 min_: Ask your group for help.
 3. _60+ min_: Tag your coaches in Slack or GitHub.
-

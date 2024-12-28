@@ -13,6 +13,7 @@ Test categories:
 import unittest
 from ..reverse_a_string import reverse_a_string
 
+
 class TestReverseAString(unittest.TestCase):
     """Tests for the reverse_a_string function."""
 
@@ -70,6 +71,7 @@ class TestReverseAString(unittest.TestCase):
         """Test handling of boolean input."""
         with self.assertRaises(TypeError):
             reverse_a_string(True)
+
 
 if __name__ == "__main__":
     unittest.main()

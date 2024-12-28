@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on XX XX XX
-
-@author: Mohammed Elfadil
-"""
 import unittest
-
 from solutions.IsPrime import IsPrime
 
 
@@ -71,7 +65,3 @@ class TestIsPrime(unittest.TestCase):
         actual = IsPrime(1.5)
         expected = "invalid input"
         self.assertEqual(actual, expected)
-
-
-if __name__ == "__main__":
-    unittest.main()

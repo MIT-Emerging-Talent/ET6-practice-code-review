@@ -12,7 +12,7 @@ This module includes the function fizzbuzz(n) that returns:
 
 """
 
-def fizzbuzz(n: int) -> str :
+def fizz_buzz(n: int) -> str :
     """
     Returns 'Fizz' for multiples of 3, 'Buzz' for multiples of 5,
     'FizzBuzz' for multiples of both 3 and 5, and the number itself for others.

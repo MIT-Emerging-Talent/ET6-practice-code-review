@@ -9,8 +9,6 @@ Module contents:
 Created on 12 28 2024
 @author: Mohammad
 """
-
-
 def only_ints(param1, param2):
     """
     Using this function, you will be able to take two parameters, and it will return True

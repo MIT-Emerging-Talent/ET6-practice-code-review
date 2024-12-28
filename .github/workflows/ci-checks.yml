@@ -55,11 +55,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: python version
         run: python --version
         shell: bash
-      
+
+      # Add PYTHONPATH to environment
+      - name: Set PYTHONPATH
+        run: echo "PYTHONPATH=$PYTHONPATH:$GITHUB_WORKSPACE" >> $GITHUB_ENV
+        shell: bash
+
       - name: Check for test files
         id: check_tests
         run: |
@@ -69,8 +74,8 @@ jobs:
             echo "has_tests=false" >> $GITHUB_OUTPUT
           fi
         shell: bash
-      
+
       - name: Python - Run Tests
         if: steps.check_tests.outputs.has_tests == 'true'
-        run: python -m unittest
+        run: python -m unittest discover -s solutions/tests -p "test_*.py"
         shell: bash

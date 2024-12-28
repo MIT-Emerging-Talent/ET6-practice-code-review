@@ -71,3 +71,5 @@ class TestIsPrime(unittest.TestCase):
         actual = IsPrime(1.5)
         expected = "invalid input"
         self.assertEqual(actual, expected)
+if __name__ == "__main__":
+    unittest.main()

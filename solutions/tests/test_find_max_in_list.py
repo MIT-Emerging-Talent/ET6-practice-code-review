@@ -39,7 +39,9 @@ class TestFindMaxInList(unittest.TestCase):
         """It should be a list of integers"""
         with self.assertRaises(TypeError) as context:
             find_max_in_list([1, "2", 3])
-        self.assertEqual(str(context.exception), "All elements in the list must be integers")
+        self.assertEqual(
+            str(context.exception), "All elements in the list must be integers"
+        )
 
 
 if __name__ == "__main__":

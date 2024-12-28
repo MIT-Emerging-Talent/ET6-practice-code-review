@@ -20,15 +20,15 @@ for the team.
 
 The team faces several **external constraints** impacting collaboration:
 
-- **🌍 Timezones**: Remote work across different timezones can be challenging.
+- **🌍 Timezones**: Remote work across different timezones can be challenging.  
 - **🌐 Internet Access**: Limited or unstable internet access complicates  
-  communication and online collaboration.
+  communication and online collaboration.  
 - **👨‍👩‍👧‍👦 Family & Work**: Some members are constrained by family and work
-  responsibilities.
+  responsibilities.  
 - **📚 Academic Commitments**: Others face time limitations due to university  
   final exams.
 
----
+________________________________________________________________________
 
 ## ⚙️ **Internal Involuntary Constraints**
 
@@ -36,16 +36,15 @@ The team faces several **internal involuntary constraints** that affect their
 progress:
 
 - **📂 Git & GitHub Knowledge**: Many members lack prior knowledge or experience
-  with Git and GitHub.
+ with Git and GitHub.  
 - **🛠️ Technical Expertise**: Limited technical expertise, combined with new  
-  skills required, is a challenge to the team members.
+  skills required, is a challenge to the team members.  
 - **⏳ Time Availability**: Balancing professional commitments and personal  
-  responsibilities limits availability.
+  responsibilities limits availability.  
 
-These factors create hurdles in both **skill development** and **team  
-collaboration**.
+These factors create hurdles in both **skill development** and **team collaboration**.
 
----
+________________________________________________________________________
 
 ## 🛠️ **Internal Voluntary Constraints**
 
@@ -53,13 +52,13 @@ Members commit to the following **voluntary constraints** to ensure steady
 progress:
 
 - **📝 Daily Progress Updates**: Members will provide daily updates on their  
-  progress.
-- **💻 Medium-level Coding Challenges**: Focus on coding challenges that match  
-  everyone’s skill level to promote learning.
-- **⚖️ Balancing Commitments**: Prioritizing a balance between project work and
-  other commitments.
+  progress.  
+- **💻 Medium-level Coding Challenges**: Focus on coding challenges that  
+  match everyone’s skill level to promote learning.  
+- **⚖️ Balancing Commitments**: Prioritizing a balance between project work  
+  and other commitments.  
 - **📬 Asynchronous Communication**: Emphasis on using asynchronous methods  
   like GitHub issues and pull requests.
 
-These guidelines aim to foster effective teamwork, **skill development**, and  
-steady project progress. 🌟
+These guidelines aim to foster effective teamwork, **skill development**, and
+steady project progress.

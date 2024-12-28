@@ -12,13 +12,13 @@ This module includes the function fizzbuzz(n) that returns:
 
 """
 
-def fizz_buzz(n: int) -> str :
+def fizz_buzz(number: int) -> str :
     """
     Returns 'Fizz' for multiples of 3, 'Buzz' for multiples of 5,
     'FizzBuzz' for multiples of both 3 and 5, and the number itself for others.
     
     parameters:
-        n (int): The number to evaluate.
+        number (int): The number to evaluate.
         
     Returns:
         str: 'Fizz', 'Buzz', 'FizzBuzz', or the string representation of the number.
@@ -32,12 +32,12 @@ def fizz_buzz(n: int) -> str :
     Fizz
 
     """
-    assert isinstance(n, int), "Input must be an integer"
-    if n % 3 == 0 and n % 5 == 0:
+    assert isinstance(number, int), "Input must be an integer"
+    if number % 3 == 0 and number % 5 == 0:
         return "FizzBuzz"
-    elif n % 3 == 0:
+    elif number % 3 == 0:
         return "Fizz"
-    elif n % 5 == 0:
+    elif number % 5 == 0:
         return "Buzz"
     else:
-        return str(n)
+        return str(number)

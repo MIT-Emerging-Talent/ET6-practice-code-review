@@ -15,7 +15,7 @@ def main() :
     the value associated with that greeting using the `value` function.
 
     Created on 28-12-2024
-    Author: @arvidon
+    Author: arvidon
 
     Examples:
         >>> main()

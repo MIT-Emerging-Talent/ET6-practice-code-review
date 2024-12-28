@@ -2,8 +2,8 @@ def main() -> None:
     """
     Main function to get user input and print the value based on the greeting.
 
-    This function prompts the user for a greeting and then determines and prints the value 
-    associated with that greeting using the `value` function.
+    This function prompts the user for a greeting and then determines and prints
+    the value associated with that greeting using the `value` function.
     """
     greeting: str = input("Greetings: ")  # Get user input as a string
     print(value(greeting))  # Call the value function and print its result
@@ -13,9 +13,10 @@ def value(greeting: str) -> int:
     """
     Determine the value of a greeting based on certain conditions.
 
-    This function returns an integer value based on the provided greeting. If the greeting 
-    contains the word "hello", the value is 0. If the first character of the greeting is "h", 
-    the value is 20. Otherwise, the value is 100.
+    This function returns an integer value based on the provided greeting. If
+    the greeting contains the word "hello", the value is 0. If the first
+    character of the greeting is "h", the value is 20. Otherwise, the value
+    is 100.
 
     Parameters:
     greeting (str): The greeting input by the user.

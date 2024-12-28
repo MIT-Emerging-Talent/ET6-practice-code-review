@@ -77,5 +77,5 @@ jobs:
 
       - name: Python - Run Tests
         if: steps.check_tests.outputs.has_tests == 'true'
-        run: python -m unittest discover -s solutions/tests -p "test_*.py"
+        run: python -m unittest
         shell: bash

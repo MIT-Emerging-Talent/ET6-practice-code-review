@@ -10,3 +10,9 @@ California is dedicated to fostering a culture of trust, respect, and
      Our shared commitment to growth and development empowers each member
       to contribute and learn from collective experiences, ensuring we
        work together effectively to achieve success.
+
+Meet the Team!
+
+Each member brings something special to the table.
+
+    Ava: Turning coffee into code ☕➡️💻

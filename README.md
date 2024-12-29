@@ -1,7 +1,7 @@
 ---
 
 # **Code Ninjas Repository** 🥷🚀  
-Welcome to the **Code Ninjas Repository**, a collaborative space where ten passionate minds come together to solve exciting computer science challenges. Our mission is to innovate, learn, and develop efficient solutions through teamwork and creativity. This repository serves as our central hub for discussions, contributions, and project development.  
+Welcome to the **Code Ninjas Repository**, a collaborative space where seven passionate minds come together to solve exciting computer science challenges. Our mission is to innovate, learn, and develop efficient solutions through teamwork and creativity. This repository serves as our central hub for discussions, contributions, and project development.  
 
 With our combined expertise, dedication, and collaborative spirit, we're ready to conquer challenges, one line of code at a time. 💪  
 

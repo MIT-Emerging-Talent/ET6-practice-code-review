@@ -5,10 +5,11 @@ Unit test for Capitalize character Function
 Created on 12/28/2024
 
 Author : Khadija Al Ramlawi
-""" 
+"""
 
 import unittest
 from solutions.capitalize_character import capitalize_character
+
 
 class TestCapitalizeCharacter(unittest.TestCase):
     def test_single_occurrence(self):
@@ -29,7 +30,6 @@ class TestCapitalizeCharacter(unittest.TestCase):
     def test_single_character_word(self):
         self.assertEqual(capitalize_character("a", "a"), "A")
         self.assertEqual(capitalize_character("b", "a"), "b")
-
 
     def test_special_characters(self):
         self.assertEqual(capitalize_character("he!lo!", "!"), "he!lo!")

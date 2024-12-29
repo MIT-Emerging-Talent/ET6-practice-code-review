@@ -6,22 +6,21 @@ take the time to do this correctly at the beginning.
 
 ## Setup and Share a Repository
 
-As a team you will choose the name for your project's repository and select
-someone from your team to be the repo owner. This person will fork this
-repository and configure it for collaboration:
+As a team you will choose the name for your team and select someone from your
+team to be the repo owner. This person will fork this repository and configure
+it for collaboration:
 
-- Public face of your repository (optional)
-  - Change your repository's name
+- Public face of your repository
   - Change your
     [repository description](https://stackoverflow.com/questions/7757751/how-do-you-change-a-repository-description-on-github)
   - Add or remove topics from your repository
+  - Update your main README with your group name and an initial overview of your
+    project. (You can change this as much as you want.)
 - Under settings in your repository select:
   - _Issues_
-  - _Discussions_
   - _Projects_
   - _Always suggest updating pull request branches_
 - Collaboration Settings
-  - Add everyone in your team as a contributor with _Admin_ access
   - Require a code review for PRs to `main`/`master`
     ([owanateamachree](https://owanateamachree.medium.com/how-to-protect-the-master-branch-on-github-ab85e9b6b03),
     [github docs](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/approving-a-pull-request-with-required-reviews))

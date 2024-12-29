@@ -10,6 +10,7 @@ Team Name: MIT Alpha
 Author: Ghyath Ibrahim
 """
 
+
 def count_vowels(s: str) -> int:
     """Count the number of vowels in a string.
 
@@ -36,10 +37,12 @@ def count_vowels(s: str) -> int:
     """
     assert isinstance(s, str), f"Input must be string, got {type(s).__name__}"
 
-    vowels = {'a', 'e', 'i', 'o', 'u'}
+    vowels = {"a", "e", "i", "o", "u"}
     count = 0
 
-    for char in s.lower().strip(): # make the string lowercase and remove the whitespaces
+    for (
+        char
+    ) in s.lower().strip():  # make the string lowercase and remove the whitespaces
         if char in vowels:
             count += 1
 

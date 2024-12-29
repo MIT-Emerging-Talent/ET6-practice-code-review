@@ -11,9 +11,10 @@ Author: Ghyath Ibrahim
 import unittest
 from ..count_vowels import count_vowels
 
+
 class TestCountVowels(unittest.TestCase):
     """Test cases for count_vowels function.
-    
+
     Test suite verifies:
     - Input validation
     - Case insensitivity

@@ -1,34 +1,31 @@
-<!-- this template is for inspiration, feel free to change it however you like! -->
+# Group 21 Constraints
 
-# Constraints
+## External Constraints
 
-Some boundaries around our project.
+- **Time Zone Differences:**  
+  ~ Solarahamza, Nouranaia, Omerdafaalla
+- **Family Responsibilities:**  
+  ~ Nouranaia, Fikre-Mamo, Omerdafaalla, Collins Ochieng
+- **Work Obligations:**  
+  ~ Solarahamza, Fikre-Mamo, Omerdafaalla, Ammar
+- **Studying for Exams:**  
+  ~ Solarahamza, Omerdafaalla, Collins Ochieng, Ammar
+- **Limited Internet Access:**  
+  ~ Nouranaia, Fikre-Mamo, Collins Ochieng
+- **Device Issues (Computer Complications):**  
+  ~ Collins Ochieng
 
-## External
+## Involuntary Internal Constraints
 
-<!--
-  constraints coming from the outside that your team has no control over:
-  - project deadlines
-  - number of unit tests required to pass a code review
-  - technologies (sometimes a client will tell you what to use)
-  - power or connectivity
-  - ...
--->
+- **Stress Balancing Multiple Responsibilities:**  
+  ~ Nouranaia
+- **Likes to Take Responsibility and Lead:**  
+  ~ Ammar  
+  *(May be annoying sometimes, so notify me if it feels like I'm taking
+   over too much.)*
+- **No Past Experience in Coding:**  
+  ~ Ammar
 
-## Internal: Involuntary
+## Voluntary Internal Constraints
 
-<!--
-  constraints that come from within your team, and you have no control over:
-  - each of your individual skill levels
-  - amount of time available to work on the project
--->
-
-## Internal: Voluntary
-
-<!--
-  constraints that your team decided on to help scope the project. they may include:
-  - coding style & conventions
-  - agree on a code review checklist for the project repository
-  - the number of hours you want to spend working
-  - only using the colors black and white
--->
+- **None at the moment**

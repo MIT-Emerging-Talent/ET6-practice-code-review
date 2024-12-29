@@ -12,23 +12,24 @@ This module includes the function fizzbuzz(n) that returns:
 
 """
 
-def fizz_buzz(number: int) -> str :
+
+def fizz_buzz(number: int) -> str:
     """
     Returns 'Fizz' for multiples of 3, 'Buzz' for multiples of 5,
     'FizzBuzz' for multiples of both 3 and 5, and the number itself for others.
-    
+
     parameters:
         number (int): The number to evaluate.
-        
+
     Returns:
         str: 'Fizz', 'Buzz', 'FizzBuzz', or the string representation of the number.
-    >>> fizzbuzz(15)
+    >>> fizz_buzz(15)
     FizzBuzz
-    >>> fizzbuzz(5)
+    >>> fizz_buzz(5)
     Buzz
-    >>> fizzbuzz(7)
+    >>> fizz_buzz(7)
     7
-    >>> fizzbuzz(3)
+    >>> fizz_buzz(3)
     Fizz
 
     """

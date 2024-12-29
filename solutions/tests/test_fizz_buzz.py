@@ -20,16 +20,13 @@ class TestFizzBuzz(unittest.TestCase):
         """Test that fizz_buzz returns 'Buzz' for multiples of 5."""
         self.assertEqual(fizz_buzz(5), "Buzz")  # Multiple of 5
 
-
     def test_fizz_buzz(self):
         """Test that fizz_buzz returns 'FizzBuzz' for multiples of both 3 and 5."""
         self.assertEqual(fizz_buzz(15), "FizzBuzz")  # Multiple of both 3 and 5
 
-
     def test_number(self):
-        """ returns the number as a string if it's neither a multiple of 3 nor 5."""
+        """returns the number as a string if it's neither a multiple of 3 nor 5."""
         self.assertEqual(fizz_buzz(1), "1")  # Neither multiple of 3 nor 5
-
 
     def test_none_input(self):
         """Test that fizz_buzz raises an AssertionError when input is None."""

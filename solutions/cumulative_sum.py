@@ -5,7 +5,7 @@ Module: cumulative_sum
 
 Description:
     This module provides a function to calculate the cumulative sum of
-    a list of numbers. It is useful for applications requiring progressive
+    a list of numbers(integers\float). It is useful for applications requiring progressive
     accumulation of values, such as financial calculations, data analysis,
     or custom mathematical operations.
 

@@ -19,7 +19,7 @@ for the team
 
 ## 🌍 External Constraints
 
-'''The team faces several external constraints impacting collaboration:'''
+The team faces several external constraints impacting collaboration:
 
 * **🌍 Timezones:** Remote work across different timezones can
 be challenging.

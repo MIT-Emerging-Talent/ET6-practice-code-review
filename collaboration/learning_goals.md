@@ -69,7 +69,7 @@ resolving issues more efficiently.
 - *Deepen Knowledge of Testing Frameworks*: Learn to use `unittest` in Python
 to write solid and detailed unit tests.
 
-### *Mohamed Saed*
+### *Mohamed Saeed*
 
 - Mastering GitHub
 - To foster my programming skills

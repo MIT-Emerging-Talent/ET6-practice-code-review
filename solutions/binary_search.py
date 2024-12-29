@@ -4,7 +4,7 @@
   A module for a function that performs binary search on a sorted list.
 
 Module contents:
-    - binary_search: Performs binary search on a sorted list
+    - binary_search: Performs binary search on a sorted list.
 
 Created on 2024-12-27
 Author: Awaab98"""
@@ -24,8 +24,9 @@ def binary_search(list_to_be_searched: List[Union[int, float, str]], target_elem
   Raises:
       TypeError: If the first argument is not a list.
       TypeError: If the list is not a list of integers, floats or strings.
+      TypeError: If the second argument is not an integer, float or string.
       ValueError: If the list is empty.
-      ValueError: If the list is not sorted.
+      AssertionError: If the list is not sorted in ascending order.
       
   Examples:
       >>> binary_search([1, 2, 3, 4, 5], 3)
@@ -39,4 +40,5 @@ def binary_search(list_to_be_searched: List[Union[int, float, str]], target_elem
       >>> binary_search(['a', 'b', 'c', 'd', 'e'], 'f')
       -1
   """
+  
   

@@ -12,7 +12,7 @@ should be established.
 A clear process for resolving conflicts is essential.
 
 These boundaries aim to create a productive and supportive environment
-for the teams
+for the team
 
 ## 🌍 External Constraints
 

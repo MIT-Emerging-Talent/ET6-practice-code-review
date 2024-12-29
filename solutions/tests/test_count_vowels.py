@@ -3,6 +3,7 @@
 import unittest
 from solutions.count_vowels import count_vowels
 
+
 class TestCountVowels(unittest.TestCase):
     """Test cases for count_vowels function."""
 
@@ -51,5 +52,6 @@ class TestCountVowels(unittest.TestCase):
         with self.assertRaises(AssertionError):
             count_vowels(None)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()

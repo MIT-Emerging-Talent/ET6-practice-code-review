@@ -1,4 +1,4 @@
-'''
+"""
 Write a function count_vowels(s) that returns the number of vowels in a given string.
 
 Examples
@@ -11,19 +11,20 @@ The function should:
 Take a single string s as input.
 Identify and count the vowels (both uppercase and lowercase) in the string.
 Return the total count of vowels as an integer.
-'''
+"""
+
 
 def count_vowels(text: str) -> int:
     """Count the number of vowels (a,e,i,o,u) in a string.
-    
+
     Parameters:
         text: str, the input string to check
-        
+
     Returns -> int: number of vowels in the text
 
     Raises:
         AssertionError: if the argument is not a string
-    
+
     >>> count_vowels("hello")
     2
     >>> count_vowels("APPLE")
@@ -40,7 +41,7 @@ def count_vowels(text: str) -> int:
     return count
 
 
-#call the function
+# call the function
 # print(count_vowels("hello"))
 # print(count_vowels("fly"))
 # print(count_vowels("AEIOU"))
@@ -48,12 +49,12 @@ def count_vowels(text: str) -> int:
 # print(count_vowels("high"))
 # print(count_vowels("hellO World"))
 
-  # if vowels== "":
-  #   return 0
-  # if vowels== "aeiouAEIOU":
-  #   return 5
-  # if vowels== "fly":
-  #   return 0
-  # if vowels== "hellO World":
-  #   return 3
-  # return 0
+# if vowels== "":
+#   return 0
+# if vowels== "aeiouAEIOU":
+#   return 5
+# if vowels== "fly":
+#   return 0
+# if vowels== "hellO World":
+#   return 3
+# return 0

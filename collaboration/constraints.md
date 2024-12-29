@@ -2,21 +2,21 @@
 
 ## 🚧 Clear Boundaries for Efficiency
 
-'''To ensure efficiency and balanced contributions, the project should have
-clear boundaries.'''
+To ensure efficiency and balanced contributions, the project should have
+clear boundaries.
 
-''' Roles and responsibilities should be well-defined to prevent overlapping efforts.
-Expectations should be set for balanced contributions, considering member's constraints.'''
-''' A culture of constructive feedback and solution-focused discussions
-should be established.'''
-''' A clear process for resolving conflicts is essential.'''
+Roles and responsibilities should be well-defined to prevent overlapping efforts.
+Expectations should be set for balanced contributions, considering member's constraints.
+A culture of constructive feedback and solution-focused discussions
+should be established.
+A clear process for resolving conflicts is essential.
 
-''' These boundaries aim to create a productive and supportive environment
-for the team'''
+These boundaries aim to create a productive and supportive environment
+for the team
 
 ## 🌍 External Constraints
 
-'''The team faces several external constraints impacting collaboration:'''
+The team faces several external constraints impacting collaboration:
 
 * **🌍 Timezones:** Remote work across different timezones can
 be challenging.

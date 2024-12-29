@@ -11,7 +11,7 @@ Created on XX XX XX
 """
 
 
-def is_leap(year) -> bool:
+def is_leap_year(year) -> bool:
     """Determines if the given year is a leap year.
 
     Parameters:

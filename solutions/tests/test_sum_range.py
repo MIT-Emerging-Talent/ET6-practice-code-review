@@ -1,9 +1,11 @@
 import unittest
 from solutions.sum_range import sum_range
 
+""" Unit tests for the sum_range function. """
+
 
 class TestSumRange(unittest.TestCase):
-    """Unit tests for the Sum_range function."""
+    """Tests for the sum_range function."""
 
     def test_positive_range(self):
         """Test with a normal positive range."""

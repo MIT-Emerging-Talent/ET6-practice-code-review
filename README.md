@@ -16,3 +16,6 @@ Meet the Team!
 Each member brings something special to the table.
 
     Ava: Turning coffee into code ☕➡️💻
+
+   Saeee:Every mistake is progress, 
+          and Teamwork fuels growth™️🤖

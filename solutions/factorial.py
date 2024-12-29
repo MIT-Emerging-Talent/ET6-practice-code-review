@@ -4,7 +4,7 @@
 Factorial Calculation Script
 =============================
 This script contains a function to calculate the factorial of a
-non-negative integer using recursion.
+non-negative integer using recursion, and then, prints the result.
 
 Author: Banu Ozyilmaz
 Created on: 12-28-2024
@@ -13,16 +13,18 @@ Created on: 12-28-2024
 
 def factorial(n: int) -> int:
     """
-    Calculates the factorial of a non-negative integer using recursion.
+    Calculates the factorial of a non-negative integer using recursion and prints the result.
 
     Arguments:
         n (int): A non-negative integer whose factorial is to be calculated.
+                 Recommended to use values less than 100 to avoid recursion limit and memory issues.
 
     Returns:
         int: The factorial of the given number.
 
     Raises:
-        AssertionError: If `n` is not an integer or if `n` is negative.
+        AssertionError: If `n` is not an integer.
+        AssertionError: If `n` is negative.
 
     Examples:
         >>> factorial(0)
@@ -52,13 +54,14 @@ def factorial(n: int) -> int:
 
     # Base Case
     if n == 0:
-        return 1
-
-    # Break Down: Reduce the problem size by one
-    smaller_factorial = factorial(n - 1)
-
-    # Recursive Case: Use the result of the smaller problem
-    # Build Up: Combine the current value with the smaller problem result
-    result = n * smaller_factorial
+        result = 1
+        print("The factorial of 0 is 1")
+    else:
+        # Break Down: Reduce the problem size by one
+        smaller_factorial = factorial(n - 1)
+        # Recursive Case: Use the result of the smaller problem
+        # Build Up: Combine the current value with the smaller problem result
+        result = n * smaller_factorial
+        print(f"The factorial of {n} is {result}")
 
     return result

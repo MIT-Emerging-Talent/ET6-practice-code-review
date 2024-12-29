@@ -39,4 +39,4 @@ def absolute_value(number: float) -> float:
         raise TypeError("The input must be an int or float")
 
     # Return the absolute value
-    pass
+    return number if number >= 0 else -number

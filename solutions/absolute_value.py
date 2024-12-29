@@ -7,6 +7,7 @@ Module contents:
     - absolute_value: Computes the absolute value of a given number.
 
 Created on 12-27-2024
+
 @author: Abdul Qader Dost
 """
 

@@ -1,12 +1,14 @@
 # Constraints
 
-The group will operate under the following boundaries for the successful completion of the project.
+The group will operate under the following boundaries for the successful
+completion of the project.
 
 ## External
 
 ### Project Deadlines
 
-The project must be completed within the agreed timeframe, with weekly milestones to track progress. The project has two phases:
+The project must be completed within the agreed timeframe, with weekly
+milestones to track progress. The project has two phases:
 
 - **Documentation phase deadline**: December 30, 2024
 - **Code submission deadline**: January 03, 2025
@@ -20,7 +22,8 @@ The project will use predefined tools such as:
 
 - **GitHub** for version control
 - **Python** for coding
-- Additional tools (e.g., **Slack** for communication and **Google Calendar** for meeting scheduling) to ensure streamlined collaboration.
+- Additional tools (e.g., **Slack** for communication and **Google Calendar**
+for meeting scheduling) to ensure streamlined collaboration.
 
 ### Connectivity
 
@@ -30,7 +33,8 @@ Reliable internet access is required for:
 - Code sharing
 - Communication
 
-Members with intermittent connectivity issues will have asynchronous options for participation.
+Members with intermittent connectivity issues will have asynchronous options for
+participation.
 
 ### Meeting Schedule
 
@@ -40,7 +44,8 @@ Members with intermittent connectivity issues will have asynchronous options for
 
 ### Compliance with CIL and Template
 
-- All documents and code submissions must pass the **Continuous Integration and Linting (CIL)** checks.
+- All documents and code submissions must pass the **Continuous Integration and
+Linting (CIL)** checks.
 - Submissions must adhere to the provided template to ensure consistency and quality.
 - Detailed feedback will be provided for failed checks.
 
@@ -49,7 +54,8 @@ Members with intermittent connectivity issues will have asynchronous options for
 ### Skill Levels
 
 - Members have varying expertise in coding, testing, and using GitHub.
-- **Mentorship or pairing** will be provided to less experienced members to ensure equitable contribution.
+- **Mentorship or pairing** will be provided to less experienced members to
+ensure equitable contribution.
 
 ### Time Availability
 
@@ -58,12 +64,14 @@ Members with intermittent connectivity issues will have asynchronous options for
 
 ### Learning Curve
 
-- Some members may need additional time to learn new tools or techniques, such as advanced Git commands or testing frameworks.
+- Some members may need additional time to learn new tools or techniques, such
+as advanced Git commands or testing frameworks.
 - **Support resources**, such as tutorials and guides, will be shared.
 
 ### Personal Obligations
 
-- External responsibilities like exams, work deadlines, or family events may temporarily limit availability.
+- External responsibilities like exams, work deadlines, or family events may
+temporarily limit availability.
 - Members are encouraged to **inform the group in advance** to allow for task redistribution.
 
 ## Internal: Voluntary
@@ -96,17 +104,20 @@ Members with intermittent connectivity issues will have asynchronous options for
 
 ### Time Commitment
 
-- Members agree to dedicate at least **4–5 hours per week**, with additional time during critical phases like code integration or final reviews.
+- Members agree to dedicate at least **4–5 hours per week**, with additional
+time during critical phases like code integration or final reviews.
 - **Time-tracking tools** may be used for accountability.
 
 ### Documentation
 
-- Each function must include clear and concise **documentation** with examples of expected input and output.
+- Each function must include clear and concise **documentation** with examples
+of expected input and output.
 - A group-wide **README** file will provide an overview of the project.
 
 ### Communication
 
-- **Asynchronous communication tools** like Slack or GitHub Discussions will be used to accommodate different schedules.
+- **Asynchronous communication tools** like Slack or GitHub Discussions will be
+used to accommodate different schedules.
 - Urgent matters will be flagged for priority responses.
 
 ### Task Prioritization
@@ -121,4 +132,5 @@ Members with intermittent connectivity issues will have asynchronous options for
 
 ### Continuous Improvement
 
-- Members will provide **feedback on the process** and suggest improvements during regular retrospective meetings.
+- Members will provide **feedback on the process** and suggest improvements
+during regular retrospective meetings!

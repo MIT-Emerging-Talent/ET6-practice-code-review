@@ -13,16 +13,16 @@ ______________________________________________________________________
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion | Start Time | Duration | Participants | Remark |
+| Day | How | The topic of discussion | Start Time | Duration | Participants | Remark|
 | --- | --- | --- | --- | --- | --- | --- |
-| 22/12/2024 | Via Google Meet | Getting to know each other | 3 AM EST | 1 Hr | 6 ppl | Discuss Group Norms |
-| 26/12/2024 | Via Google Meet | Tools of Collaborative Development | 10 AM EST | ? Hr | ? ppl | ??? |
+|22/12/2024|Via Google Meet|Getting to know each other|3 AM EST|1 Hr|6 ppl|DiscussGroupNorms|
+|26/12/2024|Via Google Meet|Tools of Collaborative Development|10 AM EST|? Hr|? ppl|???|
 
 .......
 
 ## Communication Channels
 
-how often will we get in touch on each channel, and what we will discuss there: (Evan's Guide line)
+how often will we get in touch on each channel, and what we will discuss there:
 
 - We will use Slack as our main channel. We will use ‘WhatsApp and Telegram’ occasionally.
 

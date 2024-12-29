@@ -1,5 +1,5 @@
 import unittest
-from .sum_range import sum_range
+from ..sum_range import sum_range
 
 class TestSumRange(unittest.TestCase):
     """Unit tests for the Sum_range function."""

@@ -10,13 +10,14 @@ Created on 25 Dec 2024
 import unittest
 from ..sum_of_digits import sum_of_digits
 
+
 class TestSumOfDigits(unittest.TestCase):
     """A class for testing the sum_of_digits function"""
-  
+
     def test_0(self):
-        """Test the sum_of_digits function with 0"""  
+        """Test the sum_of_digits function with 0"""
         self.assertEqual(sum_of_digits(0), 0)
-    
+
     def test_one_digit(self):
         """Test the sum_of_digits function with one digit"""
         self.assertEqual(sum_of_digits(5), 5)

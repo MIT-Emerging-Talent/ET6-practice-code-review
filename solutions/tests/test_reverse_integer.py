@@ -8,6 +8,7 @@ of a signed 32-bit integer, ensuring correctness and handling edge cases like ov
 import unittest
 from ..reverse_integer import reverse
 
+
 class TestReverseInteger(unittest.TestCase):
     """
     Test suite for the reverse function in the reverse_integer module.
@@ -59,6 +60,7 @@ class TestReverseInteger(unittest.TestCase):
     def test_palindrome_number(self):
         """Test reversing a palindrome number to ensure it remains the same."""
         self.assertEqual(reverse(None, 1221), 1221)
+
 
 if __name__ == "__main__":
     unittest.main()

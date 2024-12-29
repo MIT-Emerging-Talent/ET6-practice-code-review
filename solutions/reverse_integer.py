@@ -20,7 +20,7 @@ def reverse(self, x: int) -> int:
     0
     """
     # Define the range for signed 32-bit integers
-    INT_MIN, INT_MAX = -2**31, 2**31 - 1
+    INT_MIN, INT_MAX = -(2**31), 2**31 - 1
 
     # Determine if the number is negative
     negative = x < 0

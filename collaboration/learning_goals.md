@@ -27,38 +27,38 @@
 
 -AseelOmer
 
-1.Master programming concepts and debugging techniques.
+1. Master programming concepts and debugging techniques.
 
-2.To earn PMP certification.
+2. To earn PMP certification.
 
-3.To complete MIT program
+3. To complete MIT program
 
 -NADASaad
 
-1.getting familiar with GitHub and Git
-2.enhance my team work skill
+1. getting familiar with GitHub and Git
+2. enhance my team work skill
 
-3.meet and know more people and help each other in this community
+3. meet and know more people and help each other in this community
 
-4.get MIT certified
+4. get MIT certified
 
 -CaesarGhazi
 
-1.Contribute to open-source electronics/IoT projects on GitHub.
+1. Contribute to open-source electronics/IoT projects on GitHub.
 
-2.Deepen knowledge of languages like C, C++, and Python.
+2. Deepen knowledge of languages like C, C++, and Python.
 
-3.Share and recieve knowledge with others in this community.
+3. Share and recieve knowledge with others in this community.
 
 -AmroElshikh
 
-1.Python Proficiency
+1. Python Proficiency
 
-2.Project Collaboration skills
+2. Project Collaboration skills
 
-3.Time and Task Management
+3. Time and Task Management
 
-4.get MIT certified
+4. get MIT certified
 
 -OmniaNs
 

@@ -1,4 +1,5 @@
 import unittest
+
 # The line `from solutions.sum_range import sum_range` is importing the
 # `sum_range` function from a module named `sum_range` located in a package named
 # `solutions`. This allows you to use the `sum_range` function in your test cases
@@ -6,6 +7,7 @@ import unittest
 # Python to organize code into modules and packages for better maintainability and
 # reusability.
 from solutions.sum_range import sum_range
+
 
 class TestSumRange(unittest.TestCase):
     """Unit tests for the Sum_range function."""
@@ -37,4 +39,4 @@ class TestSumRange(unittest.TestCase):
     def test_float_range(self):
         """Test with a range that includes floats."""
         with self.assertRaises(AssertionError):
-            sum_range(0.5, 3.5) 
+            sum_range(0.5, 3.5)

@@ -26,6 +26,18 @@ Our goal is to learn how to review and provide constructive feedback on code.
 Our goal is to learn various problem-solving strategies from each other’s code.
 We will focus on understanding how and why someone solved a problem in that manner.
 
+### Improving coding skills
+
+Our goal is to enhance our Python skills.
+We will learn Python commands
+and explore how to apply them effectively to solve problems.
+
+### Improve Unit tests
+
+Our goal is to enhance our skills in unit testing.
+We will learn from the unit tests written by our group members,
+understanding how they apply to our specific cases and improving our approach.
+
 ## Individual
 
 ### Deepen Git Knowledge  

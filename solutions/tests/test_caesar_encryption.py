@@ -3,7 +3,7 @@ import unittest
 from ..caesar_encryption import caesar_encryption
 
 
-class TestSequencedList(unittest.TestCase):
+class TestCaesarEncryption(unittest.TestCase):
     """ """
 
     def test_non_alpha_characters(self):

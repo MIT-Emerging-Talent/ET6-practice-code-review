@@ -84,9 +84,10 @@ and git for collaborative projects
 
 ### Dmytro (<dmtrklymenko05@gmail.com>)
 
-- Practice implementing and optimizing algorithms.
-- Strengthen skills in collaborative coding and teamwork.
-- Learn advanced debugging and testing techniques.
+- Practice gained knowledge from the course.
+- Remember basics of python.
+- Learn how to communicate through GitHub and learn functions inside GitHub.
+- Especially learn how to write unit tests.
 
 ---
 

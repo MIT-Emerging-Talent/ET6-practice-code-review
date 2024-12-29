@@ -22,6 +22,10 @@ def caesar_encryption(text: str, shift: int) -> str:
     Returns:
         str: The encrypted text.
 
+    Raises:
+        AssertionError: if Text is not a string.
+        AssertionError: if Shift is not an integer.
+
     >>> caesar_encryption("Hello, World!", 3)
     'Khoor, Zruog!'
 
@@ -34,13 +38,19 @@ def caesar_encryption(text: str, shift: int) -> str:
     assert isinstance(text, str), "Text must be a string."
     assert isinstance(shift, int), "Shift must be an integer."
 
-    result = ""
+    result = ""  # Initialize an empty string to store the encrypted result
+    # Iterate through each character in the input text
     for character in text:
+        # Process only alphabetic characters
         if character.isalpha():
+            # Determine the starting ASCII code ('A' for uppercase, 'a' for lowercase)
             start = ord("A") if character.isupper() else ord("a")
+            # Calculate the shifted position and wrap it using modulo 26
             shifted = (ord(character) - start + shift) % 26 + start
+            # Append the encrypted character to the result
             result += chr(shifted)
         else:
+            # Non-alphabetic characters remain as they are
             result += character
-
+    # Return the final result
     return result

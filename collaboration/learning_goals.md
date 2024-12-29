@@ -40,6 +40,15 @@ understanding how they apply to our specific cases and improving our approach.
 
 ## Individual
 
+## _Mohammad Al Salloum *Goals*_
+
+1. Improve my collaborative skills.
+2. Build a connection with talented people.
+3. Learn new coding skills.
+4. Learn how to be a team player.
+
+---
+
 ### Deepen Git Knowledge  
 
 My goal is to advance my Git proficiency to handle advanced features confidently.

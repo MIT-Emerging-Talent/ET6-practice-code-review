@@ -18,4 +18,15 @@ class TestSequencedList(unittest.TestCase):
         expected = "ZAB"
         self.assertEqual(actual, expected)
 
+    def test_no_shift(self):
+        """ """
+        actual = caesar_encryption("abc", 0)
+        expected = "abc"
+        self.assertEqual(actual, expected)
+
+    def test_negative_numbers_list(self):
+        """ """
+        actual = caesar_encryption("Python 3.9!", 5)
+        expected = "Udymts 3.9!"
+        self.assertEqual(actual, expected)
 

@@ -1,11 +1,4 @@
 import unittest
-
-# The line `from solutions.sum_range import sum_range` is importing the
-# `sum_range` function from a module named `sum_range` located in a package named
-# `solutions`. This allows you to use the `sum_range` function in your test cases
-# without having to define it again in the test file. This is a common practice in
-# Python to organize code into modules and packages for better maintainability and
-# reusability.
 from solutions.sum_range import sum_range
 
 

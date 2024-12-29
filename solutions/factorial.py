@@ -10,6 +10,7 @@ Author: Banu Ozyilmaz
 Created on: 12-28-2024
 """
 
+
 def factorial(n: int) -> int:
     """
     Calculates the factorial of a non-negative integer using recursion.

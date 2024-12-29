@@ -10,6 +10,7 @@ This script contains unit tests for the factorial function using the unittest mo
 import unittest
 from solutions.factorial import factorial
 
+
 class TestFactorial(unittest.TestCase):
     """Unit tests for the factorial function"""
 

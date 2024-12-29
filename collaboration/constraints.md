@@ -4,11 +4,11 @@
 
 To ensure efficiency and balanced contributions, the project should have
 clear boundaries.
-
+---------------------------
 Roles and responsibilities should be well-defined to prevent overlapping efforts.
-
+---------------------------
 Expectations should be set for balanced contributions, considering member's constraints.
-
+______________________________________________________________________
 A culture of constructive feedback and solution-focused discussions
 should be established.
 

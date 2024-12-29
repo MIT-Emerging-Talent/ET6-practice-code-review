@@ -62,7 +62,7 @@ ______________________________________________________________________
 | Yuri        | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
 | Alemayehu   | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
 | Dmytro      |9AM-3PM |9AM-3PM  |9AM-3PM    |9AM-3PM   |9AM-3PM |12AM-3PM  |9AM-2PM |
-| Henry       | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
+| Henry       |11AM-3PM|11AM-9PM |11AM-9PM   |11AM-3PM  |11AM-3PM| 8AM-3PM  | 8AM-3PM|
 | Khadija     | 12-6PM | 12-6PM  | 12-6PM    | 12-6PM   | 12-6PM | 12-5PM   |12PM-5PM|
 | Manezhah    | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
 | Mithchell   | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
@@ -75,7 +75,7 @@ ______________________________________________________________________
 - Olumide: _4h_;
 - Alemayehu: _4h_;
 - Dmytro: _3h-6h_;
-- Henry: _3h_;
+- Henry: _4h-6h_;
 - Khadija: _5h_;
 - Manezhah: _3h_;
 - Mithchell: _3h_;

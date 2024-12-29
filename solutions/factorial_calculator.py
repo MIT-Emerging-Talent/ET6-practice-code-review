@@ -61,5 +61,6 @@ def factorial_calculator(num: int | float) -> int:
     if num == 1:  # Base case 2
         return 1  # turn-around 2
 
-    # Recursive case: factorial(n) = n * factorial(n-1)
+    # Recursive case: factorial(num) = num * factorial(num-1)
+    # breaking-down num | Build-up by multiplying
     return num * factorial_calculator(num - 1)

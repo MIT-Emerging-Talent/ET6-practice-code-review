@@ -61,7 +61,7 @@ ______________________________________________________________________
 | Sukhrob     |12PM-5PM|12PM-5PM |12PM-5PM   | 12PM-5PM |12PM-5PM|12PM-5PM  |12PM-5PM|
 | Yuri        | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
 | Alemayehu   | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
-| Dmytro      |9AM-3PM |9AM-3PM  |9AM-3PM    |9AM-3PM   |9AM-3PM |12AM-3PM  |9AM-2PM |
+| Dmytro      |9AM-3PM |9AM-3PM  |9AM-3PM    |9AM-3PM   |9AM-3PM |12AM-3PM  | 9AM-2PM|
 | Henry       | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
 | Khadija     | 12-6PM | 12-6PM  | 12-6PM    | 12-6PM   | 12-6PM | 12-5PM   |12PM-5PM|
 | Manezhah    | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|

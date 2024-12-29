@@ -1,7 +1,19 @@
 import unittest
 from solutions.sum_range import sum_range
 
-""" Unit tests for the sum_range function. """
+""" 
+The sum_range function calculates the sum of all integers from start to end (inclusive).
+
+The function raises a TypeError if start or end is not an integer.
+
+The function ensures that start is less than or equal to end.
+
+The function calculates the sum of the range using a for loop.
+
+The function returns the total sum of the range.
+
+The function has a number of test cases to ensure it works correctly.
+"""
 
 
 class TestSumRange(unittest.TestCase):

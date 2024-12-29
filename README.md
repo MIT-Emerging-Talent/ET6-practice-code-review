@@ -18,12 +18,6 @@ Here's what defines us:
   expertise.  
 - **Knowledge Sharing**: Supporting each other.  
 
-## **Our Motto**  
-
-*"Alone, we are skilled. Together, we are unstoppable."*  
-
-We believe in the power of collaboration and strive to build solutions🌟  
-
 ---
 
 ## **📂 Repository Structure**  

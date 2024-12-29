@@ -2,21 +2,21 @@
 
 ## 🚧 Clear Boundaries for Efficiency
 
-To ensure efficiency and balanced contributions, the project should have
-clear boundaries.
-Roles and responsibilities should be well-defined to prevent overlapping efforts.
-Expectations should be set for balanced contributions, considering
-member's constraints.
-A culture of constructive feedback and solution-focused discussions
-should be established.
-A clear process for resolving conflicts is essential.
+'''To ensure efficiency and balanced contributions, the project should have
+clear boundaries.'''
 
-These boundaries aim to create a productive and supportive environment
-for the team
+''' Roles and responsibilities should be well-defined to prevent overlapping efforts.
+Expectations should be set for balanced contributions, considering member's constraints.'''
+''' A culture of constructive feedback and solution-focused discussions
+should be established.'''
+''' A clear process for resolving conflicts is essential.'''
+
+''' These boundaries aim to create a productive and supportive environment
+for the team'''
 
 ## 🌍 External Constraints
 
-The team faces several external constraints impacting collaboration:
+'''The team faces several external constraints impacting collaboration:'''
 
 * **🌍 Timezones:** Remote work across different timezones can
 be challenging.
@@ -29,8 +29,8 @@ university exams.
 
 ## ⚙️ Internal Involuntary Constraints
 
-The team faces several **internal involuntary constraints** that affect
-their progress:
+'''The team faces several **internal involuntary constraints** that affect
+their progress:'''
 
 * **📂 Git & GitHub Knowledge:** Many members lack prior knowledge or
 experience with Git and GitHub.
@@ -57,5 +57,5 @@ work and other commitments.
 * **📬 Asynchronous Communication:** Emphasis on using asynchronous methods
 like GitHub issues and pull requests.
 
-These guidelines aim to foster effective teamwork, skill development, and
-steady project progress.
+'''These guidelines aim to foster effective teamwork, skill development, and
+steady project progress.'''

@@ -28,4 +28,3 @@ if __name__ == "__main__":
         print(f"Steps required: {steps_to_floor()}")
     except Exception as e:
         print(f"Error: {e}")
-

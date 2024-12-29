@@ -1,6 +1,7 @@
 import unittest
 from steps_to_floor import steps_to_floor
 
+
 class TestStepsToFloor(unittest.TestCase):
     def test_zero_floor(self):
         self.assertEqual(steps_to_floor(0), 0)
@@ -19,6 +20,6 @@ class TestStepsToFloor(unittest.TestCase):
         with self.assertRaises(AssertionError):
             steps_to_floor(5.5)  # Float input
 
+
 if __name__ == "__main__":
     unittest.main()
-

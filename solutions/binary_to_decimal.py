@@ -16,10 +16,16 @@ def binary_to_decimal(binary_str) -> int:
     Converts a binary number represented as a string into its decimal equivalent.
 
     Parameters:
-      binary_str: A string representing the binary number (e.g., '1010')
+        binary_str: A string representing the binary number (e.g., '1010')
 
     Returns:
-      The decimal equivalent of the binary number as an integer
+        The decimal equivalent of the binary number as an integer
+
+    Raises:
+        AssertionError: If the input is a float.
+        AssertionError: If the input is None.
+        AssertionError: If the input is not a string.
+        AssertionError: If the input contains non-binary characters.
 
     >>> binary_to_decimal ("1010")
     10

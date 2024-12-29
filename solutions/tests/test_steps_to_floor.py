@@ -1,5 +1,5 @@
 import unittest
-from steps_to_floor import steps_to_floor
+from ..steps_to_floor import steps_to_floor
 
 
 class TestStepsToFloor(unittest.TestCase):

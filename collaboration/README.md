@@ -4,7 +4,7 @@
 ## Summary of Group Norms
 
     We are mature, respectful, and trust one another to be consistently trying
-    their best to contribute to the group. We also hope for thegroup to stay 
+    their best to contribute to the group. We also hope for the group to stay 
     active as a helpful resource for the main CDS program.
 <!-- group norms list -->
 ## Group Norms List

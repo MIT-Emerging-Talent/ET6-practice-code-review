@@ -19,3 +19,6 @@ Raneem Rami: I aim to collaborate with my team members to create well-documented
 and tested solutions by helping them and benefiting from their knowledge. I also
 aim to gain more skills in using GitHub efficiently as I am so excited to use it
 again in the future.
+
+Pyae Linn: My goal is to become a skilled and impactful AI or ML engineer,
+leveraging my expertise to create innovative solutions.

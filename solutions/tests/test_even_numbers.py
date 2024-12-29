@@ -43,11 +43,22 @@ class TestAllEven(unittest.TestCase):
         self.assertTrue(even_numbers([0]))
 
     def test_non_list_input(self):
-        """It should raise TypeError with a specific message
-        when the input is not a list"""
+        """It should raise AssertionError when the input is not a list"""
         with self.assertRaises(AssertionError) as context:
             even_numbers(123)
         self.assertEqual(str(context.exception), "Input should be a list")
+
+    def test_none_input(self):
+        """It should raise AssertionError when the input is None"""
+        with self.assertRaises(AssertionError) as context:
+            even_numbers(None)
+        self.assertEqual(str(context.exception), "Input cannot be None")
+
+    def test_non_integer_elements(self):
+        """It should raise AssertionError if any element is not an integer"""
+        with self.assertRaises(AssertionError) as context:
+            even_numbers([2, "4", 6])
+        self.assertEqual(str(context.exception), "All elements in the list must be integers")
 
 
 if __name__ == "__main__":

@@ -30,3 +30,10 @@ class TestSequencedList(unittest.TestCase):
         expected = "Udymts 3.9!"
         self.assertEqual(actual, expected)
 
+    def test_invalid_text_type(self):
+        with self.assertRaises(AssertionError):
+            caesar_encryption(123, 3)
+
+    def test_invalid_shift_type(self):
+        with self.assertRaises(AssertionError):
+            caesar_encryption("Hello", "three")

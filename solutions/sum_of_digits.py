@@ -42,5 +42,5 @@ def sum_of_digits(number: int) -> int:
 
     if number < 0:
         digit_sum *= -1
-        
+
     return digit_sum

@@ -31,6 +31,7 @@ Together, we dive into coding and testing challenges, sharpening our problem-sol
 - [Our Constraints](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-24/blob/main/collaboration/constraints.md)
 - [Our Learning Goals](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-24/blob/main/collaboration/learning_goals.md)
 - [Our Retrospectives](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-24/blob/main/collaboration/retrospective.md)
+- [Our challenges](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-24/tree/main/solutions)
 
 ---
 
@@ -41,8 +42,8 @@ Our squad is made up of some seriously talented people who bring the 🔥 to thi
 - **Abel Mesfin Teka**
 - **Banchiamlak**
 - **Gai Samuel**
-- **Linah Khayri**
 - **Khusro Sakhi**
+- **Linah Khayri**
 - **Mohamed Elnageeb**
 - **Robel Mengsteab**
 - **Viktoriya Haiduk**

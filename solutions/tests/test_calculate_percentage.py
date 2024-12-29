@@ -6,6 +6,7 @@ Tests for calculate percentage function
 Created on 26.12.2024
 @author: Yevheniia Rudenko
 """
+
 import unittest
 
 from ..calculate_percentage import calculate_percentage

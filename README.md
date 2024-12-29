@@ -226,7 +226,7 @@ unittest /tests
 - **Developer and Reviewer:** Suhrob Muborakshoev, Mithchell Cenatus
   - Develop and review code submissions.
   - Assist with CI/CD tasks as needed.
-- **Developer and Reviewer:** Alemayehu Kiros, Khadija al Ramlawi
+- **Developer and Reviewer:** Alemayehu Kiros, Khadija Al Ramlawi
   - Develop and review code submissions.
   - Assist with documentation tasks as needed.
 - **Developer and Reviewer:** Henry Ogoe, Olumide Kolawole

@@ -65,8 +65,8 @@ _### How Many Hours Everyone Has Per Day on Average_
 ---
 
 This README is structured to ensure a clear understanding of our communication
-strategy and availability. Time frames are flexible as they can be adjusted over 
-Slack or WhatsApp.
+strategy and availability. Time frames are flexible as they can be adjusted
+over Slack or WhatsApp.
 
 ## Asking for Help
 

@@ -1,3 +1,17 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Test module for caesar_encryption function.
+
+Test categories:
+    - Standard cases: non-alphabetic, irregular shifts, and special characters
+    - Edge cases: empty string, single character, and shift wraparound
+    - Defensive tests: wrong input types, assertions
+
+Created on 28/12/2024
+@author: Caesar Ghazi
+"""
+
 import unittest
 
 from ..caesar_encryption import caesar_encryption
@@ -6,8 +20,8 @@ from ..caesar_encryption import caesar_encryption
 class TestCaesarEncryption(unittest.TestCase):
     """Test if the encryption is correct using caesar encryption."""
 
-    # Regular test cases
-    def test_non_alpha_characters(self):
+    # Standard test cases
+    def test_non_alphabetic_characters(self):
         """it should shift alphabetic characters, while non-alphabetic characters remain unchanged."""
         actual = caesar_encryption("Hello, World!", 3)
         expected = "Khoor, Zruog!"
@@ -33,32 +47,20 @@ class TestCaesarEncryption(unittest.TestCase):
 
     # Edge cases
     def test_empty_string(self):
-        """
-        Test that an empty string returns an empty string.
-        """
+        """it should return an empty string."""
         actual = caesar_encryption("", 5)
         expected = ""
         self.assertEqual(actual, expected)
 
-    def test_single_character_uppercase(self):
-        """
-        Test shifting a single uppercase character.
-        """
+    def test_single_character(self):
+        """it should shift a single character one time."""
         actual = caesar_encryption("A", 1)
         expected = "B"
         self.assertEqual(actual, expected)
 
-    def test_single_character_lowercase(self):
-        """
-        Test shifting a single lowercase character.
-        """
-        actual = caesar_encryption("a", 1)
-        expected = "b"
-        self.assertEqual(actual, expected)
-
     def test_shift_wraparound(self):
-        """ it should  wrap around correctly (Z -> B)(x -> a)."""
-        actual = caesar_encryption("Zx", 2)
+        """it should  wrap around correctly (Z -> B)(y -> a)."""
+        actual = caesar_encryption("Zy", 2)
         expected = "Ba"
         self.assertEqual(actual, expected)
 

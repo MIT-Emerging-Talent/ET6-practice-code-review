@@ -45,7 +45,7 @@ def caesar_encryption(text: str, shift: int) -> str:
         if character.isalpha():
             # Determine the starting ASCII code ('A' for uppercase, 'a' for lowercase)
             start = ord("A") if character.isupper() else ord("a")
-            # Calculate the shifted position and wrap it using modulo 26
+            # Calculate the shifted position and wrap it using mod 26
             shifted = (ord(character) - start + shift) % 26 + start
             # Append the encrypted character to the result
             result += chr(shifted)

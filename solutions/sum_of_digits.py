@@ -10,19 +10,20 @@ Created on 25 Dec 2024
 @author: Noorelsalam Almakki
 """
 
+
 def sum_of_digits(number: int) -> int:
-    """The sum_of_digits function takes an integer number and returns the sum of 
+    """The sum_of_digits function takes an integer number and returns the sum of
     its digits.
 
-    Parameters: 
+    Parameters:
         - number (int): any integer number.
-        
+
     Returns:
         - sum (int): the sum of the digits of the input number.
 
     Raises:
         - AssertionError: if the input number is not an integer.
-            
+
     Example:
     >>> sum_of_digits(123)
     6
@@ -34,9 +35,9 @@ def sum_of_digits(number: int) -> int:
     -6
     """
     assert isinstance(number, int), "The input number must be an integer"
-    
+
     digit_sum = 0
-    
+
     for digit in str(abs(number)):
         digit_sum += int(digit)
 

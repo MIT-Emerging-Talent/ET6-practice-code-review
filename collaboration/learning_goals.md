@@ -17,6 +17,10 @@ We aim to encourage all members to contribute equally to the project.
 - Review Code Collaboratively:
 Our goal is to learn reviewing and providing constructive feedback on code.
 
+- Leaning From Each Other:
+  Our goal is to learn various problem solving strategies from each others code.
+  We will focus on understanding how and why someone solved a problem in that manner.
+
 ## Individual
 
 - Deepen Git Knowledge:

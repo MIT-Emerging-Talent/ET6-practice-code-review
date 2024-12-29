@@ -15,12 +15,6 @@
 
 5. Develop a shared understanding of deadlines and milestones using GitHub Projects.
 
-6. Encourage participation, mutual support, and shared accountability.
-
-7. Ensure clarity, active listening, and regular updates to maintain alignment.
-
-8. Emphasize respectful communication to keep the team focused on goals and progress.
-
 ## Individual Goals
 
 **Fikre's Goals:**
@@ -58,3 +52,10 @@
     -Gain proficiency in Git and GitHub functionalities, including advanced features
     -Develop a disciplined workflow by adhering to deadlines for individual contributions.
     -Respond constructively to feedback and use it to improve personal contributions.
+
+**Ammar's Goals:**
+
+    - Be able to write solution code that is well-structured and easily understood by all group members
+    - Practice documenting and testing skills while writing the solution code for problems.
+    - Learn from other members' code, documentation, and tests during the review process.
+    - Learn from other members' reviews of my code.

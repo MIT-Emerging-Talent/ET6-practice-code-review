@@ -4,14 +4,14 @@
 """
 Module: cumulative_sum
 
-Description: 
-    This module provides a function to calculate the cumulative sum of 
-    a list of numbers. It is useful for applications requiring progressive 
-    accumulation of values, such as financial calculations, data analysis, 
+Description:
+    This module provides a function to calculate the cumulative sum of
+    a list of numbers. It is useful for applications requiring progressive
+    accumulation of values, such as financial calculations, data analysis,
     or custom mathematical operations.
 
 Module Contents:
-    - cumulative_sum(numbers: list) -> list: 
+    - cumulative_sum(numbers: list) -> list:
         Computes and returns a list of cumulative sums from the input list.
 
 Author: Falaq Youniss

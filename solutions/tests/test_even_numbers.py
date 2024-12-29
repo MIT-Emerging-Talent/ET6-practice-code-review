@@ -58,7 +58,9 @@ class TestAllEven(unittest.TestCase):
         """It should raise AssertionError if any element is not an integer"""
         with self.assertRaises(AssertionError) as context:
             even_numbers([2, "4", 6])
-        self.assertEqual(str(context.exception), "All elements in the list must be integers")
+        self.assertEqual(
+            str(context.exception), "All elements in the list must be integers"
+        )
 
 
 if __name__ == "__main__":

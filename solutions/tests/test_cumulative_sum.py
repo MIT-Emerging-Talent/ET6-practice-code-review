@@ -1,20 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
-
 """
 Module: test_cumulative_sum
 
-Description: 
+Description:
     This module contains test cases for the `cumulative_sum` function defined
-    in the `cumulative_sum.py` module. It tests the function's behavior with 
-    various input scenarios, ensuring that it handles different edge cases and 
+    in the `cumulative_sum.py` module. It tests the function's behavior with
+    various input scenarios, ensuring that it handles different edge cases and
     returns the expected cumulative sums.
 
 Test Categories:
     - Standard cases: List of positive integers, negative integers, and floating-point numbers.
     - Edge cases: Empty list, single-element list, list with zeros, large number list.
-    - Defensive tests: None input, Non-list inputs, list with non-numeric elements. 
+    - Defensive tests: None input, Non-list inputs, list with non-numeric elements.
 
 Author: Falaq Youniss
 Date: 29/12/2024

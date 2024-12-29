@@ -67,3 +67,13 @@
 2. fully utilize GitHub
 
 3. collaborate efficiently
+
+-Heba
+
+1. Start solving coding challenges on LeetCode
+
+2. improve my problem-solving abilities.
+
+3. better managing my time
+
+4. prioritizing tasks to increase productivity

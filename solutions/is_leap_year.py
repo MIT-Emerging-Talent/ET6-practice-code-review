@@ -20,9 +20,11 @@ def is_leap_year(year) -> bool:
     Returns:
         bool: True if the year is a leap year, False otherwise.
 
-    Raises:
-      AssertionError: if the argument is not an integer
-      AssertionError: if the argument is less than 0
+     Raises:
+        AssertionError: If the input is a string.
+        AssertionError: If the input is a negative year.
+        AssertionError: If the input is None.
+        AssertionError: If the input is a float.
 
     >>> is_leap(2000)
     True

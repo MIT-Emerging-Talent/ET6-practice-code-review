@@ -60,7 +60,8 @@ Enhance programming skills through teamwork, sharing knowledge, and solving
 
 ### **Ammar's Goals:**
 
-- Be able to write solution code that is well-structured and easily understood by all group members
+- Be able to write solution code that is well-structured and easily
+understood by all group members
 - Practice documenting and testing skills while writing the solution code for problems.
 - Learn from other members' code, documentation, and tests during the review process.
 - Learn from other members' reviews of my code.

@@ -1,6 +1,8 @@
 class ReverseIntegerError(Exception):
     """Custom exception for reverse integer errors."""
+
     pass
+
 
 def reverse(input_number: int) -> int:
     """
@@ -32,7 +34,7 @@ def reverse(input_number: int) -> int:
     assert isinstance(input_number, int), "Input must be an integer"
 
     # Define the range for signed 32-bit integers
-    INT_MIN, INT_MAX = -2**31, 2**31 - 1
+    INT_MIN, INT_MAX = -(2**31), 2**31 - 1
 
     # Raise custom exception if input is out of bounds
     if input_number < INT_MIN or input_number > INT_MAX:

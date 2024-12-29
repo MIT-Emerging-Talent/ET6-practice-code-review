@@ -16,7 +16,7 @@ Notes:
     - Space complexity: O(1) (in-place).
 
 Created on 26 12 2024
-@author: Mohamed Elnageeb
+@author: Mohamed-Elnageeb
 """
 
 from typing import List  # Importing List for type annotations

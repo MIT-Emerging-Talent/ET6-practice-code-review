@@ -3,7 +3,7 @@
 """
 Created on 26 10 2024
 
-@author: Mohamed Elnageeb
+@author: Mohamed-Elnageeb
 """
 
 import random
@@ -69,3 +69,7 @@ class TestSortColors(unittest.TestCase):
         expected = list(sorted(nums))
         sort_colors(nums)
         self.assertEqual(nums, expected)
+
+
+if __name__ == "__main__":
+    unittest.main()

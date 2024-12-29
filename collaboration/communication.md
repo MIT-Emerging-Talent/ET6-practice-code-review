@@ -13,15 +13,15 @@
 
 This is the schedule for each week, and it will be updated weekly.
 
-| Day       | How  | The topic of discussion                    |
+| Day       | How  | The topic of discussion                   |
 |-----------|:----:|-------------------------------------------|
-| Monday    | Zoom |                                           |
-| Tuesday   | Zoom |                                           |
+| Monday    | Zoom | N/A                                       |
+| Tuesday   | Zoom | N/A                                       |
 | Wednesday | Zoom | GitHub Issues and Pull Request Discussion |
-| Thursday  | Zoom |                                           |
-| Friday    | Zoom |                                           |
-| Saturday  | Zoom |                                           |
-| Sunday    | Zoom |                                           |
+| Thursday  | Zoom | Discuss documentation and testing         |
+| Friday    | Zoom | Continuous Integration (CI) Checks        |
+| Saturday  | Zoom | No Meeting                                |
+| Sunday    | Zoom | Conflicts and CI checks discussion.       |
 
 ---
 
@@ -54,8 +54,8 @@ use WhatsApp.
 - **Fatima**: _5h_  
 - **Madiha**: _5h_  
 - **M Shahroz**: _4h_  
-- **Member 2**: _4h_  
-- **Member 3**: _3h_  
+- **Member 4**: _4h_  
+- **Member 5**: _3h_  
 
 ---
 
@@ -105,22 +105,76 @@ use WhatsApp.
   - Explore more about pull requests and branches.  
   - Explore issues on GitHub.  
 
+#### Meeting 5
+
+<!-- Meeting Overview -->
+- **Date:** 25-12-2024
+- **Time:** 10:00 PM PKT
+- **Location:** Zoom
+
+<!-- Agenda Points -->
+1. **Discuss GitHub Issues and Pull Requests**
+   - Topic: How and when to use GitHub Issues and Pull Requests (Important).
+   - Resource: Watch this [video](https://www.youtube.com/watch?v=TKJ4RdhyB5Y)
+   to learn about GitHub issues.
+   - Reference: [communication.md](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-30/blob/main/collaboration/communication.md)
+
+2. **Discuss and Assign the Chosen Problems**
+   - Discuss and choose problems to work on.
+   - Assign specific problems to each team member.
+
+#### Meeting 6
+
+<!-- Meeting Overview -->
+- **Date:** 25-12-2024
+- **Time:** 10:00 PM PKT
+- **Location:** Zoom
+
+<!-- Agenda Points -->
+1. **Discuss documentation and testing**
+   - Topic: Documentation and testing.
+   - Resource: Watch this [Repository to study](https://github.com/MIT-Emerging-Talent/ET6-Programming-With-Python/tree/main/3_documenting_and_testing)
+
+2. **Solve a Simple Problem**
+   - Collaboratively solve a simple problem.
+   - Discuss different approaches and finalize the solution.
+
+3. **Write Unit Tests**
+   - Write unit tests for the solved problem.
+   - Discuss the importance of unit testing and share best practices.
+
+4. **Write Documentation**
+   - Create documentation for the solved problem and its tests.
+   - Discuss the format and tools for writing clear and concise documentation.
+
+#### Meeting 7
+<!-- Meeting Overview -->
+- **Date:** 27-12-2024
+- **Time:** 10:00 PM PKT
+- **Location:** Zoom
+
+<!-- Agenda Points -->
+### 1. Continuous Integration (CI) Checks
+
+- **Discussion Points:**
+  - What is Continuous Integration (CI), and why is it important for the project?
+  - Benefits of CI:
+    - Early detection of issues.
+    - Maintaining code quality through automated checks.
+- **Resource:**  
+  [Watch this CI Overview Video](https://www.youtube.com/watch?v=mFFXuXjVgkU)
+
+### 2. Discuss the Issues
+
+- **Discussion Points:**
+  - Review the list of unresolved issues in the repository.
+  - Prioritize the most critical issues.
+  - Brainstorm solutions and assign responsibilities.
+  - Identify any additional tools or resources needed to resolve the issues.
+
 ---
 
 ### Upcoming Meetings
-
-#### Meeting 5
-
-- **Date:** 25-12-2024  
-- **Discussion Topics:**  
-  - [Point 1]  
-  - [Point 2]  
-- **Decisions Made:**  
-  - [Decision 1]  
-  - [Decision 2]  
- **Action Items:**  
-  - [Action 1]  
-  - [Action 2]  
 
 ---
 
@@ -132,4 +186,4 @@ based on how long you've been stuck on the same problem:
 
 1. _0 -> 30 min_: Try on your own  
 2. _30 -> 60 min_: Ask your group for help  
-3. _60+ min_: Tag your coaches in Slack or GitHub
+3. _60+ min_: Tag your coaches in Slack or GitHub.

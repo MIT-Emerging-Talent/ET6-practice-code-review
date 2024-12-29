@@ -59,3 +59,11 @@
 3.Time and Task Management
 
 4.get MIT certified
+
+-OmniaNs
+
+1. build good programming habits
+
+2. fully utilize GitHub
+
+3. collaborate efficiently

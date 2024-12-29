@@ -9,7 +9,7 @@ Created on 2024-12-28
 """
 
 import unittest
-from solutions.even_numbers import even_numbers
+from ..even_numbers import even_numbers
 
 
 class TestAllEven(unittest.TestCase):

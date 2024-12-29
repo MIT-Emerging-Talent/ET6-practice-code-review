@@ -19,11 +19,11 @@ class TestCalculatePercentage(unittest.TestCase):
         """It should return percentage for positive numbers"""
         self.assertEqual(calculate_percentage(50, 200), 25.0)
 
-    def test_zero_part(self):
+    def test_zero_numerator(self):
         """It should return 0% when the first number is zero"""
         self.assertEqual(calculate_percentage(0, 100), 0.0)
 
-    def test_whole_zero(self):
+    def test_denominator_zero(self):
         """It should raise ZeroDivisionError if the second number is zero"""
         with self.assertRaises(ZeroDivisionError):
             calculate_percentage(50, 0)

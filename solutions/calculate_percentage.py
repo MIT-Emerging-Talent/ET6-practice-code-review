@@ -12,17 +12,17 @@ Created on 26.12.2024
 
 
 def calculate_percentage(numerator: float, denominator: float) -> float:
-    """Calculate what percentage the first number is of the second. This function calculates the percentage by dividing part by whole and then multiplying by 100.
+    """This function calculates the percentage by dividing numerator by denominator and then multiplying by 100.
 
     Parameters:
-        part: float, the numerator value
-        whole: float, the denominator value
+        numerator: float, the numerator value
+        denominator: float, the denominator value
 
-    Returns -> float: the percentage of `part` in `whole`
+    Returns -> float: the percentage of `numerator` in `denominator`
 
     Raises:
         AssertionError: if any argument is not a number
-        ZeroDivisionError: if `whole` is zero
+        ZeroDivisionError: if `denominator` is zero
 
     >>> calculate_percentage(50, 200)
     25.0
@@ -31,9 +31,9 @@ def calculate_percentage(numerator: float, denominator: float) -> float:
     >>> calculate_percentage(0, 100)
     0.0
     """
-    assert isinstance(part, (int, float)), "part must be a number"
-    assert isinstance(whole, (int, float)), "whole must be a number"
-    if whole == 0:
-        raise ZeroDivisionError("whole must not be zero")
+    assert isinstance(numerator, (int, float)), "numerator must be a number"
+    assert isinstance(denominator, (int, float)), "denominator must be a number"
+    if denominator == 0:
+        raise ZeroDivisionError("denominator must not be zero")
 
-    return (part / whole) * 100
+    return (numerator / denominator) * 100

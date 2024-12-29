@@ -3,16 +3,16 @@
 ## Collective
 
 - Improve Collaboration Skills:
-We aim to foster effective teamwork by using Git to manage our codebase.
-This includes collaborating effectively and resolving conflicts efficiently.
+Our goal is to work together as a team by using Git to manage our code.
+We will learn how to collaborate effectively and resolve conflicts.
 
 - Master Version Control:
-Our goal is to ensure all group members become proficient in Git commands.
-This includes branching, merging, and creating pull requests.
+We want everyone on the team to become comfortable with using Git.
+This includes learning how to make changes, create branches,pull requests.
 
 - Understand Team Dynamics:
-Our goal is to ensure that team members with varying skill levels are supported.
-We aim to encourage all members to contribute equally to the project.
+Our goal is to support all team members, no matter their skill level.
+We will encourage everyone to participate equally and contribute to the project.
 
 - Review Code Collaboratively:
 Our goal is to learn reviewing and providing constructive feedback on code.
@@ -34,5 +34,9 @@ I will provide constructive and actionable feedback during reviews.
 - Improve Attention to Detail:
 My goal is to learn carefully reviewing code to identify potential bugs, inefficiencies,
 or areas that could benefit from optimization.
+
+- Enhance Communication Skills:
+My goal is to improve my ability to articulate coding concerns or suggestions
+clearly and effectively during discussions.
 
 ##

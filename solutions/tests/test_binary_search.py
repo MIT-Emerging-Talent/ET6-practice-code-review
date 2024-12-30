@@ -18,6 +18,22 @@ class TestBinarySearch(unittest.TestCase):
     """A class for testing the binary_search function."""
     
     # Standard test cases
-    def test_find_middle_element_in_standard_list(self):
-        """It should return the index of the middle element in a standard list."""
+    def test_find_middle_element(self):
+        """It should return the index of the middle element."""
         self.assertEqual(binary_search([1, 2, 3, 4, 5], 3), 2)
+        
+    def test_find_last_element(self):
+        """It should return the index of the last element."""
+        self.assertEqual(binary_search([10, 20, 30, 40, 50], 50), 4)
+
+    def test_find_first_element(self):
+        """It should return the index of the first element."""
+        self.assertEqual(binary_search([1, 2, 3, 4, 5], 1), 0)
+
+    def test_find_float(self):
+        """It should return the index of the float element."""
+        self.assertEqual(binary_search([0.1, 0.2, 0.3, 0.4, 0.5], 0.4), 3)
+
+    def test_find_string(self):
+        """It should return the index of the string element."""
+        self.assertEqual(binary_search(["apple", "banana", "cherry"], "banana"), 1)

@@ -98,9 +98,9 @@ Welcome to our project! We're excited to share a bit about the vibrant team
    I love what make people laugh. It's all about bringing joy and a positive
     vibe to our work!
 
-### 2. [Team Member Name]
+### 2. Novel Yonas
 
-- Fun Fact: [Fun fact or something they’d like to share.]
+- Fun Fact: I can spend 8 hrs in GYM.
 
 ### 3. [Team Member Name]
 

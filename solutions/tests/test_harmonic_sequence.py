@@ -2,7 +2,7 @@
 Test module for alternate_elements function.
 Contains intentionally buggy tests for debugging practice.
 
-    Test categories:
+Test categories:
     - Standard cases: The input is a list of integers.
     - Edge cases: The input is equal to 0 or 1.
     - Defensive cases: wrong input types, assertions

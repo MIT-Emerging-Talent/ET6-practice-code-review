@@ -76,5 +76,3 @@ Our goal is to create a family-like, friendly, and collaborative work environmen
 in the team.
 - Show that every team member's voice matters.
 - Recognize team achievements publicly.
-  
-

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Test module for fizz_buzz implementation.
 
@@ -24,6 +26,7 @@ class TestFizzBuzz(unittest.TestCase):
     - Edge cases and boundary values
     """
 
+    # defensive assertions
     def test_invalid_type_raises_assertion_error(self):
         """Test that non-integer input raises AssertionError."""
         with self.assertRaises(AssertionError):
@@ -39,6 +42,7 @@ class TestFizzBuzz(unittest.TestCase):
         with self.assertRaises(AssertionError):
             fizz_buzz(-1)
 
+    # stander tests
     def test_one_returns_single_item(self):
         """Test output for input of 1."""
         self.assertEqual(fizz_buzz(1), ["1"])
@@ -55,6 +59,20 @@ class TestFizzBuzz(unittest.TestCase):
         """Test output including first FizzBuzz."""
         result = fizz_buzz(15)
         self.assertEqual(result[-3:], ["13", "14", "FizzBuzz"])
+
+    # edge cases
+    def test_large_number(self):
+        """Test FizzBuzz with a large input number."""
+        result = fizz_buzz(1000000)
+        #  Test last elements
+        self.assertEqual(result[999999], "Buzz")  # 1000000 is divisible by 5
+
+    def test_list_length_large_number(self):
+        """Test FizzBuzz output list length with a large input number."""
+        n = 1000000
+        result = fizz_buzz(n)
+        # Test length
+        self.assertEqual(len(result), n)
 
     def test_string_conversion(self):
         """Test that non-special numbers are converted to strings."""

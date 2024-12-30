@@ -61,3 +61,12 @@ To identify potential bugs, inefficiencies or areas that could benefit from opti
 
 My goal is to improve my ability to articulate coding concerns or suggestions  
 clearly and effectively during discussions.
+
+### Ahmed Khalifa
+
+- Enhance my coding skills by Learning to document files effectively to,
+understand and implement test cases, and adopt best practices for clean and
+readable code.
+- Develop version control expertise using Git and collaborate with others using GitHub.
+- Strengthen communication skills, collaborate, and asking for and offering help.
+- Learn the art of memes from Tamara.

@@ -55,7 +55,6 @@ def list_to_string(lst: list) -> str:
 
     # Iterate through the list and convert each element to a string
     for element in lst:
-
         result += str(element)  # Convert each element to string and concatenate
 
     return result

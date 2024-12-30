@@ -26,15 +26,17 @@ def sort_numbers(numbers):
     else:
         return "Isn't possible to sort"
 
+
 # Console interaction
 def console_sort():
     input_numbers = input("Enter numbers separated by commas: ")
     try:
-        numbers = [float(num) for num in input_numbers.split(',')]
+        numbers = [float(num) for num in input_numbers.split(",")]
         result = sort_numbers(numbers)
         print(result)
     except ValueError:
         print("Invalid input. Please enter numbers only.")
+
 
 if __name__ == "__main__":
     console_sort()

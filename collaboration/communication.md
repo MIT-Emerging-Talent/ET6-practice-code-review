@@ -77,7 +77,7 @@ ______________________________________________________________________
 - Dmytro: _3h-6h_;
 - Henry: _4h-6h_;
 - Khadija: _5h_;
-- Manezhah: _3h_;
+- Manezhah: _4h_;
 - Mithchell: _3h_;
 - Mykyta: _3h_;
 

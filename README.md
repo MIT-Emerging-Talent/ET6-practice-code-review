@@ -39,18 +39,18 @@ Together, we dive into coding and testing challenges, sharpening our problem-sol
 
 Our squad is made up of some seriously talented people who bring the 🔥 to this project. Check out the crew making it all come to life:
 
-- **Abel Mesfin Teka**
-- **Banchiamlak**
-- **Gai Samuel**
-- **Khusro Sakhi**
-- **Linah Khayri**
-- **Mohamed Elnageeb**
-- **Robel Mengsteab**
-- **Viktoriya Haiduk**
-- **Yonatan Yishkl Yifat**
-- **Zeinab Mohammed**
+- [**Abel Mesfin Teka**](https://github.com/TekaMesfinAbel)
+- [**Banchiamlak**](https://github.com/BanchiHub)
+- [**Gai Samuel**](https://github.com/GaiSamuel)
+- [**Khusro Sakhi**](https://github.com/Khusro-S)
+- [**Linah Khayri**](https://github.com/linahKhayri)
+- [**Mohamed Elnageeb**](https://github.com/Mohamed-Elnageeb)
+- [**Robel Mengsteab**](https://github.com/robiel0143)
+- [**Viktoriya Haiduk**](https://github.com/ViktoriyaHaiduk)
+- [**Yonatan Yishkl Yifat**](https://github.com/YonatanBest)
+- [**Zeinab Mohammed**](https://github.com/Zeinab15)
 
-### 💥 Here We Go  
+### 💥 Here We Go
 
 With the team all set, we are ready to make some magic happen. Stay with us for the ride, things are about to get awesome! 💪
 

@@ -48,7 +48,7 @@ Welcome to our collaborative journey! This document outlines our shared aspirati
 strategies.  
 - Explore optimization techniques for better performance and scalability.  
 
-### **Member 2**  
+### **Wuor Bhang**  
 
 - Hone skills in creating detailed, comprehensive documentation for solutions.  
 - Experiment with functional programming techniques for elegant and efficient

@@ -24,10 +24,10 @@ Here’s a quick introduction to everyone, along with a fun fact about them:
 - **Zaid** 🎯  
   Fun Fact: I am in the top 1% of first-person shooter players.  
 
-- **Aung** 🔭
+- **Aung** 🔭  
   Fun Fact: I enjoy stargazing, skywatching, and immersing myself in nature.  
 
-- **Cyne** 🤓🧬
+- **Cyne** 🤓🧬  
   Fun Fact: I am a neuroscience geek!
 
 ## 📌 Repository Purpose  

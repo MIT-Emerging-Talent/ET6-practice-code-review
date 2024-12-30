@@ -37,3 +37,16 @@ class TestBinarySearch(unittest.TestCase):
     def test_find_string(self):
         """It should return the index of the string element."""
         self.assertEqual(binary_search(["apple", "banana", "cherry"], "banana"), 1)
+        
+    # Edge test cases
+    def test_single_element_list(self):
+        """Test finding the element in a single-element list."""
+        self.assertEqual(binary_search([42], 42), 0)
+
+    def test_smallest_element_in_list(self):
+        """Test finding the smallest element in the list."""
+        self.assertEqual(binary_search([1, 2, 3, 4, 5], 1), 0)
+
+    def test_largest_element_in_list(self):
+        """Test finding the largest element in the list."""
+        self.assertEqual(binary_search([1, 2, 3, 4, 5], 5), 4)

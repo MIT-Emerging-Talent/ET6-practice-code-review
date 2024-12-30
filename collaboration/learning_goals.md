@@ -40,33 +40,40 @@ understanding how they apply to our specific cases and improving our approach.
 
 ## Individual
 
-### [Mukuna Kabeya]
+## _Mohammad Al Salloum_
 
-#### Deepen Git Knowledge  
+1. Improve my collaborative skills.
+2. Build a connection with talented people.
+3. Learn new coding skills.
+4. Learn how to be a team player.
 
-My goal is to advance my Git proficiency to handle advanced features confidently.
-This includes using stash, rebase, and resolving complex merge conflicts.
+---
 
-#### Improve Code Review Skills  
+## _Mukuna Kabeya_
 
-My goal is to focus on identifying areas for improvement in others’ code.  
-I will provide constructive and actionable feedback during reviews.
+1. Advance my Git proficiency to handle advanced features confidently,
+    including using stash, rebase, and resolving complex merge conflicts.
+2. Improve my code review skills by focusing on identifying areas for
+    improvement in others’ code and providing constructive
+    and actionable feedback during reviews.
+3. Enhance my attention to detail
+    by carefully reviewing code to identify potential bugs,
+    inefficiencies, or areas that could benefit from optimization.
+4. Improve my communication skills to articulate coding concerns
+    or suggestions clearly and effectively during discussions.
 
-#### Improve Attention to Detail  
+---
 
-My goal is to learn how to carefully review code.
-To identify potential bugs, inefficiencies or areas that could benefit from optimization.
+## _Ahmed Khalifa_
 
-#### Enhance Communication Skills  
-
-My goal is to improve my ability to articulate coding concerns or suggestions  
-clearly and effectively during discussions.
-
-### Ahmed Khalifa
-
-- Enhance my coding skills by Learning to document files effectively to,
-understand and implement test cases, and adopt best practices for clean and
+1. Enhance my coding skills by Learning to document files effectively to,
+understand and implement test cases, and
+ adopt best practices for clean and
 readable code.
-- Develop version control expertise using Git and collaborate with others using GitHub.
-- Strengthen communication skills, collaborate, and asking for and offering help.
-- Learn the art of memes from Tamara.
+2. Develop version control expertise
+    using Git and collaborate with others using GitHub.
+3. Strengthen communication skills, collaborate,
+    and asking for and offering help.
+4. Learn the art of memes from Tamara.
+
+---

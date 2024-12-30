@@ -1,3 +1,5 @@
+# Collaboration
+
 <!-- group norms summary -->
 Our group values transparency, mutual respect, and collaboration, fostering trust
 through open communication, constructive feedback, and cultural sensitivity.
@@ -62,5 +64,3 @@ should feel included.
 
 - **Supportive Group Dynamics:** Offering supportive group study sessions to help
 each other through challenging topics.
-
-

@@ -18,16 +18,13 @@ Example:
 
 def sum_range(start, end):
     """
-
     Calculate the sum of all integers from start to end (inclusive).
 
     Args:
         start (int): The starting integer.
         end (int): The ending integer.
-
     Returns:
         int: The sum of all integers from start to end.
-
     Raises:
         TypeError: If start or end is not an integer.
     """

@@ -9,15 +9,10 @@ Tests cases:
 - standard test cases : test_positive_range, test_reversed_range, 
 test_single_number, test_negative_range, test_negative_range_reversed,
 test_large_range, test_large_range_reversed
-
 - Exception test cases : test_float_range, test_string_range, test_mixed_range
-
 - Performance test cases : test_large_range, test_large_range_reversed
-
 - Boundary test cases : test_single_number, test_negative_range,
-
 -error test cases : test_float_range, test_string_range, test_mixed_range
-
 """
 
 import unittest

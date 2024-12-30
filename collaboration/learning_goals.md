@@ -70,10 +70,10 @@ understanding how they apply to our specific cases and improving our approach.
 understand and implement test cases, and
  adopt best practices for clean and
 readable code.
-3. Develop version control expertise
+2. Develop version control expertise
     using Git and collaborate with others using GitHub.
-4. Strengthen communication skills, collaborate,
+3. Strengthen communication skills, collaborate,
     and asking for and offering help.
-5. Learn the art of memes from Tamara.
+4. Learn the art of memes from Tamara.
 
 ---

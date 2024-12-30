@@ -1,7 +1,7 @@
-# 🐍 Python Challenges Collaborative Repository  
+# 🐍 AI (Actual Intellgence)  
 
-Welcome to the **Python Challenges Repository**!
-This repository is a space where our group collaborates to solve fun and
+Welcome to the **Actual Intellgence (AI) group**!
+This group is a space where our group collaborates to solve fun and
 challenging Python problems while enhancing our coding skills.  
 
 ## 👥 Meet the Team  

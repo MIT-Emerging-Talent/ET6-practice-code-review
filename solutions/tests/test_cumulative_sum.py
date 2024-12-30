@@ -57,7 +57,7 @@ class TestCumulativeSum(unittest.TestCase):
         self.assertEqual(cumulative_sum([1.0, -2, -3.0, 4]), [1, -1, -4, 0])
 
     def test_same(self):
-        """It should return a cumulative list of same positive integers."""
+        """It should return a cumulative list of  positive integers."""
         self.assertEqual(cumulative_sum([3, 3, 3]), [3, 6, 9])
 
     # Edge cases

@@ -16,8 +16,15 @@ at odd positions in the string
 
 >>> odd_position_elements('')
 ''
+<<<<<<< Updated upstream
 >>> odd_position_elements('1234567')
 '1357'
+=======
+
+>>> odd_position_elements('1234567')
+'1357'
+
+>>>>>>> Stashed changes
 >>> odd_position_elements('Hello World!')
 'HloWrd'
 

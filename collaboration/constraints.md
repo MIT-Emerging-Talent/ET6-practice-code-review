@@ -21,7 +21,7 @@ Some boundaries around our project.
 | Huda  | Internet connectivity       |
 | Mohammad   | Time management        |
 | Kimya      | Time management        |
-| Member   | Constraints        |
+| Asia   | Internet connectivity and no laptop    |
 | Member   | Constraints        |
 
 ## Internal: Involuntary
@@ -38,7 +38,7 @@ Some boundaries around our project.
 | Huda   | New to GitHub        |
 | Mohammad    | New to GitHub        |
 | Kimya   | New to Python and Github       |
-| Member   | Constraints        |
+| Asia  | Using a phone to do a project      |
 | Member   | Constraints        |
 
 ## Internal: Voluntary
@@ -56,5 +56,5 @@ Some boundaries around our project.
 | Huda   | The code difficulty        |
 | Mohammad   | The code difficulty        |
 | Kimya   | The code difficulty      |
-| Member   | Constraints        |
+| Asia  | The organization of the project      |
 | Member   | Constraints        |

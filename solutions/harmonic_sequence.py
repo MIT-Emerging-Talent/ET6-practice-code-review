@@ -16,20 +16,40 @@ def harmonic_sequence(a, d, n):
     - n must be integer
 
     Examples:
+    Edge cases:
     >>> harmonic_sequence(1, 1, 1)
     [1.0]
     >>> harmonic_sequence(1, 1, 0)
     []
     >>> harmonic_sequence(0, 0, 5)
-    [0.0, 0.0, 0.0, 0.0, 0.0]
+    [0, 0, 0, 0, 0]
     >>> harmonic_sequence(1, 1, -1)
     []
     >>> harmonic_sequence(1, 1, 5)
     [1.0, 0.5, 0.3333333333333333, 0.25, 0.2]
+    Standard cases:
     >>> harmonic_sequence(2, 2, 3)
-    [0.5, 0.3333333333333333, 0.25]
-    >>> harmonic_sequence(1, 5, 10)
-    [1.0, 0.2, 0.05, 0.02, 0.01, 0.004, 0.0016, 0.00064, 0.000256, 0.0001024]
+    [0.5, 0.25, 0.16666666666666666]
+    >>> harmonic_sequence(4, 3, 10)
+    [0.25,
+        0.14285714285714285,
+        0.1,
+        0.07692307692307693,
+        0.0625,
+        0.05263157894736842,
+        0.045454545454545456,
+        0.04,
+        0.03571428571428571,
+        0.03225806451612903,]
+    Defensive cases:
+    >>> harmonic_sequence("1", 1, 1)
+    AssertionError: A must be integer
+    >>> harmonic_sequence(5, "Omnia", 10)
+    AssertionError: D must be integer
+    >>> harmonic_sequence(1, 1, [1, 2, 3])
+    AssertionError: N must be integer
+
+
 
     """
     # Assert an error if any input is not integer

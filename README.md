@@ -1,7 +1,8 @@
 # 🐍 Python Challenges Collaborative Repository  
 
 Welcome to the **Python Challenges Repository**!
-This repository is a space where our group collaborates to solve fun and challenging Python problems while enhancing our coding skills.  
+This repository is a space where our group collaborates to solve fun and
+challenging Python problems while enhancing our coding skills.  
 
 ## 👥 Meet the Team  
 

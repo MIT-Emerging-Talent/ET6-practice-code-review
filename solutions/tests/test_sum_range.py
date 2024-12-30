@@ -2,8 +2,8 @@
 
 """
 The function sum_range(start, end) calculates the sum of all integers from 
-start to end (inclusive). And raises a TypeError if start or end is not an 
-integer.
+start to end (inclusive). And raises a TypeError if start or end is not
+an integer.
 
 Tests cases:
 - standard test cases : test_positive_range, test_reversed_range, 

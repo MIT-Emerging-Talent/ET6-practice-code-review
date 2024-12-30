@@ -22,10 +22,7 @@
  member. This structured approach guarantees both group development and
  personal development.
 
-        1. Collective Learning Goals:
-      
-
-          
+        1. Collective Learning Goals:    
    Together, we seek to build a collaborative development environment where
     we sharpen our technical and communication skills. With practice and
     continuous learning, we’ll develop a strong foundation in software

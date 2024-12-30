@@ -1,0 +1,62 @@
+"""
+Module: count_vowels.py
+This module provides a function to count the number of vowels in a given string.
+
+Fuctions:
+count_vowels(input_string: str) -> int
+    Count the number of vowels in a given string. 
+
+Raises:
+    TypeError: If the input is not a string.
+
+Doctests:
+>>> count_vowels("Hello")
+2
+>>> count_vowels("")
+0
+>>> count_vowels("1234")
+0
+>>> count_vowels("ESTZone")
+3
+"""
+def count_vowels(input_string: str) -> int:
+    """"""
+    Counts the number of vowels in a given string.
+    
+    Args: 
+        input_string(str): The string in which to count vowels.
+            - Expected to be a string.
+            
+returns:
+    int: The number of vowels in the string.
+
+raises:
+    TypeError: If input_string is not a string.
+    
+Examples:
+    >>> count_vowels("Hello")
+    2
+    >>> count_vowels("")
+    0
+    >>> count_vowels("1234")
+    0
+    >>> count_vowels("ESTZone")
+    3
+""" 
+
+if not isinstance(input_string, str):
+        raise TypeError("The input must be a string.")
+    
+vowels = "ESTZone"
+count = sum(1 for char in input_string if char in vowels)
+return count
+
+if __name__ == "__main__":
+    # Example usage of the function
+    user_input = input("Enter a string to count vowels: ")
+    try:
+        result = count_vowels(user_input)
+        print(f"The number of vowels in the string is: {result}")
+    except TypeError as e:
+        print(f"Error: {e}")
+        

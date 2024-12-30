@@ -77,4 +77,20 @@ def binary_search(
         list_to_be_searched
     ), "The list must be sorted in ascending order."
     
-    return 9
+    # Internal function logic: Recursively perform binary search
+    def search_recursively(low_index: int, high_index: int) -> int:
+        if low_index > high_index:  # Base case: target not found
+            raise ValueError(f"Target {target_element} not found in the list.")
+        
+        middle_index = (low_index + high_index) // 2  # Calculate the middle index
+
+        # Check the middle element
+        if list_to_be_searched[middle_index] == target_element:
+            return middle_index
+        elif list_to_be_searched[middle_index] < target_element:  # Search in the right half
+            return search_recursively(middle_index + 1, high_index)
+        else:  # Search in the left half
+            return search_recursively(low_index, middle_index - 1)
+
+    # Start the recursive search
+    return search_recursively(0, len(list_to_be_searched) - 1)

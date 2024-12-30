@@ -40,6 +40,7 @@ understanding how they apply to our specific cases and improving our approach.
 
 ## Individual
 
+<<<<<< _Salloum_learning_goals_
 ## _Mohammad Al Salloum *Goals*_
 
 1. Improve my collaborative skills.
@@ -50,21 +51,26 @@ understanding how they apply to our specific cases and improving our approach.
 ---
 
 ### Deepen Git Knowledge  
+=======
+### [Mukuna Kabeya]
+
+#### Deepen Git Knowledge  
+>>>>>> learning_goals
 
 My goal is to advance my Git proficiency to handle advanced features confidently.
 This includes using stash, rebase, and resolving complex merge conflicts.
 
-### Improve Code Review Skills  
+#### Improve Code Review Skills  
 
 My goal is to focus on identifying areas for improvement in others’ code.  
 I will provide constructive and actionable feedback during reviews.
 
-### Improve Attention to Detail  
+#### Improve Attention to Detail  
 
 My goal is to learn how to carefully review code.
 To identify potential bugs, inefficiencies or areas that could benefit from optimization.
 
-### Enhance Communication Skills  
+#### Enhance Communication Skills  
 
 My goal is to improve my ability to articulate coding concerns or suggestions  
 clearly and effectively during discussions.

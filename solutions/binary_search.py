@@ -14,7 +14,7 @@ from typing import List, Union
 
 def binary_search(
     list_to_be_searched: List[Union[int, float, str]],
-    target_element: Union[int, float, str]
+    target_element: Union[int, float, str],
 ) -> int:
     """Performs binary search on a sorted list to find the index of a target element
     using recursion.
@@ -49,7 +49,7 @@ def binary_search(
         >>> binary_search(['a', 'b', 'c', 'd', 'e'], 'f')
         -1
     """
-    
+
     # Make sure the first argument is a list
     if not isinstance(list_to_be_searched, list):
         raise TypeError("The first argument must be a list.")
@@ -59,7 +59,9 @@ def binary_search(
         raise ValueError("The list must not be empty.")
 
     # Ensure that all elements of the list are of the same type
-    if not all(isinstance(x, type(list_to_be_searched[0])) for x in list_to_be_searched):
+    if not all(
+        isinstance(x, type(list_to_be_searched[0])) for x in list_to_be_searched
+    ):
         raise TypeError("All elements in the list must be of the same type.")
 
     # Ensure that the elements of the list belong to one of the following types: int, float, str
@@ -76,18 +78,20 @@ def binary_search(
     assert list_to_be_searched == sorted(
         list_to_be_searched
     ), "The list must be sorted in ascending order."
-    
+
     # Internal function logic: Recursively perform binary search
     def search_recursively(low_index: int, high_index: int) -> int:
         if low_index > high_index:  # Base case: target not found
             raise ValueError(f"Target {target_element} not found in the list.")
-        
+
         middle_index = (low_index + high_index) // 2  # Calculate the middle index
 
         # Check the middle element
         if list_to_be_searched[middle_index] == target_element:
             return middle_index
-        elif list_to_be_searched[middle_index] < target_element:  # Search in the right half
+        elif (
+            list_to_be_searched[middle_index] < target_element
+        ):  # Search in the right half
             return search_recursively(middle_index + 1, high_index)
         else:  # Search in the left half
             return search_recursively(low_index, middle_index - 1)

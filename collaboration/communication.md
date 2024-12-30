@@ -26,7 +26,7 @@ ______________________________________________________________________
 | Name/Day | Sunday | Monday | Tuesday | Wednesday| Thursday | Friday | Saturday|
 |--------------|--------|---------|----------|----------|--------|-------|------|
 | Malak Battatt| 4-7 PM| 4-7 PM | 4-7 PM  | 4-7 PM |      |     |        |
-| Abdulrahman Alsir| 7-9 PM| 2-5 PM | 4-8 PM  | 7-9 PM | 7-9 PM | Unavailable | Unavailable |
+| Abdulrahman Alsir| 7-9PM| 2-5PM | 4-8PM  | 7-9PM | 7-9PM | 6-8PM | 6-8PM |
 
 ### How many hours everyone has per day
 

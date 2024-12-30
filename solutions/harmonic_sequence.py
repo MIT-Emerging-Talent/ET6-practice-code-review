@@ -10,6 +10,9 @@ def harmonic_sequence(a, d, n):
     Returns:
     List: List containing the harmonic sequence
 
+    Assertions:
+    - a, d, n must be integer
+
     Examples:
     >>> harmonic_sequence(1, 1, 1)
     [1.0]
@@ -27,6 +30,9 @@ def harmonic_sequence(a, d, n):
     [1.0, 0.2, 0.05, 0.02, 0.01, 0.004, 0.0016, 0.00064, 0.000256, 0.0001024]
 
     """
+    assert isinstance(a, int), "A must be integer"
+    assert isinstance(d, int), "D must be integer"
+    assert isinstance(n, int), "N must be integer"
     sequence = []
     if n <= 0:
         return sequence

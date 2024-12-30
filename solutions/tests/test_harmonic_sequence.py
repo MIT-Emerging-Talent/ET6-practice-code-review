@@ -1,9 +1,23 @@
+"""
+Test module for alternate_elements function.
+Contains intentionally buggy tests for debugging practice.
+
+Test categories:
+    - Standard cases: The input is a list of integers.
+    - Edge cases: The input is equal to 0 or 1.
+    - Defensive cases: wrong input types, assertions
+
+Created on 2024-12-30
+Author: Omnia Mustafa - Abdulgadir
+"""
+
 import unittest
 
 from ..harmonic_sequence import harmonic_sequence
 
 
 class TestAsciiCode(unittest.TestCase):
+    # Edge cases:
     def test_min_input1(self):
         """Test case when all inputs equal to 1"""
         self.assertEqual(harmonic_sequence(1, 1, 1), [1.0])
@@ -26,6 +40,41 @@ class TestAsciiCode(unittest.TestCase):
             harmonic_sequence(1, 1, 5), [1.0, 0.5, 0.3333333333333333, 0.25, 0.2]
         )
 
+    # Standard cases:
     def test_all_inputs_greater_than_1(self):
         """Test when all inputs are integer and greater than 1"""
         self.assertEqual(harmonic_sequence(2, 2, 3), [0.5, 0.25, 0.16666666666666666])
+
+    def test_n_is_large(self):
+        """Test when n is large"""
+        self.assertEqual(
+            harmonic_sequence(4, 3, 10),
+            [
+                0.25,
+                0.125,
+                0.08333333333333333,
+                0.0625,
+                0.05,
+                0.041666666666666664,
+                0.03571428571428571,
+                0.03125,
+                0.027777777777777776,
+                0.025,
+            ],
+        )
+
+    # Defensive cases:
+    def wrong_input_a_type(self):
+        """Test when input a is not integer"""
+        with self.assertRaises(AssertionError):
+            harmonic_sequence("1", 1, 1)
+
+    def wrong_input_d_type(self):
+        """Test when input d is not integer"""
+        with self.assertRaises(AssertionError):
+            harmonic_sequence(5, "Omnia", 10)
+
+    def wrong_input_n_type(self):
+        """Test when input n is not integer"""
+        with self.assertRaises(AssertionError):
+            harmonic_sequence(1, 1, [1, 2, 3])

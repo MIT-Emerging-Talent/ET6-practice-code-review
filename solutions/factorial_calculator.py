@@ -20,6 +20,8 @@ def factorial_calculator(num: int | float) -> int:
     The factorial of a non-negative integer n is the product of all positive integers
     less than or equal to num until we reach one.
     For example, the factorial of num! = num * (num-1) * ... * 1.
+    Also 0 and 1 are special cases when it comes to calculating the factorial
+    as their factorial is 1
 
     Parameters:
     num : int or float

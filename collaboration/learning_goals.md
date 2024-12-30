@@ -37,3 +37,8 @@
   
 - Getting to know more about Python and Github.
 - Developing skills and teamwork.
+
+### **Mohammad**
+
+- Become proficient in using Git and GitHub to enhance my knowledge and potential in writing and reviewing code.
+- Enhance problem-solving skills by collaboration with team.

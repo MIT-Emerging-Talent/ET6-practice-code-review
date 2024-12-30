@@ -1,4 +1,5 @@
-# Collaboration
+
+# Team Nexus
 
 <!-- group norms summary -->
 

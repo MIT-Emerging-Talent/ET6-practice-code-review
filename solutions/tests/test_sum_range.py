@@ -35,6 +35,10 @@ class TestSumRange(unittest.TestCase):
         """Test a range that includes negative numbers."""
         self.assertEqual(sum_range(-3, 3), 0)
 
+    def test_negative_range_reversed(self):
+        """Test a range that includes negative numbers (reversed input)."""
+        self.assertEqual(sum_range(3, -3), 0)
+
     def test_large_range(self):
         """Test with a large range."""
         self.assertEqual(sum_range(1, 100), 5050)
@@ -47,3 +51,13 @@ class TestSumRange(unittest.TestCase):
         """Test with a range that includes floats."""
         with self.assertRaises(AssertionError):
             sum_range(0.5, 3.5)
+
+    def test_string_range(self):
+        """Test with a range that includes strings."""
+        with self.assertRaises(AssertionError):
+            sum_range("1", "5")
+
+    def test_mixed_range(self):
+        """Test with a range that includes a mix of strings and integers."""
+        with self.assertRaises(AssertionError):
+            sum_range(1, "5")

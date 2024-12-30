@@ -11,7 +11,6 @@ import unittest
 from ..remove_duplicates_from_sorted_list import ListNode, remove_duplicates
 
 
-
 class TestRemoveDuplicatesFromSortedList(unittest.TestCase):
     """
     Unit tests for the remove_duplicates function.

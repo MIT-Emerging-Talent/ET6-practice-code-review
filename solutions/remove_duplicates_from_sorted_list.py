@@ -5,8 +5,8 @@ Module: remove_duplicates_from_sorted_list
 Description: This module provides a function to remove duplicates from a sorted linked list.
 The function ensures each element appears only once while maintaining the sorted order.
 
-Created on: XX XX XX
-@author: Your Name
+Created on: 31 12 24
+@author: Muhammad Shahroz
 """
 
 from typing import Optional

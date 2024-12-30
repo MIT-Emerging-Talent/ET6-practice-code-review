@@ -1,19 +1,27 @@
+# Description: This file contains the test cases for the sum_range function.
+
+"""
+The function sum_range(start, end) calculates the sum of all integers from 
+start to end (inclusive). And raises a TypeError if start or end is not an 
+integer.
+
+Tests cases:
+- standard test cases : test_positive_range, test_reversed_range, 
+test_single_number, test_negative_range, test_negative_range_reversed,
+test_large_range, test_large_range_reversed
+
+- Exception test cases : test_float_range, test_string_range, test_mixed_range
+
+- Performance test cases : test_large_range, test_large_range_reversed
+
+- Boundary test cases : test_single_number, test_negative_range,
+
+-error test cases : test_float_range, test_string_range, test_mixed_range
+
+"""
+
 import unittest
 from solutions.sum_range import sum_range
-
-""" 
-The sum_range function calculates the sum of all integers from start to end (inclusive).
-
-The function raises a TypeError if start or end is not an integer.
-
-The function ensures that start is less than or equal to end.
-
-The function calculates the sum of the range using a for loop.
-
-The function returns the total sum of the range.
-
-The function has a number of test cases to ensure it works correctly.
-"""
 
 
 class TestSumRange(unittest.TestCase):
@@ -61,3 +69,8 @@ class TestSumRange(unittest.TestCase):
         """Test with a range that includes a mix of strings and integers."""
         with self.assertRaises(AssertionError):
             sum_range(1, "5")
+
+    def test_error_range(self):
+        """Test with a range that includes a mix of strings and integers."""
+        with self.assertRaises(AssertionError):
+            sum_range(1, 5.5)

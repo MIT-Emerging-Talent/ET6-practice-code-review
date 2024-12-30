@@ -1,5 +1,24 @@
+# Define the sum_range function
+""" 
+This module defines the sum_range function that calculates the sum of all
+integers from start to end (inclusive).
+
+Constraints:
+- The start and end arguments must be integers.
+- The start argument must be less than or equal to the end argument.
+
+Example:
+    The sum_range function can be used as follows:
+
+    # Calculate the sum of all integers from 1 to 5
+    total = sum_range(1, 20)
+    print(total)  # Output: 210
+"""
+
+
 def sum_range(start, end):
     """
+
     Calculate the sum of all integers from start to end (inclusive).
 
     Args:

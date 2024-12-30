@@ -1,6 +1,30 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+This file contains the test cases for the sort_colors function.
+
+The function sort_colors(nums) sorts a given list of integers representing
+colors (0 for red, 1 for white, and 2 for blue) in-place without using any
+built-in sorting libraries. It ensures the list is sorted in ascending order
+while modifying the original list directly.
+
+Test cases:
+- Standard test cases:
+  - test_empty_list: Handles an empty input list.
+  - test_single_element: Handles a list containing a single element.
+  - test_all_same_elements: Handles a list where all elements are the same.
+  - test_already_sorted: Ensures an already sorted list is not modified.
+  - test_unsorted_list: Sorts a typical unsorted list.
+
+- Edge cases:
+  - test_large_list: Tests the function with a large input list.
+  - test_randomly_generated_list: Tests with a randomly generated list.
+
+- Exception test cases:
+  - test_not_a_list: Ensures an AssertionError is raised for non-list inputs.
+  - test_invalid_elements: Ensures an AssertionError is raised for invalid
+    elements (e.g., elements not in the range [0, 2]).
+
 Created on 26 10 2024
 
 @author: Mohamed-Elnageeb

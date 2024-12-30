@@ -1,6 +1,4 @@
-# Collaboration
-
-## Group Name: Team Nexus
+# Team Nexus
 
 Our group is committed to fostering a collaborative environment that values trust,
 open communication, mutual respect, and the celebration of diverse perspectives.

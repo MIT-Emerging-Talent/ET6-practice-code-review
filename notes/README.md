@@ -15,7 +15,7 @@ progress and discussions.
 - [ ] Choose two functions from the available list.  
 - [ ] Create a file named `your_function.py` inside the `solutions` folder in the
 repository.
-- [ ] Document the selected functions in the repository’s documentation file.  
+- [ ] Document the selected functions in the your_function.py file.  
 - [ ] Implement the logic for your assigned functions in the calculator.  
 
 ### Step 3: Writing Docstrings

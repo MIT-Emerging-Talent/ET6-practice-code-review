@@ -1,12 +1,3 @@
-<!--
-    this template is for inspiration, feel free to change it however you like!
-
-    Careful! be sure to protect your privacy when filling out this document
-        everything you write here will be public
-        so share only what you are comfortable sharing online
-        you can share the rest in confidence with you group by another channel
--->
-
 # Communication
 
 ______________________________________________________________________
@@ -35,11 +26,12 @@ ______________________________________________________________________
 | Name/Day | Sunday | Monday | Tuesday | Wednesday| Thursday | Friday | Saturday|
 |--------------|--------|---------|----------|----------|--------|-------|------|
 | Malak Battatt| 4-7 PM| 4-7 PM | 4-7 PM  | 4-7 PM |      |     |        |
+| Abdulrahman Alsir| 7-9 PM| 2-5 PM | 4-8 PM  | 7-9 PM | 7-9 PM | Unavailable | Unavailable |
 
 ### How many hours everyone has per day
 
 - Malak Battatt: _~2h_;
-- name: _6h_;
+- Abdulrahman Alsir: _~2-4h_;
 - name: _5h_;
 - name: _4h_;
 - name: _3h_;

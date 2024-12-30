@@ -15,20 +15,20 @@ This module includes the function fizzbuzz(n) that returns:
 
 def fizz_buzz(number: int) -> str:
     """
-    Returns 'Fizz' for multiples of 3, 'Buzz' for multiples of 5,
-    'FizzBuzz' for multiples of both 3 and 5, and the number itself for others.
+        Returns 'Fizz' for multiples of 3, 'Buzz' for multiples of 5,
+        'FizzBuzz' for multiples of both 3 and 5, and the number itself for others.
 
-    parameters:
-        number (int): The number to evaluate.
+        parameters:
+            number (int): The number to evaluate.
 
-    Returns:
-        str: 'Fizz', 'Buzz', 'FizzBuzz', or the string representation of the number.
->>> fizz_buzz(15)
-'FizzBuzz'
->>> fizz_buzz(5)
-'Buzz'
->>> fizz_buzz(7)
-'7'
+        Returns:
+            str: 'Fizz', 'Buzz', 'FizzBuzz', or the string representation of the number.
+    >>> fizz_buzz(15)
+    'FizzBuzz'
+    >>> fizz_buzz(5)
+    'Buzz'
+    >>> fizz_buzz(7)
+    '7'
 
     """
     assert isinstance(number, int), "Input must be an integer"

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Module: test_list_to_string
+Module: test_list_to_string.
 
 Description:
     This module contains test cases for the `list_to_string` function defined

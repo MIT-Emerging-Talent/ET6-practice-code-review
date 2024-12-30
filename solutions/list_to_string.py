@@ -36,14 +36,14 @@ def list_to_string(lst: list) -> str:
             - If the input is `None`.
             - If the list is empty.
 
-        >>> list_to_string([1, -4, 3.14])
-        '1-43.14'
+    >>> list_to_string([1, -4, 3.14])
+    '1-43.14'
 
-        >>> list_to_string([True, 'hello'])
-        'Truehello'
+    >>> list_to_string([True, 'hello'])
+    'Truehello'
 
-        >>> list_to_string(['cat', 'hat', 'bat'])
-        'cathatbat'
+    >>> list_to_string(['cat', 'hat', 'bat'])
+    'cathatbat'
     """
     # Validate Input
     assert isinstance(lst, list), "Input must be a list."

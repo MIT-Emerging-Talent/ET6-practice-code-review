@@ -18,3 +18,7 @@ class TestConvertStringToUppercase(unittest.TestCase):
     def test_empty_string(self):
         """Test the convert_string_to_uppercase function with an empty string"""
         self.assertEqual(convert_string_to_uppercase(""), "")
+
+    def test_lowercase_string(self):
+        """Test the convert_string_to_uppercase function with a lowercase string"""
+        self.assertEqual(convert_string_to_uppercase("hello"), "HELLO")

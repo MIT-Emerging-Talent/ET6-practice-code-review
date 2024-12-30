@@ -32,7 +32,7 @@ We will always be in touch to discuss various things:
 - **Slack**: For daily updates, notifications, and reporting any code
 - errors or help needed.
 - **Video Calls**: For group discussions, progress updates, tutoring, and meetings.
-- **WhatsApp**: For informal hangouts and check-ins.
+- **WhatsApp**: For informal hangouts and check-ins and sending reminders.
 
 ## Availability
 
@@ -42,7 +42,7 @@ _### Availability for Calling_
 | Member| Monday | Tuesday | Wednesday | Thursday | Friday  | Saturday | Sunday |
 |-------------|------------|------------|------------|------------|------------|------------|------------|
 | Dadi    | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm |
-| Rama    | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
+| Rama    | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm |  - |
 | Ahmed    | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
 | Mohammad | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
 | Tamara    | 5 - 6pm | 5 - 6pm | 5 - 6pm | 5 - 6pm | 5 - 6pm | 5 - 6pm | 5 - 6pm|

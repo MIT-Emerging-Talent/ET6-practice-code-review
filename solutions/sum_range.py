@@ -9,17 +9,18 @@ Constraints:
 
 Example:
     The sum_range function can be used as follows:
-
     # Calculate the sum of all integers from 1 to 5
     total = sum_range(1, 20)
     print(total)  # Output: 210
+    
+date:2024-12-31
+@ author: Zeinab Mommed
 """
 
 
 def sum_range(start, end):
     """
     Calculate the sum of all integers from start to end (inclusive).
-
     Args:
         start (int): The starting integer.
         end (int): The ending integer.

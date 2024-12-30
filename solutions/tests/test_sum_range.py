@@ -14,7 +14,6 @@ test_large_range, test_large_range_reversed
 - Boundary test cases : test_single_number, test_negative_range,
 -error test cases : test_float_range, test_string_range, test_mixed_range
 """
-
 import unittest
 from solutions.sum_range import sum_range
 

@@ -112,6 +112,10 @@
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
 
+  //--------Python formatting ----------------
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter", 
+  },
   // Enable/disable update table of contents on save
   "markdown.extension.toc.updateOnSave": false
 }

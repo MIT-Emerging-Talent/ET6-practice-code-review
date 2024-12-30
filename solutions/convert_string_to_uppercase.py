@@ -26,6 +26,8 @@ def convert_string_to_uppercase(text: str) -> str:
     >>> sum_of_digits("")
     ''
     """
+    assert isinstance(text, str), "The input text must be a string."
+
     upper_string = text.upper()
 
     return upper_string

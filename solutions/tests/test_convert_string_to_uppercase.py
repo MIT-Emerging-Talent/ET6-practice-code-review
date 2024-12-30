@@ -75,3 +75,8 @@ class TestConvertStringToUppercase(unittest.TestCase):
     def test_string_with_only_whitespace(self):
         """Test the convert_string_to_uppercase function with a string with only whitespace"""
         self.assertEqual(convert_string_to_uppercase("   "), "   ")
+
+    def test_non_string_input(self):
+        """Test the convert_string_to_uppercase function with a non-string input"""
+        with self.assertRaises(AssertionError):
+            convert_string_to_uppercase(123)

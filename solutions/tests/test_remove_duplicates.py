@@ -12,7 +12,7 @@ import unittest
 from ..remove_duplicates import remove_duplicates
 
 
-class TestCountBetween(unittest.TestCase):
+class TestRemoveDuplicates(unittest.TestCase):
     """Test remove_duplicates function"""
 
     # Standard test cases

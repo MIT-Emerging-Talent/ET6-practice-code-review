@@ -24,13 +24,14 @@ def factorial_calculator(num: int | float) -> int:
     as their factorial is 1
 
     Parameters:
-    num : int or float
-    A non-negative integer or whole float whose factorial is to be computed.
-    Whole floats are floats without a fractional part, such as 1.0 or 5.0.
+
+        num : int or float
+        A non-negative integer or whole float whose factorial is to be computed.
+        Whole floats are floats without a fractional part, such as 1.0 or 5.0.
 
     Returns:
 
-    int: The factorial of the input number.
+        int: The factorial of the input number.
 
     Raises:AssertionError
 

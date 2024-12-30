@@ -1,3 +1,12 @@
+"""
+Test module for sort_numbers function.
+
+Contains tests for testing sort_numbers function.
+
+Created on 2024-12-30
+Author: Viktoriya Haiduk
+"""
+
 import unittest
 
 from solutions.sort_numbers import sort_numbers

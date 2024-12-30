@@ -1,7 +1,11 @@
 """
-Module for sorting a list of numbers.
+A module for sorting a list of numbers.
 
-Author: Viktoriya Haiduk
+Module contents: sorted list of numbers
+
+Created on 2024-12-30
+
+@author: Viktoriya Haiduk
 """
 
 
@@ -14,9 +18,9 @@ def sort_numbers(numbers: list) -> list:
             - May contain integers or floats.
             - Must not contain non-numeric values.
 
-    Returns:
-        list: Sorted list of numbers in ascending order.
-        Raises ValueError if the list is empty or contains non-numeric values.
+    Returns -> list: Sorted list of numbers in ascending order.
+
+    Raises: ValueError if the list is empty or contains non-numeric values.
 
     Examples:
         >>> sort_numbers([3, 1, 2])

@@ -1,6 +1,8 @@
-# Description: This file contains the test cases for the sum_range function.
+#!/usr/bin/env python3
+# --#coding: utf-8 --
+""" 
+Description: This file contains the test cases for the sum_range function.
 
-"""
 The function sum_range(start, end) calculates the sum of all integers from
 start to end (inclusive). And raises a TypeError if start or end is not
 an integer.

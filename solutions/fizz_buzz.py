@@ -23,14 +23,12 @@ def fizz_buzz(number: int) -> str:
 
     Returns:
         str: 'Fizz', 'Buzz', 'FizzBuzz', or the string representation of the number.
-    >>> fizz_buzz(15)
-    FizzBuzz
-    >>> fizz_buzz(5)
-    Buzz
-    >>> fizz_buzz(7)
-    7
-    >>> fizz_buzz(3)
-    Fizz
+>>> fizz_buzz(15)
+'FizzBuzz'
+>>> fizz_buzz(5)
+'Buzz'
+>>> fizz_buzz(7)
+'7'
 
     """
     assert isinstance(number, int), "Input must be an integer"

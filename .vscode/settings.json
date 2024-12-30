@@ -116,5 +116,12 @@
   "markdown.extension.toc.updateOnSave": false,
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
-  }
+  },
+  "cSpell.words": [
+    "catdog",
+    "cathatbat",
+    "Falaq",
+    "Truehello",
+    "Youniss"
+  ]
 }

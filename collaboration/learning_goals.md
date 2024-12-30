@@ -56,7 +56,8 @@ understanding how they apply to our specific cases and improving our approach.
 2. Improve my code review skills by focusing on identifying areas for
     improvement in others’ code and providing constructive
     and actionable feedback during reviews.
-3. Enhance my attention to detail by carefully reviewing code to identify potential bugs,
+3. Enhance my attention to detail
+    by carefully reviewing code to identify potential bugs,
     inefficiencies, or areas that could benefit from optimization.
 4. Improve my communication skills to articulate coding concerns
     or suggestions clearly and effectively during discussions.
@@ -66,10 +67,13 @@ understanding how they apply to our specific cases and improving our approach.
 ## _Ahmed Khalifa_
 
 1. Enhance my coding skills by Learning to document files effectively to,
-understand and implement test cases, and adopt best practices for clean and
+understand and implement test cases, and
+ adopt best practices for clean and
 readable code.
-2. Develop version control expertise using Git and collaborate with others using GitHub.
-3. Strengthen communication skills, collaborate, and asking for and offering help.
-43 Learn the art of memes from Tamara.
+3. Develop version control expertise
+    using Git and collaborate with others using GitHub.
+4. Strengthen communication skills, collaborate,
+    and asking for and offering help.
+5. Learn the art of memes from Tamara.
 
 ---

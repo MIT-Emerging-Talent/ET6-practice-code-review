@@ -16,40 +16,30 @@ Doctests:
 0
 >>> count_vowels("1234")
 0
->>> count_vowels("ESTZone")
-3
+>>> count_vowels("aeiouAEIOU")
+10
 """
 def count_vowels(input_string: str) -> int:
-    """"""
+    """
     Counts the number of vowels in a given string.
-    
-    Args: 
-        input_string(str): The string in which to count vowels.
+
+    Args:
+        input_string (str): The string in which to count vowels.
             - Expected to be a string.
-            
-returns:
-    int: The number of vowels in the string.
 
-raises:
-    TypeError: If input_string is not a string.
-    
-Examples:
-    >>> count_vowels("Hello")
-    2
-    >>> count_vowels("")
-    0
-    >>> count_vowels("1234")
-    0
-    >>> count_vowels("ESTZone")
-    3
-""" 
+    Returns:
+        int: The number of vowels in the string.
 
-if not isinstance(input_string, str):
+    Raises:
+        TypeError: If input_string is not a string.
+    """
+    if not isinstance(input_string, str):
         raise TypeError("The input must be a string.")
-    
-vowels = "ESTZone"
-count = sum(1 for char in input_string if char in vowels)
-return count
+
+    vowels = "aeiouAEIOU"
+    count = sum(1 for char in input_string if char in vowels)
+    return count
+
 
 if __name__ == "__main__":
     # Example usage of the function
@@ -59,4 +49,3 @@ if __name__ == "__main__":
         print(f"The number of vowels in the string is: {result}")
     except TypeError as e:
         print(f"Error: {e}")
-        

@@ -89,6 +89,6 @@ class TestFactorialCalculator(unittest.TestCase):
             factorial_calculator(3.5)
 
     def test_non_numeric_factorial_calculator(self):
-        """should raise an error if the input num is a negative number"""
+        """should raise an error if the input num is not a number"""
         with self.assertRaises(AssertionError):
             factorial_calculator("cat")

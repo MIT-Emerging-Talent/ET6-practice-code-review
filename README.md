@@ -14,7 +14,5 @@ California is dedicated to fostering a culture of trust, respect, and
 Meet the Team!
 
 Each member brings something special to the table.
-
-   - **Ava**: Turning coffee into code ☕ ➡️ 💻
-
-   - **Saeed**: Every mistake is progress , and Teamwork fuels growth ™️ 🤖
+- **Ava**: Turning coffee into code ☕➡️💻
+- **Saeee**: Every mistake is progress, and Teamwork fuels growth ™️ 🤖

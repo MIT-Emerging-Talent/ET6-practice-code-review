@@ -22,7 +22,7 @@ class TestAsciiCode(unittest.TestCase):
     """Test suite for ASCII code conversion functionality."""
 
     def test_basic_chars(self):
-        """Test conversion of basic alphabetic characters."""
+        """Test conversion of capital and small characters."""
         self.assertEqual(ascii_code("A"), [65])
         self.assertEqual(ascii_code("Z"), [90])
         self.assertEqual(ascii_code("a"), [97])
@@ -47,7 +47,7 @@ class TestAsciiCode(unittest.TestCase):
         self.assertEqual(ascii_code("9"), [57])
 
     def test_word_input(self):
-        """Test handling of special character inputs."""
+        """Test handling of word inputs."""
         self.assertEqual(ascii_code("Hello"), [72, 101, 108, 108, 111])
         self.assertEqual(ascii_code("ASCII"), [65, 83, 67, 73, 73])
         self.assertEqual(ascii_code("cat "), [99, 97, 116, 32])
@@ -56,3 +56,18 @@ class TestAsciiCode(unittest.TestCase):
         """Test handling of empty string input."""
         self.assertEqual(ascii_code(""), [])
         self.assertEqual(ascii_code(" "), [32])
+
+    def test_number_input(self):
+        """Test handling of number input."""
+        with self.assertRaises(AssertionError):
+            ascii_code(123)
+
+    def test_list_input(self):
+        """Test handling of list input."""
+        with self.assertRaises(AssertionError):
+            ascii_code([1, 2, 3])
+
+    def test_boolean_input(self):
+        """Test handling of boolean input."""
+        with self.assertRaises(AssertionError):
+            ascii_code(True)

@@ -24,13 +24,15 @@ def ascii_code(text: str) -> list:
     """
     Convert a string to a list of ASCII codes.
 
-    Args:
+    parameters:
     text: a string of characters
 
     Returns:
     a list of integers, where each integer is the ASCII code of the character
     at the corresponding index in the input string
 
+    Raises:
+    TypeError: if the input is not a string
     """
     # Check if the input is an empty string
     if text == "":

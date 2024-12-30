@@ -1,6 +1,6 @@
 def harmonic_sequence(a, d, n):
     """
-    The function creates harmonic sequence, based on formula: A(n): 1/ (a +(n-1) *d)
+    This function ,`harmonic_sequence`, creates harmonic sequence, based on formula: A(n): 1/ (a +(n-1) *d)
 
     Parameters:
     a (int): First term
@@ -27,6 +27,8 @@ def harmonic_sequence(a, d, n):
     []
     >>> harmonic_sequence(1, 1, 5)
     [1.0, 0.5, 0.3333333333333333, 0.25, 0.2]
+
+
     Standard cases:
     >>> harmonic_sequence(2, 2, 3)
     [0.5, 0.25, 0.16666666666666666]
@@ -41,6 +43,8 @@ def harmonic_sequence(a, d, n):
         0.04,
         0.03571428571428571,
         0.03225806451612903,]
+
+
     Defensive cases:
     >>> harmonic_sequence("1", 1, 1)
     AssertionError: A must be integer

@@ -14,10 +14,21 @@ class TestSortNumbers(unittest.TestCase):
         self.assertEqual(sort_numbers([4, 2.5, 3, 1.2]), [1.2, 2.5, 3, 4])
 
     def test_invalid_input(self):
-        self.assertEqual(sort_numbers(["a", None, 3]), "Isn't possible to sort")
+        with self.assertRaises(ValueError) as context:
+            sort_numbers(["a", None, 3])
+        self.assertEqual(
+            str(context.exception), "The list contains non-numeric values."
+        )
 
     def test_empty_list(self):
-        self.assertEqual(sort_numbers([]), "Isn't possible to sort")
+        with self.assertRaises(ValueError) as context:
+            sort_numbers([])
+        self.assertEqual(
+            str(context.exception), "The list is empty. Please provide numbers to sort."
+        )
+
+    def test_negative_numbers(self):
+        self.assertEqual(sort_numbers([-3, -1, -4, -2]), [-4, -3, -2, -1])
 
 
 if __name__ == "__main__":

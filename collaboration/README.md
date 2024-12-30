@@ -1,4 +1,4 @@
-# Team Nexus
+# Team Nexu
 
 Our group is committed to fostering a collaborative environment that values trust,
 open communication, mutual respect, and the celebration of diverse perspectives.

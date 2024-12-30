@@ -6,6 +6,7 @@ Created on 2024-12-29
 @author: Yuri Spizhovyi
 """
 
+
 def convert_fahrenheit_to_celsius(fahrenheit: float) -> float:
     """
     Convert a temperature from Fahrenheit to Celsius.
@@ -31,5 +32,7 @@ def convert_fahrenheit_to_celsius(fahrenheit: float) -> float:
     >>> convert_fahrenheit_to_celsius(98.6)
     37.0
     """
-    assert isinstance(fahrenheit, (int, float)), "Input must be a number (int or float)."
+    assert isinstance(
+        fahrenheit, (int, float)
+    ), "Input must be a number (int or float)."
     return round((fahrenheit - 32) * 5.0 / 9.0, 1)

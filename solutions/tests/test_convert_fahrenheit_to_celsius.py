@@ -11,6 +11,7 @@ Created on 2024-12-29
 import unittest
 from solutions.convert_fahrenheit_to_celsius import convert_fahrenheit_to_celsius
 
+
 class TestConvertFahrenheitToCelsius(unittest.TestCase):
     """Tests for the convert_fahrenheit_to_celsius function."""
 
@@ -47,6 +48,7 @@ class TestConvertFahrenheitToCelsius(unittest.TestCase):
         """It should raise an assertion error for numeric input passed as a string."""
         with self.assertRaises(AssertionError):
             convert_fahrenheit_to_celsius("32")
+
 
 if __name__ == "__main__":
     unittest.main()

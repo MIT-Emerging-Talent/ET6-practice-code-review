@@ -13,17 +13,20 @@ ______________________________________________________________________
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion | | --- | :-: | ----------------------- |
-| | | |
+| Day           | How             | The topic of discussion              |
+|---------------|-----------------|-----------------------------------------------|
+| Fri, 12/20, 3pm ETZ| Zoom Meeting    | Initial Briefing: Team Setup and Objectives|
+| Sun, 12/22, 5pm ETZ| Zoom Meeting    | Review, Formatting, and Completion of Tools of Collaborative Development and Defining Group Norms|
+| Sun, 12/29 | Zoom Meeting  | Repository Review, Task Allocation, General Q&A, Goal Setting, and Project Kickoff|
+| Mon, 12/30 | Zoom Meeting    | Issue Discussion, Problem-Solving, and Goal Setting for the Next Task|
 
 ## Communication Channels
 
 how often will we get in touch on each channel, and what we will discuss there:
 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+- **Pull Requests**:Always
+- **Slack**:Always
+- **Zoom Meetings**:Weekly/ 2 times per week/ 3h
 
 ______________________________________________________________________
 
@@ -31,17 +34,25 @@ ______________________________________________________________________
 
 ### Availability for calling/messaging
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
+| Name          | Monday      | Tuesday     | Wednesday  | Thursday   | Friday     | Saturday   | Sunday     |
+|---------------|-------------|-------------|------------|------------|------------|------------|------------|
+| Aziz Azizi    | 10-12pm ETZ  |10-12pm ETZ |10-12pm ETZ|10-12pm ETZ | 10-12pm ETZ  |10-12pm ETZ  |10-12pm ETZ  |
+| Hafiz Hussein | 3-5pm ETZ |  3-5pm ETZ |  3-5pm ETZ|  3-5pm ETZ|  3-5pm ETZ|  3-5pm ETZ  |  3-5pm ETZ   |
+| Jha-mal       |not avaluble         |  3-5pm ETZ   |  3-5pm ETZ     | 3-5pm ETZ   |  3-5pm ETZ   | 3-5pm ETZ    |  3-5pm ETZ  |
+| Maria Cedeño  |  3-5pm ETZ|  3-5pm ETZ|  3-5pm ETZ)|  3-5pm ETZ|  3-5pm ETZ| not available  | not available  |
+| Mariia Ermyshina (Masha)| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ|
+| Sahar         | -           | -           | -          | -          | -          | -          | -          |
 
 ### How many hours everyone has per day
 
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+| Name          | Availability Hours (Per day) | Comment                                      |
+|---------------|-------------------------------|----------------------------------------------|
+| Aziz Azizi    | 5-6 hours                    | Available all week + weekends               |
+| Hafiz Hussein | 3 hours                      | Available all week; Zoom 3-5 pm             |
+| Jha-mal       | 3 hours                      | Available from Tue-Sun|
+| Maria Cedeño  | 4-5 hours                    | Available Mon-Fri; Zoom 3-5 pm        |
+| Mariia Ermyshina (Masha)| 3-4 hours          | Available 2 pm - 12 am                      |
+| Sahar         | -                             |                                              |
 
 ## Asking for Help
 

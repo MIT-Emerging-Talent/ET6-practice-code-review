@@ -28,6 +28,18 @@ class TestFizzBuzz(unittest.TestCase):
         """returns the number as a string if it's neither a multiple of 3 nor 5."""
         self.assertEqual(fizz_buzz(1), "1")  # Neither multiple of 3 nor 5
 
+    def test_large_number(self):
+        """Test behavior with a very large number."""
+        self.assertEqual(fizz_buzz(300000), "FizzBuzz")  # Divisible by 3 and 5
+
+    def test_negative_fizz(self):
+        """Test behavior with a negative multiple of 3."""
+        self.assertEqual(fizz_buzz(-9), "Fizz")  # Negative multiple of 3
+
+    def test_zero(self):
+        """Test behavior with zero."""
+        self.assertEqual(fizz_buzz(0), "FizzBuzz")  # Divisible by any number
+
     def test_none_input(self):
         """Test that fizz_buzz raises an AssertionError when input is None."""
         with self.assertRaises(AssertionError):

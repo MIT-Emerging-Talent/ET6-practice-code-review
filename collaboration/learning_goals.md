@@ -50,10 +50,13 @@ understanding how they apply to our specific cases and improving our approach.
 ---
 
 ### Deepen Git Knowledge  
+
 =======
+
 ### [Mukuna Kabeya]
 
 #### Deepen Git Knowledge  
+
 >>>>>> learning_goals
 
 My goal is to advance my Git proficiency to handle advanced features confidently.

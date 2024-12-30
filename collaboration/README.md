@@ -74,4 +74,5 @@ Our goal is to create a family-like, friendly, and collaborative work environmen
 - Express gratitude by regularly appreciating the contributions of your teammates.
 - Show that every team member's voice matters.
 - Recognize team achievements publicly.
+  
 ---

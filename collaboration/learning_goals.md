@@ -40,8 +40,7 @@ understanding how they apply to our specific cases and improving our approach.
 
 ## Individual
 
-
-## _Mohammad Al Salloum Goals_
+## _Mohammad Al Salloum_
 
 1. Improve my collaborative skills.
 2. Build a connection with talented people.

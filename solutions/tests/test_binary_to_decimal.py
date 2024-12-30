@@ -10,7 +10,8 @@ Test categories:
     - Defensive Tests: wrong input types, assertions.
 
 Created on Dec 28, 2024.
-
+Team Number: 28
+Team Name: MIT Alpha
 @author: AL-HASSEN SABEEH
 """
 
@@ -57,6 +58,11 @@ class TestBinaryToDecimal(unittest.TestCase):
         """it should raise an error if the input is not string"""
         with self.assertRaises(AssertionError):
             binary_to_decimal(6)
+
+    def test_defensive_check_binary_is_not_empty(self):
+        """it should raise an error if the sting is empty"""
+        with self.assertRaises(AssertionError):
+            binary_to_decimal("")
 
     def test_defensive_check_for_string_not_0_or_1(self):
         """it should raise an error if the input has char not 0 or 1"""

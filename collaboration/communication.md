@@ -13,8 +13,9 @@ ______________________________________________________________________
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion | | --- | :-: | ----------------------- |
-| | | |
+| Day       | How  | The topic of discussion |
+|-----------|------|-------------------------|
+|           |      |                         |
 
 ## Communication Channels
 
@@ -31,13 +32,13 @@ ______________________________________________________________________
 
 ### Availability for calling/messaging
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
+| Name/Day | Sunday | Monday | Tuesday | Wednesday| Thursday | Friday | Saturday|
+|--------------|--------|---------|----------|----------|--------|-------|------|
+| Malak Battatt| 4-7 PM| 4-7 PM | 4-7 PM  | 4-7 PM |      |     |        |
 
 ### How many hours everyone has per day
 
-- name: _5h_;
+- Malak Battatt: _~2h_;
 - name: _6h_;
 - name: _5h_;
 - name: _4h_;

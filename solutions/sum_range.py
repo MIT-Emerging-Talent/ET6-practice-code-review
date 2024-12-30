@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # --#coding: utf-8 --
-""" 
+"""
 Description: This file contains the test cases for the sum_range function.
 
 This module defines the sum_range function that calculates the sum of all
@@ -22,7 +22,7 @@ Example:
     # Calculate the sum of all integers from 10 to 1
     total = sum_range(10, 1)
     print(total)  # Output: 55
-    
+
 date:2024-12-31
 @ author: Zeinab Mommed
 """

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # --#coding: utf-8 --
-""" 
+"""
 Description: This file contains the test cases for the sum_range function.
 
 The function sum_range(start, end) calculates the sum of all integers from

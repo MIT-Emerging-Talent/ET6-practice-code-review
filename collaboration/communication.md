@@ -40,14 +40,12 @@ use WhatsApp.
 ## Availability
 
 ### Availability for Calling/Messaging
-<!-- Ignored the max line length cause it it looks good in this way -->
-| Day        | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday|
-|------------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------:|
-| **Madiha** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-  
-| **Fatima** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-  
-| **Shahroz**| ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+<!-- Abbreviated day names to fit within 80 characters -->
+| Day        | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
+|------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Madiha** |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |
+| **Fatima** |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |
+| **Shahroz**|  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |
 
 ### Hours Available Per Day
 
@@ -164,13 +162,13 @@ use WhatsApp.
 - **Resource:**  
   [Watch this CI Overview Video](https://www.youtube.com/watch?v=mFFXuXjVgkU)
 
-### 2. Discuss the Issues
+#### Meeting 8
+<!-- Meeting Overview -->
+- **Date:** 29-12-2024
+- **Time:** 08:00 PM PKT
+- **Location:** Zoom
 
-- **Discussion Points:**
-  - Review the list of unresolved issues in the repository.
-  - Prioritize the most critical issues.
-  - Brainstorm solutions and assign responsibilities.
-  - Identify any additional tools or resources needed to resolve the issues.
+<!-- Agenda Points -->
 
 ---
 

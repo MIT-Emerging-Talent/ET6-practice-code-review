@@ -72,5 +72,6 @@ Our goal is to create a family-like, friendly, and collaborative work environmen
 ## **Positive Environment**
 
 - Express gratitude by regularly appreciating the contributions of your teammates.
-
+- Make memes to add humor and foster a light-hearted, enjoyable atmosphere in
+  the team.
 ---

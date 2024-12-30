@@ -40,5 +40,6 @@
 
 ### **Mohammad**
 
-- Become proficient in using Git and GitHub to enhance my knowledge and potential in writing and reviewing code.
+- Become proficient in using Git and GitHub to enhance my knowledge
+  and potential in writing and reviewing code.
 - Enhance problem-solving skills by collaboration with team.

@@ -49,7 +49,7 @@ Our goal is to create a family-like, friendly, and collaborative work environmen
    specific, and respectful feedback, focusing on mutual growth and improvement.
 
 - Inclusivity: We create a collaborative
-   atmosphere where every member feels valued, heard, and empowered to contribute.
+   an atmosphere where every member feels valued, heard, and empowered to contribute.
 
 ---
 
@@ -72,7 +72,7 @@ Our goal is to create a family-like, friendly, and collaborative work environmen
 ## **Positive Environment**
 
 - Express gratitude by regularly appreciating the contributions of your teammates.
+- Make memes to add humor and foster a light-hearted, enjoyable atmosphere
+in the team.
 - Show that every team member's voice matters.
 - Recognize team achievements publicly.
-  
----

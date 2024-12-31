@@ -114,7 +114,17 @@
 
   // Enable/disable update table of contents on save
   "markdown.extension.toc.updateOnSave": false,
+
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
-  }
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    }
+  },
+  "cSpell.words": [
+    "Falaq",
+    "Youniss"
+  ]
 }

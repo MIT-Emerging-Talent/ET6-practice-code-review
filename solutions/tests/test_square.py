@@ -1,6 +1,6 @@
 # The test case for the Square function of our calculator
 import unittest
-from __main__ import square
+from solutions.square import square
 
 class TestSquareFunction(unittest.TestCase):
     """

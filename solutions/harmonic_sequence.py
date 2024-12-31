@@ -1,5 +1,6 @@
 """Creates harmonic sequence, based on formula: A(n): 1/ (a +(n-1) *d)
-given a, d and n are integers. and returns the list containing the harmonic sequence.
+given a, d and n are integers. and returns
+the list containing the harmonic sequence.
 
 Created on 2024-12-30
 Author: Omnia Mustafa - Abdulgadir

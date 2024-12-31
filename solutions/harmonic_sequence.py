@@ -1,6 +1,10 @@
+"""Creates harmonic sequence, based on formula: A(n): 1/ (a +(n-1) *d)"""
+
+
 def harmonic_sequence(a, d, n):
     """
-    This function ,`harmonic_sequence`, creates harmonic sequence, based on formula: A(n): 1/ (a +(n-1) *d)
+    This function ,`harmonic_sequence`, creates a harmonic sequence,
+    based on formula: A(n): 1/ (a +(n-1) *d)
 
     Parameters:
     a (int): First term

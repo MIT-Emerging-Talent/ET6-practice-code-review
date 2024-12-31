@@ -4,8 +4,12 @@
 A module for encrypting using caesar's cypher.
 
 Module contents:
-    - caesar_encryption: generates an encrypted string.
-
+    - caesar_encryption: Encrypts the input text using the Caesar Cipher.
+        - text: The input string to be encrypted.
+        - shift: The number of positions each alphabetic character is shifted.
+        How it works:
+            - Each character in the input text is shifted by a specified number (shift).
+            - The alphabet wraps around when shifting beyond 'Z'.
 Created on 28/12/2024
 @author: Caesar Ghazi
 """

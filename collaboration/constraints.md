@@ -52,3 +52,15 @@ with Git and GitHub.
 other group members.
 - I face academic constraints as I am currently enrolled in university, which
 limits my availability time.
+
+---
+
+## Mohammad Al Salloum
+
+- Hard Time management between the university, MIT Emerging Talent
+  program, and personal responsibilities.
+- I share a single laptop with my brother,
+  which makes studying sometimes inconvenient
+  due to conflicting times
+
+  ---

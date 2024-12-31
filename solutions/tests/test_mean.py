@@ -11,6 +11,7 @@ Author: Mohammed Elfadil
 Date: 31/12/2024
 """
 import unittest
+
 from solutions.mean import mean
 
 
@@ -61,6 +62,6 @@ class TestMean(unittest.TestCase):
 
     def test_string(self):
         """It should evaluate inavlid input"""
-        actual = mean(["a", "b", "c"])
+        actual = mean("2 4 6")
         expected = "invalid input"
         self.assertEqual(actual, expected)

@@ -1,3 +1,14 @@
+"""
+This module contains unit tests for the `calculate_simple_interest` function.
+
+The tests cover:
+- Standard simple interest calculations.
+- Edge cases where inputs such as principal, rate, or time are zero.
+- Validation of correct implementation based on the simple interest formula.
+
+Run this module using `unittest` to verify the function's correctness.
+"""
+
 import unittest
 from solutions.simple_interest_calculator import (
     calculate_simple_interest,

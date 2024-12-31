@@ -1,7 +1,7 @@
 
-  # 404s - Turning Errors Into Excellence
+   # 404s - Turning Errors Into Excellence
 
-  ## 🌟 Welcome to the 404s Repository – Where We Celebrate Every Step of the Journey,  
+   ## 🌟 Welcome to the 404s Repository – Where We Celebrate Every Step of the Journey,  
 **Even the "404" Moments!🌟**
 
 At **404s**, we turn "not found" into "newly discovered." We celebrate our coding journey
@@ -13,23 +13,23 @@ We’re here to ensure that no problem is ever lost!
 
 ---
 
-  ### 🎯 Our Objective
+   ### 🎯 Our Objective
 
 Our goal is to foster a space for innovation and learning by:
 
-  #### - **Collaborating** across diverse skill sets to unlock new possibilities.
-  #### - **Embracing challenges** and transforming them into learning opportunities.
-  #### - **Developing efficient**, **creative solutions** that address real-world problems.
+   #### - **Collaborating** across diverse skill sets to unlock new possibilities.
+   #### - **Embracing challenges** and transforming them into learning opportunities.
+   #### - **Developing efficient**, **creative solutions** that address real-world problems.
 
 ---
 
-  ### 💡 Innovation through Collaboration
+   ### 💡 Innovation through Collaboration
 
 Every detour is a chance for discovery, and every 404 is an invitation to innovate. 
 
 By leveraging our diverse skills, we create a culture where:
 
-  - **Ideas Flow Freely**: Open discussions lead to unexpected solutions.
-  - **Feedback Loops**: Continuous feedback helps refine our approaches.
+   - **Ideas Flow Freely**: Open discussions lead to unexpected solutions.
+   - **Feedback Loops**: Continuous feedback helps refine our approaches.
 
 Together, we transform challenges into opportunities for growth and excellence!

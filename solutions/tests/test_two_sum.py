@@ -3,6 +3,7 @@ Unit tests for the two_sum function.
 """
 
 import unittest
+
 from solutions.two_sum import two_sum
 
 
@@ -10,6 +11,8 @@ class TestTwoSum(unittest.TestCase):
     """
     Unit tests for the two_sum function.
     """
+
+
 def test_empty_or_single_element_list(self):
     with self.assertRaises(ValueError):
         two_sum([], 9)

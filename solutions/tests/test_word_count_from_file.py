@@ -11,7 +11,7 @@ Returns -> The total number of words in the file.
 Raises: AssertionError
 """
 
-from ..solutions.word_count_from_file import word_count_txt_file
+from ..word_count_from_file import word_count_txt_file
 
 
 class TestWordCountFromFile(unittest.TestCase):

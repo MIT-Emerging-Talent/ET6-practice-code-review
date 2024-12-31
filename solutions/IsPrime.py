@@ -30,6 +30,8 @@ def IsPrime(a: int) -> str:
     prime
     >>> IsPrime(2.5)
     invalid input
+    >>> IsPrime(-1)
+    not prime
     """
     if not isinstance(a, int):
         return "invalid input"

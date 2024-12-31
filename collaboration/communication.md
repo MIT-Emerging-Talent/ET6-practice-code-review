@@ -7,41 +7,45 @@
         you can share the rest in confidence with you group by another channel
 -->
 
-# Communication
+# Communication 📬
 
 ______________________________________________________________________
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion | | --- | :-: | ----------------------- |
+| Day | How | The topic of discussion |
+| --- | :-: | ----------------------- |
+| | | |
+| | | |
 | | | |
 
 ## Communication Channels
 
 how often will we get in touch on each channel, and what we will discuss there:
 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+- **Issues**: To track team progress, update as needed, and assign tasks where needed
+- **Pull Requests**: Reviewed within 48 hours for feedback, approving the change and merging it to the main branch
+
+- **Slack**: For daily task updates and resolving small problems from team members
+- **Video Calls**: Zoom/Google meet preferably for general group meetings and weekly updates
 
 ______________________________________________________________________
 
 ## Availability
 
-### Availability for calling/messaging
+### Availability for calling/messaging(+how many hours each day in EST)
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
-
-### How many hours everyone has per day
-
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
+|:------ | :----: | :-----: | :-------: | :------: | :----: | :------: | ----: |
+|  Hiba | 9-12     |  9-12       |    9-12    |    9-12     |   9-12    |     9-12   |   9-12   |
+| Jeffery |   9-12    |    9-12     |    9-12    |     9-12   |   9-12   |    9-12    |   9-12   |
+| Kelvin |         |          |          |          |        |          |        |
+| Mahdia |     9-12  |     9-12   |     10-12   |    10-12    |    9-12   |     9-12   |   10-12   |
+| Martha |         |          |          |          |        |          |        |
+| Osei |         |          |          |          |        |          |        |
+| Rina |         |          |          |          |        |          |        |
+| Shagun |         |          |          |          |        |          |        |
+| Yool |         |          |          |          |        |          |        |
 
 ## Asking for Help
 

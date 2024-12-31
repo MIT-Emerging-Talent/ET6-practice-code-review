@@ -17,14 +17,23 @@ Attendees: 7**
 
 _How to fix the linting errors?_  
 • **AN INIT PY FILE WILL BE ADDED TO MAIN**  
+<<<<<<< HEAD:notes/meeting_minutes/03_meeting_minutes.md
 An init py file  (**init**.py) was added in main branch of _solutions_ file,
 also in _test_ file.
+=======
+An init py file  (**init**.py) was added in main branch of _solutions_ file, also in
+_test_ file.
+>>>>>>> a6e4598942489a3d6def477cd3d87dcc7eaf4392:notes/meeting_minutes/03MM.md
 
 ### Decision made  
 
 **Action Items**  
   _What needs to be done?_  
+<<<<<<< HEAD:notes/meeting_minutes/03_meeting_minutes.md
 [ ] Ruff and Linting tests before merging.  
+=======
+[ ] Ruuff and Linting tests before merging.  
+>>>>>>> a6e4598942489a3d6def477cd3d87dcc7eaf4392:notes/meeting_minutes/03MM.md
 
 ### Follow up
 

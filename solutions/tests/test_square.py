@@ -1,6 +1,6 @@
 # The test case for the Square function of our calculator
 import unittest
-from square import square
+from __main__ import square
 
 class TestSquareFunction(unittest.TestCase):
     """
@@ -25,4 +25,4 @@ class TestSquareFunction(unittest.TestCase):
         self.assertAlmostEqual(square(1.5), 2.25)
 
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main(argv=['first-arg-is-ignored'], exit=False)

@@ -10,7 +10,7 @@ Author: Hussaini Ahmed
 """
 
 
-def is_prime(number: int) -> bool:
+def prime_number_checker(number: int) -> bool:
     """
     Checks if a number is prime.
 
@@ -24,19 +24,19 @@ def is_prime(number: int) -> bool:
         TypeError: If the input is not an integer.
 
     Examples:
-        >>> is_prime(2)
+        >>> prime_number_checker(2)
         True
-        >>> is_prime(3)
+        >>> prime_number_checker(3)
         True
-        >>> is_prime(4)
+        >>> prime_number_checker(4)
         False
-        >>> is_prime(13)
+        >>> prime_number_checker(13)
         True
-        >>> is_prime(1)
+        >>> prime_number_checker(1)
         False
-        >>> is_prime(0)
+        >>> prime_number_checker(0)
         False
-        >>> is_prime(-5)
+        >>> prime_number_checker(-5)
         False
     """
     if not isinstance(number, int):

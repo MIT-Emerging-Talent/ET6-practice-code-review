@@ -46,7 +46,7 @@ def is_palindrome(s: str) -> bool:
     """
     # Defensive assertion for type check
     if not isinstance(s, str):
-        raise TypeError("Input must be a string, got {type(s).__name__}")
+        raise TypeError(f"Input must be a string, got {type(s).__name__}")
 
     # Normalize the string: Remove non-alphanumeric characters and convert to lowercase.
     cleaned = ''.join(char.lower() for char in s if char.isalnum())

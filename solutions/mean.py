@@ -22,8 +22,12 @@ def mean(a: list) -> float:
     3.0
     >>> mean([10, 20, 30, 40, 50])
     30.0
+    >>> mean([1.5, 2.5, 3.5])
+    2.5
+    >>>mean([2])
+    2.0
     """
     if not isinstance(a, list):
         return "invalid input"
-
+    # return the mean of the list by dividing the sum of the list by the length of the list
     return sum(a) / len(a)

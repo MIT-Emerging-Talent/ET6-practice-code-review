@@ -1,10 +1,13 @@
 def remove_triplets(text: str):
+    """Validate input type"""
+    assert isinstance(text, str), "Input must be a string type"
+
+    """Handle empty input"""
     if text == "":
         return ""
 
     prev = text[0]
     frequency = 1
-
     ans = text[0]
 
     for i in range(1, len(text)):
@@ -19,4 +22,4 @@ def remove_triplets(text: str):
     return ans
 
 
-print(remove_triplets("aaabbb"))
+print(remove_triplets(""))

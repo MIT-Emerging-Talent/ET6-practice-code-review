@@ -21,6 +21,11 @@ class test_remove_triplets(unittest.TestCase):
         """Test input with two consecutive characters"""
         self.assertEqual(remove_triplets("aaabaaaa"), "aabaa")
 
+    def test_invalid_input_type(self):
+        """Test invalid input type"""
+        with self.assertRaises(AssertionError):
+            remove_triplets(123)  # Passing an integer instead of a string
+
 
 if __name__ == "__main__":
     unittest.main()

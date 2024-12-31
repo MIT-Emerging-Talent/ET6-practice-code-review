@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Notes
 
 ## 1. Lint the code
@@ -17,3 +18,5 @@ _Why is it important?_
 
 * **Rating the code**  
 * **Shows you linting errors and what to fix**  
+=======
+>>>>>>> 556211e125965de727cff6a1325a9214a1dee402

@@ -16,16 +16,15 @@ Attendees: 7**
 ### Key discussions
 
 _How to fix the linting errors?_  
-• **INIT PY FILE**  
-Add an init py file  (**init**.py) in YOUR branch of _solutions_ file, also in
-_test_ file before push into github.
+• **AN INIT PY FILE WILL BE ADDED TO MAIN**  
+An init py file  (**init**.py) was added in main branch of _solutions_ file,
+also in _test_ file.
 
 ### Decision made  
 
 **Action Items**  
   _What needs to be done?_  
-[ ] Every branch you work on from now on should include and empty file named
-(**init**..py)  
+[ ] Ruff and Linting tests before merging.  
 
 ### Follow up
 
@@ -34,7 +33,7 @@ Some files will be added on the main branch so when merging it will be checked.
 
 ### Other notes
 
-We fixed two linting errors, the other two will be discussed on the next meeting.
+We fixed the linting errors.
 
 ### Next meeting
 

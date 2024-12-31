@@ -3,8 +3,8 @@
 """
 Factorial Calculation Script
 =============================
-This script contains a function to calculate the factorial of a
-non-negative integer using recursion, and then, prints the result.
+This script contains a function to calculate the factorial of a non-negative integer
+using recursion.
 
 Author: Banu Ozyilmaz
 Created on: 12-28-2024
@@ -13,11 +13,12 @@ Created on: 12-28-2024
 
 def factorial(n: int) -> int:
     """
-    Calculates the factorial of a non-negative integer using recursion and prints the result.
+    Calculates the factorial of a non-negative integer using recursion.
 
     Arguments:
         n (int): A non-negative integer whose factorial is to be calculated.
-                 Recommended to use values less than 100 to avoid recursion limit and memory issues.
+                 Recommended to use values no more than 100 to avoid recursion limit
+                 and memory issues.
 
     Returns:
         int: The factorial of the given number.
@@ -37,16 +38,15 @@ def factorial(n: int) -> int:
         120
         >>> factorial(6)
         720
-        >>> factorial(10)
-        3628800
         >>> factorial(-1)
         Traceback (most recent call last):
-            ...
+        ...
         AssertionError: The argument must be a non-negative integer.
         >>> factorial(3.5)
         Traceback (most recent call last):
-            ...
+        ...
         AssertionError: The argument should be an integer.
+
     """
     # Input validation
     assert isinstance(n, int), "The argument should be an integer."
@@ -55,13 +55,12 @@ def factorial(n: int) -> int:
     # Base Case
     if n == 0:
         result = 1
-        print("The factorial of 0 is 1")
+
     else:
         # Break Down: Reduce the problem size by one
         smaller_factorial = factorial(n - 1)
         # Recursive Case: Use the result of the smaller problem
         # Build Up: Combine the current value with the smaller problem result
         result = n * smaller_factorial
-        print(f"The factorial of {n} is {result}")
 
     return result

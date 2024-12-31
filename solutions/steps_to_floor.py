@@ -53,4 +53,3 @@ if __name__ == "__main__":
     doctest.testmod()  # Run tests on the core function
     # Uncomment the following line for interactive user input
     steps_to_floor()
-

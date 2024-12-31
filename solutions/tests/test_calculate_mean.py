@@ -1,6 +1,7 @@
 """
 Unit tests for the calculate_mean function.
 
+Date created: Dec 30, 2024
 Author: @Abel Teka
 
 This test suite validates the calculate_mean function's behavior, ensuring it:

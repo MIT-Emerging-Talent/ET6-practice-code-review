@@ -1,6 +1,7 @@
 """
 This module provides a function to calculate the mean (average) of a list of numbers.
 
+Date created: Dec 30,2024
 Author: @Abel Teka
 """
 
@@ -30,6 +31,8 @@ def calculate_mean(numbers: List[float]) -> Optional[float]:
         20.0
         >>> calculate_mean([])
         None
+        >>> calculate_mean([5])
+        5.0
         >>> calculate_mean([1.5, 2.5, 3.5])
         2.5
     """

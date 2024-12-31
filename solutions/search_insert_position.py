@@ -24,7 +24,7 @@ def search_insert_position(numbers: list[int], target: int) -> int:
         int: The index or insertion position.
 
     Raises:
-        AssertionError: If inputs are of incorrect type or format.
+        AssertionError: If inputs are of incorrect type or format and if input lists are not sorted
 
     Examples:
         >>> search_insert_position([1, 3, 5, 6], 5)

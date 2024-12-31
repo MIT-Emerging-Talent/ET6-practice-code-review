@@ -30,6 +30,15 @@ def two_sum(nums: List[int], target: int) -> List[int]:
         >>> two_sum([3, 3], 6)
         [0, 1]
     """
+        # Validate input list length
+    if len(nums) < 2:
+        raise ValueError("The input list must contain at least two integers.")
+        
+        
+            # Validate input types
+    if not all(isinstance(num, int) for num in nums):
+        raise TypeError("All elements in the input list must be integers.")
+        
     seen = {}
     for i, num in enumerate(nums):
         complement = target - num

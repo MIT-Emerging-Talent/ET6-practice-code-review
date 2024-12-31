@@ -11,7 +11,6 @@ Author: Mohammed Elfadil
 Date: 31/12/2024
 """
 import unittest
-
 from solutions.mean import mean
 
 

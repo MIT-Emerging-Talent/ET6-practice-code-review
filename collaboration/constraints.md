@@ -64,3 +64,11 @@ limits my availability time.
   due to conflicting times
 
   ---
+
+## Dadi Ishimwe
+
+- Conflicting times due to personal responsibilities but
+  manageable
+
+  ---
+  

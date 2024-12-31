@@ -1,30 +1,34 @@
-def remove_triplets(text: str):
+def remove_triplets(text: str) -> str:
     """
-    This function remove triplets from a string. A triplet is a sequence of 3 consecutive characters.
+    Removes triplets from string, a triplet is a sequence of three consecutive identical characters.
+
+    This function processes the input string and ensures no three consecutive characters are the
+    same by removing the minimum number of characters required.
 
     Args:
         text (str): The input string to process. It can be empty or contain any characters.
 
     Returns:
-        _type_: The processed string where no three consecutive characters are the same.
+        str: The processed string where no three consecutive characters are the same.
 
     Raises:
-        AssertionError: If input is not of type string.
+        AssertionError: If the input is not of type string.
 
-    Example:
-    >>> remove_triplets("aaabaaaa")
-    "aabaa"
+    Examples:
+        >>> remove_triplets("aaabaaaa")
+        'aabaa'
 
-    >>> remove_triplets("helllo")
-    "hello"
+        >>> remove_triplets("helllo")
+        'hello'
 
-    >>> remove_triplets("leeetcode")
-    "leetcode"
+        >>> remove_triplets("leeetcode")
+        'leetcode'
 
-    edge case:
-    - If input is an empty string, return an empty string.
-    - If input has no three consecutive characters, return the input string.
-    - If the input contains higher than 3 consecutive characters, the function limits the repetitions to 2 chars
+    Edge Cases:
+        - If the input is an empty string, return an empty string.
+        - If the input has no three consecutive characters, return the input string unchanged.
+        - If the input contains more than three consecutive identical
+            characters, the function limits the repetitions to two.
     """
     # Validate input type
     assert isinstance(text, str), "Input must be a string type"
@@ -47,6 +51,3 @@ def remove_triplets(text: str):
             ans += text[i]
 
     return ans
-
-
-print(remove_triplets(""))

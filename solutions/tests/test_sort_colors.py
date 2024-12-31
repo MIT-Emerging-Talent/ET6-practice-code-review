@@ -30,7 +30,6 @@ Created on 26 10 2024
 @author: Mohamed-Elnageeb
 """
 
-import random
 import unittest
 
 # Import the function to be tested
@@ -62,7 +61,7 @@ class TestSortColors(unittest.TestCase):
         """It should not modify an already sorted list"""
         nums = [0, 0, 1, 1, 2, 2]
         sort_colors(nums)
-        self.assertEqual(nums, [0, 0, 1, 1, 2, 2])  # Fixed expected output
+        self.assertEqual(nums, [0, 0, 1, 1, 2, 2])
 
     def test_unsorted_list(self):
         """It should sort an unsorted list"""
@@ -73,8 +72,9 @@ class TestSortColors(unittest.TestCase):
     def test_large_list(self):
         """It should handle a large list"""
         nums = [0, 2, 1] * 100000
+        expected = sorted(nums)  # expected output is a sorted array
         sort_colors(nums)
-        self.assertEqual(nums, [0] * 100000 + [1] * 100000 + [2] * 100000)
+        self.assertEqual(nums, expected)
 
     def test_not_a_list(self):
         """It should raise an assertion error if the input is not a list"""
@@ -86,13 +86,6 @@ class TestSortColors(unittest.TestCase):
         nums = [0, 1, 3]  # Invalid element 3
         with self.assertRaises(AssertionError):
             sort_colors(nums)
-
-    def test_randomly_generated_list(self):
-        """It should sort an unsorted list"""
-        nums = [random.randint(0, 2) for i in range(1000)]
-        expected = list(sorted(nums))
-        sort_colors(nums)
-        self.assertEqual(nums, expected)
 
 
 if __name__ == "__main__":

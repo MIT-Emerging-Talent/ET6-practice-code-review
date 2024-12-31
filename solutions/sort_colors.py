@@ -66,15 +66,15 @@ def sort_colors(nums: List[int]) -> None:
     assert all(0 <= number <= 2 for number in nums), "All elements must be 0, 1, or 2."
 
     # Create a counter array to store the count of each number
-    counter_array = [0] * 3
+    counter_list = [0] * 3
 
     # Count occurrences of each number
     for number in nums:
-        counter_array[number] += 1
+        counter_list[number] += 1
 
     # Rebuild the nums array in-place
     index = 0
     for number in range(3):
-        for _ in range(counter_array[number]):
+        for _ in range(counter_list[number]):
             nums[index] = number
             index += 1

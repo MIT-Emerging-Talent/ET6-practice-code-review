@@ -1,5 +1,8 @@
 import unittest
-from src.simple_interest_calculator import calculate_simple_interest  # Adjust the import based on your actual function
+from solutions.simple_interest_calculator import (
+    calculate_simple_interest,
+)  # Adjust the import based on your actual function
+
 
 class TestSimpleInterestCalculator(unittest.TestCase):
     # Test case for a basic calculation of Simple Interest
@@ -11,7 +14,9 @@ class TestSimpleInterestCalculator(unittest.TestCase):
         expected_result = 150  # Expected simple interest
         actual_result = calculate_simple_interest(principal, rate_of_interest, time)
 
-        self.assertEqual(actual_result, expected_result)  # Assert if the calculation is correct
+        self.assertEqual(
+            actual_result, expected_result
+        )  # Assert if the calculation is correct
 
     # Test case for zero principal
     def test_calculate_simple_interest_zero_principal(self):
@@ -22,7 +27,9 @@ class TestSimpleInterestCalculator(unittest.TestCase):
         expected_result = 0
         actual_result = calculate_simple_interest(principal, rate_of_interest, time)
 
-        self.assertEqual(actual_result, expected_result)  # Assert if the result is 0 for zero principal
+        self.assertEqual(
+            actual_result, expected_result
+        )  # Assert if the result is 0 for zero principal
 
     # Test case for zero time period
     def test_calculate_simple_interest_zero_time(self):
@@ -45,6 +52,7 @@ class TestSimpleInterestCalculator(unittest.TestCase):
         actual_result = calculate_simple_interest(principal, rate_of_interest, time)
 
         self.assertEqual(actual_result, expected_result)
+
 
 # To run the tests, use this command in the terminal: python -m unittest tests/test_simple_interest_calculator.py
 if __name__ == "__main__":

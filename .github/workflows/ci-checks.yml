@@ -1,83 +1,64 @@
-# Name of the CI workflow
 name: ET CI Checks
 
-# Specifies the events that trigger the workflow
-on: 
-  - push           # Runs when code is pushed to the repository
-  - pull_request   # Runs when a pull request is created or updated
-  - workflow_dispatch # Allows manual triggering of the workflow
+on: [push, pull_request, workflow_dispatch]
 
-# Defines the jobs in this CI workflow
 jobs:
-  # Job to check code with `ls-lint` for directory and file naming conventions
   ls_linting:
-    runs-on: ubuntu-latest # Specifies the OS environment
-    steps:
-      - uses: actions/checkout@v4 # Checks out the code from the repository
-      - uses: ls-lint/action@v2.2.3 # Runs the ls-lint tool for linting directory and file names
+      runs-on: ubuntu-latest
+      steps:  
+        - uses: actions/checkout@v4
+        - uses: ls-lint/action@v2.2.3
 
-  # Job to check and enforce Markdown formatting standards
   md_formatting:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4 # Checks out the code from the repository
-      - uses: nosborn/github-action-markdown-cli@v3.3.0 # Uses a markdown formatting tool
-        with:
-          files: .               # Specifies the directory to lint
-          config_file: .markdownlint.yml # Configuration file for markdown linting
+    - uses: actions/checkout@v4
+    - uses: nosborn/github-action-markdown-cli@v3.3.0
+      with:
+        files: .
+        config_file: .markdownlint.yml
 
-  # Job to check Python code formatting
   py_formatting:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4 # Checks out the code from the repository
+      - uses: actions/checkout@v4
       - name: Python - Check Formatting
-        uses: astral-sh/ruff-action@v1 # Uses `ruff` to check Python code formatting
+        uses: astral-sh/ruff-action@v1
         with:
-          args: "format --check" # Runs `ruff` with the `format --check` argument
+          args: "format --check"
 
-  # Job to lint Python code for adherence to style standards
   py_linting:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4 # Checks out the code from the repository
+      - uses: actions/checkout@v4
 
-      # Step to check Python linting using `ruff`
+      # passing ruff linting is required
       - name: Python - Check Linting - ruff
         uses: astral-sh/ruff-action@v1
 
-      # Additional step to check Python linting using `pylint` (not required to pass)
+      # passing pylint is not required - discuss errors in code review
+      # adapted from https://github.com/davidslusser/actions_python_pylint/tree/main
       - name: python version
-        run: python --version # Displays the Python version used in the environment
+        run: python --version
         shell: bash
-        if: always() # Ensures this step always runs
-
+        if: always()
       - name: install pylint
         run: |
-          python -m pip install --upgrade pip # Upgrades pip
-          pip install pylint # Installs pylint
+          python -  m pip install --upgrade pip
+          pip install pylint
         shell: bash
-
       - name: Python - Check Linting - pylint
-        run: |
-          pylint solutions tests || echo '::warning title=Pylint Error(s)::Discuss solutions and trade-offs in code review.'
-        # Runs pylint on the `solutions` and `tests` directories, allows errors, and provides a warning for code review
+        run: "pylint solutions tests  || echo '::warning title=Pylint Error(s)::Discuss solutions and trade-offs in code review.'"
         shell: bash
 
-  # Job to run Python unit tests
   py_tests:
     runs-on: ubuntu-latest
     steps:
-<<<<<<< HEAD
       - uses: actions/checkout@v4
       
-=======
-      - uses: actions/checkout@v4 # Checks out the code from the repository
->>>>>>> 143e8913ae8f58f023c614b6f6ca7aed5c716329
       - name: python version
-        run: python --version # Displays the Python version used in the environment
+        run: python --version
         shell: bash
-<<<<<<< HEAD
       
       - name: Check for test files
         id: check_tests
@@ -91,10 +72,6 @@ jobs:
             echo "No test files found matching pattern ./solutions/tests/test_*.py"
             echo "has_tests=false" >> $GITHUB_OUTPUT
           fi
-=======
-      - name: Python - Run Tests
-        run: python -m unittest # Runs Python unit tests using the `unittest` module
->>>>>>> 143e8913ae8f58f023c614b6f6ca7aed5c716329
         shell: bash
       
       - name: Python - Run Tests

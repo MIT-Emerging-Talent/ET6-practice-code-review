@@ -1,3 +1,18 @@
+"""
+Unit tests for the count_vowels module.
+
+This module contains a suite of tests for the count_vowels function, which counts
+the number of vowels in a given string. The function handles both uppercase
+and lowercase vowels and ensures correct results for edge cases, such as
+empty strings, strings with no vowels, and strings with special characters
+or whitespace.
+
+Examples:
+    count_vowels("hello") -> 2
+    count_vowels("HELLO") -> 2
+    count_vowels(" A e i o u ") -> 5
+"""
+
 import unittest
 from solutions.count_vowels import count_vowels
 
@@ -48,6 +63,11 @@ class TestCountVowels(unittest.TestCase):
     def test_count_vowels_mixed_case_and_symbols(self):
         """Test that count_vowels correctly handles mixed case with symbols."""
         self.assertEqual(count_vowels("Aeiou123!"), 5)
+
+    def test_vowel_count_with_whitespace(self):
+        """Test count_vowels function with input containing whitespace."""
+        result = count_vowels(" A e i o u ")
+        self.assertEqual(result, 5)  # Expect 5 vowels
 
 
 if __name__ == "__main__":

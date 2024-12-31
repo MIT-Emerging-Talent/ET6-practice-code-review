@@ -1,7 +1,7 @@
 """
-Unit tests for the is_leap_year function.
+Unit tests for the leap_year_checker function.
 
-Tests the behavior of the is_leap_year function across a range of cases:
+Tests the behavior of the leap_year_checker function across a range of cases:
     - Valid leap years
     - Non-leap years
     - Invalid input types
@@ -12,39 +12,65 @@ Author: Hussaini Ahmed
 
 import unittest
 
-from solutions.leap_year_checker import is_leap_year
+from solutions.leap_year_checker import leap_year_checker
 
 
 class TestIsLeapYear(unittest.TestCase):
-    """Test cases for the is_leap_year function."""
+    """Test cases for the leap_year_checker function."""
 
-    def test_valid_leap_years(self):
-        """Test known leap years."""
-        self.assertTrue(is_leap_year(2020))
-        self.assertTrue(is_leap_year(2000))
-        self.assertTrue(is_leap_year(1600))
+    def test_valid_leap_year(self):
+        """Ensure the function correctly identifies leap years."""
+        self.assertTrue(
+            leap_year_checker(2020), "2020 should be identified as a leap year."
+        )
 
-    def test_non_leap_years(self):
-        """Test known non-leap years."""
-        self.assertFalse(is_leap_year(1900))
-        self.assertFalse(is_leap_year(2021))
-        self.assertFalse(is_leap_year(2019))
+    def test_non_leap_year(self):
+        """Ensure the function correctly identifies non-leap years."""
+        self.assertFalse(
+            leap_year_checker(2021), "2021 should not be identified as a leap year."
+        )
 
-    def test_invalid_input(self):
-        """Test invalid inputs for the function."""
+    def test_century_year_not_leap(self):
+        """Ensure century years that are not divisible by 400 are non-leap years."""
+        self.assertFalse(
+            leap_year_checker(1900), "1900 should not be identified as a leap year."
+        )
+
+    def test_century_year_leap(self):
+        """Ensure century years divisible by 400 are leap years."""
+        self.assertTrue(
+            leap_year_checker(2000), "2000 should be identified as a leap year."
+        )
+
+    def test_invalid_input_type_string(self):
+        """Ensure the function raises a TypeError for string input."""
         with self.assertRaises(TypeError):
-            is_leap_year("2020")
-        with self.assertRaises(TypeError):
-            is_leap_year(2020.5)
-        with self.assertRaises(ValueError):
-            is_leap_year(-2020)
-        with self.assertRaises(ValueError):
-            is_leap_year(0)
+            leap_year_checker("2020")
 
-    def test_boundary_cases(self):
-        """Test edge cases for leap year logic."""
-        self.assertFalse(is_leap_year(1))  # Minimum valid year
-        self.assertTrue(is_leap_year(4))  # First leap year
+    def test_invalid_input_type_float(self):
+        """Ensure the function raises a TypeError for float input."""
+        with self.assertRaises(TypeError):
+            leap_year_checker(2020.5)
+
+    def test_negative_year(self):
+        """Ensure the function raises a ValueError for negative year input."""
+        with self.assertRaises(ValueError):
+            leap_year_checker(-2020)
+
+    def test_zero_year(self):
+        """Ensure the function raises a ValueError for year 0."""
+        with self.assertRaises(ValueError):
+            leap_year_checker(0)
+
+    def test_boundary_case_minimum_year(self):
+        """Ensure the function handles the smallest valid year correctly."""
+        self.assertFalse(leap_year_checker(1), "Year 1 should not be a leap year.")
+
+    def test_boundary_case_first_leap_year(self):
+        """Ensure the function correctly identifies the first leap year."""
+        self.assertTrue(
+            leap_year_checker(4), "Year 4 should be identified as a leap year."
+        )
 
 
 if __name__ == "__main__":

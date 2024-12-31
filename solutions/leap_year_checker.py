@@ -4,14 +4,14 @@
 A module for checking if a given year is a leap year.
 
 Module contents:
-    - is_leap_year: A function that checks if a given year is a leap year.
+    - leap_year_checker: A function that checks if a given year is a leap year.
 
 Created on 2024-12-31
 Author: Hussaini Ahmed
 """
 
 
-def is_leap_year(year: int) -> bool:
+def leap_year_checker(year: int) -> bool:
     """
     Checks if a given year is a leap year.
 
@@ -44,6 +44,5 @@ def is_leap_year(year: int) -> bool:
         raise TypeError("The year must be an integer.")
     if year <= 0:
         raise ValueError("The year must be a positive integer.")
-
     # A year is a leap year if it is divisible by 4, not divisible by 100, or divisible by 400.
     return (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)

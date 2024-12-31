@@ -10,6 +10,11 @@ class TestTwoSum(unittest.TestCase):
     """
     Unit tests for the two_sum function.
     """
+def test_empty_or_single_element_list(self):
+    with self.assertRaises(ValueError):
+        two_sum([], 9)
+    with self.assertRaises(ValueError):
+        two_sum([5], 5)
 
     def test_valid_input(self):
         """

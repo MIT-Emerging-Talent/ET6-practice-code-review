@@ -52,5 +52,6 @@ class TestFindSmallest(unittest.TestCase):
         with self.assertRaises(TypeError):
             find_smallest([True, 1])
 
+
 if __name__ == "__main__":
     unittest.main()

@@ -27,6 +27,6 @@ def find_smallest(lst: list[float]) -> float:
         raise ValueError("List must not be empty.")
     if not all(isinstance(x, (int, float)) and not isinstance(x, bool) for x in lst):
         raise TypeError("All elements in the list must be numeric and not boolean.")
-    
+
     # Return the smallest number
     return min(lst)

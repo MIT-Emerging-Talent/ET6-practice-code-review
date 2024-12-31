@@ -3,6 +3,7 @@ import unittest
 from solutions.remove_triplets import remove_triplets
 
 
+# Test cases for remove_triplets function
 class test_remove_triplets(unittest.TestCase):
     def test_empty_input(self):
         """Test when input is empty"""

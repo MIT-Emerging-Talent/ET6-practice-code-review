@@ -8,7 +8,7 @@ open communication, mutual respect, and the celebration of diverse perspectives.
 
 ---
 
-## Key Group Norms
+## Group Key Norms
 
 ### 1. Communication Guidelines
 

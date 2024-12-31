@@ -1,9 +1,11 @@
 # Repository Setup
+
 Before diving into your project, make sure your team has all the practical  
 things in place. This step isn't very hard, but everything will go more  
 smoothly if you take the time to do this correctly at the beginning.
 
 ## Setup and Share a Repository
+
 As a team, you will choose the name for your team and select someone from your  
 team to be the repo owner. This person will fork this repository and configure  
 it for collaboration:
@@ -33,5 +35,6 @@ it for collaboration:
     - _Do not allow bypassing the above settings_
 
 ## README
+
 Write the [main README](../../README.md) for your repository! You can always  
 update it as you learn more about code review and collaboration on GitHub.

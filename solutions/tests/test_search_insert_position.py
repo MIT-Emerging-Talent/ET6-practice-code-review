@@ -10,7 +10,7 @@ import unittest
 from ..search_insert_position import search_insert_position
 
 
-class TestIsIn(unittest.TestCase):
+class TestSearchInsertPosition(unittest.TestCase):
     """Test Suite for the search_insert_position function"""
 
     def test_minimal_input(self):

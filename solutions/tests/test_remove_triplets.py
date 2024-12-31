@@ -1,0 +1,26 @@
+import unittest
+
+from solutions.remove_triplets import remove_triplets
+
+
+class test_remove_triplets(unittest.TestCase):
+    def test_empty_input(self):
+        """Test when input is empty"""
+        self.assertEqual(remove_triplets(""), "")
+
+    def test_input_without_consecutive(self):
+        """Test input without consecutive characters"""
+        self.assertEqual(remove_triplets("abc"), "abc")
+
+    def test_input_with_one_consecutive(self):
+        """Test input with one consecutive character"""
+        self.assertEqual(remove_triplets("helllo"), "hello")
+        self.assertEqual(remove_triplets("leeetcode"), "leetcode")
+
+    def test_input_with_two_consecutive(self):
+        """Test input with two consecutive characters"""
+        self.assertEqual(remove_triplets("aaabaaaa"), "aabaa")
+
+
+if __name__ == "__main__":
+    unittest.main()

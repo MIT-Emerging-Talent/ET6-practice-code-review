@@ -7,7 +7,6 @@ Write a function that takes a string as input and returns a list of ASCII
 codes of the characters in the string.
 
 Example:
-    ascii_code('A') -> [65]
     ascii_code('abc') -> [97, 98, 99]
     ascii_code('!') -> [33]
     ascii_code('') -> []
@@ -34,6 +33,9 @@ def ascii_code(text: str) -> list:
     Raises:
     TypeError: if the input is not a string
     """
+    # Check if the input is not a string
+    if not isinstance(text, str):
+        raise AssertionError("Input must be a string")
     # Check if the input is an empty string
     if text == "":
         return []

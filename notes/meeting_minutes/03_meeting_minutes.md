@@ -11,29 +11,21 @@ Attendees: 7**
 
 >FIXING CI CHECKS
 
-![Checks](./image/checks.PNG)
+![Checks](image/checks.png)
 
 ### Key discussions
 
 _How to fix the linting errors?_  
-• **AN INIT PY FILE WILL BE ADDED TO MAIN**  
-<<<<<<< HEAD:notes/meeting_minutes/03_meeting_minutes.md
-An init py file  (**init**.py) was added in main branch of _solutions_ file,
-also in _test_ file.
-=======
-An init py file  (**init**.py) was added in main branch of _solutions_ file, also in
-_test_ file.
->>>>>>> a6e4598942489a3d6def477cd3d87dcc7eaf4392:notes/meeting_minutes/03MM.md
+• **INIT PY FILE**  
+Add an init py file  (**init**.py) in YOUR branch of _solutions_ file, also in
+_test_ file before push into github.
 
 ### Decision made  
 
 **Action Items**  
   _What needs to be done?_  
-<<<<<<< HEAD:notes/meeting_minutes/03_meeting_minutes.md
-[ ] Ruff and Linting tests before merging.  
-=======
-[ ] Ruuff and Linting tests before merging.  
->>>>>>> a6e4598942489a3d6def477cd3d87dcc7eaf4392:notes/meeting_minutes/03MM.md
+[ ] Every branch you work on from now on should include and empty file named
+(**init**..py)  
 
 ### Follow up
 
@@ -42,7 +34,7 @@ Some files will be added on the main branch so when merging it will be checked.
 
 ### Other notes
 
-We fixed the linting errors.
+We fixed two linting errors, the other two will be discussed on the next meeting.
 
 ### Next meeting
 

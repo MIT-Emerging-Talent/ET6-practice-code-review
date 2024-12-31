@@ -11,7 +11,8 @@ Attendees: 6**
 
 + **Formatting**  
   > Always name files with snake_case  
-  > Lint files before push to github (py-lint, ruff, markdown)
+  > Lint files before push to github (py-lint,
+   ruff, markdown)
 + **Ruff formatting**  
   After finishing documenting and testing on VSCode  
   _Steps for ruff formatting (on terminal):_  
@@ -21,26 +22,32 @@ Attendees: 6**
 
 happy merging :)
 
-+ **Before making a pull request make sure to pass all the ET CI Checks**  
++ **Before making a pull request make sure to pass
+  all the ET CI Checks**  
 _Details will appear like this:_  
 
 1. open the **x** (in yellow) in your branch pushed
 ![FAILED](./image/open_failed.PNG)
-2. Check which failed  
+1. Check which failed  
 ![CHECKS](./image/et_ci_check.PNG)
-3. Details: Read why failed and fix
+1. Details: Read why failed and fix
   
 ### Key discussions
 
+<!--markdownlint-disable MD034 MD013-->
 [**Project Board**](https://github.com/orgs/MIT-Emerging-Talent/projects/127/views/1)
 
-+ Only issues will be on project board , the pull request will
- be archived. The pull request will just be linked to the **_Issue_**
-  in the **⚙️ Development** also add label tag.
++ Only issues will be on project board , the
+pull request will be archived. The pull request
+ will just be linked
+  to the **_Issue_** in the **⚙️ Development**
+  also add label tag.
 + When reviewing someone's code, make sure:  
-  On the project Board: **_Issue_** : Assign yourself for review in
+  On the project Board: **_Issue_** : Assign
+  yourself for review in
   **⚙️ Assignees**  
-  On the pull request: Assign yourself for review in **⚙️ Reviewers**
+  On the pull request: Assign yourself for
+  review in **⚙️ Reviewers**
 
 ### Decision made
 
@@ -70,13 +77,16 @@ _Details will appear like this:_
 ### Follow up
 
 + Branches can be deleted if not used anymore
-+ Write your code on the Doing on the Project board and assign yourself
-+ Any problem you faced (don't forget to make a label)
++ Write your code on the Doing on the Project
+board and assign yourself
++ Any problem you faced (don't forget to make
+a label)
 
 ### Other notes
 
 **Deadline: 5th Jan**  
-Two completed codes and reviewed and reviewed two completed codes and merged.
+Two completed codes and reviewed and reviewed
+two completed codes and merged.
 
 ### Next meeting
 

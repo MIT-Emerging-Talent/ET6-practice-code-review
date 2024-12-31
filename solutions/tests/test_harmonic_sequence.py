@@ -1,6 +1,5 @@
 """
-Test module for alternate_elements function.
-Contains intentionally buggy tests for debugging practice.
+Test module for Harmonic sequence function.
 
 Test categories:
     - Standard cases: The input is a list of integers.
@@ -16,7 +15,9 @@ import unittest
 from ..harmonic_sequence import harmonic_sequence
 
 
-class TestAsciiCode(unittest.TestCase):
+class TestHarmonicSequence(unittest.TestCase):
+    """Test Harmonic Sequence"""
+
     # Edge cases:
     def test_min_input1(self):
         """Test case when all inputs equal to 1"""

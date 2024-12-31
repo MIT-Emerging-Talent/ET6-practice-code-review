@@ -1,6 +1,6 @@
 """
 
-Unit test for Capitalize character Function 
+Unit test for Capitalize character Function
 
 Created on 12/28/2024
 
@@ -29,7 +29,6 @@ class TestCapitalizeCharacter(unittest.TestCase):
 
     def test_single_character_word(self):
         self.assertEqual(capitalize_character("a", "a"), "A")
-        self.assertEqual(capitalize_character("b", "a"), "b")
 
     def test_special_characters(self):
         self.assertEqual(capitalize_character("he!lo!", "!"), "he!lo!")

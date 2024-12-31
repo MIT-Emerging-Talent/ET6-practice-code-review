@@ -34,9 +34,7 @@ def percentage_letter(s: str, letter: str) -> int:
     if not (1 <= len(s) <= 100):
         raise ValueError("The string must have a length between 1 and 100.")
     if not (len(letter) == 1 and letter.islower() and letter.isalpha()):
-        raise ValueError(
-            "The letter must be a single lowercase English character."
-            )
+        raise ValueError("The letter must be a single lowercase English character.")
 
     # Count occurrences of the letter in the string
     count = s.count(letter)

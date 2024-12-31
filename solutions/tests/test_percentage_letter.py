@@ -7,6 +7,7 @@ These tests cover:
 - Defensive assertions
 - Boundary cases
 """
+
 import unittest
 from solutions.percentage_letter import percentage_letter
 

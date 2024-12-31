@@ -21,7 +21,7 @@ class TestCharacterOccurrences(unittest.TestCase):
 
     def test_one_occurrence(self):
         """It should return 1 occurrence"""
-        self.assertEqual(count_character_occurrences("pacific", "c"), 1)
+        self.assertEqual(count_character_occurrences("pacific", "f"), 1)
 
     def test_several_occurrences(self):
         """It should return 2 occurrences"""

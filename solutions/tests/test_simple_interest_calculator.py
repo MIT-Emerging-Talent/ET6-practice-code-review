@@ -5,21 +5,41 @@ from solutions.simple_interest_calculator import (
 
 
 class TestSimpleInterestCalculator(unittest.TestCase):
-    # Test case for a basic calculation of Simple Interest
-    def test_calculate_simple_interest(self):
-        principal = 1000  # Example principal amount
-        rate_of_interest = 5  # Example rate of interest
-        time = 3  # Example time period (in years)
+    """Unit tests for the Simple Interest Calculator."""
 
-        expected_result = 150  # Expected simple interest
+    def test_calculate_simple_interest(self):
+        """
+        Test the calculation of simple interest for a standard case.
+
+        Given:
+        - Principal: 1000
+        - Rate of interest: 5%
+        - Time: 3 years
+
+        Expect:
+        - The calculated simple interest to be 150.
+        """
+        principal = 1000
+        rate_of_interest = 5
+        time = 3
+
+        expected_result = 150
         actual_result = calculate_simple_interest(principal, rate_of_interest, time)
 
-        self.assertEqual(
-            actual_result, expected_result
-        )  # Assert if the calculation is correct
+        self.assertEqual(actual_result, expected_result)
 
-    # Test case for zero principal
     def test_calculate_simple_interest_zero_principal(self):
+        """
+        Test simple interest calculation with zero principal.
+
+        Given:
+        - Principal: 0
+        - Rate of interest: 5%
+        - Time: 3 years
+
+        Expect:
+        - The calculated simple interest to be 0.
+        """
         principal = 0
         rate_of_interest = 5
         time = 3
@@ -27,33 +47,50 @@ class TestSimpleInterestCalculator(unittest.TestCase):
         expected_result = 0
         actual_result = calculate_simple_interest(principal, rate_of_interest, time)
 
-        self.assertEqual(
-            actual_result, expected_result
-        )  # Assert if the result is 0 for zero principal
+        self.assertEqual(actual_result, expected_result)
 
-    # Test case for zero time period
     def test_calculate_simple_interest_zero_time(self):
+        """
+        Test simple interest calculation with zero time.
+
+        Given:
+        - Principal: 1000
+        - Rate of interest: 5%
+        - Time: 0 years
+
+        Expect:
+        - The calculated simple interest to be 0.
+        """
         principal = 1000
         rate_of_interest = 5
         time = 0
 
-        expected_result = 0  # Simple interest should be 0 if time is 0
+        expected_result = 0
         actual_result = calculate_simple_interest(principal, rate_of_interest, time)
 
         self.assertEqual(actual_result, expected_result)
 
-    # Test case for zero rate of interest
     def test_calculate_simple_interest_zero_rate(self):
+        """
+        Test simple interest calculation with zero rate of interest.
+
+        Given:
+        - Principal: 1000
+        - Rate of interest: 0%
+        - Time: 3 years
+
+        Expect:
+        - The calculated simple interest to be 0.
+        """
         principal = 1000
         rate_of_interest = 0
         time = 3
 
-        expected_result = 0  # Simple interest should be 0 if the rate of interest is 0
+        expected_result = 0
         actual_result = calculate_simple_interest(principal, rate_of_interest, time)
 
         self.assertEqual(actual_result, expected_result)
 
 
-# To run the tests, use this command in the terminal: python -m unittest tests/test_simple_interest_calculator.py
 if __name__ == "__main__":
     unittest.main()

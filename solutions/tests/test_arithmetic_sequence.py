@@ -32,4 +32,24 @@ class TestArithmeticSequence(unittest.TestCase):
         "Should evaluate 3 to [0, 1, 5]"
         self.assertEqual(arithmetic_sequence(3) ,[0, 1, 4])
 
-    
+#defensive cases
+
+    def test_0_less_than_0(self):
+        """It should raise an assertion error if the argument is less than 0"""
+        with self.assertRaises(AssertionError):
+            arithmetic_sequence(-1)
+
+    def test_1_not_an_integer(self):
+        """It should raise an assertion error if the argument is not an integer"""
+        with self.assertRaises(AssertionError):
+            arithmetic_sequence(1.0)    
+
+    def test_2_not_an_integer(self):
+        """It should raise an assertion error if the argument is not an integer"""
+        with self.assertRaises(AssertionError):
+            arithmetic_sequence([1 ,2 ,3])    
+
+    def test_3_not_an_integer(self):
+        """It should raise an assertion error if the argument is not an integer"""
+        with self.assertRaises(AssertionError):
+            arithmetic_sequence(["1" ,2 ,3]) 

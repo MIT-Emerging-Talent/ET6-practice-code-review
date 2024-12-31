@@ -69,6 +69,7 @@ Here is how we’ll use our channels:
 | Cynthia Wairimu|✓|✓|✓|✓|✓|✘|✘|
 | Hasan Zemzem|✓|✓|✓|✓|✓|✘|✘|
 | Saeed Ali|✘|✓|✓|✓|✓|✘|✘|
+| Nahom Tekle|✓|✓|✓|✓|✓|✓|✗|
 
 ✨**Legend**  
 `✓` = Available  
@@ -84,6 +85,7 @@ Here is how we’ll use our channels:
  6. Hasan Zemzem: _1-2h_;
  7. Saeed Ali: _3h_;
  8. Ibrahim Elmisbah: _2h_;
+ 9. Nahom Tekle: _4h_;
 
 ## Asking for Help
 

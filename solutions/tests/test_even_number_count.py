@@ -43,8 +43,8 @@ class TestEvenNumberCount(unittest.TestCase):
 
     def test_5(self):
         """It should count the number of even numbers in a countdown from n to 1 """
-        self.assertEqual(even_number_count([1,2,3,4,5,6]), [3])   
+        self.assertEqual(even_number_count([1,2,3,4,5,6]), 3)   
 
     def test_6(self):
         """It should count the number of even numbers in a countdown from n to 1 """
-        self.assertEqual(even_number_count([1,2,3,4,5,6,7]), [3])   
+        self.assertEqual(even_number_count([1,2,3,4,5,6,7]), 3)   

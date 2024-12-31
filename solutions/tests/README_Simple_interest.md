@@ -25,10 +25,11 @@ and displays the result.
 
 ## Features
 
-- **Interactive Input**: Prompts the user to enter the principal, interest rate, and time,
+- **Interactive Input**: Prompts the user to enter the principal,
+- interest rate, and time,
   and calculates the simple interest.
-- **Simple Calculation**: Computes the interest using the standard simple interest formula.
-- **Unit Testing**: Includes tests to validate the correctness of the calculator’s functionality.
+- **Simple Calculation**: Computes the interest using the simple interest formula.
+- **Unit Testing**: to validate the correctness of the calculator’s functionality.
 
 ## How to Run the Calculator
 
@@ -56,7 +57,7 @@ and displays the result.
     python simple_interest_calculator.py
     ```
 
-5. When prompted, enter the required inputs (Principal, Interest Rate, and Time in years),
+5. When prompted, enter the inputs (Principal, Interest Rate, and Time in years),
    and the script will calculate and display the simple interest.
 
 ## Running Unit Tests
@@ -74,13 +75,13 @@ and displays the result.
     OK
     ```
 
-3. **NOTE**: If you haven't already, make sure to include a `requirements.txt` or instructions
-   for users to install any dependencies needed to run the tests (if any).
+3. **NOTE**: If you haven't already, make sure to include a `requirements.txt` or
+4. instructions for users to install any dependencies needed to run the tests.
 
 ## Code Structure
 
-- `simple_interest_calculator.py`: The main Python script for calculating simple interest.
-- `tests/test_simple_interest_calculator.py`: Unit tests to verify the correctness of the calculator.
+- `simple_interest_calculator.py`: The main Python script for simple interest.
+- `tests/test_simple_interest_calculator.py`: Unit tests to verify the correctness.
 - `README.md`: This documentation file.
 
 ## How to Contribute

@@ -9,39 +9,64 @@
 
 # Communication
 
-______________________________________________________________________
+_## Communication Schedule_
+...
 
-## Communication Schedule
+| Day       | How                 | The Topic of Discussion     |
+|-----------|---------------------|-----------------------------|
+| Monday    | Google Meet/Slack   | Goal Setting               |
+| Tuesday   | Google Meet/Slack   | Code Review                |
+| Wednesday | Google Meet/Slack   | Code Review and Help       |
+| Thursday  | Google Meet/Slack   | Progress Update            |
+| Friday    | Google Meet/Slack   | Code Review and Help       |
+| Saturday  | Google Meet/Slack   | Code Review and Help       |
+| Sunday    | Google Meet/Slack   | Progress Update            |
 
-| Day | How | The topic of discussion | | --- | :-: | ----------------------- |
-| | | |
+_## Communication Channels_
+...
 
-## Communication Channels
+We will always be in touch to discuss various things:
 
-how often will we get in touch on each channel, and what we will discuss there:
-
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
-
-______________________________________________________________________
+- **Issues**: For bugs, progress checking, and other related tasks.
+- **Pull Requests**: For code reviews and Markdown file updates.
+- **Slack**: For daily updates, notifications, and reporting any code
+- errors or help needed.
+- **Video Calls**: For group discussions, progress updates, tutoring, and meetings.
+- **WhatsApp**: For informal hangouts and check-ins and sending reminders.
 
 ## Availability
 
-### Availability for calling/messaging
+_### Availability for Calling_
+...
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
+| Member| Monday | Tuesday | Wednesday | Thursday | Friday  | Saturday | Sunday |
+|-------------|------------|------------|------------|------------|------------|------------|------------|
+| Dadi    | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm |
+| Rama    | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm |  - |
+| Ahmed    | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
+| Mohammad | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
+| Tamara    | 5 - 6pm | 5 - 6pm | 5 - 6pm | 5 - 6pm | 5 - 6pm | 5 - 6pm | 5 - 6pm|
+| Member 6    | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
+| Member 7    | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
+| Member 8    | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
 
-### How many hours everyone has per day
+_### How Many Hours Everyone Has Per Day on Average_
+...
 
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- **Dadi**: 4 hours
+- **Rama**: 4 hours
+- **Ahmed**: 4 hours
+- **Mohammad**: 3 hours
+- **Tamara**: 1 hour
+- **Member 6**: # of hours
+- **Member 7**: # of hours
+- **Member 8**: # of hours
+
+---
+
+This README is structured to ensure a clear understanding of our communication
+strategy and availability. Time frames are flexible as they can be adjusted
+over Slack or WhatsApp.
 
 ## Asking for Help
 

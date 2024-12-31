@@ -2,9 +2,11 @@
 
 # Constraints
 
-Some boundaries around our project.
+Project constraints establish the boundaries, limitations, and requirements within
+which a project must operate. They serve as a framework to guide decisions, align
+team efforts, and ensure the project remains on track.
 
-## External
+## External Constraints
 
 <!--
   constraints coming from the outside that your team has no control over:
@@ -14,8 +16,39 @@ Some boundaries around our project.
   - power or connectivity
   - ...
 -->
+- ### Project Deadline
+  
+  Project Must be Completed by 10 Jan 2025.
 
-## Internal: Involuntary
+- ### Project Minimum Requirements
+  
+  Each team member must solve two coding challenges and review two
+  challenges completed by other members.
+
+- ### Response Time
+  
+  - Indicates how quickly the team responds to project tasks, considering
+    personal circumstances such as work, school, and other MIT assignments.
+  - Average team _Response Time_ is six hours. This necessitates an
+    asynchronous workflow.
+
+- ### Technical Issues
+
+  - Includes issues like internet connectivity, device malfunctions, etc.
+  - Some members experience technical issues, reinforcing the need for an
+    asynchronous collaboration approach.
+
+## Internal Constraints: Involuntary
+
+- ### Programming Experience
+
+   The team consists of mostly beginner to intermediate programmers, so challenges
+   will primarily focus on easy to medium difficulty levels.
+
+- ### Collaboration Experience
+
+  The team has limited experience in remote collaboration, which restricts the
+  number of challenges that can be effectively addressed.
 
 <!--
   constraints that come from within your team, and you have no control over:
@@ -23,8 +56,10 @@ Some boundaries around our project.
   - amount of time available to work on the project
 -->
 
-## Internal: Voluntary
+## Internal Constraints: Voluntary
 
+- Each team member can solve a maximum of five challenges.
+- Deadline to meet the minimum requirement is 5 Jan 2025.
 <!--
   constraints that your team decided on to help scope the project. they may include:
   - coding style & conventions

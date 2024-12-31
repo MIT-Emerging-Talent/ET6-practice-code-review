@@ -4,7 +4,7 @@
 Module Name: intersection_of_two
 
 Description: This module provides a function to find the intersection of two lists.
-and returns a new list containing the common elements between them.
+and returns a new list containing the common items between them.
 
 The module includes: the following function:
     - intersection_of_two(list1,list2): Returns a new list with the intersection
@@ -15,26 +15,31 @@ Date Created: 30-12-2024
 
 
 def intersection_of_two(list1: list, list2: list) -> list:
-    """This function takes two lists and returns a list containing the intersection of them.
-
+    """
+    This function takes two lists and returns a list containing the intersection of them.
     The intersection includes only the items that are present in both
     list1 and list2. The items in the intersection are returned only once,
     even if they appear multiple times in the input lists. The input lists
     can contain any type of items that are allowed in a list (e.g., integers,
     strings, floats, special characters, etc.)
 
+    Note:
+        This function could be simplified using built-in functions like set(),
+        which automatically handle duplicates and set intersections.
+        However, I wanted to write the logic manually to demonstrate how it works step-by-step
+
     Parameters:
         list1 (list): The first list of items
         list2 (list): The second list of items
 
     Returns:
-        list:A list containing the items that are common to both
-              list1 and list2 and will not contain duplicate items.
+        intersection (list): A list containing the items that are common to both
+            list1 and list2 and will not contain duplicate items.
 
     Raises:
-      AssertionError: if list1 is not a list
-      AssertionError: if list2 is not a list
-      AssertionError: if any of the lists are empty
+        AssertionError: if list1 is not a list
+        AssertionError: if list2 is not a list
+        AssertionError: if any of the lists are empty
 
     >>> intersection_of_two([1, 2, 3, 4],[3, 4, 5, 6])
     [3, 4]
@@ -52,11 +57,10 @@ def intersection_of_two(list1: list, list2: list) -> list:
     assert len(list2) > 0, "list2 can't be empty"
 
     intersection = []
-
+    # Loop through each item in the first list
     for item in list1:
+        # Check if the item is in the second list and not already in the intersection
         if item in list2 and item not in intersection:
-            # Check if the item is in the second list and not already in the intersection
-
             intersection.append(item)
 
     return intersection

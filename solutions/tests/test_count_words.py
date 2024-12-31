@@ -65,3 +65,10 @@ class TestCountWords(unittest.TestCase):
             count_words("Hello, Gai! How are you?"),
             {"hello,": 1, "gai!": 1, "how": 1, "are": 1, "you?": 1},
         )
+
+    def test_count_same_words_with_different_special_characters(self):
+        """counts words that are the same but differ by special characters as different words"""
+        self.assertEqual(
+            count_words("Hello Gai! How are you, Gai?"),
+            {"hello": 1, "gai!": 1, "how": 1, "are": 1, "you,": 1, "gai?": 1},
+        )

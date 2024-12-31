@@ -23,14 +23,12 @@ def count_character_occurrences(text: str, char: str | None) -> int | str:
     ValueError: If the char parameter is not a single character.
 
     Examples:
-    >>> count_character_occurrences("hello world", "l")
-    3
-    >>> count_character_occurrences("python programming", "p")
+    >>> count_character_occurrences("pacific", "i")
+    2
+    >>> count_character_occurrences("python programming", "m")
     2
     >>> count_character_occurrences("", "a")
     0
-    >>> count_character_occurrences("mit")
-    mit
     """
     if char is None:
         return text

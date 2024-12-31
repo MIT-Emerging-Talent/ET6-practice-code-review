@@ -9,4 +9,4 @@ def square(num):
     Returns:
     float: The square of the input number.
     """
-    return num ** 2
+    return num**2

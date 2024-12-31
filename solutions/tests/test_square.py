@@ -2,6 +2,7 @@
 import unittest
 from solutions.square import square
 
+
 class TestSquareFunction(unittest.TestCase):
     """
     Unit tests for the `square` function.
@@ -9,6 +10,7 @@ class TestSquareFunction(unittest.TestCase):
     Methods:
     - test_square: Tests the square of positive, negative, zero, and float numbers.
     """
+
     def test_square(self):
         """
         Test cases for the square function.
@@ -24,5 +26,6 @@ class TestSquareFunction(unittest.TestCase):
         self.assertEqual(square(0), 0)
         self.assertAlmostEqual(square(1.5), 2.25)
 
+
 if __name__ == "__main__":
-    unittest.main(argv=['first-arg-is-ignored'], exit=False)
+    unittest.main(argv=["first-arg-is-ignored"], exit=False)

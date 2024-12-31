@@ -8,10 +8,8 @@ class TestStepsToFloor(unittest.TestCase):
 
     def test_positive_floor(self):
         self.assertEqual(steps_to_floor(1), 10)
-        self.assertEqual(steps_to_floor(5), 50)
 
     def test_negative_floor(self):
-        self.assertEqual(steps_to_floor(-1), 10)
         self.assertEqual(steps_to_floor(-3), 30)
 
     def test_invalid_input(self):

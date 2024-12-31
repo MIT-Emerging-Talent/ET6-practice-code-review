@@ -50,6 +50,7 @@ def steps_to_floor():
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod()  # Run tests on the core function
     # Uncomment the following line for interactive user input
     steps_to_floor()

@@ -57,9 +57,10 @@ collective and individual learning goals for this project:
 
 ### Khadija al Ramlawi (<kalramlawi@gmail.com>)
 
-- Strengthen understanding of basic and advanced data structures.
-- Focus on collaborative problem-solving skills.
-- Practice implementing algorithms in a structured manner.
+Strengthen understanding of basic and advanced data structures.
+Practice implementing algorithms in a structured manner.
+Enhance collaborative problem-solving skills through active participation.
+Improve teamwork and communication by contributing to discussions and reviews.
 
 ### Mithchell Cenatus (<mlawenskycenatus@gmail.com>)
 
@@ -84,9 +85,10 @@ and git for collaborative projects
 
 ### Dmytro (<dmtrklymenko05@gmail.com>)
 
-- Practice implementing and optimizing algorithms.
-- Strengthen skills in collaborative coding and teamwork.
-- Learn advanced debugging and testing techniques.
+- Practice gained knowledge from the course.
+- Remember basics of python.
+- Learn how to communicate through GitHub and learn functions inside GitHub.
+- Especially learn how to write unit tests.
 
 ---
 

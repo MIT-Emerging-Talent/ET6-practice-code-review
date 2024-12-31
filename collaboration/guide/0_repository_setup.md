@@ -1,8 +1,14 @@
 # Repository Setup
 
+<<<<<<< HEAD
 Before diving into your project, make sure your team has all the practical 
 things in place. This step isn't very hard, but everything will go more 
 smoothly if you take the time to do this correctly at the beginning.
+=======
+Before diving into your project make sure your team has all the practical things  
+in place. This step isn't very hard but everything will go more smoothly if you  
+take the time to do this correctly at the beginning.
+>>>>>>> 143e8913ae8f58f023c614b6f6ca7aed5c716329
 
 ## Setup and Share a Repository
 
@@ -13,10 +19,17 @@ it for collaboration:
 - Public face of your repository:
   - Change your 
     [repository description](https://stackoverflow.com/questions/7757751/how-do-you-change-a-repository-description-on-github)
+<<<<<<< HEAD
   - Add or remove topics from your repository.
   - Update your main README with your group name and an initial overview of 
     your project. (You can change this as much as you want.)
 - Under settings in your repository, select:
+=======
+  - Add or remove topics from your repository
+  - Update your main README with your group name and an initial overview  
+    of your project. (You can change this as much as you want.)
+- Under settings in your repository select:
+>>>>>>> 143e8913ae8f58f023c614b6f6ca7aed5c716329
   - _Issues_
   - _Projects_
   - _Always suggest updating pull request branches_

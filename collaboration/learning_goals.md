@@ -77,3 +77,11 @@
 3. better managing my time
 
 4. prioritizing tasks to increase productivity
+
+-SaidIbrahim
+
+1. Mastering Python for Problem-Solving
+
+2. Staying Updated on Emerging Technologies
+
+3. Improving Software Engineering for Practical Solutions

@@ -3,6 +3,9 @@ This module contains a function to solve the two-sum problem.
 """
 
 from typing import List
+class NoTwoSumSolutionError(Exception):
+   """Raised when no two numbers in the list sum to the target."""
+   pass
 
 
 def two_sum(nums: List[int], target: int) -> List[int]:

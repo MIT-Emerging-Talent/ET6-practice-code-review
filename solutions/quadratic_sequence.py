@@ -1,3 +1,12 @@
+"""
+The function is create quadratic sequence based on formula: A(n): a*n^2 + b*n + c
+given a,b,c and n are integers.And returns the list containing the quadratic sequence.
+
+Created on 2024-12-30
+Author: Omnia Mustafa - Abdulgadir
+"""
+
+
 def quadratic_sequence(a, b, c, n):
     """
     The function creates quadratic sequence, based on formula: A(n): a*n^2 + b*n + c

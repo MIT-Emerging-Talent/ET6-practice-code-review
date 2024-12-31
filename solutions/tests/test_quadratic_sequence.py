@@ -16,6 +16,11 @@ from ..quadratic_sequence import quadratic_sequence
 
 
 class TestQuadraticSequence(unittest.TestCase):
+    """
+    The class is testing the function quadratic_sequence
+    in different cases and inputs
+    """
+
     # Edge cases:
     def test_all_inputs_are_0(self):
         """Test case when all inputs equal to 0"""

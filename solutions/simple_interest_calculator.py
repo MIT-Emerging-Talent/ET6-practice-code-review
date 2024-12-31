@@ -1,3 +1,12 @@
+"""
+This module provides functionality to calculate simple interest based on user input.
+
+It includes:
+- A `calculate_simple_interest` function to compute the simple interest.
+- A `main` function to interact with users and guide them through the calculation.
+"""
+
+
 def calculate_simple_interest(principal, rate, time):
     """
     Calculate the simple interest.
@@ -12,10 +21,19 @@ def calculate_simple_interest(principal, rate, time):
 
 
 def main():
+    """
+    Main function to interact with the user and perform simple interest calculations.
+
+    This function:
+    - Prompts the user for principal, rate, and time.
+    - Validates the inputs to ensure all values are positive numbers.
+    - Calculates the simple interest using the provided inputs.
+    - Displays the result to the user.
+    """
     print("Welcome to the Simple Interest Calculator!")
 
-    # Input the principal, rate, and time
     try:
+        # Input the principal, rate, and time
         principal = float(input("Enter the principal amount: "))
         rate = float(input("Enter the annual interest rate (in %): "))
         time = float(input("Enter the time (in years): "))
@@ -30,11 +48,13 @@ def main():
 
         # Display the result (formatted to 2 decimal places)
         print(
-            f"The simple interest for a principal of {principal} at a rate of {rate}% for {time} years is: {interest:.2f}"
+            f"The simple interest for a principal of {principal} at a rate "
+            f"of {rate}% for {time} years is: {interest:.2f}"
         )
     except ValueError:
         print(
-            "Invalid input. Please enter numeric values for principal, rate, and time."
+            "Invalid input. Please enter numeric values for principal, rate, "
+            "and time."
         )
 
 

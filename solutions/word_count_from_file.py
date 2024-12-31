@@ -1,3 +1,5 @@
+import os
+
 """
 A Module for counting the number of words in a .txt file
 
@@ -8,8 +10,6 @@ Module contents:
 created on 30 Dec 2024
 @author: saja abusafia
 """
-
-import os
 
 
 def word_count_txt_file(file_name) -> int:

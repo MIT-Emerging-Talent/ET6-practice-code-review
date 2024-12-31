@@ -1,6 +1,7 @@
 # WELCOME TO THE CODE COLLABORATORS' REPOSITORY
 
 ![Visual aid code collaborators are from different parts of the world!](assets/collaboration.jpg)
+
 We are a collaborative group of problem-solvers who are working together to tackle
 exciting challenges in this particular project.
 

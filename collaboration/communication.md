@@ -71,7 +71,7 @@ ______________________________________________________________________
 ### Daily availability in hours
 
 - Sukhrob: _5h_;
-- Yuri: _6h_;
+- Yuri: _4h_;
 - Olumide: _4h_;
 - Alemayehu: _4h_;
 - Dmytro: _3h-6h_;

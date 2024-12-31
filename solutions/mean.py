@@ -6,7 +6,7 @@ A module for finding the mean of a list of numbers.
 Module contents:
     - mean: finds the mean of a list of numbers.
 
-Created on XX XX XX
+Created on 29/12/2024
 @author: Mohammed Elfadil
 """
 
@@ -27,7 +27,8 @@ def mean(a: list) -> float:
     >>>mean([2])
     2.0
     """
-    if not isinstance(a, list):
-        return "invalid input"
+    # check if the argument is a list
+    assert isinstance(a, list), "invalid input"
+
     # return the mean of the list by dividing the sum of the list by the length of the list
     return sum(a) / len(a)

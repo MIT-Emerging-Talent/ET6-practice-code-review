@@ -10,6 +10,7 @@ Description:
 Author: Mohammed Elfadil
 Date: 31/12/2024
 """
+
 import unittest
 from solutions.mean import mean
 
@@ -43,9 +44,8 @@ class TestMean(unittest.TestCase):
 
     def test_integer(self):
         """It should evaluate invalid input"""
-        actual = mean(1)
-        expected = "invalid input"
-        self.assertEqual(actual, expected)
+        with self.assertRaises(AssertionError):
+            mean(2)
 
     def test_negatives(self):
         """It should evaluate -4.0"""
@@ -60,7 +60,6 @@ class TestMean(unittest.TestCase):
         self.assertEqual(actual, expected)
 
     def test_string(self):
-        """It should evaluate inavlid input"""
-        actual = mean("2 4 6")
-        expected = "invalid input"
-        self.assertEqual(actual, expected)
+        """Test that invalid input raises an AssertionError."""
+        with self.assertRaises(AssertionError):
+            mean("2, 3, 4, 5")

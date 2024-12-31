@@ -62,6 +62,3 @@ def max_profit(prices: list[int]) -> int:
         sell += 1  # Move to the next sell day
 
     return max_profit_value
-
-
-print(max_profit([4, 5, 6, 7, 8, 3, 34, 5, 7]))

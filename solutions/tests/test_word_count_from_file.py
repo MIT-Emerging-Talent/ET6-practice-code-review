@@ -2,6 +2,11 @@ import os
 import sys
 import unittest
 
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.append(project_root)
+
+from solutions.word_count_from_file import word_count_txt_file
+
 """
 Counts the number of words in a .txt file.
 
@@ -12,11 +17,6 @@ Returns -> The total number of words in the file.
 
 Raises: AssertionError
 """
-
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-sys.path.append(project_root)
-
-from solutions.word_count_from_file import word_count_txt_file
 
 
 class TestWordCountFromFile(unittest.TestCase):

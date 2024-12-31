@@ -4,12 +4,13 @@ Contains tests for standard cases, edge cases, and defensive assertions.
 
 Test categories:
     - Standard cases: typical user inputs and expected game results
-    - Edge cases: empty input, invalid input, and quitting the game
+    - Edge cases: empty input, invalid input
     - Defensive tests: wrong input types, assertions
 
 Created on 31-12-24
 Author: Codi + Abdulrahman Alsir
 """
+
 import unittest
 from fizz_buzz_game import fizz_buzz
 
@@ -71,6 +72,21 @@ class TestFizzBuzz(unittest.TestCase):
         }
         self.assertEqual(result, expected)
 
+    def test_invalid_input_end(self):
+        """
+        Test for invalid input where the end value is not an integer.
+        Should raise an AssertionError.
+        """
+        with self.assertRaises(AssertionError):
+            fizz_buzz(1, 'b')
+
+    def test_large_range_empty(self):
+        """
+        Test for a large range with no Fizz or Buzz in the range.
+        Expected output is an empty dictionary.
+        """
+        result = fizz_buzz(100, 102)
+        self.assertEqual(result, {})
+
 if __name__ == '__main__':
     unittest.main()
-

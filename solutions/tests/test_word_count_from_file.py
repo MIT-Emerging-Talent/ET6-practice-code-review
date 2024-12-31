@@ -1,5 +1,7 @@
 import unittest
 
+from ..word_count_from_file import word_count_txt_file
+
 """
 Counts the number of words in a .txt file.
 
@@ -10,8 +12,6 @@ Returns -> The total number of words in the file.
 
 Raises: AssertionError
 """
-
-from ..word_count_from_file import word_count_txt_file
 
 
 class TestWordCountFromFile(unittest.TestCase):

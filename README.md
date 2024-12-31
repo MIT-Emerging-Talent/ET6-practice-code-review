@@ -29,7 +29,7 @@ with a strong focus on **teamwork**, **collaboration**, and **creativity**.
 
  By leveraging our diverse skills, we create a culture where:
 
-  - **Ideas Flow Freely**: Open discussions lead to unexpected solutions.
+   - **Ideas Flow Freely**: Open discussions lead to unexpected solutions.
    - **Feedback Loops**: Continuous feedback helps refine our approaches.
 
  Together, we transform challenges into opportunities for growth and excellence!

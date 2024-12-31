@@ -12,3 +12,8 @@
   streamline coding workflows and enhance team collaboration on projects.
   - [ ] Goal 2: Deepen coding skills in Python and SQL, focusing on building and
   deploying data-driven applications.
+
+- **Dadi Ishimwe**
+  - [ ] Goal 1: Get familiar with Python libraries
+  - [ ] Goal 2: Master writing clean, readable code
+  - [ ] Goal 3: Master most/all git and github features

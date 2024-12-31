@@ -54,11 +54,11 @@ strategies.
 - Experiment with functional programming techniques for elegant and efficient
  solutions.  
 
-### **Member 3**  
+### **Ibrahim Elmisbah**  
 
-- Utilize advanced language features to build modular, testable code.  
-- Focus on crafting clean and reusable components for robust project
- architecture.  
+- Master predictive stepping to understand program execution and flow.  
+- Become proficient in testing and documentation for clear, accurate,
+ and reliable code.
 
 ### **Member 4**  
 

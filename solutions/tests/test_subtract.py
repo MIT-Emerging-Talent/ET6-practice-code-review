@@ -16,6 +16,11 @@ from solutions.subtract import subtract
 
 class TestSubtractFunction(unittest.TestCase):
     
+    """ The TestsubtractFunction shows different 
+    functions for different test cases and confirms
+    the result
+    """
+    
     def test_subtract_positive_numbers(self):
         """Test subtracting two positive numbers """
         self.assertEqual(subtract(7,4), 3)

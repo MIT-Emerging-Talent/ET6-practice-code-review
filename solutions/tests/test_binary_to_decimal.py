@@ -1,6 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """Unit tests for the binary_to_decimal module."""
 
 import unittest
+
 from binary_to_decimal import binary_to_decimal
 
 

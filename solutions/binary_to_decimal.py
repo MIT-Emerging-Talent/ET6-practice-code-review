@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+
 def binary_to_decimal(binary_str: str) -> int:
     """Converts a binary string to its decimal equivalent.
 

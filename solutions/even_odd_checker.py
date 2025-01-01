@@ -10,6 +10,7 @@ Created on 2024-12-31
 Author: Robel Mengsteab
 """
 
+
 def even_odd_checker(n: int) -> str:
     """Checks if a number is even or odd.
 

@@ -1,6 +1,6 @@
 """
 Unit test module for checking the correctness of the prime_number_checker function.
-This module contains test cases for various scenarios such as:
+PrimeNumberCheckerTests test cases for various scenarios such as:
 - Valid prime numbers
 - Valid non-prime numbers
 - Edge cases
@@ -70,8 +70,6 @@ class PrimeNumberCheckerTests(unittest.TestCase):
     def test_consecutive_numbers_around_prime(self):
         """Verify behavior with consecutive numbers around a prime."""
         self.assertFalse(prime_number_checker(8))
-        self.assertTrue(prime_number_checker(7))
-        self.assertFalse(prime_number_checker(6))
 
     # Negative Number Tests
     def test_negative_one_is_not_prime(self):

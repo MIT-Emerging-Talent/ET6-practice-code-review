@@ -4,7 +4,7 @@
 """
 A module for checking if a number is prime.
 
-Module contents: check if an input number is a prime number.
+prime_number_checker check if an input number is a prime number.
 Created on 2024-12-30
 Author: Hussaini Ahmed
 """
@@ -39,9 +39,11 @@ def prime_number_checker(number: int) -> bool:
         >>> prime_number_checker(-5)
         False
     """
+    # Check if the input is an integer
     if not isinstance(number, int):
         raise TypeError("Input must be an integer.")
 
+    # Numbers less than or equal to 1 are not prime
     if number <= 1:
         return False  # 0, 1, and negative numbers are not prime
 

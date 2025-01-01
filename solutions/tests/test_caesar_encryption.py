@@ -74,3 +74,5 @@ class TestCaesarEncryption(unittest.TestCase):
         """it should raise an AssertionError if the shift parameter is not an integer."""
         with self.assertRaises(AssertionError):
             caesar_encryption("Hello", "three")
+if __name__ == "__main__":
+                  unittest.main()

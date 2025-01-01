@@ -41,6 +41,16 @@ class TestIsUnique(unittest.TestCase):
         """It should return True for a string with a single space"""
         self.assertTrue(is_unique(" "))
 
+    # Edge cases
+    def test_mixed_cases(self):
+        """It should return True for a string with mixed cases"""
+        self.assertTrue(is_unique("aAbBcC"))
+
+    def test_not_string_input(self):
+        """It should raise AssertionError for non-string input"""
+        with self.assertRaises(AssertionError):
+            is_unique(123)
+
 
 if __name__ == "__main__":
     unittest.main()

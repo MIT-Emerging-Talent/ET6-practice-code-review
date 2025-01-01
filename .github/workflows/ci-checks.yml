@@ -18,14 +18,17 @@ jobs:
         files: .
         config_file: .markdownlint.yml
 
-  py_formatting:
+py_formatting:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Python - Check Formatting
-        uses: astral-sh/ruff-action@v1
-        with:
-          args: "format --check"
+
+      - name: Install Ruff
+        run: pip install ruff
+
+      - name: Fix Formatting with Ruff
+        run: ruff format --fix .
+
 
   py_linting:
     runs-on: ubuntu-latest

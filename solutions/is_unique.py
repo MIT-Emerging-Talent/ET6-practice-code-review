@@ -31,4 +31,5 @@ def is_unique(text: str) -> bool:
         True
     """
     assert isinstance(text, str), "Input must be a string"
+
     return len(set(text)) == len(text)

@@ -11,7 +11,7 @@ Author: Yurii Spizhovyi
 """
 
 
-def sum_of_digits(n: int) -> int:
+def sum_of_digits(number: int) -> int:
     """
     Recursively calculates the sum of digits of a given integer.
 
@@ -33,14 +33,14 @@ def sum_of_digits(n: int) -> int:
         >>> sum_of_digits(999)
         27
     """
-    if not isinstance(n, int):
+    if not isinstance(number, int):
         raise TypeError("Input must be an integer.")
-    if n < 0:
+    if number < 0:
         raise ValueError("Input must be a non-negative integer.")
 
     # Base case: if the number is a single digit
-    if n < 10:
-        return n
+    if number < 10:
+        return number
 
     # Recursive case: add the last digit to the sum of remaining digits
-    return (n % 10) + sum_of_digits(n // 10)
+    return (number % 10) + sum_of_digits(number // 10)

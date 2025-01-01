@@ -3,6 +3,22 @@
 """
 Test module for sum_of_digits function.
 
+Test Categories:
+Standard Cases:
+
+- Tests the function with typical, valid input values.
+- Includes single-digit and multi-digit numbers.
+
+Edge Cases:
+
+- Tests boundary conditions and special cases.
+- Includes zero, the largest single-digit number, and very large numbers.
+
+Defensive Tests:
+
+- Tests the function's response to invalid or unexpected inputs.
+- Includes negative numbers and non-integer inputs.
+
 Created on 2024-12-31
 Author: Yurii Spizhovyi
 """
@@ -17,23 +33,19 @@ class TestSumOfDigits(unittest.TestCase):
 
     def test_single_digit(self):
         """Test with a single-digit number."""
-        result = sum_of_digits(5)
-        self.assertEqual(result, 5)
+        self.assertEqual(sum_of_digits(5), 5)
 
     def test_multiple_digits(self):
         """Test with a multi-digit number."""
-        result = sum_of_digits(1234)
-        self.assertEqual(result, 10)
+        self.assertEqual(sum_of_digits(1234), 10)
 
     def test_large_number(self):
         """Test with a large number."""
-        result = sum_of_digits(987654321)
-        self.assertEqual(result, 45)
+        self.assertEqual(sum_of_digits(987654321), 45)
 
     def test_zero(self):
         """Test with zero as input."""
-        result = sum_of_digits(0)
-        self.assertEqual(result, 0)
+        self.assertEqual(sum_of_digits(0), 0)
 
     def test_negative_number(self):
         """Test with a negative number (should raise ValueError)."""
@@ -42,8 +54,7 @@ class TestSumOfDigits(unittest.TestCase):
 
     def test_boundary_case(self):
         """Test with a boundary case of a large single-digit number."""
-        result = sum_of_digits(9)
-        self.assertEqual(result, 9)
+        self.assertEqual(sum_of_digits(9), 9)
 
     def test_non_integer_input(self):
         """Test with a non-integer input (should raise TypeError)."""

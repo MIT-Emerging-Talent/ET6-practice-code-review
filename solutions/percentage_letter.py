@@ -37,7 +37,7 @@ def percentage_letter(text: str, letter: str) -> int:
         raise ValueError("The letter must be a single lowercase English character.")
 
     # Count occurrences of the letter in the string
-    count = text.count(letter)
+    count_letters = text.count(letter)
 
     # Calculate the percentage rounded down
-    return int((count / len(text)) * 100)
+    return int((count_letters / len(text)) * 100)

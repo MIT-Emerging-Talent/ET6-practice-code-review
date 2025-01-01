@@ -56,7 +56,7 @@ class TestArithmeticSequence(unittest.TestCase):
     def test_a_big_number(self):
         "Should evaluate 100 to [0, 1, 5]"
         self.assertEqual(
-            arithmetic_sequence(101),
+            arithmetic_sequence(102),
             [
                 0,
                 1,
@@ -158,6 +158,7 @@ class TestArithmeticSequence(unittest.TestCase):
                 289,
                 292,
                 295,
-                298
+                298,
+                301,
             ],
         )

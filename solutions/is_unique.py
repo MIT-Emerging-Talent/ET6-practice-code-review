@@ -11,7 +11,24 @@ Author: Ava Abdullah
 """
 
 
-def is_unique(s: str) -> bool:
-    if not isinstance(s, str):
-        raise ValueError("Input must be a string.")
-    return len(set(s)) == len(s)
+def is_unique(text: str) -> bool:
+    """Checks if all characters in a string are unique.
+
+    Parameters:
+        text: str, the input string to check
+
+    Returns -> bool: True if all characters are unique, False otherwise
+
+    Raises:
+        AssertionError: if the argument is not a string
+
+    Examples:
+        >>> is_unique("abcdefg")
+        True
+        >>> is_unique("aabbcc")
+        False
+        >>> is_unique(" ")
+        True
+    """
+    assert isinstance(text, str), "Input must be a string"
+    return len(set(text)) == len(text)

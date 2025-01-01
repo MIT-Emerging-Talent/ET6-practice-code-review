@@ -11,7 +11,7 @@ Attendees: 7**
 
 >FIXING CI CHECKS
 
-![Checks](./image/checks.PNG)
+![Checks](image/checks.png)
 
 ### Key discussions
 

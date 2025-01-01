@@ -57,24 +57,20 @@ class TestSumRange(unittest.TestCase):
 
     def test_float_range(self):
         """Test with a range that includes floats."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             sum_range(0.5, 3.5)
 
     def test_string_range(self):
         """Test with a range that includes strings."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             sum_range("1", "5")
 
     def test_mixed_range(self):
         """Test with a range that includes a mix of strings and integers."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             sum_range(1, "5")
 
     def test_error_range(self):
         """Test with a range that includes a mix of strings and integers."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             sum_range(1, 5.5)
-
-
-if __name__ == "__main__":
-    unittest.main()

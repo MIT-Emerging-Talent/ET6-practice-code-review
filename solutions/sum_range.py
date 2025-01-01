@@ -40,7 +40,9 @@ def sum_range(start: int, end: int) -> int:
     print(total)  # Output: 55
 
     """
-
+    # Check if start and end are integers
+    if not isinstance(start, int) or not isinstance(end, int):
+        raise TypeError("Both start and end must be integers.")
     # Ensure start is less than or equal to end
     if start > end:
         start, end = end, start

@@ -2,14 +2,13 @@
 # -*- coding: utf-8 -*-
 """
 Test module for is_leap function.
-Contains intentionally buggy tests for debugging practice.
 
 Test categories:
     - Standard cases: Common leap and non-leap years
     - Edge cases: Smallest leap year, non-leap years close to leap years
     - Defensive tests: Handling of invalid inputs (e.g., non-integer, negative values)
 
-Created on XX XX XX
+Created on 29/12/2024
 
 @author: Khusro Sakhi
 """

@@ -5,9 +5,12 @@
 DESCRIPTION: Tests for the ASCII code conversion functionality.
 
 This module contains a test suite for the ASCII code conversion functionality.
-Tests are written for basic characters, whitespace characters, special characters,
-numeric characters.
+Tests cover standard ASCII characters, whitespace characters, special characters,
+numeric characters, and word inputs. It also includes tests for handling invalid
+inputs such as empty strings, numbers, lists of numbers, and boolean values.
 
+Date: 2024-12-31
+Author: Zeinab Mohammed
 """
 
 # Import the unittest module
@@ -62,12 +65,17 @@ class TestAsciiCode(unittest.TestCase):
         with self.assertRaises(AssertionError):
             ascii_code(123)
 
-    def test_list_input(self):
-        """Test handling of list input."""
+    def test_list_of_numbers_input(self):
+        """Test handling of list of numbers input."""
         with self.assertRaises(AssertionError):
-            ascii_code([1, 2, 3])
+            ascii_code([1, 2.5, 3])
 
     def test_boolean_input(self):
         """Test handling of boolean input."""
         with self.assertRaises(AssertionError):
             ascii_code(True)
+
+
+# Run the test suite
+if __name__ == "__main__":
+    unittest.main()

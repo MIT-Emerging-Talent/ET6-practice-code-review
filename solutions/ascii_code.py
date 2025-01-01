@@ -4,14 +4,7 @@
 Description: This file contains the ASCII code conversion functionality.
 
 Write a function that takes a string as input and returns a list of ASCII
-codes of the characters in the string.
-
-Example:
-    ascii_code('abc') -> [97, 98, 99]
-    ascii_code('!') -> [33]
-    ascii_code('') -> []
-    ascii_code(' ') -> [32]
-    ascii_code('0') -> [48]
+codes of the characters in the input string.
 
 date : 2024-12-31
 @Author : Zeinab Mohmmed
@@ -32,6 +25,17 @@ def ascii_code(text: str) -> list:
 
     Raises:
     TypeError: if the input is not a string
+        e.g. ascii_code(123)
+    AssertionError: if the input is an empty string (no characters) e.g. ascii_code("")
+    and also if the input is not a string eg. ascii_code(123) or ascii_code(12.3).
+
+    Example:
+    ascii_code('abc') -> [97, 98, 99]
+    ascii_code('!') -> [33]
+    ascii_code('') -> []
+    ascii_code(' ') -> [32]
+    ascii_code('0') -> [48]
+
     """
     # Check if the input is not a string
     if not isinstance(text, str):

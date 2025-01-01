@@ -8,7 +8,7 @@ The function ensures:
 - The letter is a single lowercase English letter.
 
     Args:
-        s (str): The input string (must have a length between 1 and 100).
+        text (str): The input string (must have a length between 1 and 100).
         letter (str): A single lowercase English letter to count in the string.
 
     Returns:
@@ -29,15 +29,15 @@ The function ensures:
 """
 
 
-def percentage_letter(s: str, letter: str) -> int:
+def percentage_letter(text: str, letter: str) -> int:
     # Defensive assertions
-    if not (1 <= len(s) <= 100):
+    if not (1 <= len(text) <= 100):
         raise ValueError("The string must have a length between 1 and 100.")
     if not (len(letter) == 1 and letter.islower() and letter.isalpha()):
         raise ValueError("The letter must be a single lowercase English character.")
 
     # Count occurrences of the letter in the string
-    count = s.count(letter)
+    count = text.count(letter)
 
     # Calculate the percentage rounded down
-    return int((count / len(s)) * 100)
+    return int((count / len(text)) * 100)

@@ -74,6 +74,6 @@ class TestCountWords(unittest.TestCase):
         )
 
     def test_count_words_invalid_input(self):
-        """Raises an AssertionError for invalid input"""
-        with self.assertRaises(AssertionError):
+        """Raises an AttributeError for invalid input"""
+        with self.assertRaises(AttributeError):
             count_words(2025)

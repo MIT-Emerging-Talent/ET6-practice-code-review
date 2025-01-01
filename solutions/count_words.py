@@ -20,7 +20,7 @@ def count_words(text: str) -> dict:
         A dictionary of  the words in the text and the number of times they appear.
 
     Raises:
-        AssertionError: If the text is not string.
+        AttributeError: If the text is not a string.
 
     Examples:
     >>> count_words("That is a good book") Returns {"that": 1, "is": 1, "a": 1, "good": 1, "book": 1}
@@ -29,7 +29,7 @@ def count_words(text: str) -> dict:
     """
     # checks if the text is a string.
     if not isinstance(text, str):
-        raise AssertionError("The text must be a string.")
+        raise AttributeError("The text must be a string.")
 
     normalized_text = text.lower()  # converts the text to lowercase.
     words = normalized_text.split()  # splits the text into words of their own.

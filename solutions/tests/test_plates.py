@@ -5,8 +5,10 @@ def test_normal():
     """
     Test case for valid license plates
     """
-    assert is_valid("CS50") is True    # Starts with two letters, followed by numbers, valid format
-    assert is_valid("JK")  is True      # Only two letters, valid format
+    assert (
+        is_valid("CS50") is True
+    )  # Starts with two letters, followed by numbers, valid format
+    assert is_valid("JK") is True  # Only two letters, valid format
 
 
 def test_len():
@@ -53,4 +55,4 @@ def test_first_two_alpha():
     """
     assert is_valid("s1hag") is False  # First character is a number, invalid
     assert is_valid("00nod") is False  # Starts with '0', invalid
-    assert is_valid("8805") is False   # Does not start with letters, invalid
+    assert is_valid("8805") is False  # Does not start with letters, invalid

@@ -53,9 +53,9 @@ other group members.
 - I face academic constraints as I am currently enrolled in university, which
 limits my availability time.
 
----
+  ---
 
-## Mohammad Al Salloum
+### Mohammad Al Salloum
 
 - Hard Time management between the university, MIT Emerging Talent
   program, and personal responsibilities.
@@ -65,10 +65,18 @@ limits my availability time.
 
   ---
 
-## Dadi Ishimwe
+### Dadi Ishimwe
 
 - Conflicting times due to personal responsibilities but
   manageable
 
   ---
-  
+
+### Rama Arafeh
+
+- I feel like I’m falling behind in the group because everything seems
+  way over my head without prior experience in GitHub, VS Code, or Python.
+- I need significant time to train and learn while balancing my personal
+  responsibilities and work.
+
+  ---

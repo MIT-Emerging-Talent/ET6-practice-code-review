@@ -10,7 +10,7 @@ Created on: 12-29-2024
 """
 
 
-def is_prime(n):
+def is_prime(n: int) -> bool:
     """
     Check if a number is a prime number.
 
@@ -55,7 +55,7 @@ def is_prime(n):
         return False
 
     # Check for factors from 2 up to the square root of n
-    # If n has a factor smaller than its square root, it must also have a factor larger than its square root,
+    # If n has a factor smaller than its square root, it must also have a larger one,
     # therefore n can't be prime.
     for i in range(2, int(n**0.5) + 1):
         if n % i == 0:
@@ -63,3 +63,5 @@ def is_prime(n):
             return False
     # If no factors are found, n is prime
     return True
+
+print(is_prime(78))

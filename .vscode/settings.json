@@ -123,5 +123,5 @@
       "source.organizeImports.ruff": true
     }
   },
-  "cSpell.words": ["doctests", "Hussaini", "Noorelsalam", "Pylint"]
+  "cSpell.words": ["doctests", "Hussaini", "Pylint"]
 }

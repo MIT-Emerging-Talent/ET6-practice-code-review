@@ -17,6 +17,7 @@ from ..arithmetic_sequence import arithmetic_sequence
 
 class TestArithmeticSequence(unittest.TestCase):
     """Test the arithmetic_sequence function"""
+
     def test_0(self):
         "It should evaluate 0 to []"
         self.assertEqual(arithmetic_sequence(0), [])
@@ -41,7 +42,7 @@ class TestArithmeticSequence(unittest.TestCase):
             arithmetic_sequence(-1)
 
     def test_1_not_an_integer(self):
-        """Should raise an assertion error if the argument is not an integer"""
+        """Should raise an assertion error if the argument is a float"""
         with self.assertRaises(AssertionError):
             arithmetic_sequence(1.0)
 

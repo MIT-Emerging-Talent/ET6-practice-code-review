@@ -2,6 +2,7 @@
 import unittest
 from solutions.square_root import square_root
 
+
 class TestSquareRootFunction(unittest.TestCase):
     """
     Unit tests for the `square_root` function.
@@ -9,6 +10,7 @@ class TestSquareRootFunction(unittest.TestCase):
     Methods:
     - test_square_root: Tests the square root of positive numbers, zero, and raises errors for negative numbers.
     """
+
     def test_square_root(self):
         """
         Test cases for the square root function.
@@ -26,5 +28,6 @@ class TestSquareRootFunction(unittest.TestCase):
         with self.assertRaises(ValueError):
             square_root(-4)
 
+
 if __name__ == "__main__":
-    unittest.main(argv=['first-arg-is-ignored'], exit=False)
+    unittest.main(argv=["first-arg-is-ignored"], exit=False)

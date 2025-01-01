@@ -3,7 +3,7 @@ from solutions.jar import Jar
 
 
 def test_initialization():
-    """Test that the jar is initialized with the correct capacity and zero cookies."""
+    """Testing that the jar is initialized with the correct capacity and zero cookies."""
     jar = Jar(10)
     assert jar.capacity == 10  # Ensure capacity is set correctly
     assert jar.size == 0  # Ensure size starts at zero

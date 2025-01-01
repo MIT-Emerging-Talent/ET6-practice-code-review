@@ -9,8 +9,6 @@ Created on Sunday, 29th December, 2024.
 @author: Gai Samuel
 """
 
-import string
-
 
 def count_words(text: str) -> dict:
     """A function that counts the number of times a word appears in a text.

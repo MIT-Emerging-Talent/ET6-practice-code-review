@@ -3,14 +3,14 @@
 
 ## 🌟 Welcome to the 404s Repository – Where We Celebrate
 
-**Every Step of the Journey** 
+## Every Step of the Journey
 
-**,Even the "404" Moments!🌟**
+## ,Even the "404" Moments!🌟
 
  At **404s**, we turn "not found" into "newly discovered." We celebrate our
  coding journey
-with a strong focus on **teamwork**, 
-**collaboration**, and **creativity**.
+with a strong focus on **teamwork**
+**,collaboration**, and **creativity**
 
  Each 404 error is a chance to grow, learn, and innovate.
 
@@ -33,7 +33,7 @@ with a strong focus on **teamwork**,
 ### 💡 Innovation through Collaboration
 
  Every detour is a chance for discovery, and every 404
- is an invitation to innovate. 
+ is an invitation to innovate 
 
  By leveraging our diverse skills, we create a culture where:
 

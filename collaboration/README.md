@@ -5,7 +5,8 @@
 > In **404s**, we focus on effective teamwork, continuous self-development,
 > efficient resource use, and maintaining high-quality standards. We achieve
 > this by making clear communication, mutual respect, and adaptability.
-> Our goal is to **Grow** through **Collaboration**.
+> Our goal is to **Grow** through **Collaboration**.\
+> In **404s**, Together, we code. Together, we grow.
 
 <!-- group norms summary -->
 

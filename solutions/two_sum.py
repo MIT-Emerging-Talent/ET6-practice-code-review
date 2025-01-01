@@ -41,11 +41,11 @@ def two_sum(nums: List[int], target: int) -> List[int]:
     if not all(isinstance(num, int) for num in nums):
         raise TypeError("All elements in the input list must be integers.")
 
-    seen = {}
+    seen_values = {}
     for i, num in enumerate(nums):
         complement = target - num
-        if complement in seen:
-            return [seen[complement], i]
-        seen[num] = i
+        if complement in seen_values:
+            return [seen_values[complement], i]
+        seen_values[num] = i
 
     raise ValueError("No two sum solution exists.")

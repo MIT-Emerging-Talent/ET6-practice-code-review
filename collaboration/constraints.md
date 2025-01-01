@@ -19,9 +19,7 @@ Some boundaries around our project.
     essential topics, such as how to use GitHub for collaboration, due to file
     size
     restrictions and the lack of video management features, which hinders effective
-    knowledge sharing. Besides,
-    for those who are from Myanmar,
-    since they have to use VPN to use these communication channels.
+    knowledge sharing.  
 
 ## 2. Internal Constraints: Involuntary
 

@@ -1,4 +1,4 @@
-name: ET CI Checks
+nname: ET CI Checks
 
 on: [push, pull_request, workflow_dispatch]
 
@@ -22,10 +22,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Python - Check Formatting
+      
+      # Check formatting with Ruff
+      - name: Python - Check Formatting with Ruff
         uses: astral-sh/ruff-action@v1
         with:
-          args: "format --check"
+          args: "--fix"  # Autofixes issues to prevent pipeline errors
+
+      # Check formatting with Black
+      - name: Install Black
+        run: pip install black
+        shell: bash
+      
+      - name: Check Formatting with Black
+        run: black --check .
+        shell: bash
 
   py_linting:
     runs-on: ubuntu-latest
@@ -33,22 +44,21 @@ jobs:
       - uses: actions/checkout@v4
 
       # passing ruff linting is required
-      - name: Python - Check Linting - ruff
+      - name: Python - Check Linting - Ruff
         uses: astral-sh/ruff-action@v1
 
       # passing pylint is not required - discuss errors in code review
-      # adapted from https://github.com/davidslusser/actions_python_pylint/tree/main
-      - name: python version
+      - name: Python version
         run: python --version
         shell: bash
         if: always()
-      - name: install pylint
+      - name: Install Pylint
         run: |
-          python -  m pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install pylint
         shell: bash
-      - name: Python - Check Linting - pylint
-        run: "pylint solutions tests  || echo '::warning title=Pylint Error(s)::Discuss solutions and trade-offs in code review.'"
+      - name: Python - Check Linting - Pylint
+        run: "pylint solutions tests || echo '::warning title=Pylint Error(s)::Discuss solutions and trade-offs in code review.'"
         shell: bash
 
   py_tests:
@@ -56,7 +66,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: python version
+      - name: Python version
         run: python --version
         shell: bash
       

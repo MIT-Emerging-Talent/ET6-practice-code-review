@@ -22,9 +22,9 @@ def count_digits(number):
         Note that the negative sign is not counted as a digit.
 
     Raises:
-        AssertionError if the input is empty.
-        AssertionError if the input is not an integer, float, or numeric string.
-        AssertionError if the input is an invalid string.
+        ValueError if the input is empty.
+        ValueError if the input is not an integer, float, or numeric string.
+        TypeError if the input is an invalid string.
 
     Example:
     >>> count_digits(34)
@@ -38,26 +38,26 @@ def count_digits(number):
     >>> count_digits("24")
     2
     """
-    # Raises an assertion error if the input is empty or invalid.
+    # Check for empty input
     if number == "":
-        raise AssertionError("The input cannot be empty.")
+        raise ValueError("The input cannot be empty.")
 
     # converts a float to an integer.
     if isinstance(number, float):
         number = int(number)
 
-    # Handles a string input.
+    # Handles a string input but raises a ValueError if the string is not a number.
     if isinstance(number, str):
         try:
             number = int(number)
         except ValueError as exc:
-            raise AssertionError("Input must be a valid number.") from exc
+            raise ValueError("Input must be a valid number.") from exc
 
     # Check for empty or invalid inputs
     if not isinstance(number, (int, float, str)):
-        raise AssertionError("Input must be an integer, float, or numeric string.")
+        raise TypeError("Input must be an integer, float, or numeric string.")
 
-    # Converts the number to its absolute value and then to a string. The absolute value is used to remove the negative sign.
+    # Convert the number to a string and remove the negative sign if present.
     number_str = str(abs(int(number)))
 
     return len(number_str)

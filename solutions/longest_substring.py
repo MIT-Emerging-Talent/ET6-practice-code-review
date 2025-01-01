@@ -1,5 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+A module for finding the longest substring without repeating characters
+
+Module contents:
+    - longest_substring: Function to find the longest substring without repeating characters.
+
+Created on 2025-1-1
+@author: Mohamed Saeed
+
+"""
+
+
 def longest_substring(s: str) -> str:
     """
     Function to find the longest substring without repeating characters.

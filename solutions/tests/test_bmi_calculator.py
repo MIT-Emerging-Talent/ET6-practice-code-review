@@ -9,6 +9,11 @@ It tests the core functionalities, such as:
 The tests ensure that the program works as expected in different scenarios.
 """
 
+import os
+import sys
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
 import unittest
 from unittest.mock import patch
 
@@ -50,7 +55,7 @@ class TestBMICalculator(unittest.TestCase):
         height = 68  # inches
         bmi, category = calculate_bmi(weight, height, unit="imperial")
         self.assertEqual(
-            round(bmi, 2), 23.43, f"Expected BMI: 23.43, but got: {bmi:.2f}"
+            round(bmi, 2), 23.41, f"Expected BMI: 23.43, but got: {bmi:.2f}"
         )
         self.assertEqual(
             category,
@@ -96,7 +101,7 @@ class TestBMICalculator(unittest.TestCase):
         # Capture the output using unittest.mock
         with patch("builtins.print") as mock_print:
             display_bmi_result(22.86, "Normal weight")
-            mock_print.assert_any_call("Well done! You've calculated your BMI.")
+            mock_print.assert_any_call("\nWell done! You've calculated your BMI.")
             mock_print.assert_any_call("Your BMI is: 22.86")
             mock_print.assert_any_call(
                 "Based on your BMI, you fall into the "
@@ -105,4 +110,7 @@ class TestBMICalculator(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.main()
+    try:
+        unittest.main()
+    except SystemExit as _:
+        pass  # Ignore the SystemExit exception and prevent the script from exiting

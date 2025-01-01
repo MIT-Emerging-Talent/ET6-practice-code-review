@@ -34,7 +34,7 @@ ______________________________________________________________________
 
 | Day       | Monday | Tuesday | Wednesday | Thursday | Friday |Saturday | Sunday|
 |-----------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------:|
-| _name_    |Az. Azizi|Az. Azizi|Az. Azizi|Az. Azizi|Az. Azizi|Az. Azizi|Az. Azizi|
+| _name_    ||||||||
 
 ### How many hours everyone has per day
 

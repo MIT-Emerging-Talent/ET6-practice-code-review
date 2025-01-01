@@ -18,29 +18,29 @@ class TestCountWords(unittest.TestCase):
     """Tests for count_words function"""
 
     def test_count_words(self):
-        """count_words returns the correct word count for each word in the text"""
+        """Returns the correct word count for each word in the text"""
         self.assertEqual(
             count_words("My name is Gai"), {"my": 1, "name": 1, "is": 1, "gai": 1}
         )
 
     def test_count_words_with_an_empty_string(self):
-        """count_words returns an empty dictionary for an empty string"""
+        """Returns an empty dictionary for an empty string"""
         self.assertEqual(count_words(""), {})
 
     def test_count_words_with_punctuation(self):
-        """Throws an assertion error if the punctuation is declared in it's own string"""
+        """Returns the correct word count for each word in the text with punctuation"""
         self.assertEqual(
             count_words("My name is Gai."), {"my": 1, "name": 1, "is": 1, "gai.": 1}
         )
 
     def test_count_words_with_uppercase(self):
-        """Throws an assertion error if the text in output string is in uppercase"""
+        """Returns the correct word count for each word in the text with uppercase"""
         self.assertEqual(
             count_words("MY NAME IS GAI"), {"my": 1, "name": 1, "is": 1, "gai": 1}
         )
 
     def test_count_words_with_multiple_spaces(self):
-        """Throws an assertion error if there are multiple spaces in the text"""
+        """Returns the correct word count for each word in the text with multiple spaces"""
         self.assertEqual(
             count_words("My  name  is  Gai"), {"my": 1, "name": 1, "is": 1, "gai": 1}
         )
@@ -72,3 +72,8 @@ class TestCountWords(unittest.TestCase):
             count_words("Hello Gai! How are you, Gai?"),
             {"hello": 1, "gai!": 1, "how": 1, "are": 1, "you,": 1, "gai?": 1},
         )
+
+    def test_count_words_invalid_input(self):
+        """Raises an AssertionError for invalid input"""
+        with self.assertRaises(AssertionError):
+            count_words(2025)

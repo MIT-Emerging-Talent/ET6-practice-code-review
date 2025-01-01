@@ -27,6 +27,9 @@ def count_words(text: str) -> dict:
     >>> count_words("Coding is fun.") Returns {"coding": 1, "is": 1, "fun.": 1}
 
     """
+    # checks if the text is a string.
+    if not isinstance(text, str):
+        raise AssertionError("The text must be a string.")
 
     normalized_text = text.lower()  # converts the text to lowercase.
     words = normalized_text.split()  # splits the text into words of their own.

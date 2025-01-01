@@ -14,7 +14,8 @@ Returns indices of the two numbers in the array that add up to the target.
         target (int): The target sum for the two integers.
 
     Returns:
-        List[int]: A list containing two indices of numbers that add up to the target.
+        List[int]: A list containing two indices of
+        numbers that add up to the target.
 
     Raises:
         ValueError: If no two numbers in the list sum to the target.
@@ -68,7 +69,8 @@ def test_empty_or_single_element_list(self):
     - An empty list
     - A single-element list
 
-    Ensures that the function raises a ValueError when it is not possible to find two numbers that add up to the target.
+    Ensures that the function raises a ValueError when it is not
+    possible to find two numbers that add up to the target.
     """
     with self.assertRaises(ValueError):
         two_sum([], 9)

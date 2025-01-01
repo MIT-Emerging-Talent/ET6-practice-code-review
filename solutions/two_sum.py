@@ -20,7 +20,8 @@ def two_sum(nums: List[int], target: int) -> List[int]:
         target (int): The target sum for the two integers.
 
     Returns:
-        List[int]: A list containing two indices of numbers that add up to the target.
+        List[int]: A list containing two indices of
+        numbers that add up to the target.
 
     Raises:
         ValueError: If no two numbers in the list sum to the target.

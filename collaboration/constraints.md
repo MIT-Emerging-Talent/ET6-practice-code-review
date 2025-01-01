@@ -1,34 +1,42 @@
-<!-- this template is for inspiration, feel free to change it however you like! -->
 
 # Constraints
 
 Some boundaries around our project.
 
-## External
+## 1. External Constraints
 
-<!--
-  constraints coming from the outside that your team has no control over:
-  - project deadlines
-  - number of unit tests required to pass a code review
-  - technologies (sometimes a client will tell you what to use)
-  - power or connectivity
-  - ...
--->
+- **Program Requirements** :
+  The CDS program's expectations for group collaboration and
+  deliverables, such
+  as using GitHub for documentation.
+- **Time Zones** :
+  Group members are located in different parts of the world, making it
+  challenging to find universally convenient meeting times.
+- **Communication Tools** :
+  Limitations of WhatsApp and Slack
 
-## Internal: Involuntary
+    For example, team members are unable to send large video files explaining
+    essential topics, such as how to use GitHub for collaboration, due to file
+    size
+    restrictions and the lack of video management features, which hinders effective
+    knowledge sharing.  
 
-<!--
-  constraints that come from within your team, and you have no control over:
-  - each of your individual skill levels
-  - amount of time available to work on the project
--->
+## 2. Internal Constraints: Involuntary
 
-## Internal: Voluntary
+- **Skill Gaps** :
+  Not all group members may have the same proficiency in tools like GitHub or
+  collaboration platforms.
+- **Time Commitment** :
+  Some members might have more demanding schedules or competing priorities.
+- **Cultural Differences** :
+  Diverse perspectives may lead to misunderstandings or disagreements.
 
-<!--
-  constraints that your team decided on to help scope the project. they may include:
-  - coding style & conventions
-  - agree on a code review checklist for the project repository
-  - the number of hours you want to spend working
-  - only using the colors black and white
--->
+## 3. Internal Constraints: Voluntary
+
+- **Respecting Time** :
+  A norm to wait 5 minutes for late members during meetings before starting.
+- **Conflict Resolution** :
+   A voluntary decision to resolve conflicts one-on-one first and escalate
+   only if needed.
+- **Engagement** :
+  Choosing to actively check and contribute to all communication channels daily.

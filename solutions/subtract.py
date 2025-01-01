@@ -13,13 +13,13 @@ Created on 31.12.2024
 """
 
 
-def subtract(a: float, b: float) -> float:
+def subtract(num1: float, num2: float) -> float:
     """
     Subtract one number from the other.
 
     Parameters:
-        a:float, the first number
-        b:float, the second number
+        num1:float, the first number
+        num2:float, the second number
 
     Returns -> float : the subtraction of b from a
 
@@ -30,10 +30,14 @@ def subtract(a: float, b: float) -> float:
     5.0
     >>> subtract (-5, 5)
     -10.0
+    >>> subtract (-5, -2)
+    -3.0
+    >>> subtract (-2, -2)
+    0.0
 
     """
 
     # Validate inputs
-    assert isinstance(a, (int, float)), "a must be a number"
-    assert isinstance(b, (int, float)), " b must be a number"
-    return float(a - b)
+    assert isinstance(num1, (int, float)), "a must be a number"
+    assert isinstance(num2, (int, float)), " b must be a number"
+    return float(num1 - num2)

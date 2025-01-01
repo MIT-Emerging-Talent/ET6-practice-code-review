@@ -12,9 +12,9 @@ about: A template PR for code review with a checklist
 
 <!-- describe the challenge you will solve -->
 
-## Behavior
+# Behavior
 
-### Files
+## Files
 
 - [ ] The file name describes the function's behavior
 - [ ] There is a module docstring in the function file
@@ -55,6 +55,7 @@ about: A template PR for code review with a checklist
 - [ ] The function's name describes it's behavior
 - [ ] The function's name matches the file name
 - [ ] The function has correct type annotations
+- [ ] The function is not called in the function file
 
 ## Strategy
 
@@ -82,5 +83,7 @@ about: A template PR for code review with a checklist
 - [ ] Variable names are clear and helpful
 - [ ] The code follows the strategy as simply as possible
 - [ ] The implementation is as simple as possible given the strategy
+- [ ] There are no commented lines of code
+- [ ] There are no `print` statements anywhere
 - [ ] The code includes defensive assertions
 - [ ] Defensive assertions include as little logic as possible

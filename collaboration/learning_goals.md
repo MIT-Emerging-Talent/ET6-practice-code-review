@@ -40,45 +40,47 @@ understanding how they apply to our specific cases and improving our approach.
 
 ## Individual
 
-## _Mohammad Al Salloum_
+- ## _Mohammad Al Salloum_
 
-1. Improve my collaborative skills.
-2. Build a connection with talented people.
-3. Learn new coding skills.
-4. Learn how to be a team player.
+  - [ ] Gaol 1: Improve my collaborative skills.
+  - [ ] Goal 2: Build a connection with talented people.
+  - [ ] Goal 3: Learn new coding skills.
+  - [ ] Goal 4: Learn how to be a team player.
 
 ---
 
-## _Mukuna Kabeya_
+- ## _Mukuna Kabeya_
 
-1. Advance my Git proficiency to handle advanced features confidently,
-    including using stash, rebase, and resolving complex merge conflicts.
-2. Improve my code review skills by focusing on identifying areas for
-    improvement in others’ code and providing constructive
-    and actionable feedback during reviews.
-3. Enhance my attention to detail
+  - [ ] Goal 1: Advance my Git proficiency to handle advanced features confidently,
+  including using stash, rebase, and resolving complex- merge conflicts.
+  - [ ] Goal 2: Improve my code review skills by focusing on identifying areas for
+    improvement in other's code and providing constructive
+  and actionable feedback during reviews.
+  - [ ] Goal 3: Enhance my attention to detail
     by carefully reviewing code to identify potential bugs,
     inefficiencies, or areas that could benefit from optimization.
-4. Improve my communication skills to articulate coding concerns
+  - [ ] Goal 4: Improve my communication skills to articulate coding concerns
     or suggestions clearly and effectively during discussions.
 
 ---
 
-## _Ahmed Khalifa_
+- ## _Ahmed Khalifa_
 
-1. Enhance my coding skills by Learning to document files effectively to,
+  - [ ] Goal 1: Enhance my coding skills by Learning to document files
+  effectively to,
 understand and implement test cases, and
  adopt best practices for clean and
 readable code.
-2. Develop version control expertise
+  - [ ] Goal 2: Develop version control expertise
     using Git and collaborate with others using GitHub.
-3. Strengthen communication skills, collaborate,
+  - [ ] Goal 3: Strengthen communication skills, collaborate,
     and asking for and offering help.
-4. Learn the art of memes from Tamara.
+  - [ ] Goal 4: Learn the art of memes from Tamara.
 
 ---
 
-- **Tamara Saqer**
+- ## _Tamara Saqer_
+
   - [ ] Goal 1: Master version control and collaboration using Git and GitHub to
   streamline coding workflows and enhance team collaboration on projects.
   - [ ] Goal 2: Deepen coding skills in Python and SQL, focusing on building and
@@ -88,16 +90,19 @@ readable code.
   
 ---
 
-- **Dadi Ishimwe**
+- ## _Dadi Ishimwe_
+
   - [ ] Goal 1: Get familiar with Python libraries
   - [ ] Goal 2: Master writing clean, readable code
   - [ ] Goal 3: Master most/all git and github features
+  
+---
 
-- **Rama Arafeh**
+- ## _Rama Arafeh_
+
   - [ ] Goal 1: Master Python basics, version control with GitHub,
         and efficient coding workflows using VS Code.
   - [ ] Goal 2: Use GitHub's features (branches, pull requests, and issue tracking)
         to work collaboratively on coding projects.
   - [ ] Goal 3: Engage with experienced professionals in the field to gain insights,
          refine skills, and adopt best practices in coding and collaboration.
-

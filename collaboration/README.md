@@ -2,8 +2,10 @@
 
 ## 404s Norms Summary
 
-> In 404s, we believe in collaboration as our main goal
-> and a way to achieve things as well.
+> In **404s**, we focus on effective teamwork, continuous self-development,
+> efficient resource use, and maintaining high-quality standards. We achieve
+> this by making clear communication, mutual respect, and adaptability.
+> Our goal is to **Grow** through **Collaboration**.
 
 <!-- group norms summary -->
 
@@ -72,3 +74,7 @@
 > **Use Best Practices by following standard coding conventions**
 
 ---
+
+### 404s Norms Mind Map
+
+![image](../assets/norms-mindmap.png)

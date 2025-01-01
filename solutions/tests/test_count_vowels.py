@@ -22,6 +22,7 @@ class TestCountVowels(unittest.TestCase):
     Test case for the count_vowels function.
     """
 
+    # Standard tests to validate the functionality
     def test_count_vowels_basic_case(self):
         """Test that count_vowels works for a simple case."""
         self.assertEqual(count_vowels("Aseel"), 3)
@@ -41,11 +42,6 @@ class TestCountVowels(unittest.TestCase):
     def test_count_vowels_case_insensitive(self):
         """Test that count_vowels is case-insensitive."""
         self.assertEqual(count_vowels("aEiOu"), 5)
-
-    def test_count_vowels_invalid_input(self):
-        """Test that count_vowels raises a ValueError for invalid input."""
-        with self.assertRaises(ValueError):
-            count_vowels(1234)  # Passing an integer instead of a string
 
     def test_count_vowels_only_consonants(self):
         """Test that count_vowels returns 0 when there are only consonants."""
@@ -68,6 +64,12 @@ class TestCountVowels(unittest.TestCase):
         """Test count_vowels function with input containing whitespace."""
         result = count_vowels(" A e i o u ")
         self.assertEqual(result, 5)  # Expect 5 vowels
+
+    # Defensive test to validate error handling for invalid input
+    def test_count_vowels_invalid_input(self):
+        """Test that count_vowels raises a ValueError for invalid input."""
+        with self.assertRaises(ValueError):
+            count_vowels(1234)  # Passing an integer instead of a string
 
 
 if __name__ == "__main__":

@@ -15,6 +15,9 @@ test_large_range, test_large_range_reversed
 - Performance test cases : test_large_range, test_large_range_reversed
 - Boundary test cases : test_single_number, test_negative_range,
 -error test cases : test_float_range, test_string_range, test_mixed_range
+
+date:2024-12-31
+@author: Zeinab Mommed
 """
 
 import unittest
@@ -71,3 +74,7 @@ class TestSumRange(unittest.TestCase):
         """Test with a range that includes a mix of strings and integers."""
         with self.assertRaises(AssertionError):
             sum_range(1, 5.5)
+
+
+if __name__ == "__main__":
+    unittest.main()

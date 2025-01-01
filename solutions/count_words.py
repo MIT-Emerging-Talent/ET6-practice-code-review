@@ -9,6 +9,8 @@ Created on Sunday, 29th December, 2024.
 @author: Gai Samuel
 """
 
+import string
+
 
 def count_words(text: str) -> dict:
     """A function that counts the number of times a word appears in a text.
@@ -23,8 +25,11 @@ def count_words(text: str) -> dict:
         AttributeError: If the text is not a string.
 
     Examples:
-    >>> count_words("That is a good book") Returns {"that": 1, "is": 1, "a": 1, "good": 1, "book": 1}
-    >>> count_words("Coding is fun.") Returns {"coding": 1, "is": 1, "fun.": 1}
+    >>> count_words("That is a good book")
+    {'that': 1, 'is': 1, 'a': 1, 'good': 1, 'book': 1}
+
+    >>> count_words("Coding is fun.")
+    {'coding': 1, 'is': 1, 'fun.': 1}
 
     """
     # checks if the text is a string.

@@ -13,7 +13,7 @@ ______________________________________________________________________
 
 ## Communication Channels
 
-how often will we get in touch on each channel, and what we will discuss there:
+How often will we get in touch on each channel, and what we will discuss there:
 
 - **Issues** (As needed):  
   Represents all tasks, meeting agendas, and tracking progress on the project board.

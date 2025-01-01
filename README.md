@@ -3,7 +3,7 @@
 
 ## 🌟 Welcome to the 404s Repository – Where We Celebrate
 
- ### Every Step of the Journey, Even the "404" Moments!🌟
+### Every Step of the Journey, Even the "404" Moments!🌟
 
  At **404s**, we turn "not found" into "newly discovered." We celebrate our
  coding journey

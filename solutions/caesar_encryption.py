@@ -22,6 +22,8 @@ def caesar_encryption(text: str, shift: int) -> str:
     Parameters:
         text (str): The input text to encrypt.
         shift (int): The number of positions to shift each letter.
+                    The shift value will be normalized using '% 26' to ensure
+                    it stays within the range [0-25].
 
     Returns:
         str: The encrypted text.

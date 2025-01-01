@@ -7,7 +7,7 @@ Created on 2024-12-29
 """
 
 
-def count_character_occurrences(text: str, char: str | None) -> int | str:
+def count_character_occurrences(text: str, char: str = None) -> int | str:
     """
     Count the occurrences of a specific character in a string.
 
@@ -32,6 +32,12 @@ def count_character_occurrences(text: str, char: str | None) -> int | str:
     """
     if char is None:
         return text
+
+    assert isinstance(text, str), "First parameter can't be a number"
+    assert isinstance(char, str), "Second parameter can't be a number"
+
+    if len(text) == 0:
+        return 0
 
     if len(char) != 1:
         raise ValueError("The char parameter must be a single character.")

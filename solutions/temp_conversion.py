@@ -1,4 +1,6 @@
-def convert_temperature(celsius):
+def convert_temperature(celsius: float) -> dict[str, float]:
+
+
     """
     Convert temperature from Celsius to Fahrenheit and Kelvin.
 

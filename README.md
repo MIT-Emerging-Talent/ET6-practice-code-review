@@ -2,5 +2,4 @@
 
 ******
 
-welcome to Pyversity 
-main repository
+welcome to Pyversity main repository

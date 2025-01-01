@@ -24,6 +24,8 @@ def convert_temperature(celsius: float) -> dict[str, float]:
         Traceback (most recent call last):
         ValueError: Temperature cannot be below absolute zero (-273.15°C).
     """
+        if not isinstance(celsius, (int, float)):
+        raise TypeError("The input temperature must be a number.")
     if celsius < -273.15:
         raise ValueError("Temperature cannot be below absolute zero (-273.15°C).")
 

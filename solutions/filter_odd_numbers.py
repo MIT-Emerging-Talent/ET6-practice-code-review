@@ -35,7 +35,19 @@ def filter_odd_numbers(input_list: List[Union[int, float, str, None]]) -> List[i
         >>> filter_odd_numbers([])
         []
     """
+    # Ensure the input is a list
     assert isinstance(input_list, list), "Input must be a list."
 
-    # Filter and return only odd integers
-    return [x for x in input_list if isinstance(x, int) and x % 2 != 0]
+    # Step 1: Filter only integers
+    integer_list = []
+    for element in input_list:
+        if isinstance(element, int):
+            integer_list.append(element)
+
+    # Step 2: Filter only odd numbers from the integers
+    odd_number_list = []
+    for number in integer_list:
+        if number % 2 != 0:
+            odd_number_list.append(number)
+
+    return odd_number_list

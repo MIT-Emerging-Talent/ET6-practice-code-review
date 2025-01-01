@@ -64,4 +64,5 @@ def is_prime(n: int) -> bool:
     # If no factors are found, n is prime
     return True
 
+
 print(is_prime(78))

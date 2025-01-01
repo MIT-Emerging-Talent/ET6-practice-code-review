@@ -20,7 +20,8 @@ labels: agenda
 <!-- agenda points -->
 
 - [ ] item 1
-  - description
+  - Posting challenges on the project board: is it going to be random or assigned?
 - [ ] item 2
-  - description
-- [ ] ...
+  - Matching people on the group for reviews: Musab's idea: each member can give 2 other members one challenge each and review those. This way, we can maximize exposure to different styles of coding and collaboration.
+- [ ] item 3
+  

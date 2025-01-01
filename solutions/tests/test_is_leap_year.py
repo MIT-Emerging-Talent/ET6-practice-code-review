@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -14,9 +13,10 @@ Created on 2025-01-01
 @author: Alexander Andom
 """
 
-
 import unittest
+
 from ..is_leap_year import is_leap_year
+
 
 class TestIsLeapYear(unittest.TestCase):
     """Test the is_leap_year function"""
@@ -59,6 +59,7 @@ class TestIsLeapYear(unittest.TestCase):
         """Test for a year below 1583 to raise AssertionError"""
         with self.assertRaises(AssertionError):
             is_leap_year(1500)
+
 
 if __name__ == "__main__":
     unittest.main()

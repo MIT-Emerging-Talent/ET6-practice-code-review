@@ -1,5 +1,6 @@
 # word_frequency.py
 
+
 def count_word_frequency(text):
     """
     Function to count the frequency of each word in a given text.
@@ -18,4 +19,3 @@ def count_word_frequency(text):
         word_count[word] = word_count.get(word, 0) + 1
 
     return word_count
-

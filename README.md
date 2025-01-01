@@ -33,7 +33,7 @@ with a strong focus on **teamwork**
 ### 💡 Innovation through Collaboration
 
  Every detour is a chance for discovery, and every 404
- is an invitation to innovate 
+ is an invitation to innovate
 
  By leveraging our diverse skills, we create a culture where:
 

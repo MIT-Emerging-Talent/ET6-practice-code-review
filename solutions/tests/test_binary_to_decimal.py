@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Test module for binary_to_decimal function.
-Contains intentionally buggy tests for debugging practice.
 
 Test categories:
   - Standard cases: Typical binary numbers with various lengths and values.
@@ -12,7 +11,7 @@ Test categories:
 
 
 
-Created on XX XX XX
+Created on 29/12/2024
 
 @author: Khusro Sakhi
 """
@@ -59,10 +58,10 @@ class TestBinaryToDecimal(unittest.TestCase):
     # Large number test
     def test_large_binary_number(self):
         """It should correctly convert a very large binary number."""
-        large_binary = "1" * 50  # A binary number with 50 ones (111...111)
-        # Compute the expected decimal using Python's int function
-        expected_decimal = int(large_binary, 2)
-        self.assertEqual(binary_to_decimal(large_binary), expected_decimal)
+        self.assertEqual(
+            binary_to_decimal("11111111111111111111111111111111111111111111111111"),
+            1125899906842623,
+        )
 
     # Defensive tests
     def test_invalid_characters(self):

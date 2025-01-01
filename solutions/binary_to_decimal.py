@@ -6,12 +6,12 @@ A module for converting binary numbers to decimal.
 Module contents:
     - binary_to_decimal: converts binary numbers to decimal.
 
-Created on XX XX XX
+Created on 29/12/2024
 @author: Khusro Sakhi
 """
 
 
-def binary_to_decimal(binary_str) -> int:
+def binary_to_decimal(binary_str: str) -> int:
     """
     Converts a binary number represented as a string into its decimal equivalent.
 

@@ -1,19 +1,28 @@
 <!-- this template is for inspiration, feel free to change it however you like! -->
+# Introduction
 
-# Constraints
+> Drop introduction here.
 
-Some boundaries around our project.
+## External Constraints
 
-## External
+> For each team member, we will explain the external constraints.
 
-<!--
-  constraints coming from the outside that your team has no control over:
-  - project deadlines
-  - number of unit tests required to pass a code review
-  - technologies (sometimes a client will tell you what to use)
-  - power or connectivity
-  - ...
--->
+### Salem
+
+| Constraint | Description |
+|:------:|:-------:|
+| Power & internet | I have limited hours when power is available|
+| Deadlines | I have college deadlines in addition to MET program deadlines|
+
+### Nagham
+
+| Constraint | Description |
+|:------:|:-------:|
+
+### Nilson
+
+| Constraint | Description |
+|:------:|:-------:|
 
 ## Internal: Involuntary
 

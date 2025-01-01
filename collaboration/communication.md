@@ -21,10 +21,10 @@ ______________________________________________________________________
 
 how often will we get in touch on each channel, and what we will discuss there:
 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+- **Issues**: Daily
+- **Pull Requests**: twice a day (first in morning, second at the end of day)
+- **Slack/Discord**: Slack
+- **Video Calls**: as convenient to our circumstances.
 
 ______________________________________________________________________
 
@@ -34,15 +34,13 @@ ______________________________________________________________________
 
 | Day       | Monday | Tuesday | Wednesday | Thursday | Friday |Saturday | Sunday|
 |-----------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------:|
-| _name_    ||||||||
+| Salem     |10:00-15:00|12:00-14:00|10:00-15:00 |10:00-15:00 |❌|13:00-17:00|10:00-15:00|
 
 ### How many hours everyone has per day
 
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- Salem: _3-5h_;
+- Nagham: _nh_;
+- Nilson: _nh_;
 
 ## Asking for Help
 

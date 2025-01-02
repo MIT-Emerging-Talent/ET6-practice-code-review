@@ -25,7 +25,7 @@
 
 ### 🏗️ Repository Management  
 
-- Follow **naming conventions** for challenges that reflect their behavior (e.g., a challenge to find the sum of 3 numbers should benamed `"sum of 3"`).  
+- Follow **naming conventions** for challenges that reflect their behavior (e.g., a challenge to find the sum of 3 numbers should be named `"sum of 3"`).  
 - Choose **1 or 2 people** to handle repository updates to ensure consistency.  
 
 ### 🔧 Collaboration Tips  

@@ -28,7 +28,7 @@ We will always be in touch to discuss various things:
 - **Issues**: For bugs, progress checking, and other related tasks.
 - **Pull Requests**: For code reviews and Markdown file updates.
 - **Slack**: For daily updates, notifications, and reporting any code
-- errors or help needed.
+  errors or help needed.
 - **Video Calls**: For group discussions, progress updates, tutoring, and meetings.
 - **WhatsApp**: For informal hangouts and check-ins and sending reminders.
 

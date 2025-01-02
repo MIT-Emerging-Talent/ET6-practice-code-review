@@ -9,8 +9,7 @@
 
 # Communication
 
-_## Communication Schedule_
-...
+## Communication Schedule
 
 | Day       | How                 | The Topic of Discussion     |
 |-----------|---------------------|-----------------------------|
@@ -22,8 +21,7 @@ _## Communication Schedule_
 | Saturday  | Google Meet/Slack   | Code Review and Help       |
 | Sunday    | Google Meet/Slack   | Progress Update            |
 
-_## Communication Channels_
-...
+## Communication Channels
 
 We will always be in touch to discuss various things:
 
@@ -36,8 +34,7 @@ We will always be in touch to discuss various things:
 
 ## Availability
 
-_### Availability for Calling_
-...
+### Availability for Calling
 
 | Member   | Monday | Tuesday | Wednesday | Thursday | Friday  | Saturday | Sunday|
 |----------|------------|------------|------------|------------|------------|------------|------------|
@@ -50,8 +47,7 @@ _### Availability for Calling_
 | Member 7 | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
 | Member 8 | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
 
-_### How Many Hours Everyone Has Per Day on Average_
-...
+### How Many Hours Everyone Has Per Day on Average
 
 - **Dadi**: 4 hours
 - **Rama**: 4 hours
@@ -74,6 +70,6 @@ There's a fine line between confidently learning from your mistakes, and
 stubbornly getting no where. Here is a general guide for when to ask for help
 based on how long you've been stuck on the same problem:
 
-1. _0 -> 30 min_: Try on your own
-1. _30 -> 60 min_: Ask your group for help
-1. _60+ min_: Tag your coaches in Slack or GitHub
+1. *0 -> 30 min*: Try on your own
+1. *30 -> 60 min*: Ask your group for help
+1. *60+ min*: Tag your coaches in Slack or GitHub

@@ -26,12 +26,18 @@ def sum_of_nth_fibonacci_series(n):
     Returns:
     int: The sum of the first n numbers in the Fibonacci series.
 
+    Raises:
+    TypeError: If the input is not an integer.
+    ValueError: If the input is a negative integer.
+
     Example:
     >>> sum_of_nth_fibonacci_series(3)
     2
     """
-    if n <= 0:
-        return 0
+    if not isinstance(n, int):
+        raise TypeError("Input must be an integer")
+    if n < 0:
+        raise ValueError("Input must be a non-negative integer")
 
     # Initialize the first two Fibonacci numbers and the sum
     a, b = 0, 1

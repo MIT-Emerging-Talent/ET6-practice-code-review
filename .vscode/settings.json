@@ -111,7 +111,7 @@
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
-
+  
   // Enable/disable update table of contents on save
   "markdown.extension.toc.updateOnSave": false
 }

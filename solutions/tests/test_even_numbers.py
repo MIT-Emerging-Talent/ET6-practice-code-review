@@ -61,7 +61,3 @@ class TestAllEven(unittest.TestCase):
         self.assertEqual(
             str(context.exception), "All elements in the list must be integers"
         )
-
-
-# if __name__ == "__main__":
-#     unittest.main()

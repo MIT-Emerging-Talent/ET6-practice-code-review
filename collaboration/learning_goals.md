@@ -22,3 +22,7 @@ again in the future.
 
 Pyae Linn: My goal is to become a skilled and impactful AI or ML engineer,
 leveraging my expertise to create innovative solutions.
+
+Muqadsa Tahir: Develop excellent programming habits. This encompasses
+documentation, testing, and writing clean, readable code.
+

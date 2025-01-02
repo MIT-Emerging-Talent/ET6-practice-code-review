@@ -13,7 +13,7 @@ This module is designed to be efficient and handles edge cases such as n = 0 or 
 """
 
 
-def sum_of_nth_fibonacci_series(n):
+def sum_of_nth_fibonacci_series(n: int) -> int:
     """
     Calculate the sum of the first n numbers in the Fibonacci series.
 

@@ -21,9 +21,9 @@ def convert_string_to_uppercase(text: str) -> str:
     Example:
     >>> convert_string_to_uppercase("hello")
     'HELLO'
-    >>> sum_of_digits("HELLo")
+    >>> convert_string_to_uppercase("HELLo")
     'HELLO'
-    >>> sum_of_digits("")
+    >>> convert_string_to_uppercase("")
     ''
     """
     assert isinstance(text, str), "The input text must be a string."

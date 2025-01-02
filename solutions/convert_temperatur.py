@@ -22,7 +22,7 @@ def convert_temperature(celsius: float) -> dict[str, float]:
         Traceback (most recent call last):
         ValueError: Temperature cannot be below absolute zero (-273.15°C).
     """
-     # Check if the input is a valid number (int or float)
+    # Check if the input is a valid number (int or float)
     if not isinstance(celsius, (int, float)):
         raise TypeError("The input temperature must be a number.")
     # Ensure the input temperature is not below absolute zero (-273.15°C)
@@ -35,11 +35,7 @@ def convert_temperature(celsius: float) -> dict[str, float]:
     return {"Fahrenheit": round(fahrenheit, 2), "Kelvin": round(kelvin, 2)}
 
 
-
-
-
 if __name__ == "__main__":
     import doctest
 
     doctest.testmod()  # Run doctests
-   

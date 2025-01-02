@@ -26,7 +26,6 @@ from ..convert_temperatur import convert_temperature
     """
 
 
-
 class TestConvertTemperature(unittest.TestCase):
     """Unit tests for the convert_temperature function."""
 
@@ -78,4 +77,3 @@ class TestConvertTemperature(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

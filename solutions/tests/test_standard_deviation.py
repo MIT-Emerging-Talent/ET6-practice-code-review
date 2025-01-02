@@ -7,6 +7,7 @@ Test categories:
     - Standard cases: Verifies normal function behavior
     - Edge cases: Tests boundaries and extreme values
     - Defensive tests: Handles invalid or malicious inputs
+    - Side effect test: Ensuring that the function has no side effects
 
 Created on 30 12 2024
 MIT Alpha Project Group
@@ -82,3 +83,11 @@ class TestStandardDeviation(unittest.TestCase):
         """It should raise AssertionError if list items are not integers or float"""
         with self.assertRaises(AssertionError):
             standard_deviation([55, "-222", 177.65, "thirty", 86])
+
+    # Testing side effects
+
+    def test_side_effect(self):
+        """The input argument should not change after calling the function"""
+        numbers = [2, 45, 33, 11.67, -9.55]
+        standard_deviation(numbers)
+        self.assertEqual(numbers, [2, 45, 33, 11.67, -9.55])

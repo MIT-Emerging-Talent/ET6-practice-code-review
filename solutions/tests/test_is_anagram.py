@@ -12,7 +12,6 @@ Created on 2024-01-02
 Author: Reem Osama
 """
 
-
 import unittest
 
 from ..is_anagram import is_anagram
@@ -20,18 +19,19 @@ from ..is_anagram import is_anagram
 
 class TestIsAnagram(unittest.TestCase):
     """Test suite for the is_anagram function"""
+
     # Standard Cases:
     def test_base_one(self):
         """A basic test for valid cases"""
         self.assertEqual(is_anagram("listen", "silent"), True)
 
-    def test_differnt_length(self):
+    def test_different_length(self):
         """A test for string with unequal lengths"""
         self.assertEqual(is_anagram("apple", "apples"), False)
 
     # Edge Cases:
     def test_case_sensitivity(self):
-        """A test for case sensetivity strings"""
+        """A test for case sensitivity strings"""
         self.assertEqual(is_anagram("Listen", "silent"), False)
 
     def test_white_space(self):
@@ -43,7 +43,7 @@ class TestIsAnagram(unittest.TestCase):
         self.assertEqual(is_anagram("the eyes", "they see"), True)
 
     def test_special_characters(self):
-        """A test with inputs with punctutation or non-alphabetic chars"""
+        """A test with inputs with punctuation or non-alphabetic chars"""
         self.assertEqual(is_anagram("a+b=c", "c+b=a"), True)
 
     def test_empty_strings(self):

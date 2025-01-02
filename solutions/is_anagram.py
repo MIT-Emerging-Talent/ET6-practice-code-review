@@ -10,7 +10,6 @@ True if the two strings are anagrams, False otherwise
 
 """
 
-
 from collections import Counter
 
 
@@ -19,7 +18,7 @@ def is_anagram(first_word: str, second_word: str) -> bool:
     Returns true or false if the two strings given are anagrams
     of each other.
 
-    Anagram is word or a phrade formed by rearranging the letters of another
+    Anagram is word or a phrase formed by rearranging the letters of another
     word or phrase, using all the original letters exactly once
 
     "listen" -> "silent"
@@ -37,7 +36,7 @@ def is_anagram(first_word: str, second_word: str) -> bool:
     Examples:
         >>> is_anagram("listen", "silent")
         True
-        >>> is_anagram("raac", "car")
+        >>> is_anagram("rat", "car")
         False
         >>> is_anagram("evil", "vile")
         True
@@ -48,7 +47,7 @@ def is_anagram(first_word: str, second_word: str) -> bool:
     if len(first_word) != len(second_word):
         return False
 
-    # This is a time complexity of O(nlogn) answer
+    # This is a time complexity of O(n log n) answer
     # return sorted(first_word) == sorted(second_word)
 
     # This is a time complexity of O(n) answer

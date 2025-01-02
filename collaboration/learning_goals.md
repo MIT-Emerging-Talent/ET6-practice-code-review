@@ -22,6 +22,8 @@
 4. **Enhance Tool Proficiency**
    - Improve understanding of VSCode, CLI, Git, and GitHub for development,
      debugging, and collaboration.
+   - Practice making atomic, focused commits with clear commit messages
+     for better code history and easier code review.
 
 5. **Improve Python Skills**
      - Write clean, modular, and well-documented Python code, adhering to best practices.

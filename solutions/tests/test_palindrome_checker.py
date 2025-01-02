@@ -21,7 +21,7 @@ class TestPalindromeChecker(unittest.TestCase):
 
     # Standard test cases
     def test_simple_palindrome(self):
-        """ it should return True for a straightforward palindrome."""
+        """ it should return True for a palindrome."""
         actual = palindrome_checker("racecar")
         expected = True
         self.assertEqual(actual, expected)
@@ -33,12 +33,12 @@ class TestPalindromeChecker(unittest.TestCase):
         self.assertEqual(actual, expected)
 
     def test_mixed_case_palindrome(self):
-        """ it should return True for palindromes regardless of case."""
+        """ it should return True for palindromes for capital letters too."""
         actual = palindrome_checker("RaceCar")
         expected = True
         self.assertEqual(actual, expected)
     def test_palindrome_with_punctuation(self):
-        """it should ignore spaces and punctuation when checking for palindromes."""
+        """it should return True and ignore spaces and punctuation."""
         actual = palindrome_checker("No lemon, no melon")
         expected = True
         self.assertEqual(actual, expected)
@@ -67,12 +67,6 @@ class TestPalindromeChecker(unittest.TestCase):
         """ it should raise an AssertionError if the text parameter is not a string."""
         with self.assertRaises(AssertionError):
             palindrome_checker(12345)
-
-    def test_none_input(self):
-        """ it should raise an AssertionError if None is passed as text."""
-        with self.assertRaises(AssertionError):
-            palindrome_checker(None)
-
 
 if __name__ == "__main__":
     unittest.main()

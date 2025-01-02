@@ -15,6 +15,7 @@ Created on 28/12/2024
 @author: Caesar Ghazi
 """
 
+
 def palindrome_checker(text: str) -> bool:
     """
     Checks whether a given string is a palindrome.
@@ -42,7 +43,7 @@ def palindrome_checker(text: str) -> bool:
     assert isinstance(text, str), "Text must be a string."
 
     # Remove non-alphanumeric characters and convert to lowercase
-    cleaned_text = ''.join(char.lower() for char in text if char.isalnum())
-    
+    cleaned_text = "".join(char.lower() for char in text if char.isalnum())
+
     # Compare the cleaned text with its reverse
     return cleaned_text == cleaned_text[::-1]

@@ -16,7 +16,9 @@ def is_power_of_two(n: int) -> bool:
     Determines whether a given integer is a power of two.
 
     Parameters:
-        n: int, an integer to check if it is a power of two.
+        n: int
+            An integer to check if it is a power of two.
+            Must satisfy the constraint: -2^31 <= n <= 2^31 - 1.
 
     Returns -> bool:
         True if the input is a power of two, False otherwise.
@@ -34,8 +36,13 @@ def is_power_of_two(n: int) -> bool:
     False
     """
 
-    # the input number should be an integer
+    # The input number should be an integer
     assert isinstance(n, (int, float)), "Given number must be an integer or a float"
+
+    # The input number should be within the valid range constraint: -2^31 <= n <= 2^31 - 1
+    assert (
+        -(2**31) <= n <= 2**31 - 1
+    ), f"Input must satisfy -2^31 <= n <= 2^31 - 1, but got {n}"
 
     # Negative numbers and 0 cannot be powers of two
     if n <= 0:

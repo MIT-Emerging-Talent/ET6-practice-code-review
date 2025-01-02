@@ -4,9 +4,9 @@
 Test module for is_power_of_two function.
 
 Test categories:
-    - Standard cases: typical lists with different lengths
-    - Edge cases: empty lists, single elements
-    - Defensive tests: wrong input types, assertions
+    - Standard cases: typical inputs such as small powers of two and non-powers of two.
+    - Edge cases: inputs like zero, negative numbers, and valid floats (e.g., 16.0).
+    - Defensive tests: invalid input types such as strings, lists, and assertions.
 
 Created on 2024-12-31
 @author: Gennadii Ershov

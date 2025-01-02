@@ -20,19 +20,25 @@ class TestSortNumbers(unittest.TestCase):
         """
         Test if the func. correctly sorts a list of integers in asc order.
         """
-        self.assertEqual(sort_numbers([4, 1, 3, 2]), [1, 2, 3, 4])
+        self.assertEqual(
+            sort_numbers([4, 1, 3, 2]), [1, 2, 3, 4]
+        )
 
     def test_floats(self):
         """
         Test if the func. correctly sorts a list of floats in asc order.
         """
-        self.assertEqual(sort_numbers([4.5, 2.3, 1.7, 3.9]), [1.7, 2.3, 3.9, 4.5])
+        self.assertEqual(
+            sort_numbers([4.5, 2.3, 1.7, 3.9]), [1.7, 2.3, 3.9, 4.5]
+        )
 
     def test_mixed_numbers(self):
         """
         Test if the func. sorts a list cont. both integers and floats.
         """
-        self.assertEqual(sort_numbers([4, 2.5, 3, 1.2]), [1.2, 2.5, 3, 4])
+        self.assertEqual(
+            sort_numbers([4, 2.5, 3, 1.2]), [1.2, 2.5, 3, 4]
+        )
 
     def test_invalid_input(self):
         """
@@ -51,14 +57,17 @@ class TestSortNumbers(unittest.TestCase):
         with self.assertRaises(ValueError) as context:
             sort_numbers([])
         self.assertEqual(
-            str(context.exception), "The list is empty. Provide numbers."
+            str(context.exception),
+            "The list is empty. Please provide numbers to sort."
         )
 
     def test_negative_numbers(self):
         """
         Test if the func. correctly sorts a list of neg. numbers.
         """
-        self.assertEqual(sort_numbers([-3, -1, -4, -2]), [-4, -3, -2, -1])
+        self.assertEqual(
+            sort_numbers([-3, -1, -4, -2]), [-4, -3, -2, -1]
+        )
 
 
 if __name__ == "__main__":

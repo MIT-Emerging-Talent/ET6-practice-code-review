@@ -1,9 +1,9 @@
+"""
+Unit tests for the convert_temperature function.
+"""
+
 import unittest
 from ..convert_temperature import convert_temperature
-
-"""
-   Unit tests for the convert_temperature function.
-"""
 
 
 class TestConvertTemperature(unittest.TestCase):

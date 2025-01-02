@@ -1,13 +1,10 @@
 import sys
 import os
-
-# Add the solutions directory to the Python module search path
-sys.path.insert(
-    0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "solutions"))
-)
-
-
 import unittest
+
+# Add the project root directory to the Python module search path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+
 from solutions.decimal_to_binary import decimal_to_binary
 
 

@@ -16,13 +16,29 @@ import unittest
 from solutions.palindrome_checker import palindrome_checker
 
 
-class TestPercentageLetter(unittest.TestCase):
+class TestPalindromeChecker(unittest.TestCase):
     """ """
 
-    def test_0(self):
+    # Standard test cases
+    def test_simple_palindrome(self):
         """ """
         actual = palindrome_checker("racecar")
         expected = True
         self.assertEqual(actual, expected)
+
+    def test_non_palindrome(self):
+        """ """
+        actual = palindrome_checker("hello")
+        expected = False
+        self.assertEqual(actual, expected)
+
+    def test_mixed_case_palindrome(self):
+        """ """
+        actual = palindrome_checker("RaceCar")
+        expected = True
+        self.assertEqual(actual, expected)
+        
+        
+        
 if __name__ == "__main__":
     unittest.main()

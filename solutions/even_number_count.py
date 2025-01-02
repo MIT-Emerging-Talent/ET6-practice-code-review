@@ -14,13 +14,13 @@ def even_number_count(number: list) -> int:
     """Returns the number of even numbers on the list.
 
     Parameters:
-    int: list, the input list to process 
+    int: list, the input list to process
 
     return - > int:  indicating the number of even number in the list
 
     Raises:
-        AssertionError: 
-    
+        AssertionError:
+
     Examples:
         >>> even_number_count ([1])
         0
@@ -32,7 +32,6 @@ def even_number_count(number: list) -> int:
     assert isinstance(number,list)
     for num in number:
         assert isinstance(num,int)
-    
     count = 0
 
     for num in number:
@@ -43,5 +42,3 @@ def even_number_count(number: list) -> int:
 if __name__ == "__main__":
 
     print(even_number_count([1,2,3,4,5]))
-   
-

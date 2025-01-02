@@ -37,6 +37,7 @@ Assigned tasks:
 + learning goals.md  TO ALHASSEN
 + readme.md  TO NADA
 + social norms To GHYATH
++ meeting minutes to AHD
 
 Later retrospective will be discussed.
 

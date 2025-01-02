@@ -18,7 +18,7 @@ communicate clearly.
 + Respect: kind constructive feedback, active listening, acknowledging
 contributions and ensuring inclusion.  
 + Disrespect: Not tolerate exclusion, belittling, personalize issues
-
+<!--markdownlint-disable MD034 MD013-->
 **Tools of collaborative items  [Here's the link]((https://docs.google.com/document/d/1Bkv-76t8xZd7iJd3tuNhtSNNrfnXSk4VMd-ZgJy3lDQ/edit?tab=t.0#heading=h.nqzd4xaw40a))**  
 
 + Choose from Challenges and comment your name and write about it.
@@ -29,7 +29,8 @@ _Communication:_
 • **Meetings:** two days a week with max 2hrs  
 • **Slack:** Main tool and for detailed discussions
  and project related conversations.  
-• **Whatsapp:** Not important but urgent discussions for quick updates and messages.
+• **Whatsapp:** Not important but urgent discussions for
+quick updates and messages.
 • **Time for meetings:** 12EST "appropriate for everyone"  
 
 ### Decision made  
@@ -39,8 +40,8 @@ One group unit will go far.
 
 **Action Items**  
   _What needs to be done?_  
-[ ] Write a personal goal/what do you want to get out of this collaboration
-on the Google Doc  
+[ ] Write a personal goal/what do you want to get out of
+this collaboration on the Google Doc  
 [ ] Go to Google Doc: Tools of Collaboration and contribute
   
 ### Follow up

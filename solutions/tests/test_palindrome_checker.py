@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Test module for is_palindrome function.
+Test module for palindrome_checker function.
 
 Test categories:
     - Standard cases: typical palindromes and non-palindromes

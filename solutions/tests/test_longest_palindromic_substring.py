@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Unit tests for the longest_palindromic_substring module.
 
@@ -30,8 +28,7 @@ class TestLongestPalindromicSubstring(unittest.TestCase):
         The expected result is either 'bab' or 'aba' because both are valid palindromic substrings.
         """
         result = self.solution.longest_palindrome("babad")
-        # "bab" or "aba" are valid results
-        self.assertIn(result, ["bab", "aba"])
+        self.assertIn(result, ["bab", "aba"])  # "bab" or "aba" are valid results
 
     def test_example_2(self):
         """
@@ -93,6 +90,7 @@ class TestLongestPalindromicSubstring(unittest.TestCase):
         input_string = "a" * 1000 + "abba" + "a" * 1000
         expected_result = input_string
         result = self.solution.longest_palindrome(input_string)
+        print(f"Test result: {result}")
         self.assertEqual(result, expected_result)
 
     def test_palindrome_with_duplicates(self):

@@ -1,40 +1,10 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-Module: longest_palindromic_substring .
+This module provides a solution for finding the longest palindromic substring
+in a given string using the "expand around center" technique.
 
-Description:
-    This module provides a solution for finding the longest palindromic substring
-    in a given string using the "expand around center" technique.
-
-    A palindrome is a sequence of characters that reads the same backward as forward.
-    This implementation efficiently finds the longest palindromic substring in
-    O(n^2) time complexity with O(1) space complexity.
-
-Challenge:
-    This problem is sourced from the LeetCode platform.
-
-Example Usage:
-    >>> solution = Solution()
-    >>> solution.longest_palindrome("babad")
-    'bab'  # 'aba' is also a valid answer
-    >>> solution.longest_palindrome("cbbd")
-    'bb'
-    >>> solution.longest_palindrome("a")
-    'a'
-    >>> solution.longest_palindrome("")
-    ''
-
-Author:
-    SADAM HUSEN ALI
-
-Created:
-    [02-01-2025]
-
-Notes:
-    - The solution uses the "expand around center" technique for finding palindromes.
-    - Time complexity: O(n^2)
-    - Space complexity: O(1)
+A palindrome is a sequence of characters that reads the same backward as forward.
+This implementation efficiently finds the longest palindromic substring in
+O(n^2) time complexity with O(1) space complexity.
 """
 
 
@@ -53,7 +23,7 @@ class Solution:
 
     def longest_palindrome(self, s: str) -> str:
         """
-        Find the longest palindromic substring in a given string.
+        Finds the longest palindromic substring in a given string.
 
         A palindrome is a sequence of characters that reads the same
         backward as forward. This function uses the "expand around center"
@@ -66,9 +36,6 @@ class Solution:
             str: The longest palindromic substring found in the input string.
                 If there are multiple substrings of the same maximum length,
                 any one of them can be returned.
-
-        Raises:
-            ValueError: If the input string contains invalid characters (only alphanumeric allowed).
 
         Example:
             >>> solution = Solution()
@@ -88,28 +55,10 @@ class Solution:
             O(1): No extra data structures proportional to the input size are used.
         """
 
-        # Defensive assertion for input validation
-        if not isinstance(s, str):
-            raise ValueError("Input must be a string.")
-        if any(c.isdigit() and not c.isalnum() for c in s):
-            raise ValueError(
-                "Input string should only contain alphanumeric characters."
-            )
-
-        if not s:
+        if not s or len(s) == 0:
             return ""
 
         def expand_around_center(left: int, right: int) -> str:
-            """
-            Expand around the center to find a palindrome.
-
-            Args:
-                left (int): The starting index for the left side of the palindrome.
-                right (int): The starting index for the right side of the palindrome.
-
-            Returns:
-                str: The longest palindrome found by expanding around the given center.
-            """
             while left >= 0 and right < len(s) and s[left] == s[right]:
                 left -= 1
                 right += 1

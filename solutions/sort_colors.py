@@ -33,7 +33,7 @@ def sort_colors(nums: List[int]) -> None:
         O(n): Iterates through the list once to count occurrences and again to modify it in-place.
 
     Space Complexity:
-        O(1): Uses a fixed-size counter array of size 3. No additional space is used.
+        O(1): Uses a fixed-size counter list of size 3. No additional space is used.
 
     Parameters:
         nums: List[int]
@@ -43,7 +43,7 @@ def sort_colors(nums: List[int]) -> None:
         None
 
     Raises:
-        AssertionError: if the input is not a list or contains invalid elements.
+        AssertionError: if the input is not a list or contains invalid elements (numbers out of the range 0 to 2).
 
     Examples:
     >>> nums = [0, 2, 1]
@@ -65,14 +65,14 @@ def sort_colors(nums: List[int]) -> None:
     assert isinstance(nums, list), "Input must be a list."
     assert all(0 <= number <= 2 for number in nums), "All elements must be 0, 1, or 2."
 
-    # Create a counter array to store the count of each number
+    # Create a counter list to store the count of each number
     counter_list = [0] * 3
 
     # Count occurrences of each number
     for number in nums:
         counter_list[number] += 1
 
-    # Rebuild the nums array in-place
+    # Rebuild the nums list in-place
     index = 0
     for number in range(3):
         for _ in range(counter_list[number]):

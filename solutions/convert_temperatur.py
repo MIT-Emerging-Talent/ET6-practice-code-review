@@ -22,29 +22,24 @@ def convert_temperature(celsius: float) -> dict[str, float]:
         Traceback (most recent call last):
         ValueError: Temperature cannot be below absolute zero (-273.15°C).
     """
+     # Check if the input is a valid number (int or float)
     if not isinstance(celsius, (int, float)):
         raise TypeError("The input temperature must be a number.")
+    # Ensure the input temperature is not below absolute zero (-273.15°C)
     if celsius < -273.15:
         raise ValueError("Temperature cannot be below absolute zero (-273.15°C).")
-
+    # Convert Celsius to Fahrenheit and Kelvin
     fahrenheit = (celsius * 9 / 5) + 32
     kelvin = celsius + 273.15
 
     return {"Fahrenheit": round(fahrenheit, 2), "Kelvin": round(kelvin, 2)}
 
 
-def main():
-    try:
-        user_input = input("Enter a temperature in Celsius: ")
-        celsius = float(user_input)
-        result = convert_temperature(celsius)
-        return f"The temperature in Fahrenheit is {result['Fahrenheit']}°F.\nThe temperature in Kelvin is {result['Kelvin']}K."
-    except ValueError as e:
-        return f"Error: {e}"
+
 
 
 if __name__ == "__main__":
     import doctest
 
     doctest.testmod()  # Run doctests
-    main()  # Run the main function for user interaction
+   

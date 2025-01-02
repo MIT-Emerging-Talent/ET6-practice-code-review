@@ -14,21 +14,29 @@ Author: Ava Abdullah
 def is_unique(text: str) -> bool:
     """Checks if all characters in a string are unique.
 
-    Parameters:
-        text: str, the input string to check
+    Accepts a string and returns True if all characters are unique
+    and False otherwise. Spaces and special characters are considered valid,
+    and the check is case-sensitive.
 
-    Returns -> bool: True if all characters are unique, False otherwise
+        Parameters:
+            text: str, the input string to check
 
-    Raises:
-        AssertionError: if the argument is not a string
+        Returns -> bool: True if all characters are unique, False otherwise
 
-    Examples:
-        >>> is_unique("abcdefg")
-        True
-        >>> is_unique("aabbcc")
-        False
-        >>> is_unique(" ")
-        True
+        Raises:
+            AssertionError: if the argument is not a string
+
+        Examples:
+            >>> is_unique("abcdefg")
+            True
+            >>> is_unique("aabbcc")
+            False
+            >>> is_unique(" ")
+            True
+            >>> is_unique("aA")
+            True
+            >>> is_unique("a!!")
+            False
     """
     assert isinstance(text, str), "Input must be a string"
 

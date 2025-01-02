@@ -51,3 +51,14 @@ class TestIsPowerOfTwo(unittest.TestCase):
     def test_float_non_power_of_two(self):
         """Test if n = 3.5 is correctly identified as not a power of two."""
         self.assertFalse(is_power_of_two(3.5), "Expected False for n = 3.5")
+
+    # Defensive tests
+    def test_invalid_type_string(self):
+        """Test if a string raises an AssertionError."""
+        with self.assertRaises(AssertionError):
+            is_power_of_two("16")
+
+    def test_invalid_type_list(self):
+        """Test if a list raises an AssertionError."""
+        with self.assertRaises(AssertionError):
+            is_power_of_two([16])

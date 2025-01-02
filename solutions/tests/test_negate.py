@@ -38,12 +38,12 @@ class TestNegate(unittest.TestCase):
 
     def test_overflow(self):
         """It should handle overflow correctly"""
-        actual = negate(1e308)  # Maximum float value
+        actual = negate(1e308)
         expected = -1e308
         self.assertEqual(actual, expected)
 
     def test_underflow(self):
         """It should handle underflow correctly"""
-        actual = negate(-1e-323)  # Minimum subnormal positive float value
+        actual = negate(-1e-323)  
         expected = 1e-323
         self.assertEqual(actual, expected)

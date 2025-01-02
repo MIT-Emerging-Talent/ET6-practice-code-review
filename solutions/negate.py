@@ -19,7 +19,8 @@ def negate(number: float) -> float:
     Returns -> (float): The negation of the input number.
 
     Raises:
-        AssertionError: if the argument is not an integer or float.
+        AssertionError: if the argument is not an integer
+        or float.
 
     >>> negate(2)
     -2
@@ -30,6 +31,6 @@ def negate(number: float) -> float:
     >>> negate(10)
     -10
     """
-    if not isinstance(number, (int,float)):
+    if not isinstance(number, (int, float)):
         raise TypeError("Input must be a number")
     return -number

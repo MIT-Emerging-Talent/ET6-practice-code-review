@@ -12,7 +12,16 @@ Created on 2024-12-31
 
 
 def is_power_of_two(n: int) -> bool:
-    number = 1
-    while number < n:
-        number *= 2
-    return number == n
+    # Negative numbers and 0 cannot be powers of two
+    if n <= 0:
+        return False
+
+    # Odd numbers (except 1) are not powers of two
+    if n % 2 != 0 and n != 1:
+        return False
+
+    # Use a loop to check for powers of two
+    potential_power = 1
+    while potential_power < n:
+        potential_power *= 2
+    return potential_power == n

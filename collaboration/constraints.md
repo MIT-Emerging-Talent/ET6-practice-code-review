@@ -84,3 +84,15 @@ limits my availability time.
 ### Raed Eleyan
 
 - I don't love Math, so I have to work hard to love it again.
+
+  ---
+
+### Tamara Saqer
+
+- Access to Internet and electricity can be difficult at times,
+ which may occasionally impact connectivity and communication.  
+- My sense of humor is incredibly advanced and top-tier. Others often find it
+  challenging to match, and their memes sometimes fall short of the mark.
+  cc: Ahmed Khalifa
+
+  ---

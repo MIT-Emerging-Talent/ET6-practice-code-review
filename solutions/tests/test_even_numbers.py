@@ -9,6 +9,7 @@ Created on 2024-12-28
 """
 
 import unittest
+
 from solutions.even_numbers import even_numbers
 
 
@@ -61,7 +62,3 @@ class TestAllEven(unittest.TestCase):
         self.assertEqual(
             str(context.exception), "All elements in the list must be integers"
         )
-
-
-# if __name__ == "__main__":
-#     unittest.main()

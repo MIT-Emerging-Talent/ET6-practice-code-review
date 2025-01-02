@@ -8,7 +8,7 @@ sys.path.insert(
 
 
 import unittest
-from decimal_to_binary import decimal_to_binary
+from solutions.decimal_to_binary import decimal_to_binary
 
 
 class TestDecimalToBinary(unittest.TestCase):

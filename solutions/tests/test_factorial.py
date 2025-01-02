@@ -5,6 +5,12 @@ Author: Banu Ozyilmaz
 Created on: 12-28-2024
 
 This script contains unit tests for the factorial function using the unittest module.
+
+Test categories:
+    - Standard test cases for base, small, medium, and large numbers
+    - Edge cases for very large numbers (Due to recursion limits, the maximum value used here is 100)
+    - Defensive test cases for invalid inputs (negative numbers, non-integer values)
+
 """
 
 import math

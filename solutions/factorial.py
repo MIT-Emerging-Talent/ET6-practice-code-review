@@ -6,6 +6,9 @@ Factorial Calculation Script
 This script contains a function to calculate the factorial of a non-negative integer
 using recursion.
 
+Module contents:
+    - factorial: Calculates the factorial of a given non-negative integer.
+
 Author: Banu Ozyilmaz
 Created on: 12-28-2024
 """

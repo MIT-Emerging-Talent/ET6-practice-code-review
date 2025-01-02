@@ -15,6 +15,12 @@ tools, such as:
    - Assigning tasks and setting priorities.
 5. **Continuous Integration**: Understand and integrate CI/CD pipelines into the
 development process to ensure code reliability and quality.
+6. **Promoting Growth and Learning**: Foster an environment that supports continuous
+   learning by encouraging team members to enhance both technical and soft
+   skills through hands-on experience and feedback.
+7. **Constructive Feedback Environment**: Create a space where feedback is
+   regularly shared, focusing on constructive input that helps team members
+   improve their work and grow professionally.
 
 ## Individual Goals
 
@@ -39,6 +45,31 @@ development process to ensure code reliability and quality.
    - Learn to initiate and conduct thorough code reviews.
    - Develop an eye for identifying issues in code and documentation.
    - Practice discussing and resolving code-related challenges with peers.
+
+### Yevheniia Rudenko
+
+1. **Mastering Git and GitHub**:
+   - Learn to use Git effectively for version control,
+   including branching, merging, and conflict resolution.
+   - Get comfortable with GitHub’s tools for managing
+   issues, tracking progress with project boards, and collaborating on code.
+
+2. **Effective Collaboration and Communication**:
+   - Develop strong teamwork skills by contributing to a shared codebase,
+   ensuring clear communication, and collaborating on changes and task delegation.
+
+3. **Code Quality and Review**:
+   - Improve the ability to review code for functionality, quality,
+   and documentation, while providing constructive feedback to peers.
+
+4. **Project Management and CI/CD**:
+   - Gain experience using GitHub for project management, including task
+   distribution and progress tracking, while learning about CI/CD
+   processes to maintain code reliability.
+
+5. **Continuous Learning and Feedback**:
+   - Foster a culture of continuous learning and improvement, encouraging
+   the team to grow both technically and professionally through feedback and collaboration.
 
 ---
 

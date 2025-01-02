@@ -39,9 +39,9 @@ We will always be in touch to discuss various things:
 _### Availability for Calling_
 ...
 
-| Member   | Monday | Tuesday | Wednesday | Thursday | Friday  | Saturday | Sunday |
+| Member   | Monday | Tuesday | Wednesday | Thursday | Friday  | Saturday | Sunday|
 |----------|------------|------------|------------|------------|------------|------------|------------|
-| Dadi     | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm |
+| Dadi     | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
 | Rama     | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm |  - |
 | Ahmed    | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
 | Mohammad | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|

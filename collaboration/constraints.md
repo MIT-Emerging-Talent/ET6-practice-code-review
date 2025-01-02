@@ -102,5 +102,7 @@ limits my availability time.
 - I do not have a pc of my own so coding on a consistent basis is not viable.
 - I struggle to manage between my personal life and MIT work,
  but this is manageable.
+- My area may experience sudden power cuts due to illegal connections,
+  this makes working impossible as power may take days to weeks to return.
   
   ---

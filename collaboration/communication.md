@@ -27,14 +27,21 @@ ______________________________________________________________________
 |--------------|--------|---------|----------|----------|--------|-------|------|
 | Malak Battatt| 4-7 PM| 4-7 PM | 4-7 PM  | 4-7 PM |      |     |        |
 | Abdulrahman Alsir| 7-9PM| 2-5PM | 4-8PM  | 7-9PM | 7-9PM | 6-8PM | 6-8PM |
+| Maher Assaf | 4-7PM| 4-7PM | 6-7PM     | 7-8PM | 7-9PM | 6-8PM | 6-8PM |
+| Maria Roufail | 4-7PM| 4-7PM | 6-7PM     | 7-8PM | 7-9PM | 6-8PM | 6-8PM |
+| Muhannad Assaf | 4-7PM| 4-7PM | 6-7PM     | 7-8PM | 7-9PM | 6-8PM | 6-8PM |
+
+
 
 ### How many hours everyone has per day
 
 - Malak Battatt: _~2h_;
 - Abdulrahman Alsir: _~2-4h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- Maher: _~2h_;
+- Maria: _~2h_;
+- Muhannad: _~2h_;
+
+
 
 ## Asking for Help
 

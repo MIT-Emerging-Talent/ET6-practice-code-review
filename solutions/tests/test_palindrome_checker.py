@@ -55,7 +55,16 @@ class TestPalindromeChecker(unittest.TestCase):
         actual = palindrome_checker("12321")
         expected = True
         self.assertEqual(actual, expected)
-        
+    # Defensive Tests
+    def test_invalid_text_type(self):
+        """ """
+        with self.assertRaises(AssertionError):
+            palindrome_checker(12345)
+
+    def test_none_input(self):
+        """ """
+        with self.assertRaises(AssertionError):
+            palindrome_checker(None)
         
 if __name__ == "__main__":
     unittest.main()

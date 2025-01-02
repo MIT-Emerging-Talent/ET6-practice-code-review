@@ -1,54 +1,59 @@
-<!--
-    this template is for inspiration, feel free to change it however you like!
-
-    Careful! be sure to protect your privacy when filling out this document
-        everything you write here will be public
-        so share only what you are comfortable sharing online
-        you can share the rest in confidence with you group by another channel
--->
-
 # Communication
 
-______________________________________________________________________
-
-## Communication Schedule
-
-| Day | How | The topic of discussion | | --- | :-: | ----------------------- |
-| | | |
+---
 
 ## Communication Channels
 
-how often will we get in touch on each channel, and what we will discuss there:
+Details about how often we will communicate and what to discuss on each platform:
 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+- **Issues**:  
+  Use GitHub Issues to document and discuss tasks. Assign yourself to an issue
+  when you begin a task and provide updates regularly. Add clear labels
+  (e.g., "Bug," "Feature," "Question") for better organization.
 
-______________________________________________________________________
+- **Pull Requests**:  
+  When a task is completed, create a Pull Request (PR) on GitHub. Ensure your
+  PR includes a descriptive title and summary of changes.
+  
+- **Slack/WhatsApp**:  
+  These platforms will be our primary channels for real-time communication.
+  Use them to:
+  - Share quick updates.
+  - Clarify immediate questions.
+  - Notify members of any schedule or plan changes.
 
-## Availability
+- **Video Meetings**:  
+  Regular video meetings will take place on **Google Meet**.
+  The meeting link will be shared on Slack or WhatsApp at least 24 hours in advance.
+   Use meetings for:
+  - Planning next steps.
+  - Discussing blockers or complex issues.
+  - Reviewing progress and setting goals.
 
-### Availability for calling/messaging
-
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
-
-### How many hours everyone has per day
-
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+---
 
 ## Asking for Help
 
-There's a fine line between confidently learning from your mistakes, and
-stubbornly getting no where. Here is a general guide for when to ask for help
-based on how long you've been stuck on the same problem:
+Avoid getting stuck for too long by following this guide:
 
-1. _0 -> 30 min_: Try on your own
-1. _30 -> 60 min_: Ask your group for help
-1. _60+ min_: Tag your coaches in Slack or GitHub
+1. _0 -> 30 minutes_: Try to solve the issue independently.
+2. _30 -> 60 minutes_: Reach out to your group via Slack or WhatsApp.
+3. _60+ minutes_: Tag a coach or mentor on Slack
+
+---
+
+## Meeting Etiquette
+
+1. **Agenda**: An agenda will be shared before each meeting. Review it in advance
+ and prepare relevant updates or questions.  
+2. **Punctuality**: Join meetings on time to respect everyone’s schedule.  
+3. **Participation**: Actively participate and ensure all voices are heard.  
+
+---
+
+## Feedback and Retrospectives
+
+At the end of major milestones or the project:
+
+- Schedule a retrospective meeting to discuss what went well and what could be improved.
+- Provide constructive feedback to help each other grow and enhance team collaboration.

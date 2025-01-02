@@ -8,30 +8,43 @@ class TreeNode:
 
 
 def lowestCommonAncestor(root: "TreeNode", p: "TreeNode", q: "TreeNode") -> "TreeNode":
-    """
+    r"""
     Finds the Lowest Common Ancestor (LCA) of two nodes in a Binary Search Tree.
 
-    The Lowest Common Ancestor between two nodes p and q is the lowest node in the tree T 
-    such that both p and q are descendants of the node. The ancestor is allowed to be a 
-    descendant of itself.
+    In a Binary Search Tree, the Lowest Common Ancestor between two nodes p and q is the lowest node
+    such that both p and q are descendants of this node (a node can be a descendant of itself).
 
     Args:
-        root (TreeNode): The root of the Binary Search Tree.
-        p (TreeNode): The first node in the BST.
-        q (TreeNode): The second node in the BST to find LCA with.
+        root (TreeNode): The root node of the Binary Search Tree.
+        p (TreeNode): The first node in the tree.
+        q (TreeNode): The second node in the tree.
 
     Returns:
         TreeNode: The Lowest Common Ancestor of nodes p and q.
 
+    Notes:
+        - If both p and q are smaller than the current node, the LCA is in the left subtree.
+        - If both p and q are larger than the current node, the LCA is in the right subtree.
+        - Otherwise, the current node is the LCA.
+
     Examples:
-        Given the Binary Search Tree Structure:
-                 5
-               /   \
-              3     8
-             / \   / \
-            1   4 7   9
-             \
-              2
+        Example 1:
+            Input: root = [5,3,8,1,4,7,9,null,2], p = TreeNode(3), q = TreeNode(8)
+            Output: TreeNode(5)
+
+        Example 2:
+            Input: root = [5,3,8,1,4,7,9,null,2], p = TreeNode(3), q = TreeNode(4)
+            Output: TreeNode(3)
+    
+    Example:
+    Tree Structure:
+            5
+          /   \\
+         3     8
+        / \   / \\
+       1   4 7   9
+        \\
+         2
 
         Example 1:
         Input: root = [5,3,8,1,4,7,9,null,2], p = 3, q = 8
@@ -41,4 +54,12 @@ def lowestCommonAncestor(root: "TreeNode", p: "TreeNode", q: "TreeNode") -> "Tre
         Input: root = [5,3,8,1,4,7,9,null,2], p = 3, q = 4
         Output: 3
     """
-    start = root
+    candidate = root
+    # this tree satisfy BTS properties
+    while candidate:
+        if p.value > candidate.value and q.value > candidate.value:
+            candidate = candidate.right
+        elif p.value < candidate.value and q.value < candidate.value:
+            candidate = candidate.left
+        else:
+            return candidate

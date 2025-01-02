@@ -11,4 +11,3 @@ def get_unique_values(lst):
     if not isinstance(lst, list):
         raise ValueError("Input must be a list")
     return set(lst)
-

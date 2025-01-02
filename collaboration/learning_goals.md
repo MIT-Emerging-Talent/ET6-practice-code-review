@@ -22,12 +22,30 @@ collective and individual learning goals for this project:
 
 ## Individual Goals
 
-### Yuriy Spizhovy
+### Yurii Spizhovyi (<spizhov22y@gmail.com>)
+
+#### Goals
 
 - Improve problem-solving speed.
 - Focus on writing clear, concise, and documented code.
 - Strengthen understanding of algorithms and advanced data structures.
-- I'm going to help my team mates to achieve learning goals
+- Help teammates achieve their learning goals.
+
+#### Collaboration and Workflow Goals
+
+- Hone skills in creating issues on the GitHub Project Board.
+- Explore workflows on the Board: from creating issues, creating PRs,
+- linking PRs with issues.
+- Gain confidence in creating branches in VSCode.
+- Learn and implement code formatters (e.g., Black, Ruff).
+- Improve skills in code review and providing constructive feedback.
+- Set up team meetings to discuss problems and resolve issues.
+- Build expertise in creating project documents (e.g., README.md, learning goals,
+and other documentation).
+- Get familiar with GitHub repository setup and maintenance.
+- Enhance collaborative practices using Git and GitHub tools.
+- Participate in retrospective meetings at the end of the project to review and
+improve processes.
 
 ### Henry Ogoe (<djokwa@gmail.com>)
 

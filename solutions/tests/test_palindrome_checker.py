@@ -1,11 +1,15 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
-Unit tests for the palindrome_checker function.
+Test module for is_palindrome function.
 
-These tests cover:
+Test categories:
+    - Standard cases: typical palindromes and non-palindromes
+    - Edge cases: empty strings, single characters, mixed-case strings
+    - Defensive tests: wrong input types, assertions
 
-- Basic functionality
-- Defensive assertions
-- Boundary cases
+Created on 2/1/2025
+@author: Caesar Ghazi
 """
 
 import unittest

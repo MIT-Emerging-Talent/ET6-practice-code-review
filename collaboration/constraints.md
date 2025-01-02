@@ -85,7 +85,7 @@ limits my availability time.
 
 - I don't love Math, so I have to work hard to love it again.
 
----
+  ---
 
 ### Tamara Saqer
 
@@ -95,4 +95,4 @@ limits my availability time.
   challenging to match, and their memes sometimes fall short of the mark.
   cc: Ahmed Khalifa
 
----
+  ---

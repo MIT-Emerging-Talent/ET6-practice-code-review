@@ -5,21 +5,24 @@ from solutions.remove_triplets import remove_triplets
 # Test cases for remove_triplets function
 class TestRemoveTriplets(unittest.TestCase):
     """
-    Unit tests for the remove_triplets function.
+        Unit tests for the remove_triplets function.
 
-    This module contains a set of test cases for the remove_triplets function
-    from the solutions package. The function ensures no three consecutive
-    characters remain in a string by removing the minimum number of characters
-    required.
+        This module contains a set of test cases for the remove_triplets function
+        from the solutions package. The function ensures no three consecutive
+        characters remain in a string by removing the minimum number of characters
+        required.
 
-    The tests cover various scenarios, including:
-    - Empty string input
-    - Strings without consecutive characters
-    - Strings with one or more groups of consecutive characters
-    - Boundary cases such as single characters or long sequences
-    - Defensive checks for invalid input types
+        The tests cover various scenarios, including:
+        - Empty string input
+        - Strings without consecutive characters
+        - Strings with one or more groups of consecutive characters
+        - Boundary cases such as single characters or long sequences
+        - Defensive checks for invalid input types
 
-    Test cases are implemented using Python's unittest framework.
+        Test cases are implemented using Python's unittest framework.
+
+    Created on: 02/01/25
+    @author: Madiha Malikzada
     """
 
     def test_empty_input(self):

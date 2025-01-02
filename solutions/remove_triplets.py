@@ -29,6 +29,8 @@ def remove_triplets(text: str) -> str:
         - If the input has no three consecutive characters, return the input string unchanged.
         - If the input contains more than three consecutive identical
             characters, the function limits the repetitions to two.
+    Created on: 02/01/25
+    @author: Madiha Malikzada
     """
     # Validate input type
     assert isinstance(text, str), "Input must be a string type"

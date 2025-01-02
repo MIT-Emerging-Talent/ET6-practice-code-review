@@ -84,4 +84,3 @@ if __name__== "__main__":
         result =  DecimalToBinary(int(number))
         
     print(result)
-    

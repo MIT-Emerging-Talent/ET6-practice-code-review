@@ -4,7 +4,7 @@ def fuel_gauge(x: int, y: int) -> str:
 
     Parameters:
         x (int): Fuel in the tank (must be ≤ y).
-        y (int): Tank capacity (must be > 0, the tank can't be 0 or a negative number).
+        y (int): Tank capacity (must be > 0).
 
     Returns:
         str: 

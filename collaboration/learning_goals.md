@@ -26,7 +26,7 @@
 5. **Improve Python Skills**
      - Write clean, modular, and well-documented Python code, adhering to best practices.
      - Debug and optimize code for efficiency.
-     - Write and implement relevant unit test cases using Python’s for
+     - Write and implement relevant unit test cases using Python’s unittest for
        code reliability and maintenance
      - Practice Test-Driven Development (TDD).
 

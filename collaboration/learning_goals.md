@@ -42,7 +42,7 @@ understanding how they apply to our specific cases and improving our approach.
 
 - ## _Mohammad Al Salloum_
 
-  - [ ] Gaol 1: Improve my collaborative skills.
+  - [ ] Goal 1: Improve my collaborative skills.
   - [ ] Goal 2: Build a connection with talented people.
   - [ ] Goal 3: Learn new coding skills.
   - [ ] Goal 4: Learn how to be a team player.

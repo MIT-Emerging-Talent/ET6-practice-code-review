@@ -34,15 +34,13 @@ def convert_temperature(celsius: float) -> dict[str, float]:
 
 
 def main():
-    print("Welcome to the Temperature Converter!")
     try:
         user_input = input("Enter a temperature in Celsius: ")
         celsius = float(user_input)
         result = convert_temperature(celsius)
-        print(f"The temperature in Fahrenheit is {result['Fahrenheit']}°F.")
-        print(f"The temperature in Kelvin is {result['Kelvin']}K.")
+        return f"The temperature in Fahrenheit is {result['Fahrenheit']}°F.\nThe temperature in Kelvin is {result['Kelvin']}K."
     except ValueError as e:
-        print(f"Error: {e}")
+        return f"Error: {e}"
 
 
 if __name__ == "__main__":

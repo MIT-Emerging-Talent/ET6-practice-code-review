@@ -100,5 +100,7 @@ limits my availability time.
 ### Mukuna Kabeya
 
 - I do not have a pc of my own so coding on a consistent basis is not viable.
+- I struggle to manage between my personal life and MIT work,
+ but this is manageable.
   
   ---

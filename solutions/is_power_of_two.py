@@ -25,6 +25,7 @@ def is_power_of_two(n: int) -> bool:
 
     Raises:
         AssertionError: if the input is not an integer or a float.
+        AssertionError: If the input number is not within the valid range (-2^31 <= n <= 2^31 - 1).
 
     >>> is_power_of_two(1)
     True

@@ -40,8 +40,7 @@ def update_region_status(region, new_status, region_status):
     if region in region_status:
         region_status[region] = new_status
         return f"Updated status of {region} to {new_status}."
-    else:
-        return f"Region {region} does not exist."
+    return f"Region {region} does not exist."
 
 
 # Data

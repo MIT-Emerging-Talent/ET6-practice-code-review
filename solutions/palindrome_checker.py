@@ -30,13 +30,13 @@ def palindrome_checker(text: str) -> bool:
         AssertionError: If text is not a string.
 
     Examples:
-    >>> is_palindrome("racecar")
+    >>> palindrome_checker("racecar")
     True
 
-    >>> is_palindrome("hello")
+    >>> palindrome_checker("hello")
     False
 
-    >>> is_palindrome("No lemon, no melon")
+    >>> palindrome_checker("No lemon, no melon")
     True
     """
 

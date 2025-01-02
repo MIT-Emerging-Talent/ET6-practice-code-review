@@ -8,24 +8,26 @@
 
 ### ⏰ Respecting Each Other’s Time  
 
-- Meetings will be scheduled **at least one day a week**, with a **48-hour prior agreement/announcement**.  
+- **Meetings** will be scheduled **at least one day a week**.
+- **Additional Meetings** will be scheduled with a **48-hour prior agreement**.  
 - 🗳️ **Meeting times** will be voted on in Slack the day before.  
 
 ### 📡 Communication  
 
-- **Maintain effective communication** on Slack—let’s keep the discussions flowing! 💬  
+- **Maintain communication** on Slack—let’s keep the discussions flowing! 💬  
 - Feel free to **ask for help**; we’re here to support each other! 🙌  
 
 ### 🗓️ Meetings  
 
-- **Prepare for meetings** with defined agendas beforehand to keep things efficient.  
+- **Prepare for meetings** with pre-defined agendas beforehand.  
 - **Use Google Meet** for a smoother meeting experience. 🎥  
 - **Weekly milestones** will help us track progress. 🏁  
 - **Internal milestone** will be Jan. 7 ⏱
 
 ### 🏗️ Repository Management  
 
-- Follow **naming conventions** for challenges that reflect their behavior (e.g., a challenge to find the sum of 3 numbers should be named `"sum of 3"`).  
+- Follow **naming conventions** for challenges that reflect their behavior.
+- Preferably, the branches/issues will be named as _"GP25_challenge-name"_  
 - Choose **1 or 2 people** to handle repository updates to ensure consistency.  
 
 ### 🔧 Collaboration Tips  
@@ -37,4 +39,5 @@
 
 ## 🤝 Together, We’ll Rectify Pythons! 🐍✨  
 
-With great communication, preparation, and teamwork, we’ll tackle challenges and keep things rectified—just like PyRectifiers should! 🎉
+With great communication, preparation, and teamwork? 
+We’ll keep things rectified—just like PyRectifiers should! 🎉

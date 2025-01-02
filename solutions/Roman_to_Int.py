@@ -4,8 +4,15 @@ def romanToInt(s: str) -> int:
 
     # Define invalid patterns for Roman numerals
     import re
+
     invalid_patterns = [
-        "IIII", "VV", "XXXX", "LL", "CCCC", "DD", "MMMM",  # Invalid repetitions
+        "IIII",
+        "VV",
+        "XXXX",
+        "LL",
+        "CCCC",
+        "DD",
+        "MMMM",  # Invalid repetitions
     ]
 
     # Input validation: check if all characters in the input are valid Roman numerals

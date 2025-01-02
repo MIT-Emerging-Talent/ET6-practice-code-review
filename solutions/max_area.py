@@ -1,7 +1,50 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Module: max_area
+
+Description:
+    This module provides a solution for the "Container With Most Water" problem.
+    The function determines the maximum area of water a container can hold,
+    given an array of integers representing the height of the container walls.
+
+Contents:
+    - maxArea: A function to compute the maximum area of water.
+
+Challenge:
+    This problem is sourced from the LeetCode platform.
+
+Example Usage:
+    >>> from max_area import Solution
+    >>> height = [1, 8, 6, 2, 5, 4, 8, 3, 7]
+    >>> Solution().max_area(height)
+    49
+
+Author:
+    SADAM HUSEN ALI
+
+Created:
+    [02-01-2025]
+
+Notes:
+    - The solution uses the two-pointer approach for optimal performance.
+    - Time complexity: O(n).
+"""
+
+from typing import List
+
+
 class Solution:
-    def max_area(self, height):
+    """
+    A class to solve the "Container With Most Water" problem.
+
+    Methods:
+        max_area: Calculate the maximum water area a container can hold.
+    """
+
+    def max_area(self, height: List[int]) -> int:
         """
-        Calculates the maximum area of water a container can hold.
+        Calculate the maximum area of water a container can hold.
 
         Args:
             height (List[int]): A list of non-negative integers representing the height of walls.
@@ -13,14 +56,13 @@ class Solution:
             ValueError: If the input is not a list of non-negative integers.
 
         Examples:
-            >>> Solution().maxArea([1,8,6,2,5,4,8,3,7])
+            >>> Solution().max_area([1,8,6,2,5,4,8,3,7])
             49
-            >>> Solution().maxArea([1,1])
+            >>> Solution().max_area([1,1])
             1
-            >>> Solution().maxArea([4,3,2,1,4])
+            >>> Solution().max_area([4,3,2,1,4])
             16
         """
-        # Input validation
         if not isinstance(height, list) or not all(
             isinstance(h, int) and h >= 0 for h in height
         ):
@@ -31,11 +73,9 @@ class Solution:
         right = len(height) - 1
 
         while left < right:
-            # Calculate area with the current left and right pointers
             current_area = (right - left) * min(height[left], height[right])
             max_area = max(max_area, current_area)
 
-            # Move the pointer pointing to the shorter wall
             if height[left] < height[right]:
                 left += 1
             else:

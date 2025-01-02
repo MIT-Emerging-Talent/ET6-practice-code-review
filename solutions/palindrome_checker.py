@@ -35,14 +35,14 @@ def palindrome_checker(text: str) -> bool:
     >>> is_palindrome("hello")
     False
 
-    >>> is_palindrome("A man, a plan, a canal: Panama")
+    >>> is_palindrome("No lemon, no melon")
     True
     """
 
     assert isinstance(text, str), "Text must be a string."
 
-
+    # Remove non-alphanumeric characters and convert to lowercase
     cleaned_text = ''.join(char.lower() for char in text if char.isalnum())
     
-
+    # Compare the cleaned text with its reverse
     return cleaned_text == cleaned_text[::-1]

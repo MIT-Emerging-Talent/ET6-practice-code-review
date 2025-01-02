@@ -37,6 +37,7 @@ Notes:
     - Space complexity: O(1)
 """
 
+
 class Solution:
     """
     A class that provides a method to find the longest palindromic substring in a string.
@@ -49,6 +50,7 @@ class Solution:
         longest_palindrome(s: str) -> str:
             Finds and returns the longest palindromic substring.
     """
+
     def longest_palindrome(self, s: str) -> str:
         """
         Find the longest palindromic substring in a given string.
@@ -85,12 +87,14 @@ class Solution:
         Space Complexity:
             O(1): No extra data structures proportional to the input size are used.
         """
-        
+
         # Defensive assertion for input validation
         if not isinstance(s, str):
             raise ValueError("Input must be a string.")
         if any(c.isdigit() and not c.isalnum() for c in s):
-            raise ValueError("Input string should only contain alphanumeric characters.")
+            raise ValueError(
+                "Input string should only contain alphanumeric characters."
+            )
 
         if not s:
             return ""

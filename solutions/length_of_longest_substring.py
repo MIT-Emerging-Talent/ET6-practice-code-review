@@ -1,10 +1,52 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Module: longest_substring
+
+Description:
+    This module provides a solution for the problem of finding the length
+    of the longest substring without repeating characters in a given string.
+
+Contents:
+    - length_of_longest_substring: A function to compute the length of the
+      longest substring without repeating characters.
+
+Challenge:
+    This problem is sourced from various coding platforms, including LeetCode.
+
+Example Usage:
+    >>> from longest_substring import Solution
+    >>> s = "abcabcbb"
+    >>> Solution().length_of_longest_substring(s)
+    3
+
+Author:
+    SADAM HUSEN ALI
+
+Created:
+    [02-01-2025]
+
+Notes:
+    - The solution uses the sliding window approach for optimal performance.
+    - Time complexity: O(n).
+"""
+
 from collections import defaultdict
 
 
 class Solution:
+    """
+    A class to solve the problem of finding the length of the longest substring
+    without repeating characters.
+
+    Methods:
+        length_of_longest_substring: Calculate the length of the longest
+        substring without repeating characters.
+    """
+
     def length_of_longest_substring(self, s: str) -> int:
         """
-        Finds the length of the longest substring without repeating characters.
+        Calculate the length of the longest substring without repeating characters.
 
         Args:
             s (str): The input string.
@@ -16,11 +58,11 @@ class Solution:
             ValueError: If the input is not a string.
 
         Examples:
-            >>> Solution().lengthOfLongestSubstring("abcabcbb")
+            >>> Solution().length_of_longest_substring("abcabcbb")
             3
-            >>> Solution().lengthOfLongestSubstring("bbbbb")
+            >>> Solution().length_of_longest_substring("bbbbb")
             1
-            >>> Solution().lengthOfLongestSubstring("")
+            >>> Solution().length_of_longest_substring("")
             0
         """
         if not isinstance(s, str):
@@ -31,15 +73,13 @@ class Solution:
         left = 0
         max_length = 0
 
-        for right in range(len(s)):
+        for right, char in enumerate(s):
             # Increment the count of the current character
-            char_count[s[right]] += 1
+            char_count[char] += 1
 
             # If a duplicate character is found, adjust the left pointer
-            while char_count[s[right]] > 1:
+            while char_count[char] > 1:
                 char_count[s[left]] -= 1
-                if char_count[s[left]] == 0:
-                    del char_count[s[left]]
                 left += 1
 
             # Update the maximum length

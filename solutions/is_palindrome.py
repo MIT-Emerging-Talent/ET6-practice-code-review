@@ -24,15 +24,18 @@ def is_palindrome(text_to_check: str) -> bool:
     and case differences) and False otherwise.
 
 
-    Parameters:
+    Arguments:
     text_to_check (str): The input string to be checked.
+    - Must be a valid string (an assertion will raise an error for non-strings).
+
 
     Returns:
-    bool: True if the string is a palindrome, False otherwise.
-
-    Assumptions:
-    - The input is always a string (an assertion is included to enforce this).
-    - Non-alphanumeric characters (e.g., spaces and punctuation) are ignored.
+    bool:
+        - True if the input string is a palindrome (reads the same backward
+        as forward after ignoring spaces, punctuation, and case differences).
+        - False otherwise.
+        - An empty string or a string with only spaces/punctuation is not
+        considered a palindrome.
 
     Raises:
     AssertionError: If the input is not a string.

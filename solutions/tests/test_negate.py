@@ -19,13 +19,11 @@ class TestNegate(unittest.TestCase):
         actual = negate(2)
         expected = -2
         self.assertEqual(actual, expected)
-        
     def test_negate_negative_number(self):
         """It should negate negative numbers correctly"""
         actual = negate(-2)
         expected = 2
         self.assertEqual(actual, expected)
-    
     def test_negate_zero(self):
         """It should handle zero correctly"""
         actual = negate(0)

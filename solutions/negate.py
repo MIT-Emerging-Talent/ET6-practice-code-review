@@ -33,5 +33,3 @@ def negate(number: float) -> float:
     if not isinstance(number, (int,float)):
         raise TypeError("Input must be a number")
     return -number
-
-    

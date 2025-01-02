@@ -9,7 +9,7 @@ Created on 2024-12-28
 """
 
 import unittest
-from ..even_numbers import even_numbers
+from solutions.even_numbers import even_numbers
 
 
 class TestAllEven(unittest.TestCase):
@@ -63,5 +63,5 @@ class TestAllEven(unittest.TestCase):
         )
 
 
-if __name__ == "__main__":
-    unittest.main()
+# if __name__ == "__main__":
+#     unittest.main()

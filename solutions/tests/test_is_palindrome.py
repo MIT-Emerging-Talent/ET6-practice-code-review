@@ -8,11 +8,11 @@ Contains tests for checking palindrome functionality with spaces, punctuation, a
 Test categories:
     - Callable check: confirming the function can be called
     - Functionality tests: checking if the function correctly identifies palindromes
-      and non-palindromes
+    and non-palindromes
     - Palindrome tests: typical palindromes with various punctuations and spaces
     - Non-palindrome tests: strings that are not palindromes, even with punctuation and spaces
     - Edge cases: empty strings, strings with only spaces, single, double characters
-      and and case insensitivity
+    and and case insensitivity
     - Defensive tests: incorrect input types such as booleans and non-string values
 
 
@@ -108,6 +108,16 @@ class TestIsPalindrome(unittest.TestCase):
     def test_two_different_characters(self):
         """it should return False if you pass a two-character string with different characters"""
         actual = is_palindrome("ab")
+        self.assertEqual(actual, False)
+
+    def test_string_with_identical_punctuation(self):
+        """it should return False if you pass Two identical punctuation characters"""
+        actual = is_palindrome("!!")
+        self.assertEqual(actual, False)
+
+    def test_string_with_different_punctuation(self):
+        """it should return False if you pass strings with different punctuation marks."""
+        actual = is_palindrome("!?")
         self.assertEqual(actual, False)
 
     def test_case_insensitivity(self):

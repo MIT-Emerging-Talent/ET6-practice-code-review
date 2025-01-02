@@ -74,6 +74,10 @@ def is_palindrome(text_to_check: str) -> bool:
         if not unicodedata.category(text_char).startswith("P"):
             cleaned_text += text_char
 
+    # To ensure a string with only punctuation is considered non-palindrome
+    if cleaned_text == "":
+        return False
+
     # Reverse_string
     reversed_text = cleaned_text[::-1]
 

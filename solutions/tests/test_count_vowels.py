@@ -9,17 +9,21 @@ Module contents:
 Created on XX XX XX
 @author: Saliha Kalender
 """
+import unittest
+
 
 def count_vowels(input_string):
     """
     Counts the number of vowels in a given string.
 
     Behavior Description:
-    - The function identifies all vowels (a, e, i, o, u) in the input string, regardless of case.
+    - The function identifies all vowels (a, e, i, o, u) in the input string,
+    regardless of case.
     - It returns the total count of vowels found.
 
     Parameter Description:
-    - input_string (str): The string to be processed. It can contain letters, numbers, spaces, and special characters.
+    - input_string (str): The string to be processed.
+    It can contain letters, numbers, spaces, and special characters.
 
     Return Value Description:
     - int: The total number of vowels in the input string.
@@ -49,15 +53,15 @@ def count_vowels(input_string):
     count = sum(1 for char in input_string if char in vowels)
     return count
 
+
 # Example usage:
 if __name__ == "__main__":
-    example1 = "Programming is fun!"
-    example2 = "AEIOUaeiou"
+    EXAMPLE1 = "Programming is fun!"
+    EXAMPLE2 = "AEIOUaeiou"
 
-    print(f"Vowels in '{example1}': {count_vowels(example1)}")  # Output: 5
-    print(f"Vowels in '{example2}': {count_vowels(example2)}")  # Output: 10
+    print(f"Vowels in '{EXAMPLE1}': {count_vowels(EXAMPLE1)}")  # Output: 5
+    print(f"Vowels in '{EXAMPLE2}': {count_vowels(EXAMPLE2)}")  # Output: 10
 
-import unittest
 
 class TestCountVowels(unittest.TestCase):
     """
@@ -112,6 +116,7 @@ class TestCountVowels(unittest.TestCase):
         """
         with self.assertRaises(AssertionError):
             count_vowels(12345)
+
 
 if __name__ == "__main__":
     unittest.main()

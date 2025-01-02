@@ -12,6 +12,31 @@ Created on 2024-12-31
 
 
 def is_power_of_two(n: int) -> bool:
+    """
+    Determines whether a given integer is a power of two.
+
+    Parameters:
+        n: int, an integer to check if it is a power of two.
+
+    Returns -> bool:
+        True if the input is a power of two, False otherwise.
+
+    Raises:
+        AssertionError: if the input is not an integer or a float.
+
+    >>> is_power_of_two(1)
+    True
+
+    >>> is_power_of_two(16)
+    True
+
+    >>> is_power_of_two(3)
+    False
+    """
+
+    # the input number should be an integer
+    assert isinstance(n, (int, float)), "Given number must be an integer or a float"
+
     # Negative numbers and 0 cannot be powers of two
     if n <= 0:
         return False
@@ -21,7 +46,7 @@ def is_power_of_two(n: int) -> bool:
         return False
 
     # Use a loop to check for powers of two
-    potential_power = 1
-    while potential_power < n:
-        potential_power *= 2
-    return potential_power == n
+    power = 1
+    while power < n:
+        power *= 2
+    return power == n

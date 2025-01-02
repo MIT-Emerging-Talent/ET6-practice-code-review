@@ -50,15 +50,26 @@ def FooBar_code(n: int):
 
 
     """
+    # assert an error when n is not integer
     assert isinstance(n, int), "N must be integer"
+    # prepare empty list for the result
     result = []
+    # loop for checking the sequence
     for i in range(1, n + 1):
+        #  checking if the number is devisable by 4 and 6
         if i % 4 == 0 and i % 6 == 0:
+            # add FooBar to the list if it devisable by both 4,6
             result.append("FooBar")
+        # checking if the number is devisable by 4
         elif i % 4 == 0:
+            # add Foo to the list if it devisable by 4
             result.append("foo")
+        # checking if the number is devisable by 6
         elif i % 6 == 0:
+            # add Bar to the list if it devisable by 6
             result.append("Bar")
+        # otherwise add the number to the list
         else:
             result.append(i)
+    # return the result's list
     return result

@@ -4,14 +4,14 @@ def fuel_gauge(x: int, y: int) -> str:
 
     Parameters:
         x (int): Fuel in the tank (must be ≤ y).
-        y (int): Tank capacity (must be > 0, the tank can't be 0 or a negative value).
+        y (int): Tank capacity (must be > 0, the tank can't be 0 or a negative number).
 
     Returns:
         str: 
             - "F" if percentage >= 90.
             - "E" if percentage <= 10.
             - "M" for all other cases.
-            - "Invalid input" for invalid parameters.
+            - "Invalid input" for invalid inputs.
 
     Raises:
         AssertionError: If y <= 0 or x > y.

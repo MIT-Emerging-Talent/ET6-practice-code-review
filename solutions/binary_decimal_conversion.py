@@ -18,7 +18,7 @@ def DecimalToBinary(decimal: int)-> str:
         decimal = -decimal
         return '-'+ DecimalToBinary(decimal)
     if decimal == 0:
-        return 0
+        return '0'
     binarynumber = ' '
     while decimal > 0:
         binarynumber = str(decimal % 2)+ binarynumber

@@ -1,29 +1,9 @@
 import unittest
-from ..convert_temperatur import convert_temperature
+from ..convert_temperature import convert_temperature
 
 """
-    Convert temperature from Celsius to Fahrenheit and Kelvin.
-
-    Args:
-        celsius (float): The temperature in Celsius.
-
-    Returns:
-        dict: A dictionary containing the temperature in Fahrenheit and Kelvin.
-
-    Raises:
-        ValueError: If the input is not a valid number or is below absolute zero.
-
-    Examples:
-        >>> convert_temperature(0)
-        {'Fahrenheit': 32.0, 'Kelvin': 273.15}
-        >>> convert_temperature(-273.15)
-        {'Fahrenheit': -459.67, 'Kelvin': 0.0}
-        >>> convert_temperature(100)
-        {'Fahrenheit': 212.0, 'Kelvin': 373.15}
-        >>> convert_temperature(-300)  # Below absolute zero
-        Traceback (most recent call last):
-        ValueError: Temperature cannot be below absolute zero (-273.15°C).
-    """
+   Unit tests for the convert_temperature function.
+"""
 
 
 class TestConvertTemperature(unittest.TestCase):

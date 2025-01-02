@@ -10,7 +10,8 @@ def convert_temperature(celsius: float) -> dict[str, float]:
 
     Raises:
         ValueError: If the input is not a valid number or is below absolute zero.
-
+    functions:
+        - convert_temperature(celsius: float) -> dict[str, float]
     Examples:
         >>> convert_temperature(0)
         {'Fahrenheit': 32.0, 'Kelvin': 273.15}

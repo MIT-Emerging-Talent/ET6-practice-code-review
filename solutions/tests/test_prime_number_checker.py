@@ -5,6 +5,11 @@ Prime Number Checker Tests
 =============================
 This script contains unit tests for the prime number checker function using the unittest module.
 
+Test categories:
+    - Standard tests for known prime and non-prime numbers
+    - Edge cases for smallest primes, non-primes, and large primes
+    - Defensive tests for non-integer values and negative numbers
+
 Author: Banu Ozyilmaz
 Created on: 12-29-2024
 """

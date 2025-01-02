@@ -3,7 +3,10 @@
 """
 Prime Number Checker
 =============================
-This script provides a function to check if a number is a prime number.
+This script provides a function to check if a number is a prime number or not.
+
+Module contents:
+    - is_prime: Checks if a given number is a prime number.
 
 Author: Banu Ozyilmaz
 Created on: 12-29-2024
@@ -63,6 +66,3 @@ def is_prime(n: int) -> bool:
             return False
     # If no factors are found, n is prime
     return True
-
-
-print(is_prime(78))

@@ -40,14 +40,12 @@ use WhatsApp.
 ## Availability
 
 ### Availability for Calling/Messaging
-<!-- Ignored the max line length cause it it looks good in this way -->
-| Day        | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday|
-|------------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------:|
-| **Madiha** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-  
-| **Fatima** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-  
-| **Shahroz**| ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+<!-- Abbreviated day names to fit within 80 characters -->
+| Day        | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
+|------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Madiha** |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |
+| **Fatima** |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |
+| **Shahroz**|  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |
 
 ### Hours Available Per Day
 
@@ -164,17 +162,121 @@ use WhatsApp.
 - **Resource:**  
   [Watch this CI Overview Video](https://www.youtube.com/watch?v=mFFXuXjVgkU)
 
-### 2. Discuss the Issues
+#### Meeting 8
+<!-- Meeting Overview -->
+- **Date:** 29-12-2024
+- **Time:** 08:00 PM PKT
+- **Location:** Zoom
 
-- **Discussion Points:**
-  - Review the list of unresolved issues in the repository.
-  - Prioritize the most critical issues.
-  - Brainstorm solutions and assign responsibilities.
-  - Identify any additional tools or resources needed to resolve the issues.
+<!-- Agenda Points -->
+
+## Agenda
+
+In this meeting, we will address the conflicts and bugs occurring in our
+codebase. The goal is to identify the root causes, discuss solutions,
+and collaboratively resolve the issues during the session.
+
+### Key Topics
+
+1. **Identify current conflicts and bugs**  
+   - Discuss the critical issues causing blockers.  
+   - Understand the context behind each issue.  
+2. **Collaborative code review**  
+   - Share screens to analyze problematic sections of the code.  
+   - Discuss alternative approaches and fixes.  
+3. **Resolve issues in real-time**  
+   - Apply potential fixes to address conflicts and bugs.  
+   - Validate changes and test functionality.
 
 ---
 
+#### Meeting 9
+<!-- Meeting Overview -->
+- **Date:** 30-12-2024
+- **Time:** 2:00 PM PKT
+- **Location:** Zoom
+
+<!-- Agenda Points -->
+### 1. Introduction of New Members
+
+- **Discussion Points:**
+  - Brief introductions of new team members.
+  - Overview of each member's background and expertise.
+  - Encourage the new members to share their expectations from the team.
+
+### 2. Progress Update
+
+- **Discussion Points:**
+  - Overview of the work completed so far.
+  - Key milestones and achievements reached.
+  - Challenges faced and how they were overcome.
+
+### 3. Current Tasks and Next Steps
+
+- **Discussion Points:**
+  - Overview of ongoing tasks and deadlines.
+  - Team's immediate goals and how to move forward.
+  - Prioritization of tasks and assignment of responsibilities.
+
+### 4. Encouraging Inactive Members to Participate
+
+- **Discussion Points:**
+  - Address the current inactivity within the team.
+  - Encourage inactive members to participate and contribute.
+  - Offer support and guidance to help them integrate into the
+  team's activities.
+
+### 5. Offering Support and Assistance
+
+- **Discussion Points:**
+  - Identify challenges faced by inactive members.
+  - Offer help and support to ease their participation.
+  - Discuss any additional resources or training required to get them up to speed.
+
 ### Upcoming Meetings
+
+# Discussion: How to Properly Review Code for Pull Requests
+
+- **Date: 01-01-2025**  
+- **Time: 10 p.m. PKT**  
+- **Location: Zoom**  
+
+## Meeting Agenda
+
+In this meeting, we will discuss best practices and guidelines for reviewing
+ code submitted through pull requests. This will help us ensure high-quality
+  contributions, improve collaboration, and maintain a clean codebase.
+
+### Topics to discuss
+
+1. **Best practices for reviewing code**  
+   - How to add meaningful comments.  
+   - Consistency, readability, and maintainability.  
+   - Identifying potential bugs and optimization opportunities.  
+2. **Using GitHub tools effectively**  
+   - Commenting on PRs.  
+   - Requesting changes and approving PRs.  
+3. **Code review checklist by Evan**  
+   - Discuss and apply the checklist during a live review.  
+   - Replace and refine points in the checklist as necessary.  
+
+### Resources
+
+- **YouTube Videos**:  
+  - [Link to Video 1](https://www.youtube.com/watch?v=lSnbOtw4izI)  
+  - [Link to Video 2](https://www.youtube.com/watch?v=GCSQZqzm18U)  
+
+- **GitHub Repository**:  
+  - [Repository Link](https://github.com/MIT-Emerging-Talent/ET6-Programming-With-Python/blob/main/3_documenting_and_testing/code_review_exercises.mp4)  
+
+### Deliverables
+
+By the end of the meeting, we aim to:  
+
+- Add reviews to a pull request and practice using the code review
+checklist by Evan.  
+- Assign review responsibilities to team members.  
+- Align on code quality standards.
 
 ---
 

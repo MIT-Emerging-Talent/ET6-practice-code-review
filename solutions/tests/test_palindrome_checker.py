@@ -37,7 +37,24 @@ class TestPalindromeChecker(unittest.TestCase):
         actual = palindrome_checker("RaceCar")
         expected = True
         self.assertEqual(actual, expected)
-        
+    # Edge cases
+    def test_empty_string(self):
+        """ """
+        actual = palindrome_checker("")
+        expected = True
+        self.assertEqual(actual, expected)
+
+    def test_single_character(self):
+        """ """
+        actual = palindrome_checker("a")
+        expected = True
+        self.assertEqual(actual, expected)
+
+    def test_palindrome_with_numbers(self):
+        """ """
+        actual = palindrome_checker("12321")
+        expected = True
+        self.assertEqual(actual, expected)
         
         
 if __name__ == "__main__":

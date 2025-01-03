@@ -31,11 +31,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Ensure all branches and commits are fetched
 
       # Scoped Ruff linting
       - name: Python - Check Linting - ruff (Scoped)
         run: |
-          MODIFIED_FILES=$(git diff --name-only origin/HEAD | grep '\.py$')
+          MODIFIED_FILES=$(git diff --name-only origin/find-smallest-number | grep '\.py$')
           if [ -n "$MODIFIED_FILES" ]; then
             echo "$MODIFIED_FILES" | xargs ruff check --fix
           else

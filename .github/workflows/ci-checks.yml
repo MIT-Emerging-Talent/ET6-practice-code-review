@@ -4,19 +4,19 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   ls_linting:
-      runs-on: ubuntu-latest
-      steps:  
-        - uses: actions/checkout@v4
-        - uses: ls-lint/action@v2.2.3
+    runs-on: ubuntu-latest
+    steps:  
+      - uses: actions/checkout@v4
+      - uses: ls-lint/action@v2.2.3
 
   md_formatting:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - uses: nosborn/github-action-markdown-cli@v3.3.0
-      with:
-        files: .
-        config_file: .markdownlint.yml
+      - uses: actions/checkout@v4
+      - uses: nosborn/github-action-markdown-cli@v3.3.0
+        with:
+          files: .
+          config_file: .markdownlint.yml
 
   py_formatting:
     runs-on: ubuntu-latest
@@ -33,28 +33,33 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0  # Ensure all branches and commits are fetched
+          ref: find-smallest-number
 
-      # Scoped Ruff linting
+      - name: Debug Modified Files
+        run: |
+          echo "Checking for modified files in find-smallest-number branch:"
+          git diff --name-only origin/find-smallest-number
+
       - name: Python - Check Linting - ruff (Scoped)
         run: |
-          MODIFIED_FILES=$(git diff --name-only origin/find-smallest-number | grep '\.py$')
+          MODIFIED_FILES=$(git diff --name-only origin/find-smallest-number | grep '\.py$' || true)
           if [ -n "$MODIFIED_FILES" ]; then
             echo "$MODIFIED_FILES" | xargs ruff check --fix
           else
             echo "No Python files modified."
           fi
 
-      # passing pylint is not required - discuss errors in code review
-      # adapted from https://github.com/davidslusser/actions_python_pylint/tree/main
       - name: python version
         run: python --version
         shell: bash
         if: always()
+
       - name: install pylint
         run: |
           python -m pip install --upgrade pip
           pip install pylint
         shell: bash
+
       - name: Python - Check Linting - pylint
         run: "pylint solutions tests || echo '::warning title=Pylint Error(s)::Discuss solutions and trade-offs in code review.'"
         shell: bash
@@ -63,11 +68,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: python version
         run: python --version
         shell: bash
-      
+
       - name: Check for test files
         id: check_tests
         run: |
@@ -81,7 +86,7 @@ jobs:
             echo "has_tests=false" >> $GITHUB_OUTPUT
           fi
         shell: bash
-      
+
       - name: Python - Run Tests
         if: steps.check_tests.outputs.has_tests == 'true'
         run: python -m unittest

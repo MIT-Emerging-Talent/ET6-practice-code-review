@@ -1,8 +1,8 @@
 # The Pacific 🌊: Group Code Review Exercise
 
 Welcome to **The Pacific** - a collaborative coding initiative by **Group 1** of
-the MIT Emerging Talent Program. Together, we aim to code, learn, and grow as  
-developers while fostering a supportive and inspiring team environment.
+the MIT Emerging Talent Program. Together, we aim to code, learn, and grow as developers
+while fostering a supportive and inspiring team environment.
 
 ---
 
@@ -23,10 +23,6 @@ developers while fostering a supportive and inspiring team environment.
 ---
 
 ## Project Overview
-
-Welcome to **The Pacific** - a collaborative coding initiative by **Group 1** of
-the MIT Emerging Talent Program. Together, we aim to code, learn, and grow as  
-developers while fostering a supportive and inspiring team environment.
 
 This repository serves as the hub for our group collaboration, where we:  
 
@@ -68,7 +64,7 @@ contribute:
 
 | **Name**               | **Role**               | **Email**                   |
 |-------------------------|------------------------|-----------------------------|
-| Yuriy Spizhovy          | Developer, Reviewer   | <spizhov22y@gmail.com>       |
+| Yurii Spizhovyi         | Developer, Reviewer   | <spizhov22y@gmail.com>       |
 | Alemayehu Kiros         | Developer, Reviewer   | <alemayehu8363@gmail.com>    |
 | Khadija al Ramlawi      | Developer, Reviewer   | <kalramlawi@gmail.com>       |
 | Henry Ogoe              | Developer, Reviewer   | <djokwa@gmail.com>           |
@@ -181,8 +177,8 @@ contribute:
         │       test_solution_16.py
         │       test_solution_17.py
         │       test_solution_18.py
-                test_solution_19.py
-                test_solution_20.py
+        │       test_solution_19.py
+        │       test_solution_20.py
 ```
 
 </details>
@@ -202,12 +198,6 @@ contribute:
 ```bash
 git clone https://github.com/MIT-Emerging-Talent/ET6-foundations-group-01.git
 cd Group-Code-Review
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
 ```
 
 ### Run Tests
@@ -244,7 +234,7 @@ unittest /tests
   
   | **Team Member**       | **Task**                      | **Deadline**       |
   |-----------------------|-------------------------------|--------------------|
-  | Yuriy Spizhovy        | solution_1.py, solution_2.py  | January 3, 2025    |
+  | Yurii Spizhovyi       | solution_1.py, solution_2.py  | January 3, 2025    |
   | Alemayehu Kiros       | solution_1.py, solution_2.py  | January 3, 2025    |
   | Khadija al Ramlawi    | solution_1.py, solution_2.py  | January 3, 2025    |
   | Henry Ogoe            | solution_1.py, solution_2.py  | January 3, 2025    |
@@ -253,16 +243,17 @@ unittest /tests
   | Olumide Kolawole      | solution_1.py, solution_2.py  | January 3, 2025    |
   | Mykyta Kondratiev     | solution_1.py, solution_2.py  | January 3, 2025    |
   | Dmytro Klymenko       | solution_1.py, solution_2.py  | January 3, 2025    |
+  | Manezhah Mohmand      | solution_1.py, solution_2.py  | January 3, 2025    |
 
 - **Shared Tasks:**
 
 | Task               | Assigned Members                | Deadline         |
 |--------------------|---------------------------------|------------------|
-| communication.md   | Yuriy Spizhovy, Henry Ogoe      | December 30, 2025|
-| constraints.md     | Alemayehu Kiros, Khadija al Ramlawi | December 30, 2025|
-| learning_goals.md  | Mithchell Cenatus, Suhrob Muborakshoev | December 30, 2025|
+| communication.md   | Khadija al Ramlawi, Suhrob Muborakshoev | December 30, 2025|
+| constraints.md     | Alemayehu Kiros, Manezhah Mohmand  | December 30, 2025|
+| learning_goals.md  | Yurii Spizhovyi, Mithchell Cenatus  | December 30, 2025|
 | README.md          | Olumide Kolawole, Mykyta Kondratiev | December 30, 2025 |
-| retrospective.md   | Dmytro Klymenko, Henry Ogoe     | January 9, 2025 |
+| retrospective.md   | Dmytro Klymenko, Henry Ogoe, | January 9, 2025 |
 
 ---
 

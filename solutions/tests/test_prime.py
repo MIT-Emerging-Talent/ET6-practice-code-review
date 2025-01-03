@@ -1,32 +1,41 @@
 """This module runs the test for prime_checker."""
 
 
+# Define the is_prime function
 def is_prime(n):
-    """Check if a number is a prime number."""
-    if n <= 1:
+    if n <= 1:  # Numbers less than or equal to 1 are not prime
         return False
-    if n <= 3:
-        return True
-    if n % 2 == 0 or n % 3 == 0:
-        return False
-    i = 5
-    while i * i <= n:
-        if n % i == 0 or n % (i + 2) == 0:
-            return False
-        i += 6
-    return True
+    for i in range(2, int(n**0.5) + 1):  # Check divisibility up to sqrt(n)
+        if n % i == 0:
+            return False  # n is divisible by i, so it's not prime
+    return True  # n is prime if no divisors were found
 
 
+# Test cases for the is_prime function
 def test_is_prime():
-    # Test cases with assertions
-    assert is_prime(7) == True, "Test failed for n=7"
-    assert is_prime(4) == False, "Test failed for n=4"
-    assert is_prime(17) == True, "Test failed for n=17"
-    assert is_prime(20) == False, "Test failed for n=20"
+    # List to store the results
+    results = []
 
-    # Add more tests if necessary
-    print("All tests passed!")  # This is for confirmation only
+    # Test cases with expected outputs
+    results.append(("n=7", is_prime(7) == True))  # 7 is prime
+    results.append(("n=4", is_prime(4) == False))  # 4 is not prime
+    results.append(("n=17", is_prime(17) == True))  # 17 is prime
+    results.append(("n=20", is_prime(20) == False))  # 20 is not prime
+
+    # Edge cases
+    results.append(("n=0", is_prime(0) == False))  # 0 is not prime
+    results.append(("n=1", is_prime(1) == False))  # 1 is not prime
+    results.append(("n=-5", is_prime(-5) == False))  # Negative numbers are not prime
+
+    # Test case for a large prime number
+    results.append(("n=104729", is_prime(104729) == True))  # 104729 is prime
+
+    return results
 
 
-# Run the test cases
-test_is_prime()
+# Run the test cases and capture results
+test_results = test_is_prime()
+
+# Display the results
+for test, result in test_results:
+    print(f"Test for {test}: {'Passed' if result else 'Failed'}")

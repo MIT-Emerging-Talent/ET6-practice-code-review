@@ -8,14 +8,10 @@ Description:
     of the longest substring without repeating characters in a given string.
 
 Contents:
-    - length_of_longest_substring: A function to compute the length of the
-      longest substring without repeating characters.
-
-Challenge:
-    This problem is sourced from various coding platforms, including LeetCode.
+    - Solution: A class with a method to compute the length of the longest
+      substring without repeating characters.
 
 Example Usage:
-    >>> from longest_substring import Solution
     >>> s = "abcabcbb"
     >>> Solution().length_of_longest_substring(s)
     3
@@ -24,7 +20,7 @@ Author:
     SADAM HUSEN ALI
 
 Created:
-    [02-01-2025]
+    02-01-2025
 
 Notes:
     - The solution uses the sliding window approach for optimal performance.
@@ -64,6 +60,10 @@ class Solution:
             1
             >>> Solution().length_of_longest_substring("")
             0
+            >>> Solution().length_of_longest_substring(12345)
+            Traceback (most recent call last):
+            ...
+            ValueError: Input must be a string.
         """
         if not isinstance(s, str):
             raise ValueError("Input must be a string.")

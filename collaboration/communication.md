@@ -37,7 +37,7 @@ How often will we get in touch on each channel, and what we will discuss there:
 
 - Malak Battatt: _~2h_;
 - Abdulrahman Alsir: _~2-4h_;
-- Abdulrahman Alsir: _~2-4h_;
+- Aseel AbuKmail: _~2-4h_;
 - Maher: _~2h_;
 - Maria: _~2h_;
 - Muhannad: _~2h_;

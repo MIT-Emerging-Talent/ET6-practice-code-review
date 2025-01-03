@@ -25,6 +25,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install ruff
 
-      - name: Run Ruff (Suppress Warnings)
+      - name: Run Ruff on Modified Files
         run: |
-          ruff check solutions --fix 2>/dev/null
+          # Get the default branch (usually 'main')
+          DEFAULT_BRANCH=$(git remote show origin | grep 'HEAD branch' | awk '{print $NF}')
+          
+          # Get the list of Python files modified in the current branch
+          MODIFIED_FILES=$(git diff --name-only $DEFAULT_BRANCH | grep '\.py$')
+
+          # Run Ruff only on the modified files
+          if [ -n "$MODIFIED_FILES" ]; then
+            echo "$MODIFIED_FILES" | xargs ruff check --fix
+          else
+            echo "No Python files modified in this branch."
+          fi

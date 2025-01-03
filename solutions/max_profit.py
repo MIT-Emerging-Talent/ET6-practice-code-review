@@ -11,6 +11,7 @@ Created on 12 28 2024
 @author: Muhammet Isik
 """
 
+
 def max_profit(prices: list[int]) -> int:
     """Calculates the maximum profit from a list of stock prices.
 

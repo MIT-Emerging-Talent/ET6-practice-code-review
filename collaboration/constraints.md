@@ -3,29 +3,34 @@
 > In this readme, we explain potential **constraints** that limit our
 > productivity and achievement throughout the project trip.
 
-## ![Alt Text](../assets/outdoor.png) External Constraints
+## ![Alt Text](../assets/outdoor.png) Constraints
 
-> For each team member, we will explain the external constraints.
+> For each team member, we will explain the constraints.
 
 ### _Salem 👀_
 
-| Constraint | Description |
-|:------:|:-------:|
-| Power & internet 🛜 | I have limited hours when power is available|
-| Deadlines ❌ | I have college deadlines in addition to MET program deadlines|
+| Constraint |Type | Description |
+|:------:|:-------:|:-------:|
+| Power & internet 🛜 |External| I have limited hours when power is available|
+| Deadlines ❌ |External|I have college deadlines in addition to MET program deadlines|
 
 ### Nagham
 
-| Constraint | Description |
-|:------:|:-------:|
+| Constraint |Type | Description |
+|:------:|:-------:|:-------:|
 
 ### Nilson
 
-| Constraint | Description |
-|:------:|:-------:|
+| Constraint |Type | Description |
+|:------:|:-------:|:-------:|
+
+#### Summary
+
+> Summary of External constraints.
 
 ## ![indoor](../assets/limited-access.png) Internal: Involuntary
 
+### Examples
 <!--
   constraints that come from within your team, and you have no control over:
   - each of your individual skill levels
@@ -46,15 +51,4 @@
 
 ## ![indoor](../assets/scope.png)  Internal: Voluntary
 
-### 1. Documentation Constraints📝
-
-- Write documentation for every major feature or module.
-- Update the README file with every change.
-
-### 2. Quality Assurance Constraints✅
-
-- Require all features to pass automated tests before deployment.
-
-## 3. Collaboration Constraints🚀
-
-- Enforce version control workflows (e.g., Git Flow)
+<img style="display: block; width : 500px;float : right;  border-radius : 30%" alt = "blablab" src="../assets/internal-voluntary-constraints.png"/>

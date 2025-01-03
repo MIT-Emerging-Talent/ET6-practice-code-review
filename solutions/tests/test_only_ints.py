@@ -12,13 +12,15 @@ Created on 2024/12/29
 
 import unittest
 
-from ..only_ints import only_ints 
+from ..only_ints import only_ints
+
 
 class TestOnlyInts(unittest.TestCase):
     """
     Tests for the only_ints function, ensuring it works correctly
     with both valid and invalid inputs.
     """
+
     def test_both_integers(self):
         """Test case where both parameters are integers."""
         self.assertTrue(only_ints(1, 2))  # Should return True
@@ -34,6 +36,7 @@ class TestOnlyInts(unittest.TestCase):
     def test_both_integers_minus(self):
         """Test case for negative integer inputs."""
         self.assertTrue(only_ints(-10, -5))  # Should return True
+
 
 if __name__ == "__main__":
     unittest.main()  # Run all the test cases

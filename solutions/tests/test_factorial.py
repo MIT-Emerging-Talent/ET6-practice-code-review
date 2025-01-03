@@ -58,6 +58,16 @@ class TestFactorial(unittest.TestCase):
     def test_factorial_of_large_number(self):
         """It should return the correct factorial for large numbers,
         e.g., 10! = 3,628,800."""
-        actual = factorial(10)
-        expected = 3628800
+        actual = factorial(40)
+        expected = 815915283247897734345611269596115894272000000000
         self.assertEqual(actual, expected)
+
+    def test_factorial_of_string(self):
+        """It should raise a TypeError when the input is a string."""
+        with self.assertRaises(TypeError):
+            factorial("string")
+
+    def test_factorial_of_negative_non_integer(self):
+        """It should raise a TypeError for a negative non-integer."""
+        with self.assertRaises(TypeError):
+            factorial(-3.5)

@@ -1,4 +1,4 @@
-name: Ruff Linter
+name: Lint with Ruff
 
 on:
   push:
@@ -20,10 +20,14 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Debug Python Environment
+        run: |
+          python --version
+          pip --version
+
       - name: Install Ruff
         run: |
-          python -m venv venv
-          source venv/bin/activate
+          python -m pip install --upgrade pip
           pip install ruff
 
       - name: Run Ruff

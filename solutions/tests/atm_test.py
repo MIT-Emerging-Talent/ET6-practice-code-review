@@ -1,4 +1,3 @@
-
 """Unit test for the ATM"""
 
 import unittest

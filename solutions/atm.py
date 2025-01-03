@@ -1,11 +1,12 @@
 """
 Welcome to WIT International Bank.
-This program is designed to operate the ATM system, allowing users to perform 
-various banking transactions such as checking their account balance, depositing cash, 
-withdrawing money, and managing their accounts securely. 
+This program is designed to operate the ATM system, allowing users to perform
+various banking transactions such as checking their account balance, depositing cash,
+withdrawing money, and managing their accounts securely.
 
 Thank you for choosing WIT International Bank. Your satisfaction is our priority.
 """
+
 
 def show_balance(balance):
     """
@@ -15,6 +16,7 @@ def show_balance(balance):
         balance (float): The current balance in the user's account.
     """
     print(f"Your Balance is ${balance:.2f}")
+
 
 def deposit(balance, amount):
     """
@@ -32,6 +34,7 @@ def deposit(balance, amount):
         return balance
     else:
         return balance + amount
+
 
 def withdraw(balance, amount):
     """
@@ -53,11 +56,12 @@ def withdraw(balance, amount):
     else:
         return balance - amount
 
+
 def main():
     """
     Main function to operate the ATM system.
-    
-    Allows the user to perform actions such as checking balance, depositing funds, 
+
+    Allows the user to perform actions such as checking balance, depositing funds,
     withdrawing funds, or exiting the system. Repeats until the user chooses to exit.
     """
     balance = 0
@@ -95,12 +99,10 @@ def main():
         except ValueError:
             print("Invalid input! Please enter a number between 1 and 4.")
 
-    print("Thank you for choosing WIT International Bank.\nThe Bank that you can always rely on.")
+    print(
+        "Thank you for choosing WIT International Bank.\nThe Bank that you can always rely on."
+    )
+
 
 if __name__ == "__main__":
     main()
-
-
-
-
-

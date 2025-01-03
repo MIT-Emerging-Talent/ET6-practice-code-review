@@ -1,5 +1,27 @@
 """
 Unit tests for the add_binary function.
+
+Purpose:
+    - Validate the correctness of the add_binary function.
+    - Ensure the function handles edge cases, boundary cases, and invalid inputs.
+
+Test Scenarios:
+    1. Valid binary strings with various lengths and patterns.
+    2. Edge cases:
+        - Inputs with leading zeros.
+        - Inputs consisting only of zeros.
+        - Alternating binary patterns.
+    3. Boundary cases:
+        - Maximum allowed input length (10,000 characters).
+        - Large binary strings with mixed patterns.
+    4. Invalid inputs:
+        - Empty strings.
+        - Non-binary characters.
+        - Inputs exceeding the length constraint.
+        - Strings with leading or trailing spaces.
+
+Created on 01/01/2025
+@author: SiSaR-Pal
 """
 
 import unittest
@@ -13,106 +35,67 @@ class TestAddBinary(unittest.TestCase):
     """
 
     def test_basic_case(self):
-        """
-        Tests basic binary addition.
-        Expected output: '100'
-        """
+        """Test addition of two small binary strings."""
         self.assertEqual(add_binary("11", "1"), "100")
 
     def test_different_lengths(self):
-        """
-        Tests binary strings of different lengths.
-        Expected output: '10101'
-        """
+        """Test addition of binary strings with different lengths."""
         self.assertEqual(add_binary("1010", "1011"), "10101")
 
     def test_all_zeros(self):
-        """
-        Tests when both inputs are '0'.
-        Expected output: '0'
-        """
+        """Test addition of binary strings consisting only of zeros."""
         self.assertEqual(add_binary("0", "0"), "0")
 
     def test_leading_zeros(self):
-        """
-        Tests inputs with leading zeros.
-        Expected output: '100'
-        """
+        """Test addition of binary strings with leading zeros."""
         self.assertEqual(add_binary("00011", "1"), "100")
 
     def test_large_binary_strings(self):
-        """
-        Tests very large binary strings.
-        Input: bin_num1 = '1'*10000, bin_num2 = '1'
-        Expected output: '1' followed by 10000 '0's.
-        """
+        """Test addition of very large binary strings."""
         bin_num1 = "1" * 10000
         bin_num2 = "1"
         expected = "1" + "0" * 10000
         self.assertEqual(add_binary(bin_num1, bin_num2), expected)
 
     def test_empty_input(self):
-        """
-        Tests that a ValueError is raised for empty input strings.
-        """
+        """Test that a ValueError is raised for empty input strings."""
         with self.assertRaises(ValueError):
             add_binary("", "1")
         with self.assertRaises(ValueError):
             add_binary("1", "")
 
     def test_invalid_characters(self):
-        """
-        Tests that a ValueError is raised for inputs with invalid characters.
-        Examples:
-        - Input: '102', '1'
-        - Input: '11a', '1'
-        """
+        """Test that a ValueError is raised for inputs with non-binary characters."""
         with self.assertRaises(ValueError):
             add_binary("102", "1")
         with self.assertRaises(ValueError):
             add_binary("11a", "1")
 
     def test_whitespace_in_input(self):
-        """
-        Tests that a ValueError is raised for input strings with embedded whitespace.
-        """
+        """Test that a ValueError is raised for inputs with leading or trailing spaces."""
         with self.assertRaises(ValueError):
             add_binary(" 1010 ", "101")
         with self.assertRaises(ValueError):
             add_binary("1010", " 101 ")
 
     def test_boundary_case_zeros(self):
-        """
-        Tests binary addition where one or both inputs are zeros with leading zeros.
-        Expected output: '0'
-        """
+        """Test addition of zeros with leading zeros."""
         self.assertEqual(add_binary("0", "00000"), "0")
         self.assertEqual(add_binary("000", "0"), "0")
 
     def test_alternating_pattern(self):
-        """
-        Tests binary strings with alternating patterns of '1' and '0'.
-        Expected output: '111111'
-        """
+        """Test addition of binary strings with alternating patterns."""
         self.assertEqual(add_binary("101010", "010101"), "111111")
 
     def test_boundary_case_max_length_simple(self):
-        """
-        Tests the function with maximum length inputs with simple values.
-        Input: bin_num1 = '1'*10000, bin_num2 = '0'*10000
-        Expected output: '1'*10000
-        """
+        """Test addition of maximum-length binary strings with simple patterns."""
         bin_num1 = "1" * 10000
         bin_num2 = "0" * 10000
         expected = "1" * 10000
         self.assertEqual(add_binary(bin_num1, bin_num2), expected)
 
     def test_boundary_case_max_length_mixed(self):
-        """
-        Tests the function with maximum length inputs with mixed patterns.
-        Input: bin_num1 = '10'*5000, bin_num2 = '01'*5000
-        Expected output: '111...111' (10000 '1's)
-        """
+        """Test addition of maximum-length binary strings with mixed patterns."""
         bin_num1 = "10" * 5000
         bin_num2 = "01" * 5000
         expected = "1" * 10000

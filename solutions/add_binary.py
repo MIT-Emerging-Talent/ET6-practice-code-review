@@ -1,63 +1,66 @@
 """
-This module contains a function to add two binary strings.
+This module provides a function to add two binary strings and return the result as a binary string.
+
+How it works:
+    - The function takes two binary strings as input.
+    - Validates the inputs to ensure they:
+        1. Are non-empty.
+        2. Contain only '0' and '1' characters.
+        3. Do not exceed the maximum length of 10,000 characters.
+        4. Have no leading or trailing spaces.
+    - Converts the binary strings to integers using Python's `int` function.
+    - Adds the two integers and converts the result back to a binary string using `bin`.
+    - Removes the '0b' prefix from the binary string and returns the result.
 
 Constraints:
-    - Input strings must consist of '0' and '1' characters only.
-    - Input strings must be non-empty.
-    - Input strings must not exceed 10^4 characters in length.
+    - Input strings must consist only of '0' and '1'.
+    - Input strings must not exceed 10,000 characters.
+    - Input strings must not contain spaces or be empty.
 
-Assumptions:
-    - Leading zeros in the input do not affect the result.
-    - Input strings are well-formed binary strings without embedded whitespace.
-
-Efficiency:
-    - The function performs efficiently for binary strings up to 10^4 characters,
-      leveraging Python's built-in `int` and `bin` for conversion and calculation.
+Created on 01/01/2025
+@author: SiSaR-Pal
 """
 
 
 def add_binary(bin_num1: str, bin_num2: str) -> str:
     """
-    Returns the sum of two binary strings as a binary string.
+    Adds two binary strings and returns their sum as a binary string.
 
     Args:
-        bin_num1 (str): A binary string. Length must be between 1 and 10^4.
-        bin_num2 (str): A binary string. Length must be between 1 and 10^4.
+        bin_num1 (str): The first binary number as a string.
+        bin_num2 (str): The second binary number as a string.
 
     Returns:
-        str: The binary string representation of the sum of `bin_num1` and `bin_num2`.
-             Leading zeros in the input are ignored in the result.
+        str: The sum of the two binary numbers as a binary string.
 
     Raises:
-        ValueError: If either `bin_num1` or `bin_num2` contains non-binary characters,
-                    is empty, exceeds the length constraints, or contains whitespace.
+        ValueError: If inputs:
+            - Are empty.
+            - Contain characters other than '0' and '1'.
+            - Exceed the length limit of 10,000 characters.
+            - Contain leading or trailing spaces.
 
     Examples:
         >>> add_binary("11", "1")
         '100'
         >>> add_binary("1010", "1011")
         '10101'
-        >>> add_binary("0", "0")
+        >>> add_binary("0", "000")
         '0'
-        >>> add_binary("00011", "1")
-        '100'
-        >>> add_binary("102", "1")
-        ValueError: Input strings must contain only '0' or '1' characters.
-        >>> add_binary("1"*10001, "1")
-        ValueError: Input strings must not exceed 10^4 characters.
-        >>> add_binary(" 1010 ", "1")
-        ValueError: Input strings must not contain whitespace.
+
+    Notes:
+        - Leading zeros in inputs are ignored during computation.
+        - Efficiently handles binary strings up to 10,000 characters.
     """
-    # Defensive assertions
+    # Validate inputs
     if not bin_num1 or not bin_num2:
         raise ValueError("Input strings must not be empty.")
     if len(bin_num1) > 10**4 or len(bin_num2) > 10**4:
-        raise ValueError("Input strings must not exceed 10^4 characters.")
+        raise ValueError("Input strings must not exceed 10,000 characters.")
     if not all(char in "01" for char in bin_num1 + bin_num2):
-        raise ValueError("Input strings must contain only '0' or '1' characters.")
+        raise ValueError("Input strings must contain only '0' or '1'.")
     if not bin_num1.strip() == bin_num1 or not bin_num2.strip() == bin_num2:
-        raise ValueError("Input strings must not contain whitespace.")
+        raise ValueError("Input strings must not contain spaces.")
 
-    # Convert binary strings to integers, add them, and convert the result back to binary
-    # bin() returns a string starting with '0b'. Slice [2:] to remove '0b'.
+    # Perform binary addition
     return bin(int(bin_num1, 2) + int(bin_num2, 2))[2:]

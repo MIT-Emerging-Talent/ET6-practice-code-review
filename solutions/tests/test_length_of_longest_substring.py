@@ -2,7 +2,16 @@
 # -*- coding: utf-8 -*-
 """
 Unit tests for the length_of_longest_substring function.
-Tests cover various cases including edge cases, basic cases, and invalid inputs.
+
+This module contains tests that verify the functionality of
+the length_of_longest_substring function with various input
+strings, including edge cases, boundary cases, and invalid inputs.
+
+Author:
+    SADAM HUSEN ALI
+
+Created:
+    02-01-2025
 """
 
 import unittest
@@ -10,7 +19,7 @@ from solutions.length_of_longest_substring import Solution
 
 
 class TestLengthOfLongestSubstring(unittest.TestCase):
-    """Unit tests for lengthOfLongestSubstring function."""
+    """Unit tests for length_of_longest_substring function."""
 
     def test_basic_case_1(self):
         """Test longest substring length for 'abcabcbb'."""

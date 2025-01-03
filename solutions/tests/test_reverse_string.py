@@ -1,5 +1,5 @@
 """
-Module: reverse_string
+Module: test_reverse_string
 Author: Mojtaba Fayyaz
 Date: 2024-01-02
 

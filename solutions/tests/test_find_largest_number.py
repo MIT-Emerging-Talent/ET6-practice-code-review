@@ -6,6 +6,7 @@ largest_num function, which identifies the largest number in a given list.
 """
 
 import unittest
+
 from solutions.find_largest_number import largest_num
 
 
@@ -42,7 +43,7 @@ class TestLargestNum(unittest.TestCase):
 
     def test_non_numeric_input(self):
         """Test case for non-numeric input (should raise ValueError)."""
-        with self.assertRaises(TypeError):
+        with self.assertRaises(ValueError):
             largest_num(["a", "b", "c"])
 
     def test_large_numbers(self):

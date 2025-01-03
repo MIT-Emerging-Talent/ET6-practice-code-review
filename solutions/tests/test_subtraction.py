@@ -2,12 +2,12 @@
 Unit tests for the subtraction function.
 """
 
-import unitte
+import unittest
 
 from solutions.subtraction import subtract
 
 
-class TestSubtract(unittest.TestCase):
+class TestSubtract(unittest.TestCase):  # noqa: F821
     """
     Test cases for the subtraction function.
     """

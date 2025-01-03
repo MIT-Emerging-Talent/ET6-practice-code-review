@@ -1,3 +1,11 @@
+"""
+This module contains unit tests for the `remove_every_other` function.
+
+The tests cover various scenarios to ensure the function behaves correctly,
+including edge cases (e.g., empty lists, single-element lists),
+lists with mixed data types, large inputs, and handling of invalid inputs.
+"""
+
 import unittest
 
 from solutions.remove_every_other import remove_every_other  # Updated import
@@ -42,14 +50,12 @@ class TestRemoveEveryOther(unittest.TestCase):
         with self.assertRaises(AssertionError):
             remove_every_other("Not a list")
 
-    # New test case for empty list
     def test_empty_list(self):
         """
         Test that an empty list returns an empty list.
         """
         self.assertEqual(remove_every_other([]), [])
 
-    # Updated test case for list with duplicates
     def test_list_with_duplicates(self):
         """
         Test that the function handles duplicate values correctly.

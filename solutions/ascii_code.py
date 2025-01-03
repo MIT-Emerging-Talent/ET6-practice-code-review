@@ -25,27 +25,33 @@ def ascii_code(text: str) -> list:
 
     Raises:
     TypeError: if the input is not a string
-        e.g. ascii_code(123)
-    AssertionError: if the input is an empty string (no characters) e.g. ascii_code("")
-    and also if the input is not a string eg. ascii_code(123) or ascii_code(12.3).
+    e.g. ascii_code(123)
 
     Example:
-    ascii_code('abc') -> [97, 98, 99]
-    ascii_code('!') -> [33]
-    ascii_code('') -> []
-    ascii_code(' ') -> [32]
-    ascii_code('0') -> [48]
+    >>> ascii_code('abc')
+    [97, 98, 99]
 
+    >>> ascii_code('!')
+    [33]
+
+    >>> ascii_code('')
+    []
+
+    >>> ascii_code(' ')
+    [32]
+
+    >>> ascii_code('0')
+    [48]
     """
     # Check if the input is not a string
     if not isinstance(text, str):
-        raise AssertionError("Input must be a string")
+        raise TypeError("Input must be a string")
     # Check if the input is an empty string
     if text == "":
         return []
     # Convert the string to a list of ASCII codes
-    c = []
+    ascii_values = []
     # Iterate over the characters in the input string
     for i in text:
-        c.append(ord(i))
-    return c
+        ascii_values.append(ord(i))
+    return ascii_values

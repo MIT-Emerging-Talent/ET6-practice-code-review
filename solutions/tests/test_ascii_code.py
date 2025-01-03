@@ -42,7 +42,7 @@ class TestAsciiCode(unittest.TestCase):
 
     def test_numbers(self):
         """Test conversion of numeric characters."""
-        self.assertEqual(ascii_code("9"), [57])
+        self.assertEqual(ascii_code("0"), [48])
 
     def test_word_input(self):
         """Test handling of word inputs."""
@@ -56,24 +56,24 @@ class TestAsciiCode(unittest.TestCase):
         """Test handling of empty string input."""
         self.assertEqual(ascii_code(""), [])
 
+    def test_None_input(self):
+        """Test handling of None input."""
+        with self.assertRaises(TypeError):
+            ascii_code(None)
+
     def test_number_input(self):
         """Test handling of number input."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             ascii_code(123)
-
-    def test_list_of_numbers_input(self):
-        """Test handling of list of numbers input."""
-        with self.assertRaises(AssertionError):
-            ascii_code([1, 2.5, 3])
 
     def test_boolean_input(self):
         """Test handling of boolean input."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             ascii_code(True)
 
     def test_invalid_input(self):
-        """Test handling of invalid input."""
-        with self.assertRaises(AssertionError):
+        """Test handling of float input."""
+        with self.assertRaises(TypeError):
             ascii_code(12.3)
 
 

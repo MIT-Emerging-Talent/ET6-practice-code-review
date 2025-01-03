@@ -4,7 +4,7 @@
 A function that counts the number of even numbers in a countdown from n to 1
 
 Module contents:
-    - even_number_count: generates a number for the amount of even numbers in the list.
+    - even_number_count: gen number for even numbers in the list.
 
 Created on Monday/ 30/ December/ 2024
 @author: Mayar Ali.

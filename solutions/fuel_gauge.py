@@ -14,7 +14,7 @@ def fuel_gauge(x: int, y: int) -> str:
             - "F" if percentage >= 90.
             - "E" if percentage <= 10.
             - "M" for all other cases.
-            - "Invalid input" for invalid parameters.
+            - "Invalid input" for invalid inputs.
 
     Raises:
         AssertionError: If y <= 0 or x > y.

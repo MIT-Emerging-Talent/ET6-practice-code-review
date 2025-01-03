@@ -30,6 +30,7 @@ How often will we get in touch on each channel, and what we will discuss there:
 | Maher Assaf | 4-7PM| 4-7PM | 6-7PM | 7-8PM | 7-9PM | 6-8PM | 6-8PM |
 | Maria Roufail | 4-7PM| 4-7PM | 6-7PM | 7-8PM | 7-9PM | 6-8PM | 6-8PM |
 | Muhannad Assaf | 4-7PM| 4-7PM | 6-7PM | 7-8PM | 7-9PM | 6-8PM | 6-8PM |
+| Rouaa Hamzah | 4-7 PM| 4-7 PM | 4-7 PM | 4-7 PM | 7-9PM | | |
 
 ### How many hours everyone has per day
 
@@ -38,6 +39,7 @@ How often will we get in touch on each channel, and what we will discuss there:
 - Maher: _~2h_;
 - Maria: _~2h_;
 - Muhannad: _~2h_;
+- Rouaa: _~2h_;
 
 ## Asking for Help
 

@@ -44,9 +44,3 @@ def prime_checker(number: int) -> str:
         if number % i == 0:
             return "Not Prime"
     return "Prime"
-
-
-if __name__ == "__main__":
-    test_numbers = [2, 4, 13, 1, 0, -5, 17, 19, 20]
-    for num in test_numbers:
-        print(f"{num}: {prime_checker(num)}")

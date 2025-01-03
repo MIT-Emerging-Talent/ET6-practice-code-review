@@ -35,7 +35,7 @@ responsibilities that could affect their availability.
 - Limiting the Scope to specific design choices (e.g., only using black and
 white colors)
 - **Communication Protocols:**
-The team has agreed to use specific tools (e.g., Slack, Zoom) for coordination 
+The team has agreed to use specific tools (e.g., Slack, Zoom) for coordination
 and discussions.
 - **Review Policies:**
 Each pull request must be reviewed by at least two members before merging.

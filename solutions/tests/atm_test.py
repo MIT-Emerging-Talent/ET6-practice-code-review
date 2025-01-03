@@ -4,7 +4,7 @@ import unittest
 from atm import show_balance, deposit, withdraw
 
 
-class TestATMFunctions(unittest.TestCase):
+class TestATM(unittest.TestCase):
     """
     Unit test class for ATM functions.
 

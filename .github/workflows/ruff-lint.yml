@@ -1,4 +1,4 @@
-name: Lint with Ruff and Auto-fix
+name: Lint with Ruff
 
 on:
   push:
@@ -25,6 +25,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install ruff
 
-      - name: Run Ruff with Auto-fix
+      - name: Run Ruff (Suppress Warnings)
         run: |
-          ruff check solutions --fix
+          ruff check solutions --fix 2>/dev/null

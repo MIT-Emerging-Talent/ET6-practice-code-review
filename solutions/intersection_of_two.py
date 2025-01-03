@@ -51,10 +51,10 @@ def intersection_of_two(first_list: list, second_list: list) -> list:
     ['1', 3]
 
     """
-    assert isinstance(first_list, list), "first list must be a list"
-    assert isinstance(second_list, list), "second list must be a list"
-    assert len(first_list) > 0, "list1 can't be empty"
-    assert len(second_list) > 0, "list2 can't be empty"
+    assert isinstance(first_list, list), "first_list must be a list"
+    assert isinstance(second_list, list), "second_list must be a list"
+    assert len(first_list) > 0, "first_list can't be empty"
+    assert len(second_list) > 0, "second_list can't be empty"
 
     intersection_list = []
     # Loop through each item in the first list

@@ -9,7 +9,7 @@ Description:
     given an array of integers representing the height of the container walls.
 
 Contents:
-    - maxArea: A function to compute the maximum area of water.
+    - max_area: A function to compute the maximum area of water.
 
 Challenge:
     This problem is sourced from the LeetCode platform.

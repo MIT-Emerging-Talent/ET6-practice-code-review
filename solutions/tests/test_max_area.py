@@ -6,6 +6,9 @@ Unit tests for the max_area module.
 This module contains unit tests for the Solution class's
 max_area method. The tests cover various input cases,
 including common scenarios, edge cases, and invalid inputs.
+
+Author: SADAM HUSEN ALI
+Created: 03-01-2025
 """
 
 import unittest
@@ -59,15 +62,13 @@ class TestMaxArea(unittest.TestCase):
         result = self.solution.max_area([5, 4, 3, 2, 1])
         self.assertEqual(result, 6)
 
-    def test_edge_cases(self):
-        """
-        Test edge cases such as a single height or an empty list.
-        """
-        result = self.solution.max_area([1])
-        self.assertEqual(result, 0)  # Single height
+    def test_single_height(self):
+        """Test the edge case of a single height."""
+        self.assertEqual(self.solution.max_area([1]), 0)
 
-        result = self.solution.max_area([])
-        self.assertEqual(result, 0)  # Empty list
+    def test_empty_list(self):
+        """Test the edge case of an empty list."""
+        self.assertEqual(self.solution.max_area([]), 0)
 
     def test_all_zeros(self):
         """
@@ -78,20 +79,20 @@ class TestMaxArea(unittest.TestCase):
         result = self.solution.max_area([0, 0, 0, 0])
         self.assertEqual(result, 0)
 
-    def test_invalid_input(self):
-        """
-        Test invalid input types.
-        - Input: non-list (like a string or mixed types).
-        - Expected: raises ValueError.
-        """
+    def test_invalid_input_string(self):
+        """Test invalid input type: string."""
         with self.assertRaises(ValueError):
-            self.solution.max_area("string")  # Invalid input type
+            self.solution.max_area("string")
 
+    def test_invalid_input_negative_heights(self):
+        """Test invalid input: list with negative heights."""
         with self.assertRaises(ValueError):
-            self.solution.max_area([1, -1, 2])  # Negative heights
+            self.solution.max_area([1, -1, 2])
 
+    def test_invalid_input_mixed_types(self):
+        """Test invalid input: list with non-integer values."""
         with self.assertRaises(ValueError):
-            self.solution.max_area([1, "a", 2])  # Non-integer in list
+            self.solution.max_area([1, "a", 2])
 
 
 if __name__ == "__main__":

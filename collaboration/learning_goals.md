@@ -1,33 +1,53 @@
 # Learning Goals
 
-## Collective
+## Collective Goals
 
 ### Technical Skills
 
-- To learn the basics of Python and build a strong and solid foundation by
-practicing what we have learned in the sessions. We aim to do this over the
-next two weeks.
-- To learn how to use GitHub and its features and gain acceptable expertise by
-consistently practicing key GitHub workflows, collaborating on projects.
-- Develop expertise in setting up, navigating, and customizing VS Code for
-coding, predictive stepping, debugging, and collaboration.
+- **Learn Python:** Strengthen foundational and advanced Python skills through
+ practical application.
+- **GitHub Expertise:** Gain hands-on experience with GitHub's features for
+ collaboration, version control, and code review.
+- **Visual Studio Code:** Use Visual Studio Code efficiently for coding,
+ debugging, and managing repositories.
 
 ### Human Skills
 
-- Learn how to collaborate and work collectively towards achieving our project
-goals.
-- To enhance communication skills by consistently practicing clear and effective
-verbal and written communication, actively listening, and adapting messages to
-diverse audiences and situations.
-- Enhance the ability to prioritize tasks, allocate time effectively,
-and meet deadlines without compromising quality.
-- Develop problem-solving skills and undertand how to approcah problems
-systematically while exploring different ways to look at obstacles that we face.
-- Get to know each other more and discover new things about different other
-cultures.
-- Embrace self-directed and problem based learning approaches to gain knowledge
-and skills outside traditional formal settings.
+- **Collaboration:** Foster teamwork through effective and respectful group interactions.
+- **Communication:** Practice clear and constructive communication during code
+ reviews and discussions.
+- **Time Management:** Develop strategies to manage deadlines and balance responsibilities
+ within the group.
+- **Problem-Solving:** Apply structured approaches to troubleshoot and debug code
+ effectively.
+- **Cultural Integration:** Embrace diverse perspectives and learn to work in a
+ multicultural environment.
+- **Non-Formal Education:** Leverage peer learning to improve technical and soft
+ skills.
+
+## Individual Goals
+
+Each team member will focus on one or more personal objectives, which can include:
+
+- Reviewing and strengthening previously studied data structures and algorithms.
+- Learning new data structures, algorithms, or programming paradigms.
+- Practicing new programming language features and incorporating them into solutions.
+- Writing more complete, readable, and well-documented solutions.
+- Increasing efficiency in coding and problem-solving processes.
+- Developing expertise in code review by engaging in iterative feedback cycles.
+- Gaining confidence in explaining technical decisions and code logic to peers.
+
+## Project-Specific Objectives
+
+- **Master the GitHub code review process:** Including creating and reviewing
+ pull requests, labeling issues, and maintaining a project board.
+- **Continuous Integration (CI):** Build familiarity with CI tools and learn to
+ address CI check failures effectively.
+- **Best Practices:** Improve adherence to best practices such as using helpful
+ branch naming conventions and completing retrospective documentation.
 
 ---
 
-## Individual
+By documenting and pursuing these goals, we aim to ensure that each group member
+ maximizes their learning outcomes while contributing to a successful and
+ collaborative project.

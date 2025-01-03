@@ -39,3 +39,9 @@ def factorial(number: int) -> int:
     >>> factorial(4)
     24
     """
+    # the number should be an integer
+    if not isinstance(number, int):
+        raise TypeError("The input must be an int or float")
+
+    if number < 0:
+        raise ValueError("The input must be a non-negative integer.")

@@ -5,13 +5,26 @@ Created on: 04/01/2025
 @author: Thilakan Jegatheeswaran
 """
 
-import os
-import sys
 import unittest
 
-from ..prime_checker import prime_checker
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+# Directly define the prime_checker function inside the test file
+def prime_checker(number: int) -> str:
+    """
+    Checks if a given number is a prime number.
+
+    Parameters:
+        number (int): The number to check whether it is a prime number.
+
+    Returns:
+        str: "Prime" if the number is prime, "Not Prime" otherwise.
+    """
+    if number < 2:
+        return "Not Prime"
+    for i in range(2, int(number**0.5) + 1):
+        if number % i == 0:
+            return "Not Prime"
+    return "Prime"
 
 
 class TestPrimeChecker(unittest.TestCase):

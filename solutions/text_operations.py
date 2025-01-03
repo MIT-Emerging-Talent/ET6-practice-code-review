@@ -1,4 +1,9 @@
-"""This is a code about text operations."""
+"""
+This module...
+
+Created on: 04/01/2025
+@author: Thilakan Jegatheeswaran
+"""
 # text_operations.py
 
 

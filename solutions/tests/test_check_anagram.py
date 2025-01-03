@@ -56,7 +56,7 @@ class TestIsAnagram(unittest.TestCase):
         self.assertFalse(is_anagram("123", "321a"))
 
     def test_invalid_input_not_string(self):
-        """Test for TypeError when inputs are not strings."""
+        """Test for AttributeError when inputs are not strings."""
         with self.assertRaises(AttributeError):
             is_anagram(["list"], "silent")
         with self.assertRaises(AttributeError):

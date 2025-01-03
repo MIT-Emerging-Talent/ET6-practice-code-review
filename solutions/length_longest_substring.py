@@ -12,6 +12,8 @@ Module Contents:
 Created on: 2025-01-03
 Author: Jola-Moses
 """
+
+
 def length_longest_substring(s: str) -> int:
     """
     Returns the length of the longest substring without repeating characters.
@@ -26,10 +28,10 @@ def length_longest_substring(s: str) -> int:
 
     >>> length_longest_substring("abcabcbb")
     3
-    
+
     >>> length_longest_substring("abcdef")
     6
-    
+
     >>> length_longest_substring("aaaaaa")
     1
     """

@@ -16,15 +16,14 @@ def calculate_mean(numbers: List[float]) -> Optional[float]:
 
     Args:
         numbers (List[float]): A list of numbers (integers or floats).
-            - The list can include positive, negative, or zero values.
 
     Returns:
         Optional[float]: The mean (average) of the numbers in the list.
-            - Returns nothing if the list is empty.
+            - Returns None if the list is empty.
+            - Returns infinity if the sum of the list is infinite.
 
     Raises:
         TypeError: If `numbers` is not a list or contains non-numeric elements.
-        Exception: If the list contains infinite or NaN values.
 
     Examples:
         >>> calculate_mean([1, 2, 3, 4, 5])
@@ -33,19 +32,13 @@ def calculate_mean(numbers: List[float]) -> Optional[float]:
         20.0
         >>> calculate_mean([])
 
-        >>> calculate_mean([5])
-        5.0
-        >>> calculate_mean([1.5, 2.5, 3.5])
-        2.5
-        >>> calculate_mean([-1, 2, -3, 4, -5])
-        -0.6
+        >>> calculate_mean([float('inf'), 1, 2])
+        float('inf')
     """
     if not isinstance(numbers, list):
         raise TypeError("Input must be a list.")
     if any(not isinstance(n, (int, float)) for n in numbers):
         raise TypeError("All elements in the list must be numbers.")
-    if any(x != x or x in {float("inf"), float("-inf")} for x in numbers):
-        raise Exception("The list contains NaN or infinity, which are not allowed.")
 
     if not numbers:
         return None

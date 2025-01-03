@@ -1,5 +1,7 @@
 """
-Test module for the prime_checker function.add()
+test_prime
+
+Test module for the prime_checker function.add
 
 Created on: 04/01/2025
 @author: Thilakan Jegatheeswaran

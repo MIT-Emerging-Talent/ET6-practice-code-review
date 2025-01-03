@@ -1,6 +1,6 @@
 # Solutions
 
-Welcome to the **Solutions** directory of Group 24! This folder contains the implementations and solutions to the challenges or problems assigned to the group by the group.
+Welcome to the **Solutions** directory of Group 24! This folder contains the implementations and solutions to the challenges or problems assigned to the group by its members.
 
 ## Directory Structure
 

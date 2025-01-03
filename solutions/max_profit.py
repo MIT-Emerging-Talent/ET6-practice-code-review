@@ -70,7 +70,7 @@ def max_profit(prices: list[int]) -> int:
             # Update max profit if better profit found
             max_profit_value = max(current_profit, max_profit_value)
         else:
-            buy_day = sell_day  # Update buy index if current price is lower
+            buy_day = sell_day  # Update buy day if current price is lower
         sell_day += 1  # Move to the next sell day
 
     return max_profit_value

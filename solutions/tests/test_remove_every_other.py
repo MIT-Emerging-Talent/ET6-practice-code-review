@@ -49,12 +49,12 @@ class TestRemoveEveryOther(unittest.TestCase):
         """
         self.assertEqual(remove_every_other([]), [])
 
-    # New test case for list with duplicates
+    # Updated test case for list with duplicates
     def test_list_with_duplicates(self):
         """
         Test that the function handles duplicate values correctly.
         """
-        self.assertEqual(remove_every_other([1, 2, 2, 3, 3, 4]), [1, 2, 3, 4])
+        self.assertEqual(remove_every_other([1, 2, 2, 3, 3, 4]), [1, 2, 3])
 
 
 if __name__ == "__main__":

@@ -1,7 +1,0 @@
-files:
-  kebab-case:
-    - '*.js'
-    - '*.css'
-
-directories:
-  kebab-case: true

@@ -17,8 +17,16 @@ def is_prime(n):
     return True
 
 
-# Test cases
-print(is_prime(7))  # True
-print(is_prime(4))  # False
-print(is_prime(17))  # True
-print(is_prime(20))  # False
+def test_is_prime():
+    # Test cases with assertions
+    assert is_prime(7) == True, "Test failed for n=7"
+    assert is_prime(4) == False, "Test failed for n=4"
+    assert is_prime(17) == True, "Test failed for n=17"
+    assert is_prime(20) == False, "Test failed for n=20"
+
+    # Add more tests if necessary
+    print("All tests passed!")  # This is for confirmation only
+
+
+# Run the test cases
+test_is_prime()

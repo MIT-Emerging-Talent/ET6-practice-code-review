@@ -13,11 +13,11 @@ ______________________________________________________________________
 
 ## Communication Schedule
 
-| Meeting          | Type          | Frequency      | How           | The topic of discussion   |
-|------------------|---------------|----------------|---------------|---------------------------|
-| Brain Storming   | TBD           | TBD            | Google Meet   | Group Norms               |
-| Collaboration    | TBD           | TBD            | Google Meet   | Constraints, learning goals|
-| Collaboration    | TBD           | TBD            | Google Meet   | Communication             |
+| Meeting | Type| Frequency| How| The topic of discussion|
+|----------------|-----|----------------|---------------|-----|
+| Brain Storming | TBD | TBD| Google Meet | Group Norms|
+| Collaboration  | TBD | TBD| Google Meet | Constraints, learning goals|
+| Collaboration  | TBD | TBD| Google Meet | Communication|
 
 ## Communication Channels
 
@@ -67,9 +67,7 @@ ______________________________________________________________________
 
 ### **Knowing When to Seek Help** 🤔💡  
 
-Striking the right balance between confident problem-solving 
-and getting stuck in a loop can be tricky. Here’s a simple guide 
-to help you decide when it’s time to reach out:  
+#### Striking the right balance between confident problem-solving and getting stuck in a loop can be tricky. Here’s a simple guide to help you decide when it’s time to reach out:  
 
 1. **_0 → 30 minutes_**: 🚀 Dive in and give it your best shot solo!  
 2. **_30 → 60 minutes_**: 🤝 Team up! Discuss with your group and
@@ -78,4 +76,3 @@ brainstorm solutions together.
 **GitHub** for expert guidance.
 
 Remember, **404s** are here, we got your back 🫂
-

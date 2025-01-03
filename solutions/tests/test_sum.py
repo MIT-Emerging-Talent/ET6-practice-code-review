@@ -1,45 +1,49 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Unit tests for the add_numbers function.
+
+This module tests various scenarios for the `add_numbers` function
+from the `solutions.sum` module to ensure its correctness.
+
+Tests include:
+    - Addition of integers
+    - Addition of floats
+    - Mixed types (integer and float)
+    - Large numbers
+    - Edge cases like zero and negatives
+"""
+
 import unittest
-from solutions.sum import Solution
+from solutions.sum import add_numbers
 
-class TestSolution(unittest.TestCase):
-    """
-    Test cases for the Solution class, specifically the twoSum method.
-    """
 
-    def setUp(self):
-        """
-        Set up the Solution instance before each test.
-        """
-        self.solution = Solution()
+class TestAddNumbers(unittest.TestCase):
+    """Unit tests for the add_numbers function."""
 
-    def test_two_sum_example(self):
-        """
-        Test an example case with positive numbers.
-        """
-        self.assertEqual(self.solution.twoSum([2, 7, 11, 15], 9), [0, 1])
+    def test_integers(self):
+        """Test addition of two integers."""
+        self.assertEqual(add_numbers(3, 5), 8)
+        self.assertEqual(add_numbers(-3, 7), 4)
+        self.assertEqual(add_numbers(0, 0), 0)
 
-    def test_two_sum_negative_numbers(self):
-        """
-        Test a case with negative numbers.
-        """
-        self.assertEqual(self.solution.twoSum([-3, 4, 3, 90], 0), [0, 2])
+    def test_floats(self):
+        """Test addition of two floats."""
+        self.assertEqual(add_numbers(3.5, 2.5), 6.0)
+        self.assertEqual(add_numbers(-1.1, -2.9), -4.0)
 
-    def test_two_sum_multiple_solutions(self):
-        """
-        Test a case with multiple possible solutions.
-        """
-        self.assertEqual(self.solution.twoSum([1, 2, 3, 4, 5], 9), [3, 4])
+    def test_integer_and_float(self):
+        """Test addition of an integer and a float."""
+        self.assertEqual(add_numbers(3, 2.5), 5.5)
+        self.assertEqual(add_numbers(-3, 2.5), -0.5)
 
-    def test_two_sum_large_numbers(self):
-        """
-        Test a case with large numbers.
-        """
-        self.assertEqual(
-            self.solution.twoSum([1000000, 500000, -1500000], -1000000), [1, 2]
-        )
+    def test_large_numbers(self):
+        """Test addition of large numbers."""
+        self.assertEqual(add_numbers(1_000_000, 2_000_000), 3_000_000)
+        self.assertEqual(add_numbers(1e15, 1e15), 2e15)
 
-    def test_two_sum_no_solution(self):
-        """
-        Test a case where no solution exists.
-        """
-        self.assertEqual(self.solution.twoSum([1, 2, 3], 7), None)
+    def test_edge_cases(self):
+        """Test edge cases like zero and negatives."""
+        self.assertEqual(add_numbers(0, 5), 5)
+        self.assertEqual(add_numbers(-5, 5), 0)
+        self.assertEqual(add_numbers(-5, -5), -10)

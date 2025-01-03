@@ -1,27 +1,40 @@
-class Solution(object):
-  def twoSum(self, nums, target):
-    """
-    Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Module for determining the sum of two numbers.
 
-    Args:
-    nums (List[int]): List of integers.
-    target (int): The target sum.
+This module contains the following:
+    - `add_numbers`: A function to compute the sum of two numbers.
+
+Created on: January 3, 2025.
+
+@author: ABRAHAM ANYAK
+
+Challenge source: Leetcode.
+
+Description:
+    This module provides a function to compute the sum of two numbers.
+    The function takes two arguments and returns their sum.
+"""
+
+
+def add_numbers(a, b):
+    """
+    Computes the sum of two numbers.
+
+    Parameters:
+        a (int or float): The first number.
+        b (int or float): The second number.
 
     Returns:
-    List[int]: Indices of the two numbers such that they add up to `target`.
+        int or float: The sum of the two numbers.
 
-    Example:
-    >>> solution = Solution()
-    >>> solution.twoSum([2, 7, 11, 15], 9)
-    [0, 1]
-
-    Note:
-    - Each input would have exactly one solution.
-    - You may not use the same element twice.
+    Examples:
+        >>> add_numbers(3, 5)
+        8
+        >>> add_numbers(-2, 4)
+        2
+        >>> add_numbers(3.5, 2.5)
+        6.0
     """
-    num_to_index = {}
-    for index, num in enumerate(nums):
-      complement = target - num
-      if complement in num_to_index:
-        return [num_to_index[complement], index]
-      num_to_index[num] = index
+    return a + b

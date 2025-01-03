@@ -12,3 +12,4 @@ Module Contents:
 Created on: 2025-01-03
 Author: Jola-Moses
 """
+def length_longest_substring(s: str) -> int:

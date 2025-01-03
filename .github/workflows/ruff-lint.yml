@@ -25,13 +25,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install ruff
 
+      - name: Detect Default Branch
+        id: detect-branch
+        run: |
+          # Detect the default branch
+          DEFAULT_BRANCH=$(git remote show origin | grep 'HEAD branch' | awk '{print $NF}')
+          echo "default-branch=$DEFAULT_BRANCH" >> $GITHUB_ENV
+
       - name: Run Ruff on Modified Files
         run: |
-          # Get the default branch
-          DEFAULT_BRANCH=$(git remote show origin | grep 'HEAD branch' | awk '{print $NF}')
-          
-          # Get Python files modified in the current branch
-          MODIFIED_FILES=$(git diff --name-only $DEFAULT_BRANCH | grep '\.py$')
+          # Get the default branch from the environment variable
+          MODIFIED_FILES=$(git diff --name-only ${{ env.default-branch }} | grep '\.py$')
 
           # Run Ruff only on modified files
           if [ -n "$MODIFIED_FILES" ]; then

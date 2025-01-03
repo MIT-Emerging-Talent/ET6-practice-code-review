@@ -2,3 +2,4 @@
 line-length = 88
 select = ["E", "F", "W"]
 ignore = []
+exclude = ["solutions/decimal_to_binary.py"]

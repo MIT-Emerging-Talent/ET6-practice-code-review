@@ -3,6 +3,7 @@ Test module for the fixed_password_checker function.
 
 Created on: 03 01 25
 @author: MD Jubayer Khan
+
 """
 import unittest
 import sys

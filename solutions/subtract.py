@@ -19,13 +19,13 @@ Defining the subtraction of a given number:
 
 def subtract(*args):
     """
-    Return the subtraction of all input numbers.
+    Return the subtraction of all input numbers
 
     Parameters:
-        *args (int or float): The numbers to subtract.
+        *args (int or float): The numbers to subtract
 
     Returns:
-    int or float: The result of subtracting all input numbers.
+    int or float: The result of subtracting all input numbers
 
     Example:
     >>> subtract(10, 2, 3)

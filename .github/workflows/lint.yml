@@ -1,0 +1,38 @@
+name: Lint and File Check
+
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # Install Python and Ruff
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install Ruff
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install ruff
+
+      - name: Run Ruff
+        run: ruff check solutions
+
+      # Run ls-lint
+      - name: Install ls-lint
+        run: |
+          npm install -g @ls-lint/ls-lint
+
+      - name: Run ls-lint
+        run: ls-lint

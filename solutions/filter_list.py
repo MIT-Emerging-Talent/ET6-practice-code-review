@@ -39,7 +39,7 @@ def filter_list(lst):
     [1, 2]
     >>> filter_list([1, 'a', 'b', 0, 15])
     [1, 0, 15]
-    >>> filter_list([1, 2, 'aasf', '1', '123', 123])
+    >>> filter_list([1, 2, 'hussein', '1', '123', 123])
     [1, 2, 123]
     """
     filtered_list = []  # Initialize an empty list
@@ -52,4 +52,4 @@ def filter_list(lst):
 
 # print(filter_list([1, 2, 3, 5, 6, 9, 'a', 'b']))  # Output: [1, 2]
 # print(filter_list([1, 'a', 'b', 0, 15]))  # Output: [1, 0, 15]
-# print(filter_list([1, 2, 'aasf', '1', '123', 123]))  # Output: [1, 2, 123]
+# print(filter_list([1, 2, 'hussein', '1', '123', 123]))  # Output: [1, 2, 123]

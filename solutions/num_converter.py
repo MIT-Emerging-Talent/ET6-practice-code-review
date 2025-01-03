@@ -21,6 +21,18 @@ def decimal_to_binary(decimal: int):
 
     Returns:
         int: The binary representation of the input decimal number.
+
+    Raises:
+    AssertionError: If the input is not an integer.
+    AssertionError: If the decimal is a negative number.
+
+    >>> binary_to_decimal(254)
+    11111110
+    >>> binary_to_decimal(13)
+    1101
+    >>> binary_to_decimal(173)
+    10101101
+
     """
 
     # validate input type
@@ -56,6 +68,10 @@ def binary_to_decimal(binary):
 
     Returns:
         int: The decimal equivalent of the binary number.
+
+    Raises:
+    AssertionError: If the input is not an integer.
+    AssertionError: If the input contains digits other than 1 or 0.
 
     >>> binary_to_decimal(10110101)
     181

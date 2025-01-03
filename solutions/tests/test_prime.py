@@ -24,10 +24,10 @@ def test_is_prime():
     results = []
 
     # Test cases with expected outputs
-    results.append(("n=7", is_prime(7) == True))  # 7 is prime
-    results.append(("n=4", is_prime(4) == False))  # 4 is not prime
-    results.append(("n=17", is_prime(17) == True))  # 17 is prime
-    results.append(("n=20", is_prime(20) == False))  # 20 is not prime
+    results.append(("n=7", is_prime(7)))  # 7 is prime
+    results.append(("n=4", not is_prime(4)))  # 4 is not prime
+    results.append(("n=17", is_prime(17)))  # 17 is prime
+    results.append(("n=20", not is_prime(20)))  # 20 is not prime
 
     # Edge cases
     results.append(("n=0", is_prime(0) == False))  # 0 is not prime
@@ -35,7 +35,7 @@ def test_is_prime():
     results.append(("n=-5", is_prime(-5) == False))  # Negative numbers are not prime
 
     # Test case for a large prime number
-    results.append(("n=104729", is_prime(104729) == True))  # 104729 is prime
+    results.append(("n=104729", is_prime(104729)))  # 104729 is prime
 
     return results
 

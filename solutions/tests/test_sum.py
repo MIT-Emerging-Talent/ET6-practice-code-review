@@ -1,7 +1,6 @@
 import unittest
 from solutions.sum import Solution
 
-
 class TestSolution(unittest.TestCase):
     """
     Test cases for the Solution class, specifically the twoSum method.

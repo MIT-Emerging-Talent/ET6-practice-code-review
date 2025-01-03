@@ -15,6 +15,10 @@ def decimal_to_binary(decimal):
 # Example usage
 if __name__ == "__main__":
     # Get user input for the decimal number
-    user_input_decimal = int(input("Enter a decimal number: "))  # Take input from the user
+    user_input_decimal = int(
+        input("Enter a decimal number: ")
+    )  # Take input from the user
     # Call the function to convert to binary
-    print(f"The binary representation of {user_input_decimal} is {decimal_to_binary(user_input_decimal)}")
+    print(
+        f"The binary representation of {user_input_decimal} is {decimal_to_binary(user_input_decimal)}"
+    )

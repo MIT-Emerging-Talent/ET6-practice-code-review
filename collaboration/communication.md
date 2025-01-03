@@ -65,7 +65,7 @@ ______________________________________________________________________
 | Henry       |11AM-3PM|11AM-9PM |11AM-9PM   |11AM-3PM  |11AM-3PM| 8AM-3PM  | 8AM-3PM|
 | Khadija     | 12-6PM | 12-6PM  | 12-6PM    | 12-6PM   | 12-6PM | 12-5PM   |12PM-5PM|
 | Manezhah    | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
-| Mithchell   | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
+| Mithchell   | 5-9AM  | 5-9AM   | 1PM-8PM   | 1PM-8PM  | 1PM-8PM| 8AM-4PM  | 5AM-9AM|
 | Mykyta      | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
 
 ### Daily availability in hours
@@ -78,7 +78,7 @@ ______________________________________________________________________
 - Henry: _4h-6h_;
 - Khadija: _5h_;
 - Manezhah: _4h_;
-- Mithchell: _3h_;
+- Mithchell: _4h_;
 - Mykyta: _3h_;
 
 ## Asking for Help

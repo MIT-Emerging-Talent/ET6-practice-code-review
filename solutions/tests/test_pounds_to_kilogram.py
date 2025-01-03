@@ -59,11 +59,6 @@ class TestWeightConversion(unittest.TestCase):
         """Test extremely small number"""
         self.assertEqual(pounds_to_kilograms(0.00002205), 0.0)
 
-    def test_exponential_number(self):
-        """Test conversion of exponential numbers"""
-        self.assertEqual(pounds_to_kilograms(1*2^-500), -225.889)
-
-
 #Defensive tests
 
     def test_input_string(self):

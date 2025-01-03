@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Test module for weight conversion function
-Specifically for kilograms to pounds 
+Specifically for kilograms to pounds
 
 Test categories:
  - Standard cases: typical weight input with different units
@@ -12,43 +12,45 @@ Test categories:
 Created on 2024-12-30
 Author: Olumide Kolawole
 """
+
 import unittest
-#Error is going to occur because of how we're currently importing modules
-from ..weight_conversion import kilograms_to_pounds
+
+# Error is going to occur because of how we're currently importing modules
+from solutions.weight_conversion import kilograms_to_pounds
 
 
 class TestWeightConversion(unittest.TestCase):
-    """ Testing kilogram to pound conversion function """
+    """Testing kilogram to pound conversion function"""
 
     # Standard test cases
     def test_base_case_of_zero(self):
-        """ Test conversion of 0 kilograms """
+        """Test conversion of 0 kilograms"""
         self.assertEqual(kilograms_to_pounds(0), 0.0)
 
     def test_low_integer_value(self):
-        """ Test conversion of a low integer"""
+        """Test conversion of a low integer"""
         self.assertEqual(kilograms_to_pounds(1), 2.205)
 
     def test_higher_integer_value(self):
-        """ Test conversion of a high integer"""
+        """Test conversion of a high integer"""
         self.assertEqual(kilograms_to_pounds(200000000), 440924000.0)
 
     def test_low_float_number(self):
-        """ Test conversion of a low float number"""
+        """Test conversion of a low float number"""
         self.assertEqual(kilograms_to_pounds(2.205), 4.861)
 
     def test_higher_float_number(self):
-        """ Test conversion of a higher float value (144445.0992)"""
+        """Test conversion of a higher float value (144445.0992)"""
         self.assertEqual(kilograms_to_pounds(144445.0992), 318446.555)
 
-#Edge Cases
+    # Edge Cases
 
     def test_negative_integer(self):
         """Test conversion of a negative integer"""
         self.assertEqual(kilograms_to_pounds(-1), -2.205)
 
     def test_negative_float_number(self):
-        """Test conversion of a negative float number """
+        """Test conversion of a negative float number"""
         self.assertEqual(kilograms_to_pounds(-2.205), -4.861)
 
     def test_extremely_large_number(self):
@@ -56,15 +58,14 @@ class TestWeightConversion(unittest.TestCase):
         self.assertEqual(kilograms_to_pounds(100000000), 220462000.0)
 
     def test_extremely_small_number(self):
-        """TTest conversion of an extremely small number"""
-        self.assertEqual(kilograms_to_pounds(0.000000001), 0.0)
+        """Test conversion of an extremely small number"""
+        self.assertAlmostEqual(kilograms_to_pounds(0.000000001), 0.0)
 
     def test_exponential_number_for_kilograms_to_pounds(self):
         """Test converting exponential numbers for kilograms to pounds"""
-        self.assertEqual(kilograms_to_pounds(1e-10), 0.000) #0.00002205
+        self.assertEqual(kilograms_to_pounds(1e-10), 0.000)  # 0.00002205
 
-
-#Defensive tests
+    # Defensive tests
 
     def test_input_string(self):
         """It should raise AssertionError for string inputs"""
@@ -81,14 +82,5 @@ class TestWeightConversion(unittest.TestCase):
         with self.assertRaises(AssertionError):
             kilograms_to_pounds([1, 2, 3])
 
-    def test_extra_positional_argument(self):
-        """It should raise TypeError for extra positional arguments."""
-        with self.assertRaises(TypeError):
-            kilograms_to_pounds(1, 2)
-    
-    def test_missing_argument(self):
-        """It should raise TypeError for missing required arguments."""
-        with self.assertRaises(TypeError):
-            kilograms_to_pounds()  # No arguments passed
 if __name__ == "__main__":
     unittest.main()

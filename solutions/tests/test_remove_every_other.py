@@ -1,9 +1,3 @@
-# tests/test_remove_every_other.py
-
-"""
-Tests for the remove_every_other function.
-"""
-
 import unittest
 
 from solutions.remove_every_other import remove_every_other  # Updated import
@@ -47,6 +41,20 @@ class TestRemoveEveryOther(unittest.TestCase):
         """
         with self.assertRaises(AssertionError):
             remove_every_other("Not a list")
+
+    # New test case for empty list
+    def test_empty_list(self):
+        """
+        Test that an empty list returns an empty list.
+        """
+        self.assertEqual(remove_every_other([]), [])
+
+    # New test case for list with duplicates
+    def test_list_with_duplicates(self):
+        """
+        Test that the function handles duplicate values correctly.
+        """
+        self.assertEqual(remove_every_other([1, 2, 2, 3, 3, 4]), [1, 2, 3, 4])
 
 
 if __name__ == "__main__":

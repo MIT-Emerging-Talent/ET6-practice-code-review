@@ -1,18 +1,18 @@
-<!-- this template is for inspiration, feel free to change it however you like! -->
-# Introduction
+# ![Alt Text](../assets/task-planner.png)  Constraints
 
-> Drop introduction here.
+> In this readme, we explain potential **constraints** that limit our productivity and\
+> achievement throughout the project trip.
 
-## External Constraints
+## ![Alt Text](../assets/outdoor.png) External Constraints
 
 > For each team member, we will explain the external constraints.
 
-### Salem
+### _Salem 👀_
 
 | Constraint | Description |
 |:------:|:-------:|
-| Power & internet | I have limited hours when power is available|
-| Deadlines | I have college deadlines in addition to MET program deadlines|
+| Power & internet 🛜 | I have limited hours when power is available|
+| Deadlines ❌ | I have college deadlines in addition to MET program deadlines|
 
 ### Nagham
 
@@ -24,20 +24,37 @@
 | Constraint | Description |
 |:------:|:-------:|
 
-## Internal: Involuntary
+## ![indoor](../assets/limited-access.png) Internal: Involuntary
 
 <!--
   constraints that come from within your team, and you have no control over:
   - each of your individual skill levels
   - amount of time available to work on the project
 -->
+### 1. Various Skill Levels🎚️
 
-## Internal: Voluntary
+- Limited experience with specific tools, methodologies, or frameworks.
+- Uneven distribution of skills across team members.
+  
+### 2. Communication Challenges💬
 
-<!--
-  constraints that your team decided on to help scope the project. they may include:
-  - coding style & conventions
-  - agree on a code review checklist for the project repository
-  - the number of hours you want to spend working
-  - only using the colors black and white
--->
+- Communication hardship due to limited resources of power and internet.
+
+### 3. Productivity unstability🦥
+
+- Due to unstable circumstances ongoing on team members' locations.
+
+## ![indoor](../assets/scope.png)  Internal: Voluntary
+
+### 1. Documentation Constraints📝
+
+- Write documentation for every major feature or module.
+- Update the README file with every change.
+
+### 2. Quality Assurance Constraints✅
+
+- Require all features to pass automated tests before deployment.
+
+## 3. Collaboration Constraints🚀
+
+- Enforce version control workflows (e.g., Git Flow)

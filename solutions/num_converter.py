@@ -20,11 +20,14 @@ def decimal_to_binary(decimal: int):
         decimal_number (int): The decimal number to be converted.
 
     Returns:
-        str: The binary representation of the input decimal number.
+        int: The binary representation of the input decimal number.
     """
 
     # validate input type
     assert isinstance(decimal, int)
+
+    # ensure that the decimal is positive
+    assert decimal >= 0
 
     binary_list = []
     binary_num = ""
@@ -41,7 +44,7 @@ def decimal_to_binary(decimal: int):
     # Convert digits array to string in correct order
     for num in reversed(binary_list):
         binary_num = binary_num + str(num)
-    return binary_num
+    return int(binary_num)
 
 
 def binary_to_decimal(binary):
@@ -68,9 +71,15 @@ def binary_to_decimal(binary):
     binary = str(binary)
     decimal = 0
 
+    # ensure that the input contains only zeros and ones
+    assert all(char in "01" for char in binary)
+
     # Start writing the binary representation by iterating over each bit.
     for bit in binary:
         decimal += (2 ** (len(binary) - 1)) * int(bit)
         binary = binary[1:]
 
     return decimal
+
+
+print(binary_to_decimal(0))

@@ -35,12 +35,14 @@ ______________________________________________________________________
 | Day       | Monday | Tuesday | Wednesday | Thursday | Friday |Saturday | Sunday|
 |-----------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------:|
 | Salem     |10:00-15:00|12:00-14:00|10:00-15:00 |10:00-15:00 |❌|13:00-17:00|10:00-15:00|
+| Nagham   | ✔️|✔️|✔️|✔️ |✔️|✔️|✔️|
 
 ### How many hours everyone has per day
 
 - Salem: _3-5h_;
-- Nagham: _nh_;
+- Nagham: _5h_;
 - Nilson: _nh_;
+- Matvii: _nh_;
 
 ## Asking for Help
 

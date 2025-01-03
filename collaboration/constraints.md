@@ -1,7 +1,7 @@
 # ![Alt Text](../assets/task-planner.png)  Constraints
 
-> In this readme, we explain potential **constraints** that limit our productivity and\
-> achievement throughout the project trip.
+> In this readme, we explain potential **constraints** that limit our
+> productivity and achievement throughout the project trip.
 
 ## ![Alt Text](../assets/outdoor.png) External Constraints
 

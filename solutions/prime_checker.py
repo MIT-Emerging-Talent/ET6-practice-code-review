@@ -1,4 +1,11 @@
-"""This module is prime_checker."""
+"""
+prime_checker
+
+Description: This module contains a function that checks if a number is prime.
+
+Created on: 04/01/2025
+@author: Thilakan Jegatheeswaran
+"""
 
 
 # test_prime.py

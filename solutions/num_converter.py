@@ -26,11 +26,11 @@ def decimal_to_binary(decimal: int):
     AssertionError: If the input is not an integer.
     AssertionError: If the decimal is a negative number.
 
-    >>> binary_to_decimal(254)
+    >>> decimal_to_binary(254)
     11111110
-    >>> binary_to_decimal(13)
+    >>> decimal_to_binary(13)
     1101
-    >>> binary_to_decimal(173)
+    >>> decimal_to_binary(173)
     10101101
 
     """

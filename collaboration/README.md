@@ -5,7 +5,7 @@
 Our team thrives on openness, respect, and the shared belief that collaboration
 makes us stronger.  
 
-## group norms list  
+## Group Norms list  
 
 - Feedback is given constructively, aiming to improve ideas rather
  than criticize individuals.  

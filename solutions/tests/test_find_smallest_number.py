@@ -43,6 +43,9 @@ class TestFindSmallestNumber(unittest.TestCase):
         self.assertEqual(find_smallest_number([7, 7, 7, 7]), 7)
 
     def test_empty_list(self):
+        """
+        Test that a ValueError is raised for an empty list.
+        """
         with self.assertRaises(ValueError):
             find_smallest_number([])
 

@@ -3,3 +3,4 @@ Input: madam, Output: True
 Input: hello, Output: False
 Input: RaceCar, Output: True
 .
+ ori

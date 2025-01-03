@@ -6,6 +6,11 @@ This module contains unit tests to validate the functionality of the
 `length_longest_substring` function.
 It checks the length of the longest substring without repeating characters in a string.
 
+Test categories:
+    - Standard cases: Typical strings with and without repeating characters.
+    - Edge cases: Empty strings, single-character strings, and strings with special characters.
+    - Defensive tests: Non-string inputs to ensure proper assertion handling.
+
 Created on: 2025-01-03
 Author: Jola-Moses
 """

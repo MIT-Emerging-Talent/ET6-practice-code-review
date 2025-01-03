@@ -34,6 +34,8 @@ def length_longest_substring(s: str) -> int:
     1
     """
 
+    assert isinstance(s, str), "s input should be a string"
+
     # Track the length of the longest substring without repeating characters
     longest = 0
 

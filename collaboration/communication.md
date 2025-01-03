@@ -49,12 +49,12 @@ ______________________________________________________________________
 
 #### "✅" means "Available at any time"
 
-| Name              | Monday         | Tuesday       | Wednesday     | Thursday      | Friday         | Saturday      | Sunday         | Timezone         |
-|-------------------|----------------|---------------|---------------|---------------|----------------|---------------|----------------|------------------|
-| Nagham al baba    | ✅             | ✅            | ✅            | ✅            | ✅             | ✅            | ✅             | After 4:00 EET   |
-| Salem Amassi      | ✅             | ✅            | ✅            | 10:00–01:00   | ✅             | 13:00–15:00   | Not available  | EET (Palestine)  |
-| Matvii Morozov    | 12:00–15:00    | 12:00–15:00   | 12:00–15:00   | 12:00–15:00   | 12:00–15:00    | ✅            | ✅             | GMT+2            |
-| Nelson Fodjo      | 18:00–20:00    | 18:00–20:00   | 18:00–20:00   | 18:00–20:00   | 18:00–20:00    | 18:00–20:00   | 18:00–20:00    | WAT (GMT+1)      |
+| Name| Monday| Tuesday| Wednesday | Thursday | Friday| Saturday| Sunday| Timezone |
+|-------------|-------|--------|-----------|---------|----------|---------|----------|---------|
+| Nagham al baba| ✅ | ✅| ✅ | ✅ | ✅| ✅| ✅| After 4:00 EET   |
+| Salem Amassi | ✅  | ✅| ✅ | 10:00–01:00   | ✅| 13:00–15:00   | Not available  | EET (Palestine)  |
+| Matvii Morozov | 12:00–15:00    | 12:00–15:00   | 12:00–15:00   | 12:00–15:00   | 12:00–15:00    | ✅| ✅| GMT+2|
+| Nelson Fodjo| 18:00–20:00    | 18:00–20:00   | 18:00–20:00   | 18:00–20:00   | 18:00–20:00    | 18:00–20:00   | 18:00–20:00| WAT (GMT+1)|
 
 ### How many hours everyone has per day⌚
 
@@ -67,7 +67,8 @@ ______________________________________________________________________
 
 ### **Knowing When to Seek Help** 🤔💡  
 
-#### Striking the right balance between confident problem-solving and getting stuck in a loop can be tricky. Here’s a simple guide to help you decide when it’s time to reach out:  
+Striking the right balance between confident problem-solving and getting stuck in a loop can be tricky. 
+Here’s a simple guide to help you decide when it’s time to reach out:  
 
 1. **_0 → 30 minutes_**: 🚀 Dive in and give it your best shot solo!  
 2. **_30 → 60 minutes_**: 🤝 Team up! Discuss with your group and

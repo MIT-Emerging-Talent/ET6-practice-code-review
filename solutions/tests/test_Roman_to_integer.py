@@ -5,7 +5,8 @@ Test module for Roman to integer function.
 """
 
 import unittest
-from solutions.roman_to_integer import RomanConverter
+
+from solutions.Roman_to_integer import RomanConverter
 
 
 class TestRomanToInteger(unittest.TestCase):

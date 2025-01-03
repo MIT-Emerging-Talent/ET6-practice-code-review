@@ -43,7 +43,7 @@ class TestIsUnique(unittest.TestCase):
 
     # Edge cases
     def test_mixed_cases(self):
-        """It should return True for a string with mixed cases."""
+        """It should return True for a case-sensitive string with unique mixed-case characters."""
         self.assertTrue(is_unique("aAbBcC"))
 
     def test_special_characters(self):

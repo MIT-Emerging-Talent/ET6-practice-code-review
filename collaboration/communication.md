@@ -2,13 +2,16 @@
 
 ## Communication Schedule
 
-| Day | How  | The topic of discussion |
-|-----------|------|-------------------------|
-| Thursday 2/1 | Whatsapp Group | Collaboration Documents |
-| Thursday 4/1 | Zoom Online Meeting | Problems Delivery |
-| Saturday 6/1 | GitHub | Problems Delivery Deadline |
-| Tuesday 7/1 | GitHub | Solutions Delivery Deadline |
-| Wednesday 8/1 | Zoom Online Meeting | Retrospective |
+| Date | Day | How  | The topic of discussion |
+|-----------|------------|------|--------------|
+| Dec. 20th ✅ | Friday | Zoom meeting | Getting to know team members |
+| Dec. 23rd ✅ | Monday | Google Meet | Collaboratively exploring the group repo.|
+| Dec. 26th ✅ | Thursday | Google Meet |Collaboration folder and its files|
+| Jan. 2nd ✅ | Thursday | Google Meet | Final meeting for the collaboration folder|
+| Jan. 4th | Saturday | Zoom Online Meeting | Problems Delivery |
+| Jan. 6th | Monday   | GitHub | Problems Delivery Deadline |
+| Jan. 7th | Tuesday  | GitHub | Solutions Delivery Deadline |
+| Jan. 8th | Wednesday| Zoom Online Meeting | Retrospective |
 
 ## Communication Channels
 

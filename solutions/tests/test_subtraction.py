@@ -1,9 +1,17 @@
-import unittest
+"""
+Unit tests for the subtraction function.
+"""
+
+import unitte
 
 from solutions.subtraction import subtract
 
 
 class TestSubtract(unittest.TestCase):
+    """
+    Test cases for the subtraction function.
+    """
+
     def test_subtract_positive_numbers(self):
         """It should return the subtraction of positive numbers"""
         actual = subtract(10, 2, 3)

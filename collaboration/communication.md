@@ -13,31 +13,52 @@ ______________________________________________________________________
 
 ## Communication Schedule
 
-| Day  | How | The topic of discussion   |
-|:-----|:---:|:-------------------------:|
-|      |     |                           |
+| Meeting| Type  |Frequency| How | The topic of discussion   |
+|:-----|:---:|:-----|:---:|:-----|
+|Brain Storming| | |Google Meet| Group Norms|
+|Collaboration| | |Google Meet| constraints, learning goals|
+|Collaboration| | |Google Meet|Communication|
 
 ## Communication Channels
 
-how often will we get in touch on each channel, and what we will discuss there:
+```json
+[{
+        'channel': 'slack',
+        'purpose': 'Discussions and providing assistance',
+        'frequency': 'On demand',
 
-- **Issues**: Daily
-- **Pull Requests**: twice a day (first in morning, second at the end of day)
-- **Slack/Discord**: Slack
-- **Video Calls**: as convenient to our circumstances.
+    },
+    {
+        'channel': 'Google Meet',
+        'purpose': 'Real time collaboration',
+        'frequency': 'Daily/on demand',
+
+    },
+       {
+        'channel': 'Github issues/discussions',
+        'purpose': 'Discuss changes/code reviews',
+        'frequency': 'On demand',
+
+    }
+]
+
+
+```
 
 ______________________________________________________________________
 
 ## Availability
 
-### Availability for calling/messaging
+### Availability for calling/messaging 💬
 
 | Day       | Monday | Tuesday | Wednesday | Thursday | Friday |Saturday | Sunday|
 |-----------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------:|
-| Salem     |10:00-15:00|12:00-14:00|10:00-15:00 |10:00-15:00 |❌|13:00-17:00|10:00-15:00|
+| Salem     |10:00-15:00|12:00-14:00|10:00-15:00 |10:00-15:00 |On demand|13:00-17:00|10:00-15:00|
 | Nagham   | ✔️|✔️|✔️|✔️ |✔️|✔️|✔️|
+| Nelson   | ||| ||||
+| Matvi   | ||| ||||
 
-### How many hours everyone has per day
+### How many hours everyone has per day⌚
 
 - Salem: _3-5h_;
 - Nagham: _5h_;
@@ -46,10 +67,16 @@ ______________________________________________________________________
 
 ## Asking for Help
 
-There's a fine line between confidently learning from your mistakes, and
-stubbornly getting no where. Here is a general guide for when to ask for help
-based on how long you've been stuck on the same problem:
+### **Knowing When to Seek Help** 🤔💡  
 
-1. _0 -> 30 min_: Try on your own
-1. _30 -> 60 min_: Ask your group for help
-1. _60+ min_: Tag your coaches in Slack or GitHub
+Striking the right balance between confident problem-solving and getting
+stuck in a loop can be tricky. Here’s a simple guide to help you
+decide when it’s time to reach out:  
+
+1. **_0 → 30 minutes_**: 🚀 Dive in and give it your best shot solo!  
+2. **_30 → 60 minutes_**: 🤝 Team up! Discuss with your group and
+brainstorm solutions together.  
+3. **_60+ minutes_**: 🆘 Call in reinforcements! Tag your coaches on **Slack** or
+**GitHub** for expert guidance.
+
+Remember, **404s** are here, we got your back 🫂

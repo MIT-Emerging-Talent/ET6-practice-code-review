@@ -1,4 +1,4 @@
-name: Lint and File Check
+name: Ruff Linter
 
 on:
   push:
@@ -12,9 +12,9 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-      # Install Python and Ruff
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -28,11 +28,3 @@ jobs:
 
       - name: Run Ruff
         run: ruff check solutions
-
-      # Run ls-lint
-      - name: Install ls-lint
-        run: |
-          npm install -g @ls-lint/ls-lint
-
-      - name: Run ls-lint
-        run: ls-lint

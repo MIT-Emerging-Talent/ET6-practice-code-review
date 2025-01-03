@@ -47,13 +47,8 @@ def factorial(number: int) -> int:
         raise ValueError("The input must be a non-negative integer.")
 
     # Base Case 1
-    if number == 0:
-        return 1
-
-    # Base Case 2
-
-    if number == 1:
+    if number == 0 or number == 1:
         return 1
 
     else:
-        pass
+        return number * factorial(number - 1)

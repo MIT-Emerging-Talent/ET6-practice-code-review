@@ -12,7 +12,7 @@ Created on Wednesday, 1st January, 2025.
 
 def count_digits(number):
     """
-    The count_digits function counts the number of integers in a given number.
+    The count_digits function counts the number of digits in a given number.
 
     Parameters:
         number: an integer or float number whose digits are to be counted.
@@ -22,9 +22,11 @@ def count_digits(number):
         Note that the negative sign is not counted as a digit.
 
     Raises:
-        ValueError if the input is empty.
-        ValueError if the input is not an integer, float, or numeric string.
-        TypeError if the input is an invalid string.
+        ValueError:
+            If the input is empty.
+            If the input is not an integer, float, or numeric string.
+        TypeError:
+            if there is an invalid input.
 
     Example:
     >>> count_digits(34)

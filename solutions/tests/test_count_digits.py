@@ -41,9 +41,7 @@ class TestCountDigits(unittest.TestCase):
     def test_empty_input(self):
         """It raises a value error for an empty input"""
         with self.assertRaises(ValueError):
-            count_digits(
-                (""),
-            )
+            count_digits("")
 
     def test_invalid_string_input(self):
         """It raises a value error for an invalid string input"""
@@ -54,3 +52,8 @@ class TestCountDigits(unittest.TestCase):
         """It raises a type error for an invalid input"""
         with self.assertRaises(TypeError):
             count_digits([1, 2, 3])
+            count_digits(None)
+            count_digits({1, 2, 3})
+            count_digits(True)
+            count_digits(False)
+            count_digits({"name": "Gai"})

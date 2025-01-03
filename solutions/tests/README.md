@@ -17,14 +17,14 @@ The tests are designed to:
 
 ## Writing Tests
 
-- Use consistent naming conventions for test files (e.g., `test_<solution_name>.py`).
+- Use consistent naming conventions for test files
 - Follow the team's testing framework or tools (e.g., **PyTest**).
 - Cover all edge cases, normal cases, and error cases.
 
 ## Running Tests
 
 1. Navigate to this directory in your terminal.
-2. Use the designated command for the testing framework (e.g., `pytest`, `npm test`, etc.).
+2. Use the designated command for the testing framework
 3. Ensure all tests pass before pushing changes.
 
 ## Contribution Guidelines

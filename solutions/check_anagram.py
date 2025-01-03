@@ -20,7 +20,7 @@ def is_anagram(string1: str, string2: str) -> bool:
         bool: True if the strings are anagrams, False otherwise.
 
     Raises:
-        TypeError: If either argument is not a string.
+        AttributeError: If either argument is not a string.
 
     Examples:
         >>> is_anagram("listen", "silent")
@@ -31,7 +31,7 @@ def is_anagram(string1: str, string2: str) -> bool:
         True
     """
     if not isinstance(string1, str) or not isinstance(string2, str):
-        raise TypeError("Both inputs must be strings.")
+        raise AttributeError("Both inputs must be strings.")
 
     # Normalize strings: remove spaces, convert to lowercase, and sort characters
     normalized1 = "".join(sorted(string1.replace(" ", "").lower()))

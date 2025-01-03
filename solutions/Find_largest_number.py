@@ -1,7 +1,11 @@
-"""This module contains a function that takes a list of numbers and returns the largest number from that list.
+"""
+This module contains a function `largest_num` that takes a list of numbers
+and returns the largest number from that list.
 
-The `largest_num` function checks if the input list is empty and raises a ValueError if so. Otherwise, it
-returns the maximum number in the list using the built-in `max` function."""
+The `largest_num` function checks if all elements in the input list are
+numeric (either integers or floats). If the list is empty, it raises a
+ValueError. The function returns the maximum number in the list using the
+built-in `max()` function."""
 
 
 def largest_num(numbers):

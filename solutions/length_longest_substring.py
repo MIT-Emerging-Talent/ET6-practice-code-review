@@ -33,3 +33,6 @@ def length_longest_substring(s: str) -> int:
     >>> length_longest_substring("aaaaaa")
     1
     """
+
+    longest = 0
+    current = ""

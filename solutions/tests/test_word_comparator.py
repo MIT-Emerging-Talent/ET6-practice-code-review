@@ -42,5 +42,6 @@ class TestWordComparator(unittest.TestCase):
         """It should return False for words with some common characters."""
         self.assertFalse(are_words_same("abcd", "abc"))
 
+
 if __name__ == "__main__":
     unittest.main()

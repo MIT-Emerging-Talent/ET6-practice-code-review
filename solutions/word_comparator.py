@@ -8,6 +8,7 @@ Created on: 03 01 25
 @author: MD Jubayer Khan
 """
 
+
 def are_words_same(word1: str, word2: str) -> bool:
     """
     Compares two words by sorting their characters and checking for equality.

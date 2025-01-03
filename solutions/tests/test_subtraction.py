@@ -4,7 +4,7 @@ Unit tests for the subtraction function.
 
 import unittest
 
-from ..subtract import subtract  # type: ignore
+from solutions.subtract import subtract  # type: ignore
 
 
 class TestSubtract(unittest.TestCase):  # noqa: F821

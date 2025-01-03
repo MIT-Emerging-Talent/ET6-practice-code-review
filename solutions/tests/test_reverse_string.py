@@ -1,5 +1,12 @@
 """
-Tests for the reverse_string function.
+Module: reverse_string
+Author: Mojtaba Fayyaz
+Date: 2024-01-02
+
+This module contains unit tests for the `reverse_string` function.
+The tests verify the function's behavior with various input scenarios,
+including edge cases such as empty strings, single-character strings,
+palindromes, and mixed characters, as well as invalid input handling.
 """
 
 import unittest

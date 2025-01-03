@@ -1,54 +1,51 @@
-<!--
-    this template is for inspiration, feel free to change it however you like!
-
-    Careful! be sure to protect your privacy when filling out this document
-        everything you write here will be public
-        so share only what you are comfortable sharing online
-        you can share the rest in confidence with you group by another channel
--->
-
-# Communication
-
-______________________________________________________________________
+# Communication Plan
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion | | --- | :-: | ----------------------- |
-| | | |
+- **Everyday**:  
+  *Channel*: Slack  
+  *Purpose*: Quick updates on progress and blockers.
+
+- **Wednesday**:  
+  *Channel*: GitHub Issues  
+  *Purpose*: Task tracking, reviewing challenges, and assigning tasks.
+
+- **Saturday**:  
+  *Channel*: Zoom  
+  *Purpose*: Weekly team meeting to review progress, discuss PR, and plan next steps.
 
 ## Communication Channels
 
-how often will we get in touch on each channel, and what we will discuss there:
+- **Slack(Daily)**:  
+  *Purpose*: For quick updates, immediate questions, and reminders.
 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+- **GitHub Issues (As needed)**:  
+  *Purpose*: To track tasks, assign responsibilities, and address roadblocks.
 
-______________________________________________________________________
+- **Pull Requests (After completing tasks)**:  
+  *Purpose*: To share code, review team contributions, and merge changes.
 
-## Availability
+- **Zoom/Video Calls (Weekly on Saturday)**:  
+  *Purpose*: For in-depth discussions, resolving conflicts, and planning next steps.
 
-### Availability for calling/messaging
+## Team Availability
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
+The team is generally available throughout the week as follows:
 
-### How many hours everyone has per day
+- **Monday to Friday**:  
+  The team is collectively available each day, with variations in individual availability.
 
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- **Saturday and Sunday**:  
+  All team members are available for extended periods
+  making weekends ideal for in-depth collaboration and meetings.
 
 ## Asking for Help
 
-There's a fine line between confidently learning from your mistakes, and
-stubbornly getting no where. Here is a general guide for when to ask for help
-based on how long you've been stuck on the same problem:
+- **0–30 minutes**:  
+  Attempt to solve the issue independently.
 
-1. _0 -> 30 min_: Try on your own
-1. _30 -> 60 min_: Ask your group for help
-1. _60+ min_: Tag your coaches in Slack or GitHub
+- **30–60 minutes**:  
+  Ask the team for input or pair programming assistance.
+
+- **60+ minutes**:  
+  Reach out to coaches on Slack or GitHub for guidance.

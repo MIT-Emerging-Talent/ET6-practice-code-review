@@ -30,6 +30,10 @@ jobs:
         run: |
           # Detect the default branch
           DEFAULT_BRANCH=$(git remote show origin | grep 'HEAD branch' | awk '{print $NF}')
+          if [ -z "$DEFAULT_BRANCH" ]; then
+            echo "Default branch detection failed. Falling back to 'find-smallest-number'."
+            DEFAULT_BRANCH="find-smallest-number"
+          fi
           echo "default-branch=$DEFAULT_BRANCH" >> $GITHUB_ENV
 
       - name: Run Ruff on Modified Files

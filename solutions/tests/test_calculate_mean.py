@@ -61,12 +61,12 @@ class TestCalculateMean(unittest.TestCase):
             calculate_mean([1, 2, "three", 4])
 
     def test_invalid_input_nan(self):
-        """Test for ValueError when the list contains NaN."""
+        """Test for Exception when the list contains NaN."""
         with self.assertRaises(Exception):
             calculate_mean([1, 2, float("nan"), 4])
 
     def test_invalid_input_infinity(self):
-        """Test for ValueError when the list contains infinity."""
+        """Test for Exception when the list contains infinity."""
         with self.assertRaises(Exception):
             calculate_mean([1, 2, float("inf"), 4])
 

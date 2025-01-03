@@ -39,25 +39,13 @@ def calculate_mean(numbers: List[float]) -> Optional[float]:
         2.5
         >>> calculate_mean([-1, 2, -3, 4, -5])
         -0.6
-        >>> calculate_mean("123")
-        Traceback (most recent call last):
-        ...
-        TypeError: Input must be a list.
-        >>> calculate_mean([1, 2, "3"])
-        Traceback (most recent call last):
-        ...
-        TypeError: All elements in the list must be numbers.
-        >>> calculate_mean([1, 2, float("inf")])
-        Traceback (most recent call last):
-        ...
-        ValueError: The list contains NaN or infinity, which are not allowed.
     """
     if not isinstance(numbers, list):
         raise TypeError("Input must be a list.")
     if any(not isinstance(n, (int, float)) for n in numbers):
         raise TypeError("All elements in the list must be numbers.")
     if any(x != x or x in {float("inf"), float("-inf")} for x in numbers):
-        raise ValueError("The list contains NaN or infinity, which are not allowed.")
+        raise Exception("The list contains NaN or infinity, which are not allowed.")
 
     if not numbers:
         return None

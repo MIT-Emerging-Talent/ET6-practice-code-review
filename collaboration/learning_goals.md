@@ -8,14 +8,14 @@
 
 ## Group Objectives 🌟  
 
-### Excel in Git Collaboration 🚀  
+### Excel in Git Collaboration 🚀
 
 - **Organize Markdown and Solutions**  
   - Structure Markdown files efficiently for clear documentation. 📝  
   - Push updates to repositories following best practices—use clear commit
   messages and logical folder structures ✅  
 
-- **Handle Pull Requests**  
+- **Handle Pull Requests**
   - Create pull requests (PRs) to propose changes. 📤  
   - Address PR feedback constructively and apply updates. 💬  
 

@@ -51,4 +51,5 @@
 
 ## ![indoor](../assets/scope.png)  Internal: Voluntary
 
-<img style="display: block; width : 500px;float : right;  border-radius : 30%" alt = "blablab" src="../assets/internal-voluntary-constraints.png"/>
+<img style="display: block; width : 500px;float : right;  border-radius : 30%"
+ alt = "blablab" src="../assets/internal-voluntary-constraints.png"/>

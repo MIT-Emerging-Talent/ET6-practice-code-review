@@ -5,12 +5,15 @@ Created on: 03 01 25
 @author: MD Jubayer Khan
 
 """
+
 import unittest
 import sys
 import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from fixed_password_checker import password_checker
+
 
 class Test_fixed_password(unittest.TestCase):
     """

@@ -23,4 +23,3 @@ Review teammates' solutions and await feedback on yours.
 **Celebrate Your Efforts**:
 Treat yourself when your code is approved and merged—or
 just because you’re awesome! 🎉
-

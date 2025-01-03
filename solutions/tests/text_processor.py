@@ -1,8 +1,8 @@
 """
-text_processor module
+This module provides functions to process texts and convert them in different ways.
 
 Created on: 04/01/2025
-@author: Your Name
+@author: Thilakan Jegatheeswaran
 """
 
 

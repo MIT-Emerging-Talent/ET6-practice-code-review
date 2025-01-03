@@ -51,19 +51,20 @@ ______________________________________________________________________
 
 ### Availability for calling/messaging 💬
 
-| Day       | Monday | Tuesday | Wednesday | Thursday | Friday |Saturday | Sunday|
-|-----------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------:|
-| Salem     |10:00-15:00|12:00-14:00|10:00-15:00 |10:00-15:00 |On demand|13:00-17:00|10:00-15:00|
-| Nagham   | ✔️|✔️|✔️|✔️ |✔️|✔️|✔️|
-| Nelson   | ||| ||||
-| Matvi   | ||| ||||
+#### "✅" means "Available at any time"
+| Name              | Monday         | Tuesday         | Wednesday       | Thursday     | Friday          | Saturday   | Sunday        | Timezone         |
+|-------------------|----------------|-----------------|-----------------|--------------|-----------------|------------|---------------|------------------|
+| *Nagham al baba*| ✅              | ✅               | ✅               | ✅            | ✅               | ✅          | ✅             | After 4:00 EET   |
+| *Salem Amassi*  | ✅              | ✅               | ✅               | 10:00–01:00   | ✅               | 13:00–15:00   | Not available | EET (Palestine)  |
+| *Matvii Morozov*| 12:00–15:00    | 12:00–15:00     | 12:00–15:00     | ✅            | 12:00–15:00     | ✅          | ✅             | GMT+2            |
+| *Nelson Fodjo*  | 18:00–20:00    | 18:00–20:00     | 18:00–20:00     | 18:00–20:00  | 18:00–20:00     |18:00–20:00 | 18:00–20:00   | WAT (GMT+1)      |
 
 ### How many hours everyone has per day⌚
 
 - Salem: _3-5h_;
 - Nagham: _5h_;
-- Nilson: _nh_;
-- Matvii: _nh_;
+- Nilson: _3h_;
+- Matvii: _4h_;
 
 ## Asking for Help
 

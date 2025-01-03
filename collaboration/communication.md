@@ -4,9 +4,9 @@ ______________________________________________________________________
 
 ## Communication Schedule
 
-| Day       | How  | The topic of discussion |
+| Day | How | The topic of discussion |
 |-----------|------|-------------------------|
-|           |      |                         |
+| | | |
 
 ## Communication Channels
 
@@ -25,8 +25,8 @@ ______________________________________________________________________
 
 | Name/Day | Sunday | Monday | Tuesday | Wednesday| Thursday | Friday | Saturday|
 |--------------|--------|---------|----------|----------|--------|-------|------|
-| Malak Battatt| 4-7 PM| 4-7 PM | 4-7 PM  | 4-7 PM |      |     |        |
-| Abdulrahman Alsir| 7-9PM| 2-5PM | 4-8PM  | 7-9PM | 7-9PM | 6-8PM | 6-8PM |
+| Malak Battatt| 4-7 PM| 4-7 PM | 4-7 PM | 4-7 PM | | | |
+| Abdulrahman Alsir| 7-9PM| 2-5PM | 4-8PM | 7-9PM | 7-9PM | 6-8PM | 6-8PM |
 | Maher Assaf | 4-7PM| 4-7PM | 6-7PM | 7-8PM | 7-9PM | 6-8PM | 6-8PM |
 | Maria Roufail | 4-7PM| 4-7PM | 6-7PM | 7-8PM | 7-9PM | 6-8PM | 6-8PM |
 | Muhannad Assaf | 4-7PM| 4-7PM | 6-7PM | 7-8PM | 7-9PM | 6-8PM | 6-8PM |

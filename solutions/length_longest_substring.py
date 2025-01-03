@@ -43,4 +43,6 @@ def length_longest_substring(s: str) -> int:
     # Iterate through each character to find substrings
     for char in s:
         if char in current:
-            pass
+            # Remove characters until the repeating one is eliminated
+            while char in current:
+                current = current[1:]

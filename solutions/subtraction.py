@@ -33,6 +33,10 @@ def subtract(*args):
     Example:
     >>> subtract(10, 2, 3)
     5
+    >>> subtract(11, 3, 6)
+    2
+    >>> subtract(14, 3, 6)
+    5
 
     """
     if not args:

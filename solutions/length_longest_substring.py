@@ -47,7 +47,7 @@ def length_longest_substring(s: str) -> int:
             while char in current:
                 current = current[1:]
 
-    current += char  # Expand the substring with the current character
-    longest = max(longest, len(current))  # Update longest if needed
+        current += char  # Expand the substring with the current character
+        longest = max(longest, len(current))  # Update longest if needed
 
     return longest

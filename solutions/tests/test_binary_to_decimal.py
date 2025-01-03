@@ -5,7 +5,7 @@
 
 import unittest
 
-from binary_to_decimal import binary_to_decimal
+from solutions.binary_to_decimal import binary_to_decimal
 
 
 class TestBinaryToDecimal(unittest.TestCase):

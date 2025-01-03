@@ -28,5 +28,4 @@ def binary_to_decimal(binary_str: str) -> int:
         raise ValueError("Input must not be empty.")
     if not all(char in "01" for char in binary_str):
         raise ValueError("Input must only contain '0' and '1'.")
-
     return int(binary_str, 2)

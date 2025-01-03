@@ -71,13 +71,13 @@ ______________________________________________________________________
 ### Daily availability in hours
 
 - Sukhrob: _5h_;
-- Yuri: _6h_;
+- Yuri: _4h_;
 - Olumide: _4h_;
 - Alemayehu: _4h_;
 - Dmytro: _3h-6h_;
 - Henry: _4h-6h_;
 - Khadija: _5h_;
-- Manezhah: _3h_;
+- Manezhah: _4h_;
 - Mithchell: _3h_;
 - Mykyta: _3h_;
 

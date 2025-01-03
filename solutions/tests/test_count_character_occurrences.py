@@ -53,19 +53,19 @@ class TestCharacterOccurrences(unittest.TestCase):
         """It should raise TypeError with a specific message when the input is not a string"""
         with self.assertRaises(AssertionError) as context:
             count_character_occurrences("california", 4)
-        self.assertEqual(str(context.exception), "Second parameter can't be a number")
+        self.assertEqual(str(context.exception), "Second parameter must be a character")
 
     def test_text_as_number(self):
         """It should raise TypeError with a specific message when the text is a number"""
         with self.assertRaises(AssertionError) as context:
             count_character_occurrences(223, "i")
-        self.assertEqual(str(context.exception), "First parameter can't be a number")
+        self.assertEqual(str(context.exception), "First parameter must be a string")
 
     def test_both_parameters_are_number(self):
         """It should raise TypeError with a specific message when the parameters are a number"""
         with self.assertRaises(AssertionError) as context:
             count_character_occurrences(223, 2)
-        self.assertEqual(str(context.exception), "First parameter can't be a number")
+        self.assertEqual(str(context.exception), "First parameter must be a string")
 
     def test_char_as_str(self):
         """It should raise ValueError with a specific message when the input is a number."""

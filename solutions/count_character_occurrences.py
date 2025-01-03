@@ -21,6 +21,7 @@ def count_character_occurrences(text: str, char: str = None) -> int | str:
 
     Raises:
     ValueError: If the char parameter is not a single character.
+    AssertionError: If the parameters are different data type
 
     Examples:
     >>> count_character_occurrences("pacific", "i")
@@ -33,8 +34,8 @@ def count_character_occurrences(text: str, char: str = None) -> int | str:
     if char is None:
         return text
 
-    assert isinstance(text, str), "First parameter can't be a number"
-    assert isinstance(char, str), "Second parameter can't be a number"
+    assert isinstance(text, str), "First parameter must be a string"
+    assert isinstance(char, str), "Second parameter must be a character"
 
     if len(text) == 0:
         return 0

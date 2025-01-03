@@ -34,5 +34,13 @@ def length_longest_substring(s: str) -> int:
     1
     """
 
+    # Track the length of the longest substring without repeating characters
     longest = 0
+
+    # Store the substring being evaluated
     current = ""
+
+    # Iterate through each character to find substrings
+    for char in s:
+        if char in current:
+            pass

@@ -34,6 +34,12 @@ class TestFindMinMax(unittest.TestCase):
         expected = (-1, 10)
         self.assertEqual(actual, expected)
 
+    def test_decimal_numbers(self):
+        """It should return (0.5526, 0.765)"""
+        actual = find_min_max([0.765, 0.651, 0.5526, 0.653])
+        expected = (0.5526, 0.765)
+        self.assertEqual(actual, expected)
+
     def test_single_element(self):
         """It should return (7, 7)"""
         actual = find_min_max([7])

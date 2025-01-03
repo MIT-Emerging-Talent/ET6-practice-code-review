@@ -33,7 +33,7 @@ def calculate_mean(numbers: List[float]) -> Optional[float]:
         >>> calculate_mean([])
 
         >>> calculate_mean([float('inf'), 1, 2])
-        float('inf')
+        inf
     """
     if not isinstance(numbers, list):
         raise TypeError("Input must be a list.")

@@ -80,6 +80,3 @@ def binary_to_decimal(binary):
         binary = binary[1:]
 
     return decimal
-
-
-print(binary_to_decimal(0))

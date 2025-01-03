@@ -40,9 +40,7 @@ class TestGetListSum(unittest.TestCase):
     def test_empty_input_list(self):
         """Tests with an empty input list."""
         with patch("builtins.input", side_effect=[]):
-            with self.assertRaises(
-                IndexError
-            ):  # Adjust based on your get_list_sum implementation
+            with self.assertRaises(IndexError):
                 get_list_sum(0)
 
     def test_positive_numbers(self):

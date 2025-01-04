@@ -5,9 +5,9 @@ Test module for is_unique function.
 Contains tests for standard cases, edge cases, and defensive checks.
 
 Test categories:
-    - Standard cases: typical strings.
-    - Edge cases: empty string, single character.
-    - Defensive tests: wrong input types, assertions.
+    - Standard cases: typical strings, single character, numbers in strings.
+    - Edge cases: case-sensitivity, non-alphanumeric characters, single and multi spaces.
+    - Defensive tests: wrong input types, empty string, NONE, assertions.
 
 Created on 2025-01-01
 Author: Ava Abdullah
@@ -33,13 +33,9 @@ class TestIsUnique(unittest.TestCase):
         """It should return True for a string with a single character."""
         self.assertTrue(is_unique("a"))
 
-    def test_empty_string(self):
-        """It should return True for an empty string."""
-        self.assertTrue(is_unique(""))
-
-    def test_space_character(self):
-        """It should return True for a string with a single space."""
-        self.assertTrue(is_unique(" "))
+    def test_numbers(self):
+        """It should handle numbers in strings"""
+        self.assertFalse(is_unique("548222"))
 
     # Edge cases
     def test_mixed_cases(self):
@@ -49,6 +45,14 @@ class TestIsUnique(unittest.TestCase):
     def test_special_characters(self):
         """It should return True for a string with special characters."""
         self.assertTrue(is_unique("!@#$%^&*()"))
+
+    def test_multi_space_character(self):
+        """It should handle white spaces"""
+        self.assertFalse(is_unique("  "))
+
+    def test_single_space_character(self):
+        """It should return True for a string with a single space."""
+        self.assertTrue(is_unique(" "))
 
     # Defensive tests
     def test_not_string_input(self):

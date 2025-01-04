@@ -5,10 +5,8 @@ It raises appropriate errors for invalid input types or empty strings.
 @author: May Mon Thant
 """
 
-from typing import Optional
 
-
-def string_sort(input_string: str) -> Optional[str]:
+def string_sort(input_string: str) -> str:
     """Sort the characters in the input string alphabetically.
 
     Args:

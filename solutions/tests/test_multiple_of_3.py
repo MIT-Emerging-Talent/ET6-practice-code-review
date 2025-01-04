@@ -4,7 +4,7 @@
 """
 test_multiple_of_3.py
 
-This module tests the multiple_of_3 function 
+This module tests the multiple_of_3 function
 Created on Jan 3, 2024
 
 @author: Meklit Gebregiorgis

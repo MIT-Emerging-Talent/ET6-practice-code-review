@@ -35,6 +35,9 @@ def filter_list(lst):
 
     Returns -> list: a new list with strings removed
 
+     Raises:
+        TypeError: If the input is not a list or contains invalid types (not int or str).
+
     >>> filter_list([1, 2, 'a', 'b'])
     [1, 2]
     >>> filter_list([1, 'a', 'b', 0, 15])
@@ -42,6 +45,16 @@ def filter_list(lst):
     >>> filter_list([1, 2, 'hussein', '1', '123', 123])
     [1, 2, 123]
     """
+    # Defensive assertion: Ensure input is a list
+    if not isinstance(lst, list):
+        raise TypeError("Input must be a list containing integers and strings.")
+
+    # Defensive assertion: Ensure all elements in the list are either int or str
+    if not all(isinstance(item, (int, str)) for item in lst):
+        raise TypeError("List elements must be integers or strings.")
+
+    # Initialize an empty list to hold filtered integers
+
     filtered_list = []  # Initialize an empty list
 
     for item in lst:

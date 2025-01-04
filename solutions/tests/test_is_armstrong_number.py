@@ -106,7 +106,7 @@ class TestIsArmstrongNumber(unittest.TestCase):
     def test_non_integer_input_boolean(self):
         """Tests if TypeError is raised for boolean input."""
         with self.assertRaises(TypeError):
-            is_armstrong_number(True)
+            is_armstrong_number(False)
 
     def test_negative_input(self):
         """Tests if TypeError is raised for negative input."""

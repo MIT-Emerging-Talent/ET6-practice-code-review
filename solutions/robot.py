@@ -22,7 +22,7 @@ def robot_move(cell, rows, cols, memo) -> int:
 
     Parameters:
         cell: a tuple made of two elements refers to the current location
-        inside the grid
+        inside the grid - immutable, can be used as a key for dicts
         rows: The number of rows in the grid.
         cols: The number of columns in the grid.
         memo: a dictionary to save answers for memoization
@@ -30,12 +30,16 @@ def robot_move(cell, rows, cols, memo) -> int:
     Returns -> The number of unique paths from the top-left corner
     to the bottom-right corner.
     """
+    # if the cell is stored in the memo dict we return it
     if memo.get(cell):
         return memo.get(cell)
+    # if the cell is directly perpendicular to target, there's only one road
     if cell[1] >= cols - 1 or cell[0] >= rows - 1:
         return 1
+    # otherwise, there's two  roads to take, the answer is the sum of both
     memo[cell] = robot_move((cell[0] + 1, cell[1]), rows, cols, memo) + \
             robot_move((cell[0], cell[1] + 1), rows, cols, memo)
+    # we save the answer in the memo for future referance and return it
     return memo[cell]
 
 
@@ -64,10 +68,10 @@ def robot(rows: int, cols: int) -> int:
     """
     # assert the values of rows and clos and make sure they are ints and
     # greater than 1
-    assert isinstance(rows, int) and rows > 1, "Rows variables has to \
-            be an integer greater than 1"
-    assert isinstance(cols, int) and cols > 1, "Cols variable has to be \
-            greater than 1"
+    assert isinstance(rows, int) and rows > 0, "Rows variables has to \
+            be an integer greater than 0"
+    assert isinstance(cols, int) and cols > 0, "Cols variable has to be \
+            greater than 0"
 
     # use the helper function robot_move to determine the number of paths
     memo = {}

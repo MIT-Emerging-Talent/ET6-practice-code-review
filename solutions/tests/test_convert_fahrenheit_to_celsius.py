@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Unit tests for the count_vowels function.
+Unit tests for the convert_fahrenheit_to_celsius function.
 
 Created on 2024-12-29
 
@@ -48,6 +48,11 @@ class TestConvertFahrenheitToCelsius(unittest.TestCase):
         """It should raise an assertion error for numeric input passed as a string."""
         with self.assertRaises(AssertionError):
             convert_fahrenheit_to_celsius("32")
+
+    def test_empty_input(self):
+        """It should raise an type error for an empty input passed"""
+        with self.assertRaises(TypeError):
+            convert_fahrenheit_to_celsius()
 
 
 if __name__ == "__main__":

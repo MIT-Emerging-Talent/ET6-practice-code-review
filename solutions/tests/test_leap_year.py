@@ -12,6 +12,7 @@ Author: Solara Hamza
 import unittest
 from ..leap_year import leap_year
 
+
 class TestLeapYear(unittest.TestCase):
     """Test suite for the leap_year function."""
 
@@ -20,7 +21,7 @@ class TestLeapYear(unittest.TestCase):
         """It should return True for leap years."""
         self.assertTrue(leap_year(2000))
         self.assertTrue(leap_year(2024))
-        
+
     def test_false_leap_year(self):
         """It should return False for non-leap years."""
         self.assertFalse(leap_year(2025))
@@ -30,7 +31,7 @@ class TestLeapYear(unittest.TestCase):
         """It should return False for non-leap century years."""
         self.assertFalse(leap_year(1900))
         self.assertFalse(leap_year(2100))
-    
+
     def test_century_leap_year(self):
         """It should return True for leap century years."""
         self.assertTrue(leap_year(2000))
@@ -41,15 +42,17 @@ class TestLeapYear(unittest.TestCase):
         """It should raise TypeError for empty input."""
         with self.assertRaises(TypeError):
             leap_year("string")
-            
+# Edge cases
     def test_negative_year(self):
         """It should raise ValueError for negative years."""
         with self.assertRaises(ValueError):
             leap_year(-2000)
-    # Edge cases      
+
     def test_empty_input(self):
         """It should raise TypeError for empty input."""
-        with self.assertRaises(ValueError):
+        with self.assertRaises(TypeError):
             leap_year("")
-if __name__ == '__main__':
+
+
+if __name__ == "__main__":
     unittest.main()

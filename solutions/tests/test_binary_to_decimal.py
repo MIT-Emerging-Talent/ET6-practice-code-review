@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""
+created on 2025-12-29
+@author:Alemayehu-Desta
+
+"""
+
 """Unit tests for the binary_to_decimal module."""
 
 import unittest

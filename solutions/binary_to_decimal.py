@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""
+created on 2025-12-25
+@author: Alemayehu_Desta
+"""
+
 
 def binary_to_decimal(binary_str: str) -> int:
     """Converts a binary string to its decimal equivalent.

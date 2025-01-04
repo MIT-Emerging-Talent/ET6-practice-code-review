@@ -1,6 +1,7 @@
-## Things Explained
 
-### [x] Git
+# Things Explained
+
+## [x] Git
 
 **What it is:**  
 Git is a distributed version control system designed to  

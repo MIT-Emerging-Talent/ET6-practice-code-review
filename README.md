@@ -1,7 +1,3 @@
-Here’s an updated version of your README file with your entry included:
-
----
-
 # California Group
 
 Welcome to **California Group**,

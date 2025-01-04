@@ -14,7 +14,7 @@ Author: Safiya Hash
 """
 
 import unittest
-from solutions.sort import sort
+from solutions.solutions.sort import sort
 
 class TestSort(unittest.TestCase):  # noqa: F821
     """These unittest cases will test the sort function using bubble sort algorithm."""

@@ -7,11 +7,11 @@ created on 2025-12-29
 
 """
 
-"""Unit tests for the binary_to_decimal module."""
-
 import unittest
 
 from solutions.binary_to_decimal import binary_to_decimal
+
+"""Unit tests for the binary_to_decimal module."""
 
 
 class TestBinaryToDecimal(unittest.TestCase):

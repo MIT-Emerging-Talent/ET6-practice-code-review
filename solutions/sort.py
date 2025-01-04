@@ -5,7 +5,7 @@ Module contents:
     - sort: A function to sort a list of integers in ascending order.
 
 Created on 03 January 2025
-@author: Safiya_Hash
+@author: Safiya Hash
 
 """
 

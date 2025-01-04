@@ -13,7 +13,7 @@ Test categories:
     - Large input: lists with a large range of integers (e.g., thousands)
 
 Created on: 03 January 2025
-Author: Safiya_Hash
+Author: Safiya Hash
 """
 
 
@@ -89,5 +89,5 @@ class TestSort(unittest.TestCase):
         )
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     unittest.main()

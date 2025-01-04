@@ -8,6 +8,7 @@ Test categories:
 Created on 2025-01-03
 Author: Solara Hamza
 """
+
 import unittest
 from ..odd_or_even import odd_or_even
 

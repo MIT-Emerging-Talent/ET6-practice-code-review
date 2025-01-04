@@ -6,7 +6,7 @@ odd_or_even: Determines if a number is odd or even.
 
 Created on 2025-01-03
 Author: Solara Hamza
-    """
+"""
 
 
 def odd_or_even(number: int) -> str:

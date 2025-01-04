@@ -6,7 +6,8 @@ Contains tests for standard cases, edge cases, and defensive checks.
 
 Test categories:
     - Standard cases: typical strings, tie cases, single character.
-    - Edge cases: case-sensitivity,
+    - Edge cases: case-sensitivity, spaces, non-alphanumeric, numbers in strings
+
 Created on 2025-01-04
 Author: Ava Abdullah
 """
@@ -30,3 +31,20 @@ class TestMostFrequentCharacter(unittest.TestCase):
     def test_single_character(self):
         """It should return the character itself for a single-character string"""
         self.assertEqual(most_frequent_character("z"), "z")
+
+    # Edge cases
+    def test_mixed_cases(self):
+        """It should distinguish between uppercase and lowercase characters"""
+        self.assertEqual(most_frequent_character("aAAbBB"), "A")
+
+    def test_spaces(self):
+        """It should handle spaces as valid"""
+        self.assertEqual(most_frequent_character("! ab  !"), " ")
+
+    def test_non_alphanumeric_characters(self):
+        """It should handle non-alphanumeric characters"""
+        self.assertEqual(most_frequent_character("!!$$@@!!"), "!")
+
+    def test_numbers(self):
+        """It should handle numbers in strings"""
+        self.assertEqual(most_frequent_character("548222"), "2")

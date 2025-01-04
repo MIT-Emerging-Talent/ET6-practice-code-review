@@ -42,7 +42,8 @@ class TestLeapYear(unittest.TestCase):
         """It should raise TypeError for empty input."""
         with self.assertRaises(TypeError):
             leap_year("string")
-# Edge cases
+
+    # Edge cases
     def test_negative_year(self):
         """It should raise ValueError for negative years."""
         with self.assertRaises(ValueError):

@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-A module for determining whether a given number
+
+A module for determining whether a given number 
 is a subtraction of defined numbers.
 Module contents:
     - subtract: checks if a given integer

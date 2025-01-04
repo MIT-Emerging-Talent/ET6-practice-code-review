@@ -1,10 +1,10 @@
 """
-Unit tests for the subtraction function.
+Unit tests for the subtract function.
 """
 
 import unittest
 
-from solutions.subtract import subtract  # type: ignore
+from subtract import subtract
 
 
 class TestSubtract(unittest.TestCase):  # noqa: F821

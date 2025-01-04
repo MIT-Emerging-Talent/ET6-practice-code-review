@@ -35,6 +35,3 @@ def string_sort(input_string: str) -> str:
         raise ValueError("Input string cannot be empty.")
 
     return "".join(sorted(input_string))
-
-
-print("string_sort module loaded")

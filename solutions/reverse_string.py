@@ -1,3 +1,15 @@
+"""
+This module provides a utility function to reverse strings.
+
+Functions:
+    reverse_string(input_string: str) -> str:
+        Reverses the input string and returns the reversed version.
+
+Exceptions:
+    Raises a TypeError if the input is not a string.
+"""
+
+
 def reverse_string(input_string: str) -> str:
     """
     Reverse the input string and return the reversed version.

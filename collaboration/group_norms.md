@@ -22,8 +22,8 @@
    be openly shared.
    - We will work together to find individual solutions.
    If someone has difficulty understanding an assignment:
-     - They are encouraged to consult the materials
-   shared by Evan and search online for up to one hour.
+     - They are encouraged to consult the materials shared by Evan and search online
+   for up to one hour.
      - If the issue remains unresolved, they should reach out to the team for help.
 
 4. **Timely Communication**

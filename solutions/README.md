@@ -43,7 +43,7 @@ binary search on a sorted list of numbers.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/calculator.git
+   git clone https://github.com/MIT-Emerging-Talent/ET6-foundations-group-12.git
 
 2. Navigate to the project directory:
 

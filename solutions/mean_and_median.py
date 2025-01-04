@@ -1,16 +1,16 @@
 def mean_and_median(values):
   """
-  Functions:
-    Get the mean and median of a sorted list of `values`
+    Calculate the mean and median of a sorted list of values.
 
-  Args:
-    values (iterable of float): A list of numbers
+    Args:
+        values (list of float): A list of numbers.
 
-  Returns:
-    tuple (float, float): The mean and median
+    Returns:
+        tuple (float, float): The mean and median of the list.
 
-  Raises:
+    Raises:
         TypeError: If `values` is not a list.
+        ValueError: If `values` contains non-numeric elements.
     """
   if not isinstance(values, list):
     raise TypeError("Input must be a list.")

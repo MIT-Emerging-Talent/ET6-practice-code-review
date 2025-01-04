@@ -10,7 +10,9 @@ from ..copy_from_file_to_file import copy_file_to_file
 
     Returns ->
     None-The method performs the copying operation but does not return anything
-    Raises: AssertionError
+    Raises: 
+    AssertionError: if the source file does not exist
+    AssertionError: if the source file or destination file is not a txt file
 """
 
 

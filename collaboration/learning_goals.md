@@ -1,12 +1,15 @@
 
-# Objectives  
+# Objectives
 
-## Crucial Skills to Build  
+>In this readme file, we list learning goals on the the team **404s** level and
+**individual  level**
 
-- Master collaborative and independent coding workflows using Git and GitHub tools.🛠️
-- Focus on writing maintainable, thoroughly tested, and well-documented code.📝
+## How to navigate?
 
-## Group Objectives 🌟  
+- [Group Objectives](#group-objectives)
+- [Personal Objectives](#personal-objectives)
+
+## Group Objectives
 
 ### Excel in Git Collaboration 🚀
 
@@ -38,7 +41,7 @@
 - Start coding by writing tests to ensure reliability from the outset.  
 - Collaborate to refine tests, covering edge cases and ensuring comprehensive coverage.
 
-## Personal Objectives 🎯  
+## Personal Objectives
 
 ### Salem's objectives
 
@@ -53,3 +56,5 @@
 ### Nagham's objectives
 
 ### Nilson's objectives
+
+### Matvii's objectives

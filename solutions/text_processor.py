@@ -20,6 +20,9 @@ def count_vowels(text: str) -> int:
     Returns:
         int: The number of vowels in the text.
 
+    Raises:
+        TypeError: If the input is not a string.
+
     Examples:
         >>> count_vowels("hello")
         2
@@ -44,6 +47,9 @@ def reverse_text(text: str) -> str:
     Returns:
         str: The reversed string.
 
+    Raises:
+        TypeError: If the input is not a string.
+
     Examples:
         >>> reverse_text("hello")
         'olleh'
@@ -66,6 +72,9 @@ def to_uppercase(text: str) -> str:
 
     Returns:
         str: The text in uppercase.
+
+    Raises:
+        TypeError: If the input is not a string.
 
     Examples:
         >>> to_uppercase("hello")

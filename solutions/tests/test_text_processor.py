@@ -23,15 +23,27 @@ class TextProcessor:
 
     @staticmethod
     def count_vowels(text: str) -> int:
+        # Defensive assertion to ensure the input is a string
+        if not isinstance(text, str):
+            raise TypeError("Input must be a string")
+
         vowels = "aeiouAEIOU"
         return sum(1 for char in text if char in vowels)
 
     @staticmethod
     def reverse_text(text: str) -> str:
+        # Defensive assertion to ensure the input is a string
+        if not isinstance(text, str):
+            raise TypeError("Input must be a string")
+
         return text[::-1]
 
     @staticmethod
     def to_uppercase(text: str) -> str:
+        # Defensive assertion to ensure the input is a string
+        if not isinstance(text, str):
+            raise TypeError("Input must be a string")
+
         return text.upper()
 
 
@@ -106,6 +118,63 @@ def test_to_uppercase():
     return results
 
 
+# Add tests for non-string inputs and boundary cases
+
+
+def test_non_string_inputs():
+    processor = TextProcessor()
+
+    # Testing invalid non-string inputs
+    invalid_inputs = [123, [1, 2, 3], None, 3.14, {"key": "value"}]
+
+    for input_value in invalid_inputs:
+        try:
+            processor.count_vowels(input_value)
+        except TypeError as e:
+            logging.debug(f"TypeError for count_vowels with {input_value}: {e}")
+
+        try:
+            processor.reverse_text(input_value)
+        except TypeError as e:
+            logging.debug(f"TypeError for reverse_text with {input_value}: {e}")
+
+        try:
+            processor.to_uppercase(input_value)
+        except TypeError as e:
+            logging.debug(f"TypeError for to_uppercase with {input_value}: {e}")
+
+
+def test_boundary_cases():
+    processor = TextProcessor()
+
+    # Test for very long strings (1 million characters)
+    long_string = "a" * 10**6
+    assert (
+        processor.count_vowels(long_string) == 10**6
+    )  # All vowels, so count should be 1 million
+    assert (
+        processor.reverse_text(long_string) == long_string
+    )  # The reverse of a long string of 'a's is the same
+    assert (
+        processor.to_uppercase(long_string) == "A" * 10**6
+    )  # All 'a's should become 'A's
+
+    # Test for special characters
+    special_string = "hello! How are you?"
+    assert processor.count_vowels(special_string) == 7  # Expected vowels count
+    assert processor.reverse_text(special_string) == "?uoy era woH !olleh"
+    assert processor.to_uppercase(special_string) == "HELLO! HOW ARE YOU?"
+
+    # Test for very short strings
+    assert processor.count_vowels("a") == 1  # One vowel
+    assert processor.reverse_text("a") == "a"  # Single character reverse is same
+    assert processor.to_uppercase("a") == "A"  # Uppercase conversion
+
+    assert processor.count_vowels("") == 0  # Empty string
+    assert processor.reverse_text("") == ""  # Empty string
+    assert processor.to_uppercase("") == ""  # Empty string
+
+
 def run_tests():
     """
     Runs all the test functions and returns the results.
@@ -118,6 +187,10 @@ def run_tests():
         "Reverse Text Test Results": test_reverse_text(),
         "Uppercase Conversion Test Results": test_to_uppercase(),
     }
+
+    # Run additional tests
+    test_non_string_inputs()
+    test_boundary_cases()
 
     # Log the results for visibility
     logging.debug(f"Vowel Count Test Results: {results['Vowel Count Test Results']}")

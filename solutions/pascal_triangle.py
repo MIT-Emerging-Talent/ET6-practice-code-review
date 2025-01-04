@@ -3,7 +3,7 @@
 """
 Pascal Triangle Interview Challenge
 
-This script contains a function that generates Pascal's triangle up to the nth row. 
+This script contains a function that generates Pascal's triangle up to the nth row.
 Pascal's triangle is a mathematical concept where each number is the sum of the
 two numbers directly above it. The first and last element in each row is always 1.
 The function returns a list of lists representing the triangle, with each inner list

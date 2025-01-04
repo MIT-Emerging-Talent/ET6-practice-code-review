@@ -23,6 +23,10 @@ class TestSumOddNumbers(unittest.TestCase):
         """It should return 25"""
         self.assertEqual(sum_odd_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9]), 25)
 
+    def test_negative_valid_list(self):
+        """It should return -138"""
+        self.assertEqual(sum_odd_numbers([10, -7, 3, 4, -51, 6, 7, -99, 9]), -138)
+
     def test_only_odd_numbers(self):
         """It should return 133"""
         self.assertEqual(sum_odd_numbers([3, 11, 7, 21, 91]), 133)

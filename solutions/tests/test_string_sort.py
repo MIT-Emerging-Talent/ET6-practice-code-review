@@ -1,4 +1,5 @@
-"""Unit tests for the `string_sort` function in the `string_sort` module.
+"""
+Unit tests for the `string_sort` function in the `string_sort` module.
 
 These tests cover:
 - Normal functionality
@@ -8,12 +9,9 @@ These tests cover:
 @author: May Mon Thant
 """
 
-import sys
 import unittest
-from pathlib import Path
 
-sys.path.append(str(Path(__file__).resolve().parents[2]))
-from solutions.string_sort import string_sort
+from string_sort import string_sort
 
 
 class TestStringSort(unittest.TestCase):

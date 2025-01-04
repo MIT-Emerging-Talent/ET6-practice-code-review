@@ -28,3 +28,6 @@ documentation, testing, and writing clean, readable code.
 
 MD Jubayer Khan: My goal is to grow as a versatile developer
 by mastering multiple technologies and frameworks.
+
+May Mon : My goal is learn and grow together with these team members.
+To share something we know and learn from each other to reach our goals.

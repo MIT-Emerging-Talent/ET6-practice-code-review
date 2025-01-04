@@ -38,7 +38,8 @@ def is_armstrong_number(n: int) -> bool:
         False
     """
     # the number should be an integer greater than 0
-    assert n >= 0, "n must be non-negative"
+    if n < 0:
+        raise AssertionError("n must be non-negative")
     if not isinstance(n, int):
         raise TypeError("n must be an integer")
 

@@ -7,8 +7,8 @@ import os
     - .txt file: the file to read the content from
     - .txt file: the file to write the content to
 
-created on 1 Jan 2025 "Happy new year"
-@author: saja abusafia
+    created on 1 Jan 2025 "Happy new year"
+    @author: saja abusafia
 
 """
 
@@ -25,6 +25,9 @@ def copy_file_to_file(source_file, destination_file):
     Returns:
         none-The function performs the copying operation but does not return
         anything
+    Raises:
+        AssertionError: if the source file does not exist
+        AssertionError: if the source or destination file is not a txt file
 
     >>> copy_file_to_file("solutions/source.txt","solutions/destination.txt")
 

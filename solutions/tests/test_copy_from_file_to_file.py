@@ -7,10 +7,9 @@ from ..copy_from_file_to_file import copy_file_to_file
     Parameters:
         source_file (str): the file to read the conent from
         Destination_file(str): the file to add the content to
-
     Returns ->
     None-The method performs the copying operation but does not return anything
-    Raises: 
+    Raises:
     AssertionError: if the source file does not exist
     AssertionError: if the source file or destination file is not a txt file
 """

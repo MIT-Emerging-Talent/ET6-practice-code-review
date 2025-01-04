@@ -9,7 +9,7 @@ Created on: 03 01 25
 """
 
 
-def are_words_same(word1: str, word2: str) -> bool:
+def word_comparator(word1: str, word2: str) -> bool:
     """
     Compares two words by sorting their characters and checking for equality.
 
@@ -20,17 +20,9 @@ def are_words_same(word1: str, word2: str) -> bool:
     Returns:
         bool: True if the sorted characters of both words are the same, False otherwise.
 
-    Examples:
-        >>> are_words_same("listen", "silent")
-        True
-
-        >>> are_words_same("word", "wrdo")
-        True
-
-        >>> are_words_same("hello", "world")
-        False
-
-        >>> are_words_same("", "")
-        True
+    Raises:
+        TypeError: If either input is not a string.
     """
+    if not isinstance(word1, str) or not isinstance(word2, str):
+        raise TypeError("Both inputs must be strings.")
     return sorted(word1) == sorted(word2)

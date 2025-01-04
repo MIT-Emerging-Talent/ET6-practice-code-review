@@ -10,7 +10,9 @@ Parameters:
 
 Returns -> The total number of words in the file.
 
-Raises: AssertionError
+Raises: 
+    AssertionError: if the  file does not exist
+    AssertionError: if the  file is not a .txt file
 """
 
 

@@ -6,7 +6,7 @@ Contains tests for standard cases, edge cases, and defensive checks.
 
 Test categories:
     - Standard cases: typical strings, tie cases, single character.
-
+    - Edge cases: case-sensitivity,
 Created on 2025-01-04
 Author: Ava Abdullah
 """

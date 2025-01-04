@@ -10,7 +10,7 @@ Parameters:
 
 Returns -> The total number of words in the file.
 
-Raises: 
+Raises:
     AssertionError: if the  file does not exist
     AssertionError: if the  file is not a .txt file
 """
@@ -21,15 +21,18 @@ class TestWordCountFromFile(unittest.TestCase):
 
     def test_5(self):
         """This method test if the function returns the correct number"""
-        self.assertEqual(word_count_txt_file("solutions/test_5.txt"), 5)
+        actual = word_count_txt_file("solutions/test_5.txt")
+        self.assertEqual(actual, 5)
 
     def test_empty(self):
         """This method test an empty file"""
-        self.assertEqual(word_count_txt_file("solutions/test_empty.txt"), 0)
+        actual = word_count_txt_file("solutions/test_empty.txt")
+        self.assertEqual(actual, 0)
 
     def test_multiple_lines(self):
         """This method test when a file has multiple lines"""
-        self.assertEqual(word_count_txt_file("solutions/test_multiple.txt"), 10)
+        actual = word_count_txt_file("solutions/test_multiple.txt")
+        self.assertEqual(actual, 10)
 
     def test_file_not_exist(self):
         """This method test when a file has multiple lines"""
@@ -37,6 +40,6 @@ class TestWordCountFromFile(unittest.TestCase):
             word_count_txt_file("not_exist.txt")
 
     def test_not_a_txt_file(self):
-        """It should raise an assertion error if the argument is not an integer"""
+        """It should raise an error if the argument is not an integer"""
         with self.assertRaises(AssertionError):
             word_count_txt_file("test")

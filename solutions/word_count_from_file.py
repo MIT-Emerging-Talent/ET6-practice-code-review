@@ -18,7 +18,6 @@ def word_count_txt_file(file_name) -> int:
 
     Parameters:
         String: file_name (str): the file name to read the content from
-
     Returns:
         int n: The total number of words
     Raises:

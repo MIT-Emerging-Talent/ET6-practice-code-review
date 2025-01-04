@@ -18,15 +18,12 @@
 | Constraint |Type | Description |
 |:------:|:-------:|:-------:|
 |  internet 🛜 |External|Internet is Not always available|
-| Time Zone Differences 🕒|External|it causes scheduling conflicts and slows down progress.|
-
+| Time Zone Differences 🕒|External|It causes conflicts and delays progress|
 
 ### Nilson
 
 | Constraint |Type | Description |
 |:------:|:-------:|:-------:|
-
-
 
 ## ![indoor](../assets/limited-access.png) Internal: Involuntary
 

@@ -22,13 +22,13 @@ def sum_odd_numbers(numbers: list[int]) -> int | None:
     TypeError: If the input is not a list.
 
     Examples:
-    >>> sum_of_odds([1, 2, 3, 4, 5])
+    >>> sum_odd_numbers([1, 2, 3, 4, 5])
     9
-    >>> sum_of_odds([2, 4, 6, 8])
+    >>> sum_odd_numbers([2, 4, 6, 8])
     0
-    >>> sum_of_odds([1, -3, 5, -7])
+    >>> sum_odd_numbers([1, -3, 5, -7])
     -4
-    >>> sum_of_odds([])
+    >>> sum_odd_numbers([])
     0
     """
     if numbers is None:

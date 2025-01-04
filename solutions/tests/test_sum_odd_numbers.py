@@ -27,6 +27,22 @@ class TestSumOddNumbers(unittest.TestCase):
         """It should return -138"""
         self.assertEqual(sum_odd_numbers([10, -7, 3, 4, -51, 6, 7, -99, 9]), -138)
 
+    def test_large_numbers(self):
+        """It should correctly return sum of large odd numbers"""
+        self.assertEqual(
+            sum_odd_numbers(
+                [
+                    10**10,
+                    10**10 + 1,
+                    -(10**10 + 2),
+                    -(10**10 + 3),
+                    10**15 + 4,
+                    10**15 + 5,
+                ]
+            ),
+            1000000000000003,
+        )
+
     def test_only_odd_numbers(self):
         """It should return 133"""
         self.assertEqual(sum_odd_numbers([3, 11, 7, 21, 91]), 133)

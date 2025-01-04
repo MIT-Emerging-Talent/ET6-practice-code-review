@@ -5,8 +5,21 @@ Functions:
     reverse_string(input_string: str) -> str:
         Reverses the input string and returns the reversed version.
 
+        How it works:
+- The module contains a single function, `reverse_string`, which takes a string as input and returns its reversed version.
+- The function performs input validation to ensure the provided input is a string.
+- If the input is valid, the string is reversed using slicing (`[::-1]`) and returned.
+- If the input is not a string, the function raises a `TypeError` with an appropriate error message.
+
+Key Features:
+- Simple and efficient string reversal.
+- Built-in error handling for invalid inputs.
+
 Exceptions:
     Raises a TypeError if the input is not a string.
+
+author : @nada-saad635
+
 """
 
 

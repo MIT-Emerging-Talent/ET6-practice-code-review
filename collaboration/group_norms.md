@@ -17,15 +17,13 @@
 
 3. **Supportive Environment**
 
-   - We will foster an atmosphere where personal challenges that affect  
-   - attendance can be openly shared.
    - We will foster an atmosphere where personal challenges that affect
-   attendance can be openly shared.  
+   attendance can be openly shared.
    - We will work together to find individual solutions.
    If someone has difficulty understanding an assignment:
-     - They are encouraged to consult the materials shared by Evan and search online
+   - They are encouraged to consult the materials shared by Evan and search online
    for up to one hour.
-     - If the issue remains unresolved, they should reach out to the team for help.
+   - If the issue remains unresolved, they should reach out to the team for help.
 
 4. **Timely Communication**
 

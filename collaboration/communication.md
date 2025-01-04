@@ -3,6 +3,13 @@
 
 > In this readme file, we try to list communication-related issues.
 
+## How to navigate this file?
+
+- [Communication Schedule](#communication-schedule)
+- [Communication Channels](#communication-channels)
+- [Availability](#availability)
+- [Asking for Help](#asking-for-help)
+
 ______________________________________________________________________
 
 ## Communication Schedule

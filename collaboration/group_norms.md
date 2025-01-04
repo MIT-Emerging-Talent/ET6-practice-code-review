@@ -34,9 +34,8 @@
 
 5. **Reintegration After Absences**
 
-   - If someone misses a group meeting or task, we
-   will offer helpful suggestions and
-   support to facilitate their reintegration.
+   - If someone misses a group meeting or task, we will offer helpful suggestions
+   and support to facilitate their reintegration.
    - The individual is expected to catch up on missed
    tasks to ensure the team’s progress does not stall.
 

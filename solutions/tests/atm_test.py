@@ -1,4 +1,8 @@
-"""Unit test for the ATM"""
+"""
+Unit test for the ATM
+Created on: 2025/01/02
+By: Fikremichael Mamo
+"""
 
 import unittest
 from atm import show_balance, deposit, withdraw

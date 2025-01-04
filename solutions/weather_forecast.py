@@ -25,13 +25,11 @@ def display_forecast(city):
         print(f"Sorry, we don't have weather data for {city}.")
 
 
-# Main program
 def main():
     print("Welcome to the Weather Forecast System!")
     city = input("Enter the city name: ").strip()
     display_forecast(city)
 
 
-# Run the program
 if __name__ == "__main__":
     main()

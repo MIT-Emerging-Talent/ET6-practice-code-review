@@ -65,11 +65,11 @@ def convert_bin_dec_hex(
     ValueError: All arguments (number, from_base, to_base) must be provided.
     """
 
-    # Validate if all arguments are provided
+    # Validate input to prevent operations with incomplete or invalid data
     if number is None or from_base is None or to_base is None:
         raise ValueError("All arguments (number, from_base, to_base) must be provided.")
 
-    # Validating bases
+    # Restrict conversions to allow only common bases for simplicity
     valid_bases = {2, 10, 16}  # Binary, decimal, and hexadecimal
     if from_base not in valid_bases:
         raise ValueError(
@@ -81,34 +81,37 @@ def convert_bin_dec_hex(
             "Invalid target base. Valid: 2(binary), 10(decimal), and 16(hexadecimal)."
         )
 
-    # Convert the input number to a decimal (base 10) integer
+    # Convert a binary number to decimal by validating and processing its digits
     decimal_number = 0
-    if from_base == 2:  # Binary to decimal
+    if from_base == 2:
         binary_str = str(number)
+        # Convert the number to a string to iterate over each digit
         for digit in binary_str:
             if digit not in "01":  # Check if the digit is a valid binary digit
                 raise ValueError(f"Invalid digit '{digit}' for base {from_base}")
             decimal_number = decimal_number * 2 + int(digit)
-            # Multiply the current decimal number by 2 and add the binary digit
-    elif from_base == 10:  # Decimal to decimal
+            # Convert the binary digit to decimal by doubling the current value and adding the digit
+    # Directly use the decimal number as it is already in base 10
+    elif from_base == 10:
         decimal_number = int(number)
-    elif from_base == 16:  # Hexadecimal to decimal
+    elif from_base == 16:
         hex_str = str(number).upper()
-        hex_digits = "0123456789ABCDEF"  # Valid hexadecimal digits
+        hex_digits = "0123456789ABCDEF"
+        # Define the valid characters for a hexadecimal number, representing digits 0-9 and A-F
         for digit in hex_str:
             if digit not in hex_digits:
                 raise ValueError(f"Invalid digit '{digit}' for base {from_base}")
             decimal_number = decimal_number * 16 + hex_digits.index(digit)
-            # Multiply the current decimal number by 16 and add the hexadecimal digit
+            # Update the decimal value using the base-16 system.
 
-    # Convert the decimal number to the target base
+    # Convert a decimal number to binary by repeatedly dividing it by 2 and recording the remainders
     if to_base == 2:
         if decimal_number == 0:
             return "0"
         binary_number = ""
         while decimal_number > 0:
             binary_number = str(decimal_number % 2) + binary_number
-            # Append the remainder of decimal_number divided by 2 to the binary_number string
+            # Binary = repeatedly dividing the decimal by 2 and appending to the binary_number
             decimal_number //= 2
         return binary_number
     elif to_base == 10:
@@ -120,6 +123,7 @@ def convert_bin_dec_hex(
         hex_digits = "0123456789ABCDEF"
         while decimal_number > 0:
             hex_number = hex_digits[decimal_number % 16] + hex_number
-            # Append the corresponding hex digit
+            # Hexadecimal = hexadecimal by dividing by 16 and adding the hex_number.
             decimal_number //= 16
+            # Divide by 16 and return the hexadecimal result.
         return hex_number

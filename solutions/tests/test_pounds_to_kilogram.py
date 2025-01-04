@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Test module for weight conversion function 
+Test module for weight conversion function
 Specifically from pounds to kilograms
 
 Test categories:
@@ -12,8 +12,10 @@ Test categories:
 Created on 2024-12-30
 Author: Olumide Kolawole
 """
+
 import unittest
-#Error is going to occur because of how we're currently importing modules
+
+# Error is going to occur because of how we're currently importing modules
 from ..weight_conversion import pounds_to_kilograms
 
 
@@ -22,30 +24,30 @@ class TestWeightConversion(unittest.TestCase):
 
     # Standard test cases
     def test_a_base_case_of_zero(self):
-        """ Test conversion of 0 pounds"""
+        """Test conversion of 0 pounds"""
         self.assertEqual(pounds_to_kilograms(0), 0.0)
 
     def test_low_integer_value(self):
-        """ Test conversion of a low integer"""
+        """Test conversion of a low integer"""
         self.assertEqual(pounds_to_kilograms(1), 0.454)
 
     def test_high_integer_value(self):
-        """ Test conversion of a high integer"""
+        """Test conversion of a high integer"""
         self.assertEqual(pounds_to_kilograms(5000), 2267.96)
 
     def test_low_float_number(self):
-        """ Test a low value float number"""
+        """Test a low value float number"""
         self.assertEqual(pounds_to_kilograms(4.861), 2.205)
 
     def test_high_value_float_number(self):
-        """ Test a high value float number"""
+        """Test a high value float number"""
         self.assertEqual(pounds_to_kilograms(317000.668), 143788.967)
 
-#Edge Cases
+    # Edge Cases
 
     def test_a_negative_integer_value(self):
         """Test conversion of a negative integer"""
-        self.assertEqual(pounds_to_kilograms(-2),  -0.907)
+        self.assertEqual(pounds_to_kilograms(-2), -0.907)
 
     def test_negative_float_number(self):
         """Test conversion of a negative float number"""
@@ -59,7 +61,7 @@ class TestWeightConversion(unittest.TestCase):
         """Test extremely small number"""
         self.assertEqual(pounds_to_kilograms(0.00002205), 0.0)
 
-#Defensive tests
+    # Defensive tests
 
     def test_input_string(self):
         """It should raise AssertionError for string inputs"""
@@ -75,6 +77,7 @@ class TestWeightConversion(unittest.TestCase):
         """It should raise AssertionError for list of numbers"""
         with self.assertRaises(AssertionError):
             pounds_to_kilograms([1, 2, 3])
+
 
 if __name__ == "__main__":
     unittest.main()

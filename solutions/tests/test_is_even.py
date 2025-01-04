@@ -1,5 +1,11 @@
+"""
+Team Number: 28
+Team Name: MIT Alpha
+Author: Duha Mohammed
+"""
+
 import unittest
-from is_even import is_even
+from ..is_even import is_even
 
 
 class TestIsEven(unittest.TestCase):

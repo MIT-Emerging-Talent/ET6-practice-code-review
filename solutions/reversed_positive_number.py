@@ -5,6 +5,7 @@ A module for reversing the digits of an integer number.
 @date: 01/04/2025.
 """
 
+
 def reversed_positive_number(number: int) -> int:
     """
     Reverses the digits of a givin positive integer.
@@ -20,7 +21,7 @@ def reversed_positive_number(number: int) -> int:
     >>> reversed_positive_number(100)
     1
     """
-    assert isinstance(number, int), 'The argument must be an integer.'
+    assert isinstance(number, int), "The argument must be an integer."
     if number < 0:
-        raise ValueError('The input integer is negative.')
+        raise ValueError("The input integer is negative.")
     return int(str(number)[::-1])

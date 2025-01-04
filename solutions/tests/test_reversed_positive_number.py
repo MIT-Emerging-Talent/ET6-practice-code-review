@@ -1,6 +1,7 @@
 import unittest
 from reversed_number import reversed_number
 
+
 class TestReversedNumber(unittest.TestCase):
     """
     Unit tests for the `reversed_number` function.

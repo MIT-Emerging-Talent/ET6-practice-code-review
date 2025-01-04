@@ -1,52 +1,51 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 """
-    A module for sorting numbers in a list in ascending order using Bubble Sort strategy.
+    A module for sorting numbers in a list in ascending order using Bubble Sort algorithm.
 
 Module contents:
-    - bubble_sort: sorts a list of integers in ascending order.
-    
+    - sort: A function to sort a list of integers in ascending order.
+
 Created on 03 January 2025
 @author: Safiya_Hash
 
 """
 
 
-def bubble_sort(numbers: list[int]) -> list[int]:
-    """The function returns a sorted list of integers from smallest to largest through bubble sort.
+def sort(numbers: list[int]) -> list[int]:
+    """
+    The function takes an list of integers and returns a sorted list of integers from smallest to largest using bubble sort algorithm.
         numbers (list[int]): This is the list of numbers we want to sort
         list[int]: A sorted list of integers from smallest to largest
         numbers == [-float("inf"), 0, float("inf")]
 
-            Parameters:
-            Numbers (int): We will sort numbers list in this integer
-            Numbers (list[int]): this is the list of numbers we want to sort
+    Parameters:
+        Numbers (int): We will sort numbers list in this integer
+        Numbers (list[int]): this is the list of numbers we want to sort
 
-            Returns:
-            List(int): The same list of integers sorted from smallest to largest
+    Returns:
+        List(int): The same list of integers sorted from smallest to largest
 
-            Raises:
-            AssertionError: if the argument is not an integer
-            AssertionError: if the argument is not a list
-            AssertionError: if the list contains a string
-            AssertionError: if the value of integer is a float
+    Raises:
+        AssertionError: if the argument is not an integer
+        AssertionError: if the argument is not a list
+        AssertionError: if the list contains a string
+        AssertionError: if the value of integer is a float
 
     assert isinstance(numbers, list), "integers should be in a list form"
     assert all(isinstance(num, int) for num in numbers), "all list outputs must be integers"
     assert all(not isinstance(num, float) for num in numbers), "int should not be floats"
 
-        >>> bubble_sort([3])
+    Examples:
+        >>> sort([3])
         [3]
-        >>> bubble_sort([1, 2, 3])
+        >>> sort([1, 2, 3])
         [1, 2, 3]
-        >>> bubble_sort([5, 9, 4, 3, 7])
+        >>> sort([5, 9, 4, 3, 7])
         [3, 4, 5, 7, 9]
-        >>> bubble_sort([7, 7, 1, 2, 9])
+        >>> sort([7, 7, 1, 2, 9])
         [1, 2, 7, 7, 9]
-        >>> bubble_sort([6, 8, 4, 2, 10, 25, 19])
+        >>> sort([6, 8, 4, 2, 10, 25, 19])
         [2, 4, 6, 8, 10, 19, 25]
-        >>> bubble_sort([53, 5, 47, -6, -85, 32])
+        >>> sort([53, 5, 47, -6, -85, 32])
         [-85, -6, 5, 32, 47, 53]
     """
     if not isinstance(numbers, list):
@@ -64,6 +63,6 @@ def bubble_sort(numbers: list[int]) -> list[int]:
                 swapped = True
         if not swapped:
             break
-        # Stop iteration if the collection is sorted.
+        # Stop iteration if the list is sorted.
 
     return numbers

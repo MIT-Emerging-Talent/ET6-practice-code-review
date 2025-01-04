@@ -39,7 +39,11 @@ def decimal_to_binary(decimal: int) -> int:
     assert isinstance(decimal, int)
 
     # ensure that the decimal is positive
-    assert decimal > 0
+    assert decimal >= 0
+
+    # Handle the special case where decimal is 0
+    if decimal == 0:
+        return 0
 
     binary_list = []
     binary_num = ""

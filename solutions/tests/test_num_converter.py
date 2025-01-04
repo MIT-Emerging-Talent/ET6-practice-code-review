@@ -3,7 +3,7 @@ A module for testing the functions decimal_to_binary and binary_to_decimal.
 
 Tests included:
     - decimal_to_binary: tested the cases when the input is a positive random number,
-    input is a negative integer, and when the input is a string.
+    input is a negative integer, input is zero, and when the input is a string.
     - binary_to_decimal: tested the cases when the input is a random binary number,
     input is a zero, and when the input is a string.
 
@@ -27,6 +27,14 @@ class TestBinaryDecimalConversion(unittest.TestCase):
         """
         actual = decimal_to_binary(247)
         expected = 11110111
+        self.assertEqual(actual, expected)
+
+    def test_decimal_to_binary_zero(self):
+        """
+        It should return a binary representation of 11110111
+        """
+        actual = decimal_to_binary(0)
+        expected = 0
         self.assertEqual(actual, expected)
 
     def test_decimal_to_binary_string(self):

@@ -15,6 +15,8 @@ from ..copy_from_file_to_file import copy_file_to_file
 
 
 class TestCopyFromFileToFile(unittest.TestCase):
+    """Tests different cases when copying from one file to another"""
+
     def test_des_not_exist(self):
         """This method test if Destination doesn't exist"""
         source_file = "solutions/source.txt"

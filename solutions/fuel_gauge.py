@@ -1,3 +1,6 @@
+"""module calculates the percentage of fuel in a tank and returns a status indicator."""
+
+
 def fuel_gauge(x: int, y: int) -> str:
     """
     Calculates the percentage of fuel in a tank and returns a status indicator.
@@ -7,7 +10,7 @@ def fuel_gauge(x: int, y: int) -> str:
         y (int): Tank capacity (must be > 0).
 
     Returns:
-        str: 
+        str:
             - "F" if percentage >= 90.
             - "E" if percentage <= 10.
             - "M" for all other cases.

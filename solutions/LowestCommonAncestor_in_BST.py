@@ -22,6 +22,9 @@ def lowestCommonAncestor(root: "TreeNode", p: "TreeNode", q: "TreeNode") -> "Tre
     Returns:
         TreeNode: The Lowest Common Ancestor of nodes p and q.
 
+    Raises:
+        ValueError: If any of the inputs (root, p, or q) is None.
+
     Notes:
         - If both p and q are smaller than the current node, the LCA is in the left subtree.
         - If both p and q are larger than the current node, the LCA is in the right subtree.
@@ -54,8 +57,13 @@ def lowestCommonAncestor(root: "TreeNode", p: "TreeNode", q: "TreeNode") -> "Tre
         Input: root = [5,3,8,1,4,7,9,null,2], p = 3, q = 4
         Output: 3
     """
+
+    # Check if root, p, or q are None and raise ValueError if so
+    if root is None or p is None or q is None:
+        raise ValueError("None of the inputs (root, p, q) can be None.")
+
     candidate = root
-    # this tree satisfy BTS properties
+    # this tree satisfies BST properties
     while candidate:
         if p.value > candidate.value and q.value > candidate.value:
             candidate = candidate.right

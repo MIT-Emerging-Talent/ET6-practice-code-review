@@ -9,8 +9,6 @@ Github.*
 I intend to share simple coding challenges from our previous programming classes.
 This will ensure all team members are familiar with the challenges and actively
 participate in solving them, hence meeting my learning objective
-
-<<<<<<< HEAD
 **Bekuretsion-Tadios**
 
 **my Goal**:
@@ -32,8 +30,9 @@ Manage conflicts and merge code without errors.
 
 Use Git workflows to speed up development.
 
-Confidently integrate version control systems.
+Confidently integrate version control systems
 =======
+
 **Taiwo Goals**:
 
 Enhance my ability to communicate openly within a collaborative team setting.
@@ -55,4 +54,3 @@ Enhance my ability to communicate openly within a collaborative team setting.
 *Reflection*: At the end of the project,
 reflect on how well these communication practices were implemented and
 identify areas for further improvement.
->>>>>>> 46799ac7edc9bd52d435e350638d7f67fd5007af

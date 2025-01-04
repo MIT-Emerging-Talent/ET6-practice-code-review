@@ -9,6 +9,7 @@ Created on 03 January 2025
 
 """
 
+
 def sort(numbers: list[int]) -> list[int]:
     """
     The function takes a list of int & sorts it in ascending order using the bubble Sort strategy.

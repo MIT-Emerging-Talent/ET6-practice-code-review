@@ -31,6 +31,15 @@ def sum_odd_numbers(numbers: list[int]) -> int | None:
     >>> sum_of_odds([])
     0
     """
+    if numbers is None:
+        raise TypeError("The function requires a list of integers as an argument.")
+
+    if not isinstance(numbers, list):
+        raise TypeError("Input must be a list of integers")
+
+    if not all(isinstance(num, int) for num in numbers):
+        return None
+
     total = 0
     for num in numbers:
         if num % 2 != 0:

@@ -9,6 +9,7 @@ for various input cases, including boundary and defensive checks.
 import unittest
 from ..palindrome_checker import palindrome_checker
 
+
 class TestPalindromeChecker(unittest.TestCase):
     """Unit tests for the `palindrome_checker` function."""
 
@@ -36,6 +37,7 @@ class TestPalindromeChecker(unittest.TestCase):
     def test_empty_string(self):
         """Test with an empty string as input."""
         self.assertTrue(palindrome_checker(""))
+
 
 if __name__ == "__main__":
     unittest.main()

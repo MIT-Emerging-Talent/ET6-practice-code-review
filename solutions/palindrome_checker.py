@@ -8,6 +8,7 @@ forward and backward, ignoring case and spaces.
 
 from typing import Any
 
+
 def palindrome_checker(word: Any) -> bool:
     """
     Check if a given word or phrase is a palindrome.
@@ -34,9 +35,9 @@ def palindrome_checker(word: Any) -> bool:
     """
     if not isinstance(word, str):
         raise TypeError("Input must be a string.")
-    
+
     # Normalize the word by making it lowercase and removing spaces.
     cleaned_word = word.lower().replace(" ", "")
-    
+
     # Check if the word is the same forward and backward.
     return cleaned_word == cleaned_word[::-1]

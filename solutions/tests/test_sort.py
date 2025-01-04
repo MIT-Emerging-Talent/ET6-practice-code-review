@@ -1,7 +1,7 @@
 """
 Test module for the sort function.
 
-This file includes unittest to verify the correctness of the sort function. 
+This file includes unittest to verify the correctness of the sort function.
 It tests the function with standard cases and edge cases.
 
 Test categories:
@@ -15,6 +15,7 @@ Author: Safiya Hash
 
 import unittest
 from solutions.sort import sort
+
 
 class TestSort(unittest.TestCase):
     """These unittest cases will test the sort function using bubble sort algorithm."""

@@ -122,5 +122,9 @@
       "source.fixAll.ruff": true,
       "source.organizeImports.ruff": true
     }
-  }
+  },
+  "cSpell.words": [
+    "Samir",
+    "Shaifta"
+  ]
 }

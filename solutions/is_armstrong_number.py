@@ -39,7 +39,8 @@ def is_armstrong_number(n: int) -> bool:
     """
     # the number should be an integer greater than 0
     assert n >= 0, "n must be non-negative"
-    assert isinstance(n, int), "n must be an integer"
+    if not isinstance(n, int):
+        raise TypeError("n must be an integer")
 
     # Determine if the number is an Armstrong number
     # by summing the cubes of its digits.

@@ -98,16 +98,6 @@ class TestIsArmstrongNumber(unittest.TestCase):
         """Tests if a 3-digit large n is not an Armstrong number."""
         self.assertFalse(is_armstrong_number(1000))
 
-    def test_negative_input(self):
-        """raise an assertion error if the argument is less than 0"""
-        with self.assertRaises(AssertionError):
-            is_armstrong_number(-1)
-
-    def test_non_integer_input_float(self):
-        """Tests if TypeError is raised for float input."""
-        with self.assertRaises(AssertionError):
-            is_armstrong_number(3.14)
-
     def test_non_integer_input_string(self):
         """Tests if TypeError is raised for string input."""
         with self.assertRaises(TypeError):
@@ -115,8 +105,18 @@ class TestIsArmstrongNumber(unittest.TestCase):
 
     def test_non_integer_input_boolean(self):
         """Tests if TypeError is raised for boolean input."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             is_armstrong_number(True)
+
+    def test_negative_input(self):
+        """Tests if TypeError is raised for negative input."""
+        with self.assertRaises(TypeError):
+            is_armstrong_number(-1)
+
+    def test_non_integer_input_float(self):
+        """Tests if TypeError is raised for float input."""
+        with self.assertRaises(TypeError):
+            is_armstrong_number(3.14)
 
 
 if __name__ == "__main__":

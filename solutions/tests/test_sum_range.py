@@ -27,6 +27,7 @@ from solutions.sum_range import sum_range
 class TestSumRange(unittest.TestCase):
     """Tests for the sum_range function."""
 
+    # Standard test cases
     def test_positive_range(self):
         """Test with a normal positive range."""
         self.assertEqual(sum_range(1, 5), 15)
@@ -35,6 +36,7 @@ class TestSumRange(unittest.TestCase):
         """Test when start > end (reversed input)."""
         self.assertEqual(sum_range(5, 1), 15)
 
+    # Boundary test cases
     def test_single_number(self):
         """Test a range with a single number."""
         self.assertEqual(sum_range(10, 10), 10)
@@ -55,6 +57,7 @@ class TestSumRange(unittest.TestCase):
         """Test with a large range."""
         self.assertEqual(sum_range(100, 1), 5050)
 
+    # Defensive test cases
     def test_float_range(self):
         """Test with a range that includes floats."""
         with self.assertRaises(TypeError):
@@ -71,6 +74,6 @@ class TestSumRange(unittest.TestCase):
             sum_range(1, "5")
 
     def test_error_range(self):
-        """Test with a range that includes a mix of strings and integers."""
+        """Test with a range that includes a mix of float and integers."""
         with self.assertRaises(TypeError):
             sum_range(1, 5.5)

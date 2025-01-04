@@ -25,20 +25,21 @@ def sum_range(start: int, end: int) -> int:
         TypeError: If start or end is not an integer e.g. float, string.
 
     Example:
-    The sum_range function can be used as follows:
 
-    # Calculate the sum of all integers from 1 to 20
-    total = sum_range(1, 20)
-    print(total)  # Output: 210
+    >>>sum_range(1, 20)
+    210
 
-    # Calculate the sum of all integers from -10 to 10
-    total = sum_range(-10, 10)
-    print(total)  # Output: 0
+    >>>sum_range(-10, 10)
+    0
 
-    # Calculate the sum of all integers from 10 to 1
-    total = sum_range(10, 1)
-    print(total)  # Output: 55
+    >>>sum_range(10, 1)
+    55
 
+    >>>sum_range(5, 5)
+    5
+
+    >>>sum_range(100, 10000)
+    50005000
     """
     # Check if start and end are integers
     if not isinstance(start, int) or not isinstance(end, int):

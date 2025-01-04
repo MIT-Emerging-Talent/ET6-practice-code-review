@@ -7,6 +7,7 @@ Contains tests for standard cases, edge cases, and defensive checks.
 Test categories:
     - Standard cases: typical strings, tie cases, single character.
     - Edge cases: case-sensitivity, spaces, non-alphanumeric, numbers in strings
+    - Defensive tests: wrong input types, empty string, NONE, assertions.
 
 Created on 2025-01-04
 Author: Ava Abdullah
@@ -48,3 +49,19 @@ class TestMostFrequentCharacter(unittest.TestCase):
     def test_numbers(self):
         """It should handle numbers in strings"""
         self.assertEqual(most_frequent_character("548222"), "2")
+
+    # Defensive tests
+    def test_not_string_input(self):
+        """It should raise AssertionError for non-string input."""
+        with self.assertRaises(AssertionError):
+            most_frequent_character(123)
+
+    def test_none_input(self):
+        """It should raise AssertionError for None input"""
+        with self.assertRaises(AssertionError):
+            most_frequent_character(None)
+
+    def test_empty_string(self):
+        """It should raise AssertionError for an empty string"""
+        with self.assertRaises(AssertionError):
+            most_frequent_character("")

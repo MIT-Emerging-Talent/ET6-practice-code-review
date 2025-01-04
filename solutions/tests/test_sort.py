@@ -16,7 +16,7 @@ Author: Safiya Hash
 import unittest
 from solutions.sort import sort
 
-class TestSort(unittest.TestCase):  # noqa: F821
+class TestSort(unittest.TestCase):
     """These unittest cases will test the sort function using bubble sort algorithm."""
 
     def test_empty_list(self):

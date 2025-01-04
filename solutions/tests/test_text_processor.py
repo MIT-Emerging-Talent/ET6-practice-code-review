@@ -1,3 +1,5 @@
+import logging
+
 """
 test_text_processor
 
@@ -9,130 +11,123 @@ Created on: 04/01/2025
 # spell-checker: enable
 """
 
+# Set up logging configuration
+logging.basicConfig(level=logging.DEBUG, format="%(message)s")
 
-def count_vowels(text: str) -> int:
+
+class TextProcessor:
     """
-    Counts the number of vowels (a, e, i, o, u) in the given text.
-
-    Parameters:
-        text (str): The string to analyze.
-
-    Returns:
-        int: The number of vowels in the text.
-
-    Examples:
-        >>> count_vowels("hello")
-        2
-
-        >>> count_vowels("HELLO")
-        2
+    A class to encapsulate text processing functions such as counting vowels,
+    reversing text, and converting text to uppercase.
     """
-    vowels = "aeiouAEIOU"
-    return sum(1 for char in text if char in vowels)
 
+    @staticmethod
+    def count_vowels(text: str) -> int:
+        vowels = "aeiouAEIOU"
+        return sum(1 for char in text if char in vowels)
 
-def reverse_text(text: str) -> str:
-    """
-    Reverses the given text.
+    @staticmethod
+    def reverse_text(text: str) -> str:
+        return text[::-1]
 
-    Parameters:
-        text (str): The string to reverse.
-
-    Returns:
-        str: The reversed string.
-
-    Examples:
-        >>> reverse_text("hello")
-        'olleh'
-
-        >>> reverse_text("Python")
-        'nohtyP'
-    """
-    return text[::-1]
-
-
-def to_uppercase(text: str) -> str:
-    """
-    Converts the given text to uppercase.
-
-    Parameters:
-        text (str): The string to convert.
-
-    Returns:
-        str: The text in uppercase.
-
-    Examples:
-        >>> to_uppercase("hello")
-        'HELLO'
-
-        >>> to_uppercase("Python")
-        'PYTHON'
-    """
-    return text.upper()
+    @staticmethod
+    def to_uppercase(text: str) -> str:
+        return text.upper()
 
 
 def test_count_vowels():
-    """
-    Tests the count_vowels function.
-
-    Returns a list of results:
-        - "hello": 2
-        - "HELLO": 2
-        - "Python": 1
-        - "aeiou": 5
-        - "bcdfg": 0
-    """
-    return [
-        count_vowels("hello"),  # Expected: 2
-        count_vowels("HELLO"),  # Expected: 2
-        count_vowels("Python"),  # Expected: 1
-        count_vowels("aeiou"),  # Expected: 5
-        count_vowels("bcdfg"),  # Expected: 0
+    processor = TextProcessor()
+    results = [
+        processor.count_vowels("hello"),  # Expected: 2
+        processor.count_vowels("HELLO"),  # Expected: 2
+        processor.count_vowels("Python"),  # Expected: 1
+        processor.count_vowels("aeiou"),  # Expected: 5
+        processor.count_vowels("bcdfg"),  # Expected: 0
+        processor.count_vowels("Aeiou"),  # Expected: 5 (case-insensitive)
+        processor.count_vowels(""),  # Expected: 0 (empty string)
     ]
+
+    # Adding assertions to validate results
+    assert results == [
+        2,
+        2,
+        1,
+        5,
+        0,
+        5,
+        0,
+    ], f"Expected [2, 2, 1, 5, 0, 5, 0], but got {results}"
+    return results
 
 
 def test_reverse_text():
-    """
-    Tests the reverse_text function.
-
-    Returns a list of results:
-        - "hello": "olleh"
-        - "Python": "nohtyP"
-        - "12345": "54321"
-        - "": ""
-    """
-    return [
-        reverse_text("hello"),  # Expected: "olleh"
-        reverse_text("Python"),  # Expected: "nohtyP"
-        reverse_text("12345"),  # Expected: "54321"
-        reverse_text(""),  # Expected: ""
+    processor = TextProcessor()
+    results = [
+        processor.reverse_text("hello"),  # Expected: "olleh"
+        processor.reverse_text("Python"),  # Expected: "nohtyP"
+        processor.reverse_text("12345"),  # Expected: "54321"
+        processor.reverse_text(""),  # Expected: ""
+        processor.reverse_text("  "),  # Expected: "  " (whitespace)
+        processor.reverse_text("A!B@C#"),  # Expected: "#C@B!A" (special characters)
     ]
+
+    # Adding assertions to validate results
+    assert results == [
+        "olleh",
+        "nohtyP",
+        "54321",
+        "",
+        "  ",
+        "#C@B!A",
+    ], f"Expected ['olleh', 'nohtyP', '54321', '', '  ', '#C@B!A], but got {results}"
+    return results
 
 
 def test_to_uppercase():
-    """
-    Tests the to_uppercase function.
-
-    Returns a list of results:
-        - "hello": "HELLO"
-        - "Python": "PYTHON"
-        - "12345": "12345"
-        - "!@#$": "!@#$"
-    """
-    return [
-        to_uppercase("hello"),  # Expected: "HELLO"
-        to_uppercase("Python"),  # Expected: "PYTHON"
-        to_uppercase("12345"),  # Expected: "12345"
-        to_uppercase("!@#$"),  # Expected: "!@#$"
+    processor = TextProcessor()
+    results = [
+        processor.to_uppercase("hello"),  # Expected: "HELLO"
+        processor.to_uppercase("Python"),  # Expected: "PYTHON"
+        processor.to_uppercase("12345"),  # Expected: "12345"
+        processor.to_uppercase("!@#$"),  # Expected: "!@#$"
+        processor.to_uppercase("aEiOu"),  # Expected: "AEIOU" (case-insensitive)
+        processor.to_uppercase(" "),  # Expected: " " (whitespace)
     ]
 
+    # Adding assertions to validate results
+    assert results == [
+        "HELLO",
+        "PYTHON",
+        "12345",
+        "!@#$",
+        "AEIOU",
+        " ",
+    ], f"Expected ['HELLO', 'PYTHON', '12345', '!@#$', 'AEIOU', ' '], but got {results}"
+    return results
 
-if __name__ == "__main__":
-    results_vowels = test_count_vowels()
-    results_reverse = test_reverse_text()
-    results_uppercase = test_to_uppercase()
 
-    # Displaying the results (you can inspect these directly or use any assertion testing)
-    print("Vowel Count Test Results:", results_vowels)
-    print("Reverse Text Test Results:", results_reverse)
-    print("Uppercase Conversion Test Results:", results_uppercase)
+def run_tests():
+    """
+    Runs all the test functions and returns the results.
+
+    Returns:
+        dict: A dictionary with the test results.
+    """
+    results = {
+        "Vowel Count Test Results": test_count_vowels(),
+        "Reverse Text Test Results": test_reverse_text(),
+        "Uppercase Conversion Test Results": test_to_uppercase(),
+    }
+
+    # Log the results for visibility
+    logging.debug(f"Vowel Count Test Results: {results['Vowel Count Test Results']}")
+    logging.debug(f"Reverse Text Test Results: {results['Reverse Text Test Results']}")
+    logging.debug(
+        f"Uppercase Conversion Test Results: {results['Uppercase Conversion Test Results']}"
+    )
+
+    return results
+
+
+# Run the tests and log the results
+run_tests()

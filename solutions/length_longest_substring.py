@@ -6,7 +6,7 @@ A module to find the length of the longest substring in a given string without r
 
 Module Contents:
 
-    - length_longest_substring(s: str) -> int:
+    - longest_substring_length(s: str) -> int:
     Finds the length of the longest substring without repeating characters.
 
 Created on: 2025-01-03
@@ -14,7 +14,7 @@ Author: Jola-Moses
 """
 
 
-def length_longest_substring(s: str) -> int:
+def longest_substring_length(s: str) -> int:
     """
     Returns the length of the longest substring without repeating characters.
 
@@ -26,13 +26,13 @@ def length_longest_substring(s: str) -> int:
     Raises:
         AssertionError: if s is not a string
 
-    >>> length_longest_substring("abcabcbb")
+    >>> longest_substring_length("abcabcbb")
     3
 
-    >>> length_longest_substring("abcdef")
+    >>> longest_substring_length("abcdef")
     6
 
-    >>> length_longest_substring("aaaaaa")
+    >>> longest_substring_length("aaaaaa")
     1
     """
 

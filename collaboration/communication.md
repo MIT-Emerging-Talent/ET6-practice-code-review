@@ -1,13 +1,7 @@
-<!--
-    this template is for inspiration, feel free to change it however you like!
-
-    Careful! be sure to protect your privacy when filling out this document
-        everything you write here will be public
-        so share only what you are comfortable sharing online
-        you can share the rest in confidence with you group by another channel
--->
 
 # Communication
+
+> In this readme file, we try to list communication-related issues.
 
 ______________________________________________________________________
 
@@ -47,12 +41,14 @@ ______________________________________________________________________
 
 ### Availability for calling/messaging 💬
 
-#### "✅" means "Available at any time"
+- ✅ means "Available at any time"
+- ❌ means "Not available"
+- 🫡 means "On demand"
 
 | Name| Monday| Tuesday| Wednesday | Thursday | Friday| Saturday| Sunday| Timezone|
 |-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
-| Nagham al baba| ✅ | ✅| ✅ | ✅ | ✅| ✅| ✅| After 4:00 EET   |
-| Salem Amassi | ✅|✅|✅ | 10:00–01:00| ✅| 13:00–15:00 | Not available| EET (Palestine)|
+| Nagham al baba| ✅ | ✅| ✅ | ✅ | ✅| ✅| ✅| After 4:00 EET|
+| Salem Amassi | ✅|🫡|✅ | 10:00–13:00| Evening| 13:00–17:00 |❌ | EET (Palestine)|
 | Matvii Morozov| 12:00–15:00|12:00–15:00| 12:00–15:00| 12:00–15:00| 12:00–15:00|✅|✅|GMT+2|
 |Nelson Fodjo|18:00–20:00|18:00–20:00|18:00–20:00|18:00–20:00|18:00–20:00|18:00–20:00|18:00–20:00|WAT(GMT+1)|
 

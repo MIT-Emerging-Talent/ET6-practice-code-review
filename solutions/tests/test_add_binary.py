@@ -34,6 +34,7 @@ class TestAddBinary(unittest.TestCase):
     Unit tests for the add_binary function.
     """
 
+    # Tests for valid inputs
     def test_basic_case(self):
         """Test addition of two small binary strings."""
         self.assertEqual(add_binary("11", "1"), "100")
@@ -57,36 +58,11 @@ class TestAddBinary(unittest.TestCase):
         expected = "1" + "0" * 10000
         self.assertEqual(add_binary(bin_num1, bin_num2), expected)
 
-    def test_empty_input(self):
-        """Test that a ValueError is raised for empty input strings."""
-        with self.assertRaises(ValueError):
-            add_binary("", "1")
-        with self.assertRaises(ValueError):
-            add_binary("1", "")
-
-    def test_invalid_characters(self):
-        """Test that a ValueError is raised for inputs with non-binary characters."""
-        with self.assertRaises(ValueError):
-            add_binary("102", "1")
-        with self.assertRaises(ValueError):
-            add_binary("11a", "1")
-
-    def test_whitespace_in_input(self):
-        """Test that a ValueError is raised for inputs with leading or trailing spaces."""
-        with self.assertRaises(ValueError):
-            add_binary(" 1010 ", "101")
-        with self.assertRaises(ValueError):
-            add_binary("1010", " 101 ")
-
-    def test_boundary_case_zeros(self):
-        """Test addition of zeros with leading zeros."""
-        self.assertEqual(add_binary("0", "00000"), "0")
-        self.assertEqual(add_binary("000", "0"), "0")
-
     def test_alternating_pattern(self):
         """Test addition of binary strings with alternating patterns."""
         self.assertEqual(add_binary("101010", "010101"), "111111")
 
+    # Tests for boundary cases
     def test_boundary_case_max_length_simple(self):
         """Test addition of maximum-length binary strings with simple patterns."""
         bin_num1 = "1" * 10000
@@ -100,6 +76,46 @@ class TestAddBinary(unittest.TestCase):
         bin_num2 = "01" * 5000
         expected = "1" * 10000
         self.assertEqual(add_binary(bin_num1, bin_num2), expected)
+
+    # Tests for invalid inputs
+    def test_empty_first_input(self):
+        """Test that a ValueError is raised when the first input is empty."""
+        with self.assertRaises(ValueError):
+            add_binary("", "1")
+
+    def test_empty_second_input(self):
+        """Test that a ValueError is raised when the second input is empty."""
+        with self.assertRaises(ValueError):
+            add_binary("1", "")
+
+    def test_invalid_characters_in_first_input(self):
+        """Test that a ValueError is raised when the first input contains non-binary characters."""
+        with self.assertRaises(ValueError):
+            add_binary("102", "1")
+
+    def test_invalid_characters_in_second_input(self):
+        """Test that a ValueError is raised when the second input contains non-binary characters."""
+        with self.assertRaises(ValueError):
+            add_binary("11a", "1")
+
+    def test_whitespace_in_first_input(self):
+        """Test that a ValueError is raised when the first input has leading or trailing spaces."""
+        with self.assertRaises(ValueError):
+            add_binary(" 1010 ", "101")
+
+    def test_whitespace_in_second_input(self):
+        """Test that a ValueError is raised when the second input has leading or trailing spaces."""
+        with self.assertRaises(ValueError):
+            add_binary("1010", " 101 ")
+
+    # Additional edge cases
+    def test_boundary_case_zeros_in_first_input(self):
+        """Test addition when the first input contains zeros with leading zeros."""
+        self.assertEqual(add_binary("0", "00000"), "0")
+
+    def test_boundary_case_zeros_in_second_input(self):
+        """Test addition when the second input contains zeros with leading zeros."""
+        self.assertEqual(add_binary("000", "0"), "0")
 
 
 if __name__ == "__main__":

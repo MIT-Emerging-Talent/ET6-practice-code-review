@@ -10,7 +10,7 @@ Created on Wednesday, 1st January, 2025.
 """
 
 
-def count_digits(number):
+def count_digits(number: int | float | str) -> int:
     """
     The count_digits function counts the number of digits in a given number.
 

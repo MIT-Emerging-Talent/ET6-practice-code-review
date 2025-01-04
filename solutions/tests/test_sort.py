@@ -15,8 +15,6 @@ Author: Safiya Hash
 
 import unittest
 from solutions.sort import sort
-
-
 class TestSort(unittest.TestCase):
     """These unittest cases will test the sort function using bubble sort algorithm."""
 

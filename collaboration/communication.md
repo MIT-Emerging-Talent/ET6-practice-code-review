@@ -61,9 +61,9 @@ ______________________________________________________________________
 | Sukhrob     |12PM-5PM|12PM-5PM |12PM-5PM   | 12PM-5PM |12PM-5PM|12PM-5PM  |12PM-5PM|
 | Yuri        | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
 | Alemayehu   | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
-| Dmytro      | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
-| Henry       | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
-| Khadija     | 12-6PM | 12-6PM  | 12-6PM    | 12-6PM   | 12-6PM | 12-5PM   | 12-5PM |
+| Dmytro      |9AM-3PM |9AM-3PM  |9AM-3PM    |9AM-3PM   |9AM-3PM |12AM-3PM  | 9AM-2PM|
+| Henry       |11AM-3PM|11AM-9PM |11AM-9PM   |11AM-3PM  |11AM-3PM| 8AM-3PM  | 8AM-3PM|
+| Khadija     | 12-6PM | 12-6PM  | 12-6PM    | 12-6PM   | 12-6PM | 12-5PM   |12PM-5PM|
 | Manezhah    | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
 | Mithchell   | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
 | Mykyta      | 4-8PM  | 4-8PM   | 4-8PM     | 4-8PM    | 4-8PM  | 8AM-8PM  | 8AM-8PM|
@@ -71,13 +71,13 @@ ______________________________________________________________________
 ### Daily availability in hours
 
 - Sukhrob: _5h_;
-- Yuri: _6h_;
+- Yuri: _4h_;
 - Olumide: _4h_;
 - Alemayehu: _4h_;
-- Dmytro: _3h_;
-- Henry: _3h_;
+- Dmytro: _3h-6h_;
+- Henry: _4h-6h_;
 - Khadija: _5h_;
-- Manezhah: _3h_;
+- Manezhah: _4h_;
 - Mithchell: _3h_;
 - Mykyta: _3h_;
 

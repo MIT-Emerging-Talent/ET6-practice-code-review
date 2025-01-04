@@ -2,17 +2,18 @@
 
 ## Communication Schedule
 
-| Day        | How              | The topic of discussion            |
-|------------|------------------|------------------------------------|
-| All                  | Slack    | Various discussions  |
-| Sunday  | Zoom/Google Meet    | Introducing ourselves; Discussing Group Norms |
-|(22/12/2024)| | |
-| Tuesday  | Google Meet    | Discussing the Challenges (with a Demo) |
-|(24/12/2024)| | |
-| Friday|Google Meet|Discussing the Collaboration Documents and assigning members|
-|(24/12/2024)| | Discussing the Challenges and working on the repository   |
-| Thursday  | Google Meet    | Discussing the work progress |
-|(02/01/2025)| | |
+| Day        | How              | The topic of discussion                       |
+|------------|------------------|-----------------------------------------------|
+| All        | Slack            | Various discussions                           |
+| Sunday     | Zoom/Google Meet | Introducing ourselves; Discussing Group Norms |
+|(22/12/2024)|                  |                                               |
+| Tuesday    | Google Meet      | Discussing the Challenges (with a Demo)       |
+|(24/12/2024)|                  |                                               |
+| Friday     |Google Meet       | Discussing the Collaboration Documents,       |
+|(27/12/2024)|                  | assigning members, discussing the Challenges, |
+|            |                  | and working on the repository                 |
+| Thursday   | Google Meet      | Discussing the work progress                  |
+|(02/01/2025)|                  |                                               |
 
 ______________________________________________________________________
 
@@ -45,11 +46,11 @@ ______________________________________________________________________
 
 ### Availability for calling/messaging
 <!-- markdownlint-disable MD013 -->
-| Days       | Monday  | Tuesday  | Wednesday  | Thursday  | Friday  | Saturday  | Sunday  |
-|------------|:-------:|:--------:|:----------:|:---------:|:-------:|:---------:|:-------:|
-| Amin Abd Elraheem       | 9am-2pm  | 9am-2pm    | 9am-2pm      | 9am-2pm   | 9am-2pm  | 9am-2pm     | 9am-2pm |
-| Mohamed Saeed     | 9am-3pm| 9am-3pm | 9am-3pm   | 9am-3pm  | 9am-3pm| 9am-3pm  | 9am-3pm|
-|   Name         | ... | ...  | ...    | ...   | ... | ...   | ... |
+| Days                    | Monday  | Tuesday  | Wednesday  | Thursday  | Friday  | Saturday  | Sunday  |
+|-------------------------|:-------:|:--------:|:----------:|:---------:|:-------:|:---------:|:-------:|
+| Amin Abd Elraheem       | 9am-2pm | 9am-2pm  | 9am-2pm    | 9am-2pm   | 9am-2pm | 9am-2pm   | 9am-2pm |
+| Mohamed Saeed           | 9am-3pm | 9am-3pm  | 9am-3pm    | 9am-3pm   | 9am-3pm | 9am-3pm   | 9am-3pm |
+| Name                    | ...     | ...      | ...        | ...       | ...     | ...       | ...     |
 
 ### How many hours everyone has per day
 

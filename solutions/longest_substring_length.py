@@ -38,20 +38,16 @@ def longest_substring_length(s: str) -> int:
 
     assert isinstance(s, str), "s input should be a string"
 
-    # Track the length of the longest substring without repeating characters
     longest = 0
-
-    # Store the substring being evaluated
     current = ""
 
-    # Iterate through each character to find substrings
     for char in s:
         if char in current:
-            # Remove characters until the repeating one is eliminated
+            # Remove repeating characters from the substring
             while char in current:
                 current = current[1:]
 
-        current += char  # Expand the substring with the current character
-        longest = max(longest, len(current))  # Update longest if needed
+        current += char
+        longest = max(longest, len(current))
 
     return longest

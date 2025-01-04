@@ -3,7 +3,7 @@
 """
 Unit tests for the is_palindrome function.
 Created on 2025-01-03
-@author: Your Name
+@author: Mykyta Kondratiev
 """
 
 import unittest

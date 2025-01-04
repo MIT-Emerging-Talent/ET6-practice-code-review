@@ -1,15 +1,16 @@
-"""
-Unit tests for the `string_sort` function in the `string_sort` module.
+"""Unit tests for the `string_sort` function in the `string_sort` module.
 
 These tests cover:
 - Normal functionality
 - Defensive assertions for invalid inputs
 - Boundary cases
+
+@author: May Mon Thant
 """
 
 import sys
-from pathlib import Path
 import unittest
+from pathlib import Path
 
 sys.path.append(str(Path(__file__).resolve().parents[2]))
 from solutions.string_sort import string_sort
@@ -55,6 +56,3 @@ class TestStringSort(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-
-print(sys.path)

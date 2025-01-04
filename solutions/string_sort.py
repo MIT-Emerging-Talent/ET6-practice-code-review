@@ -1,24 +1,23 @@
-"""
-This module provides a function for sorting the characters in a string.
+"""This module provides a function for sorting the characters in a string.
 
-The function sorts all characters in a string alphabetically. It raises
-appropriate errors for invalid input types or empty strings.
+The function sorts all characters in a string alphabetically.
+It raises appropriate errors for invalid input types or empty strings.
+@author: May Mon Thant
 """
 
 from typing import Optional
 
 
 def string_sort(input_string: str) -> Optional[str]:
-    """
-    Sorts the characters in the input string alphabetically.
+    """Sort the characters in the input string alphabetically.
 
     Args:
         input_string (str): The string whose characters are to be sorted.
-                            Must be a non-empty string.
+                           Must be a non-empty string.
 
     Returns:
         Optional[str]: A string containing the characters of `input_string`
-                       sorted alphabetically, or None if the input is empty.
+                      sorted alphabetically, or None if the input is empty.
 
     Raises:
         TypeError: If the input is not a string.

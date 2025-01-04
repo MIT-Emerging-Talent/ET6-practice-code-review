@@ -36,7 +36,7 @@ def decimal_to_binary(decimal: int) -> int:
     """
 
     # validate input type
-    assert isinstance(decimal, int)
+    assert isinstance(decimal, int), "Input must be an integer"
 
     # ensure that the decimal is positive
     assert decimal >= 0

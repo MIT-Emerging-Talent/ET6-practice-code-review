@@ -5,7 +5,6 @@ Test module for Lowest Common Ancestor in Binary Search Tree function.
 """
 
 import unittest
-
 from solutions.LowestCommonAncestor_in_BST import lowestCommonAncestor
 
 
@@ -43,6 +42,7 @@ class TestLowestCommonAncestor(unittest.TestCase):
         self.root.right.right = TreeNode(9)
         self.root.left.left.right = TreeNode(2)
 
+    # Basic cases
     def test_level_1(self):
         """Test LCA of node 3 and node 8 on the same level"""
         p = self.root.left
@@ -52,8 +52,8 @@ class TestLowestCommonAncestor(unittest.TestCase):
 
     def test_different_levels_case_1(self):
         """Test LCA for node 2 and node 9 on different levels"""
-        p = self.root.left.left.right  # Node 2
-        q = self.root.right.right  # Node 9
+        p = self.root.left.left.right
+        q = self.root.right.right
         candidate = lowestCommonAncestor(self.root, p, q)
         self.assertEqual(candidate.value, 5)
 
@@ -85,9 +85,26 @@ class TestLowestCommonAncestor(unittest.TestCase):
         candidate = lowestCommonAncestor(self.root, p, q)
         self.assertEqual(candidate.value, 5)
 
+    # Edge cases
     def test_ancestor_is_the_node_itself(self):
         """Test LCA where the ancestor is one of the nodes itself (3, 4)"""
         p = self.root.left
         q = self.root.left.right
         candidate = lowestCommonAncestor(self.root, p, q)
         self.assertEqual(candidate.value, 3)
+
+    # AssertionError test cases
+    def test_assertion_error_root_none(self):
+        """Test when root is None"""
+        with self.assertRaises(ValueError):
+            lowestCommonAncestor(None, self.root.left, self.root.right)
+
+    def test_assertion_error_p_none(self):
+        """Test when p is None"""
+        with self.assertRaises(ValueError):
+            lowestCommonAncestor(self.root, None, self.root.right)
+
+    def test_assertion_error_q_none(self):
+        """Test when q is None"""
+        with self.assertRaises(ValueError):
+            lowestCommonAncestor(self.root, self.root.left, None)

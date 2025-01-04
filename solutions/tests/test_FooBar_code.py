@@ -1,11 +1,13 @@
 """test module for FooBar_code function"""
+
 import unittest
 
-from FooBar_code import FooBar_code
+from solutions.FooBar_code import FooBar_code
 
 
 class TestFooBar(unittest.TestCase):
-    """ this class to test FooBar_code function """
+    """this class to test FooBar_code function"""
+
     # Edge cases:
     def test_int1(self):
         """check if the input is 1"""

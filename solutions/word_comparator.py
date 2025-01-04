@@ -23,6 +23,8 @@ def word_comparator(word1: str, word2: str) -> bool:
     Raises:
         TypeError: If either input is not a string.
     """
-    if not isinstance(word1, str) or not isinstance(word2, str):
-        raise TypeError("Both inputs must be strings.")
+    if not isinstance(word1, str):
+        raise TypeError("The first input must be a string.")
+    if not isinstance(word2, str):
+        raise TypeError("The second input must be a string.")
     return sorted(word1) == sorted(word2)

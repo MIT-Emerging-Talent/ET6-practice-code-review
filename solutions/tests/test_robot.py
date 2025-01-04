@@ -13,8 +13,10 @@ Test categories:
 import unittest
 from ..robot import robot
 
+
 class TestRobot(unittest.TestCase):
     """Test the robot function"""
+
     # Standard Cases
     def test_base_2x2(self):
         """A basic test with a small grid 2x2"""
@@ -46,7 +48,7 @@ class TestRobot(unittest.TestCase):
         self.assertEqual(robot(10, 10), 48620)
 
     def test_very_large_grid(self):
-        """A test for a very largey grid 20x15"""
+        """A test for a very large grid 20x15"""
         self.assertEqual(robot(20, 15), 818809200)
 
     # Defensive Cases

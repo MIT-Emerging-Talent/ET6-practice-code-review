@@ -37,8 +37,9 @@ def robot_move(cell, rows, cols, memo) -> int:
     if cell[1] >= cols - 1 or cell[0] >= rows - 1:
         return 1
     # otherwise, there's two  roads to take, the answer is the sum of both
-    memo[cell] = robot_move((cell[0] + 1, cell[1]), rows, cols, memo) + \
-            robot_move((cell[0], cell[1] + 1), rows, cols, memo)
+    memo[cell] = robot_move((cell[0] + 1, cell[1]), rows, cols, memo) + robot_move(
+        (cell[0], cell[1] + 1), rows, cols, memo
+    )
     # we save the answer in the memo for future referance and return it
     return memo[cell]
 
@@ -75,8 +76,4 @@ def robot(rows: int, cols: int) -> int:
 
     # use the helper function robot_move to determine the number of paths
     memo = {}
-    return robot_move((0, 0), rows, cols, memo) # (0, 0) is the initial spot
-
-
-if __name__ == "__main__":
-    print(robot(23, 12))
+    return robot_move((0, 0), rows, cols, memo)  # (0, 0) is the initial spot

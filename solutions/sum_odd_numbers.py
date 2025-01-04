@@ -35,7 +35,7 @@ def sum_odd_numbers(numbers: list[int]) -> int | None:
         raise TypeError("The function requires a list of integers as an argument.")
 
     if not isinstance(numbers, list):
-        raise TypeError("Input must be a list of integers")
+        raise TypeError("Input must be a list of integers.")
 
     if not all(isinstance(num, int) for num in numbers):
         return None

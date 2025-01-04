@@ -35,55 +35,27 @@ class TestSumOddNumbers(unittest.TestCase):
         """It should return 0"""
         self.assertEqual(sum_odd_numbers([]), 0)
 
+    def test_not_all_integers(self):
+        """It should return None"""
+        self.assertEqual(sum_odd_numbers([3, "2", 5, 90, 33]), None)
 
-#     def test_empty_second_parameter(self):
-#         """It should raise a value error if second parameter is an empty string"""
-#         with self.assertRaises(ValueError) as context:
-#             count_character_occurrences("Tajikistan", "")
+    def test_no_argument_provided(self):
+        """Test that a TypeError is raised when no arguments are provided."""
+        with self.assertRaises(TypeError) as context:
+            sum_odd_numbers(None)
+        self.assertEqual(
+            str(context.exception),
+            "The function requires a list of integers as an argument.",
+        )
 
-#         self.assertEqual(
-#             str(context.exception), "The char parameter must be a single character."
-#         )
+    def test_argument_is_str(self):
+        """Raises a TypeError when the input is a string."""
+        with self.assertRaises(TypeError) as context:
+            sum_odd_numbers("not a list")
+        self.assertEqual(str(context.exception), "Input must be a list of integers.")
 
-#     def test_empty_first_parameter(self):
-#         """It should return 0 if first parameter is an empty string"""
-#         self.assertEqual(count_character_occurrences("", "i"), 0)
-
-#     def test_char_is_none(self):
-#         """It should return the text if second parameter is not provided"""
-#         self.assertEqual(count_character_occurrences("return me"), "return me")
-
-#     def test_char_as_number(self):
-#         """It should raise TypeError with a specific message when the input is not a string"""
-#         with self.assertRaises(AssertionError) as context:
-#             count_character_occurrences("california", 4)
-#         self.assertEqual(str(context.exception), "Second parameter must be a character")
-
-#     def test_text_as_number(self):
-#         """It should raise TypeError with a specific message when the text is a number"""
-#         with self.assertRaises(AssertionError) as context:
-#             count_character_occurrences(223, "i")
-#         self.assertEqual(str(context.exception), "First parameter must be a string")
-
-#     def test_both_parameters_are_number(self):
-#         """It should raise TypeError with a specific message when the parameters are a number"""
-#         with self.assertRaises(AssertionError) as context:
-#             count_character_occurrences(223, 2)
-#         self.assertEqual(str(context.exception), "First parameter must be a string")
-
-#     def test_char_as_str(self):
-#         """It should raise ValueError with a specific message when the input is a number."""
-#         with self.assertRaises(ValueError) as context:
-#             count_character_occurrences("unittest is fun", "ab")
-
-#         self.assertEqual(
-#             str(context.exception), "The char parameter must be a single character."
-#         )
-
-#     def test_both_are_empty_parameters(self):
-#         """Both parameters are empty strings"""
-#         self.assertEqual(count_character_occurrences("", ""), 0)
-
-
-# if __name__ == "__main__":
-#     unittest.main()
+    def test_argument_is_number(self):
+        """Raises a TypeError when the input is a number."""
+        with self.assertRaises(TypeError) as context:
+            sum_odd_numbers(123)
+        self.assertEqual(str(context.exception), "Input must be a list of integers.")

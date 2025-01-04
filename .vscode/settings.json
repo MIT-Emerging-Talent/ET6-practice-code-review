@@ -3,7 +3,7 @@
   //-------- Editor configuration --------
 
   // Controls auto save of editors that have unsaved changes.: https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save
-  "files.autoSave": "off",
+  "files.autoSave": "onFocusChange",
 
   // Format a file on save. A formatter must be available.
   "editor.formatOnSave": true,
@@ -114,8 +114,13 @@
 
   // Enable/disable update table of contents on save
   "markdown.extension.toc.updateOnSave": false,
-  "cSpell.words": [
-    "Banu",
-    "Ozyilmaz"
-  ]
+
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": true,
+      "source.organizeImports.ruff": true
+    }
+  }
 }

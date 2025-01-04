@@ -11,7 +11,7 @@ Created on XX XX XX
 """
 
 import unittest
-from find_smallest_number import find_smallest_number
+from solutions.find_smallest_number import find_smallest_number
 
 
 class TestFindSmallestNumber(unittest.TestCase):

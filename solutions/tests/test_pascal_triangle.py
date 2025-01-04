@@ -1,3 +1,19 @@
+"""
+Unit tests for the Pascal's Triangle function.
+
+This script contains test cases to verify the correctness of the `pascal_triangle` function.
+The `pascal_triangle` function generates a list of lists representing Pascal's triangle
+up to the nth row.
+
+Test Cases:
+- Test for basic functionality with a small number of rows.
+- Test for edge cases like zero rows or negative input.
+- Test for larger values of `n` to ensure the function works for extensive inputs.
+
+To run the tests, execute this script. The results will indicate whether the function
+passes all test cases.
+"""
+
 import unittest
 
 from solutions.pascal_triangle import pascal_triangle

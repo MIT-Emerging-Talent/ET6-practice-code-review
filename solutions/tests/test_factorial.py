@@ -11,14 +11,9 @@ Created on Jan 5, 2025.
 
 """
 
-import os
-import sys
 import unittest
 
-# Add the parent directory to the sys.path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
-from factorial import factorial
+from ..factorial import factorial
 
 
 class TestFactorial(unittest.TestCase):

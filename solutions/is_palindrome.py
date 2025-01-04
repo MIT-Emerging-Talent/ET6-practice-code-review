@@ -2,33 +2,28 @@
 # -*- coding: utf-8 -*-
 """
 Created on 2025-01-03
-
 @author: Mykyta Kondratiev
 """
 
 
-def is_palindrome(s: str) -> bool:
+def is_palindrome(s: str = "") -> bool:
     """
     Function to check if a string is a palindrome.
-
-    Input: s[str]
-
+    Input: s[str] (optional, default empty string)
     Return: result[bool] True if the string is a palindrome, False otherwise
 
     >>> is_palindrome('racecar')
     True
-
     >>> is_palindrome('hello')
     False
-
     >>> is_palindrome('')
     True
-
     >>> is_palindrome('A man a plan a canal Panama')
     True
-
     >>> is_palindrome('Was it a car or a cat I saw?')
     True
+    >>> is_palindrome()
+    True  # when no argument is passed, assumes empty string
     """
     # Assertions for input validation
     assert s is not None, "Input cannot be None"

@@ -2,9 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Unit tests for the is_palindrome function.
-
 Created on 2025-01-03
-
 @author: Your Name
 """
 
@@ -54,3 +52,7 @@ class TestPalindrome(unittest.TestCase):
         with self.assertRaises(AssertionError) as context:
             is_palindrome(12345)
         self.assertEqual(str(context.exception), "Input should be a string")
+
+    def test_no_argument(self):
+        """It should return True when no argument is given (default empty string)"""
+        self.assertTrue(is_palindrome())

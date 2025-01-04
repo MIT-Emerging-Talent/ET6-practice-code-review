@@ -40,3 +40,30 @@ class TestSubtract(unittest.TestCase):
         actual = subtract(0, 0, 0)
         expected = 0
         self.assertEqual(actual, expected)
+
+    def test_no_arguments(self):
+        """It should return 0 when no arguments are provided."""
+        actual = subtract()
+        expected = 0
+        self.assertEqual(actual, expected)
+
+    def test_single_argument(self):
+        """It should return the single argument when only one is provided."""
+        actual = subtract(10)
+        expected = 10
+        self.assertEqual(actual, expected)
+
+    def test_invalid_input_string(self):
+        """It should raise a TypeError for string input."""
+        with self.assertRaises(TypeError):
+            subtract(10, "string")
+
+    def test_invalid_input_none(self):
+        """It should raise a TypeError for None as an input."""
+        with self.assertRaises(TypeError):
+            subtract(10, None)
+
+    def test_invalid_input_mixed(self):
+        """It should raise a TypeError for mixed valid and invalid inputs."""
+        with self.assertRaises(TypeError):
+            subtract(10, 2, "invalid", 5)

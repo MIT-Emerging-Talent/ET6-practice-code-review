@@ -29,6 +29,8 @@ def subtract(*args):
     Returns:
     int or float: The result obtained after performing the subtraction.
 
+    Raises:
+        TypeError: If any input is not a number.
 
     Example:
     >>> subtract(10, 2, 3)
@@ -39,9 +41,15 @@ def subtract(*args):
     5
 
     """
+    # Defensive assertion: Check if all arguments are numbers
+    if not all(isinstance(arg, (int, float)) for arg in args):
+        raise TypeError("All inputs must be numeric (int or float).")
+
+    # Handle the case where no arguments are provided
     if not args:
         return 0
 
+    # Approach: Start with the first number and subtract the rest in sequence
     total = args[0]
 
     for i in args[1:]:

@@ -27,7 +27,7 @@ class TestRepeatedCharacters(unittest.TestCase):
 
     def test_upper_case(self):
         """Test if will mulltiply upper characters"""
-        self.assertEqual(repeat_characters("BOOM"), "BBOOMM")
+        self.assertEqual(repeat_characters("BOOM"), "BBOOOOMM")
 
     def test_upper_lower_case(self):
         """Test if will mulltiply upper and lower characters"""

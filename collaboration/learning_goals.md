@@ -71,6 +71,46 @@ development process to ensure code reliability and quality.
    - Foster a culture of continuous learning and improvement, encouraging
    the team to grow both technically and professionally through feedback and collaboration.
 
+### Abdul Qader Dost
+
+## 1. Learn Git and GitHub
+
+- Master the fundamentals of version control using Git.
+- Become proficient in using GitHub for collaboration, including creating
+branches, committing changes, and merging pull requests.
+- Understand the use of GitHub issues, pull requests, and project boards for
+project tracking.
+
+## 2. Collaboration and Communication
+
+- Improve communication skills for effective teamwork in a collaborative
+coding environment.
+- Learn how to share progress, ask for help, and provide feedback to
+team members.
+- Foster a collaborative environment through regular check-ins and discussions
+on Slack or GitHub discussions.
+
+## 3. Code Review
+
+- Understand best practices for conducting code reviews.
+- Learn how to give constructive feedback on code while focusing on improving
+the quality and maintainability of the project.
+- Get comfortable reviewing others’ code and making suggestions for improvement.
+
+## 4. Project Management with GitHub
+
+- Use GitHub tools for project management, such as project boards, issues, and milestones.
+- Track progress, manage tasks, and prioritize work within the GitHub repository.
+- Learn how to break down large tasks into smaller, manageable parts and ensure
+deadlines are met.
+
+## 5. Learning Recursion Algorithms
+
+- Understand the concept of recursion and how it applies to problem-solving.
+- Implement common recursive algorithms and troubleshoot recursive logic.
+- Apply recursion to real-world problems and optimize recursive solutions
+where necessary.
+
 ---
 
 *Each team member is encouraged to add their individual goals below to document

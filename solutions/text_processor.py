@@ -27,6 +27,9 @@ def count_vowels(text: str) -> int:
         >>> count_vowels("world")
         1
     """
+    if not isinstance(text, str):
+        raise TypeError("Input must be a string")
+
     vowels = "aeiouAEIOU"
     return sum(1 for char in text if char in vowels)
 
@@ -48,6 +51,9 @@ def reverse_text(text: str) -> str:
         >>> reverse_text("world")
         'dlrow'
     """
+    if not isinstance(text, str):
+        raise TypeError("Input must be a string")
+
     return text[::-1]
 
 
@@ -68,4 +74,7 @@ def to_uppercase(text: str) -> str:
         >>> to_uppercase("world")
         'WORLD'
     """
+    if not isinstance(text, str):
+        raise TypeError("Input must be a string")
+
     return text.upper()

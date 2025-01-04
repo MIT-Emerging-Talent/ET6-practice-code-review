@@ -85,7 +85,7 @@ def binary_to_decimal(binary: int) -> int:
     31
     """
     # validate input type
-    assert isinstance(binary, int)
+    assert isinstance(binary, int), "Input must be an integer"
 
     # Ensure the input is treated as a string
     binary = str(binary)

@@ -1,3 +1,16 @@
+"""
+A module for testing the functions decimal_to_binary and binary_to_decimal.
+
+Tests included:
+    - decimal_to_binary: tested the cases when the input is a positive random number,
+    input is a negative integer, and when the input is a string.
+    - binary_to_decimal: tested the cases when the input is a random binary number,
+    input is a zero, and when the input is a string.
+
+Created on 31 12 24
+@author: Abdallah Alnajjar
+"""
+
 import unittest
 
 from ..num_converter import binary_to_decimal, decimal_to_binary

@@ -4,7 +4,7 @@
 A module for converting binary into decimal and vice versa.
 
 Module contents:
-    - decimal_to_binary: converts a decimal number into its binary representation.
+    - decimal_to_binary: converts a non-negative decimal number into its binary representation.
     - binary_to_decimal: converts a binary number into its decimal representation.
 
 Created on 31 12 24
@@ -12,9 +12,9 @@ Created on 31 12 24
 """
 
 
-def decimal_to_binary(decimal: int):
+def decimal_to_binary(decimal: int) -> int:
     """
-    Converts a decimal number to its binary representation as a string.
+    Converts a decimal number to its binary representation
 
     Parameters:
         decimal_number (int): The decimal number to be converted.
@@ -39,7 +39,7 @@ def decimal_to_binary(decimal: int):
     assert isinstance(decimal, int)
 
     # ensure that the decimal is positive
-    assert decimal >= 0
+    assert decimal > 0
 
     binary_list = []
     binary_num = ""
@@ -53,18 +53,18 @@ def decimal_to_binary(decimal: int):
             binary_list.append(0)
         decimal = decimal / 2
 
-    # Convert digits array to string in correct order
+    # Form the final binary representation
     for num in reversed(binary_list):
         binary_num = binary_num + str(num)
     return int(binary_num)
 
 
-def binary_to_decimal(binary):
+def binary_to_decimal(binary: int) -> int:
     """
     Converts a binary number (as a string or integer) to its decimal representation.
 
     Parameters:
-        binary (str or int): The binary number to convert.
+        binary (int): The binary number to convert.
 
     Returns:
         int: The decimal equivalent of the binary number.
@@ -90,7 +90,7 @@ def binary_to_decimal(binary):
     # ensure that the input contains only zeros and ones
     assert all(char in "01" for char in binary)
 
-    # Start writing the binary representation by iterating over each bit.
+    # Start writing the binary representation.
     for bit in binary:
         decimal += (2 ** (len(binary) - 1)) * int(bit)
         binary = binary[1:]

@@ -7,15 +7,17 @@ odd_or_even: Determines if a number is odd or even.
 Created on 2025-01-03
 Author: Solara Hamza
     """
+
+
 def odd_or_even(number: int) -> str:
     """Determines if a number is odd or even.
-    This function takes a number as input and returns whether the number is odd or even.
-    
+    This function takes a number and returns odd or even.
+
     Parameters:
         number: int, the number to determine if it is odd or even.
-    
+
     Returns -> str: 'odd' if the number is odd, 'even' if the number is even.
-    
+
     Examples:
         >>> odd_or_even(1)
         'odd'
@@ -27,5 +29,5 @@ def odd_or_even(number: int) -> str:
         'even'
     """
     if number % 2 == 0:
-        return 'even'
-    return 'odd'
+        return "even"
+    return "odd"

@@ -95,7 +95,7 @@ def convert_bin_dec_hex(
     elif from_base == 10:
         decimal_number = int(number)
     elif from_base == 16:
-        hex_str = str(number).upper()
+        hex_str = str(number).upper()  # Convert to uppercase for uniformity
         hex_digits = "0123456789ABCDEF"
         # Define the valid characters for a hexadecimal number, representing digits 0-9 and A-F
         for digit in hex_str:
@@ -106,7 +106,7 @@ def convert_bin_dec_hex(
 
     # Convert a decimal number to binary by repeatedly dividing it by 2 and recording the remainders
     if to_base == 2:
-        if decimal_number == 0:
+        if decimal_number == 0:  # Return '0' for zero in binary
             return "0"
         binary_number = ""
         while decimal_number > 0:
@@ -118,7 +118,7 @@ def convert_bin_dec_hex(
         return str(decimal_number)
     elif to_base == 16:
         if decimal_number == 0:
-            return "0"
+            return "0"  # Return '0' for zero in hexadecimal
         hex_number = ""
         hex_digits = "0123456789ABCDEF"
         while decimal_number > 0:

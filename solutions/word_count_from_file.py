@@ -21,6 +21,10 @@ def word_count_txt_file(file_name) -> int:
 
     Returns:
         int n: The total number of words
+    Raises:
+    AssertionError: if the file does not exist
+    AssertionError: if the file is not a .txt file
+
 
     >>> word_count_txt_file("solutions/test_5.txt")
     5

@@ -12,7 +12,7 @@ Created on 03 January 2025
 
 def sort(numbers: list[int]) -> list[int]:
     """
-    The function takes an list of integers and returns a sorted list of integers from smallest to largest using bubble sort algorithm.
+    The function takes a list of int & sorts it in ascending order using the bubble Sort strategy.
         numbers (list[int]): This is the list of numbers we want to sort
         list[int]: A sorted list of integers from smallest to largest
         numbers == [-float("inf"), 0, float("inf")]

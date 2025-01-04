@@ -1,7 +1,3 @@
-import unittest
-
-from solutions.sort import sort
-
 """
 Test module for the sort function.
 
@@ -14,11 +10,12 @@ Test categories:
     - Large input: lists with a large range of integers (e.g., thousands)
 
 Created on: 03 January 2025
-Author: Safiya  Hash
+Author: Safiya Hash
 """
+import unittest
+from solutions.sort import sort
 
-
-class TestSort(unittest.TestCase):
+class TestSort(unittest.TestCase):  # noqa: F821
     """These unittest cases will test the sort function using bubble sort algorithm."""
 
     def test_empty_list(self):

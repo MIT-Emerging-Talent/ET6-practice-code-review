@@ -13,10 +13,10 @@ def FooBar_code(n: int):
     based on their divisibility by 4 and 6.
 
     Parameters:
-      n (int):the last number in the list
+    n (int):the last number in the list
 
     Returns:
-      List containing the sequence with 'Foo', 'Bar', 'FooBar' or numbers
+    List containing the sequence with 'Foo', 'Bar', 'FooBar' or numbers
 
     assertion:
     n must be integer otherwise error

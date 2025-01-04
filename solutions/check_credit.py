@@ -6,7 +6,7 @@ A module for checking if a credit card number is a valid American Express, Maste
 Module contents:
     - check_credit function
 
-Created on 4-Jan-2024
+Created on 4-Jan-2025
 @author: Aung Myin Moe
 """
 

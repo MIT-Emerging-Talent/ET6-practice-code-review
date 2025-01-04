@@ -1,4 +1,4 @@
-"""test module for FooBar_code function"""
+"""Test module for FooBar_code function"""
 
 import unittest
 
@@ -6,45 +6,45 @@ from solutions.FooBar_code import FooBar_code
 
 
 class TestFooBar(unittest.TestCase):
-    """this class to test FooBar_code function"""
+    """This class tests the FooBar_code function"""
 
     # Edge cases:
     def test_int1(self):
-        """check if the input is 1"""
+        """Check if the input is 1"""
         self.assertEqual(FooBar_code(1), [1])
 
     def test_int0(self):
-        """check if the input is 0"""
+        """Check if the input is 0"""
         self.assertEqual(FooBar_code(0), [])
 
     def test_negative_int(self):
-        """check if the input is negative"""
+        """Check if the input is negative"""
         self.assertEqual(FooBar_code(-1), [])
 
     # Standard cases:
     def test_int8(self):
-        """check if the input is 8"""
-        self.assertEqual(FooBar_code(8), [1, 2, 3, "foo", 5, "Bar", 7, "foo"])
+        """Check if the input is 8"""
+        self.assertEqual(FooBar_code(8), [1, 2, 3, "Foo", 5, "Bar", 7, "Foo"])
 
     def test_int12(self):
-        """check if the input is 12"""
+        """Check if the input is 12"""
         self.assertEqual(
-            FooBar_code(12), [1, 2, 3, "foo", 5, "Bar", 7, "foo", 9, 10, 11, "FooBar"]
+            FooBar_code(12), [1, 2, 3, "Foo", 5, "Bar", 7, "Foo", 9, 10, 11, "FooBar"]
         )
 
     def test_is_int(self):
-        """check if the input is large number"""
+        """Check if the input is a large number"""
         self.assertEqual(
             FooBar_code(16),
             [
                 1,
                 2,
                 3,
-                "foo",
+                "Foo",
                 5,
                 "Bar",
                 7,
-                "foo",
+                "Foo",
                 9,
                 10,
                 11,
@@ -52,11 +52,11 @@ class TestFooBar(unittest.TestCase):
                 13,
                 14,
                 15,
-                "foo",
+                "Foo",
             ],
         )
 
-    # defensive cases
+    # Defensive cases:
     def test_string_input(self):
         """It should raise AssertionError for string input"""
         with self.assertRaises(AssertionError):

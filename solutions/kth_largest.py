@@ -1,8 +1,7 @@
 """
 Module for finding the kth largest element in a list.
-This module provides a function to find the kth largest element in a list.
-Given a list of strings `nums` and an integer `k`, each string in `nums`
-represents an integer without leading zeros.
+This module provides a function to find the kth largest element in a list of strings,
+where each string represents an integer without leading zeros.
 
 Created: 04/01/2025
 Team Number: 28
@@ -16,7 +15,7 @@ def kth_largest(nums, k):
     Return the string that represents the kth largest integer in nums.
 
     Parameters:
-        nums (list): A list of strings where each string represents an integer.
+        nums (list): A list of strings where each string represents a positive integer.
         k (int): The position (1-indexed) of the largest element to find.
 
     Returns:
@@ -36,6 +35,9 @@ def kth_largest(nums, k):
     >>> kth_largest(["3", "2", "3", "1", "2", "4", "5", "5", "6"], 9)
     '1'
 
+    >>> kth_largest([], 1)
+    Traceback (most recent call last):
+    IndexError: k must be between 1 and the length of the list
     """
 
     # Ensure the requested position (k) is valid to avoid accessing elements
@@ -44,7 +46,6 @@ def kth_largest(nums, k):
         raise IndexError("k must be between 1 and the length of the list")
 
     # Validate and convert the input list to integers for accurate comparison and sorting
-    # Ensures all inputs are valid integers to enable correct processing
     try:
         nums = sorted([int(num) for num in nums], reverse=True)
     except ValueError as exc:

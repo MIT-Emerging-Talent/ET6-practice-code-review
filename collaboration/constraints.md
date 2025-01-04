@@ -14,19 +14,19 @@
 | Power & internet 🛜 |External| I have limited hours when power is available|
 | Deadlines ❌ |External|I have college deadlines in addition to MET program deadlines|
 
-### Nagham
-
+### Nagham 🐥
 | Constraint |Type | Description |
 |:------:|:-------:|:-------:|
+|  internet 🛜 |External|Internet is Not always available|
+| Time Zone Differences 🕒|External|it causes scheduling conflicts and slows down progress.|
+
 
 ### Nilson
 
 | Constraint |Type | Description |
 |:------:|:-------:|:-------:|
 
-#### Summary
 
-> Summary of External constraints.
 
 ## ![indoor](../assets/limited-access.png) Internal: Involuntary
 

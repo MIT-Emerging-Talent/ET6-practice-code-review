@@ -326,5 +326,7 @@ class TestGameOfLife(unittest.TestCase):
         )  # Ensure generation increased
 
 
-if __name__ == "__main__":
-    unittest.main()
+# Run the tests only if Tkinter is available and the file exists
+if tk is not None:
+    if __name__ == "__main__":
+        unittest.main()

@@ -16,9 +16,12 @@ import sys
 import unittest
 
 # Add the directory containing mirror_words_challenge.py to the module search path
-sys.path.append("C:/Users/pc/.vscode/VS code Files/MIT - Project/ET6-foundations-group-17-main/solutions")
+sys.path.append(
+    "C:/Users/pc/.vscode/VS code Files/MIT - Project/ET6-foundations-group-17-main/solutions"
+)
 
 from mirror_words_challenge import reverse_words
+
 
 class TestReverseWords(unittest.TestCase):
     """Tests for reverse_words function"""
@@ -41,7 +44,6 @@ class TestReverseWords(unittest.TestCase):
         actual = reverse_words("Python is fun")
         expected = "nohtyP si nuf"  # Adjusted to match the correct output
         self.assertEqual(actual, expected)
-
 
     # Edge cases
     def test_empty_sentence(self):
@@ -72,6 +74,7 @@ class TestReverseWords(unittest.TestCase):
         """It should raise TypeError for input with mixed types"""
         with self.assertRaises(TypeError):
             reverse_words(["Hello", "world!"])
+
 
 if __name__ == "__main__":
     unittest.main()

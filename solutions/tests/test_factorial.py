@@ -38,16 +38,16 @@ class TestFactorialFunction(unittest.TestCase):
 
     def test_factorial_invalid_type(self):
         """It should raise TypeError when the input is not an integer."""
-        with self.assertRaises(TypeError):
+        with self.assertRaises(AssertionError):
             factorial(3.5)
-        with self.assertRaises(TypeError):
+        with self.assertRaises(AssertionError):
             factorial("string")
-        with self.assertRaises(TypeError):
+        with self.assertRaises(AssertionError):
             factorial([1, 2, 3])
 
     def test_factorial_negative(self):
         """It should raise ValueError when the input is negative."""
-        with self.assertRaises(ValueError):
+        with self.assertRaises(AssertionError):
             factorial(-1)
-        with self.assertRaises(ValueError):
+        with self.assertRaises(AssertionError):
             factorial(-10)

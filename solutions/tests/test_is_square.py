@@ -7,6 +7,9 @@ Test file code for if the `number is a Square` function.
 This test file verifies the correctness of the `number is a square` function,
 which checks if the number presence is a square number.
 
+Run the tests using the command:
+    python -m unittest solutions/tests/test_is_square.py
+
 """
 
 import unittest

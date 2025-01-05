@@ -28,7 +28,6 @@ def format_phone_number(phone_number: list[int]) -> str:
             - If the input list does not contain exactly 10 integers.
             - If any integer is not in the range of 0 to 9.
 
-
     Examples:
         >>> format_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])
         '(123) 456-7890'

@@ -1,0 +1,99 @@
+Create mirror_words_challenge.py on Challenge/1-Mirror_Words-Aseel AbuKmail branch
+
+---
+name: Mirror Words Challenge
+about: A template PR for code review with a checklist
+---
+
+<!--
+  make this PR easy to find:
+
+  - assign: yourself
+  - link it to the corresponding challenge issue on the project board
+-->
+
+<!-- describe the challenge you will solve -->
+
+## Behavior
+
+Returns a new string where each word is reversed while preserving the word order.
+
+The function should:
+
+- Accept a single string as input.
+- Reverse each word in the sentence while keeping the order of the words intact.
+- Maintain all spaces and punctuation exactly as they appear.
+
+### Files
+
+- [x] The file name describes the function's behavior
+- [x] There is a module docstring in the function file
+- [x] The test file's name matches the function file name -
+  `/tests/test_file_name.py`
+- [x] There is a module docstring in the tests file
+
+### Unit Tests
+
+- [x] The test class has a helpful name in PascalCase
+- [x] The test class has a docstring
+- Every unit test has
+  - [x] A helpful name
+  - [x] A clear docstring
+  - [x] Only one assertion
+  - [x] There is no logic in the unit test
+- [x] All tests pass
+- [x] There are tests for defensive assertions
+- [x] There are tests for boundary cases
+
+### Function Docstring
+
+- [x] The function's behavior is described
+- The function's arguments are described:
+  - [x] Type
+  - [x] Purpose
+  - [x] Other assumptions (eg. if it's a number, what's the expected range?)
+- The return value is described
+  - [x] Type
+  - [x] Other assumptions are documented
+- The defensive assertions are documented using `Raises:`
+  - [x] Each assumption about an argument is checked with an assertion
+  - [x] Each assertion checks for _only one_ assumption about the argument
+- [x] Include 3 or more (passing!) doctests
+
+### The Function
+
+- [x] The function's name describes it's behavior
+- [x] The function's name matches the file name
+- [x] The function has correct type annotations
+- [x] The function is not called in the function file
+
+## Strategy
+
+### Do's
+
+- [x] Variable names help to understand the strategy
+- [x] Any comments are clear and describe the strategy
+- [x] Lines of code are spaced to help show different stages of the strategy
+
+### Don'ts
+
+- [x] The function's strategy _is not_ described in the documentation
+- [x] Comments explain the _strategy_, **not** the _implementation_
+- [x] The function _does not_ have more comments than code
+  - If it does, consider finding a new strategy or a simpler implementation
+
+## Implementation
+
+- [x] The code passes the formatting checks
+- [x] The code passes all Ruff linting checks
+- [x] The code has no (reasonable) Pylint errors
+  - In code review, you can decide when fixing a Pylint error is helpful and
+    when it's too restricting.
+- [x] Variables are named with snake_case
+- [x] Variable names are clear and helpful
+- [x] The code follows the strategy as simply as possible
+- [x] The implementation is as simple as possible given the strategy
+- [x] There are no commented lines of code
+- [] There are no `print` statements anywhere
+- [x] The code includes defensive assertions
+- [x] Defensive assertions include as little logic as possible

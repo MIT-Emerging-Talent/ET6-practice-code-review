@@ -2,7 +2,7 @@
     A module for sorting numbers in a list in ascending order using Bubble Sort algorithm.
 
 Module contents:
-    - sort: A function to sort a list of integers in ascending order.
+    - sort_ascending: A function to sort a list of integers in ascending order.
 
 Created on 03 January 2025
 @author: Safiya Hash
@@ -10,15 +10,11 @@ Created on 03 January 2025
 """
 
 
-def sort(numbers: list[int]) -> list[int]:
+def sort_ascending(numbers: list[int]) -> list[int]:
     """
     The function takes a list of int & sorts it in ascending order using the bubble Sort strategy.
-        numbers (list[int]): This is the list of numbers we want to sort
-        list[int]: A sorted list of integers from smallest to largest
-        numbers == [-float("inf"), 0, float("inf")]
 
     Parameters:
-        Numbers (int): We will sort numbers list in this integer
         Numbers (list[int]): this is the list of numbers we want to sort
 
     Returns:
@@ -35,17 +31,17 @@ def sort(numbers: list[int]) -> list[int]:
     assert all(not isinstance(num, float) for num in numbers), "int should not be floats"
 
     Examples:
-        >>> sort([3])
+        >>> sort_ascending([3])
         [3]
-        >>> sort([1, 2, 3])
+        >>> sort_ascending([1, 2, 3])
         [1, 2, 3]
-        >>> sort([5, 9, 4, 3, 7])
+        >>> sort_ascending([5, 9, 4, 3, 7])
         [3, 4, 5, 7, 9]
-        >>> sort([7, 7, 1, 2, 9])
+        >>> sort_ascending([7, 7, 1, 2, 9])
         [1, 2, 7, 7, 9]
-        >>> sort([6, 8, 4, 2, 10, 25, 19])
+        >>> sort_ascending([6, 8, 4, 2, 10, 25, 19])
         [2, 4, 6, 8, 10, 19, 25]
-        >>> sort([53, 5, 47, -6, -85, 32])
+        >>> sort_ascending([53, 5, 47, -6, -85, 32])
         [-85, -6, 5, 32, 47, 53]
     """
     if not isinstance(numbers, list):

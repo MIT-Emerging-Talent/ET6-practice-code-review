@@ -32,7 +32,7 @@ class TestStringLength(unittest.TestCase):
     def test_long_string(self):
         """It should return 17 for the string 'Python Programming'."""
         actual = string_length("Python Programming")
-        expected = 17
+        expected = 18
         self.assertEqual(actual, expected)
 
     def test_with_numbers(self):
@@ -69,7 +69,7 @@ class TestStringLength(unittest.TestCase):
     def test_unicode_string(self):
         """It should return 10 for unicode string 'héllo würld'."""
         actual = string_length("héllo würld")
-        expected = 10
+        expected = 11
         self.assertEqual(actual, expected)
 
     # Defensive tests

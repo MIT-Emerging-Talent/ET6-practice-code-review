@@ -1,6 +1,7 @@
 import unittest
 from ..sum_digits_of_positive_number import sum_digits_of_positive_number
 
+
 class TestSumDigitsOfPositiveNumber(unittest.TestCase):
     """
     Unit tests for the `sum_digits_of_positive_number` function.

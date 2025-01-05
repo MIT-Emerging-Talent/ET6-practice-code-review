@@ -5,6 +5,7 @@ A module for summing the digits of an integer number.
 @date: 01/04/2025.
 """
 
+
 def sum_digits_of_positive_number(number: int) -> int:
     """
     Sum the digits of an integer number.

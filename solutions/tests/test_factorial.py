@@ -4,7 +4,7 @@
 A module for factorial function
 
 Module contents:
-     to calculate the factorial og input numbers
+     to calculate the factorial of input numbers
 
 Created on 02-01-2025
 @author:Samir Ahmed Shaifta

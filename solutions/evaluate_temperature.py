@@ -42,7 +42,7 @@ def evaluate_temperature(celsius: int) -> str:
     """
 
     assert isinstance(celsius, int), "celsius is not an integer"
-    assert celsius < 50, "celsius is greater than 50"
+    assert celsius <= 50, "celsius is greater than 50"
 
     if celsius < -10:  # temperatures less than -10 are considered freezing.
         return "Freezing"

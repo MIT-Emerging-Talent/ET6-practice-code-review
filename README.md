@@ -35,3 +35,5 @@ We are focusing on ideas, not people, keeping discussion concise and structured 
 Schedule meeting if needed through Slack, preferred time 8 pm EST, share agendas in advance. Use Zoom for group meetings.
 5. Respect and Inclusivity  
 We are listening actively, avoiding interruptions, respecting time, culture and backgrounds.
+6. communication tools
+we are using slack for quick updates meetings schedules for in-depth discussion and GitHub for code reviews.

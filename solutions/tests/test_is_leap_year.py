@@ -53,23 +53,28 @@ class TestLeapYear(unittest.TestCase):
 
     # Defensive tests
     def test_string_input(self):
-        """It should raise AssertionError for a string input"""
-        with self.assertRaises(AssertionError):
+        """It should raise TypeError for a string input"""
+        with self.assertRaises(TypeError):
             is_leap_year("2000")
 
     def test_negative_year(self):
-        """It should raise AssertionError for a negative year"""
-        with self.assertRaises(AssertionError):
+        """It should raise ValueError for a negative year"""
+        with self.assertRaises(ValueError):
             is_leap_year(-4)
 
     def test_none_input(self):
-        """It should raise AssertionError for None input"""
-        with self.assertRaises(AssertionError):
+        """It should raise TypeError for None input"""
+        with self.assertRaises(TypeError):
             is_leap_year(None)
 
+    def test_zero_input(self):
+        """It should raise ValueError for 0 input"""
+        with self.assertRaises(ValueError):
+            is_leap_year(0)
+
     def test_float_input(self):
-        """It should raise AssertionError for a float input"""
-        with self.assertRaises(AssertionError):
+        """It should raise TypeError for a float input"""
+        with self.assertRaises(TypeError):
             is_leap_year(4.5)
 
 

@@ -26,7 +26,7 @@ integers and strings and returns a new list with the strings filtered out.
 # --- after documenting ---
 
 
-def filter_list(lst):
+def filter_list(list: list) -> list:
     """
     Filters out all strings from a list, keeping only non-negative integers.
 
@@ -35,7 +35,7 @@ def filter_list(lst):
 
     Returns -> list: a new list with strings removed
 
-     Raises:
+    Raises:
         TypeError: If the input is not a list or contains invalid types (not int or str).
 
     >>> filter_list([1, 2, 'a', 'b'])

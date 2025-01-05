@@ -1,9 +1,13 @@
+"""
+Unit tests for the cipher function
+"""
+
 import unittest
 
 from solutions.substitution_cipher import cipher
 
 
-class TestCipher(unittest.TestCase):
+class TestSubstitutionCipher(unittest.TestCase):
     """
     testing cipher function
     """

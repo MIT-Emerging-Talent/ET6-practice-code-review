@@ -13,9 +13,14 @@ def cipher(text: str) -> str:
     """
     Parameters:
         text (str): The text to be encrypted.
+        Assumes input consists of alphabetic chars, optionally mixed with non alphabetic chars
+        those would remain unchanged.
+
 
     Returns:
-        str: The encrypted text.
+        str: The encrypted text. only alphabetic characters shifted by 3 positions
+        and non alphabetical values unchanged.
+
 
         >>> cipher("abc")
         'def'
@@ -24,6 +29,7 @@ def cipher(text: str) -> str:
         >>> cipher("Hello!")
         'Khoor!'
     """
+
     shift_value = 3
 
     # Validate that the input is a string.
@@ -46,16 +52,3 @@ def cipher(text: str) -> str:
     # Create a translation table to map characters to their shifted counterparts.
     table = str.maketrans(final_alphabet, final_shifted_alphabet)
     return text.translate(table)
-
-
-if __name__ == "__main__":
-    # Prompt the user for input text.
-    plain_text = input("Enter a word: ").strip()
-
-    # Reprompt the user if the input is empty.
-    while not plain_text:
-        print("Input cannot be empty. Please enter a valid word.")
-        plain_text = input("Enter a word: ").strip()
-
-    # Encrypt the input text and display the result.
-    print(f"Encrypted word: {cipher(plain_text)}")

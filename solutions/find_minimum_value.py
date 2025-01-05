@@ -29,6 +29,7 @@ def find_minimum_value(values: list):
 
     # trunk-ignore(bandit/B101)
     assert isinstance(values, list)  # verifies that 'values' is a list
+
     # trunk-ignore(bandit/B101)
     assert all(
         isinstance(item, (int, float)) for item in values

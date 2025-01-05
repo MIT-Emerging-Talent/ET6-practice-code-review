@@ -19,14 +19,14 @@ integers and strings and returns a new list with the strings filtered out.
 """
 
 # --- before documenting ---
-# def filter_list(lst: list) -> list
+# def filter_list(lst):
 #'return a new list with the strings filtered out'
 
 
 # --- after documenting ---
 
 
-def filter_list(list: list) -> list:
+def filter_list(lst):
     """
     Filters out all strings from a list, keeping only non-negative integers.
 

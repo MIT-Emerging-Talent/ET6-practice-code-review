@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+# -- coding: utf-8 --
 """
 A module for finding the most frequent character in a string.
 
@@ -7,7 +7,7 @@ Module contents:
     - most_frequent_character: takes a string as an argument and returns the most frequent character.
 
 Created on 04 01 25
-@author: Abdallah Alnajjar
+@author: Mohamad Ziadah
 """
 
 

@@ -8,7 +8,7 @@ Tests included:
     - When the input is not a string
 
 Created on 04 01 25
-@author: Abdallah Alnajjar
+@author: Mohamad Ziadah
 """
 
 import unittest

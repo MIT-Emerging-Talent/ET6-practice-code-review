@@ -57,3 +57,10 @@ features, such as addition, subtraction, or other advanced scientific functions.
 following TDD principles.
 - **Documentation**: Comprehensive documentation accompanies the code to ensure
 clarity and usability.
+
+---
+
+We invite you to explore this repository and witness our journey of growth, teamwork,
+and learning through the development of this calculator project.
+
+Thank you for visiting our repository!

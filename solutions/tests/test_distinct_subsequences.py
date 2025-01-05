@@ -26,7 +26,6 @@ class TestCountDistinctSubsequences(unittest.TestCase):
     """Test suite for the count_distinct_subsequences function."""
 
     # Standard cases
-
     def test_matching_subsequence(self):
         """Test matching subsequences in typical strings."""
         s = "rabbbit"
@@ -46,7 +45,6 @@ class TestCountDistinctSubsequences(unittest.TestCase):
         self.assertEqual(count_distinct_subsequences(s, t), 1)
 
     # Edge cases
-
     def test_empty_target(self):
         """Test when the t string is empty (always one way to match)."""
         s = "abc"
@@ -78,7 +76,9 @@ class TestCountDistinctSubsequences(unittest.TestCase):
         s = "a" * 1000
         t = "a" * 10
         result = count_distinct_subsequences(s, t)
-        self.assertGreater(result, 0)  # Ensure it computes without errors
+        self.assertEqual(
+            result, 263409560461970212832400
+        )  # number of ways to choose 10 a's from 1000 a's
 
     # Defensive tests
 

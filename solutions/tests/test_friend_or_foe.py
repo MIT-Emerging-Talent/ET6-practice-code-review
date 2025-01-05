@@ -20,7 +20,7 @@ class TestFriendOrFoe(unittest.TestCase):
         self.assertEqual(result, ["Nimo", "Joan"])
 
     def test_no_friend(self):
-        result = friend(["Ron", "Brian", "Sixisveryfunny", "name4"])
+        result = friend(["Ron", "Brian", "Sixisveryfunny", "namey"])
         print(f"Result for test_no_friend: {result}")
         self.assertEqual(result, [])
 

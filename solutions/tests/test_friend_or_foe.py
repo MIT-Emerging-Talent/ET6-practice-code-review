@@ -10,7 +10,7 @@ Created on 2025-01-04
 Author: Cynthia Wairimu
 """
 import unittest
-from friend_or_foe import friend
+from ..friend_or_foe import friend
 
 
 class TestFriendOrFoe(unittest.TestCase):

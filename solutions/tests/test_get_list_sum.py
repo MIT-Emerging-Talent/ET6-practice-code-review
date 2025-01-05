@@ -44,7 +44,8 @@ class TestGetListSum(unittest.TestCase):
 
     def test_empty_list(self):
         """Tests with an empty input list."""
-        self.assertEqual(get_list_sum([]), 0)
+        with self.assertRaises(TypeError):
+            get_list_sum([])
 
     def test_positive_numbers(self):
         """Tests with positive numbers as input."""

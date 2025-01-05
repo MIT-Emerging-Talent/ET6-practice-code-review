@@ -1,3 +1,24 @@
+"""
+Test suite for the password_generator function.
+
+Test categories:
+    - Standard cases: Tests that check the valid input scenarios for generating passwords.
+        - `test_valid_password_length_small`: Verifies a password of length 4.
+        - `test_valid_password_length_large`: Verifies a password of length 10.
+
+    - Edge cases: Tests that check the boundaries of the valid input range for password length.
+        - `test_password_length_too_small`: Verifies that a password length of 0 or 1 raises an error.
+        - `test_valid_password_length_small`: Verifies the lower boundary of valid input (length 4).
+
+    - Defensive cases: Tests that check for invalid inputs that should raise errors.
+        - `test_empty_string_input`: Verifies that an empty string raises a `ValueError`.
+        - `test_negative_password_length`: Verifies that a negative password length raises a `ValueError`.
+        - `test_non_integer_input`: Verifies that non-integer inputs (like string or float) raise a `ValueError`.
+
+@Author: Mukuna Kabeya
+@date: 2025-01-05
+"""
+
 import unittest
 from solutions.password_generator import password_generator
 

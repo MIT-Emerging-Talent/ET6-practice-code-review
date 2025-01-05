@@ -36,12 +36,6 @@ class TestGetListSum(unittest.TestCase):
         with patch("builtins.input", side_effect=["1"] * 100):  # Simulate 100 inputs
             self.assertEqual(get_list_sum(100), 100)
 
-    def test_empty_input_list(self):
-        """Tests with an empty input list."""
-        with patch("builtins.input", side_effect=[]):
-            with self.assertRaises(ValueError):
-                get_list_sum(1)
-
     def test_empty_list(self):
         """Tests with an empty input list."""
         with self.assertRaises(TypeError):

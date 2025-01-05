@@ -4,8 +4,10 @@
 Test file code for if the `number is a Square` function.
 
 
-"""
+This test file verifies the correctness of the `number is a square` function,
+which checks if the number presence is a square number.
 
+"""
 
 import unittest
 

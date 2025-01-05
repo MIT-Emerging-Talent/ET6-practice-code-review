@@ -47,7 +47,8 @@ def FooBar_code(n: int):
     """
     # Assert an error when n is not an integer
     assert isinstance(n, int), "n must be an integer"
-
+    if not isinstance:
+        assert TypeError
     # Prepare an empty list for the result
     result = []
 

@@ -8,7 +8,7 @@ Created on 03 01 2025
 
 import unittest
 
-from solutions.count_consonants import count_consonants
+from ..count_consonants import count_consonants
 
 
 class TestCountConsonants(unittest.TestCase):

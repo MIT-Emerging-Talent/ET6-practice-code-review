@@ -36,13 +36,8 @@ class TestCountEvenNumbers(unittest.TestCase):
     def test_non_integer_values(self):
         """It should raise an assertion error for non-integer values"""
         with self.assertRaises(AssertionError):
-            count_even_numbers([1, 2, 'three', 4.5])
+            count_even_numbers([1, 2, "three", 4.5])
 
     def test_large_numbers(self):
         """It should correctly count even numbers for large inputs"""
         self.assertEqual(count_even_numbers([10**6, 10**9, 2**10, 2**15, 1]), 4)
-
-
-if __name__ == "__main__":
-    unittest.main()
-    

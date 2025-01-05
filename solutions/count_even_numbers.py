@@ -36,10 +36,7 @@ def count_even_numbers(numbers):
             ...
         AssertionError: All elements in the list must be integers.
     """
-    assert all(isinstance(num, int) for num in numbers), "All elements in the list must be integers."
+    assert all(
+        isinstance(num, int) for num in numbers
+    ), "All elements in the list must be integers."
     return sum(1 for num in numbers if num % 2 == 0)
-
-
-if __name__ == "__main__":
-    import doctest
-    doctest.testmod()

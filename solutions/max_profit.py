@@ -11,15 +11,16 @@ Created on: 2025-01-05
 Author: Jola-Moses
 """
 
-def max_profit(prices: list[int]) -> int:
+def max_profit(prices: list) -> int:
     """
     Returns the maximum profit from as many stock transactions as possible.
 
     Parameters:
-        prices (list[int]): A list of integers representing the stock prices on different days.
+        prices (list): A list of positive integers or floats representing the stock prices 
+                        on different days.
 
     Returns:
-        int: The maximum profit that can be achieved by making as many transactions as possible.
+        int, float: The maximum profit that can be made from as many transactions as possible.
 
     Raises:
         AssertionError: If `prices` is not a list.
@@ -36,8 +37,10 @@ def max_profit(prices: list[int]) -> int:
     """
 
     assert isinstance(prices, list), "Input should be a list."
-    assert all(isinstance(price, (int, float)) for price in prices), "Prices should be numeric."
-    assert all(price >= 0 for price in prices), "Prices should not be negative."
+    assert all(
+        isinstance(price, (int, float)) for price in prices
+    ), "Prices should be integers or floats."
+    assert all(price >= 0 for price in prices), "Prices should be non-negative integers or floats."
 
     maximum_profit = 0
 

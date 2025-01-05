@@ -1,5 +1,3 @@
-import unittest
-from unittest.mock import MagicMock
 import sys
 from pathlib import Path
 
@@ -8,6 +6,10 @@ if not Path("game_of_life.py").exists():
     # If the file doesn't exist, print a message and exit gracefully with success code (0)
     print("Failed to find game_of_life.py. Ensure the file is in the same folder.")
     sys.exit(0)
+
+
+import unittest
+from unittest.mock import MagicMock
 
 # Import the GameOfLife class and the GameConfig configuration
 from game_of_life import GameConfig, GameOfLife

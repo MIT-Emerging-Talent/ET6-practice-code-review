@@ -9,6 +9,7 @@ Author: Cynthia Wairimu
 import unittest
 from ..calculate_bmi import calculate_bmi
 
+
 class TestCalculateBMI(unittest.TestCase):
     """Tests for the calculate_bmi function."""
 
@@ -45,6 +46,7 @@ class TestCalculateBMI(unittest.TestCase):
             calculate_bmi(weight=70, height=0, system="metric")
         with self.assertRaises(ValueError):
             calculate_bmi(weight="seventy", height=1.75, system="metric")
+
 
 if __name__ == "__main__":
     unittest.main()

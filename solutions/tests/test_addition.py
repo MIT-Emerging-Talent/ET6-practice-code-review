@@ -1,4 +1,6 @@
+
 import unittest
+
 from solutions.addition import sum
 
 
@@ -34,3 +36,30 @@ class TestSum(unittest.TestCase):
         actual = sum(0, 0, 0, 0)
         expected = 0
         self.assertEqual(actual, expected)
+
+    def test_sum_single_argument(self):
+        """It should return the single argument when only one is provided."""
+        actual = sum(10)
+        expected = 10
+        self.assertEqual(actual, expected)
+
+    def test_sum_no_arguments(self):
+        """It should return 0 when no arguments are provided."""
+        actual = sum()
+        expected = 0
+        self.assertEqual(actual, expected)
+
+    def test_invalid_input_string(self):
+        """It should raise a TypeError for string input."""
+        with self.assertRaises(TypeError):
+            sum(1, 2, "string", 4)
+
+    def test_invalid_input_none(self):
+        """It should raise a TypeError for None as an input."""
+        with self.assertRaises(TypeError):
+            sum(1, None, 3)
+
+    def test_invalid_input_mixed(self):
+        """It should raise a TypeError for mixed valid and invalid inputs."""
+        with self.assertRaises(TypeError):
+            sum(10, 5, "invalid", 2)

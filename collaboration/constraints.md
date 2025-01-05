@@ -18,6 +18,8 @@
 
 | Constraint |Type | Description |
 |:------:|:-------:|:-------:|
+|  internet 🛜 |External|Internet is Not always available|
+| Time Zone Differences 🕒|External|It causes conflicts and delays progress|
 
 ### Nilson
 

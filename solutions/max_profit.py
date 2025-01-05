@@ -33,12 +33,12 @@ def max_profit(prices: list[int]) -> int:
         0
     """
 
-    max_profit = 0
+    maximum_profit = 0
 
     # Compare each day's price with the previous day's, starting from the second day
     for i in range(1, len(prices)):
         # Add profit if today's price is higher than yesterday's.
         if prices[i] > prices[i - 1]:
-            max_profit += prices[i] - prices[i - 1]
+            maximum_profit += prices[i] - prices[i - 1]
 
-    return max_profit
+    return maximum_profit

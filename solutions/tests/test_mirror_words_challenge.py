@@ -15,13 +15,7 @@ Author: Aseel AbuKmail
 import sys
 import unittest
 
-# Add the directory containing mirror_words_challenge.py to the module search path
-sys.path.append(
-    "C:/Users/pc/.vscode/VS code Files/MIT - Project/ET6-foundations-group-17-main/solutions"
-)
-
-from mirror_words_challenge import reverse_words
-
+from solutions.mirror_words_challenge import reverse_words
 
 class TestReverseWords(unittest.TestCase):
     """Tests for reverse_words function"""

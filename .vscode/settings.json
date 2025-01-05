@@ -117,5 +117,8 @@
   "cSpell.words": ["babad", "cbbd"],
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
-  }
+  },
+  "python.testing.unittestArgs": ["-v", "-s", "./solutions", "-p", "*test.py"],
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": true
 }

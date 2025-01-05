@@ -87,3 +87,13 @@ class TestSortAscending(unittest.TestCase):
             sort_ascending([35236, 555555, 98732145, 100, 7543, 894521, 99991200]),
             [100, 7543, 35236, 555555, 894521, 98732145, 99991200],
         )
+
+    def test_non_int_values_list(self):
+        """It should return a ValueError with non integer values"""
+        with self.assertRaises(ValueError):
+            sort_ascending([1, 2, "a", "b", 5])
+
+    def test_non_list_values(self):
+        """It should return a TypeError with non list values"""
+        with self.assertRaises(TypeError):
+            sort_ascending(123)

@@ -15,21 +15,6 @@ Created on 4-Jan-2025
 def check_credit_card(card_number: str) -> str:
     """Checks if a credit card number is a valid American Express, MasterCard, or Visa card number
 
-    Strategy:
-        1. check the validity of the credit card number
-            - multiply every other digit by 2, starting with second-to-last digit
-            - add those products' digits together
-            - add the sum to the sum of the digits that weren't multiplied by 2
-            - if the total's last digit is 0, number is valid
-
-        2. differentiate the type of credit card based on the structure of its number
-            - American Express
-                - 15 digits, starts with 34 or 37
-            - MasterCard
-                - 16 digits, starts with 51, 52, 53, 54 or 55
-            - Visa
-                - 13 or 16 digits, starts with 4
-
     Args: card_number (str)
         - the credit card number to validate
         - must be a string containing only digits (0-9), with an appropriate length for the card type

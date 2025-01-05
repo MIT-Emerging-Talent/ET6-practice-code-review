@@ -48,9 +48,9 @@ class TestCelsiusToFahrenheit(unittest.TestCase):
         """It should correctly convert very small fractional Celsius values"""
         self.assertAlmostEqual(celsius_to_fahrenheit(0.0001), 32.00018)
 
-    def test_extreme_negative(self):
-        """It should handle extremely large negative temperatures"""
-        self.assertEqual(celsius_to_fahrenheit(-1000000), -1799968.0)
+    def test_absolute_zero(self):
+        """Test the conversion at absolute zero."""
+        self.assertEqual(celsius_to_fahrenheit(-273.15), -459.67)
 
     def test_edge_case_around_freezing(self):
         """It should handle temperatures just below freezing"""
@@ -75,6 +75,11 @@ class TestCelsiusToFahrenheit(unittest.TestCase):
         """It should raise AssertionError for None input"""
         with self.assertRaises(AssertionError):
             celsius_to_fahrenheit(None)
+
+    def test_below_absolute_zero(self):
+        """It should raise AssertionError for temperatures below absolute zero"""
+        with self.assertRaises(AssertionError):
+            celsius_to_fahrenheit(-274)
 
 
 if __name__ == "__main__":

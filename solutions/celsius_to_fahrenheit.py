@@ -25,7 +25,7 @@ def celsius_to_fahrenheit(celsius: int | float) -> int | float:
 
     Raises:
     AssertionError: If the input is not a number or is not a valid temperature.
-
+    AssertionError: If the temperature is below absolute zero (-273.15°C).
 
     >>> celsius_to_fahrenheit(0)
     32.0
@@ -36,8 +36,9 @@ def celsius_to_fahrenheit(celsius: int | float) -> int | float:
     >>> celsius_to_fahrenheit(25.5)
     77.9
     """
-    # Defensive check to ensure the input is a number
+    # Defensive check to ensure the input is a number and not below absolute zero
     assert isinstance(celsius, (int, float)), "Input must be an int or float"
+    assert celsius >= -273.15, "Temperature can't be below absolute zero."
 
     # Convert Celsius to Fahrenheit using the formula
     fahrenheit = (celsius * 9 / 5) + 32

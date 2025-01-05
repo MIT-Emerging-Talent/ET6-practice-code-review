@@ -113,5 +113,17 @@
   },
 
   // Enable/disable update table of contents on save
-  "markdown.extension.toc.updateOnSave": false
+  "markdown.extension.toc.updateOnSave": false,
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    "./solutions",
+    "-p",
+    "*test*.py"
+  ],
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestArgs": [
+    "solutions"
+  ]
 }

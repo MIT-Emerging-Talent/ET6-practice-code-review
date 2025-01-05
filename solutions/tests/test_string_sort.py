@@ -9,17 +9,15 @@ These tests cover:
 @author: May Mon Thant
 """
 
+from solutions.string_sort import string_sort
+import unittest
 import sys
 from pathlib import Path
 
-# noqa: E402 (Ignore import order rule)
 sys.path.append(str(Path(__file__).resolve().parents[2]))
 
-import unittest
 
-from solutions.string_sort import string_sort  # noqa: E402
-
-
+# noqa: E402
 class TestStringSort(unittest.TestCase):
     """Tests for the `string_sort` function."""
 

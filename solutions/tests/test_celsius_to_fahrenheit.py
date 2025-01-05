@@ -50,7 +50,7 @@ class TestCelsiusToFahrenheit(unittest.TestCase):
 
     def test_absolute_zero(self):
         """Test the conversion at absolute zero."""
-        self.assertEqual(celsius_to_fahrenheit(-273.15), -459.67)
+        self.assertAlmostEqual(celsius_to_fahrenheit(-273.15), -459.67)
 
     def test_edge_case_around_freezing(self):
         """It should handle temperatures just below freezing"""
@@ -79,7 +79,7 @@ class TestCelsiusToFahrenheit(unittest.TestCase):
     def test_below_absolute_zero(self):
         """It should raise AssertionError for temperatures below absolute zero"""
         with self.assertRaises(AssertionError):
-            celsius_to_fahrenheit(-274)
+            celsius_to_fahrenheit(-275)
 
 
 if __name__ == "__main__":

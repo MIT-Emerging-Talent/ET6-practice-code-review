@@ -19,35 +19,42 @@ def longest_substring_length(s: str) -> int:
     Returns the length of the longest substring without repeating characters.
 
     Parameters:
-        s: str, the input string for which to find the longest substring
+        s (str): The input string for which to find the longest substring.
+                An empty string is valid input.
 
-    Returns -> int, the length of the longest substring without repeating characters
+    Returns:
+        int: A non-negative integer representing the length of the longest substring
+            without repeating characters.
 
     Raises:
-        AssertionError: if s is not a string
+        AssertionError: If `s` is not a string.
 
-    >>> longest_substring_length("abcabcbb")
-    3
-
-    >>> longest_substring_length("abcdef")
-    6
-
-    >>> longest_substring_length("aaaaaa")
-    1
+    Examples:
+        >>> longest_substring_length("abcabcbb")
+        3
+        >>> longest_substring_length("abcdef")
+        6
+        >>> longest_substring_length("aaaaaa")
+        1
+        >>> longest_substring_length("")
+        0
     """
 
-    assert isinstance(s, str), "s input should be a string"
+    assert isinstance(s, str), "Input should be a string"
 
-    longest = 0
-    current = ""
+    max_length = 0
+    current_substring = ""
 
     for char in s:
-        if char in current:
-            # Remove repeating characters from the substring
-            while char in current:
-                current = current[1:]
+        if char in current_substring:
+            # Remove repeating characters
+            while char in current_substring:
+                current_substring = current_substring[1:]
 
-        current += char
-        longest = max(longest, len(current))
+        # Add the current character to the substring
+        current_substring += char
 
-    return longest
+        # Update max_length
+        max_length = max(max_length, len(current_substring))
+
+    return max_length

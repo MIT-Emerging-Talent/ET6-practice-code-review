@@ -24,6 +24,9 @@ of a number.
 of a 2x2 matrix.
 - **Binary Search (Recursive)** (`binary_search_recursive`): Performs a
 binary search on a sorted list of numbers.
+- **Square** (`square_function`): Calculates the square of a number.
+- **Square root** (`square_root_function`): Calculates the square root of a number.
+- **Multiply** (`multiply-function`): Multiplies two numbers and returns the result.
 
 ### Contributors
 
@@ -37,6 +40,9 @@ binary search on a sorted list of numbers.
 - **Find Min**: Lukmon (NGN)
 - **Inverse of a 2x2 Matrix**: Awaab
 - **Binary Search Algorithm (Recursive)**: Awaab
+- **Square**: Ayodele Ayomide
+- **Square root**: Ayodele Ayomide
+- **Multiply**: Olubusayo Solola
 
 ### How to Use
 
@@ -44,6 +50,7 @@ binary search on a sorted list of numbers.
 
    ```bash
    git clone https://github.com/MIT-Emerging-Talent/ET6-foundations-group-12.git
+   ```
 
 2. Navigate to the project directory:
 

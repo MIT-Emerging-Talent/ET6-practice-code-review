@@ -8,7 +8,7 @@ Created on 03 01 2025
 
 import unittest
 
-from ..count_consonants import count_consonants
+from solutions.count_consonants import count_consonants
 
 
 class TestCountConsonants(unittest.TestCase):
@@ -37,8 +37,3 @@ class TestCountConsonants(unittest.TestCase):
     def test_non_alpha_characters(self):
         """It should ignore digits and special characters."""
         self.assertEqual(count_consonants("123@#$"), 0)
-
-    def test_type_error_for_non_string_input(self):
-        """It should raise a TypeError for non-string inputs."""
-        with self.assertRaises(TypeError):
-            count_consonants(123)

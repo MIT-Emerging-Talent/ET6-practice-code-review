@@ -1,6 +1,3 @@
-import unittest
-from ..reverse_string import reverse_string
-
 """
 Unit tests for the reverse_string function.
 
@@ -11,6 +8,9 @@ It checks the expected behavior for a variety of inputs including:
 - A string with special characters.
 - A string with spaces.
 """
+
+import unittest
+from ..reverse_string import reverse_string
 
 
 class TestReverseString(unittest.TestCase):
@@ -38,12 +38,18 @@ class TestReverseString(unittest.TestCase):
         """Test reversing a string with special characters."""
         self.assertEqual(reverse_string("!@#$"), "$#@!")
 
-    def test_non_string_input(self):
-        """Test that non-string input raises an AssertionError."""
+    def test_integer_input(self):
+        """Test that an integer input raises an AssertionError."""
         with self.assertRaises(AssertionError):
             reverse_string(12345)  # Non-string input: integer
+
+    def test_none_input(self):
+        """Test that a None input raises an AssertionError."""
         with self.assertRaises(AssertionError):
             reverse_string(None)  # Non-string input: NoneType
+
+    def test_list_input(self):
+        """Test that a list input raises an AssertionError."""
         with self.assertRaises(AssertionError):
             reverse_string(["a", "b", "c"])  # Non-string input: list
 

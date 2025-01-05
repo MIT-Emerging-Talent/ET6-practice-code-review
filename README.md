@@ -23,3 +23,10 @@ advanced functions, and more.
 and project boards.
 - Adhere to **test-driven development (TDD)** cycles to ensure robust and reliable
 code.
+
+## Tools and Technologies
+
+- **Programming Language**: Python
+- **Version Control**: Git, integrated with GitHub
+- **Editor**: Visual Studio Code (VS Code) with extensions to enhance productivity
+- **Collaboration**: GitHub issues, pull requests, and project boards

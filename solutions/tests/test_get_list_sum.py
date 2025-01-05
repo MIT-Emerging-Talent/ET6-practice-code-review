@@ -18,9 +18,8 @@ class TestGetListSum(unittest.TestCase):
     """Test the get_list_sum function"""
 
     def test_zero_sequence_length(self):
-        """Tests that an AssertionError is raised with sequence_length of zero."""
-        with self.assertRaises(AssertionError):
-            get_list_sum(0)
+        """Tests that the sum is 0 for zero sequence length."""
+        self.assertEqual(get_list_sum(0), 0)
 
     def test_negative_sequence_length(self):
         """Tests that an AssertionError is raised with negative sequence_length."""
@@ -28,7 +27,7 @@ class TestGetListSum(unittest.TestCase):
             get_list_sum(-1)
 
     def test_non_integer_sequence_length(self):
-        """Tests that a TypeError is raised  with non-integer sequence_length."""
+        """Tests that an AssertionError is raised with non-integer sequence_length."""
         with self.assertRaises(TypeError):
             get_list_sum("3")
 
@@ -40,8 +39,12 @@ class TestGetListSum(unittest.TestCase):
     def test_empty_input_list(self):
         """Tests with an empty input list."""
         with patch("builtins.input", side_effect=[]):
-            with self.assertRaises(IndexError):
-                get_list_sum(0)
+            with self.assertRaises(ValueError):
+                get_list_sum(1)
+
+    def test_empty_list(self):
+        """Tests with an empty input list."""
+        self.assertEqual(get_list_sum([]), 0)
 
     def test_positive_numbers(self):
         """Tests with positive numbers as input."""

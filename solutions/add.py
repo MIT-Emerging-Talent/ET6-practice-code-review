@@ -4,7 +4,9 @@
 A module for adding two numbers.
 
 Module contents:
+Module contents:
     -add: adds two numbers and returns the result.
+
 
 Created on 28.12.2024
 @author : Ridwan Ayinde
@@ -28,6 +30,11 @@ def add(num1: float, num2: float) -> float:
     10.0
     >>> add(0, 0)
     0.0
+    >>> add(7, -3)
+    4.0
+    >>> add(-5, -3)
+    -8.0
+
     >>> add(7, -3)
     4.0
     >>> add(-5, -3)

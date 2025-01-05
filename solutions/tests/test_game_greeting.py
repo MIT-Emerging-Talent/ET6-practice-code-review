@@ -28,3 +28,7 @@ class TestGameGreeting(unittest.TestCase):
         # test the function with integers
         with self.assertRaises(AssertionError):
             (game_greeting(573))
+
+    def test_whitespace_name(self):
+        # test the function with whitespace
+        self.assertEqual(game_greeting("   "), "Welcome,     to the game")

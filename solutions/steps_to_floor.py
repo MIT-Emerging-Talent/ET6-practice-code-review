@@ -1,3 +1,13 @@
+"""
+Building Steps Calculator
+
+This module provides functionality to calculate
+ the number of steps required to reach a specific floor
+   in a building. It includes a core function
+     for the calculation and a wrapper function for handling user input.
+"""
+
+
 def steps_to_floor_core(target_floor: int) -> int:
     """
     Core function to calculate the number of steps required to reach a given floor in a building,
@@ -37,15 +47,15 @@ def steps_to_floor():
         target_floor = int(input("Enter the floor number you want to reach: "))
         steps = steps_to_floor_core(target_floor)
         if target_floor < 0:
-            print(f"You are going down. Steps required: {steps}")
+            return f"You are going down. Steps required: {steps}"
         elif target_floor > 0:
-            print(f"You are going up. Steps required: {steps}")
+            return f"You are going up. Steps required: {steps}"
         else:
-            print(f"You are staying on the same floor. Steps required: {steps}")
+            return f"You are staying on the same floor. Steps required: {steps}"
     except ValueError:
-        print("Invalid input. Please enter an integer.")
+        return "Invalid input. Please enter an integer."
     except AssertionError as e:
-        print(f"Error: {e}")
+        return f"Error: {e}"
 
 
 if __name__ == "__main__":

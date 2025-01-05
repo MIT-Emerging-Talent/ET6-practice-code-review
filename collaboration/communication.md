@@ -1,3 +1,4 @@
+
 # Team Communication Guidelines
 
 Effective communication is essential for the success of our  

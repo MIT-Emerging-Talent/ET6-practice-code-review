@@ -13,21 +13,22 @@ Team Name: MIT Alpha
 @author: Nada Hamza
 """
 
+
 def string_length(s: str) -> int:
     """Calculates and returns the total number of characters in the input string.
-    
+
     Args:
         s (str): The input string to measure.
         Must be a valid string object, cannot be None.
-        
+
     Returns:
         int: The number of characters in the string.
         Always non-negative.
-        
+
     Raises:
     TypeError: If input is not a string
     ValueError: If input is None.
-        
+
     Examples:
     >>> string_length("")
     0
@@ -46,6 +47,6 @@ def string_length(s: str) -> int:
         raise ValueError("Input string cannot be None")
     if not isinstance(s, str):
         raise TypeError("Input must be a string")
-    
+
     # Return the length of the string
     return len(s)

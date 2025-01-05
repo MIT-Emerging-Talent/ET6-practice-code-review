@@ -60,7 +60,7 @@ strategies.
 - Become proficient in testing and documentation for clear, accurate,
  and reliable code.
 
-### **Member 4**  
+### **Cynthia Wairimu**  
 
 - Improve debugging and troubleshooting skills to solve problems efficiently.  
 - Strike a balance between speed and quality in all aspects of development.  

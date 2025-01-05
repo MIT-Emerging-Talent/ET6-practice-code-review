@@ -17,7 +17,7 @@ def decimal_to_binary(decimal: int) -> int:
     Converts a decimal number to its binary representation
 
     Parameters:
-        decimal_number (int): The decimal number to be converted.
+        decimal_number (int): The decimal number (non-negative integer) to be converted.
 
     Returns:
         int: The binary representation of the input decimal number.

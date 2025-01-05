@@ -1,42 +1,43 @@
 # mirror_words_challenge
-"""
-This module provides a function to reverse each word in a sentence
-while keeping the order of the words intact.
+import re
 
-Module contents:
-    - reverse_words: returns a new string where each word is reversed, 
-      but the order of the words and punctuation remains unchanged.
+def reverse_words(sentence):
+    """
+    Reverses each word in a given sentence while maintaining the order of the words 
+    and correctly handling punctuation marks at the end of words.
 
-Created on 2025-01-05
-@author: Aseel A. S. AbuKmail
-"""
+    Args:
+        sentence (str): The sentence to be processed. It can contain words, punctuation, 
+                         and spaces.
 
-def reverse_words(sentence: str) -> str:
-    """Returns a new string where each word is reversed while preserving the word order.
+    Returns:
+        str: A new string where each word is reversed, but the word order and punctuation 
+             remain unchanged.
 
-    The function should:
-    - Accept a single string as input.
-    - Reverse each word in the sentence while keeping the order of the words intact.
-    - Maintain all spaces and punctuation exactly as they appear.
-
-    Parameter:
-    sentence: a string containing words to be reversed.
-
-    Returns -> str: a new string where each word is reversed, 
-                     but the order of the words and spaces is preserved.
-
-    Examples:
+    Example:
         >>> reverse_words("Hello world!")
         'olleH dlrow!'
 
-        >>> reverse_words("Python is fun.")
-        'nohtyP si .nuf'
+        >>> reverse_words("Python is fun")
+        'nohtyP si nuf'
 
-        >>> reverse_words("Keep calm and code on.")
-        'peeK mlac dna edoc .no'
+    Raises:
+        TypeError: If the input is not a string.
     """
-    # Split the sentence into words
+    
+    if not isinstance(sentence, str):
+        raise TypeError("Input must be a string")
+
     words = sentence.split()
-    # Reverse each word and join them back with spaces
-    reversed_words = " ".join(word[::-1] for word in words)
-    return reversed_words
+    reversed_words = []
+    for word in words:
+        # Match the word and any punctuation at the end
+        match = re.match(r"([a-zA-Z]+)([^a-zA-Z]*)", word)
+        if match:
+            # Reverse the word and keep punctuation at the end without reversing it
+            reversed_word = match.group(1)[::-1] + match.group(2)
+            reversed_words.append(reversed_word)
+        else:
+            # If no match is found, just append the word
+            reversed_words.append(word)
+    return ' '.join(reversed_words)

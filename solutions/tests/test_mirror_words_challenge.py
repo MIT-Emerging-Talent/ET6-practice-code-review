@@ -11,11 +11,20 @@ Test categories:
 Created on 2025-01-05
 Author: Aseel AbuKmail
 """
-
 import sys
+import os
 import unittest
-
 from solutions.mirror_words_challenge import reverse_words
+
+# Add the directory containing mirror_words_challenge.py to the module search path
+sys.path.append("C:/Users/pc/.vscode/VS code Files/MIT - Project/ET6-foundations-group-17-main/solutions")
+
+# Add the project root directory to sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+
+# from mirror_words_challenge import reverse_words
+# from solutions.mirror_words_challenge import reverse_words
+
 
 class TestReverseWords(unittest.TestCase):
     """Tests for reverse_words function"""

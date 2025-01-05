@@ -19,7 +19,7 @@ integers and strings and returns a new list with the strings filtered out.
 """
 
 # --- before documenting ---
-# def filter_list(lst):
+# def filter_list(lst: list) -> list
 #'return a new list with the strings filtered out'
 
 

@@ -55,6 +55,12 @@
 
 ### Nagham's objectives
 
+| **Goal**                           | **Description** | **Progress** |  
+|------------------------------------|-----------------|--------------|  
+| 🔍Strengthen Algorithmic Thinking  | Improve problem-solving  | ![55%](https://progress-bar.xyz/55)|  
+| 🛠️Master Git and GitHub  |  Master version control and teamwork | ![20%](https://progress-bar.xyz/20) |  
+| 💻Refine Coding Practices | Write cleanand well-documented code | ![70%](https://progress-bar.xyz/70) |
+
 ### Nilson's objectives
 
 ### Matvii's objectives

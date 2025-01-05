@@ -1,3 +1,10 @@
+"""
+    A module for generating a secure password.
+    
+    @Author: Mukuna Kabeya
+    @date: 2025-01-05
+"""
+
 import string
 import random
 
@@ -12,11 +19,15 @@ def password_generator(length):
 
     Example:
         >>> password_generator(8)
-        output = "MuKunas7"
+        "MuKunas7"
+        
+        
+        >>> password_generator(5)
+        'Paul1'
 
     Args:
         length (int): The desired length of the password. 
-                      Must be an integer between 4 and 10.
+                    Must be an integer between 4 and 10.
 
     Returns:
         str: A randomly generated password of the specified length.
@@ -35,8 +46,4 @@ def password_generator(length):
         raise ValueError("Password length must be less than or equal to 10")
 
     password = "".join(random.choice(string.ascii_letters + string.digits) for _ in range(length))
-    print(password)
-    print(len(password))
     return password
-
-password_generator(10)

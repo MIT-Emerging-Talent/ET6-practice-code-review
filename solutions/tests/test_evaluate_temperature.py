@@ -36,8 +36,8 @@ class TestEvaluateTemperature(unittest.TestCase):
         with self.assertRaises(AssertionError):
             evaluate_temperature(1.0)
 
-    def test_less_than_0(self):
-        """It should raise an assertion error if the argument is larger than 50"""
+    def test_greater_than_50(self):
+        """It should raise an assertion error if the argument is greater than 50"""
         with self.assertRaises(AssertionError):
             evaluate_temperature(51)
 

@@ -10,6 +10,7 @@ A module for processing a list of numbers with specific rules:
 5/jan/2025
 """
 
+
 def fizz_buzz(numbers: list[int]) -> list[str]:
     """
     Process a list of numbers according to the FizzBuzz rules.

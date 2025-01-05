@@ -7,7 +7,7 @@ Author: Omnia Mustafa - Abdulgadir
 """
 
 
-def harmonic_sequence(a: int, d: int, n: int) -> list:
+def harmonic_sequence(a: int, d: int, n: int) -> list[float]:
     """
     This function ,`harmonic_sequence`, creates a harmonic sequence,
     based on formula: A(n): 1/ (a +(n-1) *d)
@@ -18,7 +18,7 @@ def harmonic_sequence(a: int, d: int, n: int) -> list:
     n (int): Number of terms to generate
 
     Returns:
-    List: List containing the harmonic sequence
+    List [float]: List containing the harmonic sequence
 
     Assertions:
     - a must be integer
@@ -65,8 +65,9 @@ def harmonic_sequence(a: int, d: int, n: int) -> list:
     assert isinstance(a, int), "A must be integer"
     assert isinstance(d, int), "D must be integer"
     assert isinstance(n, int), "N must be integer"
-
-    # Create an empty list to save the sequence
+    if not isinstance:
+        assert TypeError
+        # Create an empty list to save the sequence
     sequence = []
     # If n is less than or equal to 0, return empty list
     if n <= 0:

@@ -1,3 +1,5 @@
+#! /usr/bin/env/ python3
+# -*- coding: utf-8 -*-
 """
 Welcome to WIT International Bank.
 This program is designed to operate the ATM system, allowing users to perform
@@ -5,6 +7,9 @@ various banking transactions such as checking their account balance, depositing 
 withdrawing money, and managing their accounts securely.
 
 Thank you for choosing WIT International Bank. Your satisfaction is our priority.
+
+Created on: 2025/01/02
+By: Fikremichael Mamo
 """
 
 
@@ -15,7 +20,7 @@ def show_balance(balance):
     Parameters:
         balance (float): The current balance in the user's account.
     """
-    print(f"Your Balance is ${balance:.2f}")
+    return f"Your Balance is ${balance:.2f}"
 
 
 def deposit(balance, amount):
@@ -30,7 +35,6 @@ def deposit(balance, amount):
         float: The updated balance after deposit.
     """
     if amount < 0:
-        print("That is not a valid amount!")
         return balance
     else:
         return balance + amount
@@ -50,7 +54,7 @@ def withdraw(balance, amount):
     if amount > balance:
         print("Invalid amount! Insufficient balance.")
         return balance
-    elif amount < 0:
+    elif amount <= 0:
         print("Amount must be greater than 0.")
         return balance
     else:
@@ -78,7 +82,7 @@ def main():
             choice = int(input("\nEnter your choice: "))
 
             if choice == 1:
-                show_balance(balance)
+                print(show_balance(balance))
             elif choice == 2:
                 try:
                     amount = float(input("Enter an amount to deposit: "))
@@ -94,7 +98,7 @@ def main():
             elif choice == 4:
                 is_running = False
             else:
-                print("That is not a valid choice.")
+                return "That is not a valid choice."
 
         except ValueError:
             print("Invalid input! Please enter a number between 1 and 4.")

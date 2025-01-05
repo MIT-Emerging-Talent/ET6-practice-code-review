@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -6,6 +5,9 @@
 
 Module contents:
     - TestStringToTitleCase: Unit test class for the title_case function.
+    
+Created on 5 1 2025
+@author: Nour Elhuda Haidar
 """
 import unittest
 from ..title_case import title_case  

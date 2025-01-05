@@ -1,4 +1,3 @@
-
 # Things Explained
 
 ## [x] Git

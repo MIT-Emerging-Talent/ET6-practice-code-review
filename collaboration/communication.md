@@ -1,54 +1,58 @@
-<!--
-    this template is for inspiration, feel free to change it however you like!
+# Team Communication Guidelines
 
-    Careful! be sure to protect your privacy when filling out this document
-        everything you write here will be public
-        so share only what you are comfortable sharing online
-        you can share the rest in confidence with you group by another channel
--->
+Effective communication is essential for the success of our  
+group project. These guidelines provide a framework for  
+maintaining clear, professional, and collaborative communication  
+within the team.
 
-# Communication
+## 1. Communication Tools
 
-______________________________________________________________________
+We will use the following platforms for specific types of  
+communication:  
+- **Slack**: For casual updates and quick team interactions.  
+- **GitHub**: For all project-related discussions, code reviews,  
+  and issue tracking.  
+- **WhatsApp**: For urgent or necessary team coordination.  
+- **Email**: For formal communication, announcements, and  
+  documentation.  
 
-## Communication Schedule
+## 2. Response Times
 
-| Day | How | The topic of discussion | | --- | :-: | ----------------------- |
-| | | |
+- Respond to asynchronous messages (Slack, GitHub, WhatsApp)  
+  within **24 hours**.  
+- Notify the team in advance if you anticipate delays in  
+  responding.  
 
-## Communication Channels
+## 3. Communication Best Practices
 
-how often will we get in touch on each channel, and what we will discuss there:
+- Use clear and concise language in all messages.  
+- Stick to agreed-upon channels for specific types of  
+  communication.  
+- Ensure all shared files, documents, and notes are organized  
+  in an accessible online drive (e.g., **Google Drive**).  
 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+## 4. Meeting and Collaboration Etiquette
 
-______________________________________________________________________
+- Attend scheduled meetings punctually and prepared.  
+- Share agendas for meetings in advance and document key  
+  decisions and action items.  
+- Foster a respectful and inclusive environment during  
+  discussions.  
 
-## Availability
+## 5. Documentation and File Management
 
-### Availability for calling/messaging
+- Maintain a well-structured and up-to-date repository of  
+  shared resources.  
+- Archive completed tasks and communication records to preserve  
+  project history.  
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
+## 6. Periodic Reviews
 
-### How many hours everyone has per day
+- Conduct regular reviews of our communication tools and  
+  processes.  
+- Adjust strategies as needed to improve efficiency and team  
+  collaboration.  
 
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
-
-## Asking for Help
-
-There's a fine line between confidently learning from your mistakes, and
-stubbornly getting no where. Here is a general guide for when to ask for help
-based on how long you've been stuck on the same problem:
-
-1. _0 -> 30 min_: Try on your own
-1. _30 -> 60 min_: Ask your group for help
-1. _60+ min_: Tag your coaches in Slack or GitHub
+By following these guidelines, we ensure a professional,  
+collaborative, and productive environment for achieving our  
+project goals.

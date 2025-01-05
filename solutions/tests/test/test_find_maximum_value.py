@@ -8,7 +8,7 @@ created on 2024-12-28
 
 import unittest
 
-from ..find_maximum_value import find_maximum_value
+from ..find_maximum_value import find_maximum_value # type: ignore
 
 
 class TestFindMaximumValue(unittest.TestCase):

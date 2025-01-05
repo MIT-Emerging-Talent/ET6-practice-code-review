@@ -14,7 +14,7 @@ longest_consecutive_sequence.py
 This module provides a function to find the length of the longest consecutive sequence in a list of integers.
 """
 
-from typing import List
+from typing import List  # noqa: E402
 
 
 def longest_consecutive_sequence(nums: List[int]) -> int:

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-This module provides a function to find the length of 
+This module provides a function to find the length of
 the longest consecutive sequence in a list of integers.
 Created on: 2025/1/5
 @author: Hamidullah Rajabi
@@ -15,6 +15,7 @@ This module provides a function to find the length of the longest consecutive se
 """
 
 from typing import List
+
 
 def longest_consecutive_sequence(nums: List[int]) -> int:
     """
@@ -40,7 +41,7 @@ def longest_consecutive_sequence(nums: List[int]) -> int:
         >>> longest_consecutive_sequence([])
         0
     """
-    
+
     if not isinstance(nums, list):
         raise AssertionError("Input must be a list.")
     if any(num is None for num in nums):

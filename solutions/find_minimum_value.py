@@ -27,10 +27,12 @@ def find_minimum_value(values: list):
         0.5
     """
 
+    # trunk-ignore(bandit/B101)
     assert isinstance(values, list)  # verifies that 'values' is a list
+    # trunk-ignore(bandit/B101)
     assert all(
         isinstance(item, (int, float)) for item in values
     )  # "values must be an int or a float"
     ordered_list_of_values = sorted(values)  # returns the list in ascending order
-    min = ordered_list_of_values[0]  # gives the minimum value from the ordered list
-    return min
+    lowest = ordered_list_of_values[0]  # gives the minimum value from the ordered list
+    return lowest

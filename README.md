@@ -45,3 +45,15 @@ features.
 and discussions.
 - **Continuous Learning**: Building technical and soft skills through hands-on experience
 and feedback.
+
+## Project Structure
+
+The calculator project is structured to ensure modularity and ease of collaboration.
+Key elements include:
+
+- **Feature Modules**: Each team member is responsible for implementing specific
+features, such as addition, subtraction, or other advanced scientific functions.
+- **Testing**: A dedicated test suite ensures all functionalities work as intended,
+following TDD principles.
+- **Documentation**: Comprehensive documentation accompanies the code to ensure
+clarity and usability.

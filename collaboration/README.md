@@ -1,4 +1,3 @@
-
 # Team Nexus
 
 ---
@@ -20,7 +19,7 @@ open communication, mutual respect, and the celebration of diverse perspectives.
 - Keep all shared files and notes organized in an accessible online
   drive (e.g., **Google Drive**).
 - Schedule periodic reviews of communication tools and processes to ensure they
- remain effective.
+  remain effective.
 
 ---
 
@@ -28,21 +27,21 @@ open communication, mutual respect, and the celebration of diverse perspectives.
 
 - Use a shared calendar to agree on meeting times.
 - Meetings will start and end on time and include a clear agenda shared
-at least one day in advance.
+  at least one day in advance.
 - Rotate meeting roles (e.g., note-taker, timekeeper) to share responsibilities.
 - Each meeting will include:
   - A quick check-in for updates.
   - Time-limited discussions to stay on track.
   - Clear next steps for all members.
 - Introduce a short retrospective at the end of meetings to evaluate
-effectiveness and gather feedback.
+  effectiveness and gather feedback.
 
 ---
 
 ### 3. Building and Maintaining Trust
 
 - Deliver quality work on time and communicate openly about progress, challenges
-, and successes.
+  , and successes.
 - Show empathy and actively listen during discussions.
 - Celebrate both individual and team achievements.
 - Address trust issues respectfully and take steps to rebuild confidence if broken.
@@ -69,7 +68,7 @@ effectiveness and gather feedback.
 ### 6. Flexibility and Adaptability
 
 - Revisit group norms periodically (preferably, monthly) to adapt to new
-challenges or feedback.
+  challenges or feedback.
 - Allow flexibility for unforeseen circumstances but communicate changes promptly.
 
 ---
@@ -77,7 +76,7 @@ challenges or feedback.
 ### 7. Team Bonding
 
 - Schedule informal check-ins or team-building activities every few weeks to
-strengthen relationships.
+  strengthen relationships.
 - Celebrate milestones, regardless of size.
 
 ---

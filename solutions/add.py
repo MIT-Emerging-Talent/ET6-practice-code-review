@@ -13,16 +13,16 @@ Created on 28.12.2024
 
 
 def add(num1: float, num2: float) -> float:
-    """Add two numbers.
+    """Add two numbers and returns their sum.
 
     Parameters:
-        num1:float, the first number
-        num2:float, the second number
+        num1:(int, float), the first number to be added
+        num2:(int, float), the second number to be added
 
     Returns -> float: the sum of num1 and num2
 
     Raises:
-        AssertionError: if any argument is not a number
+        AssertionError: if num1 or num2 is not an integer or float
 
     >>> add(4, 6)
     10.0
@@ -35,6 +35,6 @@ def add(num1: float, num2: float) -> float:
 
     """
     # Validate inputs
-    assert isinstance(num1, (int, float)), "num1 must be a number"
-    assert isinstance(num2, (int, float)), "num2 must be a number"
+    assert isinstance(num1, (int, float)), "num1 must be a int or float"
+    assert isinstance(num2, (int, float)), "num2 must be a int or float"
     return float(num1 + num2)

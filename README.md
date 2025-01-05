@@ -12,3 +12,14 @@ This repository serves as the final deliverable for the Foundation Track, showca
 our teamwork and dedication to mastering foundational concepts in software development.
 Our primary objective is to collaboratively design and develop a calculator, with
 every team member contributing to its various functionalities.
+
+As a team of **10 emerging talents**, we are working together to:
+
+- Implement different features of the **calculator project**, including basic arithmetic,
+advanced functions, and more.
+- Collaborate on code reviews to ensure high quality and maintainability.
+- Utilize **Git** for version control and collaboration.
+- Navigate and manage projects effectively on **GitHub** using issues, pull requests,
+and project boards.
+- Adhere to **test-driven development (TDD)** cycles to ensure robust and reliable
+code.

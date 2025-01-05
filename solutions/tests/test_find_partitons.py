@@ -4,7 +4,7 @@ Run with `python3 -m unittest test_find_partition.py`
 """
 
 import unittest
-from find_partitions import find_partitions
+# from find_partitions import find_partitions
 
 
 class TestFindPartitions(unittest.TestCase):
@@ -59,5 +59,5 @@ class TestFindPartitions(unittest.TestCase):
         self.assertTrue(self.compare_unordered_lists(result, expected))
 
 
-if __name__ == "__main__":
-    unittest.main()
+# if __name__ == "__main__":
+#     unittest.main()

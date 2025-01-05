@@ -3,7 +3,7 @@ A module to calculate the maximum profit from stock trading.
 
 Module Contents:
 
-    - max_profit(prices: list[int]) -> int:
+    - calculate_max_profit(prices: list[int]) -> int:
     Computes the maximum profit that can be made by completing as many transactions as possible
     (buy one and sell one share of stock multiple times).
 
@@ -11,13 +11,13 @@ Created on: 2025-01-05
 Author: Jola-Moses
 """
 
-def max_profit(prices: list) -> int:
+def calculate_max_profit(prices: list) -> int:
     """
     Returns the maximum profit from as many stock transactions as possible.
 
     Parameters:
-        prices (list): A list of positive integers or floats representing the stock prices 
-                        on different days.
+        prices (list): A list of non-negative integers or floats representing the stock prices 
+                        on different days. Each price is greater than or equal to zero."
 
     Returns:
         int, float: The maximum profit that can be made from as many transactions as possible.
@@ -28,11 +28,11 @@ def max_profit(prices: list) -> int:
         AssertionError: If any price in `prices` is less than zero.
 
     Examples:
-        >>> max_profit([7, 1, 5, 3, 6, 4])
+        >>> calculate_max_profit([7, 1, 5, 3, 6, 4])
         7
-        >>> max_profit([1, 2, 3, 4, 5])
+        >>> calculate_max_profit([1, 2, 3, 4, 5])
         4
-        >>> max_profit([7, 6, 4, 3, 1])
+        >>> calculate_max_profit([7, 6, 4, 3, 1])
         0
     """
 

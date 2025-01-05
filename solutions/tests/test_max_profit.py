@@ -1,3 +1,19 @@
+"""
+This module contains unit tests to validate the functionality of the
+`max_profit` function.
+It calculates the maximum profit from stock prices over several days,
+allowing for multiple transactions.
+
+Test categories:
+    - Standard cases: Typical lists of stock prices with varying price patterns.
+    - Edge cases: Empty lists, single price day, and large price differences.
+    - Defensive tests: Non-list inputs, non-numeric prices, and negative prices 
+    to ensure proper assertion handling.
+
+Created on: 2025-01-05
+Author: Jola-Moses
+"""
+
 import unittest
 
 from solutions.max_profit import max_profit

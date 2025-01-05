@@ -9,6 +9,7 @@ Module contents:
 Created on 5 1 2025
 @author: Nour Elhuda Haidar
 """
+
 import unittest
 from ..title_case import title_case  
 class TestStringToTitleCase(unittest.TestCase):

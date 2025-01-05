@@ -9,8 +9,10 @@ Module contents:
 Created on 5 1 2025
     @author: Nour Elhuda Haidar
 """
+
 def title_case(sentence: str) -> str:
-    """Converts a string to title case (capitalize the first letter of each word).
+    """Converts a string to title case
+    (capitalize the first letter of each word).
 
     Parameters:
         sentence (str): The input string.

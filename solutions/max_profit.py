@@ -22,7 +22,9 @@ def max_profit(prices: list[int]) -> int:
         int: The maximum profit that can be achieved by making as many transactions as possible.
 
     Raises:
-        AssertionError: If `prices` is not a list of integers.
+        AssertionError: If `prices` is not a list.
+        AssertionError: If any element in `prices` is not a numeric type (either int or float).
+        AssertionError: If any price in `prices` is less than zero.
 
     Examples:
         >>> max_profit([7, 1, 5, 3, 6, 4])

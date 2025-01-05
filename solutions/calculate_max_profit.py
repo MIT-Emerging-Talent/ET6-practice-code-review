@@ -11,12 +11,13 @@ Created on: 2025-01-05
 Author: Jola-Moses
 """
 
+
 def calculate_max_profit(prices: list) -> int:
     """
     Returns the maximum profit from as many stock transactions as possible.
 
     Parameters:
-        prices (list): A list of non-negative integers or floats representing the stock prices 
+        prices (list): A list of non-negative integers or floats representing the stock prices
                         on different days. Each price is greater than or equal to zero."
 
     Returns:
@@ -40,7 +41,9 @@ def calculate_max_profit(prices: list) -> int:
     assert all(
         isinstance(price, (int, float)) for price in prices
     ), "Prices should be integers or floats."
-    assert all(price >= 0 for price in prices), "Prices should be non-negative integers or floats."
+    assert all(
+        price >= 0 for price in prices
+    ), "Prices should be non-negative integers or floats."
 
     maximum_profit = 0
 

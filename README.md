@@ -30,3 +30,18 @@ code.
 - **Version Control**: Git, integrated with GitHub
 - **Editor**: Visual Studio Code (VS Code) with extensions to enhance productivity
 - **Collaboration**: GitHub issues, pull requests, and project boards
+
+## About Group 12
+
+We are a motivated and enthusiastic group of learners, collaborating as contributors
+to this shared repository. This assignment is more than an assessment requirement
+for us—it is an opportunity to build skills, share knowledge, and grow together as
+a team. Through the development of this calculator project, we aim to foster a culture
+of learning and innovation, focusing on:
+
+- **Teamwork**: Working together to design, implement, and refine the calculator’s
+features.
+- **Communication**: Ensuring clear and constructive collaboration during reviews
+and discussions.
+- **Continuous Learning**: Building technical and soft skills through hands-on experience
+and feedback.

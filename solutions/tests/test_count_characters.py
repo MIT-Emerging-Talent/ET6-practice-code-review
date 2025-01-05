@@ -1,5 +1,6 @@
 import unittest
-from .. count_characters import count_characters
+from ..count_characters import count_characters
+
 
 class Testcount_characters(unittest.TestCase):
     # Edge cases:

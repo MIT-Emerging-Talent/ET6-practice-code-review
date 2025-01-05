@@ -21,6 +21,8 @@ def cipher(text: str) -> str:
         str: The encrypted text. only alphabetic characters shifted by 3 positions
         and non alphabetical values unchanged.
 
+    Raises:
+    ValueError: If input is not a string
 
         >>> cipher("abc")
         'def'
@@ -28,6 +30,7 @@ def cipher(text: str) -> str:
         'rpqld'
         >>> cipher("Hello!")
         'Khoor!'
+
     """
 
     shift_value = 3

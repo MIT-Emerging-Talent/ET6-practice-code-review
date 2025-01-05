@@ -24,6 +24,13 @@
 | Constraint |Type | Description |
 |:------:|:-------:|:-------:|
 
+### Matvii 😊
+
+| Constraint |Type | Description |
+|:------:|:-------:|:-------:|
+| Deadlines ❌ |External|I have exams so I might not as active as I stated in the availability table|
+| Power & internet 🛜 |External| Due to missile attacks I might not have unlimited access to electricity|
+
 #### Summary
 
 > Summary of External constraints.

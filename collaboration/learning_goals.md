@@ -58,3 +58,9 @@
 ### Nilson's objectives
 
 ### Matvii's objectives
+
+| **Goal**                           | **Description** | **Progress**   |  
+|------------------------------------|----------------| ----------------|
+| Fully understand how GIT system works     |Practice more and more to became fully aware of how the GIT and GitHub work | ![40%](https://progress-bar.xyz/40) |
+| Level up my English speaking skill     |Communication with a team helps a lot!| ![50%](https://progress-bar.xyz/50) |
+| Learn how to review any code     |Choose each code and describe it to myself | ![55%](https://progress-bar.xyz/55) |

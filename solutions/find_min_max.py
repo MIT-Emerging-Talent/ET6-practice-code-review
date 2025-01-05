@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-A module for generating the min and max of a list of numbers.
+A module for finding the min and max of a list of numbers.
 
 Module contents:
     > find_min_max: generates the min and max of a list of numbers.

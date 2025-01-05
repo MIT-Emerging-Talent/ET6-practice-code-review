@@ -18,6 +18,8 @@ from ..is_square import is_square
 
 
 class TestIsSquare(unittest.TestCase):
+    """Tests for the is_square function."""
+
     def test_negative_number(self):
         """It should return False for negative numbers."""
         actual = is_square(-1)

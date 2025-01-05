@@ -7,7 +7,7 @@ Tests included:
     - When the input string is empty
     - When the input is not a string
 
-Created on 04 01 25
+Created on 06/01/2025
 @author: Mohamad Ziadah
 """
 

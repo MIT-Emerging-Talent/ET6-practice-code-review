@@ -9,7 +9,7 @@ Created on 4 1 2025
 
 
 def calculate_factorial(number: int) -> int:
-    """Calculate the factorial of a non-negative number by calculating the product of all positive integers less than or equal to the number.
+    """Calculate the factorial of a non-negative number.
 
     Parameters:
         number: int, The number to calculate the factorial of, greater than or equal to zero

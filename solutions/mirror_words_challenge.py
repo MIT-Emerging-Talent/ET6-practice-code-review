@@ -1,44 +1,86 @@
-# mirror_words_challenge
-import re
+# test_mirror_words_challenge
+"""
+Test module for reverse_words function.
+Contains correct tests to help identify bugs in the implementation.
+
+Test categories:
+    - Standard cases: Sentences with regular words and punctuation.
+    - Edge cases: Empty strings, single words, or sentences with special characters.
+    - Defensive cases: Invalid inputs (e.g., non-string types).
+
+Created on 2025-01-05
+Author: Aseel AbuKmail
+"""
+
+import sys
+import os
+import unittest
+from solutions.mirror_words_challenge import reverse_words
+
+# Add the directory containing mirror_words_challenge.py to the module search path
+sys.path.append(
+    "C:/Users/pc/.vscode/VS code Files/MIT - Project/ET6-foundations-group-17-main/solutions"
+)
+
+# Add the project root directory to sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+
+# from mirror_words_challenge import reverse_words
+# from solutions.mirror_words_challenge import reverse_words
 
 
-def reverse_words(sentence):
-    """
-    Reverses each word in a given sentence while maintaining the order of the words
-    and correctly handling punctuation marks at the end of words.
+class TestReverseWords(unittest.TestCase):
+    """Tests for reverse_words function"""
 
-    Args:
-        sentence (str): The sentence to be processed. It can contain words, punctuation,
-                         and spaces.
+    # Standard test cases
+    def test_reverse_words_regular_sentence(self):
+        """It should reverse each word in a regular sentence while maintaining word order"""
+        actual = reverse_words("Hello world!")
+        expected = "olleH dlrow!"
+        self.assertEqual(actual, expected)
 
-    Returns:
-        str: A new string where each word is reversed, but the word order and punctuation
-             remain unchanged.
+    def test_reverse_words_single_word(self):
+        """It should reverse a single word in a sentence"""
+        actual = reverse_words("Python")
+        expected = "nohtyP"
+        self.assertEqual(actual, expected)
 
-    Example:
-        >>> reverse_words("Hello world!")
-        'olleH dlrow!'
+    def test_reverse_words_with_punctuation(self):
+        """It should handle words with punctuation marks"""
+        actual = reverse_words("Python is fun")
+        expected = "nohtyP si nuf"  # Adjusted to match the correct output
+        self.assertEqual(actual, expected)
 
-        >>> reverse_words("Python is fun")
-        'nohtyP si nuf'
+    # Edge cases
+    def test_empty_sentence(self):
+        """It should return an empty string for an empty sentence"""
+        actual = reverse_words("")
+        expected = ""
+        self.assertEqual(actual, expected)
 
-    Raises:
-        TypeError: If the input is not a string.
-    """
+    def test_single_character(self):
+        """It should return the single character unchanged"""
+        actual = reverse_words("A")
+        expected = "A"
+        self.assertEqual(actual, expected)
 
-    if not isinstance(sentence, str):
-        raise TypeError("Input must be a string")
+    def test_sentence_with_special_characters(self):
+        """It should handle sentences with special characters correctly"""
+        actual = reverse_words("!@# $%^ &*()")
+        expected = "!@# $%^ &*()"  # Special characters remain intact
+        self.assertEqual(actual, expected)
 
-    words = sentence.split()
-    reversed_words = []
-    for word in words:
-        # Match the word and any punctuation at the end
-        match = re.match(r"([a-zA-Z]+)([^a-zA-Z]*)", word)
-        if match:
-            # Reverse the word and keep punctuation at the end without reversing it
-            reversed_word = match.group(1)[::-1] + match.group(2)
-            reversed_words.append(reversed_word)
-        else:
-            # If no match is found, just append the word
-            reversed_words.append(word)
-    return " ".join(reversed_words)
+    # Defensive test cases
+    def test_non_string_input(self):
+        """It should raise TypeError for non-string input"""
+        with self.assertRaises(TypeError):
+            reverse_words(12345)
+
+    def test_input_with_mixed_data_types(self):
+        """It should raise TypeError for input with mixed types"""
+        with self.assertRaises(TypeError):
+            reverse_words(["Hello", "world!"])
+
+
+if __name__ == "__main__":
+    unittest.main()

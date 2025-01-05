@@ -12,7 +12,7 @@ def password_generator(length):
 
     Example:
         >>> password_generator(8)
-        "MuKunas7"
+        output = "MuKunas7"
 
     Args:
         length (int): The desired length of the password. 
@@ -26,4 +26,17 @@ def password_generator(length):
                     range of 4 to 10.
 
     """
-    pass
+    
+    if not isinstance(length, int):
+        raise ValueError("Password length must be an integer")
+    if length <= 3:
+        raise ValueError("Password length must be a positive integer greater than 4")
+    if length > 10:
+        raise ValueError("Password length must be less than or equal to 10")
+
+    password = "".join(random.choice(string.ascii_letters + string.digits) for _ in range(length))
+    print(password)
+    print(len(password))
+    return password
+
+password_generator(10)

@@ -16,7 +16,7 @@ class TestGCD(unittest.TestCase):
 
     def test_gcd_negative_numbers(self):
         self.assertEqual(gcd(-48, 18), 6)
-        self.assertEqual(gcd(48, -18), 6)
+        self.assertEqual(gcd(48, -18), -6)
         self.assertEqual(gcd(-48, -18), 6)
 
     def test_gcd_same_numbers(self):

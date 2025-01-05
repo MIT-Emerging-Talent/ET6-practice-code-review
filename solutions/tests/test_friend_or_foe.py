@@ -5,10 +5,11 @@ Test the friend function
 Test categories:
     - Standard case: A list of with two friends and one with no friends
     - Edge Case: Test if it will work with non-list input
-    
+
 Created on 2025-01-04
 Author: Cynthia Wairimu
 """
+
 import unittest
 from ..friend_or_foe import friend
 

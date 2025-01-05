@@ -6,6 +6,7 @@ Created on 03 01 2024
 @author: Norbert Ndayisenga
 """
 
+
 def count_consonants(s: str) -> int:
     """Counts the number of consonants in a given string.
 
@@ -29,6 +30,6 @@ def count_consonants(s: str) -> int:
 
     # Define consonants
     consonants = "bcdfghjklmnpqrstvwxyz"
-    
+
     # Count consonants in the string
     return sum(1 for char in s.lower() if char in consonants)

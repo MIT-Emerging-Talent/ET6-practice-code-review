@@ -9,13 +9,9 @@ Created on XX XX XX
 import unittest
 
 # --- imports & test class before documenting and testing ---
-
 # from ..count_consonants count_consonants
-
 # class TestCountConsonants(unittest.TestCase):
-
 # --- imports & test class after documenting and testing ---
-
 from ..count_consonants import count_consonants
 
 
@@ -33,7 +29,6 @@ class TestCountConsonants(unittest.TestCase):
     def test_all_consonants(self):
         """It should evaluate a string of only consonants correctly"""
         self.assertEqual(count_consonants("bcdfghjklmnpqrstvwxyz"), 21)
-        
 
     def test_mixed_characters(self):
         """It should handle mixed cases of vowels, consonants, and symbols"""
@@ -51,7 +46,3 @@ class TestCountConsonants(unittest.TestCase):
         """It should raise an assertion error for non-string inputs"""
         with self.assertRaises(AssertionError):
             count_consonants(123)
-
-
-if __name__ == "__main__":
-    unittest.main()

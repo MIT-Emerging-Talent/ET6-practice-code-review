@@ -1,11 +1,16 @@
+#! /usr/bin/env/ python3
+# -*- coding: utf-8 -*-
+
 """
-Unit test for the ATM
+Unit test for ATM system functions.
+Tests deposit, withdraw, and show_balance functionalities.
+
 Created on: 2025/01/02
 By: Fikremichael Mamo
 """
 
 import unittest
-from atm import show_balance, deposit, withdraw
+from ..atm import show_balance, deposit, withdraw
 
 
 class TestATM(unittest.TestCase):

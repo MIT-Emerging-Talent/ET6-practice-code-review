@@ -9,10 +9,12 @@ Author: Hamidullah Rajabi
 import unittest
 from ..longest_consecutive_sequence import longest_consecutive_sequence
 
+
 class TestLongestConsecutiveSequence(unittest.TestCase):
     """
     Unit tests for the longest_consecutive_sequence function.
     """
+
     # Regular Passing Cases
 
     def test_mixed_numbers(self):
@@ -75,4 +77,4 @@ class TestLongestConsecutiveSequence(unittest.TestCase):
         Tests with a list containing NaN.
         """
         with self.assertRaises(ValueError):
-            longest_consecutive_sequence([1, 2, float('nan'), 4])
+            longest_consecutive_sequence([1, 2, float("nan"), 4])

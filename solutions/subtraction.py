@@ -18,7 +18,7 @@ Explanation of subtraction for a given number:
 """
 
 
-def subtract(*args):
+def subtract(*args: float) -> float:
     """
     Calculate the result of subtracting a series of numbers.
 

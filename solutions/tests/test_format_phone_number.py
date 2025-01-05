@@ -22,19 +22,19 @@ class TestFormatPhoneNumber(unittest.TestCase):
     """Tests for format phone number function"""
 
     # Standard test cases
-    def test_format_phone_number_mixed_digits(self):
+    def test_mixed_digits(self):
         """It should format mixed digits as a phone number string"""
         actual = format_phone_number([0, 5, 6, 2, 3, 1, 7, 6, 5, 0])
         expected = "(056) 231-7650"
         self.assertEqual(actual, expected)
 
-    def test_format_phone_number_single_digit(self):
+    def test_same_digit(self):
         """It should format single digit as a phone number string"""
         actual = format_phone_number([9, 9, 9, 9, 9, 9, 9, 9, 9, 9])
         expected = "(999) 999-9999"
         self.assertEqual(actual, expected)
 
-    def test_format_phone_number_ascending_digits(self):
+    def test_ascending_digits(self):
         """It should format sequential ascending digits as a phone number string"""
         actual = format_phone_number([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
         expected = "(012) 345-6789"

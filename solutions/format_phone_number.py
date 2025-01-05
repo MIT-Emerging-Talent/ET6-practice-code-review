@@ -12,7 +12,7 @@ Created on 2025-01-04
 """
 
 
-def format_phone_number(phone_number: list) -> str:
+def format_phone_number(phone_number: list[int]) -> str:
     """Returns a string formatted as a phone number from a list of integers
 
     The function should:
@@ -21,15 +21,17 @@ def format_phone_number(phone_number: list) -> str:
     - Return a string in the format: "(XXX) XXX-XXXX", where X represents the digits from the input array.
 
     Parameter:
-    phone_number: a list of integers
+    phone_number (list[int]): a list of integers between 0 and 9 representing digits of a phone number
 
     Returns -> str: a string formatted as a phone number
 
     Raises:
-    AssertionError: if the input type is not a list
-    AssertionError: If the input contains non-integer elements.
-    ValueError: if the input list does not contain exactly 10 integers
-    ValueError: if any integer is not in the range 0 to 9
+        AssertionError:
+            - If the input type is not a list.
+            - If the input contains non-integer elements.
+        ValueError:
+            - If the input list does not contain exactly 10 integers.
+            - If any integer is not in the range of 0 to 9.
 
 
     Examples:

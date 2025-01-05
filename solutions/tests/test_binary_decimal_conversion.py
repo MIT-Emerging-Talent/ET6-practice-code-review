@@ -53,7 +53,7 @@ class TestBinaryDecimalConversion(unittest.TestCase):
             BinaryToDecimal("1234")
             
     def test_invalid_decimal_conversion_input(self):
-        """Should raise ValueError if non-binary string is provided to convert to decimal"""
+        """Should raise ValueError if a non-binary string is provided to convert to decimal"""
         with self.assertRaises(ValueError):
             binarydecimalconversion("decimal", "1020")
             

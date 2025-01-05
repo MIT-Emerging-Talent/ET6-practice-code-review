@@ -9,9 +9,12 @@ These tests cover:
 @author: May Mon Thant
 """
 
+import sys
 import unittest
+from pathlib import Path
 
-from string_sort import string_sort
+sys.path.append(str(Path(__file__).resolve().parents[2]))
+from solutions.string_sort import string_sort
 
 
 class TestStringSort(unittest.TestCase):

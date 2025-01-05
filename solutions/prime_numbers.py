@@ -5,7 +5,7 @@
 A module that determines whether a given number is a prime number.
 
 Module contents:
-    - is_prime: checks if the given number is a prime number.
+    - prime_numbers: checks if the given number is a prime number.
 
 created on 04/01/2025
 @author: Alaa Mohamed
@@ -13,33 +13,33 @@ created on 04/01/2025
 """
 
 
-def is_prime(N: int) -> bool:
+def prime_numbers(number: int) -> bool:
     """
     Checks if the given number is a prime number.
     A number is considered prime if it's only divisible by one and itself.
 
 
     Parameters:
-        N: input must be an integer.
+        number: input must be an integer.
 
     Returns -> bool: True if the number is prime, False otherwise.
 
     Raises:
-        AssertionError: if the inout is not an integer.
+        AssertionError: if the input is not an integer.
 
     Examples:
-    >>> is_prime("1")
+    >>> prime_numbers("1")
     False
-    >>> is_prime("2")
+    >>> prime_numbers("2")
     True
-    >>> is_prime("3")
+    >>> prime_numbers("3")
     True
     """
-    assert isinstance(N, int), "input must be an integer"
+    assert isinstance(number, int), "input must be an integer"
 
-    if N <= 1:
+    if number <= 1:
         return False
-    for i in range(2, N):
-        if N % i == 0:
+    for i in range(2, number):
+        if number % i == 0:
             return False
         return True

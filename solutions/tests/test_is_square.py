@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Test file code for if the `number is a Square` function.
+
+
+"""
+
+
 import unittest
 
 from ..is_square import is_square

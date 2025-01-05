@@ -15,11 +15,6 @@ Created on 2025-01-04
 def format_phone_number(phone_number: list[int]) -> str:
     """Returns a string formatted as a phone number from a list of integers
 
-    The function should:
-    - Accept exactly 10 integers as input.
-    - Ensure all integers are between 0 and 9.
-    - Return a string in the format: "(XXX) XXX-XXXX", where X represents the digits from the input array.
-
     Parameter:
     phone_number (list[int]): a list of integers between 0 and 9 representing digits of a phone number
 

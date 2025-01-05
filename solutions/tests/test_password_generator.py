@@ -1,6 +1,6 @@
 import unittest
 
-from password_generator import password_generator
+from ..password_generator import *
 
 class PasswordGeneratorTests(unittest.TestCase):
     def test_empty_password_length(self):

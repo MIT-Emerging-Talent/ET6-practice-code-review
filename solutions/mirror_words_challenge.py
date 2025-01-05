@@ -1,17 +1,18 @@
 # mirror_words_challenge
 import re
 
+
 def reverse_words(sentence):
     """
-    Reverses each word in a given sentence while maintaining the order of the words 
+    Reverses each word in a given sentence while maintaining the order of the words
     and correctly handling punctuation marks at the end of words.
 
     Args:
-        sentence (str): The sentence to be processed. It can contain words, punctuation, 
+        sentence (str): The sentence to be processed. It can contain words, punctuation,
                          and spaces.
 
     Returns:
-        str: A new string where each word is reversed, but the word order and punctuation 
+        str: A new string where each word is reversed, but the word order and punctuation
              remain unchanged.
 
     Example:
@@ -24,7 +25,7 @@ def reverse_words(sentence):
     Raises:
         TypeError: If the input is not a string.
     """
-    
+
     if not isinstance(sentence, str):
         raise TypeError("Input must be a string")
 
@@ -40,4 +41,4 @@ def reverse_words(sentence):
         else:
             # If no match is found, just append the word
             reversed_words.append(word)
-    return ' '.join(reversed_words)
+    return " ".join(reversed_words)

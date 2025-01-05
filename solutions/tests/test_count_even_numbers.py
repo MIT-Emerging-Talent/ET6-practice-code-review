@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on 04 01 2025
+Created on January 4, 2025
 
 @author: Norbert Ndayisenga
 """
@@ -45,3 +45,4 @@ class TestCountEvenNumbers(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+    

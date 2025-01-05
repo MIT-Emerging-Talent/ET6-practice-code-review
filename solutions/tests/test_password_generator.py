@@ -20,7 +20,7 @@ Test categories:
 """
 
 import unittest
-from solutions.password_generator import password_generator
+from ..password_generator import password_generator
 
 
 class TestPasswordGenerator(unittest.TestCase):

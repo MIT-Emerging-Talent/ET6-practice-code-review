@@ -9,12 +9,15 @@ These tests cover:
 @author: May Mon Thant
 """
 
-from solutions.string_sort import string_sort
 import sys
-import unittest
 from pathlib import Path
 
+# noqa: E402 (Ignore import order rule)
 sys.path.append(str(Path(__file__).resolve().parents[2]))
+
+import unittest
+
+from solutions.string_sort import string_sort  # noqa: E402
 
 
 class TestStringSort(unittest.TestCase):

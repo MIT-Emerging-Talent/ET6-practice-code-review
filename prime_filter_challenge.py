@@ -2,6 +2,7 @@
 
 import math
 
+
 def filter_primes(numbers):
     """
     Filters out all non-prime numbers from a given list of integers.

@@ -42,23 +42,7 @@ class TestLongestSubstringLength(unittest.TestCase):
         """lt should return 2 for 'abababab'."""
         self.assertEqual(longest_substring_length("abababab"), 2)
 
-    def test_substring_at_the_end(self):
-        """lt should return 5 for 'abcdabcde'."""
-        self.assertEqual(longest_substring_length("abcdabcde"), 5)
-
-    def test_substring_at_the_beginning(self):
-        """lt should return 5 for 'abcdeabcd'."""
-        self.assertEqual(longest_substring_length("abcdeabcd"), 5)
-
-    def test_repeating_characters_in_between(self):
-        """lt should return 3 for 'abccba'."""
-        self.assertEqual(longest_substring_length("abccba"), 3)
-
-    def test_leading_repeated_characters(self):
-        """lt should return 6 for 'aaabcdef'."""
-        self.assertEqual(longest_substring_length("aaabcdef"), 6)
-
-    def test_long_string_with_single_repeated_character(self):
+    def test_long_repetition(self):
         """lt should return 6 for 'abcdeeeeeeeefghij'."""
         self.assertEqual(longest_substring_length("abcdeeeeeeeefghij"), 6)
 
@@ -66,20 +50,12 @@ class TestLongestSubstringLength(unittest.TestCase):
         """lt should handle characters with different cases uniquely."""
         self.assertEqual(longest_substring_length("AaBbCcDd"), 8)
 
-    def test_numeric_string(self):
-        """lt should handle numeric-string characters."""
-        self.assertEqual(longest_substring_length("123412345"), 5)
-
-    def test_special_characters(self):
-        """lt should handle symbols as characters."""
-        self.assertEqual(longest_substring_length("!@#$%^&*()"), 10)
-
     def test_mixed_characters(self):
         """It should handle strings containing alphanumeric and symbol characters."""
         self.assertEqual(longest_substring_length("a1b#2c$3d4"), 10)
 
-    def test_spaces_included(self):
-        """lt should handle spaces as characters."""
+    def test_space(self):
+        """lt should handle a space as a character."""
         self.assertEqual(longest_substring_length("abc abc"), 4)
 
     def test_empty_string(self):

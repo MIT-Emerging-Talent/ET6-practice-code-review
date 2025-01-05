@@ -58,7 +58,8 @@ added to the project by **06.01.2025** (internal deadline),
 with corresponding pull requests for each team member.
 - **Task Division:** Team members will work on separate branches to minimize
 merge conflicts and maintain clear ownership of tasks.
-- **Review Process:** Each pull request must include at least one review.
+- **Review Process:** Each pull request must be thoroughly reviewed by at
+least one other team member to ensure code quality and prevent errors.
 - **Communication Channels:** We will use **Slack/WhatsApp** for general communication
 and **GitHub** for technical discussions. **Zoom** may be used for synchronous
 meetings if necessary.

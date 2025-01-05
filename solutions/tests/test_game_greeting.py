@@ -1,3 +1,10 @@
+"""
+test_game_greeting.py
+
+this module contains unit tests for the 'game_greeting' function.
+
+"""
+
 import unittest
 
 from ..game_greeting import game_greeting

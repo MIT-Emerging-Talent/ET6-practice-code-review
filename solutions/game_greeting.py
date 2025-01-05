@@ -28,5 +28,6 @@ def game_greeting(name: str) -> str:
       "Welcome, Mohamed to the game"
 
     """
-    assert isinstance(name, str)
+    assert isinstance(name, str), "Name should be string"
+
     return f"Welcome, {name} to the game"

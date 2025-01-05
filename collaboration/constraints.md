@@ -24,6 +24,8 @@ been imposed by external factors:
 control and **Python** for development.
 - **Code Review Requirements:** Each pull request must be reviewed
 by at least one other team member before merging.
+- **Accessibility and Connectivity:** Team members must ensure they have reliable
+internet access to collaborate effectively.
 
 ## Internal: Involuntary
 
@@ -40,6 +42,9 @@ requiring asynchronous work and collaboration.
 responsibilities, which may limit available time for the project.
 - **Varying Skill Levels:** Team members have different levels of experience
 with **Python** and **GitHub**, which may affect task completion speed and code quality.
+- **Learning Curves:** As this project is part of a learning track, team members
+are still in the process of mastering some of the technologies and practices, which
+may affect productivity.
 
 ## Internal: Voluntary
 
@@ -65,6 +70,8 @@ and **GitHub** for technical discussions. **Zoom** may be used for synchronous
 meetings if necessary.
 - **Learning Goals:** Each team member will contribute tasks that align with
 their personal learning objectives for the project.
+- **Coding Standards:** We will follow a common coding style guide to ensure consistency
+throughout the project. All code must adhere to **PEP8** standards and be well-documented.
 
 ---
 

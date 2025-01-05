@@ -22,10 +22,8 @@ def binary_to_decimal(binary_str: str) -> int:
         The decimal equivalent of the binary number as an integer
 
     Raises:
-        AssertionError: If the input is a float.
-        AssertionError: If the input is None.
-        AssertionError: If the input is not a string.
-        AssertionError: If the input contains non-binary characters.
+        TypeError: If the input is not a string or None.
+        ValueError: If the input contains non-binary characters.
 
     >>> binary_to_decimal ("1010")
     10
@@ -37,12 +35,12 @@ def binary_to_decimal(binary_str: str) -> int:
     4
     """
 
-    assert isinstance(binary_str, str), "Entered value is not a string"
+    if not isinstance(binary_str, str):
+        raise TypeError("Entered value is not a string.")
     if not binary_str:
         raise ValueError("Input binary string cannot be empty.")
-    assert all(
-        bit in "01" for bit in binary_str
-    ), "Entered string contains non-binary characters"
+    if not all(bit in "01" for bit in binary_str):
+        raise ValueError("Entered string contains non-binary characters.")
 
     decimal = 0
     length = len(binary_str)

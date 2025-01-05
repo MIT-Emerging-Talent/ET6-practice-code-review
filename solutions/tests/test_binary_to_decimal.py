@@ -65,23 +65,23 @@ class TestBinaryToDecimal(unittest.TestCase):
 
     # Defensive tests
     def test_invalid_characters(self):
-        """It should raise an AssertionError for non-binary characters."""
-        with self.assertRaises(AssertionError):
+        """It should raise a ValueError for non-binary characters."""
+        with self.assertRaises(ValueError):
             binary_to_decimal("10A01")
 
     def test_non_string_input(self):
-        """It should raise an AssertionError for non-string input."""
-        with self.assertRaises(AssertionError):
+        """It should raise a TypeError for non-string input."""
+        with self.assertRaises(TypeError):
             binary_to_decimal(1010)
 
     def test_none_input(self):
-        """It should raise an AssertionError for None input."""
-        with self.assertRaises(AssertionError):
+        """It should raise a TypeError for None input."""
+        with self.assertRaises(TypeError):
             binary_to_decimal(None)
 
     def test_float_input(self):
-        """It should raise an AssertionError for a float input."""
-        with self.assertRaises(AssertionError):
+        """It should raise a TypeError for a float input."""
+        with self.assertRaises(TypeError):
             binary_to_decimal(10.1)
 
 

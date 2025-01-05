@@ -4,7 +4,7 @@ Unit tests for the fizz_buzz function.
 
 import unittest
 
-from fizz_buzz import fizz_buzz
+from solutions.fizz_buzz import fizz_buzz
 
 
 class TestFizzBuzz(unittest.TestCase):

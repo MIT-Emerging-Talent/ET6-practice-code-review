@@ -33,6 +33,10 @@ def max_profit(prices: list[int]) -> int:
         0
     """
 
+    assert isinstance(prices, list), "Input should be a list."
+    assert all(isinstance(price, (int, float)) for price in prices), "Prices should be numeric."
+    assert all(price >= 0 for price in prices), "Prices should not be negative."
+
     maximum_profit = 0
 
     # Compare each day's price with the previous day's, starting from the second day

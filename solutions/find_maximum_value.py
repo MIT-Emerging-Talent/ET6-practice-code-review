@@ -31,6 +31,7 @@ def find_maximum_value(values: list):
     """
     # values = [input(print('enter a list of number to be processed'))]
 
+    # trunk-ignore(bandit/B101)
     assert isinstance(values, list)
     ordered_list_of_values = sorted(values)
     highest = ordered_list_of_values[-1]

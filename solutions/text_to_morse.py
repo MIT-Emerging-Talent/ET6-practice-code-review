@@ -12,7 +12,7 @@ Created on 4 Jan 2025
 
 
 def text_to_morse(text: str) -> str:
-    """Generate the corresponding Morse code of a given text.
+    """The function converts a given text into Morse code. It processes each character of the input text and and concerts it to its corresponding Morse code representation.
     Letters: A - Z, Numbers: Positive integrs and zero, Symbols: , . ? / - ( )
 
     Parameters:

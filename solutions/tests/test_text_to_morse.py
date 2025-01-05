@@ -6,8 +6,8 @@ A test for module text_to_morse
 
 Test categories:
   - Standard cases: letters, number, some symbols
-  - Edge cases: compination between letters, numbers, symbols
-  - Defensive tests: assertions, wrong input types, unknown characters
+  - Edge cases:  sentences, long paragraphes, large numbers
+  - Defensive tests: assertions, unknown character
 
 Created on 5 1 2025
 

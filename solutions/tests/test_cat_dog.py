@@ -1,5 +1,5 @@
-"""
-Unit tests for the cat_dog module.
+"""Unit tests for the cat_dog module.
+@author: May Mon Thant
 """
 
 import sys
@@ -39,6 +39,11 @@ class TestCatDog(unittest.TestCase):
     def test_boundary_case(self):
         """Test with mixed cases and adjacent occurrences."""
         self.assertTrue(cat_dog("1cat1cadodog"))
+
+    def test_string_too_long(self):
+        """Test when input string exceeds maximum length."""
+        with self.assertRaises(AssertionError):
+            cat_dog("catdogcatdogcatdog")  # 18 characters, exceeds 15 char limit
 
 
 if __name__ == "__main__":

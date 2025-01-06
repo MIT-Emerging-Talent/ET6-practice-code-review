@@ -3,6 +3,8 @@ module'draw': it prints a triangle pattern made of stars (*).
 
 the user enters a number and get a triangle of stars in descending order.
 
+Author: Mohamed Tilal
+Created date: 6.1.2025
 """
 # the function
 

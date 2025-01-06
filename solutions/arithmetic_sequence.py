@@ -42,7 +42,7 @@ def arithmetic_sequence(sequence_length: int) -> list:
     if sequence_length == 0:
         return []
     if sequence_length == 1:
-        return [1]
+        return [0]
     if sequence_length == 2:
         return [0, 1]
     sequence = [0, 1]

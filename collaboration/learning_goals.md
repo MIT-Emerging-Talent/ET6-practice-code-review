@@ -111,6 +111,28 @@ deadlines are met.
 - Apply recursion to real-world problems and optimize recursive solutions
 where necessary.
 
+### Lukmon ALAO
+
+1. **Effective Collaboration**:
+   - I develop my collaboration skills as a programmer in a team project.
+   - I will improve my communication and skills and learn the dynamics of working
+   - in a multi-cultural environment.
+
+2. **version control and mastering**:
+   - learn the use git and git command for version mastering and merge conflict resolution.
+   - This skill is pivotal for hassle free collaboration.
+
+3. **Code review practices**:
+   - To imbibe the best practice for code writing and review code written by others.
+   - by adopting the review religiously as outlined in the template.
+
+4. **mastering Github**:
+   - familiarize with github interface.
+   - Gain an understanding of how to use it for effective collaboration.
+
+*Each team member is encouraged to add their individual goals below to document
+their learning objectives for this project.*
+
 ---
 
 *Each team member is encouraged to add their individual goals below to document

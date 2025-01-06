@@ -13,7 +13,7 @@ discussions, and code contributions.
 ```
 <!-- markdownlint-disable MD031 MD033 MD004 MD009 MD013 MD045 -->
 
-<img align="right" width="250" height="auto" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWE1YnV2ZjU2ajRwOGtsanVraW5hOTh6NGxncHdwYXVvNnV5NTR3ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/VelSsmKxxqncKJu2sh/giphy.webp">
+
 <!-- markdownlint-enable MD033 MD031 -->
 
 ## ⭐ Stepping Inside
@@ -34,6 +34,7 @@ Let's build, learn, and succeed—together! 💡
 ## 🎉 Meet the Crew
 
 **_Who's behind the challenges?_**  
+Contact any if facing any difficulty
 
 + [Salih Adam](https://github.com/Adamx090)
 + [Alhassen Sabeeh](https://github.com/AlhassenSabeeh)  
@@ -62,4 +63,6 @@ This repository is organized as follows:
 Our **team's key insights, learnings, and collaborative decision-making** processes:  
 Documented all in [meeting minutes file](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-28/tree/main/notes).
 
-![]()
+![image](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzd0czNuaWZ6dndzeDduZW9nYmU0dHR4OHR1bXFiM210dTRmYWVxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KNUhETKTx63XgYHBt1/giphy.webp)
+
+

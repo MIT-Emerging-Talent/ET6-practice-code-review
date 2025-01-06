@@ -18,35 +18,35 @@ from ..arithmetic_sequence import arithmetic_sequence
 class TestArithmeticSequence(unittest.TestCase):
     """Test the arithmetic_sequence function"""
 
-    def test_0(self):
+    def test_empty_string(self):
         "It should evaluate 0 to []"
         self.assertEqual(arithmetic_sequence(0), [])
 
-    def test_1(self):
+    def test_one_number(self):
         "Should evaluate 1 to [0]"
-        self.assertEqual(arithmetic_sequence(1), [1])
+        self.assertEqual(arithmetic_sequence(1), [0])
 
-    def test_2(self):
+    def test_two_numbers(self):
         "Should evaluate 2 to [0,1]"
         self.assertEqual(arithmetic_sequence(2), [0, 1])
 
-    def test_3(self):
+    def test_three_numbers(self):
         "Should evaluate 3 to [0, 1, 5]"
         self.assertEqual(arithmetic_sequence(3), [0, 1, 4])
 
     # defensive cases
 
-    def test_0_less_than_0(self):
+    def test_less_than_0(self):
         """It should raise an assertion error if the argument is less than 0"""
         with self.assertRaises(AssertionError):
             arithmetic_sequence(-1)
 
-    def test_1_not_an_integer(self):
+    def test_a_float(self):
         """Should raise an assertion error if the argument is a float"""
         with self.assertRaises(AssertionError):
             arithmetic_sequence(1.0)
 
-    def test_2_not_an_integer(self):
+    def test_a_string(self):
         """Should raise an assertion error if the argument is not an integer"""
         with self.assertRaises(AssertionError):
             arithmetic_sequence(["1", 2, 3])

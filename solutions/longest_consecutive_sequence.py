@@ -22,10 +22,10 @@ def longest_consecutive_sequence(nums: List[int]) -> int:
         int: The length of the longest consecutive sequence.
 
     Raises:
-        AssertionError: 
+        AssertionError:
         - If `nums` is not a list.
         - If `nums` contains non-integer elements.
-        ValueError: 
+        ValueError:
         - If the list contains `None`values.
         - If the list contains `NaN` values.
 

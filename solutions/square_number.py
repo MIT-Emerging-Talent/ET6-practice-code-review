@@ -8,7 +8,6 @@ The function ensures robust error handling and supports
 both integers and floats
 Created on 2025-01-02
 Author: Saeed Ali
-
 """
 
 

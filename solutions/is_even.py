@@ -3,6 +3,10 @@ This module contains a function that checks if a number is even or odd.
 
 Function:
 - is_even(num): Returns True if the number is even, False otherwise.
+Created: [04/01/24]
+Team Number: 28
+Team Name: MIT Alpha
+Author: Duha Mohammed
 """
 
 

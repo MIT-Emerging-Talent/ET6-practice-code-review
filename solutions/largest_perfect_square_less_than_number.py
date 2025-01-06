@@ -52,26 +52,27 @@ def largest_perfect_square_less_than_number(number: Union[int, float]) -> int:
         >>> largest_perfect_square_less_than_number(100.99)
         81
     """
-    # Validate input type
+    # Validate input type to avoid errors in mathematical operations
     assert isinstance(
         number, (int, float)
     ), "Input must be a number (either integer or float)."
 
-    # Validate non-negative input
+    # Negative numbers do not have valid perfect squares
     assert number >= 0, "Input must be a non-negative number."
 
-    # If the input is between 0 and 1, no perfect square exists below it
+    # Handle edge cases where no perfect square exists below 1
     if number <= 1:
         return 0
 
     square_root = number**0.5
 
-    # Ensuring the square root is integer
+    # Ensure we work with the integer part of the square root
     square_root = int(square_root)
 
     # Find the largest perfect square less than the number
     perfect_square = square_root * square_root
 
+    # Adjust when the number is exactly or close to a perfect square
     if perfect_square == int(number):
         perfect_square = (square_root - 1) * (square_root - 1)
 

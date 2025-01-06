@@ -13,8 +13,6 @@ discussions, and code contributions.
 ```
 <!-- markdownlint-disable MD031 MD033 MD004 MD009 MD013 MD045 -->
 
-
-
 ## ⭐ Stepping Inside
 
 * Solving minimum two challenges and reviewing other's codes  
@@ -65,5 +63,3 @@ Documented all in [meeting minutes file](https://github.com/MIT-Emerging-Talent/
 <!-- markdownlint-disable MD012 -->
 
 ![image](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzd0czNuaWZ6dndzeDduZW9nYmU0dHR4OHR1bXFiM210dTRmYWVxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KNUhETKTx63XgYHBt1/giphy.webp)
-
-

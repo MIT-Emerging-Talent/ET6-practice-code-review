@@ -12,7 +12,7 @@ def count_characters(string: str) -> int:
     ignoring case sensitivity.
 
     Parameters:
-    string (str): The input string to count vowels from
+    string (str): The input string to count vowels characters
 
     Returns:
     int: The total number of vowels in the string

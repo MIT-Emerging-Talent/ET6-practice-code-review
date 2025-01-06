@@ -1,8 +1,16 @@
+"""
+test_count_characters.py
+this module contains unit tests for the 'count_characters'
+function
+
+"""
+
 import unittest
+
 from ..count_characters import count_characters
 
 
-class Testcount_characters(unittest.TestCase):
+class TestCountCharacters(unittest.TestCase):
     # Edge cases:
     def test_empty_string(self):
         """check if the input is empty string"""

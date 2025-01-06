@@ -75,3 +75,7 @@ class CalculateMaxProfit(unittest.TestCase):
         """Raises an AssertionError for non_numeric_values."""
         with self.assertRaises(AssertionError):
             calculate_max_profit([1.5, "2", 3])
+
+
+if __name__ == "__main__":
+    unittest.main()

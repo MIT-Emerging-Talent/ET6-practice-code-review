@@ -8,7 +8,7 @@
     @Date: 2024-01-06
 """
 import unittest
-from print_triangle_shape import triangle_printer
+from ..print_triangle_shape import triangle_printer
 
 class TestPrintTriangleShape(unittest.TestCase):
     """

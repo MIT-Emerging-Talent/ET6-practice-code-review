@@ -18,7 +18,7 @@ def missing_number(nums: list, n: int) -> int:
 
     Parameters:
         nums: list, starting with zero and of any length
-        n: int, greater than or equal to zero
+        n: int, nums length should be greater than or equal to zero
 
     Returns:
         list: with the missing numbers.
@@ -27,14 +27,14 @@ def missing_number(nums: list, n: int) -> int:
         AssertionError: if one of the arguments is invalid.
 
     Examples:
-    >>> missing_number([0,2], 3)
-    [1]
-    >>> missing_number([0,1,3], 5)
-    [2,4]
+    >>> missing_number([0, 2], 3)
+    [1, 3]
+    >>> missing_number([0, 1, 3], 5)
+    [2, 4, 5]
 
     """
-    # the nums length should be an integer greater than 0
-    assert n >= 0, "n must be greater than or equal to zero"
+
+    assert n >= 0
 
     full_set = set(range(n + 1))
     # The expected set of numbers is from 0 to n
@@ -43,6 +43,5 @@ def missing_number(nums: list, n: int) -> int:
     # The actual set of numbers present in the 'nums' list
 
     missing = list(full_set - nums_set)
-    # The missing numbers are the difference between the full set and the actual set
 
     return missing

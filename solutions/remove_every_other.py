@@ -1,5 +1,3 @@
-# remove_every_other.py
-
 """
 Module: remove_every_other
 Author: Mojtaba Fayyaz

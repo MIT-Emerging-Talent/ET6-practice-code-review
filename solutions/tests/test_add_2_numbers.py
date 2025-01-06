@@ -23,7 +23,3 @@ class TestAdd2Numbers(unittest.TestCase):
         """Test that the function raises an AssertionError for invalid inputs."""
         with self.assertRaises(AssertionError):
             add_2_numbers("3", 5)
-
-
-if __name__ == "__main__":
-    unittest.main()

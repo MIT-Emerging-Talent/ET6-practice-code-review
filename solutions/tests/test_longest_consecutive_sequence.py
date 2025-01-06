@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-This module provides unit tests for the function calculate_discount.
+This module provides unit tests for the longest_consecutive_sequence function.
+
+Test Categories:
+Regular Passing Cases - Tests with typical inputs
+Rare or Edge Cases - Tests with empty lists, single elements, and duplicates
+Defensive Cases - Tests that verify error handling for invalid inputs
+
 Created on: 2025/1/5
 Author: Hamidullah Rajabi
 """

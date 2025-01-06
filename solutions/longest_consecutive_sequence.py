@@ -8,12 +8,6 @@ Created on: 2025/1/5
 @author: Hamidullah Rajabi
 """
 
-"""
-longest_consecutive_sequence.py
-
-This module provides a function to find the length of the longest consecutive sequence in a list of integers.
-"""
-
 from typing import List  # noqa: E402
 
 
@@ -28,12 +22,12 @@ def longest_consecutive_sequence(nums: List[int]) -> int:
         int: The length of the longest consecutive sequence.
 
     Raises:
-        TypeError: If `nums` is not a list.
-        TypeError: If `nums` contains non-integer elements.
+        AssertionError: If `nums` is not a list.
+        AssertionError: If `nums` contains non-integer elements.
         ValueError: If the list contains `None`values.
         ValueError: If the list contains `NaN` values.
 
-    Doctests:
+    Examples:
         >>> longest_consecutive_sequence([100, 4, 200, 1, 3, 2])
         4
         >>> longest_consecutive_sequence([0, -1, 1, 2, 3, 7, 8, 9])
@@ -42,6 +36,7 @@ def longest_consecutive_sequence(nums: List[int]) -> int:
         0
     """
 
+    # Validating User Inputs
     if not isinstance(nums, list):
         raise AssertionError("Input must be a list.")
     if any(num is None for num in nums):
@@ -56,6 +51,7 @@ def longest_consecutive_sequence(nums: List[int]) -> int:
     nums_set = set(nums)
     max_length = 0
 
+    # Iterate through each number in the list
     for num in nums:
         if num - 1 not in nums_set:  # Start of a sequence
             current_num = num

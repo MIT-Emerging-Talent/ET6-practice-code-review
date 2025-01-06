@@ -9,7 +9,7 @@ Github.*
 I intend to share simple coding challenges from our previous programming classes.
 This will ensure all team members are familiar with the challenges and actively
 participate in solving them, hence meeting my learning objective
-**Bekuretsion-Tadios**
+**Bekuretsion**
 
 **my Goal**:
 To learn teamwork, resolve conflicts, and use Git effectively for projects.
@@ -31,7 +31,6 @@ Manage conflicts and merge code without errors.
 Use Git workflows to speed up development.
 
 Confidently integrate version control systems
-=======
 
 **Taiwo Goals**:
 

@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
     doctest.testmod()
 
-# print(square_number(4))  # Output: 16
-# print(square_number(-6))  # Output: 36
-# print(square_number(1.5))  # Output: 2.25
-# print(square_number("m"))  # Output: TypeError
+print(square_number(4))  # Output: 16
+print(square_number(-6))  # Output: 36
+print(square_number(1.5))  # Output: 2.25
+print(square_number("m"))  # Output: TypeError

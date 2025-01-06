@@ -1,5 +1,5 @@
 
-# Team Communication Guidelines
+# Team Nexus Communication Guidelines
 
 Effective communication is essential for the success of our  
 group project. These guidelines provide a framework for  

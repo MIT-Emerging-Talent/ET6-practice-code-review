@@ -3,7 +3,7 @@ using the Euclidean algorithm.
 """
 
 
-def gcd(a, b):
+def gcd(a: int, b: int) -> int:
     """
     Parameters:
     a (int): The first number.
@@ -21,6 +21,8 @@ def gcd(a, b):
     @author: Myat Charm
     Created on Jan 03, 2025.
     """
+    assert isinstance(a, int) and isinstance(b, int), "Both inputs must be integers."
+
     while b != 0:
         a, b = b, a % b
     return a

@@ -5,7 +5,7 @@ Module contents:
     - find_minimum_value: returns the lowest value in a list
 
 Created on 2024-12-28
-Author: Lukmon Alao
+Author: Lukmon Olamilekan Alao
 """
 
 

@@ -62,6 +62,8 @@ This repository is organized as follows:
 Our **team's key insights, learnings, and collaborative decision-making** processes:  
 Documented all in [meeting minutes file](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-28/tree/main/notes).
 
+<!-- markdownlint-disable MD012 -->
+
 ![image](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzd0czNuaWZ6dndzeDduZW9nYmU0dHR4OHR1bXFiM210dTRmYWVxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KNUhETKTx63XgYHBt1/giphy.webp)
 
 

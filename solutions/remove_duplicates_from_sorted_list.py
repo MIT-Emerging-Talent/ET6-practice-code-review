@@ -5,7 +5,7 @@ Module: remove_duplicates_from_sorted_list
 Description: This module provides a function to remove duplicates from a sorted linked list.
 The function ensures each element appears only once while maintaining the sorted order.
 
-Created on: 31 12 24
+Created on: 01 01 25
 @author: Muhammad Shahroz
 """
 
@@ -15,17 +15,19 @@ from typing import Optional
 class ListNode:
     """A node in a singly linked list."""
 
-    def __init__(self, val=0, next_node=None):
-        self.val = val
+    def __init__(self, value=0, next_node=None):
+        self.value = value
         self.next = next_node
 
 
-def remove_duplicates(head: Optional[ListNode]) -> Optional[ListNode]:
+def remove_duplicates_from_sorted_list(head: Optional[ListNode]) -> Optional[ListNode]:
     """
     Removes duplicates from a sorted linked list.
 
     Parameters:
         head (Optional[ListNode]): The head node of the sorted linked list.
+            - The input is expected to be a valid ListNode or None.
+            - The list is assumed to be sorted in non-decreasing order.
 
     Returns:
         Optional[ListNode]: The head node of the modified linked list with duplicates removed.
@@ -35,24 +37,34 @@ def remove_duplicates(head: Optional[ListNode]) -> Optional[ListNode]:
 
     Examples:
         >>> head = ListNode(1, ListNode(1, ListNode(2)))
-        >>> result = remove_duplicates(head)
-        >>> result.val, result.next.val, result.next.next is None
-        (1, 2, True)
+        >>> result = remove_duplicates_from_sorted_list(head)
+        >>> [result.value, result.next.value, result.next.next]
+        [1, 2, None]
 
         >>> head = ListNode(1, ListNode(1, ListNode(2, ListNode(3, ListNode(3)))))
-        >>> result = remove_duplicates(head)
-        >>> result.val, result.next.val, result.next.next.val
-        (1, 2, 3)
+        >>> result = remove_duplicates_from_sorted_list(head)
+        >>> [result.value, result.next.value, result.next.next.value]
+        [1, 2, 3]
+
+        >>> result = remove_duplicates_from_sorted_list(None)
+        >>> result is None
+        True
+
+    Example:
+        head = ListNode(1, ListNode(1, ListNode(2)))
+        result = remove_duplicates_from_sorted_list(head)
+        # result is now a list with values: [1, 2]
     """
+    # Defensive Assertion
     assert head is None or isinstance(
         head, ListNode
     ), "Input must be a ListNode or None."
 
-    current = head
-    while current and current.next:
-        if current.val == current.next.val:
-            current.next = current.next.next
+    current_node = head
+    while current_node and current_node.next:
+        if current_node.value == current_node.next.value:
+            current_node.next = current_node.next.next  # Remove duplicate
         else:
-            current = current.next
+            current_node = current_node.next  # Move to next node
 
     return head

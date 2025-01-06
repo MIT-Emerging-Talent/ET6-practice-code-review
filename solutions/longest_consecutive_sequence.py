@@ -22,10 +22,12 @@ def longest_consecutive_sequence(nums: List[int]) -> int:
         int: The length of the longest consecutive sequence.
 
     Raises:
-        AssertionError: If `nums` is not a list.
-        AssertionError: If `nums` contains non-integer elements.
-        ValueError: If the list contains `None`values.
-        ValueError: If the list contains `NaN` values.
+        AssertionError: 
+        - If `nums` is not a list.
+        - If `nums` contains non-integer elements.
+        ValueError: 
+        - If the list contains `None`values.
+        - If the list contains `NaN` values.
 
     Examples:
         >>> longest_consecutive_sequence([100, 4, 200, 1, 3, 2])
@@ -36,7 +38,7 @@ def longest_consecutive_sequence(nums: List[int]) -> int:
         0
     """
 
-    # Validating User Inputs
+    # Ensures that the user input is the right type.
     if not isinstance(nums, list):
         raise AssertionError("Input must be a list.")
     if any(num is None for num in nums):
@@ -51,7 +53,7 @@ def longest_consecutive_sequence(nums: List[int]) -> int:
     nums_set = set(nums)
     max_length = 0
 
-    # Iterate through each number in the list
+    # Checking for the number with most repetition in the list
     for num in nums:
         if num - 1 not in nums_set:  # Start of a sequence
             current_num = num

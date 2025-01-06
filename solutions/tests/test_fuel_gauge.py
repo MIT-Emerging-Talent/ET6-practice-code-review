@@ -26,5 +26,7 @@ class TestFuelGauge(unittest.TestCase):
 
     def test_invalid_input(self):
         """Test cases for invalid inputs."""
-        self.assertEqual(fuel_gauge(6, 0), "Invalid input")
-        self.assertEqual(fuel_gauge(7, -1), "Invalid input")
+        with self.assertRaises(AssertionError):
+            fuel_gauge(6, 0)
+        with self.assertRaises(AssertionError):
+            fuel_gauge(7, -1)

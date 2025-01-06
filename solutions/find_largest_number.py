@@ -8,7 +8,7 @@ ValueError. The function returns the maximum number in the list using the
 built-in `max()` function."""
 
 
-def largest_num(numbers):
+def find_largest_num(numbers) -> float:
     """
     This function takes a list of numbers as input and returns the largest number.
 

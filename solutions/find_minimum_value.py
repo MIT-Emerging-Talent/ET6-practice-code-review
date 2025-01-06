@@ -2,7 +2,7 @@
 A module for calculating the minimum value from a list of values.
 
 Module contents:
-    - find_minimum_value: returns the inverse of a 2x2 matrix.
+    - find_minimum_value: returns the lowest value in a list
 
 Created on 2024-12-28
 Author: Lukmon Alao

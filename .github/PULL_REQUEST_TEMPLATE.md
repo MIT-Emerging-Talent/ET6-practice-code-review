@@ -69,8 +69,8 @@ about: A template PR for code review with a checklist
 
 - [ ] The function's strategy _is not_ described in the documentation
 - [ ] Comments explain the _strategy_, **not** the _implementation_
-- [ ] The function _does not_ have more comments than code
-  - If it does, consider finding a new strategy or a simpler implementation
+- [ ] Having more comments than code in a function
+  - If this occurs, consider finding a new strategy or a simpler implementation
 
 ## Implementation
 

@@ -6,8 +6,10 @@ largest_num function, which identifies the largest number in a given list.
 """
 
 import unittest
+import sys
 
-from solutions.find_largest_number import largest_num
+sys.path.append("../")
+from find_largest_number import largest_num
 
 
 class TestLargestNum(unittest.TestCase):

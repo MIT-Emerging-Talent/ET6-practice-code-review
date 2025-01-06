@@ -51,3 +51,6 @@ class TestFactorialFunction(unittest.TestCase):
             factorial(-1)
         with self.assertRaises(AssertionError):
             factorial(-10)
+
+            if __name__ == "__main__":
+                unittest.main()

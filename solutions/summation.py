@@ -43,10 +43,7 @@ def sum(*args: float) -> float:
     if not all(isinstance(arg, (int, float)) for arg in args):
         raise TypeError("All inputs must be numeric (int or float).")
 
-    # Initialize a running total to zero
-    total = 0
-
-    # Iterate through the input arguments and calculate the sum
+        # Iterate through the input arguments and calculate the sum
 
     total = 0
 

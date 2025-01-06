@@ -1,13 +1,9 @@
-"""
-square_number.py
-module name: 
-square_number 
-contains a function to calculate the square of a number.
-Module contents:
-The function ensures robust error handling and supports
-both integers and floats
+"""square_number.py
+module name:
+module name: square_number
+Module contents: The function ensures robust error handling and
+supports both integers and floats. Author: Saeed Ali
 Created on 2025-01-02
-Author: Saeed Ali
 """
 
 
@@ -34,7 +30,6 @@ def square_number(num):
 
 
 if __name__ == "__main__":
-
     import doctest
 
     doctest.testmod()

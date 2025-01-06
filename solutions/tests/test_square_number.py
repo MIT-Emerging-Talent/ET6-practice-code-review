@@ -6,7 +6,12 @@ Unit tests for the square_number module.
 """
 
 import unittest
-from ..square_number import square_number
+import sys
+import os
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+
+from solutions.square_number import square_number
 
 
 class TestSquareNumber(unittest.TestCase):

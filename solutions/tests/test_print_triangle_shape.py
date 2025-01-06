@@ -1,14 +1,15 @@
 """
-    This module contains unit tests for the `triangle_printer` function from the `print_triangle_shape` module.
-    The tests check various scenarios, including invalid inputs, edge cases, and larger inputs, ensuring the function behaves as expected.
-    
-    @Author: Mukuna Kabeya
-    @Version: 1.0.0
-    @Date: 2024-01-06
+This module contains unit tests for the `triangle_printer` function from the `print_triangle_shape` module.
+The tests check various scenarios, including invalid inputs, edge cases, and larger inputs, ensuring the function behaves as expected.
+
+@Author: Mukuna Kabeya
+@Version: 1.0.0
+@Date: 2024-01-06
 """
 
 import unittest
 from ..print_triangle_shape import triangle_printer
+
 
 class TestPrintTriangleShape(unittest.TestCase):
     """
@@ -17,6 +18,7 @@ class TestPrintTriangleShape(unittest.TestCase):
     These tests ensure that the function works correctly for a range of inputs:
     from invalid or edge cases to valid small and large inputs.
     """
+
     def test_invalid_inputs(self):
         """
         Ensure the function raises the correct exceptions for invalid inputs.
@@ -57,9 +59,10 @@ class TestPrintTriangleShape(unittest.TestCase):
             "   *************",
             "  ***************",
             " *****************",
-            "*******************"
+            "*******************",
         ]
         self.assertEqual(triangle_printer(10), expected_output)
+
 
 if __name__ == "__main__":
     unittest.main()

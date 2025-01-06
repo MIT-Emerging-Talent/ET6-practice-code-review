@@ -6,12 +6,12 @@ A module for calculating elapsed days in 2025.
 
 Module contents:
     - Calculates the total number of days elapsed in 2025, including the current day.
+
+created on 2024-12-25
+@author: Alemayehu Desta
 """
 
 from datetime import datetime
-
-__author__ = "Alemayehu_Desta"
-__created__ = "2025-12-25"
 
 
 def days_passed_2025(current_date: datetime) -> int:
@@ -27,13 +27,26 @@ def days_passed_2025(current_date: datetime) -> int:
     Raises:
         ValueError: If the provided date is not in the year 2025.
     """
+    """
+
+Examples:
+    >>> from datetime import datetime
+    >>> days_passed_2025(datetime(2025, 1, 1))
+    1
+    >>> days_passed_2025(datetime(2025, 6, 15))
+    166
+    >>> days_passed_2025(datetime(2025, 12, 31))
+    365
+    >>> days_passed_2025(datetime(2024, 12, 31)) 
+    Traceback (most recent call last):
+    ...
+    ValueError: Date must be in the year 2025.
+"""
     if current_date.year != 2025:
         raise ValueError("Date must be in the year 2025.")
 
-    # Reference start date
     start_of_year = datetime(2025, 1, 1)
 
-    # Calculate elapsed days
-    delta_days = (current_date - start_of_year).days + 1
+    passed_days = (current_date - start_of_year).days + 1
 
-    return delta_days
+    return passed_days

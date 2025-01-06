@@ -11,7 +11,10 @@ To collaborate, learn, and develop efficient solutions.
 This repository is our central hub for all activities,
 discussions, and code contributions.
 ```
+<!-- markdownlint-disable MD031 MD033 MD004 MD009 MD013 MD045 -->
+
 <img align="right" width="250" height="auto" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWE1YnV2ZjU2ajRwOGtsanVraW5hOTh6NGxncHdwYXVvNnV5NTR3ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/VelSsmKxxqncKJu2sh/giphy.webp">
+<!-- markdownlint-enable MD033 MD031 -->
 
 ## ⭐ Stepping Inside
 
@@ -25,7 +28,7 @@ discussions, and code contributions.
 > Together, we are unstoppable."
 
 Let's build, learn, and succeed—together! 💡
-
+<!-- markdownlint-disable MD033 MD031 -->
 <img align="right" width="400" height="auto" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGtmbW5iOGEzeWIxY2l5cTY0c2ZsZXYwc3h2NjNua2MwMTVzeGRxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/8ekmDODACSSXxWuBRz/giphy.webp">
 
 ## 🎉 Meet the Crew

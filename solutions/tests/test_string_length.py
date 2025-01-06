@@ -94,5 +94,4 @@ class TestStringLength(unittest.TestCase):
             string_length(["a", "b", "c"])
 
 
-if __name__ == "__main__":
-    unittest.main()
+

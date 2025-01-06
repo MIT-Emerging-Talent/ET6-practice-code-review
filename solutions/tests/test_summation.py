@@ -1,9 +1,14 @@
 import unittest
+"""
+unit tests for the summation function
+
+"""
 
 from solutions.summation import sum
 
 
 class TestSum(unittest.TestCase):
+    """tests for the sum function"""
     def test_sum_positive_numbers(self):
         """It should return the sum of a positive numbers"""
         actual = sum(1, 2, 3, 4, 5)  # noqa: F841

@@ -17,6 +17,10 @@ def my_grade(average: float) -> str:
                 and must not be negative.
 
     Returns -> str: your final grade and its description
+    str: A string containing the grade description and letter grade in parentheses.
+    Format: "{Description} ({Letter})"
+    Possible values: "Excellent (A)", "Very Good (B+)", "Good (B)",
+    "Satisfactory (C)", "Basic (D)", "Fail (F)"
 
     Raises:
         AssertionError: if argument is not a float

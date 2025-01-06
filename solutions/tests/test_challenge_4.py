@@ -17,12 +17,10 @@ Example:
 
 import os
 import sys
+import unittest
 from solutions.challenge_4 import sort_numbers
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
-
-import unittest
-from unittest.mock import patch
 
 
 class TestSortNumbers(unittest.TestCase):

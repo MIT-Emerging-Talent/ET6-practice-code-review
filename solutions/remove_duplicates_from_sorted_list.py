@@ -62,9 +62,10 @@ def remove_duplicates_from_sorted_list(head: Optional[ListNode]) -> Optional[Lis
 
     current_node = head
     while current_node and current_node.next:
+        # Traverse the list and remove consecutive duplicates by adjusting pointers.
         if current_node.value == current_node.next.value:
-            current_node.next = current_node.next.next  # Remove duplicate
+            current_node.next = current_node.next.next  # Skip the duplicate node
         else:
-            current_node = current_node.next  # Move to next node
+            current_node = current_node.next   # Move to the next unique node
 
     return head

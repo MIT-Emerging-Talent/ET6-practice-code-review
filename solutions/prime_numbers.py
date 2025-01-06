@@ -28,11 +28,11 @@ def prime_numbers(number: int) -> bool:
         AssertionError: if the input is not an integer.
 
     Examples:
-    >>> prime_numbers("1")
+    >>> prime_numbers(1)
     False
-    >>> prime_numbers("2")
+    >>> prime_numbers(2)
     True
-    >>> prime_numbers("3")
+    >>> prime_numbers(3)
     True
     """
     assert isinstance(number, int), "input must be an integer"
@@ -42,4 +42,4 @@ def prime_numbers(number: int) -> bool:
     for i in range(2, number):
         if number % i == 0:
             return False
-        return True
+    return True

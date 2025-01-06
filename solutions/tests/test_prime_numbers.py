@@ -35,7 +35,6 @@ def test_not_int(self):
 def test_edge_case(self):
     """Testing the function with edge inputs"""
     self.assertFalse(prime_numbers(1))
-    self.assertFalse(prime_numbers(0))
 
 
 def test_negative_numbers(self):

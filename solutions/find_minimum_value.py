@@ -1,7 +1,11 @@
 """
-created 2024-12-28
+A module for calculating the minimum value from a list of values.
 
-@author: Lukmon Alao
+Module contents:
+    - find_minimum_value: returns the inverse of a 2x2 matrix.
+
+Created on 2024-12-28
+Author: Lukmon Alao
 """
 
 

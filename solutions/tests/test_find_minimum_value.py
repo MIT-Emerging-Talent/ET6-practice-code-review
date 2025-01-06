@@ -1,7 +1,14 @@
 """
-created on 2024-12-28
+A module for testing the find_minimum_value function.
 
-@author: Lukmon Alao
+Test categories:
+    - Standard test cases: test the function with typical inputs.
+    - Edge test cases: test the function with extreme inputs.
+    - Defensive tests: test the function with invalid inputs.
+
+
+Created on 2024-12-28
+Author: Lukmon Alao
 """
 
 import unittest
@@ -12,6 +19,7 @@ from ..find_minimum_value import find_minimum_value
 class TestFindMinimumValue(unittest.TestCase):
     """Test the find_minimum_value from a list"""
 
+    # standard and edge test
     def test_first_four_integers(self):
         """It gives 1 when [1, 2, 3, 4] is pass to the function"""
         actual = find_minimum_value([1, 2, 3, 4])  # call function with test argument

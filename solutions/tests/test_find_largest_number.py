@@ -9,7 +9,7 @@ import unittest
 import sys
 
 sys.path.append("../")
-from ..find_largest_number import find_largest_num
+from solutions.find_largest_number import find_largest_num
 
 
 class TestLargestNum(unittest.TestCase):

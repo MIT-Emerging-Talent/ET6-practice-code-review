@@ -23,7 +23,7 @@ def find_maximum_value(values: list):
     Returns -> number: the highest value from the list of numbers.
 
     Raises:
-        AssertionError: if input is not a list and numerical
+        AssertionError: if input is not a list or a non-numerical data
 
     Examples:
         >>> find_maximum_value([1, 2, 3, 4])

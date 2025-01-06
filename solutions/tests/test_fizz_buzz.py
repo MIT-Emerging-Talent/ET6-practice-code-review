@@ -76,3 +76,16 @@ class TestFizzBuzz(unittest.TestCase):
             assert (
                 str(e) == "All integers in the list must be non-negative."
             ), "Failed on negative integers."
+
+    def test_zero(self):
+        """Test FizzBuzz with zero as input."""
+        result = fizz_buzz([0])
+        assert result == ["FizzBuzz"], "Failed on input containing zero."
+
+    def test_performance_large_list(self):
+        """Test FizzBuzz with a large input list for performance."""
+        large_input = list(range(1, 1000000))  # 1 million numbers
+        result = fizz_buzz(large_input)  # Ensure it runs without errors
+        assert len(result) == len(
+            large_input
+        ), "Output length mismatch for large input."

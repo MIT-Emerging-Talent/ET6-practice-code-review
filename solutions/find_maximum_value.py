@@ -2,8 +2,12 @@
 # -*- coding: utf-8 -*-
 
 """
-Created on 2024-12-27
+A module for calculating the highest value from a list.
 
+Module contents:
+    - find_maximum_value: returns the highest value from a list
+
+Created on 2024-12-26
 Author: Lukmon Alao
 """
 
@@ -29,10 +33,11 @@ def find_maximum_value(values: list):
         >>> find_maximum_value([1.2, 3.4, 2.7, 0.5])
         3.4
     """
-    # values = [input(print('enter a list of number to be processed'))]
 
     # trunk-ignore(bandit/B101)
     assert isinstance(values, list)
+    # trunk-ignore(bandit/B101)
+    assert all(isinstance(values, (int | float)))
     ordered_list_of_values = sorted(values)
     highest = ordered_list_of_values[-1]
     return highest

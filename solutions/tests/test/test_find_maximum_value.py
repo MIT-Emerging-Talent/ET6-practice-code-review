@@ -1,19 +1,27 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-created on 2024-12-28
+A module for testing the find_maximum_value function.
 
-@author: Lukmon Alao
+Test categories:
+    - Standard test cases: test the function with typical inputs.
+    - Edge test cases: test the function with extreme inputs.
+    - Defensive tests: test the function with invalid inputs.
+
+
+Created on 2024-12-28
+Author: Lukmon Alao
 """
 
 import unittest
 
-from ..find_maximum_value import find_maximum_value # type: ignore
+from solutions.find_maximum_value import find_maximum_value
 
 
 class TestFindMaximumValue(unittest.TestCase):
     """Test the find_maximum_value from a list"""
 
+    # standard and edge test
     def test_first_four_integers(self):
         """It gives 4 when [1, 2, 3, 4] is pass to the function"""
         actual = find_maximum_value([1, 2, 3, 4])  # call function with test argument

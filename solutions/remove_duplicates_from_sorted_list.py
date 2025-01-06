@@ -66,6 +66,6 @@ def remove_duplicates_from_sorted_list(head: Optional[ListNode]) -> Optional[Lis
         if current_node.value == current_node.next.value:
             current_node.next = current_node.next.next  # Skip the duplicate node
         else:
-            current_node = current_node.next   # Move to the next unique node
+            current_node = current_node.next  # Move to the next unique node
 
     return head

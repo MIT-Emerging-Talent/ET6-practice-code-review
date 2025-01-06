@@ -34,7 +34,7 @@ class TestMissingNumber(unittest.TestCase):
         """The list is [] and n is 0
         Missing number should be [0]"""
         self.assertEqual(missing_number([], 0), [0])
-        
+
 
     def test_list_with_one_number(self):
         """The list is [0] and n is 1
@@ -46,13 +46,13 @@ class TestMissingNumber(unittest.TestCase):
         """The list is [1, 3, 5] and n is 5
         Missing number should be [2, 4]"""
         self.assertEqual(missing_number([1, 3, 5], 5), [0, 2, 4])
-        
+
 
     def test_list_with_no_missing_number(self):
         """The list is [0, 1, 2] and n is 2
         Missing number should be []"""
         self.assertEqual(missing_number([0, 1, 2], 2), [])
-        
+
 
     def test_duplicate_numbers(self):
         """The list is [0, 1, 2, 2, 3, 4] and n is 4

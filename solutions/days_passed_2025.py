@@ -27,6 +27,26 @@ def days_passed_2025(current_date: datetime) -> int:
     Raises:
         ValueError: If the provided date is not in the year 2025.
         TypeError: If the provided input is not a datetime object.
+    Examples:
+    >>> from datetime import datetime
+    >>> days_passed_2025(datetime(2025, 1, 1))
+    1
+    >>> days_passed_2025(datetime(2025, 6, 15))
+    166
+    >>> days_passed_2025(datetime(2025, 12, 31))
+    365
+    >>> days_passed_2025(datetime(2024, 12, 31))
+    Traceback (most recent call last):
+    ...
+    ValueError: Date must be in the year 2025.
+    >>> days_passed_2025("2025-01-01")
+    Traceback (most recent call last):
+    ...
+    TypeError: Input must be a datetime object.
+    >>> days_passed_2025(20250101)
+    Traceback (most recent call last):
+    ...
+    TypeError: Input must be a datetime object.
     """
 
     if not isinstance(current_date, datetime):

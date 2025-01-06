@@ -13,7 +13,8 @@ created on 2025-12-25
 
 
 def binary_to_decimal(binary_str: str) -> int:
-    """Converts a binary string to its decimal equivalent.
+    """
+    Converts a binary string to its decimal equivalent.
 
         Parameters:
             binary_str (str): The binary string to convert. Must consist of '0' and '1' only.

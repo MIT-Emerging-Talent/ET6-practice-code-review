@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 Test module for Roman to integer function.
+
+Author: Safia Gibril
+Created on: 2.1.2025
 """
 
 import unittest

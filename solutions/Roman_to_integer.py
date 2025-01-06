@@ -5,6 +5,9 @@ Module for converting Roman numerals to integers.
 
 Provides the RomanConverter class with a method to convert valid Roman numeral strings
 into their integer representation.
+
+Author: Safia Gibril
+Created on: 2.1.2025
 """
 
 

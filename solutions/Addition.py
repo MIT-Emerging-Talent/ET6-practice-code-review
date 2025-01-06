@@ -3,7 +3,7 @@
 """
 Created on XX XX XX
 
-A module for that gives a summation of two numbers.
+A module gives a result of adding two numbers.
 
 @author: Tagwa Hashim
 """

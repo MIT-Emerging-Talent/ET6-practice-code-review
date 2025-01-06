@@ -1,0 +1,25 @@
+"""
+Unit tests for the reverse_string function.
+"""
+import unittest
+from reverse_string import reverse_string
+
+class TestReverseString(unittest.TestCase):
+    """Tests for the reverse_string function."""
+
+    def test_reverse_normal_string(self):
+        """Should reverse a normal string."""
+        self.assertEqual(reverse_string("hello"), "olleh")
+
+    def test_reverse_empty_string(self):
+        """Should return an empty string when input is empty."""
+        self.assertEqual(reverse_string(""), "")
+
+    def test_reverse_single_character(self):
+        """Should return the same character for single character input."""
+        self.assertEqual(reverse_string("a"), "a")
+
+    def test_reverse_raises_type_error(self):
+        """Should raise a TypeError for non-string input."""
+        with self.assertRaises(TypeError):
+            reverse_string(123)  # Non-string input

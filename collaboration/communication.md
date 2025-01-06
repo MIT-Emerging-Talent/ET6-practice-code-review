@@ -9,26 +9,21 @@
 
 # Communication
 
-Clear communication is essential for effective collaboration.
-This document outlines how, when, and where Code Vinci will communicate as a team. This ensures everyone stays connected and productive.
 ______________________________________________________________________
 
 ## Communication Schedule
 
-| Day        | How           | The topic of discussion         |
-| ---        | :-:           | ------------------------------  |
-| Monday     | Slack         | Weekly goals and task updates   |
-| Wednesday  | GitHub Issues | Progress updates   |
-| Friday     | Video Call    | Code reviews and planning       |
+| Day | How | The topic of discussion | | --- | :-: | ----------------------- |
+| | | |
 
 ## Communication Channels
 
-Here’s how often we will connect on each channel and what we’ll use it for:
+how often will we get in touch on each channel, and what we will discuss there:
 
-- **Issues**: Used frequently to discuss specific tasks, bugs, and improvements directly tied to the repository.
-- **Pull Requests**:Used as needed for feedback on submitted code, discussions about proposed changes, and final approvals.
-- **Slack/Discord**:Daily check-ins, quick updates, and team discussions. This will be our primary informal communication channel.
-- **Video Calls**:Weekly calls for in-depth discussions, and troubleshooting sessions.
+- **Issues**:
+- **Pull Requests**:
+- **Slack/Discord**:
+- **Video Calls**:
 
 ______________________________________________________________________
 
@@ -36,29 +31,23 @@ ______________________________________________________________________
 
 ### Availability for calling/messaging
 
-| Day        | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
-|------------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------:|
-| Vahab       |   ✔️    |    ✔️    |     ✔️     |    ✔️     |   ✔️   |    ❌     |   ❌   |
-| Ismail      |   ✔️    |    ✔️    |     ❌     |    ✔️     |   ✔️   |    ✔️     |   ✔️   |
-| Melat       |   ✔️    |    ❌    |     ✔️     |    ✔️     |   ❌   |    ✔️     |   ✔️   |
-| Musab       |   ✔️    |    ❌    |     ✔️     |    ✔️     |   ❌   |    ✔️     |   ✔️   |
-| Lana        |   ✔️    |    ❌    |     ✔️     |    ✔️     |   ❌   |    ✔️     |   ✔️   |
-| Lana       |   ✔️    |    ❌    |     ✔️     |    ✔️     |   ❌   |    ✔️     |   ✔️   |
-| Idris       |   ✔️    |    ❌    |     ✔️     |    ✔️     |   ❌   |    ✔️     |   ✔️   |
+| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
+------ | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
+| _name_ | | | | | | | |
 
 ### How many hours everyone has per day
 
-- Vahab : _5h_;
-- Ismail: _6h_;
-- Melat: _5h_;
-- Musab: _4h_;
-- Lana: _3h_;
-- Lana: _3h_;
-- Idris:_3h_;
+- name: _5h_;
+- name: _6h_;
+- name: _5h_;
+- name: _4h_;
+- name: _3h_;
 
 ## Asking for Help
 
-Here is a general guide for when to ask for help based on how long the team members has been stuck on the same problem:
+There's a fine line between confidently learning from your mistakes, and
+stubbornly getting no where. Here is a general guide for when to ask for help
+based on how long you've been stuck on the same problem:
 
 1. _0 -> 30 min_: Try on your own
 1. _30 -> 60 min_: Ask your group for help

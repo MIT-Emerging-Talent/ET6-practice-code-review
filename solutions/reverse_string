@@ -1,0 +1,31 @@
+"""
+This module provides a function to reverse a given string.
+
+@author: marshar007007 (Thandar Htwe)
+Created on Jan 6, 2025
+"""
+
+def reverse_string(input_string: str) -> str:
+    """
+    Reverse the given string.
+
+    Args:
+        input_string (str): The string to be reversed.
+
+    Returns:
+        str: The reversed string.
+
+    Raises:
+        TypeError: If the input is not a string.
+
+    Examples:
+        >>> reverse_string("hello")
+        'olleh'
+        >>> reverse_string("")
+        ''
+        >>> reverse_string("a")
+        'a'
+    """
+    if not isinstance(input_string, str):
+        raise TypeError("Input must be a string.")
+    return input_string[::-1]

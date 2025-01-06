@@ -10,6 +10,7 @@ Created on 05.01.2025
 @author: Zephaniah Okoye
 """
 
+
 def divide(a: float, b: float) -> float:
     """Divides one number by another and returns the result.
 

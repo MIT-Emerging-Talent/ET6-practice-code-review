@@ -8,6 +8,8 @@ exactly once
 
 True if the two strings are anagrams, False otherwise
 
+Created on 2024-01-02
+Author: Reem Osama
 """
 
 from collections import Counter

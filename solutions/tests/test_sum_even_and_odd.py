@@ -82,15 +82,19 @@ class TestSumEvenAndOdd(unittest.TestCase):
             sum_even_and_odd("invalid_input")  # Example of invalid input
 
     def test_large_list(self):
-        """
-        Test the function with a very large list of numbers.
-        """
-        large_list = list(range(-(10**6), 10**6))
+        """Test the function with a very large list of numbers."""
+        large_list = list(range(-(10**6), 10**6))  # List от -1,000,000 до 1,000,000
         result = sum_even_and_odd(large_list)
-        self.assertEqual(result["positive_even"], 249999500000)
-        self.assertEqual(result["positive_odd"], 250000000000)
-        self.assertEqual(result["negative_even"], -250000000000)
-        self.assertEqual(result["negative_odd"], -249999500000)
+
+        expected_positive_even = sum(x for x in large_list if x > 0 and x % 2 == 0)
+        expected_positive_odd = sum(x for x in large_list if x > 0 and x % 2 != 0)
+        expected_negative_even = sum(x for x in large_list if x < 0 and x % 2 == 0)
+        expected_negative_odd = sum(x for x in large_list if x < 0 and x % 2 != 0)
+
+        self.assertEqual(result["positive_even"], expected_positive_even)
+        self.assertEqual(result["positive_odd"], expected_positive_odd)
+        self.assertEqual(result["negative_even"], expected_negative_even)
+        self.assertEqual(result["negative_odd"], expected_negative_odd)
 
     def test_mixed_types(self):
         """

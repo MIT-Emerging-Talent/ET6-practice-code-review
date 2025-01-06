@@ -6,7 +6,7 @@ Unit tests for the square_number module.
 """
 
 import unittest
-from solutions.square_number import square_number
+from..square_number import square_number
 
 
 class TestSquareNumber(unittest.TestCase):

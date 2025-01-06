@@ -1,0 +1,11 @@
+import math
+
+def floor_sqrt(numbers):
+    result = []
+    for num in numbers:
+        if num < 0:
+            result.append(None)
+        else:
+            sqrt_value = math.sqrt(num)
+            result.append(math.floor(sqrt_value))
+    return result

@@ -41,7 +41,3 @@ def divide(a: float, b: float) -> float:
         raise ZeroDivisionError("Cannot divide by zero")
 
     return a / b
-
-if __name__ == "__main__": 
-    import doctest
-    doctest.testmod()

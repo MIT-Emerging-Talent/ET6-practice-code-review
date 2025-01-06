@@ -9,9 +9,10 @@ import unittest
 import sys
 import os
 
+# Adjust the sys.path to include the parent directory
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-from ..solutions.square_number import square_number
+from ..square_number import square_number
 
 
 class TestSquareNumber(unittest.TestCase):

@@ -1,4 +1,6 @@
-"""module calculates the percentage of fuel in a tank and returns a status indicator."""
+"""module calculates the percentage of fuel in a tank and returns a status indicator.
+Created on Sunday/29/December/2024
+Author: Ahmed Elhassan"""
 
 
 def fuel_gauge(fuel_amount: int, tank_capacity: int) -> str:

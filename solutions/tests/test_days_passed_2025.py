@@ -7,15 +7,9 @@ Test Categories:
 Standard Cases:
     - Tests the function with valid input dates within 2025.
     - Includes start of the year, mid-year, and end of the year dates.
-
-Edge Cases:
-    - Tests boundary conditions and special cases.
-    - Includes limits of the year.
-
 Defensive Tests:
     - Tests the function's response to invalid or unexpected inputs.
     - Includes dates outside 2025 and non-date inputs.
-
 Created on 2024-12-25
 @author:Alemayehu Desta
 """
@@ -59,6 +53,24 @@ class TestDaysPassed2025(unittest.TestCase):
         test_date = datetime(2024, 12, 31, 23, 59, 59)
         with self.assertRaises(ValueError):
             days_passed_2025(test_date)
+
+    def test_error_non_date_input(self):
+        """Test that the function raises a TypeError for non-date inputs."""
+        non_date_inputs = [
+            "2025-01-01",  # String representation of a date
+            20250101,  # Integer representation of a date
+            None,  # None type
+            3.14,  # Float
+            [2025, 1, 1],  # List
+            {"year": 2025, "month": 1, "day": 1},  # Dictionary
+        ]
+        self._assert_raises_type_error_for_invalid_input(non_date_inputs)
+
+    def _assert_raises_type_error_for_invalid_input(self, inputs):
+        """Helper function to assert that the function raises TypeError for invalid inputs."""
+        for input_value in inputs:
+            with self.assertRaises(TypeError):
+                days_passed_2025(input_value)
 
 
 if __name__ == "__main__":

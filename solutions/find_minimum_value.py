@@ -20,7 +20,7 @@ def find_minimum_value(values: list):
     Returns -> number: the lowest value from the list of numbers.
 
     Raises:
-        AssertionError: if input is not a list and non-numeric data
+        AssertionError: if input is not a list and non-numeric input data
 
     Examples:
         >>> find_minimum_value([1, 2, 3, 4])

@@ -57,12 +57,12 @@ class TestDaysPassed2025(unittest.TestCase):
     def test_error_non_date_input(self):
         """Test that the function raises a TypeError for non-date inputs."""
         non_date_inputs = [
-            "2025-01-01",  # String representation of a date
-            20250101,  # Integer representation of a date
-            None,  # None type
-            3.14,  # Float
-            [2025, 1, 1],  # List
-            {"year": 2025, "month": 1, "day": 1},  # Dictionary
+            "2025-01-01",
+            20250101,
+            None,
+            3.14,
+            [2025, 1, 1],
+            {"year": 2025, "month": 1, "day": 1},
         ]
         self._assert_raises_type_error_for_invalid_input(non_date_inputs)
 

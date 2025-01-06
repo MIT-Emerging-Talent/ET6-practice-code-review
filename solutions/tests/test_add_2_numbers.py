@@ -23,3 +23,23 @@ class TestAdd2Numbers(unittest.TestCase):
         """Test that the function raises an AssertionError for invalid inputs."""
         with self.assertRaises(AssertionError):
             add_2_numbers("3", 5)
+
+    def test_add_zero(self):
+        """Test adding zero with another number."""
+        self.assertEqual(add_2_numbers(0, 0), 0)
+        self.assertEqual(add_2_numbers(0, 5), 5)
+        self.assertEqual(add_2_numbers(-5, 0), -5)
+
+    def test_large_numbers(self):
+        """Test adding very large numbers."""
+        self.assertEqual(
+            add_2_numbers(1e308, 1e308), float("inf")
+        )  # Exceeds float limit
+
+    def test_small_numbers(self):
+        """Test adding very small numbers (close to zero)."""
+        self.assertAlmostEqual(add_2_numbers(1e-308, 1e-308), 2e-308)
+
+    def test_positive_negative_boundary(self):
+        """Test adding a positive and negative number resulting in zero."""
+        self.assertEqual(add_2_numbers(1e308, -1e308), 0.0)

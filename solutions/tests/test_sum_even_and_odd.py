@@ -80,3 +80,21 @@ class TestSumEvenAndOdd(unittest.TestCase):
         """
         with self.assertRaises(ValueError):
             sum_even_and_odd("invalid_input")  # Example of invalid input
+
+    def test_large_list(self):
+        """
+        Test the function with a very large list of numbers.
+        """
+        large_list = list(range(-(10**6), 10**6))
+        result = sum_even_and_odd(large_list)
+        self.assertEqual(result["positive_even"], 249999500000)
+        self.assertEqual(result["positive_odd"], 250000000000)
+        self.assertEqual(result["negative_even"], -250000000000)
+        self.assertEqual(result["negative_odd"], -249999500000)
+
+    def test_mixed_types(self):
+        """
+        Test the function with a list containing mixed valid and invalid types.
+        """
+        with self.assertRaises(ValueError):
+            sum_even_and_odd([1, "string", 3.5, None, 7])

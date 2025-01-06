@@ -1,10 +1,15 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 """This module provides a function sum_even_and_odd
 that calculates the sums of positive and negative,
 even and odd numbers in a given list.
 """
 
+from typing import Dict, List, Union
 
-def sum_even_and_odd(numbers):
+
+def sum_even_and_odd(numbers: List[Union[int, float]]) -> Dict[str, float]:
     """
     Calculate the sum of even and odd numbers in a list.
 
@@ -23,6 +28,22 @@ def sum_even_and_odd(numbers):
     {'positive_even': 4, 'positive_odd': 4, 'negative_even': -2, 'negative_odd': -5}
     >>> sum_even_and_odd([])
     {'positive_even': 0, 'positive_odd': 0, 'negative_even': 0, 'negative_odd': 0}
+    >>> sum_even_and_odd([1.5, -2.5, 4, -3])
+    {'positive_even': 4, 'positive_odd': 1.5, 'negative_even': 0, 'negative_odd': -5.5}
+    >>> sum_even_and_odd([0])
+    {'positive_even': 0, 'positive_odd': 0, 'negative_even': 0, 'negative_odd': 0}
+    >>> sum_even_and_odd([1000000000, -1000000000])
+    {'positive_even': 1000000000, 'positive_odd': 0, 'negative_even': -1000000000, 'negative_odd': 0}
+    >>> sum_even_and_odd("not a list")  # Invalid input type
+    Traceback (most recent call last):
+        ...
+    ValueError: Input must be a list.
+
+    >>> sum_even_and_odd([1, "two", 3])  # Invalid element type
+    Traceback (most recent call last):
+        ...
+    ValueError: All elements must be integers or floats.
+
     """
     if not isinstance(numbers, list):
         raise ValueError("Input must be a list.")
@@ -39,13 +60,13 @@ def sum_even_and_odd(numbers):
     }
 
     for num in numbers:
-        if num > 0 and isinstance(num, int) and num % 2 == 0:
+        if isinstance(num, (int, float)) and num > 0 and num % 2 == 0:
             result["positive_even"] += num
-        elif num > 0:
+        elif isinstance(num, (int, float)) and num > 0:
             result["positive_odd"] += num
-        elif num < 0 and isinstance(num, int) and num % 2 == 0:
+        elif isinstance(num, (int, float)) and num < 0 and num % 2 == 0:
             result["negative_even"] += num
-        elif num < 0:
+        elif isinstance(num, (int, float)) and num < 0:
             result["negative_odd"] += num
 
     return result

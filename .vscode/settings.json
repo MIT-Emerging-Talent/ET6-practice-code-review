@@ -21,7 +21,7 @@
   "editor.tabSize": 2,
 
   // Defines a default formatter which takes precedence over all other formatter settings. Must be the identifier of an extension contributing a formatter
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "vscode.html-language-features",
 
   // Controls bracket pair colorization is enabled or not
   "editor.bracketPairColorization.enabled": true,
@@ -114,19 +114,13 @@
 
   // Enable/disable update table of contents on save
   "markdown.extension.toc.updateOnSave": false,
-<<<<<<< HEAD
-  "cSpell.words": ["babad", "cbbd"],
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
-=======
-
-  "[python]": {
-    "editor.defaultFormatter": "charliermarsh.ruff",
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll.ruff": true,
-      "source.organizeImports.ruff": true
-    }
->>>>>>> upstream/main
+"cSpell.words": ["babad", "cbbd"],
+"[python]": { 
+  "editor.defaultFormatter": "charliermarsh.ruff",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.ruff": "explicit",
+    "source.organizeImports.ruff": "explicit"
   }
+}
 }

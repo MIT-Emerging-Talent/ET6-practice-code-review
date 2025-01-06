@@ -6,7 +6,7 @@ A module to calculate the maximum profit from stock trading.
 
 Module Contents:
 
-    - calculate_max_profit(prices: list[int]) -> int:
+    - calculate_max_profit(prices: list) -> int:
     Computes the maximum profit that can be made by completing as many transactions as possible
     (buy one and sell one share of stock multiple times).
 

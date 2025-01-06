@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 a Unittest for the Convert_Binary_to_Decimal code.
 Created on 01/01/2025

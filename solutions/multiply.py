@@ -7,7 +7,7 @@ A module for multiplication of two numbers.
 Module contents:
     multiply: multiply two numbers and returns the result.
 
-Created on 31.12.2024
+Created on 06.01.2025
 @author : Simi-Solola
 
 """

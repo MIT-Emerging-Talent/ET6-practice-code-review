@@ -4,7 +4,7 @@
 """
 Test for multiplication of two numbers
 
-Created on 06.01.2025
+Created on 06.1.2025
 
 @author:Simi-Solola
 
@@ -12,6 +12,7 @@ Created on 06.01.2025
 """
 
 import unittest
+
 from solutions.multiply import multiply
 
 

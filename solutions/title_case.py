@@ -10,6 +10,7 @@ Created on 5 1 2025
     @author: Nour Elhuda Haidar
 """
 
+
 def title_case(sentence: str) -> str:
     """Converts a string to title case
     (capitalize the first letter of each word).
@@ -22,7 +23,7 @@ def title_case(sentence: str) -> str:
 
     Raises:
         AssertionError: If the input is not a string.
-        
+
     >>> title_case("hello world")
     'Hello World'
     >>> title_case("PYTHON is awesome")

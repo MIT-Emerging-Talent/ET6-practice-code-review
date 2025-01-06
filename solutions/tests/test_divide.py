@@ -74,6 +74,6 @@ class TestDivide(unittest.TestCase):
      self.assertTrue(expected in str(context.exception))
  
  
-
+#Additional test method
 if __name__ == "__main__":
     unittest.main()

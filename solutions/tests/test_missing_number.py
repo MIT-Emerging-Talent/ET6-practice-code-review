@@ -26,7 +26,7 @@ class TestMissingNumber(unittest.TestCase):
 
 
     def test_only_one_missing_number(self):
-        """The list is [0, 1, 3] and n is 3"
+        """The list is [0, 1, 3] and n is 3
         Missing number should be [2]"""
         self.assertEqual(missing_number([0, 1, 3], 3), [2])
 

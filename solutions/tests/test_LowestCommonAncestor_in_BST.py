@@ -2,9 +2,12 @@
 # -*- coding: utf-8 -*-
 """
 Test module for Lowest Common Ancestor in Binary Search Tree function.
+Author: Safia Gibril
+Created on: 2.1.2025
 """
 
 import unittest
+
 from solutions.LowestCommonAncestor_in_BST import lowestCommonAncestor
 
 

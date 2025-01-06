@@ -1,3 +1,10 @@
+"""
+This module for Lowest_Common_Ancestor_in Binary Search Tree function.
+Author: Safia Gibril
+Created on: 2.1.2025
+"""
+
+
 class TreeNode:
     """Define class for TreeNode"""
 

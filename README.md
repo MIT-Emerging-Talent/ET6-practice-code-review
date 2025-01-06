@@ -11,34 +11,24 @@ To collaborate, learn, and develop efficient solutions.
 This repository is our central hub for all activities,
 discussions, and code contributions.
 ```
+<img align="right" width="250" height="auto" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWE1YnV2ZjU2ajRwOGtsanVraW5hOTh6NGxncHdwYXVvNnV5NTR3ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/VelSsmKxxqncKJu2sh/giphy.webp">
 
-## 🌟 Stepping Inside
+## ⭐ Stepping Inside
 
-<div style="float: right; margin-left: 20px;">
-    <a href="">
-        <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWE1YnV2ZjU2ajRwOGtsanVraW5hOTh6NGxncHdwYXVvNnV5NTR3ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/VelSsmKxxqncKJu2sh/giphy.webp" alt="Rocket Link" width="150">
-    </a>
-</div>
+* Solving minimum two challenges and reviewing other's codes  
+  As MIT Alpha, we believe in the power of collaboration to:  
+  ⭐ Conquer challenges and learn how to review them.  
+  📝 Learn groundbreaking problem-solving techniques.
 
-+ **Solving minimum two challenges and reviewing other's codes**
-  
-As MIT Alpha, we believe in the power of collaboration to help us:  
-  🌟 Conquer challenges and learn how to review them.  
-  📚 Learn groundbreaking problem-solving techniques.  
-  
-> **Our mantra**  
-> **"Individually, We are smart.  
-> Together, we are unstoppable."**
+> Our mantra  
+> "Individually, We are smart.  
+> Together, we are unstoppable."
 
-**Let’s build, learn, and succeed—together!** 💡
+Let's build, learn, and succeed—together! 💡
+
+<img align="right" width="400" height="auto" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGtmbW5iOGEzeWIxY2l5cTY0c2ZsZXYwc3h2NjNua2MwMTVzeGRxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/8ekmDODACSSXxWuBRz/giphy.webp">
 
 ## 🎉 Meet the Crew
-
-<div style="float: right; margin-left: 20px;">
-    <a href="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGtmbW5iOGEzeWIxY2l5cTY0c2ZsZXYwc3h2NjNua2MwMTVzeGRxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/8ekmDODACSSXxWuBRz/giphy.webp">
-        <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGtmbW5iOGEzeWIxY2l5cTY0c2ZsZXYwc3h2NjNua2MwMTVzeGRxNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/8ekmDODACSSXxWuBRz/giphy.webp" alt="Rocket Link" width="300">
-    </a>
-</div>
 
 **_Who's behind the challenges?_**  
 

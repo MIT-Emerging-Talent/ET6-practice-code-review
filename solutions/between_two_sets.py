@@ -54,18 +54,18 @@ def between_two_sets(a: list[int], b: list[int]) -> int:
     counter = 0
 
     for i in range(a_max, b_min + 1):
-        isFactorMultiple = True
+        is_factor_multiple = True
 
         for element in a:
             if i % element != 0:
-                isFactorMultiple = False
+                is_factor_multiple = False
                 break
         for element in b:
             if element % i != 0:
-                isFactorMultiple = False
+                is_factor_multiple = False
                 break
 
-        if isFactorMultiple:
+        if is_factor_multiple:
             counter += 1
 
     return counter

@@ -15,7 +15,7 @@ class TestFuelGauge(unittest.TestCase):
 
     def test_empty(self):
         """Test cases where the percentage is 10% or less
-          it should result E."""
+        it should result E."""
         self.assertEqual(fuel_gauge(10, 100), "E")
         self.assertEqual(fuel_gauge(0, 100), "E")
         self.assertEqual(fuel_gauge(2, 100), "E")

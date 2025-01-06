@@ -1,5 +1,5 @@
 """module calculates the percentage of fuel in a tank and returns
- a status indicator."""
+a status indicator."""
 
 
 def fuel_gauge(x: int, y: int) -> str:

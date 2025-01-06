@@ -30,8 +30,9 @@ def largest_perfect_square_less_than_number(number: Union[int, float]) -> int:
     Returns:
     int:
         - The largest perfect square that is less than the input number.
-        - If no perfect square exists (i.e., for inputs <= 1), the function will return 0.
-        - If the number is 0, it will return 0.
+        - If no perfect square exists (i.e., for inputs less than or equal to 1 or equal to 0),
+        the function will return 0.
+
 
 
     Raises:
@@ -39,16 +40,16 @@ def largest_perfect_square_less_than_number(number: Union[int, float]) -> int:
     AssertionError: If the input is not a number (neither integer nor float).
 
     Examples:
-        >>> largest_perfect_square_less_than(50)
+        >>> largest_perfect_square_less_than_number(50)
         49
 
-        >>> largest_perfect_square_less_than(16.5)
+        >>> largest_perfect_square_less_than_number(16.5)
         9
 
-        >>> largest_perfect_square_less_than(1)
+        >>> largest_perfect_square_less_than_number(1)
         0
 
-        >>> largest_perfect_square_less_than(100.99)
+        >>> largest_perfect_square_less_than_number(100.99)
         81
     """
     # Validate input type
@@ -71,7 +72,7 @@ def largest_perfect_square_less_than_number(number: Union[int, float]) -> int:
     # Find the largest perfect square less than the number
     perfect_square = square_root * square_root
 
-    if perfect_square == number:
+    if perfect_square == int(number):
         perfect_square = (square_root - 1) * (square_root - 1)
 
     return perfect_square

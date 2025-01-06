@@ -45,9 +45,14 @@ class TestLargestPerfectSquareLessThanNumber(unittest.TestCase):
         self.assertEqual(actual, 49)
 
     def test_float_input(self):
-        """Test that the function works with floats and correctly truncates them."""
+        """Test that the function returns the largest perfect square less than the input float."""
         actual = largest_perfect_square_less_than_number(2.6)
         self.assertEqual(actual, 1)
+
+    def test_perfect_square_condition(self):
+        """Test the condition when the input number is close to a perfect square."""
+        actual = largest_perfect_square_less_than_number(16.5)
+        self.assertEqual(actual, 9)
 
     # Test edge cases
     def test_small_positive_number(self):

@@ -12,6 +12,9 @@ corner.
 
 Constraints: The test cases are generated so that the answer will
 be less than or equal to 2 * 109.
+
+Created on 2024-01-01
+Author: Reem Osama
 """
 
 
@@ -69,10 +72,12 @@ def robot(rows: int, cols: int) -> int:
     """
     # assert the values of rows and clos and make sure they are ints and
     # greater than 1
-    assert isinstance(rows, int) and rows > 0, "Rows variables has to \
-            be an integer greater than 0"
-    assert isinstance(cols, int) and cols > 0, "Cols variable has to be \
-            greater than 0"
+    assert isinstance(rows, int), "Rows variables has to be an integer"
+    if rows <= 0:
+        raise ValueError("The 'rows' variable must be greater than 0.")
+    assert isinstance(cols, int), "Cols variable has to be an integer"
+    if cols <= 0:
+        raise ValueError("The 'cols' variables must be greater than 0.")
 
     # use the helper function robot_move to determine the number of paths
     memo = {}

@@ -8,6 +8,8 @@ Test categories:
     - Edge cases
     - Defensive tests
 
+Created on 2024-01-02
+Author: Reem Osama
 """
 
 import unittest
@@ -18,6 +20,10 @@ class TestRobot(unittest.TestCase):
     """Test the robot function"""
 
     # Standard Cases
+    def test_base_1x1(self):
+        """A basic test with a small grid 1x1"""
+        self.assertEqual(robot(1, 1), 1)
+
     def test_base_2x2(self):
         """A basic test with a small grid 2x2"""
         self.assertEqual(robot(2, 2), 2)
@@ -64,12 +70,12 @@ class TestRobot(unittest.TestCase):
 
     def test_negative_value(self):
         """A test with a negative dimension"""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(ValueError):
             robot(-1, 5)
 
     def test_zero_value(self):
         """A test with zero value"""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(ValueError):
             robot(3, 0)
 
     def test_non_integer_input(self):

@@ -33,7 +33,7 @@ def draw_triangle(n: int) -> None:
       **
       *
 
-      >>> draw_triangle(3)
+    >>> draw_triangle(3)
         ***
         **
         *
@@ -46,4 +46,5 @@ def draw_triangle(n: int) -> None:
         raise ValueError("parameter 'n' must be greater than or equal to 1.")
 
     for a in range(n, 0, -1):
+        """ creates a sequence from n down to 1"""
         print("*" * a)

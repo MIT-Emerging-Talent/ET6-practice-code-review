@@ -92,6 +92,3 @@ class TestStringLength(unittest.TestCase):
         """It should raise TypeError when input is a list."""
         with self.assertRaises(TypeError):
             string_length(["a", "b", "c"])
-
-
-

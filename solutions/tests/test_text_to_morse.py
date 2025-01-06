@@ -74,9 +74,9 @@ class TestTextToMorse(unittest.TestCase):
         """Test evaluate the Morse code of 'In the early days of radio, Morse code was the primary means of communication.'"""
         self.assertEqual(
             text_to_morse(
-                "Morse code, invented by Samuel Morse in the 1830s, is a method of encoding text into dots and dashes. It revolutionized communication in the 19th century and was used to send messages like the famous first Morse code transmission -What hath God wrought?-Today, Morse code is still used by ham radio operators, pilots, and enthusiasts who appreciate its simplicity and reliability."
+                "In the early days of radio, Morse code was the primary means of communication."
             ),
-            "-- --- .-. ... . / -.-. --- -.. . --..-- / .. -. ...- . -. - . -.. / -... -.-- / ... .- -- ..- . .-.. / -- --- .-. ... . / .. -. / - .... . / .---- ---.. ...-- ----- ... --..-- / .. ... / .- / -- . - .... --- -.. / --- ..-. / . -. -.-. --- -.. .. -. --. / - . -..- - / .. -. - --- / -.. --- - ... / .- -. -.. / -.. .- ... .... . ... .-.-.- / .. - / .-. . ...- --- .-.. ..- - .. --- -. .. --.. . -.. / -.-. --- -- -- ..- -. .. -.-. .- - .. --- -. / .. -. / - .... . / .---- ----. - .... / -.-. . -. - ..- .-. -.-- / .- -. -.. / .-- .- ... / ..- ... . -.. / - --- / ... . -. -.. / -- . ... ... .- --. . ... / .-.. .. -.- . / - .... . / ..-. .- -- --- ..- ... / ..-. .. .-. ... - / -- --- .-. ... . / -.-. --- -.. . / - .-. .- -. ... -- .. ... ... .. --- -. / -....- .-- .... .- - / .... .- - .... / --. --- -.. / .-- .-. --- ..- --. .... - ..--.. -....- - --- -.. .- -.-- --..-- / -- --- .-. ... . / -.-. --- -.. . / .. ... / ... - .. .-.. .-.. / ..- ... . -.. / -... -.-- / .... .- -- / .-. .- -.. .. --- / --- .--. . .-. .- - --- .-. ... --..-- / .--. .. .-.. --- - ... --..-- / .- -. -.. / . -. - .... ..- ... .. .- ... - ... / .-- .... --- / .- .--. .--. .-. . -.-. .. .- - . / .. - ... / ... .. -- .--. .-.. .. -.-. .. - -.-- / .- -. -.. / .-. . .-.. .. .- -... .. .-.. .. - -.-- .-.-.-",
+            ".. -. / - .... . / . .- .-. .-.. -.-- / -.. .- -.-- ... / --- ..-. / .-. .- -.. .. --- --..-- / -- --- .-. ... . / -.-. --- -.. . / .-- .- ... / - .... . / .--. .-. .. -- .- .-. -.-- / -- . .- -. ... / --- ..-. / -.-. --- -- -- ..- -. .. -.-. .- - .. --- -."
         )
 
     def test_long_paragraph(self):

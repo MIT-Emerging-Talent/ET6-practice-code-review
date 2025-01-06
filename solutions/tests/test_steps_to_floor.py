@@ -25,13 +25,17 @@ class TestStepsToFloor(unittest.TestCase):
         """Test that the correct number of steps is returned for a negative floor number."""
         self.assertEqual(steps_to_floor_core(-3), 30)
 
-    def test_invalid_input(self):
+    def test_invalid_non_integer_input(self):
         """
-        Test that the function raises an AssertionError for invalid inputs,
-        such as non-integer and float values.
+        Test that the function raises an AssertionError for non-integer input.
         """
         with self.assertRaises(AssertionError):
             steps_to_floor_core("a")  # Non-integer input
+
+    def test_invalid_float_input(self):
+        """
+        Test that the function raises an AssertionError for float input.
+        """
         with self.assertRaises(AssertionError):
             steps_to_floor_core(5.5)  # Float input
 

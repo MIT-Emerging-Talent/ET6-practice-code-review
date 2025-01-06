@@ -25,6 +25,7 @@ The game is seeded with random live cells when it starts.
 
 1. **Clone or download the project.**
 2. **Run the game**:
+
    ```bash
    python game_of_life.py
    ```

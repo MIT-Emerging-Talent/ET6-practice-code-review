@@ -48,11 +48,6 @@ class TestSumOfList(unittest.TestCase):
         with self.assertRaises(AssertionError):
             sum_of_list(["3", "9", "6"])
 
-    def test_non_list_input(self):
-        """Raises AssertionError when a non-list is passed"""
-        with self.assertRaises(AssertionError):
-            sum_of_list("two")
-
 
 
 

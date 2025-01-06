@@ -8,7 +8,7 @@ Module contents:
     - find_maximum_value: returns the highest value from a list
 
 Created on 2024-12-26
-Author: Lukmon Alao
+Author: Lukmon Olamilekan Alao
 """
 
 

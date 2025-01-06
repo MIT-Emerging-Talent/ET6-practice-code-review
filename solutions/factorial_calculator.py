@@ -8,7 +8,6 @@ n! = n * (n - 1) * (n - 2) * ... * 1
 By convention, 0! = 1.
 
 """
-
 # Author: AYHAM, 6/jan/2025
 
 

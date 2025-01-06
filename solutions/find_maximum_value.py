@@ -37,7 +37,9 @@ def find_maximum_value(values: list):
     # trunk-ignore(bandit/B101)
     assert isinstance(values, list)
     # trunk-ignore(bandit/B101)
-    assert all(isinstance(values, (int | float)))
+    assert all(
+        isinstance(item, (int, float)) for item in values
+    )  # "values must be an int or a float"
     ordered_list_of_values = sorted(values)
     highest = ordered_list_of_values[-1]
     return highest

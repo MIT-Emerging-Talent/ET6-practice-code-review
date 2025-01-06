@@ -6,7 +6,7 @@ Unit tests for the square_number module.
 """
 
 import unittest
-from..square_number import square_number
+from ..square_number import square_number
 
 
 class TestSquareNumber(unittest.TestCase):
@@ -48,4 +48,3 @@ class TestSquareNumber(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-    

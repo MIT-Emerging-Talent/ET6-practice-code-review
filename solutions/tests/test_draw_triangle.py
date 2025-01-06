@@ -50,3 +50,8 @@ class TestDrawTriangle(unittest.TestCase):
         """test the function with zero as the input"""
         with self.assertRaises(ValueError):
             draw_triangle(0)
+
+    def test_small_input(self):
+        """test the function with the smallest input"""
+        draw_triangle(1)
+        self.assertEqual(self.captured_output.getvalue(), "*\n")

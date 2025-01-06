@@ -1,54 +1,70 @@
-<!--
-    this template is for inspiration, feel free to change it however you like!
 
-    Careful! be sure to protect your privacy when filling out this document
-        everything you write here will be public
-        so share only what you are comfortable sharing online
-        you can share the rest in confidence with you group by another channel
--->
+# Team Nexus Communication Guidelines
 
-# Communication
+Effective communication is essential for the success of our  
+group project. These guidelines provide a framework for  
+maintaining clear, professional, and collaborative communication  
+within the team.
 
-______________________________________________________________________
+## 1. Communication Tools
 
-## Communication Schedule
+We will use the following platforms for specific types of  
+communication:  
 
-| Day | How | The topic of discussion | | --- | :-: | ----------------------- |
-| | | |
+- **Slack**: For casual updates and quick team interactions.  
 
-## Communication Channels
+- **GitHub**: For all project-related discussions, code reviews,  
+  and issue tracking.  
 
-how often will we get in touch on each channel, and what we will discuss there:
+- **WhatsApp**: For urgent or necessary team coordination.  
 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+- **Email**: For formal communication, announcements, and  
+  documentation.  
 
-______________________________________________________________________
+## 2. Response Times
 
-## Availability
+- Respond to asynchronous messages (Slack, GitHub, WhatsApp)  
+  within **24 hours**.  
+  
+- Notify the team in advance if you anticipate delays in  
+  responding.  
 
-### Availability for calling/messaging
+## 3. Communication Best Practices
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
+- Use clear and concise language in all messages.  
 
-### How many hours everyone has per day
+- Stick to agreed-upon channels for specific types of  
+  communication.  
 
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- Ensure all shared files, documents, and notes are organized  
+  in an accessible online drive (e.g., **Google Drive**).  
 
-## Asking for Help
+## 4. Meeting and Collaboration Etiquette
 
-There's a fine line between confidently learning from your mistakes, and
-stubbornly getting no where. Here is a general guide for when to ask for help
-based on how long you've been stuck on the same problem:
+- Attend scheduled meetings punctually and prepared.  
 
-1. _0 -> 30 min_: Try on your own
-1. _30 -> 60 min_: Ask your group for help
-1. _60+ min_: Tag your coaches in Slack or GitHub
+- Share agendas for meetings in advance and document key  
+  decisions and action items.  
+
+- Foster a respectful and inclusive environment during  
+  discussions.  
+
+## 5. Documentation and File Management
+
+- Maintain a well-structured and up-to-date repository of  
+  shared resources.  
+
+- Archive completed tasks and communication records to preserve  
+  project history.  
+
+## 6. Periodic Reviews
+
+- Conduct regular reviews of our communication tools and  
+  processes.  
+
+- Adjust strategies as needed to improve efficiency and team  
+  collaboration.  
+
+By following these guidelines, we ensure a professional,  
+collaborative, and productive environment for achieving our  
+project goals.

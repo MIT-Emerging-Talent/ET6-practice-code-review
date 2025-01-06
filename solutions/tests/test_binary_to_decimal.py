@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import unittest
-from solutions.binary_to_decimal import binary_to_decimal
-
 """
 Test module for the binary_to_decimal function.
 
@@ -11,10 +8,13 @@ Test categories:
 - Standard cases: Valid binary strings (e.g. "101", "1111") converting to decimal.
 - Edge cases: Handles empty strings and invalid characters, raising appropriate ValueError messages.
 - Defensive tests: Function raises a ValueError for non-string inputs and invalid binary characters.
+created on 2025-12-29
+@author:Alemayehu Desta
 """
 
-# created on 2025-12-29
-# @author:Alemayehu Desta
+import unittest
+
+from solutions.binary_to_decimal import binary_to_decimal
 
 
 class TestBinaryToDecimal(unittest.TestCase):

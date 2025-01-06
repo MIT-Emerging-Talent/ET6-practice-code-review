@@ -33,7 +33,7 @@ def missing_number(nums: list, n: int) -> int:
     [2, 4, 5]
 
     """
-
+    assert isinstance(n, int)
     assert n >= 0
 
     full_set = set(range(n + 1))

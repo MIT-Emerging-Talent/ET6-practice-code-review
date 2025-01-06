@@ -59,14 +59,19 @@ def largest_perfect_square_less_than_number(number: Union[int, float]) -> int:
     # Validate non-negative input
     assert number >= 0, "Input must be a non-negative number."
 
-    # Ensuring The input is integer
-    number = int(number)
-
     # If the input is between 0 and 1, no perfect square exists below it
     if number <= 1:
         return 0
 
+    square_root = number**0.5
+
+    # Ensuring the square root is integer
+    square_root = int(square_root)
+
     # Find the largest perfect square less than the number
-    for current_integer in range(1, number + 1):
-        if current_integer * current_integer >= number:
-            return (current_integer - 1) * (current_integer - 1)
+    perfect_square = square_root * square_root
+
+    if perfect_square == number:
+        perfect_square = (square_root - 1) * (square_root - 1)
+
+    return perfect_square

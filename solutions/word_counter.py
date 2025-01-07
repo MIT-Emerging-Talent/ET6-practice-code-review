@@ -24,11 +24,11 @@ def word_counter(text: str) -> int:
     Raises:
         AssertionError: if the argument is not a string.
 
-    >>> count_words("Hello, World!")
+    >>> word_counter("Hello, World!")
     2
-    >>> count_words("Python is awesome!")
+    >>> word_counter("Python is awesome!")
     3
-    >>> count_words("I love programming in Python.")
+    >>> word_counter("I love programming in Python.")
     5
     """
     assert isinstance(text, str), "Input must be a string."

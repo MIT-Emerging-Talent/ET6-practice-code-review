@@ -3,9 +3,9 @@
 """
 Unit tests for the count_vowels function.
 
-Created on 2024-12-27
+Created on 2025-01-07
 
-@author: Yuri Spizhovyi
+@author: Rumiya Ismatova
 """
 
 import unittest

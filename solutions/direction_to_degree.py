@@ -5,7 +5,7 @@ This module contains a function to convert a cardinal or intercardinal direction
 to a corresponding degree, measured clockwise from North (0 degrees).
 
 Author: Obay Salih
-Date: [today date]
+Date: Tues 7 Jan 2025
 Group: ET6-foundations-group-16
 
 Functions:

@@ -8,10 +8,11 @@ Test categories:
     - Defensive tests: invalid input types, assertions
 
 Created on 03-01-25
-Author: Cody + Abdulrahman Ali
+Author: Cody
 """
 
 import unittest
+
 # When cloning the repo and running the test locally, the test file might fail
 # Just type from solutions.number_sort import sort and the test will run
 from ..number_sort import sort

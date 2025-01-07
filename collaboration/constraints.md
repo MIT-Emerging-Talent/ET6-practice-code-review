@@ -16,6 +16,7 @@ Some boundaries around our project.
 -->
 
 - **Connectivity issues**: Some team members may experience unreliable network connections, impacting real-time collaboration.
+
 ## Internal: Involuntary
 
 <!--

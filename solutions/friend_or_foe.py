@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-This is a function that filters a list of strings and returns a list with only your friend's name in it.
+This is a function that filters a list of strings,
+and returns a list with only your friend's name in it.
 
 If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours!
 Otherwise, you can be sure they're not...

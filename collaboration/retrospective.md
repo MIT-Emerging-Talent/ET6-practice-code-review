@@ -63,3 +63,13 @@ team. Milestones kept us on track, and we successfully achieved them together.
 Teamwork can be incredibly productive and educational, especially when you can
 rely on your teammates for help. Effective communication is the key to success.
 ______________________________________________________________________
+
+# Retrospective - Awaab Hussein
+
+## What I will Stop Doing  
+
+Honestly, there’s nothing that I feel I need to stop doing. I’ve been intentional
+about my approach to this project, and it’s been going great. For example, my
+structured Git workflow, regular communication with the team, and consistent contributions
+to reviews have all been effective. I’ve also learned the importance of balancing
+quality and efficiency, and these efforts are paying off.  

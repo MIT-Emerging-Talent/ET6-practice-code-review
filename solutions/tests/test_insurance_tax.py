@@ -90,15 +90,15 @@ class Test_Insurance_tax(unittest.TestCase):
     # Defensive cases
     def test_non_float_input(self):
         """Non-float input raises a value error."""
-        with self.assertRaises(ValueError) as context:
+        with self.assertRaises(ValueError):
             insurance_tax("100")
 
     def test_list_input(self):
         """List input raises a value error."""
-        with self.assertRaises(ValueError) as context:
+        with self.assertRaises(ValueError):
             insurance_tax([100])
 
     def test_negative_number(self):
         """Negative number input raises a value error."""
-        with self.assertRaises(ValueError) as context:
+        with self.assertRaises(ValueError):
             insurance_tax(-100)

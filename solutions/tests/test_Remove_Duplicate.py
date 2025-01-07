@@ -11,7 +11,7 @@ class TestRemoveDuplicates(unittest.TestCase):
         self.assertEqual(Remove_Duplicates([]), [])
 
     def test_no_duplicates(self):
-        """It should return the same list for list without duplicants"""
+        """It should return the same list for list without duplicates"""
         self.assertEqual(Remove_Duplicates([1, 2, 3]), [1, 2, 3])
 
     def test_not_list(self):

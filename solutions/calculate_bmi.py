@@ -6,7 +6,7 @@ A module for calculating the body mass index (BMI).
 Module contents:
     - calculate_bmi: calculates the BMI of a person.
 
-Created on 7 1 2025
+Created on 6 1 2025
 @author: Collins Ochieng
 """
 

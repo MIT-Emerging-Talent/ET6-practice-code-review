@@ -11,7 +11,7 @@ Test categories:
     - Edge cases: negative numbers, 0
     - Defensive tests: wrong input types, assertions
 
-Created on 7 1 2025
+Created on 6 1 2025
 @author: Collins Ochieng
 """
 

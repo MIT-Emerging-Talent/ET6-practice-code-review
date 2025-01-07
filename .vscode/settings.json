@@ -114,9 +114,13 @@
 
   // Enable/disable update table of contents on save
   "markdown.extension.toc.updateOnSave": false,
-<<<<<<< HEAD
-  "cSpell.words": ["Jawid", "Meklit"]
-=======
-  "cSpell.words": ["Alona", "Meklit", "Mushtary", "Rumiya", "Sadet"]
->>>>>>> 15a2032496f60104ba220ab4c971ec23a82e3ab6
+  "cSpell.words": ["Alona", "Meklit", "Mushtary", "Rumiya", "Sadet"],
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    }
+  }
 }

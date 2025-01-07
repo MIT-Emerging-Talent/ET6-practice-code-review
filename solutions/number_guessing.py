@@ -10,7 +10,7 @@ Created on: 2025/01/06
 import random
 
 
-def play_game(target_number=None, simulated_guesses=None):
+def number_guessing(target_number=None, simulated_guesses=None):
     """
     Play a number guessing game.
 
@@ -40,16 +40,15 @@ def play_game(target_number=None, simulated_guesses=None):
 
         # Check if the guess is within the allowed range
         if guess < 1 or guess > 100:
-            print("Please guess a number between 1 and 100.")
-            continue
+            print(f"Invalid guess: {guess}. Please guess a number between 1 and 100.")
 
         attempts += 1
         guess_diff = abs(guess - target_number)
 
         if guess < target_number:
-            print("Too low!")
+            print(f"{guess} is too low! Try guessing higher.")
         elif guess > target_number:
-            print("Too high!")
+            print(f"{guess} is too high! Aim low")
         else:
             print(f"Congratulations! You guessed the number in {attempts} attempts.")
             break

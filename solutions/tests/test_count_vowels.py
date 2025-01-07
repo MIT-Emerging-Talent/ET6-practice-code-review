@@ -1,4 +1,18 @@
-"""Unit tests for the count_vowels function."""
+"""
+Unit tests for checking the correctnes of the count_vowels function.
+
+Test cases include:
+    - Empty string
+    - Strings with no vowels
+    - Strings containing only vowels
+    - Mixed-case vowel counting
+    - Alphanumeric strings
+    - Strings with special characters and whitespace
+    - Handling of invalid (non-string) input
+
+Created on: 2025-07-06
+@author: Fatima
+"""
 
 import unittest
 from solutions.count_vowels import count_vowels

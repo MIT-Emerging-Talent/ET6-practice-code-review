@@ -1,18 +1,13 @@
 """
-Write a function count_vowels(s) that returns the number of vowels in a given string.
+A module for counting vowels in a string.
 
-Examples
-count_vowels("hello") should return 2.
-count_vowels("sky") should return 0.
-count_vowels("AEIOU") should return 5.
-Behavior
-The function should:
+Module contents:
+    - count_vowels: Counts the number of vowels in a given string.
+      It supports both uppercase and lowercase vowels.
 
-Take a single string s as input.
-Identify and count the vowels (both uppercase and lowercase) in the string.
-Return the total count of vowels as an integer.
+Created on: 2025-07-06
+@author: Fatima
 """
-
 
 def count_vowels(text: str) -> int:
     """Count the number of vowels (a,e,i,o,u) in a string.
@@ -20,7 +15,8 @@ def count_vowels(text: str) -> int:
     Parameters:
         text: str, the input string to check
 
-    Returns -> int: number of vowels in the text
+    Returns:
+    int: Number of vowels in the text.
 
     Raises:
         AssertionError: if the argument is not a string
@@ -39,22 +35,3 @@ def count_vowels(text: str) -> int:
         if letter in vowels:
             count += 1
     return count
-
-
-# call the function
-# print(count_vowels("hello"))
-# print(count_vowels("fly"))
-# print(count_vowels("AEIOU"))
-# print(count_vowels(""))
-# print(count_vowels("high"))
-# print(count_vowels("hellO World"))
-
-# if vowels== "":
-#   return 0
-# if vowels== "aeiouAEIOU":
-#   return 5
-# if vowels== "fly":
-#   return 0
-# if vowels== "hellO World":
-#   return 3
-# return 0

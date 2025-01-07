@@ -14,7 +14,7 @@ Created on 2025-1-05
 """
 
 
-def insertion_sort(arr):
+def insertion_sort(arr: list[float | int]) -> None:
     """
     Sorts a list of elements in ascending order using the insertion sort algorithm.
 

@@ -34,25 +34,22 @@ class TestWhoLikesIt(unittest.TestCase):
         """
         Test the case when two people like the post
         """
-        self.assertEqual(who_likes_it(
-            ["Evan", "Madiha"]),
-            "Evan and Madiha like this")
+        self.assertEqual(who_likes_it(["Evan", "Madiha"]),
+        "Evan and Madiha like this")
 
     def test_three_likes(self):
         """
         Test the case when three people like the post
         """
-        self.assertEqual(who_likes_it(
-            ["Evan", "Madiha", "Megan"]),
-            "Evan, Madiha and Megan like this")
+        self.assertEqual(who_likes_it(["Evan", "Madiha", "Megan"]),
+        "Evan, Madiha and Megan like this")
 
     def test_more_than_three_likes(self):
         """
         Test the case when more than three people like the post
         """
-        self.assertEqual(who_likes_it(
-            ["Evan", "Madiha", "Megan", "Camila"]),
-            "Evan, Madiha and 2 others like this")
+        self.assertEqual(who_likes_it(["Evan", "Madiha", "Megan", "Camila"]),
+        "Evan, Madiha and 2 others like this")
 
     def test_invalid_input(self):
         """
@@ -73,9 +70,8 @@ class TestWhoLikesIt(unittest.TestCase):
         Test boundary case for a large list.
         """
         names = ["Name" + str(i) for i in range(100)]
-        self.assertEqual(
-            who_likes_it(names),
-            f"Name0, Name1 and {len(names) - 2} others like this")
+        self.assertEqual(who_likes_it(names),
+        f"Name0, Name1 and {len(names) - 2} others like this")
 
 if __name__ == "__main__":
     unittest.main()

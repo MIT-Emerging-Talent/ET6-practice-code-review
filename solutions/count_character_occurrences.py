@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on 2024-12-29
+A module for counting specific character occurrences in a provided string.
 
+Module contents:
+    - count_character_occurrences: A function to count specific character occurrences
+    in a provided string.
+
+Created on 2024-12-29
 @author: Sukhrob Muborakshoev
 """
 

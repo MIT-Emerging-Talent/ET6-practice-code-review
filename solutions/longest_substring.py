@@ -22,28 +22,24 @@ def longest_substring(s: str) -> int:
     Returns:
         int: The length of the longest substring without repeating characters. Returns 0 if the input string is empty.
 
-    Examples:
-        >>> longest_substring("abcabcbb")
-        3
-
-        >>> longest_substring("bbbbb")
-        1
-
-        >>> longest_substring("pwwkew")
-        3
-
-        >>> longest_substring("")
-        0
+    >>> longest_substring("abcabcbb")
+    3
+    >>> longest_substring("bbbbb")
+    1
+    >>> longest_substring("pwwkew")
+    3
+    >>> longest_substring("")
+    0
     """
-    seen = set()
+    max_length = 0
 
+    # Iterate through each starting point in the string
     for start in range(len(s)):
+        seen = set()  # Track characters in the current substring
         for end in range(start, len(s)):
-            substring = s[start : end + 1]
+            if s[end] in seen:
+                break
+            seen.add(s[end])
+            max_length = max(max_length, end - start + 1)
 
-            # Check if the substring has unique characters
-            if substring not in seen and len(substring) == len(set(substring)):
-                seen.add(substring)
-
-    # Return the length of the longest non-repeating substring
-    return max((len(i) for i in seen), default=0)
+    return max_length

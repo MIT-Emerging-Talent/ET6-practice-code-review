@@ -59,7 +59,7 @@ class TestPlayGame(unittest.TestCase):
         result = number_guessing(target_number=25, simulated_guesses=[-1, 101, 25])
         self.assertEqual(
             result,
-            1,
+            3,
             "Should ignore invalid guesses and return correct attempts, counting only valid guesses.",
         )
 

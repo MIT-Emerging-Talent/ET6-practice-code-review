@@ -29,6 +29,10 @@ class TestWordCounter(unittest.TestCase):
         """It should return 0 for empty input."""
         self.assertEqual(word_counter(""), 0)
 
+    def test_extra_spaces(self):
+        """It should return 0 for empty input."""
+        self.assertEqual(word_counter("     I love    Programming   in Python   "), 5)
+
     # Defensive tests
     def test_integer_input(self):
         """It should raise an AssertionError for wrong input types."""

@@ -7,6 +7,8 @@ Date: 2025-01-06
 """
 
 from typing import List
+
+# ---- define function ----
 def who_likes_it(names: List[str]) -> str:
     """
     Generate a "like display message based on the input list of names 
@@ -40,13 +42,20 @@ def who_likes_it(names: List[str]) -> str:
 
     names_length = len(names)
     
+    # If the list is empty, return 'no one likes this'.
     if names_length == 0:
         return "no one likes this"
+    
+    # If the list has 1 to 3 names, format them directly in the message.
     elif names_length == 1:
         return f"{names[0]} likes this"
+    
     elif names_length == 2:
         return f"{names[0]} and {names[1]} like this"
+    
     elif names_length == 3:
         return f"{names[0]}, {names[1]} and {names[2]} like this"
+    
+    # For 4 or more names, summarize additional names as 'X others'.
     else:
         return f"{names[0]}, {names[1]} and {names_length - 2} others like this"

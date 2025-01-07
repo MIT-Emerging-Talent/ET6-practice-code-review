@@ -38,6 +38,16 @@ def count_vowels(text: str) -> int:
     >>> count_vowels("Hello, World!")
     3
     """
+    
+    if not text:  # Handle empty strings
+        return 0
+
+    vowels = {"a", "e", "i", "o", "u", "y"}
+    count = 0
+
+    for char in text:
+        if char.lower() in vowels:
+            count += 1
 
     assert isinstance(text, str), "Input should be a string"
 

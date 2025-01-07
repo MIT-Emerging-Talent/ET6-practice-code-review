@@ -5,6 +5,7 @@ Test module for longest_substring function.
 
 Test categories:
     - Standard cases: Covers typical inputs with varying character repetitions.
+    - Performance tests: Large inputs to ensure the function performs efficiently with high input sizes.
     - Edge cases: .
     - Defensive tests: .
 
@@ -49,6 +50,12 @@ class TestLongestSubstring(unittest.TestCase):
         """Test with a long repeating sequence, expecting output 3."""
         self.assertEqual(longest_substring("aabcc"), 3)
 
-
-if __name__ == "__main__":
-    unittest.main()
+    # Performance tests
+    def test_large_input(self):
+        """Test with a long input string, expecting output equal to unique characters."""
+        large_input = (
+            "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ "
+            * 10  # Repeating the pattern to make the string longer
+        )
+        expected_output = len(set(large_input))  # Unique characters in the input
+        self.assertEqual(longest_substring(large_input), expected_output)

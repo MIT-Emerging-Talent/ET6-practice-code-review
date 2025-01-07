@@ -29,7 +29,7 @@ def sum_even_and_odd(numbers: List[Union[int, float]]) -> Dict[str, float]:
     >>> sum_even_and_odd([])
     {'positive_even': 0, 'positive_odd': 0, 'negative_even': 0, 'negative_odd': 0}
     >>> sum_even_and_odd([1.5, -2.5, 4, -3])
-    {'positive_even': 4, 'positive_odd': 1.5, 'negative_even': 0, 'negative_odd': -5.5}
+    {'positive_even': 4, 'positive_odd': 1.5, 'negative_even': -2.5, 'negative_odd': -3}
     >>> sum_even_and_odd([0])
     {'positive_even': 0, 'positive_odd': 0, 'negative_even': 0, 'negative_odd': 0}
     >>> sum_even_and_odd([1000000000, -1000000000])
@@ -66,13 +66,13 @@ def sum_even_and_odd(numbers: List[Union[int, float]]) -> Dict[str, float]:
     for num in numbers:
         if isinstance(num, (int, float)):
             # Check if the number is positive and even
-            if num > 0 and float(num) % 2 == 0:
+            if num > 0 and int(num) % 2 == 0:
                 result["positive_even"] += num
             # Check if the number is positive and odd
             elif num > 0:
                 result["positive_odd"] += num
             # Check if the number is negative and even
-            elif num < 0 and float(num) % 2 == 0:
+            elif num < 0 and int(num) % 2 == 0:
                 result["negative_even"] += num
             # Check if the number is negative and odd
             elif num < 0:

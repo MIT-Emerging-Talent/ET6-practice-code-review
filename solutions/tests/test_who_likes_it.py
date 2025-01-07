@@ -4,8 +4,8 @@ Tests for the `who_likes_it` module
 Author: Madiha Malikzada
 Date: 2025-01-06    
 
-This test suite verifies the correctness of the `who_likes_it` module by testing the function 
-`who_likes_it` against various test cases.
+This test suite verifies the correctness of the `who_likes_it` module by testing the 
+function `who_likes_it` against various test cases.
     - Different numbers of names in the input list.
     - Defensive assertions for invalid inputs
     - Boundary cases like empty and large lists.
@@ -35,13 +35,17 @@ class TestWhoLikesIt(unittest.TestCase):
         """
         Test the case when two people like the post
         """
-        self.assertEqual(who_likes_it(["Evan", "Madiha"]), "Evan and Madiha like this")
+        self.assertEqual(who_likes_it(
+            ["Evan", "Madiha"]),
+            "Evan and Madiha like this")
 
     def test_three_likes(self):
         """
         Test the case when three people like the post
         """
-        self.assertEqual(who_likes_it(["Evan", "Madiha", "Megan"]), "Evan, Madiha and Megan like this")
+        self.assertEqual(who_likes_it(
+            ["Evan", "Madiha", "Megan"]),
+            "Evan, Madiha and Megan like this")
 
     def test_more_than_three_likes(self):
         """

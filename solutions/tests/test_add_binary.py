@@ -11,6 +11,7 @@ Tests include:
 """
 
 import unittest
+
 from solutions.add_binary import Solution
 
 

@@ -9,7 +9,7 @@ The tests validate the function's ability to handle:
 - Edge cases such as empty strings and non-string inputs.
 
 Author: Norbert Ndayisenga
-Date: 03 01 2025
+Date: 07 01 2025
 """
 
 import unittest

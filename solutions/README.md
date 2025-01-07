@@ -48,6 +48,7 @@ to raise any number to any power.
 - **Square**: Ayodele Ayomide
 - **Square root**: Ayodele Ayomide
 - **Multiply**: Olubusayo Solola
+- **Modulus**: Olubusayo Solola
 - **Divide**: Zephaniah Okoye
 - **Exponentiation**: Zephaniah Okoye
 

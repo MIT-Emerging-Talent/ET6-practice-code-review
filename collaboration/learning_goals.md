@@ -60,6 +60,12 @@ strategies.
 - Become proficient in testing and documentation for clear, accurate,
  and reliable code.
 
+### **Abraham Anyak**  
+
+- Develop proficiency in providing and applying constructive feedback during code
+reviews.
+- Enhance my skills in producing clean, well-tested, and thoroughly documented code.
+
 ### **Cynthia Wairimu**  
 
 - Improve debugging and troubleshooting skills to solve problems efficiently.  

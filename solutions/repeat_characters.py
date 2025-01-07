@@ -11,22 +11,23 @@ author by: Dmytro Klymenko
 def repeat_characters(word: str) -> str:
     """
     Function repeat all characters in word 2 times and return long word
-      Args:
-        repeat_characters(str) - desired word
+
+    Args:
+        word (str) - The input is word, whose characters are to be repeated
 
     Returns:
-        str: Desired word with doubled characters
+        str: A word from the input with repeating twice each character
 
     Examples:
 
     >>>print(repeat_characters("Winter"))
-    WWiinntteerr
+    'WWiinntteerr'
 
     >>>print(repeat_characters("peach"))
-    ppeeaacchh
+    'ppeeaacchh'
 
     >>>print(repeat_characters("cola"))
-    ccoollaa
+    'ccoollaa'
 
     """
     assert isinstance(word, str)  # Input must be a string

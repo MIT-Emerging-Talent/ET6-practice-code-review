@@ -33,6 +33,10 @@ class TestRepeatedCharacters(unittest.TestCase):
         """Test if will mulltiply upper and lower characters"""
         self.assertEqual(repeat_characters("MoThEr"), "MMooTThhEErr")
 
+    def error_not_string(self):
+        with self.assertRaises(AssertionError):
+            repeat_characters(1)
+
 
 if __name__ == "__main__":
     unittest.main()

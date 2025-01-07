@@ -2,26 +2,29 @@
 A module for removing duplicates from a list of numbers
 
 Module contents:
-  - Remove_Duplicates: Remove any duplicant number in the list
+  - Remove_Duplicates: Remove any duplicate numbers in the list
 
 Created on 2025-1-4
 @author: Safaa Osman
 """
 
 
-def Remove_Duplicates(numbers: list) -> list:
+def Remove_Duplicates(items: list) -> list:
     """
     This Function Removes any duplicates elements from the list
 
-    Arguments: list of integeres
+    Arguments: list of elements
 
-    Returns: list of of integers without duplicates
+    Returns: list of elements without duplicates.
 
     Raises:
     AssertionError: if the input is not a list
 
 
     Examples:
+    >>> Remove_Duplicates(['a','b','a'])
+    ['a', 'b']
+
     >>> Remove_Duplicates([1,1,2])
     [1, 2]
 
@@ -38,10 +41,10 @@ def Remove_Duplicates(numbers: list) -> list:
     [5]
 
     """
-    assert isinstance(numbers, list), "input must be a list"
+    assert isinstance(items, list), "input must be a list"
 
     Final_list = []
-    for num in numbers:
-        if num not in Final_list:
-            Final_list.append(num)
+    for item in items:
+        if item not in Final_list:
+            Final_list.append(item)
     return Final_list

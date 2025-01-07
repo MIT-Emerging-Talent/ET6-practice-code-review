@@ -17,3 +17,5 @@ Each member brings something special to the table.
 - **Ava**: Turning coffee into code ☕➡️💻
 - **Saeee**: Every mistake is progress, and Teamwork fuels growth ™️ 🤖
 - **Nahom**: We ask not for a lighter burden, but for broader shoulders. 💪🌍
+- **WuorBhang**: Like comedy! making people laugh 😃
+- **Novel Yonas**: I can spend 8 hrs in GYM

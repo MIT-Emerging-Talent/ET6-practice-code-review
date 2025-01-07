@@ -48,17 +48,23 @@ Welcome to our collaborative journey! This document outlines our shared aspirati
 strategies.  
 - Explore optimization techniques for better performance and scalability.  
 
-### **Member 2**  
+### **Wuor Bhang**  
 
 - Hone skills in creating detailed, comprehensive documentation for solutions.  
 - Experiment with functional programming techniques for elegant and efficient
  solutions.  
 
-### **Member 3**  
+### **Ibrahim Elmisbah**  
 
-- Utilize advanced language features to build modular, testable code.  
-- Focus on crafting clean and reusable components for robust project
- architecture.  
+- Master predictive stepping to understand program execution and flow.  
+- Become proficient in testing and documentation for clear, accurate,
+ and reliable code.
+
+### **Abraham Anyak**  
+
+- Develop proficiency in providing and applying constructive feedback during code
+reviews.
+- Enhance my skills in producing clean, well-tested, and thoroughly documented code.
 
 ### **Member 4**  
 

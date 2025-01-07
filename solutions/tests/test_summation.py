@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+""
+unit tests for the summation function
+"""
 import unittest
 
 from solutions.summation import sum
-
+"""tests for the sum function"""
 
 class TestSum(unittest.TestCase):
     """It should return the sum of positive numbers"""

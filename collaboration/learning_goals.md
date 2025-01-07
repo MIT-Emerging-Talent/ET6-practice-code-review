@@ -52,6 +52,4 @@ growth.
 
 - **Git and GitHub**:
   Develop a strong understanding of Git and GitHub to efficiently manage version
-  control, collaborate on projects, and maintain a clear and organized workflow
-  for tracking, sharing, and integrating changes in code or documents.
-  
+  control, collaborate on projects.

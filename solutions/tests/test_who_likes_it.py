@@ -1,14 +1,13 @@
 """
-Tests for the `who_likes_it` module
+Tests for the `who_likes_it` module.
 
-Author: Madiha Malikzada
-Date: 2025-01-06    
-
-This test suite verifies the correctness of the `who_likes_it` module by testing the 
-function `who_likes_it` against various test cases.
+This tests the correctness of the function `who_likes_it`:
     - Different numbers of names in the input list.
     - Defensive assertions for invalid inputs
     - Boundary cases like empty and large lists.
+
+Author: Madiha Malikzada
+Date: 2025-01-06
 """
 
 import unittest

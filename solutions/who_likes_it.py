@@ -1,8 +1,9 @@
 """
-Module `who_likes_it` provides a function that takes a list of names and returns a
-string that describes how many people like a post.
+This Module provides like display message based on the input list of names.
 
-Module: who_likes_it
+Module contents: 
+    returns a string that describes how many people like a post.
+
 Author: Madiha Malikzada
 Date: 2025-01-06    
 """

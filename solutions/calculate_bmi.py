@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Function to calculate BMI and determine weight category.
 
@@ -9,6 +10,19 @@ BMI Categories:
 - Obese: BMI ≥ 30
 
 Supports both metric and imperial systems.
+
+Examples:
+    >>> calculate_bmi(70, 1.75, "metric")
+    'Normal weight'
+    >>> calculate_bmi(150, 68, "imperial")
+    'Normal weight'
+    >>> calculate_bmi(50, 1.6, "metric")
+    'Normal weight'
+    >>> calculate_bmi(200, 72, "imperial")
+    'Overweight'
+
+Raises:
+    ValueError: If input is invalid or system is not recognized.
 
 Created on 2025-01-04
 Author: Cynthia Wairimu

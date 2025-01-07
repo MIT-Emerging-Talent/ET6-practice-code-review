@@ -45,12 +45,12 @@ ______________________________________________________________________
 
 ### How many hours everyone has per day
 
-- Yevheniia Rudenko: ~5h;
-- Abdul Qader Dost: ~4;
-- Awaab Hussein: ~3h;
+- Yevheniia Rudenko: _~5h_;
+- Abdul Qader Dost: _~4_;
+- Awaab Hussein: _~3h_;
 - Lukmon Alao: _3h_;
 - Ridwan Ayinde: _3h_;
-- Zephaniah Okoye: ~4h;
+- Zephaniah Okoye: _~4h_;
 - name: _3h_;
 
 ## Asking for Help

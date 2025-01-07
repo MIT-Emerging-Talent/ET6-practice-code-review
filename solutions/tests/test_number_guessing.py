@@ -10,19 +10,19 @@ Created on: 2025/01/06
 import unittest
 from ..number_guessing import (
     number_guessing,
-)  # Ensure the correct path to the `play_game` function.
+)  # Ensure the correct path to the `number_guessing` function.
 
 
 class TestPlayGame(unittest.TestCase):
     """
-    Unit tests for the play_game function.
+    Unit tests for the number_guessing function.
     """
 
     def test_correct_guess_in_one_attempt(self):
         """
         Test if the game returns 1 attempt when the player guesses correctly on the first try.
         """
-        result = play_game(target_number=50, simulated_guesses=[50])
+        result = number_guessing(target_number=50, simulated_guesses=[50])
         self.assertEqual(
             result,
             1,
@@ -33,7 +33,7 @@ class TestPlayGame(unittest.TestCase):
         """
         Test if the game counts the correct number of attempts when multiple guesses are required.
         """
-        result = play_game(target_number=30, simulated_guesses=[10, 20, 30])
+        result = number_guessing(target_number=30, simulated_guesses=[10, 20, 30])
         self.assertEqual(
             result,
             3,
@@ -44,7 +44,7 @@ class TestPlayGame(unittest.TestCase):
         """
         Test if the game handles the case where all guesses are lower than the target number.
         """
-        result = play_game(target_number=50, simulated_guesses=[10, 20, 30, 40])
+        result = number_guessing(target_number=50, simulated_guesses=[10, 20, 30, 40])
         self.assertEqual(
             result,
             4,  # Expecting 5 attempts: 4 low guesses + 1 correct guess
@@ -56,7 +56,7 @@ class TestPlayGame(unittest.TestCase):
         Test if the game ignores invalid guesses (e.g., less than 1 or greater than 100)
         and only counts valid attempts.
         """
-        result = play_game(target_number=25, simulated_guesses=[-1, 101, 25])
+        result = number_guessing(target_number=25, simulated_guesses=[-1, 101, 25])
         self.assertEqual(
             result,
             1,
@@ -68,7 +68,7 @@ class TestPlayGame(unittest.TestCase):
         Test if the game provides 'warmer' and 'colder' feedback correctly based on guesses.
         """
         # In this test, we expect the game to give 'warmer' feedback as the guess gets closer to 50.
-        result = play_game(target_number=50, simulated_guesses=[30, 40, 50])
+        result = number_guessing(target_number=50, simulated_guesses=[30, 40, 50])
         self.assertEqual(
             result,
             3,

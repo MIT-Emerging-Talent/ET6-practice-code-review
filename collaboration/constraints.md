@@ -15,17 +15,17 @@
 
 ### Nagham
 
-| Constraint          | Type     | Description                                          |
+| Constraint          | Type     | Description                              |
 |:-------------------:|:--------:|:--------------------------------------------------:|
 | Internet 🛜        | External | Internet is not always available.                  |
 | Time Zone Differences 🕒 | External | It causes conflicts and delays progress.          |
 
 ### Nelson
 
-| Constraint          | Type     | Description                                          |
-|:-------------------:|:--------:|:--------------------------------------------------:|
-| Deadline issues ❌  | External | I am preparing my application for college.        |
-| GitHub knowledge ❓  | Internal | I do not know how to use GitHub effectively.      |
+| Constraint          | Type     | Description                                   |
+|:-------------------:|:--------:|:---------------------------------------------:|
+| Deadline issues ❌  | External | I am preparing my application for college.   |
+| GitHub knowledge ❓ | Internal | I do not know how to use GitHub effectively. |
 
 ### Matvii 😊
 
@@ -38,7 +38,8 @@
 
 > Summary of External constraints.
 
-- **Connectivity issues**: Some team members may experience unreliable network connections, impacting real-time collaboration.
+- **Connectivity issues**: Some team members may experience unreliable network connections,
+   impacting real-time collaboration.
 
 ## ![indoor](../assets/limited-access.png) Internal: Involuntary
 

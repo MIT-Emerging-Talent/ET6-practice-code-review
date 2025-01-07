@@ -1,18 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Unit tests for the count_vowels function.
 
-This module verifies the correctness of the `count_vowels` function
-by testing various edge cases, boundary cases, and defensive assertions.
-"""
+#Unit tests for the count_vowels function.
+
 
 import unittest
 from ..count_vowels import count_vowels
-
-# Example usage code as suggested, placed directly after the import.
-print(count_vowels("Programming is fun!"))  # Output: 5
-print(count_vowels("AEIOUaeiou"))  # Output: 10
 
 
 class TestCountVowels(unittest.TestCase):
@@ -63,13 +56,12 @@ class TestCountVowels(unittest.TestCase):
         self.assertEqual(count_vowels("!@#$%^&*()"), 0)
 
     def test_assertion_error(self):
-        """
-        Test that a non-string input raises an assertion error.
-        """
+        
         # Test to ensure the function raises an AssertionError for non-string inputs.
         with self.assertRaises(AssertionError):
             count_vowels(12345)
 
 
 if __name__ == "__main__":
+    # This ensures that the unittest framework runs the test cases in this file
     unittest.main()

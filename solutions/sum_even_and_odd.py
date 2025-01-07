@@ -45,13 +45,16 @@ def sum_even_and_odd(numbers: List[Union[int, float]]) -> Dict[str, float]:
     ValueError: All elements must be integers or floats.
 
     """
+    # Ensure the input is a list
     if not isinstance(numbers, list):
         raise ValueError("Input must be a list.")
 
+    # Ensure all elements in the list are integers or floats
     for num in numbers:
         if not isinstance(num, (int, float)):
             raise ValueError("All elements must be integers or floats.")
 
+    # Initialize the result dictionary
     result = {
         "positive_even": 0,
         "positive_odd": 0,
@@ -59,14 +62,19 @@ def sum_even_and_odd(numbers: List[Union[int, float]]) -> Dict[str, float]:
         "negative_odd": 0,
     }
 
+    # Iterate through the numbers and categorize them
     for num in numbers:
-        if isinstance(num, (int, float)) and num > 0 and num % 2 == 0:
-            result["positive_even"] += num
-        elif isinstance(num, (int, float)) and num > 0:
-            result["positive_odd"] += num
-        elif isinstance(num, (int, float)) and num < 0 and num % 2 == 0:
-            result["negative_even"] += num
-        elif isinstance(num, (int, float)) and num < 0:
-            result["negative_odd"] += num
-
+        if isinstance(num, (int, float)):
+            # Check if the number is positive and even
+            if num > 0 and float(num) % 2 == 0:
+                result["positive_even"] += num
+            # Check if the number is positive and odd
+            elif num > 0:
+                result["positive_odd"] += num
+            # Check if the number is negative and even
+            elif num < 0 and float(num) % 2 == 0:
+                result["negative_even"] += num
+            # Check if the number is negative and odd
+            elif num < 0:
+                result["negative_odd"] += num
     return result

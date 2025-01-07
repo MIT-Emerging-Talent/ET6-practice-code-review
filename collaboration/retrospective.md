@@ -39,3 +39,27 @@ Below are things I will start/continue doing moving forward
 - Being more flexible and open to suggestions or changes proposed by the team.  
 
 A lot didn't go as planned 😏 but what I learnt is teamwork always wins
+
+______________________________________________________________________
+
+# Retrospective - Yevheniia Rudenko
+
+Below are things I will stop doing moving forward:
+
+- Working without a clear schedule and relying on daily availability instead of
+following a structured plan.
+
+Below are things I will start/continue doing moving forward:
+
+- Following a more precise schedule to maintain better structure in my work.
+- Ensuring clear and proactive communication with the team when I encounter
+challenges or misunderstandings.
+- Continuing to meet milestones and internal deadlines while
+collaborating effectively with the team.
+
+Reflection:
+Having a structure, even a relative one, proved to be very important for our
+team. Milestones kept us on track, and we successfully achieved them together.
+Teamwork can be incredibly productive and educational, especially when you can
+rely on your teammates for help. Effective communication is the key to success.
+______________________________________________________________________

@@ -27,6 +27,11 @@ binary search on a sorted list of numbers.
 - **Square** (`square_function`): Calculates the square of a number.
 - **Square root** (`square_root_function`): Calculates the square root of a number.
 - **Multiply** (`multiply-function`): Multiplies two numbers and returns the result.
+- **Modulus**(`modulus`): Calculates the remainder of dividing two numbers.
+- **Divide**(`divide`): Divides the first number by
+the second and handles division by zero.
+- **Exponentiation**(`exponentiation`): A more general exponentiation function
+to raise any number to any power.
 
 ### Contributors
 

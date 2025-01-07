@@ -34,7 +34,8 @@ def bubble_sort(arr):
         >>> bubble_sort(arr)
         >>> arr
         [1, 2, 5, 5, 6, 9]
-                >>> arr2 = [12, 11, 13, 5, 6]
+
+        >>> arr2 = [12, 11, 13, 5, 6]
         >>> bubble_sort(arr2)
         >>> arr2
         [5, 6, 11, 12, 13]

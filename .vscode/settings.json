@@ -112,15 +112,25 @@
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
 
+{
   // Enable/disable update table of contents on save
   "markdown.extension.toc.updateOnSave": false,
-"cSpell.words": ["babad", "cbbd"],
-"[python]": { 
-  "editor.defaultFormatter": "charliermarsh.ruff",
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.ruff": "explicit",
-    "source.organizeImports.ruff": "explicit"
-  }
+
+  "cSpell.words": ["babad", "cbbd"],
+
+  "[python]": {
+    // Use ruff for formatting and linting
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": true,
+      "source.organizeImports.ruff": true
+    }
+  },
+
+  "python.testing.unittestArgs": ["-v", "-s", "./solutions", "-p", "*test.py"],
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": true
 }
-}
+
+

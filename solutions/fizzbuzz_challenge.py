@@ -30,39 +30,21 @@ def fizzbuzz(n):
 
     Example:
 
-    >>>> fizzbuzz (0)
+    >>> fizzbuzz (0)
     []
 
-    >>>> fizzbuzz (5)
-    1
-    2
-    Fizz
-    4
-    Buzz
+    >>> fizzbuzz (5)
+    [1, 2, 'Fizz', 4, 'Buzz']
 
-    >>>> fizzbuzz(15)
-    1
-    2
-    Fizz
-    4
-    Buzz
-    Fizz
-    7
-    8
-    Fizz
-    Buzz
-    11
-    Fizz
-    13
-    14
-    FizzBuzz
+    >>> fizzbuzz(15)
+    [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz']
 
     """
     # the number should be an integer greater than 0
     assert isinstance(n, int)
     # the number is less than 0
     assert n >= 0
-    
+
     result = []
     # loop through numbers from 1 to n
     for num in range(1, n + 1):
@@ -81,7 +63,4 @@ def fizzbuzz(n):
         # print the number if none of the above conditions are met
         else:
             result.append(num)
-    
-    
     return result
-    

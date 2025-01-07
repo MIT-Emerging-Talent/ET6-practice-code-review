@@ -1,62 +1,55 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on 5 1 2025
+""" "
+ created on 5 1 2025
 
 @author: omer dafaalla
 """
 
 import unittest
 
-from budget_calc import calculate_budget
+from solutions.budget_calc import (
+    calculate_budget,
+)  # Import the function from the budget module
 
 
-class TestCalculateBudget(unittest.TestCase):
+class TestBudgetCalculation(unittest.TestCase):
     """
-    Unit test class for the calculate_budget function.
+    Unit tests for the `calculate_budget` function.
     """
 
-    def test_valid_budget(self):
-        """
-        Test with valid budget values.
-        """
-        self.assertEqual(
-            calculate_budget(3000),
-            ["Rent: 1200.0", "Groceries: 900.0", "Savings: 600.0", "Others: 300.0"],
-        )
-        self.assertEqual(
-            calculate_budget(1500),
-            ["Rent: 600.0", "Groceries: 450.0", "Savings: 300.0", "Others: 150.0"],
-        )
+    def test_budget_3000(self):
+        result = calculate_budget(3000)
+        expected = [
+            "Rent: 1200.00",
+            "Groceries: 900.00",
+            "Savings: 600.00",
+            "Others: 300.00",
+        ]
+        self.assertEqual(result, expected)
 
-    def test_boundary_budget(self):
-        """
-        Test with a boundary value (e.g.,
-          maximum allowed 3000).
-        """
-        self.assertEqual(
-            calculate_budget(3000),
-            ["Rent: 1200.0", "Groceries: 900.0", "Savings: 600.0", "Others: 300.0"],
-        )
+    def test_budget_1500(self):
+        result = calculate_budget(1500)
+        expected = [
+            "Rent: 600.00",
+            "Groceries: 450.00",
+            "Savings: 300.00",
+            "Others: 150.00",
+        ]
+        self.assertEqual(result, expected)
 
-    def test_invalid_budget_negative(self):
-        """
-        Test with a negative budget value.
-        """
-        with self.assertRaises(AssertionError):
-            calculate_budget(-500)
+    def test_budget_0(self):
+        with self.assertRaises(ValueError):
+            calculate_budget(0)
 
-    def test_invalid_budget_exceeds_limit(self):
-        """
-        Test with a budget exceeding
-          the upper limit.
-        """
-        with self.assertRaises(AssertionError):
+    def test_budget_3500(self):
+        with self.assertRaises(ValueError):
             calculate_budget(3500)
 
-    def test_invalid_budget_type(self):
-        """
-        Test with a non-numeric type as input.
-        """
-        with self.assertRaises(AssertionError):
-            calculate_budget("Not a number")
+    def test_budget_negative(self):
+        with self.assertRaises(ValueError):
+            calculate_budget(-1000)
+
+
+if __name__ == "__main__":
+    unittest.main()

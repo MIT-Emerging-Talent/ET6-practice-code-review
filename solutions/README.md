@@ -43,6 +43,8 @@ binary search on a sorted list of numbers.
 - **Square**: Ayodele Ayomide
 - **Square root**: Ayodele Ayomide
 - **Multiply**: Olubusayo Solola
+- **Divide**: Zephaniah Okoye
+- **Exponentiation**: Zephaniah Okoye
 
 ### How to Use
 

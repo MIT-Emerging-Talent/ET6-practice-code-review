@@ -91,3 +91,13 @@ and I will keep doing this because it helps us work better as a team.
 check-ins with the team to stay aligned and track our progress more effectively.
 - **Automated Testing:** I want to start incorporating more automated testing into
 my workflow to catch potential errors early and ensure our code is reliable.  
+
+## The lessons that I have learned  
+
+- **Importance of Communication:** I’ve learned how crucial it is to communicate
+effectively with my team. Misunderstandings can lead to delays, so I now focus on
+being clear and concise.  
+- **Value of Feedback:** I’ve realized how valuable it is to receive and give constructive
+feedback during code reviews. It’s helped me grow and write better code.  
+- **Patience with Learning:** I’ve also learned that it’s okay to take time to fully
+understand new tools or techniques instead of rushing through them.  

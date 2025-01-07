@@ -16,9 +16,7 @@ def find_largest_number(numbers) -> float:
     A list of numbers.
 
     Returns:
-        float: The largest number in the list.
-    """
-
+        float: The largest number in the list."""
     if not all(isinstance(x, (int, float)) for x in numbers):
         raise ValueError("All elements in the list must be numeric.")
 

@@ -1,65 +1,64 @@
 # **Meeting 05**
 
 **08/01/2025  
-12.00 PM EST - 2.00 PM EST  
-Google Meet    
+12:00 PM EST - 2:00 PM EST  
+Google Meet  
 Attendees: 9**
 
-## **Agenda:** 
-- Going through what been said in Evan's meeting
-- Project Board Revision and filtering
-- Collaboration file Revision
+## **Agenda**
 
-### **Topics Discussed:**
+- Going through what was said in Evan's meeting.
+- Project Board revision and filtering.
+- Collaboration file revision.
+
+### **Topics Discussed**
 
 <!--markdownlint-disable MD034 MD013-->
 [**Revising Project Board**](https://github.com/orgs/MIT-Emerging-Talent/projects/127/views/1)
 
-+ Go back to Key discussions on [meeting minutes 04](notes/meeting_minutes/04_meeting_minutes.md)
- titled "Project Board";  
-_Just make sure everything is done well._
-+ Adding tag label in every issue on the project board
+- Revisit key discussions from [Meeting Minutes 04](notes/meeting_minutes/04_meeting_minutes.md) titled "Project Board."  
+  _Objective: Ensure all items are handled effectively._
+- Add tag labels to every issue on the project board.
 
-### Key discussions
+### **Key Discussions**
 
-_Fixing the collaboration file_  
-- Communication file:  
-  - Adding how we deal with time and meetings; in general.  
-  - When it comes to meetings what are our values? : Flexibilty and efficiency  
-  - What do we prefer in each: Slack, Whatsapp, Discuussions.  
-  - The role of meeting minutes on our asychronous form of connection.  
-  
-- Learning Goals:
-  - Bullet points individually and more clear precise points..
-  
-_Fixing Old CI Checks_  
-_revert? will ask Evan._
+_Fixing the Collaboration File_
+- Communication File:  
+  - Define how we handle time and meetings generally.
+  - Identify meeting values: Flexibility and Efficiency.
+  - Preferred tools for communication: Slack, WhatsApp, and Discussions.
+  - Emphasize the role of meeting minutes in asynchronous connections.
 
-### Decision made  
+- Learning Goals:   
+  - Rewrite goals into clearer, more precise bullet points.
+    
+_Fixing Old CI Checks_
+- Discussion on whether to revert old CI checks (awaiting input from Evan).
 
-**Action Items**  
+### **Decisions Made**
+
+** Action Items **  
   _What needs to be reviewed?_  
-[ ] Constraints file to SALIH (also the project board filteriing)  
-[ ] Learning Goals file to MAAB  
-[ ] Retrospective file to GHYATH  
-[ ] Communication file to AHD  
+- Constraints file: Assigned to SALIH (including the project board filtering).
+- Learning Goals file: Assigned to MAAB.
+- Retrospective file: Assigned to GHYATH.
+- Communication file: Assigned to AHD.
 
-### Follow up
+### **Follow-Up**
 
-+ Any addition on constraints, communication and anything will be highly considered.  
-+ Revise your solutions label : challenge  
-+ Revise your collabortaion label : documentation
-+ If any label required: keep
+- Any additions to constraints, communication, and related files will be highly considered.
+- Revise labels:
+  - **Solutions label:** Challenge.
+  - **Collaboration label:** Documentation.
+- If any label is required: Keep it updated.
 
-### Other notes
+### **Other Notes**
 
-+ Deadline for anything on the **10th Jan**
-+ Also [insights](https://github.com/orgs/MIT-Emerging-Talent/projects/127/insights)
-on the project board, you can see yor contribution and yo can configure
-to what you'd like to see
+- Deadline for all action items: **10th January**.
+- Check [insights](https://github.com/orgs/MIT-Emerging-Talent/projects/127/insights) on the project board to view contributions. Configure it as needed.
 
-### Next meeting
+### **Next Meeting**
 
-Will be on Friday 10th of Jan  
-12 EST “appropriate for everyone”  
-Discussing: Retrospective, A brainstorming session.
+ Friday, 10th January  
+ 12:00 PM EST (appropriate for everyone)  
+ Retrospective brainstorming session.

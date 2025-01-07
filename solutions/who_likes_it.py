@@ -64,6 +64,3 @@ def who_likes_it(names: List[str]) -> str:
     # For 4 or more names, summarize additional names as 'X others'.
     else:
         return f"{names[0]}, {names[1]} and {names_length - 2} others like this"
-
-
-print(who_likes_it(["Evan", "Madiha", 8]))

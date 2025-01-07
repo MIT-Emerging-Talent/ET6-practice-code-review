@@ -29,5 +29,7 @@ class TestRemoveDuplicates(unittest.TestCase):
 
     def test_Mix_types_of_elements(self):
         """It should return the list of elements without duplicates"""
-        self.assertEqual(Remove_Duplicates([1, "Safaa",3.5 , "Safaa", "safaa", 
-                                            3.5]), [1, "Safaa", 3.5, "safaa"])
+        self.assertEqual(
+            Remove_Duplicates([1, "Safaa", 3.5, "Safaa", "safaa", 3.5]),
+            [1, "Safaa", 3.5, "safaa"],
+        )

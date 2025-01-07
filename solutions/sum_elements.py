@@ -29,10 +29,17 @@ def sum_elements(numbers:list)->int:
     >>> sum_elements([])
     0
     """
+    
+    if numbers is None:
+        raise TypeError("No arguments provided. Please pass a list of integers.")
+    
+    assert isinstance(numbers, list), "The input must be a list."              
+                        
     if len(numbers)==0:
         return 0
     
-
+    if not all(isinstance(num, int) for num in numbers):
+        raise ValueError("All elements in the list must be integers.")
     
     return sum(numbers)
 

@@ -5,6 +5,7 @@
 Some boundaries around our project.
 
 ## External
+The project must be completed by 8th Jan 2025.
 
 <!--
   constraints coming from the outside that your team has no control over:
@@ -16,7 +17,7 @@ Some boundaries around our project.
 -->
 
 ## Internal: Involuntary
-
+Team members have varying levels of experience with Python, requiring additional time for learning.
 <!--
   constraints that come from within your team, and you have no control over:
   - each of your individual skill levels
@@ -24,6 +25,8 @@ Some boundaries around our project.
 -->
 
 ## Internal: Voluntary
+Every pull request must pass a peer code review before merging.
+Agree to use GitHub for version control and task management.
 
 <!--
   constraints that your team decided on to help scope the project. they may include:

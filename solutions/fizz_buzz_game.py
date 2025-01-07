@@ -50,6 +50,3 @@ def fizz_buzz(start: int, end: int) -> dict:
         elif number % 5 == 0:
             results[number] = "Buzz"
     return results
-
-
-print(fizz_buzz(2, 10))

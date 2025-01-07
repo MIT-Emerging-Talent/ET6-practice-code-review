@@ -7,14 +7,15 @@ Test categories:
     - Edge cases: empty input, invalid input, and quitting the game
     - Defensive tests: wrong input types, assertions
 
+When cloning the repository locally, the test file might not be able to import the function.
+To fix this, remove the 2 dots before fizz_buzz_game and run the following command in the terminal: "python -m tests.test_fizz_buzz_game"
+Make sure you are in the correct directory.
+
 Created on 31-12-24
 Author: Cody + Abdulrahman Ali
 """
 
 import unittest
-
-# When cloning the repo and running the test locally, the test file might fail
-# Just type from solutions.fizz_buzz_game import fizz_buzz and the test will run
 from ..fizz_buzz_game import fizz_buzz
 
 
@@ -109,6 +110,17 @@ class TestFizzBuzzChallenge(unittest.TestCase):
             18: "Fizz",
         }
         self.assertEqual(result, expected)
+
+    def test_negative_range(self):
+        """Test FizzBuzz with negative numbers."""
+        result = fizz_buzz(-6, -2)
+        expected = {-6: "Fizz", -5: "Buzz", -3: "Fizz"}
+        self.assertEqual(result, expected)
+
+    def test_reversed_range(self):
+        """Test that range with end < start returns empty dict."""
+        result = fizz_buzz(10, 5)
+        self.assertEqual(result, {})
 
 
 if __name__ == "__main__":

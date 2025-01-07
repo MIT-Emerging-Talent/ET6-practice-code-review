@@ -22,17 +22,17 @@ def check_number_type(user_input: str) -> str:
         results will be a text whether "The number is even", "The number is odd"
         or "Enter a valid number "
         Examples :
-        >>> check_odd_check("20")
+        >>> check_number_type("20")
         "The number is even"
-        >>> check_odd_check("11")
+        >>> check_number_type("11")
         "The number is odd"
     """
     user_input = user_input.strip()
     # Check if it is empty
     if not user_input:
         raise ValueError("Input cannot be empty. Enter a valid number.")
-    # check if it is a number 
-    if not user_input.lstrip('-').isdigit():
+    # check if it is a number
+    if not user_input.lstrip("-").isdigit():
         raise ValueError("Enter a valid number")
     number = int(user_input)
     # Check if the number is even or odd

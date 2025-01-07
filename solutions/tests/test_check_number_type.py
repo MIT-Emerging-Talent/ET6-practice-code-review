@@ -6,6 +6,7 @@ Created on 05 01 2025
 """
 
 import unittest
+
 from solutions.check_number_type import check_number_type
 
 
@@ -19,6 +20,10 @@ class TestCheckNumberType(unittest.TestCase):
     def test_odd_number(self):
         """It should identify odd numbers."""
         self.assertEqual(check_number_type("15"), "The number is odd")
+
+    def test_zero(self):
+        """It should identify zero as even."""
+        self.assertEqual(check_number_type("0"), "The number is even")
 
     def test_negative_even_number(self):
         """It should identify negative even numbers."""

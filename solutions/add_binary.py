@@ -40,6 +40,14 @@ class Solution:
 
         Returns:
             str: The sum of the two binary strings as a binary string.
+
+        Examples:
+            >>> Solution.add_binary("11", "1")
+            '100'
+            >>> Solution.add_binary("1010", "1011")
+            '10101'
+            >>> Solution.add_binary("1101", "101")
+            '10010'
         """
         return bin(int(a, 2) + int(b, 2))[2:]
 
@@ -49,9 +57,9 @@ class Solution:
         Checks if a given string is a valid binary number.
 
         Parameters:
-            s (str): The string to check.
+            s (str): The string to validate.
 
         Returns:
             bool: True if the string is a valid binary number, False otherwise.
         """
-        return all(char in {"0", "1"} for char in s)
+        return all(c in "01" for c in s)

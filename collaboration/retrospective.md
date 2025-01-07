@@ -115,3 +115,8 @@ of the project went exactly the way I planned it. Although the process involved
 trying things out, and some of these didn’t work, that was all part of the learning
 experience. Each trial added to my understanding and contributed to the success of
 the project.
+
+## Things that I added that weren't in my initial strategy  
+
+I had to include more detailed documentation for my work after realizing it
+might not be clear enough for my teammates during reviews.

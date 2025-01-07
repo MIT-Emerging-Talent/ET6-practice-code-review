@@ -9,7 +9,7 @@ Created on: 2025/01/06
 
 import unittest
 from ..number_guessing import (
-    play_game,
+    number_guessing,
 )  # Ensure the correct path to the `play_game` function.
 
 

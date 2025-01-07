@@ -52,8 +52,16 @@ def bubble_sort(arr):
         isinstance(el, bool) for el in arr
     ), "Boolean values are not allowed in the list."
 
+    # Outer loop: iterate through the entire array
+    # With each iteration, the largest unsorted element "bubbles up" to its correct position
+    # The loop runs n times in the worst case, where n is the length of the array
     for i in range(arrlen):
         is_swaped = False
+
+        # Inner loop: compare adjacent elements and swap if they are in wrong order
+        # The loop runs (n-i-1) times because:
+        # 1. After each outer iteration, the last i elements are already sorted
+        # 2. We compare elements j and j+1, so we stop at n-i-1 to avoid index out of range
         for j in range(arrlen - i - 1):
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]

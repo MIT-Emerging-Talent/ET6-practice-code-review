@@ -84,3 +84,10 @@ branches, committing regularly, and writing detailed pull requests. I will stick
 to this because it’s been very effective.  
 - **Team Support:** I’ve been fostering open discussions and supporting my teammates,
 and I will keep doing this because it helps us work better as a team.  
+
+## What I will start Doing  
+
+- **Regular Check-ins:** I plan in future projects to suggest having more frequent
+check-ins with the team to stay aligned and track our progress more effectively.
+- **Automated Testing:** I want to start incorporating more automated testing into
+my workflow to catch potential errors early and ensure our code is reliable.  

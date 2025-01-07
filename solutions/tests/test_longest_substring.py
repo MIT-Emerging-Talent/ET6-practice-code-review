@@ -4,7 +4,7 @@
 Test module for longest_substring function.
 
 Test categories:
-    - Standard cases: .
+    - Standard cases: Covers typical inputs with varying character repetitions.
     - Edge cases: .
     - Defensive tests: .
 

@@ -12,6 +12,29 @@ Created on 2025-01-07
 
 
 def longest_substring(s: str) -> int:
+    """
+    Determines the length of the longest substring without repeating characters.
+
+    Args:
+        s (str): The input string to be evaluated. Must have a length between 0 and 5 * 10^4.
+                 The string consists of English letters, digits, symbols, and spaces.
+
+    Returns:
+        int: The length of the longest substring without repeating characters. Returns 0 if the input string is empty.
+
+    Examples:
+        >>> longest_substring("abcabcbb")
+        3
+
+        >>> longest_substring("bbbbb")
+        1
+
+        >>> longest_substring("pwwkew")
+        3
+
+        >>> longest_substring("")
+        0
+    """
     seen = set()
 
     for start in range(len(s)):

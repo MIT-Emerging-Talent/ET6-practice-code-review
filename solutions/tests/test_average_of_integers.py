@@ -1,4 +1,7 @@
-""" "
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
 Created 01-05-2025
 @author: Mithchell Cenatus
 
@@ -46,6 +49,14 @@ class TestCalculateAverage(unittest.TestCase):
         self.assertEqual(
             calculate_average([1_000_000, 2_000_000, 3_000_000]), 2_000_000
         )
+
+    def test_single_element(self):
+        """Test with a single element"""
+        self.assertEqual(calculate_average([15]), 15.0)
+
+    def test_all_zeros(self):
+        """Test with a list containing all zeros."""
+        self.assertEqual(calculate_average([0, 0, 0]), 0.0)
 
 
 if __name__ == "__main__":

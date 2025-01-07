@@ -1,0 +1,50 @@
+[33mcommit 876216910c31ff8b34a41b641dd1645f655e7f63[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfuel-gauge[m[33m, [m[1;31morigin/fuel-gauge[m[33m)[m
+Author: Goutbi <agoutbi10@gmail.com>
+Date:   Mon Jan 6 22:46:33 2025 +0400
+
+    keeping only one in the unittests
+
+[1mdiff --git a/solutions/fuel_gauge.py b/solutions/fuel_gauge.py[m
+[1mindex 543e2d6..b78b93b 100644[m
+[1m--- a/solutions/fuel_gauge.py[m
+[1m+++ b/solutions/fuel_gauge.py[m
+[36m@@ -1,4 +1,6 @@[m
+[31m-"""module calculates the percentage of fuel in a tank and returns a status indicator."""[m
+[32m+[m[32m"""module calculates the percentage of fuel in a tank and returns a status indicator.[m
+[32m+[m[32mCreated on Sunday/29/December/2024[m
+[32m+[m[32mAuthor: Ahmed Elhassan"""[m
+ [m
+ [m
+ def fuel_gauge(fuel_amount: int, tank_capacity: int) -> str:[m
+[1mdiff --git a/solutions/tests/test_fuel_gauge.py b/solutions/tests/test_fuel_gauge.py[m
+[1mindex 4d7072e..7f74311 100644[m
+[1m--- a/solutions/tests/test_fuel_gauge.py[m
+[1m+++ b/solutions/tests/test_fuel_gauge.py[m
+[36m@@ -9,24 +9,21 @@[m [mclass TestFuelGauge(unittest.TestCase):[m
+     def test_full(self):[m
+         """Test cases where the percentage is 90% or more it should result in F."""[m
+         self.assertEqual(fuel_gauge(90, 100), "F")[m
+[31m-        self.assertEqual(fuel_gauge(100, 100), "F")[m
+[31m-        self.assertEqual(fuel_gauge(97, 100), "F")[m
+ [m
+     def test_empty(self):[m
+         """Test cases where the percentage is 10% or less it should result E."""[m
+[31m-        self.assertEqual(fuel_gauge(10, 100), "E")[m
+         self.assertEqual(fuel_gauge(0, 100), "E")[m
+[31m-        self.assertEqual(fuel_gauge(2, 100), "E")[m
+ [m
+     def test_percentage(self):[m
+         """Test cases where the result is between 90 and 10 it should be M."""[m
+[31m-        self.assertEqual(fuel_gauge(71, 100), "M")[m
+         self.assertEqual(fuel_gauge(23, 100), "M")[m
+[31m-        self.assertEqual(fuel_gauge(10, 50), "M")[m
+ [m
+     def test_invalid_input(self):[m
+         """Test cases for invalid inputs."""[m
+         with self.assertRaises(AssertionError):[m
+             fuel_gauge(6, 0)[m
+[32m+[m
+[32m+[m[32m    def test_negative_input(self):[m
+[32m+[m[32m        """Test cases for negative inputs."""[m
+         with self.assertRaises(AssertionError):[m
+             fuel_gauge(7, -1)[m

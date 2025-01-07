@@ -10,6 +10,7 @@ Created on 01 01 2025
 @author: Saliha Kalender
 """
 
+
 def count_vowels(input_string: str) -> int:
     """
     Counts the number of vowels in a given string.
@@ -47,8 +48,12 @@ def count_vowels(input_string: str) -> int:
     """
     assert isinstance(input_string, str), "Input must be a string."
 
-    vowels = "aeiouAEIOU"  # A string containing all vowels (both uppercase and lowercase).
-    count = sum(1 for char in input_string if char in vowels)  # Counts how many characters in the input are vowels.
+    vowels = (
+        "aeiouAEIOU"  # A string containing all vowels (both uppercase and lowercase).
+    )
+    count = sum(
+        1 for char in input_string if char in vowels
+    )  # Counts how many characters in the input are vowels.
     return count
 
 

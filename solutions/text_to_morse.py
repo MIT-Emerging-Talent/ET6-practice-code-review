@@ -39,7 +39,6 @@ def text_to_morse(text: str) -> str:
 
     >>> text_to_morse("/-)")
     '-..-. -....- -.--.-'
-
     """
 
     assert isinstance(text, str)

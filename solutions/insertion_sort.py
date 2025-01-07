@@ -3,7 +3,7 @@
 """
 A module for performing insertion sort on an array.
 
-Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time. 
+Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time.
 It works by taking each element from the input and inserting it in the right position in the array.
 
 Module contents:
@@ -12,6 +12,7 @@ Module contents:
 Created on 2025-1-05
 @author: Tomas Teclehaimanot
 """
+
 
 def insertion_sort(arr):
     """
@@ -25,7 +26,7 @@ def insertion_sort(arr):
 
     Raises:
         AssertionError: input is not list or If the list contains elements that are not comparable.
-        
+
     Example:
         >>> arr = [5, 2, 9, 1, 5, 6]
         >>> insertion_sort(arr)
@@ -52,18 +53,20 @@ def insertion_sort(arr):
 
     assert isinstance(arr, list), "Input must be a list."
 
-    assert all(isinstance(el, (int, float)) for el in arr), \
-        "All elements in the list must be of type int or float."
+    assert all(
+        isinstance(el, (int, float)) for el in arr
+    ), "All elements in the list must be of type int or float."
 
-    assert not any(isinstance(el, bool) for el in arr), \
-        "Boolean values are not allowed in the list."
+    assert not any(
+        isinstance(el, bool) for el in arr
+    ), "Boolean values are not allowed in the list."
 
     for i in range(1, len(arr)):
         tmp = arr[i]
 
         j = i - 1
-        while(j >= 0 and tmp < arr[j]):
+        while j >= 0 and tmp < arr[j]:
             arr[j + 1] = arr[j]
-            j-=1
+            j -= 1
 
         arr[j + 1] = tmp

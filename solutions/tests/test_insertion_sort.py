@@ -12,8 +12,8 @@ Created on 2025-1-05
 @author: Tomas Teclehaimanot
 """
 
-
 import unittest
+
 from ..insertion_sort import insertion_sort
 
 
@@ -68,7 +68,6 @@ class TestInsertionSort(unittest.TestCase):
         insertion_sort(arr)
         self.assertEqual(arr, [1.0, 2.4, 3, 5])
 
-
     def test_invalid_input_none(self):
         """It should raise a AssertionError for None"""
         with self.assertRaises(AssertionError):
@@ -85,5 +84,5 @@ class TestInsertionSort(unittest.TestCase):
             insertion_sort(12345)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

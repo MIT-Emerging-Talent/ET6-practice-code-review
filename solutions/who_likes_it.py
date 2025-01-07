@@ -1,11 +1,11 @@
 """
-This Module provides like display message based on the input list of names.
+This module provides a like display message based on the input list of names.
 
-Module contents: 
-    returns a string that describes how many people like a post.
+Module contents:
+    Returns a string that describes how many people like a post.
 
 Author: Madiha Malikzada
-Date: 2025-01-06    
+Date: 2025-01-06
 """
 
 from typing import List
@@ -13,10 +13,10 @@ from typing import List
 # ---- define function ----
 def who_likes_it(names: List[str]) -> str:
     """
-    Generate a "like display message based on the input list of names 
+    Generate a like display message based on the input list of names.
 
     Args:
-        names (List[str]): A list of names representing people who liked a an item (post)
+        names (List[str]): A list of names representing people who liked an item (post)
 
     Returns:
         str: A display message that describes how many people liked the post

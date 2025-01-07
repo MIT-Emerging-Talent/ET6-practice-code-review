@@ -34,6 +34,15 @@ def bubble_sort(arr):
         >>> bubble_sort(arr)
         >>> arr
         [1, 2, 5, 5, 6, 9]
+                >>> arr2 = [12, 11, 13, 5, 6]
+        >>> bubble_sort(arr2)
+        >>> arr2
+        [5, 6, 11, 12, 13]
+
+        >>> arr3 = [3, 1, 4, 1, 5, 9, 2]
+        >>> bubble_sort(arr3)
+        >>> arr3
+        [1, 1, 2, 3, 4, 5, 9]
 
     Time Complexity:
         Best case: O(n) when the list is already sorted (optimized with the is_swaped flag).

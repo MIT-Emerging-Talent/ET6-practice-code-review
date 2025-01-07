@@ -48,12 +48,34 @@ class TestCountDigits(unittest.TestCase):
         with self.assertRaises(ValueError):
             count_digits("Gai")
 
-    def test_invalid_input(self):
-        """It raises a type error for an invalid input"""
+    def test_list_input(self):
+        """It raises a type error for a list input"""
         with self.assertRaises(TypeError):
             count_digits([1, 2, 3])
+
+    def test_negative_float(self):
+        """It returns the number of digits in a negative float."""
+        self.assertEqual(count_digits(-45.9), 2)
+
+    def test_none_input(self):
+        """It raises a type error for a None input"""
+        with self.assertRaises(TypeError):
             count_digits(None)
-            count_digits({1, 2, 3})
-            count_digits(True)
-            count_digits(False)
+
+    def test_dict_input(self):
+        """It raises a type error for a dictionary input"""
+        with self.assertRaises(TypeError):
             count_digits({"name": "Gai"})
+
+    def test_true_boolean_input(self):
+        """It returns the number of digits in a True boolean."""
+        self.assertEqual(count_digits(True), 1)
+
+    def test_false_boolean_input(self):
+        """It returns the number of digits in a False boolean."""
+        self.assertEqual(count_digits(False), 1)
+
+    def test_set_input(self):
+        """It raises a type error for a set input"""
+        with self.assertRaises(TypeError):
+            count_digits({1, 2, 3})

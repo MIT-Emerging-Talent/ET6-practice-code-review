@@ -10,12 +10,12 @@ Created on Wednesday, 1st January, 2025.
 """
 
 
-def count_digits(number: int | float | str) -> int:
+def count_digits(number: int | float | str | bool) -> int:
     """
     The count_digits function counts the number of digits in a given number.
 
     Parameters:
-        number: an integer or float number whose digits are to be counted.
+        number: an integer/string/ boolean or float number whose digits are to be counted.
 
     Returns:
         An integer representing the number of digits in the input number.
@@ -44,6 +44,10 @@ def count_digits(number: int | float | str) -> int:
     if number == "":
         raise ValueError("The input cannot be empty.")
 
+    # Converts a boolean to an integer.
+    if isinstance(number, bool):
+        number = int(number)
+
     # converts a float to an integer.
     if isinstance(number, float):
         number = int(number)
@@ -56,8 +60,8 @@ def count_digits(number: int | float | str) -> int:
             raise ValueError("Input must be a valid number.") from exc
 
     # Check for empty or invalid inputs
-    if not isinstance(number, (int, float, str)):
-        raise TypeError("Input must be an integer, float, or numeric string.")
+    if not isinstance(number, (int, float, str, bool)):
+        raise TypeError("Input must be an integer, float, boolean or numeric string.")
 
     # Convert the number to a string and remove the negative sign if present.
     number_str = str(abs(int(number)))

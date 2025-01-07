@@ -21,7 +21,7 @@
   "editor.tabSize": 2,
 
   // Defines a default formatter which takes precedence over all other formatter settings. Must be the identifier of an extension contributing a formatter
-  "editor.defaultFormatter": "vscode.html-language-features",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   // Controls bracket pair colorization is enabled or not
   "editor.bracketPairColorization.enabled": true,
@@ -115,7 +115,6 @@
 {
   // Enable/disable update table of contents on save
   "markdown.extension.toc.updateOnSave": false,
-
   "cSpell.words": ["babad", "cbbd"],
 
   "[python]": {
@@ -132,5 +131,4 @@
   "python.testing.pytestEnabled": false,
   "python.testing.unittestEnabled": true
 }
-
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-#Unit tests for the count_vowels function.
+# Unit tests for the count_vowels function.
 
 
 import unittest
@@ -56,7 +56,6 @@ class TestCountVowels(unittest.TestCase):
         self.assertEqual(count_vowels("!@#$%^&*()"), 0)
 
     def test_assertion_error(self):
-        
         # Test to ensure the function raises an AssertionError for non-string inputs.
         with self.assertRaises(AssertionError):
             count_vowels(12345)

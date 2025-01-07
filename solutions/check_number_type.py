@@ -27,15 +27,14 @@ def check_number_type(user_input: str) -> str:
         >>> check_odd_check("11")
         "The number is odd"
     """
-    
     assert user_input.strip().isdigit(), "Enter a valid number"
 
     number = int(user_input.strip())
     if number % 2 == 0:
         return "The number is even"
     else:
-
         return "The number is odd"
+
 
 if __name__ == "__main__":
     user_number = input("Hi! please enter a number: ")

@@ -49,3 +49,9 @@ growth.
 - **Time Management**:  
   Build better habits for allocating time effectively between team contributions
   and personal study.
+
+- **Git and GitHub**:
+  Develop a strong understanding of Git and GitHub to efficiently manage version
+  control, collaborate on projects, and maintain a clear and organized workflow
+  for tracking, sharing, and integrating changes in code or documents.
+  

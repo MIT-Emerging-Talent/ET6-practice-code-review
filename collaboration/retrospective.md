@@ -66,7 +66,7 @@ ______________________________________________________________________
 
 # Retrospective - Awaab Hussein
 
-## What I will Stop Doing  
+## What I will stop doing  
 
 Honestly, there’s nothing that I feel I need to stop doing. I’ve been intentional
 about my approach to this project, and it’s been going great. For example, my
@@ -85,7 +85,7 @@ to this because it’s been very effective.
 - **Team Support:** I’ve been fostering open discussions and supporting my teammates,
 and I will keep doing this because it helps us work better as a team.  
 
-## What I will start Doing  
+## What I will start doing  
 
 - **Regular Check-ins:** I plan in future projects to suggest having more frequent
 check-ins with the team to stay aligned and track our progress more effectively.

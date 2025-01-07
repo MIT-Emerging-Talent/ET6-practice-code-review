@@ -7,7 +7,7 @@ Module contents:
     - count_words: counts the number of words in a given text.
     - main: the main function of the module.
 
-Created on 7 1 2025
+Created on 2025-01-07
 @author: Collins Ochieng
 """
 

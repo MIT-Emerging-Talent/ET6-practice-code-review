@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-
 A test for module text_to_morse
 
 Test categories:
@@ -15,8 +14,6 @@ Created on 5 1 2025
 """
 
 import unittest
-
-
 from ..text_to_morse import text_to_morse
 
 

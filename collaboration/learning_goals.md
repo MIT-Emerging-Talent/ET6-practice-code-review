@@ -136,36 +136,52 @@ their learning objectives for this project.*
 ### Zephaniah Okoye
 
 1. **Advanced Git and GitHub Mastery**:
-   - Gain a deeper understanding of advanced Git features, such as interactive rebase, cherry-picking, and stashing.
-   - Master the use of GitHub Actions for automating workflows and continuous integration.
+   - Gain a deeper understanding of advanced Git features,
+     such as interactive rebase, cherry-picking, and stashing.
+   - Master the use of GitHub Actions for
+     automating workflows and continuous integration.
 
 2. **Proficiency in CI/CD Pipelines**:
-   - Learn to set up and configure CI/CD pipelines using tools like GitHub Actions, Jenkins, or CircleCI.
-   - Ensure automated testing, code quality checks, and deployment processes are integrated into the development workflow.
+   - Learn to set up and configure CI/CD pipelines
+     using tools like GitHub Actions, Jenkins, or CircleCI.
+   - Ensure automated testing, code quality checks, and
+     deployment processes are integrated into the development workflow.
 
 3. **Enhanced Code Review Practices**:
-   - Develop a keen eye for identifying code smells and potential refactoring opportunities.
-   - Practice providing detailed, constructive feedback on pull requests to improve code quality and team collaboration.
+   - Develop a keen eye for identifying code
+     smells and potential refactoring opportunities.
+   - Practice providing detailed, constructive feedback on
+     pull requests to improve code quality and team collaboration.
 
 4. **Advanced Project Management with GitHub**:
-   - Utilize GitHub project boards to manage complex project workflows and track progress efficiently.
-   - Implement issue templates and workflows to streamline task creation and tracking.
+   - Utilize GitHub project boards to manage
+     complex project workflows and track progress efficiently.
+   - Implement issue templates and
+     workflows to streamline task creation and tracking.
 
 5. **Deep Dive into Documentation**:
-   - Write comprehensive and user-friendly documentation for codebases, APIs, and workflows.
-   - Learn to use tools like Sphinx or MkDocs to generate professional-quality project documentation.
+   - Write comprehensive and user-friendly
+      documentation for codebases, APIs, and workflows.
+   - Learn to use tools like Sphinx or MkDocs to
+      generate professional-quality project documentation.
 
 6. **Mentoring and Leadership**:
-   - Take on mentoring roles within the team to support junior developers and foster a collaborative learning environment.
-   - Develop leadership skills by leading project initiatives and facilitating team discussions.
+   - Take on mentoring roles within the team to support
+      junior developers and foster a collaborative learning environment.
+   - Develop leadership skills by leading
+     project initiatives and facilitating team discussions.
 
 7. **Continuous Learning and Innovation**:
-   - Stay up-to-date with the latest development tools, frameworks, and best practices.
-   - Encourage a culture of innovation by experimenting with new technologies and sharing insights with the team.
+   - Stay up-to-date with the latest development
+      tools, frameworks, and best practices.
+   - Encourage a culture of innovation by experimenting
+     with new technologies and sharing insights with the team.
 
 8. **Soft Skills Development**:
-   - Improve communication and presentation skills to effectively convey ideas and technical concepts.
-   - Enhance conflict resolution skills to address and resolve team challenges constructively.
+   - Improve communication and presentation skills
+      to effectively convey ideas and technical concepts.
+   - Enhance conflict resolution skills to
+      address and resolve team challenges constructively.
 
 ---
 

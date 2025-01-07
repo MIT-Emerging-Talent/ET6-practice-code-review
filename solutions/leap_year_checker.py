@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -- coding: utf-8 --
 """
 A module for checking whether a given year is a leap year.
 
@@ -32,6 +34,18 @@ def is_leap_year(year: int) -> bool:
         True
         >>> is_leap_year(2023)
         False
+        >>> is_leap_year(0)  # Negative case
+        Traceback (most recent call last):
+        ...
+        ValueError: Year must be a positive integer.
+        >>> is_leap_year(-2024)  # Negative year case
+        Traceback (most recent call last):
+        ...
+        ValueError: Year must be a positive integer.
+        >>> is_leap_year("2024")  # Invalid type case
+        Traceback (most recent call last):
+        ...
+        TypeError: Year must be an integer.
     """
     if not isinstance(year, int):
         raise TypeError("Year must be an integer.")

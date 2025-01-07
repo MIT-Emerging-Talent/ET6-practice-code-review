@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -- coding: utf-8 --
 """
 Unit tests for the is_leap_year function.
 
@@ -6,6 +8,7 @@ including typical cases, boundary cases, and defensive assertions.
 """
 
 import unittest
+
 from solutions.leap_year_checker import is_leap_year
 
 
@@ -44,3 +47,7 @@ class TestIsLeapYear(unittest.TestCase):
         """Test invalid input that is not an integer."""
         with self.assertRaises(TypeError):
             is_leap_year("2024")
+
+    def test_large_number(self):
+        """Test a large number boundary case."""
+        self.assertTrue(is_leap_year(4000000))

@@ -1,7 +1,6 @@
-# ![Alt Text](../assets/task-planner.png)  Constraints
+# ![Alt Text](../assets/task-planner.png) Constraints
 
-> In this readme, we explain potential **constraints** that limit our
-> productivity and achievement throughout the project trip.
+> In this readme, we explain potential **constraints** that limit our productivity and achievement throughout the project.
 
 ## ![Alt Text](../assets/outdoor.png) Constraints
 
@@ -9,56 +8,65 @@
 
 ### _Salem 👀_
 
-| Constraint |Type | Description |
-|:------:|:-------:|:-------:|
-| Power & internet 🛜 |External| I have limited hours when power is available|
-| Deadlines ❌ |External|I have college deadlines in addition to MET program deadlines|
+| Constraint          | Type     | Description                                          |
+|:-------------------:|:--------:|:--------------------------------------------------:|
+| Power & internet 🛜  | External | I have limited hours when power is available.      |
+| Deadlines ❌        | External | I have college deadlines in addition to MET program deadlines. |
 
 ### Nagham
 
-| Constraint |Type | Description |
-|:------:|:-------:|:-------:|
-|  internet 🛜 |External|Internet is Not always available|
-| Time Zone Differences 🕒|External|It causes conflicts and delays progress|
+| Constraint          | Type     | Description                                          |
+|:-------------------:|:--------:|:--------------------------------------------------:|
+| Internet 🛜        | External | Internet is not always available.                  |
+| Time Zone Differences 🕒 | External | It causes conflicts and delays progress.          |
 
-### Nilson
+### Nelson
 
-| Constraint |Type | Description |
-|:------:|:-------:|:-------:|
+| Constraint          | Type     | Description                                          |
+|:-------------------:|:--------:|:--------------------------------------------------:|
+| Deadline issues ❌  | External | I am preparing my application for college.        |
+| GitHub knowledge ❓  | Internal | I do not know how to use GitHub effectively.      |
 
 ### Matvii 😊
 
-| Constraint |Type | Description |
-|:------:|:-------:|:-------:|
-| Deadlines ❌|External|University exams|
-| Power & internet 🛜|External|I might not have unlimited access to electricity|
+| Constraint          | Type     | Description                                          |
+|:-------------------:|:--------:|:--------------------------------------------------:|
+| Deadlines ❌        | External | University exams.                                  |
+| Power & internet 🛜  | External | I might not have unlimited access to electricity.  |
 
 #### Summary
 
 > Summary of External constraints.
 
+- **Connectivity issues**: Some team members may experience unreliable network connections, impacting real-time collaboration.
+
 ## ![indoor](../assets/limited-access.png) Internal: Involuntary
 
 ### Examples
+
 <!--
-  constraints that come from within your team, and you have no control over:
-  - each of your individual skill levels
-  - amount of time available to work on the project
+  Constraints that come from within your team, and you have no control over:
+  - Each of your individual skill levels
+  - Amount of time available to work on the project
 -->
-### 1. Various Skill Levels🎚️
+
+### 1. Various Skill Levels 🎚️
 
 - Limited experience with specific tools, methodologies, or frameworks.
 - Uneven distribution of skills across team members.
-  
-### 2. Communication Challenges💬
+
+### 2. Communication Challenges 💬
 
 - Communication hardship due to limited resources of power and internet.
 
-### 3. Productivity unstability🦥
+### 3. Productivity Instability 🦥
 
-- Due to unstable circumstances ongoing on team members' locations.
+- Due to unstable circumstances ongoing in team members' locations.
 
-## ![indoor](../assets/scope.png)  Internal: Voluntary
+## ![indoor](../assets/scope.png) Internal: Voluntary
 
-<img style="display: block; width : 500px;float : right;  border-radius : 30%"
- alt = "blablab" src="../assets/internal-voluntary-constraints.png"/>
+<img style="display: block; width: 500px; float: right; border-radius: 30%" alt="blablab" src="../assets/internal-voluntary-constraints.png"/>
+
+- **Coding style & conventions**: Agree on a set of guidelines for consistency across the codebase.
+- **Code review checklist**: Create a checklist to ensure thorough reviews while accommodating varying skill levels.
+- **Desired hours to work per week**: Establish a flexible schedule that considers team members' availability, possibly utilizing asynchronous communication.

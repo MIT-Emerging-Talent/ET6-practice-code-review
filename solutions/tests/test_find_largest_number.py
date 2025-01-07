@@ -2,19 +2,19 @@
 Unit tests for the largest_num function in the Find_largest_number module.
 
 This module contains a set of test cases to ensure the correctness of the
-largest_num function, which identifies the largest number in a given list.
+find_largest_number function, which identifies the largest number in a given list.
 """
 
 import unittest
-import sys
+# import sys
 
-sys.path.append("../")
+# sys.path.append("../")
 from solutions.find_largest_number import find_largest_number
 
 
 class TestLargestNum(unittest.TestCase):
     """
-    Unit tests for the largest_num() function, verifying its correctness
+    Unit tests for the find_largest_number function, verifying its correctness
     across positive, negative, mixed, single-element, duplicate, and empty lists.
     """
 

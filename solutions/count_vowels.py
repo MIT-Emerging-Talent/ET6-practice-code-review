@@ -6,12 +6,11 @@ A module for counting vowels in a string.
 Module contents:
     - count_vowels: counts the number of vowels in a string.
 
-Created on XX XX XX
+Created on 01 01 2025
 @author: Saliha Kalender
 """
 
-
-def count_vowels(input_string):
+def count_vowels(input_string: str) -> int:
     """
     Counts the number of vowels in a given string.
 
@@ -22,7 +21,7 @@ def count_vowels(input_string):
 
     Parameter Description:
     - input_string (str): The string to be processed.
-    It can contain letters, numbers, spaces, and special characters.
+      It can contain letters, numbers, spaces, and special characters.
 
     Return Value Description:
     - int: The total number of vowels in the input string.
@@ -30,6 +29,9 @@ def count_vowels(input_string):
     Assumptions:
     - Input is always a string.
     - Vowels are defined as 'a', 'e', 'i', 'o', 'u', both uppercase and lowercase.
+
+    Raises:
+    - AssertionError: If the input is not of type str.
 
     Doctests:
     >>> count_vowels("hello")
@@ -39,30 +41,20 @@ def count_vowels(input_string):
     >>> count_vowels("123 abc XYZ")
     1
 
-    Assertions:
-    - Asserts that the input is of type str.
-
     Use Cases:
     1. Counting vowels in a user-provided string input.
     2. Processing text data to analyze vowel frequency.
     """
     assert isinstance(input_string, str), "Input must be a string."
 
-    vowels = "aeiouAEIOU"
-    count = sum(1 for char in input_string if char in vowels)
+    vowels = "aeiouAEIOU"  # A string containing all vowels (both uppercase and lowercase).
+    count = sum(1 for char in input_string if char in vowels)  # Counts how many characters in the input are vowels.
     return count
 
 
-def example_usage():
-    """
-    Runs example usage for the count_vowels function.
-    """
-    example1 = "Programming is fun!"
-    example2 = "AEIOUaeiou"
-
-    print(f"Vowels in '{example1}': {count_vowels(example1)}")
-    print(f"Vowels in '{example2}': {count_vowels(example2)}")
-
-
 if __name__ == "__main__":
-    example_usage()
+    # This block ensures the following code is executed only when this script
+    # is run directly (not when imported as a module in another script).
+    # It provides a simple demonstration of the `count_vowels` function.
+    print(count_vowels("Programming is fun!"))  # Output: 5
+    print(count_vowels("AEIOUaeiou"))  # Output: 10

@@ -1,67 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-A module for counting vowels in a string.
+Unit tests for the count_vowels function.
 
-Module contents:
-    - count_vowels: counts the number of vowels in a string.
-
-Created on XX XX XX
-@author: Saliha Kalender
+This module verifies the correctness of the `count_vowels` function
+by testing various edge cases, boundary cases, and defensive assertions.
 """
 
 import unittest
+from ..count_vowels import count_vowels
 
-
-def count_vowels(input_string):
-    """
-    Counts the number of vowels in a given string.
-
-    Behavior Description:
-    - The function identifies all vowels (a, e, i, o, u) in the input string,
-    regardless of case.
-    - It returns the total count of vowels found.
-
-    Parameter Description:
-    - input_string (str): The string to be processed.
-    It can contain letters, numbers, spaces, and special characters.
-
-    Return Value Description:
-    - int: The total number of vowels in the input string.
-
-    Assumptions:
-    - Input is always a string.
-    - Vowels are defined as 'a', 'e', 'i', 'o', 'u', both uppercase and lowercase.
-
-    Doctests:
-    >>> count_vowels("hello")
-    2
-    >>> count_vowels("HELLO")
-    2
-    >>> count_vowels("123 abc XYZ")
-    1
-
-    Assertions:
-    - Asserts that the input is of type str.
-
-    Use Cases:
-    1. Counting vowels in a user-provided string input.
-    2. Processing text data to analyze vowel frequency.
-    """
-    assert isinstance(input_string, str), "Input must be a string."
-
-    vowels = "aeiouAEIOU"
-    count = sum(1 for char in input_string if char in vowels)
-    return count
-
-
-# Example usage:
-if __name__ == "__main__":
-    EXAMPLE1 = "Programming is fun!"
-    EXAMPLE2 = "AEIOUaeiou"
-
-    print(f"Vowels in '{EXAMPLE1}': {count_vowels(EXAMPLE1)}")  # Output: 5
-    print(f"Vowels in '{EXAMPLE2}': {count_vowels(EXAMPLE2)}")  # Output: 10
+# Example usage code as suggested, placed directly after the import.
+print(count_vowels("Programming is fun!"))  # Output: 5
+print(count_vowels("AEIOUaeiou"))  # Output: 10
 
 
 class TestCountVowels(unittest.TestCase):
@@ -115,6 +66,7 @@ class TestCountVowels(unittest.TestCase):
         """
         Test that a non-string input raises an assertion error.
         """
+        # Test to ensure the function raises an AssertionError for non-string inputs.
         with self.assertRaises(AssertionError):
             count_vowels(12345)
 

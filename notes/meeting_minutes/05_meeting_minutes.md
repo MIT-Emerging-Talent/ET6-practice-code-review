@@ -22,27 +22,41 @@ Attendees: 9**
 
 ### **Key Discussions**
 
-_Fixing the Collaboration File_
-- Communication File:  
-  - Define how we handle time and meetings generally.
-  - Identify meeting values: Flexibility and Efficiency.
-  - Preferred tools for communication: Slack, WhatsApp, and Discussions.
-  - Emphasize the role of meeting minutes in asynchronous connections.
+<!--markdownlint-disable MD036-->
+#### Fixing the Collaboration File
+<!--markdownlint-enable MD036-->
 
-- Learning Goals:   
-  - Rewrite goals into clearer, more precise bullet points.
-    
-_Fixing Old CI Checks_
-- Discussion on whether to revert old CI checks (awaiting input from Evan).
+<!--markdownlint-disable MD032-->
+- Communication File:  
+  - Define how we handle time and meetings generally.  
+  - Identify meeting values: Flexibility and Efficiency.  
+  - Preferred tools for communication: Slack, WhatsApp, and Discussions.  
+  - Emphasize the role of meeting minutes in asynchronous connections.
+  
+- Learning Goals:  
+  - Rewrite goals into clearer, more precise bullet points.  
+<!--markdownlint-enable MD032-->
+
+<!--markdownlint-disable MD036-->
+#### Fixing Old CI Checks
+<!--markdownlint-enable MD036-->
+
+<!--markdownlint-disable MD032-->
+- Discussion on whether to revert old CI checks (awaiting input from Evan).  
+<!--markdownlint-enable MD032-->
 
 ### **Decisions Made**
 
-** Action Items **  
-  _What needs to be reviewed?_  
-- Constraints file: Assigned to SALIH (including the project board filtering).
-- Learning Goals file: Assigned to MAAB.
-- Retrospective file: Assigned to GHYATH.
-- Communication file: Assigned to AHD.
+<!--markdownlint-disable MD037-->
+#### Action Items
+<!--markdownlint-enable MD037-->
+
+<!--markdownlint-disable MD032-->
+- Constraints file: Assigned to SALIH (including the project board filtering).  
+- Learning Goals file: Assigned to MAAB.  
+- Retrospective file: Assigned to GHYATH.  
+- Communication file: Assigned to AHD.  
+<!--markdownlint-enable MD032-->
 
 ### **Follow-Up**
 
@@ -59,6 +73,6 @@ _Fixing Old CI Checks_
 
 ### **Next Meeting**
 
- Friday, 10th January  
- 12:00 PM EST (appropriate for everyone)  
- Retrospective brainstorming session.
+Friday, 10th January  
+12:00 PM EST (appropriate for everyone)  
+Retrospective brainstorming session.

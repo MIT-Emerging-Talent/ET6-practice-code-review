@@ -31,6 +31,8 @@ def missing_number(nums: list, n: int) -> int:
     [1, 3]
     >>> missing_number([0, 1, 3], 5)
     [2, 4, 5]
+    >>> missing_number([0, 2], 2)
+    [1]
 
     """
     assert isinstance(n, int)

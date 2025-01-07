@@ -10,10 +10,20 @@ from reverse_string import reverse_string
 class TestReverseString(unittest.TestCase):
     """Tests for the reverse_string function."""
 
+    # Normal Cases
     def test_reverse_normal_string(self):
         """Reverse a normal string."""
         self.assertEqual(reverse_string("hello"), "olleh")
 
+    def test_reverse_string_with_spaces(self):
+        """Reverse a string containing spaces."""
+        self.assertEqual(reverse_string("Python is fun!"), "!nuf si nohtyP")
+
+    def test_reverse_repeating_characters(self):
+        """Reverse a string with repeating characters."""
+        self.assertEqual(reverse_string("aaaaa"), "aaaaa")
+
+    # Boundary and Defensive Cases
     def test_reverse_empty_string(self):
         """Return an empty string when input is empty."""
         self.assertEqual(reverse_string(""), "")
@@ -26,3 +36,12 @@ class TestReverseString(unittest.TestCase):
         """Raise a TypeError for non-string input."""
         with self.assertRaises(TypeError):
             reverse_string(123)  # Non-string input
+
+    def test_reverse_none_input(self):
+        """Raise a TypeError for None input."""
+        with self.assertRaises(TypeError):
+            reverse_string(None)
+
+    def test_reverse_special_characters(self):
+        """Correctly reverse a string with special characters and Unicode."""
+        self.assertEqual(reverse_string("!@#$%^&*()😊"), "😊)(*&^%$#@!")

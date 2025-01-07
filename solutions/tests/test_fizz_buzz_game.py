@@ -12,6 +12,9 @@ Author: Cody + Abdulrahman Ali
 """
 
 import unittest
+
+# When cloning the repo and running the test locally, the test file might fail
+# Just type from solutions.fizz_buzz_game import fizz_buzz and the test will run
 from ..fizz_buzz_game import fizz_buzz
 
 

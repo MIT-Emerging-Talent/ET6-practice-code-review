@@ -12,15 +12,15 @@ Created on 2025-1-4
 @author: Tomas Teclehaimanot
 """
 
-
 import unittest
 from ..bubble_sort import bubble_sort
+
 
 class TestBubbleSort(unittest.TestCase):
     """Test the bubble_sort function"""
 
     def test_valid_sorted_list(self):
-        """It should handle already sorted lists"""    
+        """It should handle already sorted lists"""
         self.assertEqual([1, 2, 3, 4, 5], [1, 2, 3, 4, 5])
 
     def test_valid_unsorted_list(self):
@@ -62,5 +62,5 @@ class TestBubbleSort(unittest.TestCase):
         self.assertEqual([8, 6, 7, 5, 3, 0, 9, 4, 2, 1], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 
 
-if _name_ == '_main_':
+if __name__ == "__main__":
     unittest.main()

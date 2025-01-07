@@ -34,3 +34,9 @@ class TestMultipleOf3(unittest.TestCase):
         actual = multiple_of_3(0)
         expected = [0, 3, 6, 9, 12, 15]
         self.assertEqual(actual, expected)
+
+    def test_18(self):
+        """It should display empty string"""
+        actual = multiple_of_3(18)
+        expected = []
+        self.assertEqual(actual, expected)

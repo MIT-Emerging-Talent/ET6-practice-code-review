@@ -13,10 +13,10 @@ from typing import List
 # ---- define function ----
 def who_likes_it(names: List[str]) -> str:
     """
-    Generate a like display message based on the input list of names.
+    Generate a "like display message based on the input list of names 
 
     Args:
-        names (List[str]): A list of names representing people who liked an item (post)
+        names (List[str]): A list of names representing people who liked a an item (post)
 
     Returns:
         str: A display message that describes how many people liked the post
@@ -49,14 +49,15 @@ def who_likes_it(names: List[str]) -> str:
         return "no one likes this"
 
     # If the list has 1 to 3 names, format them directly in the message.
-    if names_length == 1:
+    elif names_length == 1:
         return f"{names[0]} likes this"
 
-    if names_length == 2:
+    elif names_length == 2:
         return f"{names[0]} and {names[1]} like this"
 
-    if names_length == 3:
+    elif names_length == 3:
         return f"{names[0]}, {names[1]} and {names[2]} like this"
 
     # For 4 or more names, summarize additional names as 'X others'.
-    return f"{names[0]}, {names[1]} and {names_length - 2} others like this"
+    else:
+        return f"{names[0]}, {names[1]} and {names_length - 2} others like this"

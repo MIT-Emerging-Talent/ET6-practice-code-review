@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 This is a function that filters a list of strings and returns a list with only your friend's name in it.
 
@@ -11,7 +12,9 @@ Examples:
     >>> friend(["Ron", "Stephen", "Philip"])
     []
     >>> friend("Nimo")
-    'Input should be a list of strings'
+    Traceback (most recent call last):
+    ...
+    TypeError: Input should be a list of strings
 
 Raises:
     TypeError: If the input is not a list or contains non-string elements.
@@ -31,7 +34,7 @@ def friend(x: Union[List[str], any]) -> List[str]:
         x (list[str]): A list of names as strings.
 
     Returns:
-        list[str]: A list of names with 4 characters, or an error message for invalid input.
+        list[str]: A list of names with 4 characters, or raises a TypeError for invalid input.
     """
     if not isinstance(x, list) or not all(isinstance(name, str) for name in x):
         raise TypeError("Input should be a list of strings")

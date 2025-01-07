@@ -59,3 +59,9 @@ class TestLongestSubstring(unittest.TestCase):
         )
         expected_output = len(set(large_input))  # Unique characters in the input
         self.assertEqual(longest_substring(large_input), expected_output)
+
+    def test_large_non_repeating_string(self):
+        """Performance test with a very long string of unique characters, expecting the length of the string as output."""
+        test_case = "a" * (10**5 - 1) + "b"
+        expected_output = 100000
+        self.assertEqual(longest_substring(test_case), expected_output)

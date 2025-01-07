@@ -46,4 +46,4 @@ def longest_substring(s: str) -> int:
                 seen.add(substring)
 
     # Return the length of the longest non-repeating substring
-    return max(len(i) for i in seen)
+    return max((len(i) for i in seen), default=0)

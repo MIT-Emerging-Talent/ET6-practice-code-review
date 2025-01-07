@@ -51,7 +51,7 @@ class TestWhoLikesIt(unittest.TestCase):
     
     def test_invalid_input(self):
         """
-        Test the case when input is not a list
+        Test the case when input is not a list type
         """
         with self.assertRaises(AssertionError):
             who_likes_it("not a list")

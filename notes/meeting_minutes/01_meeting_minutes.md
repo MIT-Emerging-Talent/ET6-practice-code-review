@@ -32,7 +32,7 @@ _Communication:_
 • **Slack:** Main tool and for detailed discussions
  and project related conversations.  
 • **Whatsapp:** Not important but urgent discussions for
-quick updates and messages.
+quick updates and messages.  
 • **Time for meetings:** 12EST "appropriate for everyone"  
 
 ### Decision made  

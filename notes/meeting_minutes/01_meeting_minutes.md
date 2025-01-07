@@ -5,7 +5,8 @@
 Google Meet  
 Attendees: 9**
 
-## **Agenda:**  Group Norms for MIT ALPHA
+## **Agenda:**   
++ Group Norms for MIT ALPHA
 
 ### **Topics Discussed:**
 

@@ -10,21 +10,22 @@ Date: 2025-01-06
 
 from typing import List
 
+
 # ---- define function ----
 def who_likes_it(names: List[str]) -> str:
     """
-    Generate a "like display message based on the input list of names 
+    Generate a "like display message based on the input list of names
 
     Args:
         names (List[str]): A list of names representing people who liked a an item (post)
 
     Returns:
         str: A display message that describes how many people liked the post
-        
+
     Raises:
         - ValueError: If any name in the list is not a string
         - The list itself is not of type `List`
-        
+
     Examples:
         >>> who_likes_it([])
         'no one likes this'
@@ -40,7 +41,9 @@ def who_likes_it(names: List[str]) -> str:
 
     # Defensive assertions
     assert isinstance(names, List), "Input names should be of type List"
-    assert all(isinstance(name, str) for name in names), "All names should be of type string"
+    assert all(
+        isinstance(name, str) for name in names
+    ), "All names should be of type string"
 
     names_length = len(names)
 

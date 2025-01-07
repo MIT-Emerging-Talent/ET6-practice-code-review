@@ -38,6 +38,11 @@ class TestReverseString(unittest.TestCase):
         """Test reversing a string with special characters."""
         self.assertEqual(reverse_string("!@#$"), "$#@!")
 
+    def test_long_string(self):
+        """Test reversing an extremely long string."""
+        long_string = "a" * 10000
+        self.assertEqual(reverse_string(long_string), long_string[::-1])
+
     def test_integer_input(self):
         """Test that an integer input raises an AssertionError."""
         with self.assertRaises(AssertionError):

@@ -100,4 +100,18 @@ being clear and concise.
 - **Value of Feedback:** I’ve realized how valuable it is to receive and give constructive
 feedback during code reviews. It’s helped me grow and write better code.  
 - **Patience with Learning:** I’ve also learned that it’s okay to take time to fully
-understand new tools or techniques instead of rushing through them.  
+understand new tools or techniques instead of rushing through them.
+
+## The parts of my plan that went as expected
+
+I found that my structured Git workflow and clear communication for pull requests
+worked as I had planned. These practices helped me stay organized and complete tasks
+efficiently.  
+
+## The parts of my plan that did not work out  
+
+There wasn’t anything that didn’t work out in the overall sense. The general track
+of the project went exactly the way I planned it. Although the process involved
+trying things out, and some of these didn’t work, that was all part of the learning
+experience. Each trial added to my understanding and contributed to the success of
+the project.

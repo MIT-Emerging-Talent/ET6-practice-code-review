@@ -15,7 +15,7 @@ Created on 2025-1-4
 """
 
 
-def bubble_sort(arr):
+def bubble_sort(arr: list[float | int]) -> None:
     """
     Sorts a list of elements in ascending order using the bubble sort algorithm.
 

@@ -116,6 +116,15 @@
   "markdown.extension.toc.updateOnSave": false,
 
   "[python]": {
+
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "cSpell.words": [
+    "catdog",
+    "cathatbat",
+    "Falaq",
+    "Truehello",
+=======
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
@@ -123,8 +132,4 @@
       "source.organizeImports.ruff": "explicit"
     }
   },
-  "cSpell.words": [
-    "Falaq",
-    "Youniss"
-  ]
-}
+

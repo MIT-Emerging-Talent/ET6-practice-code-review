@@ -15,8 +15,9 @@ Attendees: 9**
 <!--markdownlint-disable MD034 MD013-->
 [**Revising Project Board**](https://github.com/orgs/MIT-Emerging-Talent/projects/127/views/1)
 
-+ Go back to Key discussions on meeting minutes 04 titled PROJECT BOARD  
-"Just make sure everything is done well"
++ Go back to Key discussions on [meeting minutes 04](notes/meeting_minutes/04_meeting_minutes.md)
+ titled "Project Board";  
+_Just make sure everything is done well._
 + Adding tag label in every issue on the project board
 
 ### Key discussions

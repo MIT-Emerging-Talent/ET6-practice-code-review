@@ -21,9 +21,8 @@ class TestWordCounter(unittest.TestCase):
     # Standard test cases
     def test_regular_sentence(self):
         """It should return the number of words in a regular sentence."""
-        self.assertEqual(word_counter("Hello, World!"), 2)
+        self.assertEqual(word_counter("MIT emerging talent"), 3)
         self.assertEqual(word_counter("Python is awesome!"), 3)
-        self.assertEqual(word_counter("I love programming in Python."), 5)
 
     # Edge cases
     def test_empty_input(self):
@@ -31,9 +30,17 @@ class TestWordCounter(unittest.TestCase):
         self.assertEqual(word_counter(""), 0)
 
     # Defensive tests
-    def test_wrong_input(self):
+    def test_integer_input(self):
         """It should raise an AssertionError for wrong input types."""
         with self.assertRaises(AssertionError):
             word_counter(123)
+
+    def test_list_input(self):
+        """It should raise an AssertionError for wrong input types."""
         with self.assertRaises(AssertionError):
-            word_counter(7.98)
+            word_counter(["Collins", "Ochieng", "Python"])
+
+    def test_dict_input(self):
+        """It should raise an AssertionError for wrong input types."""
+        with self.assertRaises(AssertionError):
+            word_counter({"Name": "Collins", "Language": "Python"})

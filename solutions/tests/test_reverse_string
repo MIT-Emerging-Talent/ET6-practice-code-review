@@ -3,6 +3,10 @@
 
 """
 Unit tests for the reverse_string function.
+
+Regular Passing Cases - Tests with typical inputs
+Boundary Cases - Tests with empty string, single elements, and special characters
+Defensive Cases - Tests that verify error handling for invalid inputs such as None or Integer or list
 """
 import unittest
 from reverse_string import reverse_string

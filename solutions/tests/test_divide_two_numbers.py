@@ -14,11 +14,11 @@ class TestDivideTwoNumbers(unittest.TestCase):
     """The test for testing divide_numbers function."""
 
     def test_positive_numbers(self):
-        """It should be positive numbers"""
+        """It should return positive number 2"""
         self.assertEqual(divide_numbers(6, 3), 2)
 
     def test_positive_negative_numbers(self):
-        """It should be positive and negative numbers"""
+        """It should divide negative numerator by positive denominator"""
         self.assertEqual(divide_numbers(-6, 2), -3)
 
     def test_both_negative_numbers(self):
@@ -30,7 +30,7 @@ class TestDivideTwoNumbers(unittest.TestCase):
         self.assertEqual(divide_numbers(2000000, 1000000), 2)
 
     def test_zero_and_number(self):
-        """It should return zero if nominator is zero"""
+        """It should return zero if numerator is zero"""
         self.assertEqual(divide_numbers(0, 5), 0)
 
     def test_zero_denominator_input(self):
@@ -44,6 +44,7 @@ class TestDivideTwoNumbers(unittest.TestCase):
             divide_numbers()
 
     def test_float_input(self):
+        """It should rise an error for float input"""
         with self.assertRaises(TypeError):
             divide_numbers(6.25, 3)
 

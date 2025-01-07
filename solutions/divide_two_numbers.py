@@ -7,15 +7,15 @@ Created 2025-01-04
 """
 
 
-def divide_numbers(a: int, b: int) -> int:
-    """Adds two numbers and returns quotient.
+def divide_numbers(numerator: int, denominator: int) -> int:
+    """Divides numerator by denominator and returns the quotient.
 
     Parameters:
-    a(int): The first integer
-    b(int): The second integer
+    numerator(int): The first parameter
+    denominator(int): The second parameter
 
     Returns:
-    int: Result of division of numerator (a) by denominator (b).
+    int: Result of division of numerator by denominator.
 
     Raises:
         TypeError: If the input contains non-integer elements.
@@ -36,8 +36,8 @@ def divide_numbers(a: int, b: int) -> int:
     ValueError: Please dont divide by zero.
     """
 
-    if not isinstance(a, int) or not isinstance(b, int):
+    if not isinstance(numerator, int) or not isinstance(denominator, int):
         raise TypeError("Inputs must be integers.")
-    if b == 0:
+    if denominator == 0:
         raise ValueError("Please dont divide by zero.")
-    return a // b
+    return numerator // denominator

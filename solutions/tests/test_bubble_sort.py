@@ -21,31 +21,45 @@ class TestBubbleSort(unittest.TestCase):
 
     def test_valid_sorted_list(self):
         """It should handle already sorted lists"""
-        self.assertEqual([1, 2, 3, 4, 5], [1, 2, 3, 4, 5])
+        arr = [1, 2, 3, 4, 5]
+        bubble_sort(arr)
+        self.assertEqual(arr, [1, 2, 3, 4, 5])
 
     def test_valid_unsorted_list(self):
         """It should sort unsorted lists"""
-        self.assertEqual([5, 3, 8, 6, 2, 7], [2, 3, 5, 6, 7, 8])
+        arr = [5, 3, 8, 6, 2, 7]
+        bubble_sort(arr)
+        self.assertEqual(arr, [2, 3, 5, 6, 7, 8])
 
     def test_valid_with_duplicates(self):
         """It should correctly handle lists with duplicate values"""
-        self.assertEqual([4, 2, 5, 2, 4, 1], [1, 2, 2, 4, 4, 5])
+        arr = [4, 2, 5, 2, 4, 1]
+        bubble_sort(arr)
+        self.assertEqual(arr, [1, 2, 2, 4, 4, 5])
 
     def test_valid_negative_numbers(self):
         """It should handle lists with negative numbers"""
-        self.assertEqual([4, -3, 0, -2, 1], [-3, -2, 0, 1, 4])
+        arr = [4, -3, 0, -2, 1]
+        bubble_sort(arr)
+        self.assertEqual(arr, [-3, -2, 0, 1, 4])
 
     def test_valid_mixed_integers_and_floats(self):
         """It should handle lists with mixed integers and floats"""
-        self.assertEqual([4.5, 3, 2.7, 1.1, 5], [1.1, 2.7, 3, 4.5, 5])
+        arr = [4.5, 3, 2.7, 1.1, 5]
+        bubble_sort(arr)
+        self.assertEqual(arr, [1.1, 2.7, 3, 4.5, 5])
 
     def test_edge_case_empty_list(self):
         """It should handle an empty list"""
-        self.assertEqual([], [])
+        arr = []
+        bubble_sort(arr)
+        self.assertEqual(arr, [])
 
     def test_edge_case_single_element(self):
         """It should handle a single-element list"""
-        self.assertEqual([42], [42])
+        arr = [42]
+        bubble_sort(arr)
+        self.assertEqual(arr, [42])
 
     def test_invalid_input_not_a_list(self):
         """It should raise an AssertionError for non-list inputs"""
@@ -59,7 +73,9 @@ class TestBubbleSort(unittest.TestCase):
 
     def test_medium_list(self):
         """It should correctly sort a medium-sized list"""
-        self.assertEqual([8, 6, 7, 5, 3, 0, 9, 4, 2, 1], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+        arr = [8, 6, 7, 5, 3, 0, 9, 4, 2, 1]
+        bubble_sort(arr)
+        self.assertEqual(arr, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 
 
 if __name__ == "__main__":

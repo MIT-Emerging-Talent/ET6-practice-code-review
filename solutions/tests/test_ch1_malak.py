@@ -7,7 +7,7 @@ import sys
 import unittest
 from unittest.mock import patch
 
-from ..ch1_malak_solution import choose_difficulty, number_guessing_game
+from ..solution_ch1_malak import choose_difficulty, number_guessing_game
 
 # Add the parent directory to the system path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

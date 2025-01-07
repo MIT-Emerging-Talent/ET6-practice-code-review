@@ -38,11 +38,19 @@ def count_letters_and_digits(sentence: str) -> dict[str, int]:
     # Defensive check to ensure the input is a string
     assert isinstance(sentence, str), "Input must be a string"
 
+    #   The strategy processes each character in the input sentence, classifying it as
+    #   a digit or letter, updating counts accordingly, and ignoring non-alphanumeric
+    #   characters. The final counts are stored in a dictionary and returned.
+
+    # Initialize counts for letters and digits.
     counts = {"LETTERS": 0, "DIGITS": 0}
+
+    # Process each character, classify it as digit or letter.
     for char in sentence:
         if char.isdigit():
-            counts["DIGITS"] += 1
+            counts["DIGITS"] += 1  # Increment digit count if character is a digit.
         elif char.isalpha():
-            counts["LETTERS"] += 1
+            counts["LETTERS"] += 1  # Increment letter count if character is a letter.
 
+    # Return the final counts after processing the sentence.
     return counts

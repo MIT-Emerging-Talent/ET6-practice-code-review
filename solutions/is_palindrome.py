@@ -15,10 +15,10 @@ def is_palindrome(string):
      Returns: string(str) "whether the word is palindrome or not"
 
      >>> is_palindrome("radar")
-     Palindrome
+     'Palindrome'
 
      >>> is_palindrome("hey")
-     Not Palindrome
+     'Not Palindrome'
     """
     # argument must be a string
     assert isinstance(string, (str))

@@ -25,9 +25,14 @@ class Testis_palindrome(unittest.TestCase):
     def test_non_string_entry(self):
         "Raise an error if entry is not a string"
         with self.assertRaises(AssertionError):
-            is_palindrome(3)
+            is_palindrome(34)
 
     def test_upper_lower_cases(self):
         "Case matters here, radar is a Palindrome but Radar is not"
         self.assertEqual(is_palindrome("Radar"), "Not Palindrome")
         self.assertEqual(is_palindrome("Radar".lower()), "Palindrome")
+
+    def test_special_characters(self):
+        "Handles special characters correctly"
+        self.assertEqual(is_palindrome("t@a@t"), "Palindrome")
+        self.assertEqual(is_palindrome("a@b@c"), "Not Palindrome")

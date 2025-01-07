@@ -73,3 +73,14 @@ about my approach to this project, and it’s been going great. For example, my
 structured Git workflow, regular communication with the team, and consistent contributions
 to reviews have all been effective. I’ve also learned the importance of balancing
 quality and efficiency, and these efforts are paying off.  
+
+## What I will continue doing
+
+- **Collaborative Reviews:** I’ve been actively reviewing my teammates’ work and
+offering constructive feedback, and I will continue doing this because it improves
+the overall quality of our code.  
+- **Clear Git Workflow:** I’ve been following a structured Git workflow by creating
+branches, committing regularly, and writing detailed pull requests. I will stick
+to this because it’s been very effective.  
+- **Team Support:** I’ve been fostering open discussions and supporting my teammates,
+and I will keep doing this because it helps us work better as a team.  

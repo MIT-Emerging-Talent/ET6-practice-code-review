@@ -10,13 +10,13 @@ Created on 05 01 2025
 
 def check_number_type(user_input: str) -> str:
     """
-    The function asks the user to enter a number and determines if it is even or odd.
+    The function asks the user to enter a number and determines if it is type (even or odd.)
 
 
     Parameters:
         user_input (str):  str
     Raises:
-        AssertionError: if the argument is not a integer
+        AssertionError: if the argument is not a integer or empty
 
     Returns:
         results will be a text whether "The number is even", "The number is odd"
@@ -27,9 +27,15 @@ def check_number_type(user_input: str) -> str:
         >>> check_odd_check("11")
         "The number is odd"
     """
-    assert user_input.strip().isdigit(), "Enter a valid number"
-
-    number = int(user_input.strip())
+    user_input = user_input.strip()
+    # Check if it is empty
+    if not user_input:
+        raise ValueError("Input cannot be empty. Enter a valid number.")
+    # check if it is a number 
+    if not user_input.lstrip('-').isdigit():
+        raise ValueError("Enter a valid number")
+    number = int(user_input)
+    # Check if the number is even or odd
     if number % 2 == 0:
         return "The number is even"
     else:
@@ -37,8 +43,8 @@ def check_number_type(user_input: str) -> str:
 
 
 if __name__ == "__main__":
-    user_number = input("Hi! please enter a number: ")
+    user_number = input("Hi! Please enter a number: ")
     try:
         print(check_number_type(user_number))
-    except AssertionError as e:
+    except ValueError as e:
         print(e)

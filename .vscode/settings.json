@@ -115,6 +115,19 @@
   // Enable/disable update table of contents on save
   "markdown.extension.toc.updateOnSave": false,
 
+  "cSpell.words": [
+    "Falag",
+    "Falaq",
+    "Heba",
+    "Luyando",
+    "Muna",
+    "Raghad",
+    "Saad",
+    "Taqwa"
+  ]
+}
+=======
+
   "[python]": {
 
     "editor.defaultFormatter": "ms-python.black-formatter"
@@ -132,4 +145,5 @@
       "source.organizeImports.ruff": "explicit"
     }
   },
+
 

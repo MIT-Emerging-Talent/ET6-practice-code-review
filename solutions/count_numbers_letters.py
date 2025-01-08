@@ -9,9 +9,10 @@ Created on: 2025/1/6
 """
 
 
-def count_numbers_letters(user_input):
+def count_numbers_letters(user_input: str):
     """
-    Counts the number of letters, numbers, and other characters in a given string input.
+    Counts the number of letters and numbers in a given string input.
+    The count of special character is edge case for this function.
 
     Args:
         user_input (str): A string input from the user.

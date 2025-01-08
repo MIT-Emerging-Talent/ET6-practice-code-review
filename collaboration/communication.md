@@ -24,16 +24,16 @@ ______________________________________________________________________
 We shall have weekly/bi-weekly meetings on slcka/zoom to discuss any issues and progress.
 
 - **Issues**:
-https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/issues/3
-https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/issues/10
-https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/issues/2
+<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/issues/3>
+<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/issues/10>
+<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/issues/2>
 
 - **Pull Requests**:
-https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/pull/9
-https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/pull/8
-https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/pull/7
-https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/pull/5
-https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/pull/1
+<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/pull/9>
+<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/pull/8>
+<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/pull/7>
+<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/pull/5>
+<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/pull/1>
 
 ______________________________________________________________________
 
@@ -49,7 +49,6 @@ ______________________________________________________________________
 | Anik | No | No | No | No | Yes | No | Yes |
 | Momtaz | No | No | No | No | Yes | No | Yes |
 | M. Ahmed | No | No | No | No | Yes | No | Yes |
-
 
 ### How many hours everyone has per day
 

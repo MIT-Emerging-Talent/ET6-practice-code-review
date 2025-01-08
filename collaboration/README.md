@@ -2,7 +2,7 @@
 
 ## Hello again! 😃
 
-Welcome to the Code Catalyst’s collaborations folder 
+Welcome to the Code Catalyst’s collaborations folder
 where we’re committed to collaborate to ensure the team’s success.
 
 -----------------------------------------------------------------
@@ -27,7 +27,5 @@ where we’re committed to collaborate to ensure the team’s success.
 
 ✋ Engaged Participation
 
-
-Find the full documentation 
+Find the full documentation
 [here](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-13/blob/main/collaboration/group_norms.md)
-

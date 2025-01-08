@@ -43,7 +43,8 @@ class TeststringFunction(unittest.TestCase):
         self.assertEqual(actual, expected)
 
     def test_is_in_list_with_capitalized_word(self):
-        """It should return False when the input is a capitalized word like 'Apple'."""
+        """It should return False when the input is a capitalized
+        word like 'Apple'."""
         actual = is_in_list("Apple")
         expected = False
         self.assertEqual(actual, expected)

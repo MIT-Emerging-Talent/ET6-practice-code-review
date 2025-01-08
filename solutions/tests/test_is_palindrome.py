@@ -42,6 +42,14 @@ class TestIsPalindrome(unittest.TestCase):
         """Return True for zero."""
         self.assertTrue(is_palindrome(0))
 
+    def test_edge_case_upper_bound(self):
+        """Test with the largest valid integer in the range"""
+        self.assertFalse(is_palindrome(2**31 - 1))
+
+    def test_edge_case_lower_bound(self):
+        """Test with the smallest valid integer in the range"""
+        self.assertFalse(is_palindrome(-(2**31)))
+
     # Defensive Cases - Each `AssertionError` gets its own test
     def test_raise_for_string(self):
         """Raise AssertionError for string input."""

@@ -8,7 +8,7 @@ import unittest
 from ..sum_even_odd import sum_even_odd
 
 
-class TestSortandSumNumbers(unittest.TestCase):
+class TestSumEvenOdd(unittest.TestCase):
     """Tests the sort_and_sum_numbers function"""
 
     def test_arg_type(self):

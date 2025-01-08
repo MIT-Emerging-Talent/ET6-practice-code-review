@@ -43,7 +43,8 @@ def is_palindrome(x: int) -> bool:
         True
     """
     # Defensive assertions
-    assert isinstance(x, int), "Input must be an integer."
+    if not isinstance(x, int):
+        raise TypeError("Input must be an integer.")
     assert -(2**31) <= x <= 2**31 - 1, "Input is outside the valid range."
 
     # Convert the input to a string and reverse it to handle various types consistently.

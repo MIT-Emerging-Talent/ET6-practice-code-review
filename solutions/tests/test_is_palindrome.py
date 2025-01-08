@@ -45,17 +45,17 @@ class TestIsPalindrome(unittest.TestCase):
     # Defensive Cases - Each `AssertionError` gets its own test
     def test_raise_for_string(self):
         """Raise AssertionError for string input."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             is_palindrome("123")
 
     def test_raise_for_float(self):
         """Raise AssertionError for float input."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             is_palindrome(121.0)
 
     def test_raise_for_none(self):
         """Raise AssertionError for None input."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             is_palindrome(None)
 
     def test_raise_for_out_of_range_positive(self):

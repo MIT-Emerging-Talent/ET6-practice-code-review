@@ -15,18 +15,16 @@ import math
 
 
 def volume_of_the_sphere(radius: float) -> float:
-    """Returns the volume of a sphere given its radius
+    """Calculates the volume of a sphere given its radius
 
     Parameter:
         radius (float): Positive real numbers.
 
-    Returns -> float: The volume of the sphere calculated using the formula V = (4/3)πr³
+    Returns -> float: The calculated volume of the sphere
 
     Raises:
-        AssertionError: If radius is not a number
-        AssertionError: If radius is not int or float
-        ValueError: If radius is zero
-        ValueError: If radius is negative
+        AssertionError: if radius is not an integer or a float
+        ValueError: if radius is zero or negative
 
     Examples:
         >>> volume_of_the_sphere(5.0)
@@ -38,13 +36,13 @@ def volume_of_the_sphere(radius: float) -> float:
     """
     # Type validation
     assert isinstance(radius, (int, float)), "Radius must be a number"
-    assert type(radius) in (int, float), "Radius must be int or float"
 
     # Value validation
-    assert radius != 0, "Radius cannot be zero"
-    assert radius > 0, "Radius must be positive"
+    if radius <= 0:
+        raise ValueError("Radius must have a positive value")
 
-    return (4 / 3) * math.pi * (radius**3)
+    # Calculate the volume of the sphere using the formula V = (4/3)πr³
+    return round((4 / 3) * math.pi * (radius**3), 2)
 
 
 if __name__ == "__main__":

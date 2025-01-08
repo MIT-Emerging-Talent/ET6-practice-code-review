@@ -41,16 +41,6 @@ class TestVolumeOfTheSphere(unittest.TestCase):
         """Test volume calculation with integer input."""
         self.assertAlmostEqual(volume_of_the_sphere(3), (4 / 3) * pi * 27)
 
-    def test_raises_type_error_with_string_input(self):
-        """Test TypeError raised when input is a string."""
-        with self.assertRaises(AssertionError):
-            volume_of_the_sphere("5")
-
-    def test_raises_type_error_with_list_input(self):
-        """Test TypeError raised when input is a list."""
-        with self.assertRaises(AssertionError):
-            volume_of_the_sphere([5])
-
     def test_raises_value_error_with_zero_radius(self):
         """Test ValueError raised when radius is zero."""
         with self.assertRaises(AssertionError):

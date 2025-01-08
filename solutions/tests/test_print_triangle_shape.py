@@ -3,8 +3,7 @@ This module contains unit tests for the `triangle_printer` function from the `pr
 The tests check various scenarios, including invalid inputs, edge cases, and larger inputs, ensuring the function behaves as expected.
 
 @Author: Mukuna Kabeya
-@Version: 1.0.0
-@Date: 2024-01-06
+@Date: 06/01/2024
 """
 
 import unittest

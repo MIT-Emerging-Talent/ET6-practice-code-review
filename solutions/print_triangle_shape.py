@@ -7,7 +7,7 @@ Functions:
     triangle_printer(user_input):
 
 @Author: Mukuna Kabeya
-@Date: 2024-01-06
+@Date: 06/01/2024
 """
 
 
@@ -74,7 +74,7 @@ def triangle_printer(user_input):
     """
     if not str(user_input).isdigit():
         raise TypeError("Please enter an integer only!")
-    rows = int(user_input)
+    rows = user_input
     if rows <= 1:
         raise ValueError("Please provide an integer greater than 1.")
     holder = []
@@ -82,5 +82,4 @@ def triangle_printer(user_input):
         s = " " * (rows - i)
         x = "*" * (2 * i - 1)
         holder.append(s + x)
-    # print("\n".join(holder))
     return holder

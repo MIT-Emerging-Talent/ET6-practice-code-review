@@ -15,7 +15,7 @@ def multiple_of_3(start: int) -> list:
 
     Returns:
         multiples of 3 less than or equal to 15
-    
+
     Raises:
     AssertionError
         If the input 'start' is not an integer.
@@ -29,7 +29,7 @@ def multiple_of_3(start: int) -> list:
 
     >>> multiple_of_3(0)
     [0, 3, 6, 9, 12, 15]
-    
+
     >>> multiple_of_3(15)
     [15]
 

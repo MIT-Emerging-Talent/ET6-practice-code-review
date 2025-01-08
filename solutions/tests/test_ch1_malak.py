@@ -7,6 +7,7 @@ import sys
 import unittest
 from unittest.mock import patch
 
+# To make the tests pass, change the path of import to "from solution_ch1_malak"
 from ..solution_ch1_malak import choose_difficulty, number_guessing_game
 
 # Add the parent directory to the system path

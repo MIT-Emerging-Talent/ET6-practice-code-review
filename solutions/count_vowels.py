@@ -9,6 +9,7 @@ Created on 8 1 2025
     @author: Nour Elhuda Haidar
 """
 
+
 def count_vowels(text: str) -> int:
     """Counts the number of vowels (a, e, i, o, u) in the input string.
 

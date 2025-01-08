@@ -7,13 +7,8 @@ Created on 05.01.2025
 """
 
 import unittest
-import sys
-import os
 
-# Add the parent directory of 'solutions' to the system path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
-
-from solutions.divide import divide
+from ..divide import divide
 
 
 class TestDivide(unittest.TestCase):
@@ -72,6 +67,3 @@ class TestDivide(unittest.TestCase):
         self.assertTrue(expected in str(context.exception))
 
 
-# Additional test method
-if __name__ == "__main__":
-    unittest.main()

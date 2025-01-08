@@ -20,6 +20,9 @@ def mirror_words(sentence: str) -> str
 
         >>> mirror_words("Python is fun")
         'nohtyP si nuf'
+        
+         >>> mirror_words("Keep calm & code on.")
+        'peeK mlac & edoc .no'
 
     Raises:
         TypeError: If the input is not a string.

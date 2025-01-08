@@ -44,16 +44,16 @@ def prime_finder(start: int, end: int) -> list[int]:
     AssertionError
     """
 
-    # check if a and b are integers
+    # check if start and end are integers
     assert isinstance(start, int) and isinstance(
         end, int
     ), "Both a and b must be integers"
 
-    # check if a and b are positive
+    # check if start and end are positive
     if start < 0 or end < 0:
         raise ValueError("Integers must be positive")
 
-    # check if a is smaller than b
+    # check if start is smaller than end
     if start > end:
         raise ValueError(
             "The start of the range must be smaller than or equal to the end"

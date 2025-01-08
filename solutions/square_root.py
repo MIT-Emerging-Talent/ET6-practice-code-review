@@ -27,10 +27,11 @@ def square_root(num: int | float) -> int | float:
     if num < 0:
         raise ValueError("Cannot calculate the square root of a negative number.")
 
-    result = num ** 0.5
+    result = num**0.5
     return int(result) if result.is_integer() else result
 
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod()

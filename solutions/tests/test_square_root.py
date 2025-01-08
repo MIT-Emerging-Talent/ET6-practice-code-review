@@ -1,6 +1,6 @@
 import unittest
 from solutions.square_root import square_root
-  
+
 
 class TestSquareRootFunction(unittest.TestCase):
     """
@@ -40,4 +40,4 @@ class TestSquareRootFunction(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.main(argv=['first-arg-is-ignored'], exit=False)
+    unittest.main(argv=["first-arg-is-ignored"], exit=False)

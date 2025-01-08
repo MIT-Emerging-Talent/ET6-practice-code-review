@@ -1,7 +1,7 @@
 import re
 
 
-def mirror_words(sentence: str) -> str
+def mirror_words(sentence: str) -> str:
     """    
     Reverses each word in a given sentence while maintaining the order of the words.
     Punctuation marks at the end of words are correctly handled, ensuring they remain

@@ -42,7 +42,8 @@ Don't forget: **Together we shine brighter.** ✨
 ## **🚀 Solutions**
 
 Our **[solutions](solutions/)** directory contains the challenges  
-we are solving as a team. Below is a list of the current solutions available:
+we are solving as a team.
+Below is a list of the current solutions available:
 
 | Challenge             | Description                                         |
 |-----------------------|-----------------------------------------------------|

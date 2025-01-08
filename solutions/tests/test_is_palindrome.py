@@ -1,8 +1,8 @@
 import unittest
 from solutions.is_palindrome import Solution
 
-class TestIsPalindrome(unittest.TestCase):
 
+class TestIsPalindrome(unittest.TestCase):
     """
     Unit tests for the is_palindrome function in the Solution class.
     """

@@ -31,15 +31,16 @@ def longest_substring(s: str) -> int:
     >>> longest_substring("")
     0
     """
+
+    char_set = set()
+    left = 0
     max_length = 0
 
-    # Iterate through each starting point in the string
-    for start in range(len(s)):
-        seen = set()  # Track characters in the current substring
-        for end in range(start, len(s)):
-            if s[end] in seen:
-                break
-            seen.add(s[end])
-            max_length = max(max_length, end - start + 1)
+    for right in range(len(s)):
+        while s[right] in char_set:
+            char_set.remove(s[left])
+            left += 1
+        char_set.add(s[right])
+        max_length = max(max_length, right - left + 1)
 
     return max_length

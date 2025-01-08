@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-A module for sorting a list of integers and/or floats in the ascending order using the merge sort algorithm and recursion
+A module for sorting a list of numbers in the ascending order
 
 Module contents:
-    - merge_sort function
+    - sort_number function
 
 Created on 8-Jan-2025
 
@@ -13,8 +13,8 @@ Created on 8-Jan-2025
 
 
 # ---- define function ----
-def merge_sort(array: list[int, float]) -> list[int, float]:
-    """Sort a list of integers and/or floats in the ascending order using the merge sort algorithm and recursion
+def sort_number(array: list[int, float]) -> list[int, float]:
+    """Sort a list of numbers in the ascending order
 
     Args: array (list[int, float])
         - a list of numbers to be sorted
@@ -27,13 +27,13 @@ def merge_sort(array: list[int, float]) -> list[int, float]:
         - if array is not a list
         - if array contains other than integers or floats
 
-    >>> merge_sort([5, 4, 3, 2, 1, 0, -1, -2])
+    >>> sort_number([5, 4, 3, 2, 1, 0, -1, -2])
     [-2, -1, 0, 1, 2, 3, 4, 5]
 
-    >>> merge_sort([1.0, 1, 3, 2.5, 4.5, 5, 7])
+    >>> sort_number([1.0, 1, 3, 2.5, 4.5, 5, 7])
     [1.0, 1, 2.5, 3, 4.5, 5, 7]
 
-    >>> merge_sort([2.999, 3.0, 4.1, 4.05, 200, 2000, 90000])
+    >>> sort_number([2.999, 3.0, 4.1, 4.05, 200, 2000, 90000])
     [2.999, 3.0, 4.05, 4.1, 200, 2000, 90000]
     """
     # Ensure the input only contains a list of floats and/or integers
@@ -43,6 +43,7 @@ def merge_sort(array: list[int, float]) -> list[int, float]:
         isinstance(item, (int, float)) for item in array
     ), "The elements in the array must be either floats and/or integers"
 
+    # Sorting strategy: recursive strategy using merge sort algorithm
     # Base case: an array of 1 or 0 elements is already sorted
     if len(array) <= 1:
         return array
@@ -53,10 +54,10 @@ def merge_sort(array: list[int, float]) -> list[int, float]:
     right_half = array[mid:]
 
     # Recursion: sort the left half
-    sorted_left = merge_sort(left_half)
+    sorted_left = sort_number(left_half)
 
     # Recursion: sort the right half
-    sorted_right = merge_sort(right_half)
+    sorted_right = sort_number(right_half)
 
     # Build-up: merge the two halves together in a sorted ascending order
     result = []

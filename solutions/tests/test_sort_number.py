@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Test module for merge_sort function
+Test module for sort_number function
 Contains correct tests to help identify bugs in the implementation
 
 Test categories:
@@ -26,44 +26,45 @@ Created on 8-Jan-2025
 
 import unittest
 
-from ..merge_sort import merge_sort
+from ..sort_number import sort_number
 
 
 class TestMergeSort(unittest.TestCase):
-    """Test suite for the merge_sort function."""
+    """Test suite for the sort_number function."""
 
     # Standard test cases
-    def test_std_1(self):
+    def test_integers(self):
         """A standard test case with a list of integers"""
         array = [5, 4, 3, 2, 1, 0, -1, -2]
-        self.assertEqual(merge_sort(array), [-2, -1, 0, 1, 2, 3, 4, 5])
+        self.assertEqual(sort_number(array), [-2, -1, 0, 1, 2, 3, 4, 5])
 
-    def test_std_2(self):
+    def test_floats(self):
         """A standard test case with a list of floating points"""
         array = [5.0, 4.0, 3.5, 1.2, 1.0, 0.0]
-        self.assertEqual(merge_sort(array), [0.0, 1.0, 1.2, 3.5, 4.0, 5.0])
+        self.assertEqual(sort_number(array), [0.0, 1.0, 1.2, 3.5, 4.0, 5.0])
 
-    def test_std_3(self):
+    def test_large_integers(self):
         """A standard test case with a list of large integers"""
         array = [1000000, 100000, 10000, 1000, 100, 10]
-        self.assertEqual(merge_sort(array), [10, 100, 1000, 10000, 100000, 1000000])
+        self.assertEqual(sort_number(array), [10, 100, 1000, 10000, 100000, 1000000])
 
-    def test_std_4(self):
+    def test_large_floats(self):
         """A standard test case with a list of large floating points"""
         array = [1000000.00, 100000.00, 10000.00, 1000.00, 100.00, 10.00]
         self.assertEqual(
-            merge_sort(array), [10.00, 100.00, 1000.00, 10000.00, 100000.00, 1000000.00]
+            sort_number(array),
+            [10.00, 100.00, 1000.00, 10000.00, 100000.00, 1000000.00],
         )
 
     # Edge cases
-    def test_edge_1(self):
+    def test_int_float_mix(self):
         """An edge case for a mixed list of integers and floating points"""
         array = [6.0, 5, 7, 9.0, 8.5, 9.7, -4.5, -5, 11.65, 11.7]
         self.assertEqual(
-            merge_sort(array), [-5, -4.5, 5, 6.0, 7, 8.5, 9.0, 9.7, 11.65, 11.7]
+            sort_number(array), [-5, -4.5, 5, 6.0, 7, 8.5, 9.0, 9.7, 11.65, 11.7]
         )
 
-    def test_edge_2(self):
+    def test_close_values(self):
         """An edge case for a mixed list containing very close values of numbers"""
         array = [
             -0.99999,
@@ -77,7 +78,7 @@ class TestMergeSort(unittest.TestCase):
             9.0000002,
         ]
         self.assertEqual(
-            merge_sort(array),
+            sort_number(array),
             [
                 -0.999999,
                 -0.99999,
@@ -91,7 +92,7 @@ class TestMergeSort(unittest.TestCase):
             ],
         )
 
-    def test_edge_3(self):
+    def test_very_small_numbers(self):
         """An edge case for a mixed list containing very small numbers"""
         array = [
             0.00000001,
@@ -103,7 +104,7 @@ class TestMergeSort(unittest.TestCase):
             1,
         ]
         self.assertEqual(
-            merge_sort(array),
+            sort_number(array),
             [
                 0.000000000000000001,
                 0.0000000000000001,
@@ -115,7 +116,7 @@ class TestMergeSort(unittest.TestCase):
             ],
         )
 
-    def test_edge_4(self):
+    def test_very_large_numbers(self):
         """An edge case for a mixed list containing very large numbers"""
         array = [
             9999,
@@ -128,7 +129,7 @@ class TestMergeSort(unittest.TestCase):
             99999.01,
         ]
         self.assertEqual(
-            merge_sort(array),
+            sort_number(array),
             [
                 9999,
                 99999.01,
@@ -141,14 +142,14 @@ class TestMergeSort(unittest.TestCase):
             ],
         )
 
-    def test_edge_5(self):
+    def test_same_values(self):
         """An edge case for a mixed list containing same numbers"""
         array = [1.00, 1, 1.0, 1.000, 1.0000, 1.000000, 1.000000000]
         self.assertEqual(
-            merge_sort(array), [1.00, 1, 1.0, 1.000, 1.0000, 1.000000, 1.000000000]
+            sort_number(array), [1.00, 1, 1.0, 1.000, 1.0000, 1.000000, 1.000000000]
         )
 
-    def test_edge_6(self):
+    def test_long_list(self):
         """An edge case for a long list of numbers"""
         array = [
             9,
@@ -184,7 +185,7 @@ class TestMergeSort(unittest.TestCase):
             30,
         ]
         self.assertEqual(
-            merge_sort(array),
+            sort_number(array),
             [
                 1,
                 2,
@@ -220,20 +221,20 @@ class TestMergeSort(unittest.TestCase):
             ],
         )
 
-    def test_edge_7(self):
+    def test_empty_list(self):
         """An edge case for an empty list"""
         array = []
-        self.assertEqual(merge_sort(array), [])
+        self.assertEqual(sort_number(array), [])
 
     # Defensive cases
     def test_not_list(self):
         """A defensive case for a non-list input"""
         array = 5, 4, 3, 2, 1
         with self.assertRaises(AssertionError):
-            merge_sort(array)
+            sort_number(array)
 
-    def test_not_string_2(self):
+    def test_string_in_list(self):
         """A defensive case for a list containing strings"""
         array = [5, 4, 3, 2, 1, "AB"]
         with self.assertRaises(AssertionError):
-            merge_sort(array)
+            sort_number(array)

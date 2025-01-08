@@ -115,7 +115,29 @@
   // Enable/disable update table of contents on save
   "markdown.extension.toc.updateOnSave": false,
 
+  "cSpell.words": [
+    "Falag",
+    "Falaq",
+    "Heba",
+    "Luyando",
+    "Muna",
+    "Raghad",
+    "Saad",
+    "Taqwa"
+  ]
+}
+=======
+
   "[python]": {
+
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "cSpell.words": [
+    "catdog",
+    "cathatbat",
+    "Falaq",
+    "Truehello",
+=======
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
@@ -123,8 +145,5 @@
       "source.organizeImports.ruff": "explicit"
     }
   },
-  "cSpell.words": [
-    "Falaq",
-    "Youniss"
-  ]
-}
+
+

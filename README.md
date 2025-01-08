@@ -19,3 +19,4 @@ Each member brings something special to the table.
 - **Nahom**: We ask not for a lighter burden, but for broader shoulders. 💪🌍
 - **WuorBhang**: Like comedy! making people laugh 😃
 - **Novel Yonas**: I can spend 8 hrs in GYM
+- **Hasan**: I breath Cyber Secur1ty 🥷🏼🛡💻

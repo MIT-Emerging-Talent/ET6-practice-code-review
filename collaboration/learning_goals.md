@@ -8,12 +8,12 @@ below outline the key areas that we will focus on throughout the project.
 
 - **Objective**: Each team member should work within their Zone of Proximal Development (ZPD),
   meaning they should focus on tasks that are just beyond their current abilities but still
-achievable with some guidance.
+  achievable with some guidance.
 - **Why**: This approach ensures that everyone is constantly challenged but not overwhelmed.
   It allows for gradual learning and ensures that no one is left behind in their development.
 - **How**: Team members will select coding tasks that are slightly more advanced than what
   they can do independently, but with enough support from peers and mentors. These tasks will
-include writing simple Python functions, integrating them into the project, and testing them.
+  include writing simple Python functions, integrating them into the project, and testing them.
 
 ## 2. Master Basic GitHub & VSCode Collaboration
 
@@ -23,7 +23,7 @@ include writing simple Python functions, integrating them into the project, and 
   professional development environment. Mastery of these tools is crucial for team-based projects.
 - **How**: We will regularly practice pushing code to GitHub, using branches for feature development,
   and opening pull requests for code reviews. We’ll also ensure that everyone is
-familiar with using VSCode as their code editor and debugging tool.
+  familiar with using VSCode as their code editor and debugging tool.
 
 ## 3. Develop the Habit of Checking Code Against the Code Review Checklist
 
@@ -40,10 +40,9 @@ familiar with using VSCode as their code editor and debugging tool.
   project management tasks like code reviews, using project boards, and tracking tasks.
 - **Why**: GitHub provides a range of functionalities to help manage a project effectively,
   from task tracking to collaboration on code reviews. Familiarity with these features will make the
-team more efficient.
+  team more efficient.
 - **How**: We will use **GitHub Issues** to track tasks, create **Project Boards** for organizing tasks and
-  milestones, and regularly conduct **Code Reviews** using GitHub’s pull request
-system.
+  milestones, and regularly conduct **Code Reviews** using GitHub’s pull request system.
 
 ## 5. Provide Constructive Feedback During Code Reviews
 
@@ -55,7 +54,7 @@ system.
   give and receive feedback is an important skill.
 - **How**: During code reviews, we will focus on providing actionable, respectful feedback.
   Each team member will be encouraged to ask clarifying questions if they don't understand the
-feedback.
+  feedback.
 
 ## 6. Learn Git Basics: Pull, Push, Commit, and Solve Merge Conflicts
 
@@ -65,17 +64,17 @@ conflicts** if they arise.
 - **Why**: Git is an essential tool for collaborative coding. Learning how to manage code versions,
   merge changes, and resolve conflicts is crucial for teamwork.
 - **How**: We will practice common Git commands during each stage of the project. If conflicts
-  arise during merging, we will work together to resolve them and ensure the codebase stays
-stable.
+  arise during merging, we will work together to resolve them and ensure the
+  codebase stays stable.
 
 ## 7. Understand and Review Other People’s Code
 
 - **Objective**: Team members will not only focus on their own code but also develop the skill
   to **fully understand other people's code**. This includes reading and reviewing pull
-requests and understanding the logic behind someone else’s approach.
+  requests and understanding the logic behind someone else’s approach.
 - **Why**: Understanding others' code is an important skill in any development environment.
   It helps you become a better collaborator, provides opportunities to learn from others, and
-enhances your ability to debug and improve code.
+  enhances your ability to debug and improve code.
 - **How**: Team members will be encouraged to **review each other's pull requests** thoroughly,
   providing feedback and suggestions. We will also encourage active discussion about different coding approaches to promote learning.
 
@@ -83,7 +82,7 @@ enhances your ability to debug and improve code.
 
 - **Objective**: The team will create a **safe, supportive environment** where everyone feels comfortable
   practicing and making mistakes. This includes being open to asking questions,
-offering help, and learning from failures.
+  offering help, and learning from failures.
 - **Why**: A safe learning environment allows team members to take risks, try new things,
   and learn from their mistakes without fear of judgment. This is especially important for beginners.
 - **How**: We will encourage a **growth mindset** and support each other’s learning journey.
@@ -93,7 +92,7 @@ offering help, and learning from failures.
 
 - **Objective**: After completing the code review process, the team will conduct a
   **retrospective** to reflect on the project’s successes and areas for improvement. This will allow us
-to learn from our experiences and improve for the next project.
+  to learn from our experiences and improve for the next project.
 - **Why**: Retrospectives are a valuable way to identify what worked well, what didn’t,
   and how we can improve in future projects. This helps the team grow and adapt continuously.
 - **How**: At the end of the project, we will hold a **retrospective meeting**

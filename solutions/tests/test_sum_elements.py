@@ -11,6 +11,7 @@ Created on 2025-01-06
 import unittest
 from solutions.sum_elements import sum_elements
 
+
 class TestSumElements(unittest.TestCase):
     """
     Unit test class for verifying the functionality of the `sum_elements` function.
@@ -43,16 +44,18 @@ class TestSumElements(unittest.TestCase):
         Ensures the function returns 0 for an empty list.
         """
         self.assertEqual(sum_elements([]), 0)
-        
+
     def test_non_integer_list(self):
-        """ 
+        """
         It should raise value error is not all elements are integers
-        """ 
+        """
         with self.assertRaises(ValueError) as context:
-            sum_elements([1, 2, 'a'])
-        self.assertEqual(str(context.exception), "All elements in the list must be integers.")    
-        
+            sum_elements([1, 2, "a"])
+        self.assertEqual(
+            str(context.exception), "All elements in the list must be integers."
+        )
+
 
 # Run the unit tests when this script is executed
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

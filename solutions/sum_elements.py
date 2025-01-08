@@ -4,22 +4,23 @@
 A module for calculating sum of integers in a given list.
 
 Module contents:
-    - sum_elements: A function to calculate the sum of integers in a list. 
+    - sum_elements: A function to calculate the sum of integers in a list.
 
 Created on 2025-01-06
 @author: Rumiya Ismatova
 """
 
-def sum_elements(numbers:list)->int:
+
+def sum_elements(numbers: list) -> int:
     """
     Calculate the sum of all elements in a list.
 
     Args:
         numbers[int]: A list of integers
-        
-    Returns: 
+
+    Returns:
         int: the sum of the numbers in the list
-        
+
     >>> sum_elements([1,2,3])
     6
 
@@ -29,19 +30,16 @@ def sum_elements(numbers:list)->int:
     >>> sum_elements([])
     0
     """
-    
+
     if numbers is None:
         raise TypeError("No arguments provided. Please pass a list of integers.")
-    
-    assert isinstance(numbers, list), "The input must be a list."              
-                        
-    if len(numbers)==0:
+
+    assert isinstance(numbers, list), "The input must be a list."
+
+    if len(numbers) == 0:
         return 0
-    
+
     if not all(isinstance(num, int) for num in numbers):
         raise ValueError("All elements in the list must be integers.")
-    
+
     return sum(numbers)
-
-
-

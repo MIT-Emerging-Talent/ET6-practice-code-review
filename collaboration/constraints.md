@@ -41,8 +41,8 @@ Some boundaries around our project.
   - only using the colors black and white
 -->
 
-- **Coding style & conventions**: Agree on a set of guidelines for
-  consistency across the codebase.
+- **Coding style & conventions**: Agree on a set of guidelines
+  for consistency across the codebase.
 - **Code review checklist**: Create a checklist to ensure thorough
   reviews while accommodating varying skill levels.
 - **Desired hours to work per week**: Establish a flexible schedule

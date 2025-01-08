@@ -1,45 +1,104 @@
 """
-This module contains unit tests for the `is_palindrome` function in `palindrome_checker.py`.
+This module contains unit tests for the `palindrome_checker` function in `palindrome_checker.py`.
 
-The `is_palindrome` function determines whether a string is a palindrome, ignoring spaces,
+The `palindrome_checker` function determines whether a string is a palindrome, ignoring spaces,
 punctuation, and capitalization.
 """
 
 import unittest
 
-from ..palindrome_checker import is_palindrome
+from solutions.palindrome_checker import palindrome_checker
 
 
 class TestPalindromeChecker(unittest.TestCase):
     """
-    Unit tests for the `is_palindrome` function.
+    Unit tests for the `palindrome_checker` function.
     """
 
-    def test_palindromes(self):
+    # Test cases where the input string is a palindrome
+    def test_palindrome_phrase(self):
         """
-        Test cases where the input string is a palindrome.
+        Test a palindrome phrase with punctuation and spaces.
         """
-        self.assertTrue(is_palindrome("A man, a plan, a canal: Panama"))
-        self.assertTrue(is_palindrome("Racecar"))
-        self.assertTrue(is_palindrome("12321"))
-        self.assertTrue(is_palindrome(""))
+        self.assertTrue(palindrome_checker("A man, a plan, a canal: Panama"))
 
-    def test_non_palindromes(self):
+    def test_palindrome_single_word(self):
         """
-        Test cases where the input string is not a palindrome.
+        Test a single-word palindrome.
         """
-        self.assertFalse(is_palindrome("Hello"))
-        self.assertFalse(is_palindrome("Not a palindrome"))
-        self.assertFalse(is_palindrome("Python Programming"))
+        self.assertTrue(palindrome_checker("Racecar"))
 
-    def test_edge_cases(self):
+    def test_palindrome_numeric(self):
         """
-        Test edge cases including single characters and strings with special characters.
+        Test a numeric palindrome.
         """
-        self.assertTrue(is_palindrome("a"))
-        self.assertTrue(is_palindrome(" "))
-        self.assertTrue(is_palindrome("!!"))
-        self.assertTrue(is_palindrome("Able , was I saw eLba"))
+        self.assertTrue(palindrome_checker("12321"))
+
+    def test_palindrome_empty_string(self):
+        """
+        Test an empty string as a palindrome.
+        """
+        self.assertTrue(palindrome_checker(""))
+
+    # Test cases where the input string is not a palindrome
+    def test_non_palindrome_single_word(self):
+        """
+        Test a non-palindrome word.
+        """
+        self.assertFalse(palindrome_checker("Hello"))
+
+    def test_non_palindrome_phrase(self):
+        """
+        Test a non-palindrome phrase.
+        """
+        self.assertFalse(palindrome_checker("Not a palindrome"))
+
+    # Test edge cases
+    def test_edge_case_single_letter(self):
+        """
+        Test a single-letter string.
+        """
+        self.assertTrue(palindrome_checker("a"))
+
+    def test_edge_case_single_space(self):
+        """
+        Test a single space character.
+        """
+        self.assertTrue(palindrome_checker(" "))
+
+    def test_edge_case_special_characters(self):
+        """
+        Test a string with only special characters.
+        """
+        self.assertTrue(palindrome_checker("!!"))
+
+    def test_edge_case_mixed_phrase(self):
+        """
+        Test a complex palindrome phrase with mixed case and punctuation.
+        """
+        self.assertTrue(palindrome_checker("Able , was I saw eLba"))
+
+    # Defensive assertion tests
+    def test_invalid_input_type_integer(self):
+        """
+        Test that the function raises a TypeError for non-string input (integer).
+        """
+        with self.assertRaises(TypeError):
+            palindrome_checker(12345)
+
+    def test_invalid_input_type_list(self):
+        """
+        Test that the function raises a TypeError for non-string input (list).
+        """
+        with self.assertRaises(TypeError):
+            palindrome_checker(["a", "b", "c"])
+
+    def test_invalid_input_type_none(self):
+        """
+        Test that the function raises a TypeError for non-string input (None).
+        """
+        with self.assertRaises(TypeError):
+            palindrome_checker(None)
 
 
 if __name__ == "__main__":

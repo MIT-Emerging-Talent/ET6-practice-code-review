@@ -5,7 +5,7 @@ A palindrome is a string that reads the same forward and backward, ignoring spac
 """
 
 
-def is_palindrome(s: str) -> bool:
+def palindrome_checker(s: str) -> bool:
     """
     Check if a given string is a palindrome, ignoring spaces, punctuation, and capitalization.
 
@@ -15,28 +15,21 @@ def is_palindrome(s: str) -> bool:
     Returns:
         bool: True if the input string is a palindrome, False otherwise.
 
+    Raises:
+        TypeError: If the input `s` is not a string.
+
     Example:
-        >>> is_palindrome("A man, a plan, a canal: Panama")
+        >>> palindrome_checker("A man, a plan, a canal: Panama")
         True
-        >>> is_palindrome("Hello")
+        >>> palindrome_checker("Hello")
         False
+        >>> palindrome_checker("12321")
+        True
     """
+    # Defensive assertion: Ensure the input is a string
+    if not isinstance(s, str):
+        raise TypeError("Input must be a string")
     # Normalize the string: remove non-alphanumeric characters and convert to lowercase
     normalized = "".join(char.lower() for char in s if char.isalnum())
     # Check if the normalized string is equal to its reverse
     return normalized == normalized[::-1]
-
-
-# Example usage
-if __name__ == "__main__":
-    test_strings = [
-        "A man, a plan, a canal: Panama",
-        "Racecar",
-        "Hello",
-        "",
-        "12321",
-        "Not a palindrome",
-    ]
-
-    for test in test_strings:
-        print(f"'{test}' is a palindrome: {is_palindrome(test)}")

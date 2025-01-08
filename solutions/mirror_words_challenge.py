@@ -25,12 +25,15 @@ def mirror_words(sentence: str) -> str
 
     Raises:
         TypeError: If the input is not a string.
-    """
 
+    """
+    # Check if the input is a string
     if not isinstance(sentence, str):
         raise TypeError("Input must be a string")
 
+    # Split the sentence into words
     words = sentence.split()
+    
     mirror_words = []
     for word in words:
         # Match the word and any punctuation at the end

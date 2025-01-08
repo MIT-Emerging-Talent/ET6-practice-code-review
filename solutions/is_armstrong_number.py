@@ -15,7 +15,8 @@ def is_armstrong_number(n: int) -> bool:
     """
     Checks if a given number is an Armstrong number of first kind.
 
-    An Armstrong number is a number that is equal to the sum of cubes of its digits.
+    An Armstrong number is a number where the sum of each digit raised to the power
+    of the number of digits in that number is equal to the original number itself.
 
     Parameters:
         n: The number to check.

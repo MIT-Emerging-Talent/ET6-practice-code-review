@@ -9,8 +9,6 @@ for various input cases, including boundary and defensive checks.
 """
 
 import unittest
-
-
 from solutions.string_reversal import string_reversal
 
 

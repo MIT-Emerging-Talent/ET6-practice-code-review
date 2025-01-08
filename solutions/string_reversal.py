@@ -19,13 +19,13 @@ def string_reversal(input_string: str) -> str:
         ValueError: If the input is not a string.
 
     Doctests:
-        >>> reverse_string("hello")
+        >>> string_reversal("hello")
         'olleh'
-        >>> reverse_string("world")
+        >>> string_reversal("world")
         'dlrow'
-        >>> reverse_string("Safa")
+        >>> string_reversal("Safa")
         'afaS'
-        >>> reverse_string("Python")
+        >>> string_reversal("Python")
         'nohtyP'
     """
     if not isinstance(input_string, str):

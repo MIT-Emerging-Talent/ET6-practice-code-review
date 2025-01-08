@@ -48,6 +48,18 @@ features.
 and discussions.
 - **Continuous Learning**: Building technical and soft skills through hands-on experience
 and feedback.
+- **Innovation**: Encouraging creative solutions and innovative approaches
+  to problem-solving.
+- **Quality**: Striving for high-quality code, thorough testing,
+  and excellent documentation.
+- **Inclusivity**: Valuing diverse perspectives and fostering an inclusive
+  environment where every team member’s input is respected.
+- **Support**: Providing help and support to each other,
+  ensuring that no one is left behind.
+- **Accountability**: Taking ownership of our tasks and responsibilities,
+  and holding each other accountable to meet our commitments.
+- **Fun**: Enjoying the process of learning and building together,
+  and celebrating our achievements as a team.
 
 ## Project Structure
 

@@ -16,6 +16,18 @@ import os
 import unittest
 from solutions.mirror_words_challenge import mirror_words
 
+# Add the directory containing mirror_words_challenge.py to the module search path
+# This is temporarily needed to ensure that the 'mirror_words_challenge' module can be imported 
+# for testing purposes while the project structure is being developed.
+sys.path.append(
+    "C:/Users/pc/.vscode/VS code Files/MIT - Project/ET6-foundations-group-17-main/solutions"
+)
+
+# Add the project root directory to sys.path
+# Ensures that the root project directory is included in the module search path for importing 
+# other modules or testing purposes.
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+
 class TestReverseWords(unittest.TestCase):
     """Tests for mirror_words function"""
 

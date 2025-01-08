@@ -8,11 +8,10 @@ def mirror_words(sentence: str) -> str
 
     Args:
         sentence (str): The sentence to be processed. It can contain words, punctuation,
-                         and spaces.
-
+                         spaces, numbers, and special characters.
     Returns:
-        str: A new string where each word is reversed, but the word order and punctuation
-             remain unchanged.
+        str: A new string where each word is reversed, but the word order, punctuation,
+             numbers, and special characters remain unchanged.
 
     Example:
         >>> mirror_words("Hello world!")

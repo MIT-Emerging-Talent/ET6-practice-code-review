@@ -4,6 +4,8 @@ A module for checking the value of a greeting.
 Module contents:
     - main: Gets user input and prints the value based on the greeting.
     - value: Determines the value of the greeting based on certain conditions.
+Created on: 1st Jan 2025
+@author: Shagun
 
 """
 

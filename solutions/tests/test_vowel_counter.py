@@ -20,16 +20,40 @@ class TestVowelCounter(unittest.TestCase):
     Test suite for the vowel_counter module.
     """
 
-    def test_vowel_counter(self):
+    def test_vowel_counter_hello_world(self):
         """
-        Test the vowel_counter function.
+        Test the vowel_counter function with the string 'Hello World'.
+        Expect 3 vowels: 'e', 'o', 'o'.
         """
-        # Test for different cases
-        self.assertEqual(vowel_counter("Hello World"), 3)  # 'e', 'o', 'o'
-        self.assertEqual(vowel_counter("Python"), 1)  # 'o'
-        self.assertEqual(vowel_counter("aeiou"), 5)  # all vowels
-        self.assertEqual(vowel_counter("XYZ"), 0)  # no vowels
-        self.assertEqual(vowel_counter("HELLO WORLD!"), 3)  # 'E', 'O', 'O'
+        self.assertEqual(vowel_counter("Hello World"), 3)
+
+    def test_vowel_counter_python(self):
+        """
+        Test the vowel_counter function with the string 'Python'.
+        Expect 1 vowel: 'o'.
+        """
+        self.assertEqual(vowel_counter("Python"), 1)
+
+    def test_vowel_counter_all_vowels(self):
+        """
+        Test the vowel_counter function with the string 'aeiou'.
+        Expect 5 vowels: all vowels are present.
+        """
+        self.assertEqual(vowel_counter("aeiou"), 5)
+
+    def test_vowel_counter_no_vowels(self):
+        """
+        Test the vowel_counter function with the string 'XYZ'.
+        Expect 0 vowels: no vowels are present.
+        """
+        self.assertEqual(vowel_counter("XYZ"), 0)
+
+    def test_vowel_counter_uppercase(self):
+        """
+        Test the vowel_counter function with the string 'HELLO WORLD!'.
+        Expect 3 vowels: 'E', 'O', 'O'.
+        """
+        self.assertEqual(vowel_counter("HELLO WORLD!"), 3)
 
     def test_vowel_counter_empty(self):
         """

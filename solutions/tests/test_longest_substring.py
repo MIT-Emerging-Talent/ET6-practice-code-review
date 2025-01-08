@@ -59,3 +59,19 @@ class TestLongestSubstring(unittest.TestCase):
         )
         expected_output = len(set(large_input))  # Unique characters in the input
         self.assertEqual(longest_substring(large_input), expected_output)
+
+    # Defensive tests
+    def test_invalid_type_int(self):
+        """Test if a int raises an AssertionError."""
+        with self.assertRaises(AssertionError):
+            longest_substring(12)
+
+    def test_invalid_type_list(self):
+        """Test if a list raises an AssertionError."""
+        with self.assertRaises(AssertionError):
+            longest_substring(["bjkbkj", "bjbj"])
+
+    def test_invalid_type_none(self):
+        """Test if a None raises an AssertionError."""
+        with self.assertRaises(AssertionError):
+            longest_substring(None)

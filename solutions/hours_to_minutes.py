@@ -33,13 +33,13 @@ def hours_to_minutes(hours: float) -> int:
 
         Examples:
             >>> hours_to_minutes(4)
-            (240)
+            240
             >>> hours_to_minutes(0.5)
-            (30)
+            30
             >>> hours_to_minutes(24)
-            (1440)
+            1440
             >>> hours_to_minutes(12)
-            (720)
+            720
     """
     if not isinstance(hours, (int, float)):
         raise TypeError(f"Invalid input type: {type(hours)}. Must be int or float.")

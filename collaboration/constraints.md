@@ -67,8 +67,3 @@
 
   The team agrees on a simple and testable coding style that all members can
   review and understand.  
-
-- **Accountability**:
-  
-  When a team member realizes they will not be available for a meeting, they
-  inform the others. This fosters accountability and trust among team members.  

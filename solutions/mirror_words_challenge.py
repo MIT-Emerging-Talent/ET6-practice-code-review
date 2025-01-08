@@ -21,7 +21,7 @@ def mirror_words(sentence: str) -> str:
         >>> mirror_words("Python is fun")
         'nohtyP si nuf'
         
-         >>> mirror_words("Keep calm & code on.")
+        >>> mirror_words("Keep calm & code on.")
         'peeK mlac & edoc .no'
 
     Raises:
@@ -31,7 +31,6 @@ def mirror_words(sentence: str) -> str:
     This function processes each word individually, reversing only the characters
     in the word while leaving punctuation, numbers, and special characters
     unchanged.     
-
     """
     # Check if the input is a string
     if not isinstance(sentence, str):
@@ -39,15 +38,14 @@ def mirror_words(sentence: str) -> str:
 
     # Split the sentence into words
     words = sentence.split()
-    
+
     mirror_words = []
     for word in words:
         # Match the word and any punctuation at the end
         match = re.match(r"([a-zA-Z]+)([^a-zA-Z]*)", word)
         if match:
             # Reverse the word and keep punctuation at the end without reversing it
-            mirror_words = match.group(1)[::-1] + match.group(2)
-            mirror_words.append(mirror_words)
+            mirror_words.append(match.group(1)[::-1] + match.group(2))
         else:
             # If no match is found, just append the word
             mirror_words.append(word)

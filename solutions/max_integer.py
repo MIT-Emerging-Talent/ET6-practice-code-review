@@ -33,8 +33,6 @@ def max_integer(my_list: list) -> int:
         None
     """
     assert isinstance(my_list, list), "input must be a list"
-    for i in my_list:
-        assert isinstance(i, float or int), "elements must be numbers"
 
     if len(my_list) == 0:
         return None

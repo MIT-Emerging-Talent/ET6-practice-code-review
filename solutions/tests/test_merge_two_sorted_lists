@@ -13,7 +13,7 @@ with integers, floating-point numbers, and raise errors for invalid inputs like 
 
 import unittest
 
-from solutions import merge_two_sorted_lists
+from solutions.merge_two_sorted_lists import merge_two_sorted_lists
 
 
 class TestMergeTwoLists(unittest.TestCase):

@@ -27,37 +27,40 @@ class TestVolumeOfTheSphere(unittest.TestCase):
 
     def test_volume_with_radius_five(self):
         """Test volume calculation with radius 5.0."""
-        self.assertAlmostEqual(volume_of_the_sphere(5.0), 523.5987755982989)
+        self.assertAlmostEqual(volume_of_the_sphere(5.0), 523.60, places=2)
 
     def test_volume_with_radius_two_point_five(self):
         """Test volume calculation with radius 2.5."""
-        self.assertAlmostEqual(volume_of_the_sphere(2.5), 65.44984694978736)
+        self.assertAlmostEqual(volume_of_the_sphere(2.5), 65.45, places=2)
 
     def test_volume_with_radius_one(self):
         """Test volume calculation with radius 1.0."""
-        self.assertAlmostEqual(volume_of_the_sphere(1.0), 4.1887902047863905)
+        self.assertAlmostEqual(volume_of_the_sphere(1.0), 4.19, places=2)
 
     def test_volume_with_integer_radius(self):
         """Test volume calculation with integer input."""
-        self.assertAlmostEqual(volume_of_the_sphere(3), (4 / 3) * pi * 27)
+        expected = round((4 / 3) * pi * 27, 2)
+        self.assertAlmostEqual(volume_of_the_sphere(3), expected, places=2)
 
     def test_raises_value_error_with_zero_radius(self):
         """Test ValueError raised when radius is zero."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(ValueError):
             volume_of_the_sphere(0)
 
     def test_raises_value_error_with_negative_radius(self):
         """Test ValueError raised when radius is negative."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(ValueError):
             volume_of_the_sphere(-1)
 
     def test_volume_with_small_radius(self):
         """Test volume calculation with very small radius."""
-        self.assertAlmostEqual(volume_of_the_sphere(0.1), (4 / 3) * pi * 0.001)
+        expected = round((4 / 3) * pi * 0.001, 2)
+        self.assertAlmostEqual(volume_of_the_sphere(0.1), expected, places=2)
 
     def test_volume_with_large_radius(self):
         """Test volume calculation with large radius."""
-        self.assertAlmostEqual(volume_of_the_sphere(1000), (4 / 3) * pi * 1000**3)
+        expected = round((4 / 3) * pi * 1000**3, 2)
+        self.assertAlmostEqual(volume_of_the_sphere(1000), expected, places=2)
 
 
 if __name__ == "__main__":

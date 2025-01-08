@@ -1,19 +1,15 @@
+"""
+A module for testing count_words.py
+
+Module contents:
+    - Unit Test cases for function count_words
+
+Created on 01 01 2025
+@author: Raghad
+"""
+
 import unittest
 from solutions.count_words import count_words
-
-
-def count_words(text):
-    """
-    Counts the number of words in a given string.
-
-    Args:
-        text (str): The string to analyze.
-
-    Returns:
-        int: The number of words in the string.
-    """
-    words = text.split()
-    return len(words)
 
 
 class TestCountWords(unittest.TestCase):

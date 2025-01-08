@@ -1,9 +1,16 @@
+"""
+Module: Find Largest Number
+This module provides a function to find the largest number in a list of integers.
+"""
+
+from typing import List  # Ensure List is imported correctly
+
 def find_largest_number(numbers: List[int]) -> int:
     """
     Finds the largest number in a list of integers.
 
     Parameters:
-    numbers (list): A non-empty list of integers.
+    numbers (List[int]): A non-empty list of integers.
 
     Returns:
     int: The largest number in the list.

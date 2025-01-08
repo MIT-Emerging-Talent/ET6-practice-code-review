@@ -116,7 +116,7 @@ class TestIsArmstrongNumber(unittest.TestCase):
         self.assertTrue(is_armstrong_number(115132219018763992565095597973971522401))
 
     def test_negative_input(self):
-        """Tests if TypeError is raised for negative input."""
+        """Tests if AssertionError is raised for negative input."""
         with self.assertRaises(AssertionError):
             is_armstrong_number(-1)
 

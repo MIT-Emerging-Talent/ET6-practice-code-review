@@ -14,16 +14,26 @@ ______________________________________________________________________
 ## Communication Schedule
 
 | Day | How | The topic of discussion | | --- | :-: | ----------------------- |
-| | | |
+| 21st Dec | Zoom | How to proceed with the group project? |
+| 25th Dec | Zoom | Progress and Discussions on Solutions |
+| 7th Jan | Zoom | Finalization |
+| 8th Jan | Zoom | Merging |
 
 ## Communication Channels
 
-how often will we get in touch on each channel, and what we will discuss there:
+We shall have weekly/bi-weekly meetings on slcka/zoom to discuss any issues and progress.
 
 - **Issues**:
+<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/issues/3>
+<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/issues/10>
+<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/issues/2>
+
 - **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/pull/9>
+<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/pull/8>
+<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/pull/7>
+<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/pull/5>
+<https://github.com/MIT-Emerging-Talent/ET6-foundations-group-29/pull/1>
 
 ______________________________________________________________________
 
@@ -33,15 +43,21 @@ ______________________________________________________________________
 
 | Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
 ------ | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
+| Muqaddas | No | No | No | No | Yes | No | Yes |
+| Nilofar | No | Yes | No | No | Yes | No | Yes |
+| Shagun | No | No | No | No | Yes | No | Yes |
+| Anik | No | No | No | No | Yes | No | Yes |
+| Momtaz | No | No | No | No | Yes | No | Yes |
+| M. Ahmed | No | No | No | No | Yes | No | Yes |
 
 ### How many hours everyone has per day
 
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- Muqaddas: _1.5h_;
+- Shagun: _2h_;
+- Nilofar: _2h_;
+- Anik: _2h_;
+- M. Ahmed: _2h_;
+- Momtaz: _2h_;
 
 ## Asking for Help
 

@@ -1,4 +1,3 @@
-# File: check_even_or_odd.py
 
 def check_even_or_odd(number):
     """

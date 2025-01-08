@@ -15,7 +15,8 @@ Some boundaries around our project.
   - ...
 -->
 
-- **Connectivity issues**: Some team members may experience unreliable network connections, impacting real-time collaboration.
+- **Connectivity issues**: Some team members may experience unreliable network
+  connections, impacting real-time collaboration.
 
 ## Internal: Involuntary
 
@@ -25,10 +26,13 @@ Some boundaries around our project.
   - amount of time available to work on the project
 -->
 
-- **Individual skill levels**: The team has varying levels of programming expertise, which may affect task assignments and peer reviews.
-- **Available time for project work**: Due to significant time zone differences, scheduling meetings can be challenging. 
+- **Individual skill levels**: The team has varying levels of
+  programming expertise which may affect task assignments and peer reviews.
+- **Available time for project work**: Due to significant time zone
+  differences, scheduling meetings can be challenging.
 
 ## Internal: Voluntary
+
 <!--
   constraints that your team decided on to help scope the project. they may include:
   - coding style & conventions
@@ -37,8 +41,10 @@ Some boundaries around our project.
   - only using the colors black and white
 -->
 
-- **Coding style & conventions**: Agree on a set of guidelines for consistency across the codebase.
-- **Code review checklist**: Create a checklist to ensure thorough reviews while accommodating varying skill levels.
-- **Desired hours to work per week**: Establish a flexible schedule that considers team members' availability, possibly utilizing asynchronous communication.
-
-
+- **Coding style & conventions**: Agree on a set of guidelines
+  for consistency across the codebase.
+- **Code review checklist**: Create a checklist to ensure thorough
+  reviews while accommodating varying skill levels.
+- **Desired hours to work per week**: Establish a flexible schedule
+  that considers team members' availability, possibly utilizing
+  asynchronous communication.

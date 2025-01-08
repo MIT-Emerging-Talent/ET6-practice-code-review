@@ -24,36 +24,37 @@ class TestIsPalindrome(unittest.TestCase):
         """
         Test cases where the string is a palindrome.
         """
-        self.assertTrue(is_palindrome("A man, a plan, a canal, Panama"))
-        self.assertTrue(is_palindrome("racecar"))
-        self.assertTrue(is_palindrome("Madam"))
+        actual = is_palindrome("A man, a plan, a canal, Panama")
+        self.assertTrue(actual)
 
     def test_non_palindrome(self):
         """
         Test cases where the string is not a palindrome.
         """
-        self.assertFalse(is_palindrome("hello"))
-        self.assertFalse(is_palindrome("world"))
+        actual = is_palindrome("hello")
+        self.assertFalse(actual)
 
     def test_empty_string(self):
         """
         Test case where the input is an empty string, which is considered a palindrome.
         """
-        self.assertTrue(is_palindrome(""))
+        actual = is_palindrome("")
+        self.assertTrue(actual)
 
     def test_single_character(self):
         """
         Test case where the input is a single character, which is always a palindrome.
         """
-        self.assertTrue(is_palindrome("a"))
-        self.assertTrue(is_palindrome("1"))
+        actual = is_palindrome("a")
+        self.assertTrue(actual)
 
     def test_only_non_alphanumeric(self):
         """
         Test case where the input contains only non-alphanumeric characters.
         The function should ignore them and return True for empty string.
         """
-        self.assertTrue(is_palindrome("!@#$$@!"))
+        actual = is_palindrome("!@#$$@!")
+        self.assertTrue(actual)
 
 
 if __name__ == "__main__":

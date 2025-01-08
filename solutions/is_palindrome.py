@@ -6,12 +6,12 @@ A module for checking if a given string is a palindrome (reads the same backward
 Module contents:
     - palindrome: input string is palindrome if it reads the same backward as forward
 
-Created on XX XX XX
+Created on 30.12.2024
 @author: Saad M. Ashour
 """
 
 
-def is_palindrome(s: str) -> bool:
+def is_palindrome(input_string: str) -> bool:
     """
     Check if a given string is a palindrome.
 
@@ -20,7 +20,7 @@ def is_palindrome(s: str) -> bool:
     and case sensitivity.
 
     Parameters:
-        s (str): The input string to be checked.
+        input_string (str): The input string to be checked.
 
     Returns:
         bool: True if the input string is a palindrome, False otherwise.
@@ -33,8 +33,11 @@ def is_palindrome(s: str) -> bool:
         >>> is_palindrome("Madam")
         True
     """
+    # AssertionError: Input must be a string
+    assert isinstance(input_string, str), "Input must be a string"
+
     # Remove non-alphanumeric characters and convert to lowercase
-    cleaned = "".join(char.lower() for char in s if char.isalnum())
+    cleaned = "".join(char.lower() for char in input_string if char.isalnum())
 
     # Check if the cleaned string is equal to its reverse
     return cleaned == cleaned[::-1]

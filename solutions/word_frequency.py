@@ -1,27 +1,38 @@
-def word_frequency_counter(text):
+def count_word_frequency(text):
     """
-    Counts the frequency of each word in the given text.
+    Counts the frequency of each word in a given string.
 
     Args:
-        text (str): The input text.
+        text (str): The input text to analyze.
 
     Returns:
-        dict: A dictionary where the keys are words and values are their frequency.
+        dict: A dictionary where keys are words and values are their frequencies.
+
+    Raises:
+        ValueError: If the input text is not a string.
 
     Examples:
-        >>> word_frequency_counter("hello world")
-        {'hello': 1, 'world': 1}
-        >>> word_frequency_counter("hello hello world")
+        >>> count_word_frequency("hello hello world")
         {'hello': 2, 'world': 1}
-        >>> word_frequency_counter("Python is fun! Python is amazing!")
-        {'python': 2, 'is': 2, 'fun!': 1, 'amazing!': 1}
-        >>> word_frequency_counter("one fish two fish red fish blue fish")
-        {'one': 1, 'fish': 4, 'two': 1, 'red': 1, 'blue': 1}
-        >>> word_frequency_counter("It's a beautiful day in the neighborhood.")
-        {"it's": 1, 'a': 1, 'beautiful': 1, 'day': 1, 'in': 1, 'the': 1, 'neighborhood.': 1}
+
+        >>> count_word_frequency("apple banana apple")
+        {'apple': 2, 'banana': 1}
+
+        >>> count_word_frequency("The quick brown fox jumps over the lazy dog")
+        {'the': 2, 'quick': 1, 'brown': 1, 'fox': 1, 'jumps': 1, 'over': 1, 'lazy': 1, 'dog': 1}
     """
+    if not isinstance(text, str):
+        raise ValueError("Input must be a string.")
+
+    # Normalize case and split text into words
     words = text.lower().split()
-    freq = {}
-    for word in words:
-        freq[word] = freq.get(word, 0) + 1
-    return freq
+
+    # Remove punctuation from each word
+    cleaned_words = [word.strip('.,!?;:"()') for word in words]
+
+    # Count word frequencies
+    word_counts = {}
+    for word in cleaned_words:
+        word_counts[word] = word_counts.get(word, 0) + 1
+
+    return word_counts

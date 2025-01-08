@@ -1,0 +1,58 @@
+#!/usr/bin/env python3
+#-- coding: utf-8 --
+
+"""
+Unit tests for the reverse_string function.
+
+Regular Passing Cases - Tests with typical inputs
+Boundary Cases - Tests with empty string, single elements, and special characters
+Defensive Cases - Tests that verify error handling for invalid inputs such as None or Integer or list
+"""
+import unittest
+from reverse_string import reverse_string
+
+class TestReverseString(unittest.TestCase):
+    """Tests for the reverse_string function."""
+
+    # Normal Cases
+    def test_reverse_normal_string(self):
+        """Reverse a normal string."""
+        self.assertEqual(reverse_string("hello"), "olleh")
+
+    def test_reverse_string_with_spaces(self):
+        """Reverse a string containing spaces."""
+        self.assertEqual(reverse_string("Python is fun!"), "!nuf si nohtyP")
+
+    def test_reverse_repeating_characters(self):
+        """Reverse a string with repeating characters."""
+        self.assertEqual(reverse_string("aaaaa"), "aaaaa")
+
+    # Boundary Cases
+    def test_reverse_empty_string(self):
+        """Return an empty string when input is empty."""
+        self.assertEqual(reverse_string(""), "")
+
+    def test_reverse_single_character(self):
+        """Return the same character for single character input."""
+        self.assertEqual(reverse_string("a"), "a")
+
+    def test_reverse_palindrome_string(self):
+        """Correctly reverse a palindrome string."""
+        self.assertEqual(reverse_string("madam"), "madam")
+
+    # Defensive Cases
+    def test_reverse_raises_type_error(self):
+        """Raise a TypeError for non-string input."""
+        with self.assertRaises(TypeError):
+            reverse_string(123)  # Non-string input
+
+    def test_reverse_none_input(self):
+        """Raise a TypeError for None input."""
+        with self.assertRaises(TypeError):
+            reverse_string(None)
+
+    def test_reverse_non_string_input(self):
+    """Raise a TypeError when input is a non-string type."""
+    with self.assertRaises(TypeError):
+        reverse_string(["h", "e", "l", "l", "o"])  # Passing a list instead of a string
+

@@ -19,11 +19,11 @@ and collaboration. 🌈
 
 We embrace challenges as opportunities to learn, grow, and innovate.  
 Our goal is to not just complete tasks but to cultivate a sense of community  
-where every member feels inspired to contribute their unique strengths. 🤝  
+where every member feels inspired to contribute their unique strengths.  
 
 By working together, we aim to build solutions that are both impactful  
 and meaningful. Whether tackling complex problems or brainstorming new ideas,  
-we foster an environment of mutual support and continuous improvement.  
+we foster an environment of mutual support and continuous improvement. 🤝
 
 Every line of code we write reflects our commitment to excellence  
 and our belief in the power of teamwork. 💪  

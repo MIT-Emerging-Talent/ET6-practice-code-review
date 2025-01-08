@@ -3,11 +3,10 @@
 
 """
 A module for testing the sum_of_list function.
-
-Test categories:
-    - Standard cases:
-    - Edge cases:
-    - Defensive tests:
+This module tests the following categories:
+    - Standard cases
+    - Edge cases
+    - Defensive tests
 
 Created on 02/01/2025
 @author: Ndubuisi Agbo
@@ -39,7 +38,7 @@ class TestSumOfList(unittest.TestCase):
         self.assertEqual(sum_of_list([]), 0)
 
     def test_single_element(self):
-        """ "It should return the element in the list"""
+        """It should return the element in the list"""
         self.assertEqual(sum_of_list([7]), 7)
 
     # Defensive tests

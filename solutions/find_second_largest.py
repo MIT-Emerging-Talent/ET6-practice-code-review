@@ -1,18 +1,25 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+A module for finding the second largest unique number in a list.
+Module contents:
+    - find_second_largest: finding the second largest unique number in a list.
+
+Created on: 06/01/2025
+@author: Ermishina Mariia
+"""
+
 
 def find_second_largest(numbers: list) -> int:
     """
-    Finds the second largest unique number in a list.
-    Created on 5/1/2025
-    Author: Ermishina Mariia
+    Finding the second largest unique number in a list
     Parameters:
-    numbers (list): List of numbers.
+        numbers (list): List of numbers as int.
     Returns:
-    int: The second largest unique number.
+        int: The second largest unique number.
     Raises:
-    ValueError: If there are not enough unique numbers to determine the second largest.
+        ValueError: If there are not enough unique numbers to determine the second largest.
     Examples:
     >>> find_second_largest([2, 3, 6, 6, 5])
     5
@@ -29,7 +36,7 @@ def find_second_largest(numbers: list) -> int:
     unique_numbers = set(numbers)
 
     # Check if there are enough unique numbers
-    if len(unique_numbers) < 2:
+    if len(unique_numbers) <= 2:
         raise ValueError("Not enough unique numbers to determine the second largest.")
 
     # Convert back to a sorted list in descending order

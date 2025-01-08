@@ -3,15 +3,15 @@ This module provides a function to count the number of vowels in a given text.
 The function considers vowels as 'a', 'e', 'i', 'o', 'u' in both lowercase and uppercase.
 
 Function:
-- count_vowels: Counts vowels in a provided string.
+- vowel_counter: Counts vowels in a provided string.
 
 Example:
-    >>> count_vowels("Hello World")
+    >>> vowel_counter("Hello World")
     3
 """
 
 
-def count_vowels(text):
+def vowel_counter(text):
     """
     Counts the number of vowels in the provided text.
 
@@ -24,7 +24,7 @@ def count_vowels(text):
         int: The number of vowels in the input string.
 
     Example:
-        >>> count_vowels("Hello World")
+        >>> vowel_counter("Hello World")
         3
     """
     vowels = "aeiouAEIOU"

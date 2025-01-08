@@ -1,7 +1,7 @@
 """
 This module contains unit tests for the vowel_counter module.
 It includes test cases for the following function:
-- count_vowels: Test the function that counts vowels in a string.
+- vowel_counter: Test the function that counts vowels in a string.
 
 Tests cover various cases including normal strings, empty strings, and case insensitivity.
 
@@ -12,7 +12,7 @@ Usage:
 
 import unittest
 
-from ..vowel_counter import count_vowels
+from ..vowel_counter import vowel_counter
 
 
 class TestVowelCounter(unittest.TestCase):
@@ -20,28 +20,30 @@ class TestVowelCounter(unittest.TestCase):
     Test suite for the vowel_counter module.
     """
 
-    def test_count_vowels(self):
+    def test_vowel_counter(self):
         """
-        Test the count_vowels function.
+        Test the vowel_counter function.
         """
         # Test for different cases
-        self.assertEqual(count_vowels("Hello World"), 3)  # 'e', 'o', 'o'
-        self.assertEqual(count_vowels("Python"), 1)  # 'o'
-        self.assertEqual(count_vowels("aeiou"), 5)  # all vowels
-        self.assertEqual(count_vowels("XYZ"), 0)  # no vowels
-        self.assertEqual(count_vowels("HELLO WORLD!"), 3)  # 'E', 'O', 'O'
+        self.assertEqual(vowel_counter("Hello World"), 3)  # 'e', 'o', 'o'
+        self.assertEqual(vowel_counter("Python"), 1)  # 'o'
+        self.assertEqual(vowel_counter("aeiou"), 5)  # all vowels
+        self.assertEqual(vowel_counter("XYZ"), 0)  # no vowels
+        self.assertEqual(vowel_counter("HELLO WORLD!"), 3)  # 'E', 'O', 'O'
 
-    def test_count_vowels_empty(self):
+    def test_vowel_counter_empty(self):
         """
-        Test count_vowels for empty string.
+        Test vowel_counter for empty string.
         """
-        self.assertEqual(count_vowels(""), 0)  # No vowels in an empty string
+        self.assertEqual(vowel_counter(""), 0)  # No vowels in an empty string
 
-    def test_count_vowels_case_sensitive(self):
+    def test_vowel_counter_case_sensitive(self):
         """
-        Test that the count_vowels function is case-insensitive.
+        Test that the vowel_counter function is case-insensitive.
         """
-        self.assertEqual(count_vowels("AaEeIiOoUu"), 10)  # All vowels, case-insensitive
+        self.assertEqual(
+            vowel_counter("AaEeIiOoUu"), 10
+        )  # All vowels, case-insensitive
 
 
 if __name__ == "__main__":

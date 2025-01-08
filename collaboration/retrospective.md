@@ -172,7 +172,7 @@ ______________________________________________________________________
 - **Documentation**: More detailed documentation from the beginning
    would have provided better clarity for team members.
 
-## Lessons Learned
+## Lessons gleaned from my experience
 
 - **Importance of Teamwork**: Collaboration and clear
    communication are key to project success.

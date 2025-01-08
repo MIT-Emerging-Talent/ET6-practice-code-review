@@ -55,19 +55,30 @@ class TestVowelCounter(unittest.TestCase):
         """
         self.assertEqual(vowel_counter("HELLO WORLD!"), 3)
 
-    def test_vowel_counter_empty(self):
-        """
-        Test vowel_counter for empty string.
-        """
-        self.assertEqual(vowel_counter(""), 0)  # No vowels in an empty string
-
     def test_vowel_counter_case_sensitive(self):
         """
         Test that the vowel_counter function is case-insensitive.
+        Expect 10 vowels: 'A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u'.
         """
         self.assertEqual(
             vowel_counter("AaEeIiOoUu"), 10
         )  # All vowels, case-insensitive
+
+    # Defensive assertion tests
+    def test_invalid_input_type_integer(self):
+        """Test that the function raises a TypeError for non-string input (integer)."""
+        with self.assertRaises(TypeError):
+            vowel_counter(12345)
+
+    def test_invalid_input_type_list(self):
+        """Test that the function raises a TypeError for non-string input (list)."""
+        with self.assertRaises(TypeError):
+            vowel_counter(["a", "b", "c"])
+
+    def test_empty_string(self):
+        """Test that the function raises a ValueError for an empty string."""
+        with self.assertRaises(ValueError):
+            vowel_counter("")
 
 
 if __name__ == "__main__":

@@ -46,7 +46,7 @@ def string_length(s: str) -> int:
     if s is None:
         raise ValueError("Input string cannot be None")
     if not isinstance(s, str):
-        raise TypeError("Input must be a string")
+        raise TypeError(f"Input must be a string ,got {repr(s)}")
 
     # Return the length of the string
     return len(s)

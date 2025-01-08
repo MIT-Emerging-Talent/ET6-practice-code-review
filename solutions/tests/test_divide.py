@@ -65,5 +65,3 @@ class TestDivide(unittest.TestCase):
             divide("10", "2")  # Calling function with test arguments
         expected = "Both arguments must be numbers"  # Expected result
         self.assertTrue(expected in str(context.exception))
-
-

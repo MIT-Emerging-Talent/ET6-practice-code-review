@@ -12,8 +12,6 @@ Created on Jan 3, 2025
 @author: Dadi Ishimwe
 """
 
-import math
-
 
 def factorial_list(n: int) -> list[int]:
     """Generates a list of factorials up to a given number.

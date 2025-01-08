@@ -11,6 +11,7 @@ Created on 2025-01-07
 import unittest
 from solutions.count_vowels import count_vowels
 
+
 class TestCountVowels(unittest.TestCase):
     def test_empty_string(self):
         """Test that an empty string returns 0 vowels."""
@@ -35,6 +36,7 @@ class TestCountVowels(unittest.TestCase):
         Ensures non-alphabetic characters are ignored.
         """
         self.assertEqual(count_vowels("12345!@#$%"), 0)
+
 
 if __name__ == "__main__":
     unittest.main()

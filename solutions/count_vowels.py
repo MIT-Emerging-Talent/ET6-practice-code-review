@@ -38,7 +38,7 @@ def count_vowels(text: str) -> int:
     >>> count_vowels("Hello, World!")
     3
     """
-    
+
     if not text:  # Handle empty strings
         return 0
 

@@ -24,8 +24,8 @@ def is_armstrong_number(n: int) -> bool:
         True if n is an Armstrong number, False otherwise.
 
     Raises:
-        AssertionError: If n is negative.
-        TypeError: If n is not an integer.
+        AssertionError: If 'n' is negative.
+        TypeError: If 'n' is not an integer.
 
     Examples:
         >>> is_armstrong_number(153)

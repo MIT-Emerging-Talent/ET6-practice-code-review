@@ -1,5 +1,6 @@
 import re
 
+
 def mirror_words(sentence: str) -> str:
     """
     Reverses each word in a given sentence while maintaining the order of the words.

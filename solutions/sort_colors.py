@@ -28,7 +28,8 @@ def sort_colors(nums: List[int]) -> None:
         None
 
     Raises:
-        AssertionError: If the input is not a list or contains invalid elements (numbers out of the range 0 to 2).
+        TypeError: If the input is not a list or if elements in the list are not integers.
+        AssertionError: If elements in the list are outside the range 0 to 2.
 
     Examples:
     >>> nums = [0, 2, 1]
@@ -46,9 +47,15 @@ def sort_colors(nums: List[int]) -> None:
     >>> nums
     [0, 1, 1, 2, 2]
     """
-    # Input validation
-    assert isinstance(nums, list), "Input must be a list."
-    assert all(0 <= number <= 2 for number in nums), "All elements must be 0, 1, or 2."
+    # Validate input type
+    if not isinstance(nums, list):
+        raise TypeError("Input must be a list.")
+    if not all(isinstance(number, int) for number in nums):
+        raise TypeError("All elements in the list must be integers.")
+
+    # Validate input range
+    if not all(0 <= number <= 2 for number in nums):
+        raise AssertionError("All elements must be integers in the range 0, 1, or 2.")
 
     # Count occurrences of 0, 1, and 2
     counter_list = [0] * 3

@@ -16,7 +16,7 @@ This module contains unit tests for the `is_armstrong_number` function.
 
 * **Defensive Tests:**
     - Tests with negative input values.
-    - Tests with non-integer input values (e.g., floats, strings).
+    - Tests with non-integer input values (e.g., floats, strings,lists).
 
 Created on 2025-01-04
 Author: Muqadsa Tahir
@@ -139,6 +139,11 @@ class TestIsArmstrongNumber(unittest.TestCase):
         """Tests if TypeError is raised for non numeric character input."""
         with self.assertRaises(TypeError):
             is_armstrong_number("abc")
+
+    def test_non_integer_empty_list(self):
+        """Tests if TypeError is raised for empty list input."""
+        with self.assertRaises(TypeError):
+            is_armstrong_number([])
 
 
 if __name__ == "__main__":

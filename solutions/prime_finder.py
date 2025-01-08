@@ -14,22 +14,22 @@ Created on 2025/01/06
 
 
 # defining the function
-def prime_finder(a: int, b: int) -> list[int]:
+def prime_finder(start: int, end: int) -> list[int]:
     """Returns a list of primes from a range of 2 integers
 
     Parameters:
-      a (int): The start of the range (inclusive)
-      b (int): The end of the range (inclusive)
+      start (int): The start of the range (inclusive)
+      end (int): The end of the range (inclusive)
 
     Returns:
       list[int]: a list of all the primes between the two integers
 
     Raises:
       AssertionError
-        - If a and b are not integers
+        - If start and end are not integers
       ValueError:
         - If either element is negative
-        - If b is smaller than a
+        - If end is smaller than start
 
     >>> prime_finder(1,5)
     [2,3,5]
@@ -45,21 +45,25 @@ def prime_finder(a: int, b: int) -> list[int]:
     """
 
     # check if a and b are integers
-    assert isinstance(a, int) and isinstance(b, int), "Both a and b must be integers"
+    assert isinstance(start, int) and isinstance(
+        end, int
+    ), "Both a and b must be integers"
 
     # check if a and b are positive
-    if a < 0 or b < 0:
+    if start < 0 or end < 0:
         raise ValueError("Integers must be positive")
 
     # check if a is smaller than b
-    if a > b:
-        raise ValueError("The first integer must be smaller than the second input")
+    if start > end:
+        raise ValueError(
+            "The start of the range must be smaller than or equal to the end"
+        )
 
     # initialize the list of primes
     primes = []
 
     # iterate through the range of numbers
-    for num in range(a, b + 1):
+    for num in range(start, end + 1):
         # check if the number is prime
         if num > 1:
             for factor in range(2, round(num**0.5) + 1):

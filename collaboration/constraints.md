@@ -19,7 +19,8 @@ the project.
 These constraints are beyond our team's control and have
 been imposed by external factors:
 
-- **Official Deadline:** The project must be completed by **10.01.2025** (extended until 12.01.2025).
+- **Official Deadline:** The project must be completed by **10.01.2025**
+(extended until 12.01.2025).
 - **Tools and Platforms:** We will use **GitHub** for version
 control and **Python** for development.
 - **Code Review Requirements:** Each pull request must be reviewed

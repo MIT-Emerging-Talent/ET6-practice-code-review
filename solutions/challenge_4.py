@@ -14,7 +14,7 @@ Usage Example:
 """
 
 
-def sort_numbers(numbers):
+def sort_numbers(numbers: list[float | int]) -> list[float | int]:
     """
     Sorts a list of numbers in ascending order.
 

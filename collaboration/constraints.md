@@ -2,9 +2,18 @@
 
 # Constraints
 
-Some boundaries around our project.
+Challenges are a natural part of any journey, but they don’t define our
+potential or our resolve. Constraints are not setbacks—they are opportunities
+to grow stronger, think creatively, and persevere as a team. They remind us of
+our resilience and ability to overcome obstacles, no matter how hard they may seem.
 
-## External
+As Albert Einstein famously said:
+>***In the middle of difficulty lies opportunity***.
+
+Together, we will rise above these challenges and achieve excellence through
+determination and teamwork.
+
+## External Constraints
 
 <!--
   constraints coming from the outside that your team has no control over:
@@ -14,21 +23,86 @@ Some boundaries around our project.
   - power or connectivity
   - ...
 -->
+- Not all group members are available simultaneously due to varying schedules and
+circumstances.
+- Group members can only commit to short time blocks each day, making it
+difficult to hold extended meetings or collaborative sessions.
+- The group must balance work on this project with other personal and academic
+responsibilities, limiting total available hours.
+- The group relies heavily on asynchronous communication due to differences in
+availability, which may slow down decision-making process.
 
-## Internal: Involuntary
+## Internal Constraints
 
 <!--
   constraints that come from within your team, and you have no control over:
   - each of your individual skill levels
   - amount of time available to work on the project
 -->
+- Some group members considered themselves beginners with minimal programming or
+technical skills.
+- Additional training is required to help group members learn coding and working
+with Git and GitHub.
 
-## Internal: Voluntary
+## Individual Constraints
 
-<!--
-  constraints that your team decided on to help scope the project. they may include:
-  - coding style & conventions
-  - agree on a code review checklist for the project repository
-  - the number of hours you want to spend working
-  - only using the colors black and white
--->
+### Ahmed Khalifa
+
+- I work primarily on a phone, making it challenging to work as efficiently as
+other group members.
+- I face academic constraints as I am currently enrolled in university, which
+limits my availability time.
+
+  ---
+
+### Mohammad Al Salloum
+
+- Hard Time management between the university, MIT Emerging Talent
+  program, and personal responsibilities.
+- I share a single laptop with my brother,
+  which makes studying sometimes inconvenient
+  due to conflicting times
+
+  ---
+
+### Dadi Ishimwe
+
+- Conflicting times due to personal responsibilities but
+  manageable
+
+  ---
+
+### Rama Arafeh
+
+- I feel like I’m falling behind in the group because everything seems
+  way over my head without prior experience in GitHub, VS Code, or Python.
+- I need significant time to train and learn while balancing my personal
+  responsibilities and work.
+
+  ---
+
+### Raed Eleyan
+
+- I don't love Math, so I have to work hard to love it again.
+
+  ---
+
+### Tamara Saqer
+
+- Access to Internet and electricity can be difficult at times,
+ which may occasionally impact connectivity and communication.  
+- My sense of humor is incredibly advanced and top-tier. Others often find it
+  challenging to match, and their memes sometimes fall short of the mark.
+  cc: Ahmed Khalifa
+
+  ---
+
+### Mukuna Kabeya
+
+- I do not have a pc of my own so coding on a consistent basis is not viable.
+- I struggle to manage between my personal life and MIT work,
+ but this is manageable.
+- My area may experience sudden power cuts due to illegal connections,
+  this makes working impossible as power may take days to weeks to return.
+  
+  ---

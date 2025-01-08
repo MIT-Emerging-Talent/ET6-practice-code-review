@@ -1,4 +1,3 @@
-# mirror_words_challenge
 import re
 
 

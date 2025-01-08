@@ -46,10 +46,8 @@ def is_palindrome(x: int) -> bool:
     assert isinstance(x, int), "Input must be an integer."
     assert -(2**31) <= x <= 2**31 - 1, "Input is outside the valid range."
 
-    # Convert the integer to its string representation
+    # Convert the input to a string and reverse it to handle various types consistently.
     original_str = str(x)
-
-    # Reverse the string and compare it to the original
     reversed_str = original_str[::-1]
 
     # Return whether the original and reversed strings match

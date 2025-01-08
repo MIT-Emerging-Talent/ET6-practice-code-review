@@ -42,15 +42,12 @@ def sum_of_list(numbers):
 
 if __name__ == "__main__":
     try:
-        # Prompt the user to input a list of numbers separated by spaces
         user_input = input("Enter a list of numbers separated by spaces: ")
-        # Convert the input string into a list of floats/integers
         numbers = [float(num) for num in user_input.split()]
-        # Calculate the sum of the list and display the result
+        # Calculate the sum of the list 
         print("The sum of the list is:", sum_of_list(numbers))
     except ValueError:
-        # Handle invalid input (e.g., non-numeric values)
+        # Handle invalid input
         print("Please enter valid numbers separated by spaces.")
     except Exception as e:
-        # Handle any other unexpected errors
         print(f"An error occurred: {e}")

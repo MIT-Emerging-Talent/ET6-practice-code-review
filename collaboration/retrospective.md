@@ -120,3 +120,65 @@ the project.
 
 I had to include more detailed documentation for my work after realizing it
 might not be clear enough for my teammates during reviews.
+
+______________________________________________________________________
+
+# Retrospective - Zephaniah Okoye
+
+## What I will refrain from doing
+
+- **Delaying Communication**: Avoid waiting too
+   long before seeking help or clarifying doubts.
+- **Ignoring Time Management**: Stop neglecting the
+   importance of a structured schedule.
+- **Working in Isolation**: Avoid working on tasks
+   without collaborating with teammates.
+
+## What I will keep doing
+
+- **Collaborative Efforts**: Maintain active
+  participation in team discussions and code reviews.
+- **Structured Workflow**: Continue following a clear
+   Git workflow and maintaining organized commit histories.
+- **Proactive Communication**: Keep communicating progress
+   and challenges regularly with the team.
+
+## What I will commence doing
+
+- **Regular Check-Ins**: Implement more frequent check-ins with
+   the team to ensure alignment and track progress.
+- **Automated Testing**: Incorporate more automated testing
+  into the development workflow to enhance code reliability.
+- **Detailed Documentation**: Start adding more comprehensive
+   documentation to ensure clarity for teammates during reviews.
+
+## What went well
+
+- **Team Collaboration**: The team worked together effectively,
+  leading to timely completion of tasks and high-quality output.
+- **Code Reviews**: Constructive feedback during code
+  reviews significantly improved the code quality.
+- **Communication**: Regular and clear communication helped in
+   resolving issues quickly and maintaining progress.
+- **Seeking Help**: My ability to ask for help from teammates both
+   privately and on the Slack general communication platform was a lifesaver.
+
+## What could have been improved
+
+- **Time Management**: More structured scheduling could have
+   helped in meeting deadlines more efficiently.
+- **Early Testing**: Integrating automated testing earlier in
+  the development process could have caught potential issues sooner.
+- **Documentation**: More detailed documentation from the beginning
+   would have provided better clarity for team members.
+
+## Lessons gleaned from my experience
+
+- **Importance of Teamwork**: Collaboration and clear
+   communication are key to project success.
+- **Effective Feedback**: Constructive feedback during code
+  reviews helps improve code quality and personal growth.
+- **Time Management**: A well-structured schedule enhances
+  productivity and ensures timely completion of tasks.
+- **Continuous Learning**: It's crucial to stay updated with
+  new tools and techniques and to be patient with the learning process.

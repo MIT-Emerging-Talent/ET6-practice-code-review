@@ -125,7 +125,7 @@ ______________________________________________________________________
 
 # Retrospective - Zephaniah Okoye
 
-## What I will stop doing
+## What I will refrain from doing
 
 - **Delaying Communication**: Avoid waiting too
    long before seeking help or clarifying doubts.
@@ -134,7 +134,7 @@ ______________________________________________________________________
 - **Working in Isolation**: Avoid working on tasks
    without collaborating with teammates.
 
-## What I will continue doing
+## What I will keep doing
 
 - **Collaborative Efforts**: Maintain active
   participation in team discussions and code reviews.
@@ -143,7 +143,7 @@ ______________________________________________________________________
 - **Proactive Communication**: Keep communicating progress
    and challenges regularly with the team.
 
-## What I will start doing
+## What I will commence doing
 
 - **Regular Check-Ins**: Implement more frequent check-ins with
    the team to ensure alignment and track progress.
@@ -182,7 +182,3 @@ ______________________________________________________________________
   productivity and ensures timely completion of tasks.
 - **Continuous Learning**: It's crucial to stay updated with
   new tools and techniques and to be patient with the learning process.
-
-
-
-

@@ -27,32 +27,32 @@ def password_strength(password: str) -> str:
         password: str, the password to check.
 
     Returns:
-        str: A message indicating whether the password is strong or weak.
+        str: A message indicating why the password is weak or strong.
 
     Examples:
         >>> password_strength("StrongP@ssw0rd")
         'Strong password'
         >>> password_strength("weakpass")
-        'Weak password'
+        'Password too short'
         >>> password_strength("Short1!")
-        'Weak password'
+        'Password too short'
         >>> password_strength("NoSpecial123")
-        'Weak password'
+        'Missing special character'
     """
 
     if len(password) < 8:
-        return "Weak password"
+        return "Password too short"
 
     if not re.search(r"[A-Z]", password):
-        return "Weak password"
+        return "Missing uppercase letter"
 
     if not re.search(r"[a-z]", password):
-        return "Weak password"
+        return "Missing lowercase letter"
 
     if not re.search(r"[0-9]", password):
-        return "Weak password"
+        return "Missing digit"
 
     if not re.search(r"[@$!%*?&]", password):
-        return "Weak password"
+        return "Missing special character"
 
     return "Strong password"

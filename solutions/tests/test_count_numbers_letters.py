@@ -28,9 +28,10 @@ class TestCountNumbersLetters(unittest.TestCase):
         Test input containing both numbers and letters.
         """
         self.assertEqual(
-            count_numbers_letters("@Hello123"), {"Numbers": 3, "Letters": 5, "Others": 1}
+            count_numbers_letters("@Hello123"),
+            {"Numbers": 3, "Letters": 5, "Others": 1},
         )
-    
+
     def test_only_special_characters(self):
         """
         Test input containing special characters only.

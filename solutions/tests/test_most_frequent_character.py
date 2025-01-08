@@ -7,13 +7,13 @@ Tests included:
     - When the input string is empty
     - When the input is not a string
 
-Created on 06/01/2025
+Created on 08/01/2025
 @author: Mohamad Ziadah
 """
 
 import unittest
 
-from ..character_analysis import most_frequent_character
+from ..most_frequent_character import most_frequent_character
 
 
 class TestMostFrequentCharacter(unittest.TestCase):
@@ -51,7 +51,7 @@ class TestMostFrequentCharacter(unittest.TestCase):
 
     def test_with_spaces_and_special_characters(self):
         """
-        It should correctly identify the most frequent character, ignoring whitespace or special cases
+        It should identify the most frequent character, ignoring whitespace or special cases
         """
         actual = most_frequent_character("Hello, World!")
         self.assertEqual(actual, "l")  # 'l' appears 3 times

@@ -1,4 +1,3 @@
-# test_mirror_words_challenge
 """
 Test module for reverse_words function.
 Contains correct tests to help identify bugs in the implementation.

@@ -1,3 +1,7 @@
+"""
+This module provides a solution for checking if a number is a palindrome.
+"""
+
 class Solution(object):
     def is_palindrome(self, x: int) -> bool:
         """

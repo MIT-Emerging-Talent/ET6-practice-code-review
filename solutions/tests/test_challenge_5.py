@@ -12,10 +12,10 @@ Created on 03-01-2025
 
 import unittest
 
-from ..challenge_5 import challenge_5
+from ..challenge_5 import is_in_list
 
 
-class TeststringFunction (unittest.TestCase):
+class TeststringFunction(unittest.TestCase):
     """Unit tests for the is_in_list function."""
 
     def test_is_in_list_with_apple(self):
@@ -46,8 +46,7 @@ class TeststringFunction (unittest.TestCase):
         """It should return False when the input is a capitalized word like 'Apple'."""
         actual = is_in_list("Apple")
         expected = False
-        self.assertEqual(actual, expected) 
-        
+        self.assertEqual(actual, expected)
+
         if __name__ == "__main__":
-                unittest.main()
-                
+            unittest.main()

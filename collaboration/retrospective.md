@@ -1,28 +1,44 @@
 <!-- this template is for inspiration, feel free to change it however you like! -->
+# Retrospective  
 
-# Retrospective
+This document represents the retrospective for our Team Project, created by
+Group 12. Below, you will find individual retrospectives
+from each team member, reflecting on their experiences,
+lessons learned, and areas for improvement.  
 
-## Stop Doing
+The structure and plan for this retrospective were initially proposed to us as
+a guide to help each participant conduct their own reflection. While this
+structure is not mandatory, it was created to assist in organizing thoughts in
+a consistent and professional manner. You can review the suggested structure
+below, which we followed to provide clarity and coherence in our reflections.  
 
-## Continue Doing
+---
 
-## Start Doing
+## Retrospective Structure
 
-## Lessons Learned
+### Key Reflection Topics
 
-______________________________________________________________________
+- Stop Doing  
+- Continue Doing  
+- Start Doing  
+- Lessons Learned  
 
-## Strategy vs. Board
+### Strategy vs. Board - Key Questions for Reflection
 
-### What parts of your plan went as expected?
+- What parts of your plan went as expected?  
+- What parts of your plan did not work out?  
+- Did you need to add things that weren't in your strategy?  
+- Or remove extra steps?  
 
-### What parts of your plan did not work out?
+By following this structured approach, we aimed to capture valuable insights
+from each participant while maintaining a professional and organized
+presentation of our reflections. This document not only serves as a
+summary of our achievements and challenges but also as a foundation
+for improving our workflows and collaboration in future projects.  
 
-### Did you need to add things that weren't in your strategy?
+---
 
-### Or remove extra steps?
-
-______________________________________________________________________
+# Individual Retrospectives
 
 # Retrospective - Olubusayo Solola
 
@@ -39,8 +55,6 @@ Below are things I will start/continue doing moving forward
 - Being more flexible and open to suggestions or changes proposed by the team.  
 
 A lot didn't go as planned 😏 but what I learnt is teamwork always wins
-
-______________________________________________________________________
 
 # Retrospective - Yevheniia Rudenko
 
@@ -62,7 +76,6 @@ Having a structure, even a relative one, proved to be very important for our
 team. Milestones kept us on track, and we successfully achieved them together.
 Teamwork can be incredibly productive and educational, especially when you can
 rely on your teammates for help. Effective communication is the key to success.
-______________________________________________________________________
 
 # Retrospective - Awaab Hussein
 
@@ -120,8 +133,6 @@ the project.
 
 I had to include more detailed documentation for my work after realizing it
 might not be clear enough for my teammates during reviews.
-
-______________________________________________________________________
 
 # Retrospective - Zephaniah Okoye
 

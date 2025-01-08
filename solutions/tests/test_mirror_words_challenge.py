@@ -14,58 +14,46 @@ Author: Aseel AbuKmail
 import sys
 import os
 import unittest
-from solutions.mirror_words_challenge import reverse_words
-
-# Add the directory containing mirror_words_challenge.py to the module search path
-sys.path.append(
-    "C:/Users/pc/.vscode/VS code Files/MIT - Project/ET6-foundations-group-17-main/solutions"
-)
-
-# Add the project root directory to sys.path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
-
-# from mirror_words_challenge import reverse_words
-# from solutions.mirror_words_challenge import reverse_words
-
+from solutions.mirror_words_challenge import mirror_words
 
 class TestReverseWords(unittest.TestCase):
-    """Tests for reverse_words function"""
+    """Tests for mirror_words function"""
 
     # Standard test cases
-    def test_reverse_words_regular_sentence(self):
-        """It should reverse each word in a regular sentence while maintaining word order"""
-        actual = reverse_words("Hello world!")
+    def test_mirror_words_regular_sentence(self):
+        """It should mirror each word in a regular sentence while maintaining word order"""
+        actual = mirror_words("Hello world!")
         expected = "olleH dlrow!"
         self.assertEqual(actual, expected)
 
-    def test_reverse_words_single_word(self):
+    def test_mirror_words_single_word(self):
         """It should reverse a single word in a sentence"""
-        actual = reverse_words("Python")
+        actual = mirror_words("Python")
         expected = "nohtyP"
         self.assertEqual(actual, expected)
 
-    def test_reverse_words_with_punctuation(self):
+    def test_mirror_words_with_punctuation(self):
         """It should handle words with punctuation marks"""
-        actual = reverse_words("Python is fun")
+        actual = mirror_words("Python is fun")
         expected = "nohtyP si nuf"  # Adjusted to match the correct output
         self.assertEqual(actual, expected)
 
     # Edge cases
     def test_empty_sentence(self):
         """It should return an empty string for an empty sentence"""
-        actual = reverse_words("")
+        actual = mirror_words("")
         expected = ""
         self.assertEqual(actual, expected)
 
     def test_single_character(self):
         """It should return the single character unchanged"""
-        actual = reverse_words("A")
+        actual = mirror_words("A")
         expected = "A"
         self.assertEqual(actual, expected)
 
     def test_sentence_with_special_characters(self):
         """It should handle sentences with special characters correctly"""
-        actual = reverse_words("!@# $%^ &*()")
+        actual = mirror_words("!@# $%^ &*()")
         expected = "!@# $%^ &*()"  # Special characters remain intact
         self.assertEqual(actual, expected)
 
@@ -73,12 +61,12 @@ class TestReverseWords(unittest.TestCase):
     def test_non_string_input(self):
         """It should raise TypeError for non-string input"""
         with self.assertRaises(TypeError):
-            reverse_words(12345)
+            mirror_words(12345)
 
     def test_input_with_mixed_data_types(self):
         """It should raise TypeError for input with mixed types"""
         with self.assertRaises(TypeError):
-            reverse_words(["Hello", "world!"])
+            mirror_words(["Hello", "world!"])
 
 
 if __name__ == "__main__":

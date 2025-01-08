@@ -1,29 +1,31 @@
-def is_odd_or_even(number):
-    """
-    Check if a number is odd or even.
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
 
-    Args:
-        number (int): The number to check.
+from solutions.is_odd_or_even import is_odd_or_even
+import unittest
 
-    Returns:
-        str: "Even" if the number is even, "Odd" if the number is odd.
+class TestIsOddOrEven(unittest.TestCase):
+    
+    def test_is_odd(self):
+        """Test for odd numbers."""
+        self.assertEqual(is_odd_or_even(7), "Odd")
 
-    Examples:
-        >>> is_odd_or_even(4)
-        'Even'
-        >>> is_odd_or_even(7)
-        'Odd'
-        >>> is_odd_or_even(0)
-        'Even'
-        >>> is_odd_or_even(-3)
-        'Odd'
-        >>> is_odd_or_even(-2)
-        'Even'
-    """
-    return "Even" if number % 2 == 0 else "Odd"
+    def test_is_even(self):
+        """Test for even numbers."""
+        self.assertEqual(is_odd_or_even(4), "Even")
 
+    def test_is_zero(self):
+        """Test for zero (even)."""
+        self.assertEqual(is_odd_or_even(0), "Even")
 
-if __name__ == "__main__":
-    import doctest
+    def test_is_negative_odd(self):
+        """Test for negative odd numbers."""
+        self.assertEqual(is_odd_or_even(-3), "Odd")
 
-    doctest.testmod()  # Runs the doctests
+    def test_is_negative_even(self):
+        """Test for negative even numbers."""
+        self.assertEqual(is_odd_or_even(-2), "Even")
+
+if __name__ == '__main__':
+    unittest.main()

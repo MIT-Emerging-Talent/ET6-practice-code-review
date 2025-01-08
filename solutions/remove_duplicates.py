@@ -32,9 +32,9 @@ def remove_duplicates(nums: list) -> list:
     ['Heba', 'Noor']
     """
     assert isinstance(nums, list), "The input should be a list"
-    result = []  # List to store the result without duplicates
+    result = []  # List to store the result without duplicates.
 
     for num in nums:
         if num not in result:
-            result.append(num)  # Add the number to the result list
+            result.append(num)  # Add the number to the result list.
     return result

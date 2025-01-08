@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Test module for remove_duplicates function.
+Test module for remove_duplicates function
 
 Created on 2024-12-30
 Author: Heba Shaheen
@@ -17,17 +17,17 @@ class TestRemoveDuplicates(unittest.TestCase):
 
     # Standard test cases
     def test_numbers_list(self):
-        """It should remove duplicates numbers"""
+        """It should remove duplicates numbers. give [1, 2, 3, 4]"""
         self.assertEqual(remove_duplicates([1, 2, 3, 2, 3, 4]), [1, 2, 3, 4])
 
     def test_letters_list(self):
-        """It should remove duplicates letters"""
+        """It should remove duplicates letters. give ["a", "v", "e", "q"]"""
         self.assertEqual(
             remove_duplicates(["a", "v", "e", "e", "q"]), ["a", "v", "e", "q"]
         )
 
     def test_mix_list(self):
-        """It should remove duplicates items"""
+        """It should remove duplicates items. give [1, 2, 3, "e", 5, "a"]"""
         self.assertEqual(
             remove_duplicates([1, 2, 3, "e", 2, 1, "e", 5, "a"]), [1, 2, 3, "e", 5, "a"]
         )

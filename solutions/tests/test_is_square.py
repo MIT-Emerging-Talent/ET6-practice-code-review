@@ -1,9 +1,25 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Test file code for if the `number is a Square` function.
+
+
+This test file verifies the correctness of the `number is a square` function,
+which checks if the number presence is a square number.
+
+Run the tests using the command:
+    python -m unittest solutions/tests/test_is_square.py
+
+"""
+
 import unittest
 
 from ..is_square import is_square
 
 
 class TestIsSquare(unittest.TestCase):
+    """Tests for the is_square function."""
+
     def test_negative_number(self):
         """It should return False for negative numbers."""
         actual = is_square(-1)

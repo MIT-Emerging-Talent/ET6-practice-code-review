@@ -63,7 +63,9 @@ class TestLongestSubstring(unittest.TestCase):
 
     def test_repeating_pattern(self):
         """Test with a long string that repeats a pattern, expecting output equal to pattern length."""
-        repeating_pattern = "abc" * 16667
+        repeating_pattern = (
+            "abc" * 16666
+        )  # Adjusted to keep length within 50,000 characters
         self.assertEqual(longest_substring(repeating_pattern), 3)
 
     def test_maximum_input_length_all_repeating(self):

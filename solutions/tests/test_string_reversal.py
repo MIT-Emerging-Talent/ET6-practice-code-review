@@ -46,7 +46,9 @@ class TestStringReversal(unittest.TestCase):
     def test_invalid_input(self):
         """Test with invalid input types (non-string)."""
         with self.assertRaises(ValueError):
-            string_reversal(12345)  # Should raise ValueError because input is not a string
+            string_reversal(
+                12345
+            )  # Should raise ValueError because input is not a string
 
 
 if __name__ == "__main__":

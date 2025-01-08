@@ -5,6 +5,7 @@ This module contains a function to reverse the characters of a given string.
 @author: Safa Saber
 """
 
+
 def string_reversal(input_string: str) -> str:
     """
     Reverse the characters of the given string.
@@ -30,5 +31,5 @@ def string_reversal(input_string: str) -> str:
     """
     if not isinstance(input_string, str):
         raise ValueError("Input must be a string.")
-    
+
     return input_string[::-1]

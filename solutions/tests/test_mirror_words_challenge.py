@@ -2,10 +2,16 @@ import sys
 import os
 import unittest
 
-# Add the parent directory to the sys.path for relative imports
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+# Add the directory containing mirror_words_challenge.py to the module search path
+sys.path.append(
+    "C:/Users/pc/.vscode/VS code Files/MIT - Project/ET6-foundations-group-17-main/solutions"
+)
+
+# Add the project root directory to sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 
 from mirror_words_challenge import mirror_words
+
 
 class TestMirrorWords(unittest.TestCase):
     """Tests for mirror_words function"""
@@ -58,6 +64,7 @@ class TestMirrorWords(unittest.TestCase):
         """It should raise TypeError for input with mixed types"""
         with self.assertRaises(TypeError):
             mirror_words(["Hello", "world!"])
+
 
 if __name__ == "__main__":
     unittest.main()

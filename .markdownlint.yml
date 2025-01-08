@@ -1,3 +1,6 @@
 ignore:
   - venv
   - .github
+
+MD013:
+  tables: false # Disable line-length rule for tables only

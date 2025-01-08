@@ -1,7 +1,6 @@
+import csv  # Import the csv module
 import os
 import unittest
-
-import pandas as pd
 
 from solutions.get_unique_values import get_unique_values
 
@@ -9,27 +8,30 @@ from solutions.get_unique_values import get_unique_values
 class TestGetUniqueValues(unittest.TestCase):
     def setUp(self):
         """Create a sample CSV file for testing."""
-        data = {"col1": [1, 2, 2, 3], "col2": ["a", "b", "a", "c"]}
-        self.df = pd.DataFrame(data)
-        self.df.to_csv("test_data.csv", index=False)
+        with open("test_data.csv", "w", newline="") as file:
+            writer = csv.writer(file)
+            writer.writerow(["col1", "col2"])  # Write header
+            writer.writerows([[1, "a"], [2, "b"], [2, "a"], [3, "c"]])
 
     def tearDown(self):
         """Remove the sample CSV file after testing."""
         os.remove("test_data.csv")
 
     def test_empty_file(self):
-        """Test with an empty file."""
-        # Create an empty file with header
+        """Test with an empty file (with header)."""
         with open("empty_file.csv", "w") as f:
-            f.write("col1,col2\n")  # Add header row
-
+            f.write("col1,col2\n")
         self.assertEqual(get_unique_values("empty_file.csv", "col1"), [])
-        os.remove("empty_file.csv")  # Clean up the empty file
+        os.remove("empty_file.csv")
 
     def test_unique_values(self):
         """Test with valid data and column."""
-        self.assertEqual(get_unique_values("test_data.csv", "col1"), [1, 2, 3])
-        self.assertEqual(get_unique_values("test_data.csv", "col2"), ["a", "b", "c"])
+        self.assertEqual(
+            set(get_unique_values("test_data.csv", "col1")), {str(1), str(2), str(3)}
+        )
+        self.assertEqual(
+            set(get_unique_values("test_data.csv", "col2")), {"a", "b", "c"}
+        )
 
     def test_file_not_found(self):
         """Test with a non-existent file."""

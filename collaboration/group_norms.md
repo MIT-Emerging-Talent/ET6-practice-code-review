@@ -19,6 +19,7 @@
 
    - We will foster an atmosphere where personal challenges that affect
    attendance can be openly shared.
+
    - We will work together to find individual solutions.
    If someone has difficulty understanding an assignment:
      - They are encouraged to consult the materials
@@ -33,9 +34,8 @@
 
 5. **Reintegration After Absences**
 
-   - If someone misses a group meeting or task, we
-   will offer helpful suggestions and
-   support to facilitate their reintegration.
+   - If someone misses a group meeting or task, we will offer helpful suggestions
+   and support to facilitate their reintegration.
    - The individual is expected to catch up on missed
    tasks to ensure the team’s progress does not stall.
 

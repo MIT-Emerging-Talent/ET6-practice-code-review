@@ -61,13 +61,18 @@ Each solution is accompanied by test cases in the
 
 ## **🤝 Collaboration**
 
-The **`collaboration`** directory includes our group work guides,  
-retrospectives, and communication guidelines.
+The **[`collaboration`](collaboration/)** directory includes our group work  
+guides, retrospectives, and communication guidelines.
 
 Files include:
 
-- **README.md** – An overview of our collaboration process  
-- **communication.md** – Guidelines for effective team communication  
-- **constraints.md** – Technical and project constraints  
-- **learning_goals.md** – Our shared learning goals  
-- **retrospective.md** – Retrospectives to improve our collaboration over time  
+- **[`README.md`](collaboration/README.md)** – Overview of the collaboration  
+  process  
+- **[`communication.md`](collaboration/communication.md)** – Guidelines for  
+  team communication  
+- **[`constraints.md`](collaboration/constraints.md)** – Technical and project  
+  constraints  
+- **[`learning_goals.md`](collaboration/learning_goals.md)** – Shared learning  
+  goals  
+- **[`retrospective.md`](collaboration/retrospective.md)** – Retrospective  
+  reports to improve collaboration

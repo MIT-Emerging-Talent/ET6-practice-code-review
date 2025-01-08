@@ -1,5 +1,5 @@
 """
-Test module for reverse_words function.
+Test module for mirror_words function.
 Contains correct tests to help identify bugs in the implementation.
 
 Test categories:
@@ -28,7 +28,7 @@ sys.path.append(
 # other modules or testing purposes.
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 
-class TestReverseWords(unittest.TestCase):
+class TestMirrorWords(unittest.TestCase):
     """Tests for mirror_words function"""
 
     # Standard test cases
@@ -47,7 +47,7 @@ class TestReverseWords(unittest.TestCase):
     def test_mirror_words_with_punctuation(self):
         """It should handle words with punctuation marks"""
         actual = mirror_words("Python is fun")
-        expected = "nohtyP si nuf"  # Adjusted to match the correct output
+        expected = "nohtyP si nuf"
         self.assertEqual(actual, expected)
 
     # Edge cases

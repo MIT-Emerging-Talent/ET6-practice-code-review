@@ -80,6 +80,11 @@ strategies.
 - be data scientist
 - be proficient in algorithm
 
+### **Novel Yonas**
+
+- Master data analysis tools for geophysical and geochemical data interpretation.
+- Understand and adapt geo-modelling scripts for customized environmental applications.
+
 ---
 
 ## 🌟 Why These Goals Matter  

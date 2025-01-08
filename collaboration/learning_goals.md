@@ -30,7 +30,7 @@ MD Jubayer Khan: My goal is to grow as a versatile developer
 by mastering multiple technologies and frameworks.
 
 Thilakan Jegatheeswaran: I aim to contribute to teamwork,
-create unique code, generate creative ideas, 
+create unique code, generate creative ideas,
 and collaborate effectively on shared objectives.
 
 May Mon Thant: My goal is learn and grow together with

@@ -48,6 +48,3 @@ Some boundaries around our project.
 - **Desired hours to work per week**: Establish a flexible schedule
   that considers team members' availability, possibly utilizing
   asynchronous communication.
-
-
-

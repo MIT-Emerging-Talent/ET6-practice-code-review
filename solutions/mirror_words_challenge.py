@@ -2,9 +2,10 @@ import re
 
 
 def mirror_words(sentence: str) -> str
-    """
-    Reverses each word in a given sentence while maintaining the order of the words
-    and correctly handling punctuation marks at the end of words.
+    """    
+    Reverses each word in a given sentence while maintaining the order of the words.
+    Punctuation marks at the end of words are correctly handled, ensuring they remain
+    in place.
 
     Args:
         sentence (str): The sentence to be processed. It can contain words, punctuation,
@@ -26,6 +27,11 @@ def mirror_words(sentence: str) -> str
     Raises:
         TypeError: If the input is not a string.
 
+    Note:
+    This function processes each word individually, reversing only the characters
+    in the word while leaving punctuation, numbers, and special characters
+    unchanged.     
+
     """
     # Check if the input is a string
     if not isinstance(sentence, str):
@@ -45,4 +51,4 @@ def mirror_words(sentence: str) -> str
         else:
             # If no match is found, just append the word
             mirror_words.append(word)
-    return " ".join(reversed_words)
+    return " ".join(mirror_words)

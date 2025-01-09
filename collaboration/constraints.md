@@ -1,6 +1,7 @@
 # ![Alt Text](../assets/task-planner.png) Constraints
 
-> In this readme, we explain potential **constraints** that limit our productivity and achievement throughout the project.
+> In this readme, we explain potential **constraints** that limit our
+productivity and achievement throughout the project.
 
 ## ![Alt Text](../assets/outdoor.png) Constraints
 
@@ -8,31 +9,31 @@
 
 ### _Salem 👀_
 
-| Constraint          | Type     | Description                                          |
+| Constraint          | Type     | Description      |
 |:-------------------:|:--------:|:--------------------------------------------------:|
-| Power & internet 🛜  | External | I have limited hours when power is available.    |
-| Deadlines ❌        | External | I have college deadlines in addition to MET program deadlines. |
+| Power & internet 🛜 | External | I have limited hours when power isavailable.|
+| Deadlines ❌| External | I have college deadlines in addition to MET program deadlines.|
 
 ### Nagham
 
 | Constraint          | Type     | Description |
 |:-------------------:|:--------:|:--------------------------------------------------:|
-| Internet 🛜        | External | Internet is not always available.                  |
-| Time Zone Differences 🕒 | External | It causes conflicts and delays progress.          |
+| Internet 🛜        | External | Internet is not always available.           |
+| Time Zone Differences 🕒 | External | It causes conflicts and delays progress.|
 
 ### Nelson 😎
 
-| Constraint          | Type     | Description                                   |
+| Constraint          | Type     | Description                               |
 |:-------------------:|:--------:|:---------------------------------------------:|
 | Deadline issues ❌  | External | I am preparing my application for college.   |
 | GitHub knowledge ❓ | Internal | I do not know how to use GitHub effectively.|
 
 ### Matvii 😊
 
-| Constraint          | Type     | Description                                          |
+| Constraint          | Type     | Description       |
 |:-------------------:|:--------:|:--------------------------------------------------:|
-| Deadlines ❌        | External | University exams.                                  |
-| Power & internet 🛜  | External | I might not have unlimited access to electricity.  |
+| Deadlines ❌        | External | University exams.                           |
+| Power & internet 🛜| External | I might not have unlimited access to electricity.|
 
 #### Summary
 

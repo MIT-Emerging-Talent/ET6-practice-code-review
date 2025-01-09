@@ -1,70 +1,68 @@
-<!--
-    this template is for inspiration, feel free to change it however you like!
-
-    Careful! be sure to protect your privacy when filling out this document
-        everything you write here will be public
-        so share only what you are comfortable sharing online
-        you can share the rest in confidence with you group by another channel
--->
-
 # Communication
 
 ______________________________________________________________________
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion | | --- | :-: | ----------------------- |
+| **Day**       | **How**           | **Topic of Discussion**         |  **Link** |
+|---------------|-------------------|---------------------------------|-----------|
+| 20/12/24 | Google Meet| Introduction and Group Norms for MIT Alpha |  [Meeting Minutes 01](notes/meeting_minutes/01_meeting_minutes.md)
+| 22/12/24 | Google Meet| Repos, Issues, Branches and Collaboration Guide |  [Meeting Minutes 02](notes/meeting_minutes/02_meeting_minutes.md)
+| 27/12/24 | Google Meet| ET CI Checks|  [Meeting Minutes 03](notes/meeting_minutes/03_meeting_minutes.md)
+| 31/12/24 | Google Meet| ET CI Checks Project Board and Issues |  [Meeting Minutes 04](notes/meeting_minutes/04_meeting_minutes.md)
+| 08/01/25 | Google Meet| Project Board and Collaboration file revision.|  [Meeting Minutes 05](notes/meeting_minutes/05_meeting_minutes.md)
+| 10/01/25 | Google Meet| Group Chceklist and Retrospective |  [Pending...]()
 
-The team did not specify a specific schedule for working.
-Here's a recap of our meetings dates.
-| 20/12 | Google Meet | First Team meeting |
-| 22/12 | Google Meet | Second Team meeting |
 
 ## Communication Channels
 
-how often will we get in touch on each channel, and what we will discuss there:
+| **Channel**   | **How often**     | **Discussed there**             | 
+|---------------|-------------------|---------------------------------|
+|Slack|Checked every two days |Meeting links, Important Announcements|
+|Github|Everyday|On Project Board and Discussions|
+|Google Meet|Twice a week|Everything|
+|Whatsapp|Everyday|Scheduling Meeting & Urgent Matters|
 
-The team agreed to meet twice per week for online meetings.
-The team agreed to be active and responsive on slack and whatsapp.
++ **Our team also commits to being active and responsive on WhatsApp.:**  
+  - **To support those without daily computer access.**
+  - **Also, to stay in touch between meetings.**
++ **Issues**:
+   - _Occurrence_ : Whenever necessary
+   - _Topic_ :
+     - Tracking challenges and documentation
+     - Adding tag label : Documentation, Challenege, Error, Bug ...etc
+     - 
++ **Pull Requests**:
+   - _Occurrence_: Notifing team through Slack and Whatsapp.
+   - _Topic_ :
+     - Reviewing Codes and Documentation.
+     - Ensure at least one team member approves before merging
 
-- **Issues**: be active on communication channels
-- **Pull Requests**: notify the team through slack
-- **Slack/Discord**: be regularly active on communication channels
-- **Video Calls**: twice per week
 
 ______________________________________________________________________
 
 ## Availability
 
-### Availability for calling/messaging
+### Availability for calling/messaging/meetings
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | |
-The team did not specify which days they are available to reply on.
-However, the team is responsive on communication channels - whatsapp and slack.
++ **Time:**  
+  **After 12PM EST**  
+ _To accommodate all members._
++ **Next Meetings:**  
+  _Scheduled during the prior meeting_  
+  _If unscheduled: Coordinated via WhatsApp or Slack for all team members._
 
-### How many hours everyone has per day
+### How many hours everyone has per day 
 
-- Ahd : _2h_
-- Al-hassen: _2h_
-- Duha: _2h_
-- Ghyath: _2h_
-- Hamza:
-- Hassan:
-- Maab:
-- Nada: _4h_
-- Salih: _4h_
-- Shaima: _2h_
++ **We are a flexible team**  
+ _However, the team is responsive daily on communication channels - Whatsapp and Slack._
 
 ## Asking for Help
-
-There's a fine line between confidently learning from your mistakes, and
-stubbornly getting no where. Here is a general guide for when to ask for help
-based on how long you've been stuck on the same problem:
-
-1. _0 -> 30 min_: Try on your own
-1. _30 -> 60 min_: Ask your group for help
-1. _60+ min_: Tag your coaches in Slack or GitHub
-
-Remember: always ask when in need of help.
+Document your challenge _tag_, to ensure clarity when seeking help  
+  + **Step 1.** _0 -> 30 min_:  
+Give it your best shot solo!  
++ **Step 2.** _1 hour_:   
+Call in the crew!   
++ **Step 3.** _One Day_:   
+Time to signal the experts! in Slack or GitHub  
+   

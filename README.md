@@ -14,21 +14,21 @@ Welcome to **_The Shining Stars_**! 👋
 
 ## **📚 About**
 
-A group brought together by our shared passion for coding, creativity,  
+A group brought together by our shared passion for coding, creativity,
 and collaboration. 🌈  
 
-We embrace challenges as opportunities to learn, grow, and innovate.  
-Our goal is to not just complete tasks but to cultivate a sense of community  
+We embrace challenges as opportunities to learn, grow, and innovate.
+Our goal is to not just complete tasks but to cultivate a sense of community
 where every member feels inspired to contribute their unique strengths.  
 
-By working together, we aim to build solutions that are both impactful  
-and meaningful. Whether tackling complex problems or brainstorming new ideas,  
+By working together, we aim to build solutions that are both impactful
+and meaningful. Whether tackling complex problems or brainstorming new ideas,
 we foster an environment of mutual support and continuous improvement. 🤝
 
-Every line of code we write reflects our commitment to excellence  
+Every line of code we write reflects our commitment to excellence
 and our belief in the power of teamwork. 💪  
 
-At **_The Shining Stars_**, we don't just code — we create, we connect,  
+At **_The Shining Stars_**, we don't just code — we create, we connect,
 and we shine brighter with every step forward. 💫  
 
 Let's keep growing, learning, and making a difference together! 🚀  
@@ -41,7 +41,7 @@ Don't forget: **Together we shine brighter.** ✨
 
 ## **🚀 Solutions**
 
-Our **[solutions](solutions/)** directory contains the challenges  
+Our **[solutions](solutions/)** directory contains the challenges
 we are solving as a team.
 Below is a list of the current solutions available:
 

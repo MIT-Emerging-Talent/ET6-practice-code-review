@@ -196,3 +196,9 @@ might not be clear enough for my teammates during reviews.
 
 # Retrospective - Abdul Qader Dost
 
+## Things I'll Stop Doing Moving Forward
+
+- **Procrastination**: I'll stop putting off tasks that I can tackle right away.
+- **Underestimating Deadlines**: I'll stop assuming I have more time than I
+actually do to complete tasks.
+

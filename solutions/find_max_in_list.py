@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on 2024-12-27
+A module for finding the maximum value in a list of integers.
 
-@author: Yuri Spizhovyi
+Module contents:
+    - find_max_in_list: A function to find the maximum number in a list.
+
+Created 2024-12-27
+
+@author: Yurii Spizhovyi
 """
 
 

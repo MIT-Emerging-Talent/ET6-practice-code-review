@@ -5,6 +5,8 @@ This module provides a function to find all prime numbers up to a given integer.
 
 Function:
     - get_prime_numbers: Returns a list of prime numbers less than or equal to a given integer.
+Created on: January 6, 2025
+@author: Melat Assefa
 """
 
 from typing import List

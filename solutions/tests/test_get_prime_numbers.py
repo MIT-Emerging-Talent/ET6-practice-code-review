@@ -2,6 +2,8 @@
 
 """
 Unit tests for the get_prime_numbers function.
+Created on: January 6, 2025
+@author: Melat Assefa
 """
 
 import unittest

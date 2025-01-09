@@ -22,6 +22,8 @@ def is_odd_or_even(number):
     """
     return "Even" if number % 2 == 0 else "Odd"
 
+
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod()  # Runs the doctests

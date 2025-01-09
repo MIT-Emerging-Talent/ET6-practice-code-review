@@ -11,7 +11,8 @@ Created on 06/01/2025
 @author: Novel Yonas
 
 Specific Gravity Calculator:
-This module provides functionality to calculate the specific gravity of a substance.
+This module provides functionality to calculate the specific gravity
+of a substance.
 Specific gravity is a dimensionless quantity that compares the density of a substance
 to the density of a reference substance (typically water at 4°C, which has a density
 of 1000 kg/m³).

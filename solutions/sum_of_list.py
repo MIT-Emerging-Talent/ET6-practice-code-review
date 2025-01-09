@@ -44,7 +44,7 @@ if __name__ == "__main__":
     try:
         user_input = input("Enter a list of numbers separated by spaces: ")
         numbers = [float(num) for num in user_input.split()]
-        # Calculate the sum of the list 
+        # Calculate the sum of the list
         print("The sum of the list is:", sum_of_list(numbers))
     except ValueError:
         # Handle invalid input

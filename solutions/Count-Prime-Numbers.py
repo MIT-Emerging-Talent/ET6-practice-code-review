@@ -4,8 +4,8 @@ r"""
 The goal of this challenge is to count how many prime numbers are present in a given list of integers.
 A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
 
-Created on: 09/01/25
-Aauthor: Zeinab Shadabshoar
+Date: 09 01 2025
+Author: Zeinab Shadabshoar
 """
 
 def is_prime(n: int) -> bool:
@@ -18,29 +18,17 @@ def is_prime(n: int) -> bool:
     Returns:
         bool: True if the number is prime, False otherwise.
 
-    Raises:
-        AssertionError: If the input is not an integer.
-        AssertionError: If the input is a negative number.
-
     Examples:
         >>> is_prime(2)
         True
         >>> is_prime(4)
         False
     """
-    # validate input type
-    assert isinstance(n, int), "Input must be an integer"
-
-    # ensure that the number is positive
-    assert n >= 0, "Input must be a non-negative integer"
-
     if n <= 1:
         return False
-
     for i in range(2, int(n ** 0.5) + 1):
         if n % i == 0:
             return False
-
     return True
 
 def count_primes(numbers: list) -> int:

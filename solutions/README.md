@@ -29,7 +29,7 @@ solutions/
 ├── [solution files]        # Python functions solving coding challenges
 ├── README.md               # Project documentation
 └── tests/
-    └── [test files]         # Unit tests for corresponding solutions
+    └── [test files]        # Unit tests for corresponding solutions
 ```
 
 - The **`solutions/`** folder contains the implementations of the

@@ -1,14 +1,11 @@
 """
-Unit tests for checking the correctnes of the count_vowels function.
+Unit tests for validating the count_vowels function.
 
-Test cases include:
-    - Empty string
-    - Strings with no vowels
-    - Strings containing only vowels
-    - Mixed-case vowel counting
-    - Alphanumeric strings
-    - Strings with special characters and whitespace
-    - Handling of invalid (non-string) input
+Test Categories:
+    - Standard Cases: Regular words with varying vowel counts.
+    - Edge Cases: Empty strings, repeated vowels, and mixed casing.
+    - Special Cases: Strings with numbers, special characters, and whitespace.
+    - Defensive Cases: Ensuring proper handling of non-string inputs.
 
 Created on: 2025-07-06
 @author: Fatima

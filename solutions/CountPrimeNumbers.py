@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-The goal of this challenge is to count how many prime numbers are present in a given list of integers. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+The goal of this challenge is to count how many prime numbers are present in a given list of integers.
+A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
 
   Created on: 09/01/25
 @author: Zeinab Shadabshoar
 """
 
 
-f is_prime(n: int) -> bool:
+def is_prime(n: int) -> bool:
     """
     Checks if a given number is prime.
 
@@ -37,7 +38,7 @@ f is_prime(n: int) -> bool:
     if n <= 1:
         return False
 
-    for i in range(2, int(n ** 0.5) + 1):
+    for i in range(2, int(n**0.5) + 1):
         if n % i == 0:
             return False
 

@@ -65,7 +65,7 @@ contribute:
 
 ## Team Composition
 
-| **Name**               | **Role**               | **Username / Profile**                   |
+| **Name**               | **Role**               | **Username / Profile**       |
 |-------------------------|------------------------|-----------------------------|
 | Yurii Spizhovyi         | Developer, Reviewer   | [yuri-spizhovyi-mit][link-1]|
 | Alemayehu Kiros         | Developer, Reviewer   | [Alemayehu-Desta][link-2]|
@@ -179,8 +179,7 @@ contribute:
             test_pounds_to_kilogram.py
             test_repeat_characters.py
             test_sum_odd_numbers.py
-            test_sum_of_digits.py
-    
+            test_sum_of_digits.py  
 ```
 
 </details>
@@ -291,7 +290,6 @@ A task is complete when:
 ---
 
 For further details, visit the project [repository](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-01).
-
 
 [link-1]: https://github.com/yuri-spizhovyi-mit
 [link-2]: https://github.com/Alemayehu-Desta

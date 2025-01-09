@@ -2,7 +2,7 @@
 A module for generating a secure password.
 
 @Author: Mukuna Kabeya
-@date: 2025-01-05
+@date: 01/05/2025
 """
 
 import string

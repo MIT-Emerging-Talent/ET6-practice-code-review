@@ -16,7 +16,7 @@ Test categories:
         - `test_non_integer_input`: Verifies that non-integer inputs (like string or float) raise a `ValueError`.
 
 @Author: Mukuna Kabeya
-@date: 2025-01-05
+@date: 01/05/2025
 """
 
 import unittest

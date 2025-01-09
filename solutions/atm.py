@@ -2,71 +2,82 @@
 # -*- coding: utf-8 -*-
 """
 Welcome to WIT International Bank.
-This program operates the ATM system, allowing users to perform various banking transactions,
-including checking their balance, depositing cash, and withdrawing money securely.
+This program operates the ATM system, allowing users to perform
+various banking transactions,
+including checking their balance, depositing cash, and withdrawing
+money securely.
 
-Thank you for choosing WIT International Bank. Your satisfaction is our priority.
+Thank you for choosing WIT International Bank. Your satisfaction is
+our priority.
 Created on: 2025/01/02
 By: Fikremichael Mamo
 """
 
 
-def show_balance(balance):
+def show_balance(balance: float) -> str:
     """
-    Display the user's current account balance.
+    Returns the formatted balance as a string.
 
-    Parameters:
-        balance (float): The current balance in the user's account.
-
-    Returns:
-        str: A formatted string showing the balance.
+    >>> show_balance(0)
+    'Your Balance is $0.00'
+    >>> show_balance(100.50)
+    'Your Balance is $100.50'
+    >>> show_balance(1234.56)
+    'Your Balance is $1234.56'
     """
     return f"Your Balance is ${balance:.2f}"
 
 
-def deposit(balance, amount):
+def deposit(balance: float, amount: float) -> tuple[float, str]:
     """
-    Deposit a specified amount into the user's account.
+    Deposits an amount into the balance and returns the new balance
+    with a message.
 
-    Parameters:
-        balance (float): The current balance in the user's account.
-        amount (float): The amount to deposit.
-
-    Returns:
-        float: The updated balance after the deposit.
-        str: An error message if the amount is invalid.
+    >>> deposit(100, 50)
+    (150, 'Deposit successful.')
+    >>> deposit(100, -10)
+    Traceback (most recent call last):
+        ...
+    ValueError: Amount must be a positive number.
+    >>> deposit(100, 'fifty')
+    Traceback (most recent call last):
+        ...
+    TypeError: Amount must be a number.
     """
-    if not isinstance(amount, (float, int)) or amount <= 0:
-        return balance, "Invalid amount! Please enter a positive number."
-    return balance + amount, "Deposit successful."
+    if not isinstance(amount, (int, float)):
+        raise TypeError("Amount must be a number.")
+    if amount < 0:
+        raise ValueError("Amount must be a positive number.")
+    balance += amount
+    return balance, "Deposit successful."
 
 
-def withdraw(balance, amount):
+def withdraw(balance: float, amount: float) -> tuple[float, str]:
+    """Withdraw a specified amount from the user's account.
+    >>> withdraw(100, 50)
+    (50, 'Withdrawal successful.')
+    >>> withdraw(50, 50)
+    (0, 'Withdrawal successful.')
+    >>> withdraw(50, 60)
+    (50, 'Insufficient balance.')
+    >>> withdraw(100, -10)
+    Traceback (most recent call last):
+        ...
+    ValueError: Amount must be a positive number.
+    >>> withdraw(100, 'fifty')
+    Traceback (most recent call last):
+        ...
+    TypeError: Amount must be a number.
     """
-    Withdraw a specified amount from the user's account.
-
-    Parameters:
-        balance (float): The current balance in the user's account.
-        amount (float): The amount to withdraw.
-
-    Returns:
-        float: The updated balance after withdrawal.
-        str: An error message if the operation is invalid.
-    """
+    if amount <= 0:
+        raise ValueError("Amount must be greater than 0.")
     if amount > balance:
         return balance, "Insufficient balance."
-    elif amount <= 0:
-        return balance, "Amount must be greater than 0."
     return balance - amount, "Withdrawal successful."
 
 
 def main():
-    """
-    Main function to operate the ATM system.
-
-    Allows the user to perform actions such as checking balance, depositing funds,
-    withdrawing funds, or exiting the system. Repeats until the user chooses to exit.
-    """
+    """Main function to operate the ATM system."""
     balance = 0.0
 
     while True:
@@ -78,33 +89,26 @@ def main():
 
         try:
             choice = int(input("\nEnter your choice: "))
-
             if choice == 1:
                 print(show_balance(balance))
             elif choice == 2:
-                try:
-                    amount = float(input("Enter an amount to deposit: "))
-                    balance, message = deposit(balance, amount)
-                    print(message)
-                except ValueError:
-                    print("Invalid input! Please enter a numerical value.")
+                amount = float(input("Enter an amount to deposit: "))
+                balance, message = deposit(balance, amount)
+                print(message)
             elif choice == 3:
+                amount = float(input("Enter an amount to withdraw: "))
                 try:
-                    amount = float(input("Enter an amount to withdraw: "))
                     balance, message = withdraw(balance, amount)
                     print(message)
-                except ValueError:
-                    print("Invalid input! Please enter a numerical value.")
+                except ValueError as e:
+                    print(e)
             elif choice == 4:
-                print(
-                    "Thank you for choosing WIT International Bank.\nThe Bank that you can always rely on."
-                )
+                print("Thank you for choosing WIT International Bank.")
                 break
             else:
-                print("That is not a valid choice.")
-
+                print("Invalid choice. Please choose between 1 and 4.")
         except ValueError:
-            print("Invalid input! Please enter a number between 1 and 4.")
+            print("Invalid input! Please enter a valid number.")
 
 
 if __name__ == "__main__":

@@ -22,6 +22,7 @@ Each member brings something special to the table.
 - **WuorBhang**: Like comedy! making people laugh 😃
 - **Novel Yonas**: I can spend 8 hrs in GYM
 - **Hasan**: I breath Cyber Secur1ty 🥷🏼🛡💻
+- **Cynthia**: Crafting solutions, one line of code at a time. 💻✨
 
 ## About This Repository
 

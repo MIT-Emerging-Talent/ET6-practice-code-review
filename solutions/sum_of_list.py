@@ -5,6 +5,8 @@ Created on 05 01 2025
 @author: Eman Alfalouji.
 
 """
+
+
 def sum_of_list(numbers):
     """
     Calculate the sum of a list of numbers.
@@ -18,7 +20,7 @@ def sum_of_list(numbers):
     Raises:
         TypeError: If the input is not a list.
         ValueError: If any element in the list is not an int or float.
-        
+
     Examples :
         >>> sum_of_list([1,2,5])
         The sum of the list is:8
@@ -36,6 +38,7 @@ def sum_of_list(numbers):
     if not all(isinstance(num, (int, float)) for num in numbers):
         raise ValueError("All elements in the list must be int or float.")
     return sum(numbers)
+
 
 if __name__ == "__main__":
     try:

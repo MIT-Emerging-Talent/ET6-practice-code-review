@@ -75,5 +75,5 @@ team communication
 constraints  
 - **[`learning_goals.md`](collaboration/learning_goals.md)** – Shared learning
 goals  
-- **[`retrospective.md`](collaboration/retrospective.md)** – Retrospective  
-  reports to improve collaboration
+- **[`retrospective.md`](collaboration/retrospective.md)** – Retrospective
+reports to improve collaboration

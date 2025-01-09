@@ -1,6 +1,7 @@
-# Solutions
+# Count the Prime Numbers in a List
 
-##Challenge Overview
+Challenge Overview:
+
 The goal of this challenge is to count how many prime numbers are present in a given list of integers. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
 
 ### Steps to Solve

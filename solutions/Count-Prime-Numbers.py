@@ -9,6 +9,7 @@ Created on: 09/01/25
 """
 
 def is_prime(n: int) -> bool:
+    
     r"""
     Checks if a given number is prime.
 
@@ -45,6 +46,7 @@ def is_prime(n: int) -> bool:
 
 
 def count_primes(numbers: list) -> int:
+    
     r"""
     Counts the number of prime numbers in a list.
 

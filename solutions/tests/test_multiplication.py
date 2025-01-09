@@ -4,7 +4,7 @@ from ..multiplication import multiplication
 
 class TestMultiplication(unittest.TestCase):
     """
-    Unit tests for the `reversed_positive_number` function.
+    Unit tests for the `multiplication` function.
     """
 
     def test_multiply_3_num_with_single_digit(self):

@@ -14,7 +14,7 @@ together effectively to achieve success.
 
 ## Meet the Team
 
-Each member brings something special to the table.
+ach member brings something special to the table.
 
 - [**Ava:**](https://github.com/ciiyaa) Turning coffee into code ☕➡️💻
 - [**Saeed:**](https://github.com/Saeed-Emad) Every mistake is progress,
@@ -33,12 +33,27 @@ Each member brings something special to the table.
 
 ## About This Repository
 
-This repository serves as a centralized hub for contributing Python solutions to
-various coding challenges and implementing robust test cases to ensure their
-accuracy and reliability.
+This repository features a variety of **Python** solutions tackling
+challenges like math computations, string processing, geometry, and logical operations.
+Each solution includes comprehensive tests, both _unittests_
+and inline _doctests_, to ensure reliability.
 
 Inside `solutions/` folder each file is designed to be modular and concise,
 addressing a specific problem.
 
 The `solutions/tests/` folder contains unit tests for each solution
 Tests ensure that the solutions are accurate and can handle various edge cases.
+
+## Running Tests
+
+Run unit tests from the root with:
+
+`python -m unittest discover -v`
+
+_Doctests_ are embedded within the scripts and can be run directly in
+**Python** for quick checks.
+
+## License
+
+This project is licensed under the MIT License.
+For more details, see the `LICENSE` file.

@@ -7,7 +7,7 @@ Author: Safaa Osman
 """
 
 
-def Time_Conversion(EST_Time: str) -> str:
+def Time_Conversion(est_time: str) -> str:
     """Returns a time in Arabia Standard Time zone (AST)
 
     Takes input time in the format HH:MM (24-hours format) and returns
@@ -19,7 +19,7 @@ def Time_Conversion(EST_Time: str) -> str:
     Returns -> str: time in AST in the format 24 hour
 
     Raises:
-        AssertionError: if the input is not a string
+        TypeError: if the input is not a string
         AssertionError: if the hours are not between the boundary of (0-23)
         AssertionError: if the minutes are not between the boundary of (0-59)
         AssertionError: if the input is empty string
@@ -37,16 +37,23 @@ def Time_Conversion(EST_Time: str) -> str:
 
 
     """
-    assert EST_Time != "", "input should be a time in HH:MM format"
+    assert est_time != "", "input should be a time in HH:MM format"
 
-    assert isinstance(EST_Time, str), "The input must be string"
+    assert isinstance(est_time, str), "The input must be string"
 
     # split the input to hours and minutes in integers
-    hours, minutes = map(int, EST_Time.split(":"))
+    hours, minutes = est_time.split(":")
+    assert hours.isdigit(), "hours must be integers"
+    assert minutes.isdigit(), "minutes must be integers"
+
+    hours = int(hours)
+    minutes = int(minutes)
 
     # Assert boundary
-    assert 0 <= hours <= 23, "hours must be between 0 and 23"
-    assert 0 <= minutes <= 59, "minutes must be between 0 and 59"
+    if not (0 <= hours <= 23):
+        raise ValueError("hours must be between 0 and 23")
+    if not (0 <= minutes <= 59):
+        raise ValueError("minutes must be between 0 and 59")
 
     hours += 8
 

@@ -28,7 +28,9 @@ def modulus(a: float, b: float) -> float:
     ValueError: If the denominator is zero.
     """
     if b == 0:
-        raise ValueError("The denominator (b) cannot be zero.")
+        raise ValueError(
+            "The numerator and denominator can be any real numbers except the denominator cannot be zero."
+        )
 
     remainder = a % b
     # Adjust the result to match the dividend's sign

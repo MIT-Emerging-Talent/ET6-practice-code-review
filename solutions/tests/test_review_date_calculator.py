@@ -3,7 +3,8 @@
 """
 Unit test class for the `calculate_review_days` function.
 
-This class contains test cases to validate the functionality and edge cases of the
+This class contains test cases to validate the functionality
+and edge cases of the
 `calculate_review_days` function, ensuring it handles various input scenarios correctly
 and produces the expected output for spaced repetition review schedules.
 
@@ -11,7 +12,9 @@ The test suite aims to comprehensively cover the function's behavior, including:
 - Correctness of the calculated review days.
 - Proper handling of month transitions.
 """
+
 import unittest
+
 from solutions.review_date_calculator import calculate_review_days
 
 

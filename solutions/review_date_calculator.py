@@ -11,7 +11,8 @@ Created on 07/01/2025
 @author: Novel Yonas
 
 Spaced Repetition Review Calculator:
-This module provides functionality to calculate review days for a spaced repetition
+This module provides functionality to calculate review days
+for a spaced repetition
 learning technique. It determines the next four review days based on an initial
 study day, with each subsequent review spaced at double the interval of the previous one.
 

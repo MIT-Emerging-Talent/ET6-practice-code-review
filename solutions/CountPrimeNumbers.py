@@ -6,8 +6,6 @@ The goal of this challenge is to count how many prime numbers are present in a g
   Created on: 09/01/25
 @author: Zeinab Shadabshoar
 """
-
-
 f is_prime(n: int) -> bool:
     """
     Checks if a given number is prime.

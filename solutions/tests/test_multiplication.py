@@ -12,7 +12,7 @@ Test categories:
 
 import unittest
 
-from ..multiplication import multiply_numbers
+from solutions.multiplication import multiply_numbers
 
 
 class TestMultiplyNumbers(unittest.TestCase):

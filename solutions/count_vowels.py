@@ -29,10 +29,14 @@ def count_vowels(text: str) -> int:
     >>> count_vowels("why")
     0
     """
+
     assert isinstance(text, str), "input must be a string"
+
     vowels = "aeiouAEIOU"
     count = 0
+
     for letter in text:
         if letter in vowels:
             count += 1
+
     return count

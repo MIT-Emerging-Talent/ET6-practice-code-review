@@ -13,6 +13,15 @@ from solutions.count_vowels import count_vowels
 
 
 class TestCountVowels(unittest.TestCase):
+    """
+    Unit test class for testing the functionality of the count_vowels function.
+    
+    The count_vowels function calculates the number of vowels in a given string.
+    This test class includes multiple test cases to ensure the function behaves
+    correctly for various input scenarios, including edge cases and typical use cases.
+    """
+    
+    
     def test_empty_string(self):
         """Test that an empty string returns 0 vowels."""
         self.assertEqual(count_vowels(""), 0)
@@ -37,6 +46,6 @@ class TestCountVowels(unittest.TestCase):
         """
         self.assertEqual(count_vowels("12345!@#$%"), 0)
 
-
+#Run all the test cases
 if __name__ == "__main__":
     unittest.main()

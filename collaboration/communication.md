@@ -30,14 +30,12 @@ ______________________________________________________________________
 
 + **Issues:**
   - **Occurrence:** Whenever necessary  
-  - **Topic:**
-    - Tracking challenges and documentation  
+  - **Topic:** Tracking challenges and documentation  
     - Adding tag labels: Documentation, Challenge, Error, Bug, etc.  
 
 + **Pull Requests:**
   - **Occurrence:** Notifying team through Slack and WhatsApp  
-  - **Topic:**  
-    - Reviewing codes and documentation  
+  - **Topic:**  Reviewing codes and documentation  
     - Ensuring at least one team member approves before merging  
 
 ______________________________________________________________________
@@ -46,12 +44,10 @@ ______________________________________________________________________
 
 ### Availability for calling/messaging/meetings
 
-+ **Time:**  
-  **After 12 PM EST**  
++ **Time:**  **After 12 PM EST**  
   _To accommodate all members._  
 
-+ **Next Meetings:**  
-  _Scheduled during the prior meeting._  
++ **Next Meetings:**   _Scheduled during the prior meeting._  
   _If unscheduled: Coordinated via WhatsApp or
   Slack for all team members._
 
@@ -65,11 +61,8 @@ ______________________________________________________________________
 
 Document your challenge _tag_ to ensure clarity when seeking help.  
 
-+ **Step 1:** _0 -> 30 min_:  
-  Give it your best shot solo!  
-+ **Step 2:** _1 hour_:  
-  Call in the crew!  
-+ **Step 3:** _One Day_:  
-  Time to signal the experts on Slack or GitHub.  
++ **Step 1:** _0 -> 30 min_: Give it your best shot solo!  
++ **Step 2:** _1 hour_:  Call in the crew!  
++ **Step 3:** _One Day_:  Time to signal the experts on Slack or GitHub.  
 
 <!-- markdownlint-enable -->

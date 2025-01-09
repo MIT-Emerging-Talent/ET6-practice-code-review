@@ -18,18 +18,15 @@ from solutions.count_vowels import count_vowels
 class TestCountVowels(unittest.TestCase):
     """Test cases for count_vowels function."""
 
-    def test_empty_string(self):
-        """It should return 0 for an empty string."""
-        self.assertEqual(count_vowels(""), 0)
-
+    # Standard Cases
     def test_no_vowels(self):
         """It should return 0 for a string with no vowels."""
         self.assertEqual(count_vowels("fly"), 0)
-
+        
     def test_all_vowels(self):
         """It should handle all uppercase and lowercase vowels."""
         self.assertEqual(count_vowels("aeiouAEIOU"), 10)
-
+    
     def test_uppercase_vowels(self):
         """It should count uppercase vowels in the string."""
         self.assertEqual(count_vowels("SMALL"), 1)
@@ -37,6 +34,11 @@ class TestCountVowels(unittest.TestCase):
     def test_lowercase_vowels(self):
         """It should count lowercase vowels in the string."""
         self.assertEqual(count_vowels("small"), 1)
+        
+    # Edge Cases   
+    def test_empty_string(self):
+        """It should return 0 for an empty string."""
+        self.assertEqual(count_vowels(""), 0)
 
     def test_mixed_case_vowels(self):
         """It should count both uppercase and lowercase vowels in a string."""
@@ -45,7 +47,8 @@ class TestCountVowels(unittest.TestCase):
     def test_repeated_vowels(self):
         """It should count all repeated vowels in a string."""
         self.assertEqual(count_vowels("aaeeiioouuAAEEIIOOUU"), 20)
-
+        
+    # Special Cases
     def test_alphanumeric_string(self):
         """It should count vowels in alphanumeric strings, ignoring digits."""
         self.assertEqual(count_vowels("fatima123Malik"), 5)
@@ -58,6 +61,7 @@ class TestCountVowels(unittest.TestCase):
         """It should count vowels even if the string contains spaces."""
         self.assertEqual(count_vowels("hello world"), 3)
 
+    # Defensive Cases
     def test_invalid_input(self):
         """Test that raises assertion error for non-string input."""
         with self.assertRaises(AssertionError):

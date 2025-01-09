@@ -11,7 +11,7 @@ Created on: 2025-07-06
 
 
 def count_vowels(text: str) -> int:
-    """Count the number of vowels (a,e,i,o,u) in a string.
+    """Returns the number of vowels (both uppercase and lowercase) in a string.
 
     Parameters:
         text: str, the input string to check

@@ -22,13 +22,13 @@ class TestKthLargest(unittest.TestCase):
     def test_normal_case(self):
         """It should return the correct kth largest element"""
         actual = kth_largest(["3", "2", "1", "5", "6", "4"], 2)
-        expected = "5"  # The result should be a string
+        expected = "5"
         self.assertEqual(actual, expected)
 
     def test_duplicate_elements(self):
         """It should return the correct kth largest element"""
         actual = kth_largest(["3", "2", "3", "1", "2", "4", "5", "5", "6"], 4)
-        expected = "4"  # The result should be a string
+        expected = "4"
         self.assertEqual(actual, expected)
 
     def test_k_is_one(self):
@@ -38,7 +38,7 @@ class TestKthLargest(unittest.TestCase):
         self.assertEqual(actual, expected)
 
     # EDGE CASES
-    def test_k_is_greater_than_list_length(self):
+    def test_k_equal_list_length(self):
         """It should return the smallest element in the list"""
         actual = kth_largest(["3", "2", "3", "1", "2", "4", "5", "5", "6"], 9)
         expected = "1"
@@ -70,21 +70,21 @@ class TestKthLargest(unittest.TestCase):
 
     # DEFENSIVE CASES
     def test_zero_case(self):
-        """It should raise an IndexError for an empty list"""
-        with self.assertRaises(IndexError):  # Expect an error for empty list input
+        """It should raise an AssertionError for an empty list"""
+        with self.assertRaises(AssertionError):
             kth_largest([], 1)
 
-    # WhyIndexError?: there's no element at position 0.
-
     def test_non_numeric_strings(self):
-        """It should raise a ValueError if non-numeric strings are included"""
-        with self.assertRaises(ValueError):
+        """It should raise a AssertionError if non-numeric strings are included"""
+        with self.assertRaises(AssertionError):
             kth_largest(["apple", "banana", "cherry"], 2)
 
     def test_k_is_negative(self):
-        with self.assertRaises(IndexError):
+        """It should raise a AssertionError if k is negative"""
+        with self.assertRaises(AssertionError):
             kth_largest(["3", "2", "3", "1", "2", "4", "5", "5", "6"], -1)
 
     def test_k_is_zero(self):
-        with self.assertRaises(IndexError):
+        """It should raise a AssertionError if k is zero"""
+        with self.assertRaises(AssertionError):
             kth_largest(["3", "2", "3", "1", "2", "4", "5", "5", "6"], 0)

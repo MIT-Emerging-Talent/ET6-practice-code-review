@@ -10,7 +10,7 @@ Author: Ahd Abdelrahim
 """
 
 
-def kth_largest(nums, k):
+def kth_largest(nums: list, k: int) -> str:
     """
     Return the string that represents the kth largest integer in nums.
 
@@ -22,8 +22,7 @@ def kth_largest(nums, k):
         str: The string representation of the kth largest integer in the list.
 
     Raises:
-        ValueError: If any element in nums is not a valid integer string.
-        IndexError: If k is less than 1 or greater than the length of nums.
+        AssertionError: If the input list is empty, k is not an integer, or k is out of bounds.
 
     Examples:
     >>> kth_largest(["3", "2", "1", "5", "6", "4"], 2)
@@ -35,24 +34,13 @@ def kth_largest(nums, k):
     >>> kth_largest(["3", "2", "3", "1", "2", "4", "5", "5", "6"], 9)
     '1'
 
-    >>> kth_largest([], 1)
-    Traceback (most recent call last):
-    IndexError: k must be between 1 and the length of the list
     """
-
-    # Ensure the requested position (k) is valid to avoid accessing elements
-    # outside the list's bounds
-    if not 1 <= k <= len(nums):
-        raise IndexError("k must be between 1 and the length of the list")
-
-    # Validate and convert the input list to integers for accurate comparison and sorting
-    try:
-        nums = sorted([int(num) for num in nums], reverse=True)
-    except ValueError as exc:
-        raise ValueError(
-            "All elements in the list must be valid integers as strings."
-        ) from exc
-
-    # Sorting in descending order simplifies finding the kth largest element by its position
-    # Convert the result back to a string to match the input format
-    return str(nums[k - 1])
+    # Ensure correct input
+    assert isinstance(nums, list) and len(nums) > 0, "Must be non-empty list"
+    assert all(num.isdigit() for num in nums), "All must be digits only"
+    assert all(num[0] != "0" for num in nums), "No leading zeros"
+    assert 1 <= k <= len(nums), "k must be in range of length of list"
+    # Sort numbers as integers in reverse order
+    nums = sorted(nums, key=int, reverse=True)
+    # Return Kth number after sorting
+    return nums[k - 1]

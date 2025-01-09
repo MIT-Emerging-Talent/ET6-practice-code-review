@@ -46,7 +46,7 @@ def longest_substring(s: str) -> int:
     assert isinstance(s, str), "Given input must be a string."
 
     # Assert that the string length is within the allowed limit
-    assert 0 <= len(s) <= 5 * 10**4, "Input length must be between 0 and 50,000 chars."
+    assert 0 <= len(s) <= 5 * 10**4, "Input length must be between 0 and 50 000 chars."
 
     # Use a sliding window strategy to track unique characters in the current substring
     char_set = set()

@@ -17,15 +17,6 @@ def vowel_counter(text) -> int:
 
     Vowels are considered to be 'a', 'e', 'i', 'o', 'u' (both lowercase and uppercase).
 
-    Strategy:
-    - First, ensure the input is valid:
-        - Check that the input is a string.
-        - Ensure the input is not empty.
-    - Then, iterate through the string to count vowels:
-        - Convert the string to lowercase for consistent comparison.
-        - Check each character against the list of vowels.
-    - Finally, return the total number of vowels found.
-
     Parameters:
         text (str): The input string to count vowels in.
         The purpose of this argument is to provide the text where the vowels (a, e, i, o, u) are searched for.

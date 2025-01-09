@@ -17,3 +17,26 @@ and develop strong **asynchronous development workflows**.
 
 You can learn more about the **learning goals** for this project by checking  
 out **[`learning_goals.md`](collaboration/learning_goals.md)**.
+
+## **Folder Structure**
+
+The repository is structured to keep the solutions and tests organized,
+making it easier to maintain and review the code.
+
+```text
+solutions/
+│
+├── [solution files]        # Python functions solving coding challenges
+├── README.md               # Project documentation
+└── tests/
+    └── [test files]         # Unit tests for corresponding solutions
+```
+
+- The **`solutions/`** folder contains the implementations of the  
+  coding challenges.
+- The **`tests/`** folder contains the corresponding unit tests for each  
+  solution to ensure correctness and handle standard, edge, and defensive cases.
+
+The folder structure supports a **test-driven development (TDD) approach**,  
+ensuring that every solution is tested and verified for various scenarios  
+before being finalized.

@@ -32,6 +32,7 @@ The goal of this challenge is to count how many prime numbers are present in a g
 -------------------------------------------------------------------------------------
 
 def is_prime(n):
+    """Check if a number is prime."""
     if n <= 1:
         return False
     for i in range(2, int(n**0.5) + 1):
@@ -40,11 +41,12 @@ def is_prime(n):
     return True
 
 def count_primes(numbers):
+    """Count the number of prime numbers in a list."""
     prime_count = 0
     for num in numbers:
         if is_prime(num):
             prime_count += 1
     return prime_count
-  
+
 numbers = [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
 print("Number of prime numbers:", count_primes(numbers))

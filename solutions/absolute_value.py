@@ -37,7 +37,7 @@ def absolute_value(number: float) -> float:
     """
     # the number should be an integer or float
     if not isinstance(number, (int, float)):
-        raise TypeError("The input must be an int or float")
+        raise TypeError(f"The input: {number} must be an int or float")
 
     # Return the absolute value
     return number if number >= 0 else -number

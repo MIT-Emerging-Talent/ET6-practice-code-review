@@ -44,9 +44,9 @@ def grading_system(score: int | float) -> str:
 
     """
 
-    assert isinstance(
-        score, (int, float)
-    ), "The score is neither an integer nor a float."
+    assert isinstance(score, (int, float)), (
+        "The score is neither an integer nor a float."
+    )
     assert score >= 0, "Score is less than 0"
     assert score <= 100, "Score is greater than 100"
 

@@ -1,4 +1,5 @@
 # Find All Prime Numbers Up to N
+
 ## Challenge Overview
 Identify all prime numbers up to a given integer \( N \). A prime number is greater than 1 and only divisible by 1 and itself.
 
@@ -24,3 +25,4 @@ Identify all prime numbers up to a given integer \( N \). A prime number is grea
 
 3. **Collect Prime Numbers**:
    - Use the function to collect primes up to \( N \).
+

@@ -10,6 +10,7 @@ Author: Zeinab Shadabshoar
 
 
 def is_prime(n: int) -> bool:
+    
     r"""
     Checks if a given number is prime.
 
@@ -33,6 +34,7 @@ def is_prime(n: int) -> bool:
     return True
 
 def find_primes_up_to_n(n: int) -> list:
+    
     r"""
     Finds all prime numbers up to the given number \( N \).
 

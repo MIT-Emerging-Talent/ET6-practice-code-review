@@ -1,25 +1,30 @@
-""""
-## Challenge Overview
-Identify all prime numbers up to a given integer \( N \). A prime number is greater than 1 and only divisible by 1 and itself.
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+This module defines the function `find_primes_up_to_n` to identify all prime numbers 
+up to a given integer \( N \). A prime number is greater than 1 and divisible only by 1 and itself.
 
- Steps to Solve
-1. Understand Prime Numbers:
-   - Prime numbers: 2, 3, 5, 7, 11, etc.
-
-2. Input:
-   - Single integer \( N \), e.g., \( N = 20 \).
-
-3. **Output**:
-   - List of primes up to \( N \), e.g., [2, 3, 5, 7, 11, 13, 17, 19].
-
-  Created on: 09/01/25
-@author: Zeinab Shadabshoar
-----------------------------------------------------------------------------------------------------------------------------------------
-""""
+Author: Zeinab Shadabshoar
+Date: 09 01 2025
+"""
 
 
-def is_prime(n):
-    """Check if a number is prime."""
+def is_prime(n: int) -> bool:
+    """
+    Checks if a given number is prime.
+
+    Parameters:
+        n (int): The number to check.
+
+    Returns:
+        bool: True if the number is prime, False otherwise.
+
+    Examples:
+        >>> is_prime(2)
+        True
+        >>> is_prime(4)
+        False
+    """
     if n <= 1:
         return False
     for i in range(2, int(n**0.5) + 1):
@@ -27,8 +32,20 @@ def is_prime(n):
             return False
     return True
 
-def find_primes_up_to_n(n):
-    """Find all prime numbers up to n."""
+def find_primes_up_to_n(n: int) -> list:
+    """
+    Finds all prime numbers up to the given number \( N \).
+
+    Parameters:
+        n (int): The upper limit to find primes up to.
+
+    Returns:
+        list: A list of all prime numbers up to \( N \).
+
+    Examples:
+        >>> find_primes_up_to_n(20)
+        [2, 3, 5, 7, 11, 13, 17, 19]
+    """
     primes = []
     for num in range(2, n + 1):
         if is_prime(num):

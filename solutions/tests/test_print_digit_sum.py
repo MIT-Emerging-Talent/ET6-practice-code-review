@@ -11,6 +11,7 @@ import unittest
 
 from ..print_digit_sum import print_digit_sum
 
+
 class TestPrintDigitSum(unittest.TestCase):
     """Test the print_digit_sum function"""
 
@@ -40,6 +41,7 @@ class TestPrintDigitSum(unittest.TestCase):
         """It should raise an assertion error if the argument is not an integer"""
         with self.assertRaises(AssertionError):
             print_digit_sum(1.0)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -65,18 +65,18 @@ contribute:
 
 ## Team Composition
 
-| **Name**               | **Role**               | **Email**                   |
+| **Name**               | **Role**               | **Username / Profile**                   |
 |-------------------------|------------------------|-----------------------------|
-| Yurii Spizhovyi         | Developer, Reviewer   | <spizhov22y@gmail.com>       |
-| Alemayehu Kiros         | Developer, Reviewer   | <alemayehu8363@gmail.com>    |
-| Khadija al Ramlawi      | Developer, Reviewer   | <kalramlawi@gmail.com>       |
-| Henry Ogoe              | Developer, Reviewer   | <djokwa@gmail.com>           |
-| Suhrob Muborakshoev     | Developer, Reviewer   | <suhrob.m89@gmail.com>       |
-| Mithchell Cenatus       | Developer, Reviewer   | <mlawenskycenatus@gmail.com> |
-| Olumide Kolawole        | Developer, Reviewer   | <olumidekolawole26@gmail.com>|
-| Mykyta Kondratiev       | Developer, Reviewer   | <kondratiev.mikita@gmail.com>|
-| Dmytro Klymenko         | Developer, Reviewer   | <dmtrklymenko05@gmail.com>   |
-| Manezhah Mohmand        | Developer, Reviewer   | <mohmandmanezha@gmail.com>   |
+| Yurii Spizhovyi         | Developer, Reviewer   | [yuri-spizhovyi-mit][link-1]|
+| Alemayehu Kiros         | Developer, Reviewer   | [Alemayehu-Desta][link-2]|
+| Khadija al Ramlawi      | Developer, Reviewer   | [Khadijaramlawi][link-3]|
+| Henry Ogoe              | Developer, Reviewer   | [Djokwa][link-4]|
+| Suhrob Muborakshoev     | Developer, Reviewer   | [suhrobmuboraksho][link-5]|
+| Mithchell Cenatus       | Developer, Reviewer   | [Mithchell509][link-6] |
+| Olumide Kolawole        | Developer, Reviewer   | [olumide-AI][link-7] |
+| Mykyta Kondratiev       | Developer, Reviewer   | [Mykytako][link-8]|
+| Dmytro Klymenko         | Developer, Reviewer   | [Papsik09][link-9]|
+| Manezhah Mohmand        | Developer, Reviewer   | [Manezhahm][link-10] |
 
 ---
 
@@ -140,48 +140,47 @@ contribute:
 │           12_24_2024_meeting_minute.md
 │
 └───solutions
-    │   README.m
-    │       solution_1.py
-    │       solution_2.py
-    │       solution_3.py
-    │       solution_4.py
-    │       solution_5.py
-    │       solution_6.py
-    │       solution_7.py
-    │       solution_8.py
-    │       solution_9.py
-    │       solution_10.py
-    │       solution_11.py
-    │       solution_12.py
-    │       solution_13.py
-    │       solution_14.py
-    │       solution_15.py
-    │       solution_16.py
-    │       solution_17.py
-    │       solution_18.py
-    │       solution_19.py
-    │       solution_20.py
+    │   add_two_numbers.py
+    │   binary_to_decimal.py
+    │   calculate_and_classify_bmi.py
+    │   calculate_median.py
+    │   capitalize_character.py
+    │   convert_fahrenheit_to_celsius.py
+    │   count_character_occurrences.py
+    │   count_vowels.py
+    │   days_passed_2025.py
+    │   emoji_sentiment.py
+    │   even_numbers.py
+    │   find_max_in_list.py
+    │   is_palindrome.py
+    │   README.md
+    │   repeat_characters.py
+    │   sum_odd_numbers.py
+    │   sum_of_digits.py
+    │   weight_conversion.py
+    │   __init__.py
+    │
     └───tests
-        │       test_solution_1.py
-        │       test_solution_2.py
-        │       test_solution_3.py
-        │       test_solution_4.py
-        │       test_solution_5.py
-        │       test_solution_6.py
-        │       test_solution_7.py
-        │       test_solution_8.py
-        │       test_solution_9.py
-        │       test_solution_10.py
-        │       test_solution_11.py
-        │       test_solution_12.py
-        │       test_solution_13.py
-        │       test_solution_14.py
-        │       test_solution_15.py
-        │       test_solution_16.py
-        │       test_solution_17.py
-        │       test_solution_18.py
-        │       test_solution_19.py
-        │       test_solution_20.py
+            README.md
+            test_add_two_numbers.py
+            test_binary_to_decimal.py
+            test_calculate_and_classify_bmi.py
+            test_calculate_median.py
+            test_capitalize_character.py
+            test_convert_fahrenheit_to_celsius.py
+            test_count_character_occurrences.py
+            test_count_vowels.py
+            test_days_passed_2025.py
+            test_emoji_sentiment.py
+            test_even_numbers.py
+            test_find_max_in_list.py
+            test_is_palindrome.py
+            test_kilograms_to_pounds.py
+            test_pounds_to_kilogram.py
+            test_repeat_characters.py
+            test_sum_odd_numbers.py
+            test_sum_of_digits.py
+    
 ```
 
 </details>
@@ -200,7 +199,7 @@ contribute:
 
 ```bash
 git clone https://github.com/MIT-Emerging-Talent/ET6-foundations-group-01.git
-cd Group-Code-Review
+cd ET6-foundations-group-01
 ```
 
 ### Run Tests
@@ -213,7 +212,7 @@ unittest /tests
 
 ## Roles and Responsibilities
 
-- **Developer and Reviewer:** Yuriy Spizhovy
+- **Developer and Reviewer:** Yurii Spizhovyi
   - Develop and review code submissions.
   - Ensure adherence to project guidelines.
 - **Developer and Reviewer:** Suhrob Muborakshoev, Mithchell Cenatus
@@ -292,3 +291,15 @@ A task is complete when:
 ---
 
 For further details, visit the project [repository](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-01).
+
+
+[link-1]: https://github.com/yuri-spizhovyi-mit
+[link-2]: https://github.com/Alemayehu-Desta
+[link-3]: https://github.com/Khadijaramlawi
+[link-4]: https://github.com/Djokwa
+[link-5]: https://github.com/suhrobmuboraksho
+[link-6]: https://github.com/Mithchell509
+[link-7]: https://github.com/olumide-AI
+[link-8]: https://github.com/Mykytako
+[link-9]: https://github.com/Papsik09
+[link-10]: https://github.com/Manezhahm

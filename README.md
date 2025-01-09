@@ -53,6 +53,7 @@ Below is a list of the current solutions available:
 | [`is_prime.py`](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/26) | Check if a number is prime.                              |
 | [`longest_substring.py`](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/44) | Find the length of the longest substring without repeating characters. |
 | [`max_profit.py`](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/22) | Calculate the maximum profit from buying and selling a stock. |
+| [`subtract_two_numbers.py`](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-05/issues/23) | Return the difference between two numbers. |
 
 Each solution is accompanied by test cases in the  
 **[`solutions/tests`](solutions/tests/)** folder.

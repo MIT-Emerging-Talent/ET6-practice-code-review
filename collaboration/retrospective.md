@@ -193,3 +193,6 @@ might not be clear enough for my teammates during reviews.
   productivity and ensures timely completion of tasks.
 - **Continuous Learning**: It's crucial to stay updated with
   new tools and techniques and to be patient with the learning process.
+
+# Retrospective - Abdul Qader Dost
+

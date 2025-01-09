@@ -12,7 +12,8 @@ Identify all prime numbers up to a given integer \( N \). A prime number is grea
 3. **Output**:
    - List of primes up to \( N \), e.g., [2, 3, 5, 7, 11, 13, 17, 19].
 
-
+  Created on: 09/01/25
+@author: Zeinab Shadabshoar
 ----------------------------------------------------------------------------------------------------------------------------------------
 """"
 

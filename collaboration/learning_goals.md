@@ -1,8 +1,8 @@
 # Collaboration and Learning Goals
 
-## 🎯 **Project Objectives**
+## 🎯 **Project Purpose**
 
-The primary objective of this project is to foster teamwork and enhance problem-solving
+The primary purpose of this project is to foster teamwork and enhance problem-solving
 skills by tackling coding challenges in a collaborative environment.
 The team will use **GitHub** as the main platform to practice efficient collaboration,
 code review, and version control.
@@ -33,7 +33,8 @@ by addressing challenges positively. We will focus on:
 ## 👥 **Individual Learning Goals**
 
 - **Salih’s Goal**: Develop effective collaboration skills, enabling seamless
-teamwork within diverse groups to achieve project outcomes beyond individual efforts.
+teamwork within diverse groups to achieve project outcomes beyond individual efforts
+while strengthening coding skills.
 - **Ghyath’s Goal**: Strengthen programming habits by focusing on
 **documentation and testing**, with a particular emphasis on **TDD**.
 - **Ahd’s Goal**: Practice delivering more **complete, readable,**

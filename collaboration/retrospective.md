@@ -276,3 +276,41 @@ to just push my code after changing and the unexpected keep resisting me.
 
 I had to my add some things in my code during the review that were not part of
 my initial strategy. Like the edge cases in my add-function.
+
+# Retrospective - Abdul Qader Dost
+
+## Things I'll Stop Doing Moving Forward
+
+- **Procrastination**: I'll stop putting off tasks that I can tackle right away.
+- **Underestimating Deadlines**: I'll stop assuming I have more time than I
+actually do to complete tasks.
+
+## Things I'll Start/Continue Doing Moving Forward
+
+- **Proactive Communication**: I'll keep the team updated on my progress and
+reach out for help whenever I'm stuck.
+- **Action Over Stress**: Instead of stressing out or overthinking a task, I'll
+focus on taking small actions to move forward.
+- **Collaborative Reviews**: I'll continue giving helpful feedback to my teammates
+and asking for feedback on my work to improve quality.
+- **Structured Workflow**: I'll stick to a clear Git workflow with regular commits
+and detailed pull requests to keep things organized.
+- **Team Support**: I'll stay available to help my teammates and offer support
+when needed.
+- **Time Blocking**: I'll try to plan my work better by allocating dedicated time
+for focused tasks.
+- **Prioritizing Tasks**: I'll focus on the most urgent and impactful tasks first
+to make sure I'm working on the right things.
+- **Building Soft Skills**: I'll keep working on improving skills like negotiation,
+adaptability, and conflict resolution to help the team function better.
+- **Post-Task Reflection**: After each task, I'll take a moment to reflect on what
+went well and what could be improved.
+- **Knowledge Sharing**: I'll share insights and helpful techniques I pick up with
+my team to help everyone grow together.
+
+## Reflection
+
+Having a structure and clear communication is really important. It helps me stay
+on track and be more productive. Working with the team is not only productive,
+but also really educational - we learn a lot from each other. The key takeaway?
+Teamwork and effective communication really make a difference in achieving success.

@@ -4,6 +4,8 @@ ______________________________________________________________________
 
 ## Communication Schedule
 
+<!-- markdownlint-disable MD013 MD004 -->
+
 | **Day**   | **How**      | **Topic of Discussion**                  | **Link**                                      |
 |-----------|--------------|------------------------------------------|----------------------------------------------|
 | 20/12/24  | Google Meet  | Introduction and Group Norms for MIT Alpha | [Meeting Minutes 01](notes/meeting_minutes/01_meeting_minutes.md) |
@@ -11,7 +13,7 @@ ______________________________________________________________________
 | 27/12/24  | Google Meet  | ET CI Checks                              | [Meeting Minutes 03](notes/meeting_minutes/03_meeting_minutes.md) |
 | 31/12/24  | Google Meet  | ET CI Checks Project Board and Issues     | [Meeting Minutes 04](notes/meeting_minutes/04_meeting_minutes.md) |
 | 08/01/25  | Google Meet  | Project Board and Collaboration file revision | [Meeting Minutes 05](notes/meeting_minutes/05_meeting_minutes.md) |
-| 10/01/25  | Google Meet  | Group Checklist and Retrospective         | [Pending...]                                  |
+| 10/01/25  | Google Meet  | Group Checklist and Retrospective         | [Pending...] |
 
 ## Communication Channels
 
@@ -50,12 +52,14 @@ ______________________________________________________________________
 
 + **Next Meetings:**  
   _Scheduled during the prior meeting._  
-  _If unscheduled: Coordinated via WhatsApp or Slack for all team members._
+  _If unscheduled: Coordinated via WhatsApp or
+  Slack for all team members._
 
 ### How many hours everyone has per day
 
 + **We are a flexible team:**  
-  _However, the team is responsive daily on communication channels (WhatsApp and Slack)._
+  _However, the team is responsive daily on communication
+  channels (WhatsApp and Slack)._
 
 ## Asking for Help
 
@@ -67,3 +71,5 @@ Document your challenge _tag_ to ensure clarity when seeking help.
   Call in the crew!  
 + **Step 3:** _One Day_:  
   Time to signal the experts on Slack or GitHub.  
+
+<!-- markdownlint-enable -->

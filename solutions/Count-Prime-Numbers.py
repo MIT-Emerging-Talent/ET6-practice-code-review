@@ -7,7 +7,6 @@ A prime number is a natural number greater than 1 that has no positive divisors 
 Created on: 09/01/25
 @author: Zeinab Shadabshoar
 """
-
 def is_prime(n: int) -> bool:
     r"""
     Checks if a given number is prime.

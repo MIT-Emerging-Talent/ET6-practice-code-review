@@ -47,6 +47,7 @@ use WhatsApp.
 | **Fatima** |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |
 | **Shahroz**|  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |
 | **Mojtaba**|  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |
+|**Mudassra**|  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |
 
 ### Hours Available Per Day
 
@@ -54,7 +55,7 @@ use WhatsApp.
 - **Madiha**: _5h_  
 - **M Shahroz**: _4h_  
 - **Mojtaba**: _5h_  
-- **Member 5**: _3h_  
+- **Mudassra**: _5h_  
 
 ---
 

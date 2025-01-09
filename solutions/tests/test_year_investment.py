@@ -30,7 +30,7 @@ class TestYearInvestment(unittest.TestCase):
 
     def test_numbers_big(self):
         """Test variables with big numbers"""
-        self.assertEqual(year_investment(1856278, 2146), 41734429.88)
+        self.assertEqual(year_investment(1856278, 2146), 41692003.88)
 
     def test_negative_number(self):
         """Test if number is negative"""

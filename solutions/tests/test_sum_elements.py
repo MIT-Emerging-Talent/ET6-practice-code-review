@@ -13,7 +13,7 @@ from solutions.sum_elements import sum_elements
 
 
 class TestSumElements(unittest.TestCase):
-    #Unit test class for verifying the functionality of the sum_elements function.
+    # Unit test class for verifying the functionality of the sum_elements function.
 
     def test_positive_numbers(self):
         """
@@ -44,7 +44,7 @@ class TestSumElements(unittest.TestCase):
         self.assertEqual(sum_elements([]), 0)
 
     def test_non_integer_list(self):
-    #Test that a ValueError is raised when the list contains non-integer elements.
+        # Test that a ValueError is raised when the list contains non-integer elements.
         with self.assertRaises(ValueError) as context:
             sum_elements([1, 2, "a"])
         self.assertEqual(

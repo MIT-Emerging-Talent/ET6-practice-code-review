@@ -1,22 +1,27 @@
-import unittest
-from is_odd_or_even import is_odd_or_even
+def is_odd_or_even(number):
+    """
+    Check if a number is odd or even.
 
+    Args:
+        number (int): The number to check.
 
-class TestIsOddOrEven(unittest.TestCase):
-    """Unit tests for the is_odd_or_even function."""
+    Returns:
+        str: "Even" if the number is even, "Odd" if the number is odd.
 
-    def test_even_numbers(self):
-        """Test that even numbers return 'Even'."""
-        self.assertEqual(is_odd_or_even(4), "Even")
-        self.assertEqual(is_odd_or_even(0), "Even")
-        self.assertEqual(is_odd_or_even(-2), "Even")
-
-    def test_odd_numbers(self):
-        """Test that odd numbers return 'Odd'."""
-        self.assertEqual(is_odd_or_even(7), "Odd")
-        self.assertEqual(is_odd_or_even(-3), "Odd")
-        self.assertEqual(is_odd_or_even(1), "Odd")
-
+    Examples:
+        >>> is_odd_or_even(4)
+        'Even'
+        >>> is_odd_or_even(7)
+        'Odd'
+        >>> is_odd_or_even(0)
+        'Even'
+        >>> is_odd_or_even(-3)
+        'Odd'
+        >>> is_odd_or_even(-2)
+        'Even'
+    """
+    return "Even" if number % 2 == 0 else "Odd"
 
 if __name__ == "__main__":
-    unittest.main()
+    import doctest
+    doctest.testmod()  # Runs the doctests

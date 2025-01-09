@@ -193,3 +193,86 @@ might not be clear enough for my teammates during reviews.
   productivity and ensures timely completion of tasks.
 - **Continuous Learning**: It's crucial to stay updated with
   new tools and techniques and to be patient with the learning process.
+
+# Retrospective - Ridwan Ayinde
+
+## Stop doing  
+
+-Since I am new to github, and I followed all the instructions given to  us,
+I do not feel there is anything for me to stop doing.
+I ensured I communicated with my team on problems I encounter,
+and they are always responsive.  
+
+## Continue doing
+
+- **Effective Communication:** I have been communicating with my team
+effectively. Anything, I do not understand, I ask questions directly
+on the group.
+
+- **Mid-Sprint Check-Ins:** I learnt a lot from the meetings on mondays where
+we discuss progress and blockers. Like Insights tab on github, I did not notice
+this tab until during the meeting.
+
+- **Thorough Testing:** I did thorough testing of code before I deploy
+on github.
+
+- **Open Communication:** I enjoyed how open our communication is
+on how to solve our problems on github.
+
+- **Naming Convention:** I noticed how my reviewer improved my naming.
+convention for clarity. Therefore, I will put more attention to how I will
+name my variables for better understanding.
+
+- **Control Version:** I will continue to make use of git and github,
+because this effectively track changes.
+
+- **Performance Optimization:** I like the way we have checklist to mark
+  during the review stage. This is to ensure the person writing the code has
+  done all necessary things to ensure the task is 100% complete.
+
+## Start doing  
+
+- **Automated Testing:** I want to start implementing automated
+  testing to reduce manual effort such as the way we did unit test
+  on the functions before deployment of our calculator project.
+
+- **Project Mangement Tools:** I believe it is better to use project
+management tools like github to manage our project. This ensure better
+tracking making everyone work on their own time within a given deadline.
+
+- **Post-Deployment Report** I will like to try out writing out post-deployment
+reports to analyze feature such as a new function or a new update to evaluate
+what went wrong, the challenges during the software development stage.
+
+## Lessons Learned  
+
+- **Quality Over Speed:** In my team, we focused on choosing a simpler code
+for our project so that we could have more time understanding the code, git,
+vs code and github platform.
+- **Effective Communication:** Effective communication is key within our team.
+We communicated both on github, slack and the docs sent to us. We had less
+misunderstandings amongst ourselves as we are all focused on getting the work
+done.
+- **Adaptability:** I have learnt to be adaptable as this crucial. This is first
+time I will be working with people I have not met before and our project was a success.
+Being flexible with our timeline helps the team succeed.
+
+- **Documentation Matters:** It helps provide clear explanation of how things work,
+which makes it easier for onboarding and troubleshooting.
+
+## The part of my plan that went as expected
+
+I relied on studying what we were taught in class and collaborating
+with the group members. And this went well, as they did wonders in helping me
+understand the group project.
+
+## My Plan that did not work out
+
+I underestimated the time required for debugging especially when I want
+to push my code to github and it is requesting me to merge. I actually expected
+to just push my code after changing and the unexpected keep resisting me.
+
+## Things that I included that weren't in my initial strategy  
+
+I had to my add some things in my code during the review that were not part of
+my initial strategy. Like the edge cases in my add-function.

@@ -6,8 +6,10 @@ Created on 05 01 2025
 
 """
 
+from typing import List, Union
 
-def sum_of_list(numbers):
+
+def sum_of_list(numbers: List[Union[int, float]]) -> Union[int, float]:
     """
     Calculate the sum of a list of numbers.
 
@@ -38,16 +40,3 @@ def sum_of_list(numbers):
     if not all(isinstance(num, (int, float)) for num in numbers):
         raise ValueError("All elements in the list must be int or float.")
     return sum(numbers)
-
-
-if __name__ == "__main__":
-    try:
-        user_input = input("Enter a list of numbers separated by spaces: ")
-        numbers = [float(num) for num in user_input.split()]
-        # Calculate the sum of the list
-        print("The sum of the list is:", sum_of_list(numbers))
-    except ValueError:
-        # Handle invalid input
-        print("Please enter valid numbers separated by spaces.")
-    except Exception as e:
-        print(f"An error occurred: {e}")

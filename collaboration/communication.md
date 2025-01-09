@@ -18,7 +18,7 @@ We use Google Meet as the meeting channel,
 while Slack is the channel for quick questions,
 meetings plans and friendly communication channel.
 We use GitHub as the basic channel for coding,
-rase a challenge or any professional communication.
+raise a challenge or any professional communication.
 
 ## Meeting Agendas
 

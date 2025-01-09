@@ -1,4 +1,4 @@
-#! usr/bin/env python3
+#!usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """
@@ -12,6 +12,7 @@ Created on 06.01.2025
 """
 
 import unittest
+
 from solutions.modulus import modulus
 
 
@@ -47,6 +48,24 @@ class TestModulus(unittest.TestCase):
         self.assertAlmostEqual(modulus(-10.5, 3), -1.5)
         self.assertAlmostEqual(modulus(-10.5, -3), -1.5)
         self.assertAlmostEqual(modulus(10.5, -3), 1.5)
+
+
+def test_large_and_small_numbers(self):
+    """Test modulus with very large and very small numbers."""
+    self.assertEqual(modulus(1e18, 3), 1)
+    self.assertAlmostEqual(modulus(1, 1e-10), 0)
+
+
+def test_defensive_inputs(self):
+    """Test modulus with invalid or unusual inputs."""
+    with self.assertRaises(TypeError):
+        modulus("10", 3)  # When Numerator is a string
+    with self.assertRaises(TypeError):
+        modulus(10, "3")  # When Denominator is a string
+    with self.assertRaises(TypeError):
+        modulus(None, 3)  # When Numerator is None
+    with self.assertRaises(TypeError):
+        modulus(10, None)  # When Denominator is None
 
 
 if __name__ == "__main__":

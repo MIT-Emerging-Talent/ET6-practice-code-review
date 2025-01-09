@@ -1,6 +1,6 @@
 # ![Alt Text](../assets/task-planner.png) Constraints
 
-> In this readme, we explain potential **constraints** that 
+> In this readme, we explain potential **constraints** that
 limit our productivity and achievement throughout the project.
 
 ## ![Alt Text](../assets/outdoor.png) Constraints
@@ -68,12 +68,12 @@ limit our productivity and achievement throughout the project.
 
 ## ![indoor](../assets/scope.png) Internal: Voluntary
 
-<img style="display: block; width: 500px; float: right; border-radius: 30%" 
+<img style="display: block; width: 500px; float: right; border-radius: 30%"
 alt="blablab" src="../assets/internal-voluntary-constraints.png"/>
 
-- **Coding style & conventions**: Agree on a set of guidelines 
+- **Coding style & conventions**: Agree on a set of guidelines
 for consistency across the codebase.
-- **Code review checklist**: Create a checklist to ensure thorough reviews 
+- **Code review checklist**: Create a checklist to ensure thorough reviews
 while accommodating varying skill levels.
-- **Desired hours to work per week**: Establish a flexible schedule that considers 
-team members' availability, possibly utilizing asynchronous communication.
+- **Desired hours to work per week**: Establish a flexible schedule that
+considers team members' availability, possibly utilizing asynchronous communication.

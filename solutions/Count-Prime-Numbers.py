@@ -5,7 +5,7 @@ The goal of this challenge is to count how many prime numbers are present in a g
 A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
 
 Created on: 09/01/25
-@author: Zeinab Shadabshoar
+Aauthor: Zeinab Shadabshoar
 """
 def is_prime(n: int) -> bool:
     r"""

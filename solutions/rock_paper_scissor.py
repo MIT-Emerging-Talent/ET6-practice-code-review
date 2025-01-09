@@ -2,8 +2,8 @@
 A module for playing a game of Rock-Paper-Scissors.
 
 Module contents:
-    - play_round: plays a round of Rock-Paper-Scissors, the user either wins,
-    loses, or draws based on the user's choice and the computer's choice.
+    - play_round: Simulates a round of Rock-Paper-Scissors where the user competes
+      against the computer.
 
 Created on 31-12-24
 Updated on 09-01-25
@@ -17,7 +17,7 @@ OPTIONS: list[str] = ["rock", "paper", "scissors"]
 
 def play_round(user_input: str) -> str:
     """
-    Allows the user to play a round of Rock-Paper-Scissors with the computer.
+    Simulates a round of Rock-Paper-Scissors with the computer.
 
     Parameters:
         user_input (str): The user's move ('rock', 'paper', or 'scissors').
@@ -26,7 +26,7 @@ def play_round(user_input: str) -> str:
         str: A string describing the result of the round and the computer's choice.
 
     Raises:
-        AssertionError: If user_input is not a string or is empty.
+        TypeError: If user_input is not a string or is empty.
         ValueError: If user_input is not one of the valid options.
 
     Examples:
@@ -44,15 +44,15 @@ def play_round(user_input: str) -> str:
         ...
         ValueError: Invalid input. Choose one of: rock, paper, scissors.
     """
-    assert (
-        isinstance(user_input, str) and user_input.strip()
-    ), "Input must be a non-empty string."
+    if not isinstance(user_input, str) or not user_input.strip():
+        raise TypeError("Input must be a non-empty string.")
 
     user_input = user_input.strip().lower()
     if user_input not in OPTIONS:
         raise ValueError(f"Invalid input. Choose one of: {', '.join(OPTIONS)}.")
 
     computer_pick = random.choice(OPTIONS)
+
     if user_input == computer_pick:
         return f"draw! Computer's choice: {computer_pick}"
     elif (

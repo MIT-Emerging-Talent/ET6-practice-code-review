@@ -9,7 +9,7 @@ Test categories:
 
 Created on 31-12-24
 Updated on 09-01-25
-Author: Abdulrahman Alsir + Cody
+Author: Abdulrahman Ali + Cody
 """
 
 import unittest
@@ -91,7 +91,7 @@ class TestPlayRound(unittest.TestCase):
 
     def test_empty_input(self):
         """Test empty input raises AssertionError."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             play_round("")
 
     def test_invalid_word_input(self):
@@ -101,32 +101,32 @@ class TestPlayRound(unittest.TestCase):
 
     def test_integer_input(self):
         """Test integer input raises TypeError."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             play_round(123)
 
     def test_float_input(self):
         """Test float input raises TypeError."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             play_round(1.23)
 
     def test_list_input(self):
         """Test list input raises TypeError."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             play_round(["rock"])
 
     def test_dict_input(self):
         """Test dict input raises TypeError."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             play_round({"choice": "rock"})
 
     def test_none_input(self):
         """Test None input raises TypeError."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             play_round(None)
 
     def test_boolean_input(self):
         """Test boolean input raises TypeError."""
-        with self.assertRaises(AssertionError):
+        with self.assertRaises(TypeError):
             play_round(True)
 
     def test_special_chars_input(self):

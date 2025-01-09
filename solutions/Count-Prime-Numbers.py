@@ -24,6 +24,12 @@ def is_prime(n: int) -> bool:
         >>> is_prime(4)
         False
     """
+    # validate input type
+    assert isinstance(n, int), "Input must be an integer"
+
+    # ensure that the number is positive
+    assert n >= 0, "Input must be a non-negative integer"
+
     if n <= 1:
         return False
     for i in range(2, int(n ** 0.5) + 1):

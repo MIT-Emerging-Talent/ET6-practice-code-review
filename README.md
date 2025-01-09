@@ -24,6 +24,25 @@ Python skills through collaborative problem-solving.
 
 ---
 
+## 🗂️ **Repository Files**
+
+| File/Directory                                           | Description     |
+| -------------------------------------------------------- | -----------------|
+| [📂 .github/](.github/)                                   | GitHub workflows and actions.                   |
+| [📂 .vscode/](.vscode/)                                   | VS Code configuration files.                    |
+| [📂 assets/](assets/)                                     | Fun images and GIFs for the README.             |
+| [📂 collaboration/](collaboration/)                       | Contains our team's collaboration files. |
+| ├── [📂 guide/](collaboration/guide/)                     | Guidance documents for completing this project effectively. |
+| ├── [communication.md](collaboration/communication.md)   | Communication plan for the team.                |
+| ├── [constraints.md](collaboration/constraints.md)       | Constraints and rules for the project.          |
+| ├── [learning_goals.md](collaboration/learning_goals.md) | Shared learning objectives for the team.        |
+| ├── [README.md](collaboration/README.md)                 | Overview of the collaboration folder.           |
+| ├── [retrospective.md](collaboration/retrospective.md)   | Retrospective summaries of project phases.      |
+| [📂 solutions/](solutions/)                               | Python solutions for programming challenges.    |
+| ├── [tests/](solutions/tests/)                           | Unit tests for the Python solutions.            |
+
+---
+
 ## ![AltText](assets/cat.gif) **Communication**
 
 - **Slack:** For **Daily** updates on our progress.

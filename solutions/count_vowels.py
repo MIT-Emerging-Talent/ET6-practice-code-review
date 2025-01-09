@@ -15,20 +15,20 @@ def count_vowels(text: str) -> int:
     """
     Count_vowels function takes a string and count
     all upper and lower case vowels.
-    
+
     Arguments:
-    text (str): The input string to check for vowels. This string can 
+    text (str): The input string to check for vowels. This string can
                 contain alphabetic characters.
 
 
-    Input: 
-    text[str]: The input string to check for vowels. This string may 
+    Input:
+    text[str]: The input string to check for vowels. This string may
                 contain alphabetic characters.
 
-    Return: 
+    Return:
     num[int]: the number of vowels in text
-            The total count of vowels (a, e, i, o, u) in the input string. 
-            Both uppercase and lowercase vowels are counted, and 
+            The total count of vowels (a, e, i, o, u) in the input string.
+            Both uppercase and lowercase vowels are counted, and
             non-alphabetic characters are ignored.
             Returns 0 if no vowels are found.
 
@@ -53,15 +53,14 @@ def count_vowels(text: str) -> int:
 
     if not text:  # Handle empty strings
         return 0
-    
+
     vowels = {"a", "e", "i", "o", "u", "y"}
     count = 0
-    
-   
+
     for char in text:
         if char.lower() in vowels:
             count += 1
-            
+
     # Defensive assertion for input validation
     assert isinstance(text, str), "Input should be a string"
 

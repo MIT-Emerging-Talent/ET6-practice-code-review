@@ -122,8 +122,8 @@
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.fixAll.ruff": true,
-      "source.organizeImports.ruff": true
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
     }
   },
 
@@ -131,4 +131,3 @@
   "python.testing.pytestEnabled": false,
   "python.testing.unittestEnabled": true
 }
-

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
+r"""
 This module defines the function `find_primes_up_to_n` to identify all prime numbers 
 up to a given integer \( N \). A prime number is greater than 1 and divisible only by 1 and itself.
 
@@ -10,7 +10,7 @@ Date: 09 01 2025
 
 
 def is_prime(n: int) -> bool:
-    """
+    r"""
     Checks if a given number is prime.
 
     Parameters:
@@ -33,7 +33,7 @@ def is_prime(n: int) -> bool:
     return True
 
 def find_primes_up_to_n(n: int) -> list:
-    """
+    r"""
     Finds all prime numbers up to the given number \( N \).
 
     Parameters:

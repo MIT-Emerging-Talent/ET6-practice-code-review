@@ -65,8 +65,8 @@ contribute:
 
 ## Team Composition
 
-| **Name**               | **Role**               | **Username / Profile**       |
-|-------------------------|------------------------|-----------------------------|
+| **Name**                | **Role**               | **Username / Profile**    |
+|-------------------------|------------------------|---------------------------|
 | Yurii Spizhovyi         | Developer, Reviewer   | [yuri-spizhovyi-mit][link-1]|
 | Alemayehu Kiros         | Developer, Reviewer   | [Alemayehu-Desta][link-2]|
 | Khadija al Ramlawi      | Developer, Reviewer   | [Khadijaramlawi][link-3]|

@@ -1,6 +1,11 @@
 # !/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+A module for calculating the area of a square given the side_length
+
+Module contents:
+    calculate_square_area: calculates the area of a square
+
 Created on 04 01 2025
 @author: Kareiman Altayeb
 """
@@ -8,7 +13,7 @@ Created on 04 01 2025
 
 def calculate_square_area(side_length: float) -> float:
     """The function asks the user to enter the side length of the square
-    and the function returns the   as the square area.
+    and the function returns the area of the square.
 
     parameter:
     side_length in integer or float

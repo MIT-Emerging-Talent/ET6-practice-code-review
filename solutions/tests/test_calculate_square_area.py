@@ -5,8 +5,8 @@ Test module for square_area function.
 
 Test categories:
 - Standard cases: positive numbers
-- Edge cases: numbers that are positive put less than 1
-- Defensive cases: wrong input types, value that are zero or less
+- Edge cases: numbers that are positive but less than 1
+- Defensive cases: wrong input types, value that is zero, and less than zero
 
 Created on 07 01 2024
 Author: Kareiman Altayeb

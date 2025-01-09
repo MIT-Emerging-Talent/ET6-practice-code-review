@@ -47,7 +47,7 @@ def prime_finder(start: int, end: int) -> list[int]:
     # check if start and end are integers
     assert isinstance(start, int) and isinstance(
         end, int
-    ), "Both a and b must be integers"
+    ), "Both start and end must be integers"
 
     # check if start and end are positive
     if start < 0 or end < 0:

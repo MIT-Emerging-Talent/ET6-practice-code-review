@@ -29,7 +29,7 @@ def modulus(a: float, b: float) -> float:
     """
     if b == 0:
         raise ValueError(
-            "The numerator and denominator can be any real numbers except the denominator cannot be zero."
+            "The numerator and denominator can be any real numbers except the denominator can't be zero."
         )
 
     remainder = a % b

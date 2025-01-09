@@ -19,6 +19,10 @@ class TestCountVowels(unittest.TestCase):
     """Test cases for count_vowels function."""
 
     # Standard Cases
+    def test_typical_word(self):
+        """It should count vowels in a regular word with both vowels and consonants."""
+        self.assertEqual(count_vowels("hello"), 2)
+
     def test_no_vowels(self):
         """It should return 0 for a string with no vowels."""
         self.assertEqual(count_vowels("fly"), 0)

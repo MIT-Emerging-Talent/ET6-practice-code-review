@@ -20,7 +20,7 @@
 | Internet 🛜        | External | Internet is not always available.                  |
 | Time Zone Differences 🕒 | External | It causes conflicts and delays progress.          |
 
-### Nelson
+### Nelson 😎
 
 | Constraint          | Type     | Description                                   |
 |:-------------------:|:--------:|:---------------------------------------------:|

@@ -8,7 +8,7 @@ achievements, and lessons learned during this project cycle.
 ## **What Went Well**
 
 - **Timing & Schedule Adherence**: The team consistently adhered to the
-  schedule, completing the project ahead of time.
+  schedule,completing the project ahead of time.
 - **Collaboration**: Teamwork was exceptional, with strong collaboration
   and active participation from all members.
 - **Communication**: Open, transparent communication fostered

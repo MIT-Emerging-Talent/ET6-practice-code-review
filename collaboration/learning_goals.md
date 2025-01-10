@@ -61,6 +61,8 @@
 | 🛠️Master Git and GitHub  |  Master version control and teamwork | ![20%](https://progress-bar.xyz/20) |  
 | 💻Refine Coding Practices | Write cleanand well-documented code | ![70%](https://progress-bar.xyz/70) |
 
+---
+
 ### Nelson's objectives
 
 | **Goal**                           | **Description** | **Progress** |  
@@ -68,6 +70,8 @@
 | 👨🏽‍💻Strengthen my Python skills | Learn Documentation and Testing + code  | ![55%](https://progress-bar.xyz/35)|  
 | 🛠️Master Git and GitHub  |  Master version control and teamwork | ![20%](https://progress-bar.xyz/15) |  
 | 👫Collaboarative work | Increase my collaborative work skills | ![70%](https://progress-bar.xyz/45) |
+
+---
 
 ### Matvii's objectives
 

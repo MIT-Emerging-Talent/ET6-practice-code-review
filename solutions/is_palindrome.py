@@ -32,9 +32,9 @@ def is_palindrome(string):
     """
     # Defensive assertions
     assert isinstance(string, str), "Argument(Input) must be a string"
-    assert (
-        len(string) <= 100
-    ), "Argument (Input) is too long, max allowed length is 100 characters"
+    assert len(string) <= 100, (
+        "Argument (Input) is too long, max allowed length is 100 characters"
+    )
 
     if string == string[::-1]:
         return "Palindrome"

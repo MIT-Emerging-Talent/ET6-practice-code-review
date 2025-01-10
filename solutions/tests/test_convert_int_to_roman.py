@@ -3,11 +3,16 @@
 """
 Created on 04/01/2025
 @author: Peter Ngugi
+
+Unit test for convert_int_to_roman function.
+
+Module contents:
+    - TestConvertIntToRoman: Unit test class for the convert_int_to_roman function.
 """
 
 import unittest
 
-from mit_solutions import convert_int_to_roman
+from solutions.convert_int_to_roman import convert_int_to_roman
 
 
 class TestConvertIntToRoman(unittest.TestCase):

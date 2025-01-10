@@ -43,6 +43,8 @@ def Time_Conversion(est_time: str) -> str:
 
     # split the input to hours and minutes in integers
     hours, minutes = est_time.split(":")
+
+    # Assert hours and minutes are numbers
     assert hours.isdigit(), "hours must be integers"
     assert minutes.isdigit(), "minutes must be integers"
 

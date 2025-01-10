@@ -30,6 +30,10 @@ class TestAddNumbers(unittest.TestCase):
         """Test adding two negative numbers."""
         self.assertEqual(add_numbers(-2, -3), -5)
 
+    def test_add_two_float_numbers(self):
+        """"Test adding two float numbers."""
+        self.assertEqual(add_numbers(2.5, 1.3), 3.8)
+        
     def test_add_numbers_string(self):
         """Test adding a string and a number."""
         with self.assertRaises(AssertionError):

@@ -12,12 +12,12 @@ Created on 2025-01-08
 """
 
 
-def add_numbers(num1:int, num2:int) -> int:
+def add_numbers(first_number:int, second_number:int) -> int:
     """This function takes two numbers and returns their sum.
     
     Parameters:
-    num1 (int): The first number for the function
-    num2 (int): The second number for the function
+   first_number (int): The first number for the function
+    second_number (int): The second number for the function
     
     Returns:
     int: The sum of the two numbers
@@ -39,10 +39,10 @@ def add_numbers(num1:int, num2:int) -> int:
     -1
     """
     
-    assert isinstance(num1, int), "Input must be a number."
-    assert isinstance(num2, int), "Input must be a number."
+    assert isinstance(first_number, int), "Input must be a number."
+    assert isinstance(second_number, int), "Input must be a number."
     
     #return  the sum of the two numbers
-    return num1 + num2
+    return first_number + second_number
 
 print(add_numbers(0,0))

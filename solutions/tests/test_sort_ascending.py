@@ -18,7 +18,7 @@ from solutions.sort_ascending import sort_ascending
 
 
 class TestSortAscending(unittest.TestCase):
-    """These unittest cases will test the sort_ascending function using bubble sort algorithm."""
+    """These unittest cases will test the sort_ascending function."""
 
     def test_empty_list(self):
         """it should return an empty list"""

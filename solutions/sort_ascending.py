@@ -1,5 +1,5 @@
 """
-    A module for sorting numbers in a list in ascending order using Bubble Sort algorithm.
+    A module for sorting numbers in a list of ascending order.
 
 Module contents:
     - sort_ascending: A function to sort a list of integers in ascending order.
@@ -12,7 +12,7 @@ Created on 03 January 2025
 
 def sort_ascending(numbers: list[int]) -> list[int]:
     """
-    The function takes a list of int & sorts it in ascending order using the bubble Sort strategy.
+    The function takes a list of int and return a new sorted list of int in ascending order.
 
     Parameters:
         Numbers (list[int]): this is the list of numbers we want to sort

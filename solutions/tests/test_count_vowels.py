@@ -45,7 +45,7 @@ class TestCountVowels(unittest.TestCase):
         self.assertEqual(count_vowels(""), 0)
 
     def test_only_whitespace(self):
-        """It should return 0 for strings with only wtesthitespace."""
+        """It should return 0 for strings with only whitespace.."""
         self.assertEqual(count_vowels("     "), 0)
 
     def test_mixed_case_vowels(self):
@@ -55,6 +55,11 @@ class TestCountVowels(unittest.TestCase):
     def test_repeated_vowels(self):
         """It should count all repeated vowels in a string."""
         self.assertEqual(count_vowels("aaeeiioouuAAEEIIOOUU"), 20)
+
+    def test_long_string(self):
+        """It should correctly count vowels in a long mixed-case string."""
+        text = ("aAeEiIoOuU" * 500) + "bcdfghjklmnpqrstvwxyz" * 100
+        self.assertEqual(count_vowels(text), 5000)
 
     # Special Cases
     def test_alphanumeric_string(self):

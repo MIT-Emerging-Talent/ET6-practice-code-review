@@ -38,7 +38,7 @@ Contact any if facing any difficulty
 + [Ghyath Ibrahim](https://github.com/GhyathSAhmed)  
 + [Maab Mohamedkhair](https://github.com/Maab232001)
 + [Nada Ali](https://github.com/Nadaali1232)  
-+ [Hassan](https://github.com/hassanql)
++ [Hassan Suliman](https://github.com/hassanql)
 + [Duha Luay](https://github.com/duhaluay)  
 + [Shayma Mohamed](https://github.com/Shaymamohd)  
 + [Ahd Abdelrahim](https://github.com/ahdbasan)

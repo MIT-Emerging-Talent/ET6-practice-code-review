@@ -60,16 +60,38 @@ strategies.
 - Become proficient in testing and documentation for clear, accurate,
  and reliable code.
 
-### **Abraham Anyak**  
+### **Ava Abdullah**
 
-- Develop proficiency in providing and applying constructive feedback during code
-reviews.
-- Enhance my skills in producing clean, well-tested, and thoroughly documented code.
+- **Grow Together:** Learn from diverse ideas and experiences
+- **Document Like a Pro:** Enhance technical documentation skills
 
-### **Member 4**  
+### **Abraham Anyak**
 
-- Improve debugging and troubleshooting skills to solve problems efficiently.  
-- Strike a balance between speed and quality in all aspects of development.  
+- Develop the ability to provide and apply constructive feedback in code reviews
+- Enhance skills in writing clean, tested, and well-documented code.
+
+### **Cynthia Wairimu**
+
+- Deepen knowledge of algorithms and data structures through practice.  
+- Focus on efficient, clear, and scalable problem-solving.  
+
+### **Nahom Tekle**
+
+- be data scientist
+- be proficient in algorithm
+
+### **Novel Yonas**
+
+- Master data analysis tools for geophysical and geochemical data interpretation.
+- Understand and adapt geo-modelling scripts for customized environmental applications.
+
+### **Sadam Husen**
+
+- Dive deeper into advanced machine learning and AI techniques, focusing on
+real-world applications.
+
+- Contribute to projects that leverage AI for social impact, aiming for ethical
+and inclusive solutions.
 
 ---
 

@@ -8,18 +8,18 @@
 |----------------------------|---------------------------------------|-----------|
 |`add_binary.py`         |Add binary strings and return result.       |Said  |
 |`bubble_sort.py`        |performing bubble sort on an array          |Tomas |
-|`caesar_encryption.py`  |encrypting using caesar's cypher            |Caser |
+|`caesar_encryption.py`  |encrypting using caesar's cypher            |Caesar|
 |`convert_temperature.py`|Convert Celsius to Fahrenheit and Kelvin    |Amro  |
 |`count_vowels.py`       |counting vowels in a string                 |Aseel |
 |`fizz_buzz.py`          |Check divisibility with FizzBuzz logic      |Nada  |
-|`happy_number.py`       |Check if a number is happy                  |Omina |
+|`happy_number.py`       |Check if a number is happy                  |Omnia|
 |`insertion_sort.py`     |Perform insertion sort on an array          |Tomas |
 |`majority_element.py`   | Find majority element in an array          |Aseel |
-|`palindrome_checker.py` |Check if a string is palindrome             |Ceaser|
+|`palindrome_checker.py` |Check if a string is palindrome             |Caesar|
 |`percentage_letter.py`  |Calculate percentage of specific character  |Heba  |
 |`reverse_integer.py`    |Reverse digits of a signed integer          |Said  |
 |`reverse_string.py`     |Reverse strings using a utility function    |Nada  |
-|`search_insert_position.py`|Find position to insert a value             |Omaina|
+|`search_insert_position.py`|Find position to insert a value             |Omnia|
 |`steps_to_floor.py`     |Calculate steps to reach a floor            |Amro  |
 |`two_sum.py`            |Solve the two-sum problem                   |Heba  |
 

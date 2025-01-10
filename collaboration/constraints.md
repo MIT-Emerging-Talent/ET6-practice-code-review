@@ -21,6 +21,11 @@ been imposed by external factors:
 
 - **Official Deadline:** The project must be completed by **10.01.2025**
 (extended until 12.01.2025).
+- **Number of Unit test:** We were not under any compulsion to have
+a specific number of unit tests, however we were advised to test our
+functions in different ways in order to make it robust, reliable, and
+behaves correctly under any conditions such as edge cases that ensures
+our software under unusual but valid inputs still works.
 - **Tools and Platforms:** We will use **GitHub** for version
 control and **Python** for development.
 - **Code Review Requirements:** Each pull request must be reviewed

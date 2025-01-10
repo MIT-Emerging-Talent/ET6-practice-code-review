@@ -14,10 +14,12 @@ Created on: 10 01 2025
 """
 
 import unittest
+
 from solutions.generate_triangular_numbers import generate_triangular_numbers
 
 
 class TestGenerateTriangularNumbers(unittest.TestCase):
+    
     """
     Unit test class for the generate_triangular_numbers function.
 
@@ -28,12 +30,14 @@ class TestGenerateTriangularNumbers(unittest.TestCase):
     """
 
     def test_valid_inputs(self):
+        
         """
         Test the function with valid inputs.
 
         Ensures the function generates the correct list of triangular numbers
         for various valid inputs.
         """
+        
         # Test case: Generate the first triangular number (n=1)
         self.assertEqual(generate_triangular_numbers(1), [1])
 
@@ -47,6 +51,7 @@ class TestGenerateTriangularNumbers(unittest.TestCase):
         )
 
     def test_invalid_inputs(self):
+        
         """
         Test the function with invalid inputs.
 
@@ -54,6 +59,7 @@ class TestGenerateTriangularNumbers(unittest.TestCase):
         - Non-positive integers (e.g., 0 or negative numbers).
         - Non-integer inputs (e.g., strings or floats).
         """
+        
         # Test case: Input is zero
         with self.assertRaises(ValueError):
             generate_triangular_numbers(0)
@@ -71,20 +77,24 @@ class TestGenerateTriangularNumbers(unittest.TestCase):
             generate_triangular_numbers(3.5)
 
     def test_edge_cases(self):
+        
         """
         Test edge cases for the function.
 
         Verifies that the function handles the smallest valid input correctly.
         """
+        
         # Test case: Smallest valid input (n=1)
         self.assertEqual(generate_triangular_numbers(1), [1])
 
 
 if __name__ == "__main__":
+    
     """
     Run the test suite.
 
     When executed as a script, this block will run all the test cases in the 
     TestGenerateTriangularNumbers class.
     """
+    
     unittest.main()

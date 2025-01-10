@@ -1,31 +1,26 @@
 """
-Convert miles to kilometers.
+miles_to_kilometers.py
 
-This module provides a function to convert distances from miles to kilometers using
-the conversion factor: 1 mile = 1.609344 kilometers. It also validates that the input
-is a valid, non-negative number.
+This module provides a function to convert miles to kilometers.
 
-Example usage:
-    >>> miles_to_kilometers(0)
-    0.000
+Author: Obay Salih
+Date: Fri 10/1/2025
+Group: ET6-foundations-group-16 (Matrix)
 
-    >>> miles_to_kilometers(1)
-    1.609344
-
-    >>> miles_to_kilometers(10)
-    16.09344
-
+Functions:
+- miles_to_kilometers(miles): Converts miles to kilometers and returns the result.
 """
 
 
 def miles_to_kilometers(miles: float) -> float:
-    """Convert miles to kilometers.
+    """
+    Convert miles to kilometers.
 
     Parameters:
-    miles (float): The distance in miles to be converted.
+    - miles (int or float): The distance in miles to be converted.
 
     Returns:
-    float: The converted distance in kilometers.
+    - float: The converted distance in kilometers.
 
     Example:
     >>> miles_to_kilometers(1)
@@ -40,3 +35,8 @@ def miles_to_kilometers(miles: float) -> float:
 
     # Conversion factor from miles to kilometers
     return miles * 1.609344
+
+
+if __name__ == "__main__":
+    # Example usage
+    print("Example: miles_to_kilometers(5) =", miles_to_kilometers(5))

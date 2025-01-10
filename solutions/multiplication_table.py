@@ -22,7 +22,11 @@ def multiplication_table(n: int | float, first: int, last: int) -> str:
     first: int, first multiplier in the table, must be in the range (last >= first > 0).
     last: int, last multiplier in the table, must be greater than zero.
 
-    Returns -> string: the output multiplication table displayed as a multiline string where:
+    Returns -> str: A multiline string representing the multiplication table in the following form:
+                    - The header 'Table:' as the first line.
+                    - The first multiplication line (2nd line), indented for a better format.
+                    - Subsequent multiplication lines in the same format until the last multiplier.
+                    - The footer 'End' as the final line, also indented.
 
 
     Raises:

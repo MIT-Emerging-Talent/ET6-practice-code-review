@@ -11,6 +11,7 @@ Author: Martha Yelademe Nyekanga
 import unittest
 from ..add_numbers import add_numbers
 
+
 class TestAddNumbers(unittest.TestCase):
     """This class contains tests for the add_numbers function."""
 
@@ -33,4 +34,4 @@ class TestAddNumbers(unittest.TestCase):
     def test_add_numbers_string(self):
         """Test adding a string and a number."""
         with self.assertRaises(AssertionError):
-            add_numbers("2",3)
+            add_numbers("2", 3)

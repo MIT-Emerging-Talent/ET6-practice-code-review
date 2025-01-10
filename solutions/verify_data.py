@@ -8,6 +8,7 @@ Created on Dec 29 2024
 test for verification function. the test validate the data that is passed the criteria, and vice versa.
 """
 
+
 def validate_name(name):
     """validate the names to ensure that it contains alphabetical characters and spaces only
 

@@ -27,9 +27,9 @@ def year_investment(number, percentage: int) -> float:
     Examples:
 
     >>> year_investment(10000, 5)
-    10500
+    10500.0
     >>> year_investment(100, 2)
-    102
+    102.0
     >>> year_investment(278, 3)
     286.34
     """

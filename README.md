@@ -1,6 +1,13 @@
-# MIT G#23 - California Group 🌴
+# MIT G#23 - California Group 🌉
+<!-- markdownlint-disable MD033 -->
+<div style="text-align: left; margin-bottom: 20px;">
+  <img src="assets\California intro.gif"
+  alt="Description of the GIF" style="width: 800px;">
+</div>
 
-Welcome!
+**Welcome!**
+
+ ![alt text](<assets/Welcome to California.gif>)
 
 We are proudly part of the **MIT Computer and Data Science Foundations Track _2024-2025_**.
 
@@ -12,7 +19,7 @@ Our shared commitment to growth and development empowers
 each member to contribute and learn from collective experiences, ensuring we work
 together effectively to achieve success.
 
-## Meet the Team
+## Meet the Team 🌞🌴
 
 Each member brings something special to the table.
 
@@ -29,12 +36,20 @@ Each member brings something special to the table.
   one line of code at a time. 💻✨
 - [**Sadam:**](https://github.com/Urz1) Turning data into dreams with
   the power of AI & ML 🤖✨
-- [**Ibrahim:**](https://github.com/Ibrahim-Elmisbah)
-- [**Anyak:**](https://github.com/Anyak7) Technology is the future, and we are the builders. Let's code, learn, and grow together!
+- [**Ibrahim:**](https://github.com/Ibrahim-Elmisbah) Obsessed with creating and
+ spotting logical fallacies 🤓🔍🧠
+- [**Anyak:**](https://github.com/Anyak7) Technology is the future,
+and we are the builders. Let's code, learn, and grow together!
 
-## About This Repository
+## About This Repository 🏄
 
-This repository is a culmination of our journey through three key milestones:
+![alt text](<assets/california-flag 2.gif>)![alt text](<assets/california-flag 2.gif>)![alt text](<assets/california-flag 2.gif>)
+
+This repository is part of the MIT Emerging Talent - Foundation Track program.
+It is a dedicated space for learning and practicing Python programming,
+as well as improving skills in documentation, testing,
+and code review to build a strong foundation in software development.
+We achieve this culmination through three key milestones:
 
 ### 🚀 Project Kick-Off
 
@@ -67,6 +82,26 @@ To run all available _unittests_, execute the following from the root directory:
 python -m unittest discover -v
 ```
 
+____
+
+## Repo Structure
+
+``` plaintext
+MIT-Emerging-Talent-Foundation-Track/
+├── .github/                
+├── .vscode/                 
+├── assets/                   
+├── collaboration/          
+│   ├── guide/             
+│   ├── Communication.md      
+│   ├── Constraints.md        
+│   ├── Learning_goals.md     
+│   ├── README.md             
+│   ├── Retrospective.md     
+├── solutions/              
+│   ├── tests/              
+````
+
 _Doctests_ are embedded within the scripts and can be run directly in
 **Python** for quick checks.
 
@@ -74,3 +109,9 @@ _Doctests_ are embedded within the scripts and can be run directly in
 
 This project is licensed under the MIT License.
 For more details, see the `LICENSE` file.
+___
+
+<div style="display: flex; justify-content: left;">
+  <img src="assets\california-beach.gif"  
+  alt="Description of the GIF" style="width: 600px;">
+</div>

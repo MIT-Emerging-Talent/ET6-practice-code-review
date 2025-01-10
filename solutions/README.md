@@ -25,28 +25,13 @@
 
 ---
 
-## How to Update
-
-Whenever a new solution is added, ensure to:
-
-1. **Add the Solution File**: Place your solution directly in the `solutions` folder,
-following the naming convention: `solution_name.py`.
-2. **Update the Summary**: Add an entry for your solution in the
-3. "Solutions Summary" section, including:
-   - File name.
-   - Brief description.
-   - Author name.
-4. **Write Tests**: Add a corresponding test file in the `tests` folder using the
-naming convention: `test_solution_name.py`.
-
----
-
 ## How to Use the Solutions Folder
 
 ### Add a Solution
 
 1. **File Structure**:  
-   - Place your solution in the `solutions` folder.
+   - Place your solution in the `solutions` folder ,
+following the naming convention: `solution_name.py`.
    - Include proper Python docstrings describing:
      - The file's purpose.
      - Author and project details.
@@ -64,6 +49,12 @@ naming convention: `test_solution_name.py`.
      - Corresponding test file.
      - Updates to this README file.
    - Ensure all tests pass before requesting a review.
+  
+4. **Update the Summary**: Add an entry for your solution in the
+"Solutions Summary" section, including:
+   - File name.
+   - Brief description.
+   - Author name.
 
 ---
 

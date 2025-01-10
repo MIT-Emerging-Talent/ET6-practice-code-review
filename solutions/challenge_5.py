@@ -3,9 +3,10 @@
 """
 A module for string function
 
+Write a function that takes in a string and two lists of strings.
+It will return true if the item is in _at least one_ of the lists.
 Module contents:
     string: to return the item
-
 Created on 03-01-2025
 @author:Samir Ahmed Shaifta
 """

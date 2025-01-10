@@ -1,16 +1,17 @@
 """
 
-Write a function that takes a list of numbers 
+Write a function that takes a list of numbers
 and returns a dictionary with sums of the even and odd numbers in the list.
 
 """
 
+
 def sum_even_odd(d: list) -> dict:
     """function sums the even and odd numbers in list respectively
-    
+
     parameters:
     d: a list containing positive and/or negative integers, including zero
-    
+
     Returns:
     a dict containing the sums of the even and odd numbers respectively
 

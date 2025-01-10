@@ -90,7 +90,7 @@ and redundancy.
 - Introduce more coding challenges that mimic real-world scenarios, such as  
   debugging a complex Python script or handling edge cases in Git workflows.
 
-- Use collaborative whiteboarding sessions to design project architecture or  
+- Use collaborative white-boarding sessions to design project architecture or  
   workflow diagrams.
 
 - Include a mid-project retrospective to assess progress and address blockers  

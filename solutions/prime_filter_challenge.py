@@ -3,7 +3,7 @@
 import math
 
 
-def filter_primes(numbers):
+def filter_primes(numbers: list[int]) -> list[int]:
     """
     Filters out all non-prime numbers from a given list of integers.
 

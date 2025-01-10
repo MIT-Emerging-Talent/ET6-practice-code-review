@@ -40,3 +40,20 @@ Enhance my ability to communicate openly within a collaborative team setting.
 *Reflection*: At the end of the project,
 reflect on how well these communication practices were implemented and
 identify areas for further improvement.
+
+**Mustafa-Mangal**
+**Goal**:  
+Develop teamwork and technical skills for collaborative coding.
+
+**Objectives**:  
+
+- Confidently use Git for collaboration.  
+- Help resolve at least one merge conflict.  
+- Share and solve at least three coding challenges.  
+- Receive positive feedback on teamwork and communication.
+
+**Timeline**:  
+Throughout the project, with weekly progress reviews.
+
+**Reflection**:  
+Evaluate contributions and identify areas for improvement after the project.

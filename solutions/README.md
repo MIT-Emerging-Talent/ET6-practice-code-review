@@ -25,6 +25,7 @@ while corresponding test files are maintained in the `tests` folder.
 | `spiral_traverse.py` | Traverses a 2D matrix in spiral order | Fahed |
 | `euler_totient.py` | Computes Euler's totient function (ϕ(n))| Fahed |
 | `grading_system.py`| Assigning letter grade to a numeric score.  | Razan |
+| kronecker_product.py | Computes the Kronecker ⊗ product of 2 matrices | Fahed |
 
 ---
 

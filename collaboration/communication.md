@@ -25,9 +25,9 @@ How often we will get in touch on each channel, and what we will discuss there:
 
 | Day    | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 |--------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------:|
-| Anas   | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
+| Anas   | 4-6 PM | 5-6 PM  | 5-6 PM    | 4-7 PM   | 5-7 PM | 5-7 PM   | 6-7 PM |
 | Clement| 6-8 PM | 6-8 PM  | 6-8 PM    | 6-8 PM   | 6-8 PM | 6-8 PM   | 6-8 PM |
-| Fahed  | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
+| Fahed  | 6-8 PM | 7-9 PM  | 6-8 PM    | 5-7 PM   | 8-9 PM | 8-9 PM   | 6-8 PM |
 | Faisal | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
 | Majd   | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
 | Mohamed| 6-9 PM | 6-9 PM  | 6-9 PM    | 6-10 PM  | 2-9 PM | 6-9 PM   | 6-9 PM |
@@ -37,9 +37,9 @@ How often we will get in touch on each channel, and what we will discuss there:
 
 ### How many hours everyone reserves for Code review per day
 
-- Anas: $HOURS$
+- Anas: 2 Hours
 - Clement: 1.5 hours
-- Fahed: $HOURS$
+- Fahed: 1 hour
 - Faisal: $HOURS$
 - Majd: $HOURS$
 - Mohamed: 2 hours

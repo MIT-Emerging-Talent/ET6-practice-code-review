@@ -43,7 +43,3 @@ def calculate_bmi(weight: float, height: float) -> float:
 
     bmi = weight / (height**2)
     return round(bmi, 2)
-
-
-if __name__ == "__main__":
-    print(calculate_bmi("", 1.68))

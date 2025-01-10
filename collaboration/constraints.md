@@ -20,7 +20,7 @@ understand and adhere to them.
 
 ### 📋 Project Requirements
 
-- The project must be completed **by January 10th, 2025**.🗓️
+- The project must be completed **by January 12th, 2025**.🗓️
 - Each team member is responsible for completing **at least two coding challenges
 and reviewing two challenges submitted by other members**.✅
 - All solutions must be written in **Python**, utilizing Python libraries, and
@@ -71,7 +71,7 @@ directly aligned with deliverable requirements.🎯
 
 #### 🕒 Scheduling and Deadlines
 
-- An early deadline **of January 7th, 2025**, is suggested for completing team
+- An early deadline **of January 10th, 2025**, is suggested for completing team
 deliverables.📅
 - Each team member should allocate specific working hours within their schedule
 to ensure milestones are delivered on time while maintaining productivity and well-being.⏱️
@@ -85,14 +85,14 @@ with task tracking managed using GitHub issues and project boards.💬
 #### 🗂️ Naming Conventions
 
 - Solution files should be named according to the challenge title, in lowercase
-letters with words separated by underscores.📝  
-**Example**  
-Challenge Name: "Matrix Multiplication"  
+letters with words separated by underscores.📝
+**Example**
+Challenge Name: "Matrix Multiplication"
   - **Solution File: matrix_multiplication.py**
 - Test files should follow the same naming convention but must be prefixed with
-test_.🔬  
-**Example**  
-Challenge Name: "Matrix Multiplication"  
+test_.🔬
+**Example**
+Challenge Name: "Matrix Multiplication"
   - **Test File: test_matrix_multiplication.py**
 - Pull request titles must be clear, and a detailed description should
 accompany each pull request to ensure that all team members can fully

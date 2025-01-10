@@ -24,7 +24,7 @@ def euler_totient(n):
     - int: The number of integers between 1 and n inclusive that are coprime to n.
 
     Raises:
-    - ValueError: If the input is not a positive integer.
+    - AssertionError: If the input is not a positive integer.
 
     Examples:
         >>> euler_totient(5)
@@ -42,7 +42,7 @@ def euler_totient(n):
             ...
         AssertionError: Input must be a positive integer.
     """
-    # Defensive assertions
+    # Input validation using assert
     assert isinstance(n, int), "Input must be an integer."
     assert n > 0, "Input must be a positive integer."
 

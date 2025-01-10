@@ -68,8 +68,11 @@ environment that provides support and help to every member in need.
 
 - ### **Faisal**
 
-  <!-- - goal 1 -->
-  <!-- - goal 2 ... etc -->
+  - Deepen my understanding of Python for backend development.
+  - Master the Spring Framework and related tools like IntelliJ IDEA.
+  - Enhance my skills in automating tasks using Ansible.
+  - Improve technical communication to explain concepts clearly.
+  - Gain experience with PostgreSQL and database management.
 
 - ### **Majd**
 

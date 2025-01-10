@@ -14,7 +14,7 @@ together effectively to achieve success.
 
 ## Meet the Team
 
-ach member brings something special to the table.
+Each member brings something special to the table.
 
 - [**Ava:**](https://github.com/ciiyaa) Turning coffee into code ☕➡️💻
 - [**Saeed:**](https://github.com/Saeed-Emad) Every mistake is progress,

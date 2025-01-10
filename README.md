@@ -23,6 +23,7 @@ Each member brings something special to the table.
 - **Novel Yonas**: I can spend 8 hrs in GYM
 - **Hasan**: I breath Cyber Secur1ty 🥷🏼🛡💻
 - **Cynthia**: Crafting solutions, one line of code at a time. 💻✨
+- **Sadam**:Turning data into dreams with the power of AI & ML 🤖✨
 
 ## About This Repository
 

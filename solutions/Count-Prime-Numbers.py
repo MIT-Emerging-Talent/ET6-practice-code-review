@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-This module provides functions for checking primality and counting prime numbers in a list.
+A module for checking primality and counting prime numbers in a list.
+
+Module contents:
+    - is_prime: Checks if a given number is prime.
+    - count_primes: Counts the number of prime numbers in a list.
 
 Date: 09 01 2025
 Author: Zeinab Shadabshoar
@@ -66,4 +70,4 @@ def count_primes(numbers: list) -> int:
 
 # Example usage
 numbers = [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
-print("Number of prime numbers:", count_primes(numbers))
+print("Number of prime numbers:", count_primes(numbers)) 

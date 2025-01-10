@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on 2025-01-02
+A module for counting the sum of only odd numbers in a provided list.
 
+Module contents:
+    - sum_odd_numbers: A function to calculate the sum of odd numbers in a provided list.
+
+Created on 2025-01-02
 @author: Sukhrob Muborakshoev
 """
 

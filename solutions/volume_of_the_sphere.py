@@ -5,26 +5,28 @@ This module provides a function to calculate the volume of a sphere
 given its radius.
 
 Module contents:
-    - volume_of_the_sphere: returns the volume of a sphere given its radius
+    - volume_of_the_sphere: Returns the volume of a sphere given its radius.
 
 Created on 2025-01-07
-@author: Cyne Jarvis J. Zarceno
+Author: Cyne Jarvis J. Zarceno
 """
 
 import math
 
 
 def volume_of_the_sphere(radius: float) -> float:
-    """Calculates the volume of a sphere given its radius
+    """
+    Calculates the volume of a sphere given its radius.
 
-    Parameter:
+    Args:
         radius (float): Positive real numbers.
 
-    Returns -> float: The calculated volume of the sphere
+    Returns:
+        float: The calculated volume of the sphere, rounded to two decimal places.
 
     Raises:
-        AssertionError: if radius is not an integer or a float
-        ValueError: if radius is zero or negative
+        TypeError: If `radius` is not an integer or a float.
+        ValueError: If `radius` is zero or negative.
 
     Examples:
         >>> volume_of_the_sphere(5.0)
@@ -35,7 +37,8 @@ def volume_of_the_sphere(radius: float) -> float:
         4.19
     """
     # Type validation
-    assert isinstance(radius, (int, float)), "Radius must be a number"
+    if not isinstance(radius, (int, float)):
+        raise TypeError("Radius must be a number")
 
     # Value validation
     if radius <= 0:

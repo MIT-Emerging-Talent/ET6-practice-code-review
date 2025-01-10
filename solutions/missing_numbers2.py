@@ -29,9 +29,9 @@ def missing_numbers2(nums_string: str) -> list:
     >>> missing_numbers2("3 1 7")
     [2, 4, 5, 6]
     """
-    assert isinstance(
-        nums_string, str
-    ), "input must be a string containing integers separated by spaces"
+    assert isinstance(nums_string, str), (
+        "input must be a string containing integers separated by spaces"
+    )
     # Transform the original numbers string into a list by splitting it
     nums_list = nums_string.split()
     nums = []

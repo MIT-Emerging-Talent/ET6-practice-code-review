@@ -40,14 +40,14 @@ def find_two_sum_indices(nums: list[float], target: float) -> list[int]:
 
     # Validate inputs
     assert isinstance(nums, list), "Input must be a list."
-    assert all(
-        isinstance(num, (int, float)) for num in nums
-    ), "List must contain numbers."
+    assert all(isinstance(num, (int, float)) for num in nums), (
+        "List must contain numbers."
+    )
     assert isinstance(target, (int, float)), "Target must be a number."
     assert len(nums) > 1, "List must contain at least two numbers."
-    assert not any(
-        math.isnan(x) for x in nums
-    ), "Input list must not contain NaN values."
+    assert not any(math.isnan(x) for x in nums), (
+        "Input list must not contain NaN values."
+    )
     assert not math.isnan(target), "Target must not be NaN."
 
     # Main logic with floating-point precision handling

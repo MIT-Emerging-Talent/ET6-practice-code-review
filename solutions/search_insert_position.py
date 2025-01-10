@@ -39,12 +39,12 @@ def search_insert_position(numbers: list[int], target: int) -> int:
     # Assertions to validate input types
     assert isinstance(numbers, list), "First input must be a list"
     assert isinstance(target, int), "Second input must be an integer"
-    assert all(
-        isinstance(x, int) for x in numbers
-    ), "Numbers list must only contain integers"
-    assert numbers == sorted(
-        numbers
-    ), "The input list must be sorted in ascending order"
+    assert all(isinstance(x, int) for x in numbers), (
+        "Numbers list must only contain integers"
+    )
+    assert numbers == sorted(numbers), (
+        "The input list must be sorted in ascending order"
+    )
 
     for index in range(len(numbers)):
         # Check if the current number is greater than or equal to the target

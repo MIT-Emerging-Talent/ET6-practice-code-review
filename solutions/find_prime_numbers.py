@@ -36,7 +36,7 @@ def is_prime(n: int) -> bool:
 
 
 def find_primes_up_to_n(n: int) -> list:
-    r"""
+    """
     Finds all prime numbers up to the given number \( N \).
 
     Parameters:
@@ -49,8 +49,11 @@ def find_primes_up_to_n(n: int) -> list:
         >>> find_primes_up_to_n(20)
         [2, 3, 5, 7, 11, 13, 17, 19]
     """
+    assert isinstance(n, int), "Input must be an integer"
+    assert n >= 0, "Input must be a non-negative integer"
+
     primes = []
-    for num in range(2, int(n + 1)):
+    for num in range(2, n + 1):
         if is_prime(num):
             primes.append(num)
     return primes

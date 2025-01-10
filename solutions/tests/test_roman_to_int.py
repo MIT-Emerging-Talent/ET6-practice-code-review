@@ -33,13 +33,15 @@ class TestRomanToInt(unittest.TestCase):
         """Test Roman numeral 'MCMXCIV'."""
         self.assertEqual(roman_to_int("MCMXCIV"), 1994)
 
-    def test_roman_to_int_invalid(self):
-        """Test invalid Roman numerals."""
+    def test_roman_to_int_invalid_IIII(self):
+        """Test invalid Roman numeral 'IIII'."""
         with self.assertRaises(ValueError):
-            roman_to_int("IIII")  # Invalid Roman numeral
-        with self.assertRaises(ValueError):
-            roman_to_int("ABC")  # Non-Roman input
+            roman_to_int("IIII")
 
+    def test_roman_to_int_invalid_ABC(self):
+        """Test invalid non-Roman input 'ABC'."""
+        with self.assertRaises(ValueError):
+            roman_to_int("ABC")
 
 if __name__ == "__main__":
     unittest.main()

@@ -40,11 +40,3 @@ def check_number_type(user_input: str) -> str:
         return "The number is even"
     else:
         return "The number is odd"
-
-
-if __name__ == "__main__":
-    user_number = input("Hi! Please enter a number: ")
-    try:
-        print(check_number_type(user_number))
-    except ValueError as e:
-        print(e)

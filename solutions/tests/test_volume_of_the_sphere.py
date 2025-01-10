@@ -13,12 +13,16 @@ Created on 2025-01-07
 Author: Cyne Jarvis J. Zarceno
 """
 
+import os
+import sys
 import unittest
 from math import pi
-import sys
-import os
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# Add parent directory to Python path
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+sys.path.insert(0, parent_dir)
+
 from solutions.volume_of_the_sphere import volume_of_the_sphere
 
 
@@ -41,6 +45,16 @@ class TestVolumeOfTheSphere(unittest.TestCase):
         """Test volume calculation with integer input."""
         expected = round((4 / 3) * pi * 27, 2)
         self.assertAlmostEqual(volume_of_the_sphere(3), expected, places=2)
+
+    def test_raises_type_error_with_string_input(self):
+        """Test TypeError raised when input is a string."""
+        with self.assertRaises(TypeError):
+            volume_of_the_sphere("5")
+
+    def test_raises_type_error_with_list_input(self):
+        """Test TypeError raised when input is a list."""
+        with self.assertRaises(TypeError):
+            volume_of_the_sphere([5])
 
     def test_raises_value_error_with_zero_radius(self):
         """Test ValueError raised when radius is zero."""

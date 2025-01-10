@@ -28,11 +28,11 @@ def volume_of_the_sphere(radius: float) -> float:
 
     Examples:
         >>> volume_of_the_sphere(5.0)
-        523.5987755982989
+        523.6
         >>> volume_of_the_sphere(2.5)
-        65.44984694978736
+        65.45
         >>> volume_of_the_sphere(1.0)
-        4.1887902047863905
+        4.19
     """
     # Type validation
     assert isinstance(radius, (int, float)), "Radius must be a number"

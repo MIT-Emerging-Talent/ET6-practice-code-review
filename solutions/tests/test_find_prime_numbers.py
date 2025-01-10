@@ -65,7 +65,7 @@ class TestPrimeFunctions(unittest.TestCase):
         It should raise an assertion error if the input is a non-integer
         """
         with self.assertRaises(AssertionError):
-            is_prime("Zeinab")
+            is_prime(self)
 
     def test_find_primes_up_to_n_positive(self):
         """

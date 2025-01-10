@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on 2024-12-29
+A module for converting temperatures between Fahrenheit and Celsius.
 
-@author: Yuri Spizhovyi
+Module contents:
+    - convert_fahrenheit_to_celsius: A function to convert Fahrenheit to Celsius.
+
+Created 2024-12-29
+
+@author: Yurii Spizhovyi
 """
 
 

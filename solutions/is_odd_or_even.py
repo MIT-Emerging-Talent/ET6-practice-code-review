@@ -9,6 +9,7 @@ Author: Tamara Saqer
 Date: 2025-01-10
 """
 
+
 def is_odd_or_even(number: int) -> str:
     """
     Determine whether a number is odd or even.

@@ -13,7 +13,7 @@ Created on 10 01 2025
 
 import unittest
 
-from ..prime_checker import is_prime, find_primes_up_to_n
+from ..find_prime_numbers import find_primes_up_to_n, is_prime
 
 
 class TestPrimeFunctions(unittest.TestCase):
@@ -90,6 +90,6 @@ class TestPrimeFunctions(unittest.TestCase):
         with self.assertRaises(AssertionError):
             find_primes_up_to_n("Twenty")
 
-if __name__ == '__main__':
-    unittest.main()
 
+if __name__ == "__main__":
+    unittest.main()

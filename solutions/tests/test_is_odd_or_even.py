@@ -9,7 +9,13 @@ Date: 2025-01-10
 """
 
 import unittest
-from is_odd_or_even import is_odd_or_even
+import sys
+import os
+
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+
+from solutions.is_odd_or_even import is_odd_or_even
 
 
 class TestIsOddOrEven(unittest.TestCase):

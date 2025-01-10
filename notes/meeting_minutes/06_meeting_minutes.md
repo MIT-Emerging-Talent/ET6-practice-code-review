@@ -12,12 +12,12 @@ Attendees: 6**
 
 ### **Topics Discussed:**
 
-**What was done on the meeting**
+**On  the meeting**
 
-+ Delete all unnecessary Branches after merge.
-+ Tracked the Group Checklist   
++ Delete all unnecessary branches after merge.
++ Tracked the Group Checklist:   
 On [Discussions](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-28/discussions/76)
-+ Brainstorm the retrospective together and was documented
++ Brainstorm the retrospective together and was documented:  
 On [Discussion](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-28/discussions/104)
 
 

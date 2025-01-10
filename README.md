@@ -69,13 +69,14 @@ Togather we **Get things done**
 
 - Review the **Project Board** to see the current state of our work and progress.
 
-3. **Contribute Your Work:**
+3.**Contribute Your Work:**
 
 Follow these steps to contribute your work:
 
 - **Add your files:**
 
-  - Place your solutions or problems in the appropriate directories (`problems/` or `solutions/`).
+- Place your solutions or problems in the appropriate directories
+- (`problems/` or `solutions/`).
 
 - **Stage your changes:**
 

@@ -27,7 +27,8 @@ Each member brings something special to the table.
 - [**Hasan:**](https://github.com/Hasan-Z) I breath Cyber Secur1ty 🥷🏼🛡💻
 - [**Cynthia:**](https://github.com/Cynthia-Wairimu) Crafting solutions,
   one line of code at a time. 💻✨
-- [**Sadam:**](https://github.com/Urz1)
+- [**Sadam:**](https://github.com/Urz1) Turning data into dreams with
+  the power of AI & ML 🤖✨
 - [**Ibrahim:**](https://github.com/Ibrahim-Elmisbah)
 - [**Anyak:**](https://github.com/Anyak7)
 

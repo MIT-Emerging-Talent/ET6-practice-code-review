@@ -44,7 +44,7 @@ We will always be in touch to discuss various things:
 | Mohammad | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
 | Tamara   | 5 - 6pm | 5 - 6pm | 5 - 6pm | 5 - 6pm | 5 - 6pm | 5 - 6pm | 5 - 6pm|
 | Raed     | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
-| Member 7 | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
+| Mahmoud | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
 | Member 8 | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
 
 ### How Many Hours Everyone Has Per Day on Average
@@ -55,7 +55,7 @@ We will always be in touch to discuss various things:
 - **Mohammad**: 3 hours
 - **Tamara**: 1 hour
 - **Raed**: 2 hours
-- **Member 7**: # of hours
+- **Mahmoud**: 3 hours
 - **Member 8**: # of hours
 
 ---

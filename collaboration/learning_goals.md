@@ -72,3 +72,4 @@ understood by all group members
 - Learn python programming language and use it in solving various challenges
 - Learn how to debug and fix errors in code
 - Understand behavior, strategy and implementation
+- Learn how to write clean and readable code

@@ -1,54 +1,68 @@
-<!--
-    this template is for inspiration, feel free to change it however you like!
-
-    Careful! be sure to protect your privacy when filling out this document
-        everything you write here will be public
-        so share only what you are comfortable sharing online
-        you can share the rest in confidence with you group by another channel
--->
-
 # Communication
 
 ______________________________________________________________________
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion | | --- | :-: | ----------------------- |
-| | | |
+<!-- markdownlint-disable MD013 MD004 -->
+
+| **Day**   | **How**      | **Topic of Discussion**                  | **Link**                                      |
+|-----------|--------------|------------------------------------------|----------------------------------------------|
+| 20/12/24  | Google Meet  | Introduction and Group Norms for MIT Alpha | [Meeting Minutes 01](notes/meeting_minutes/01_meeting_minutes.md) |
+| 22/12/24  | Google Meet  | Repos, Issues, Branches and Collaboration Guide | [Meeting Minutes 02](notes/meeting_minutes/02_meeting_minutes.md) |
+| 27/12/24  | Google Meet  | ET CI Checks                              | [Meeting Minutes 03](notes/meeting_minutes/03_meeting_minutes.md) |
+| 31/12/24  | Google Meet  | ET CI Checks Project Board and Issues     | [Meeting Minutes 04](notes/meeting_minutes/04_meeting_minutes.md) |
+| 08/01/25  | Google Meet  | Project Board and Collaboration file revision | [Meeting Minutes 05](notes/meeting_minutes/05_meeting_minutes.md) |
+| 10/01/25  | Google Meet  | Group Checklist and Retrospective         | [Pending...] |
 
 ## Communication Channels
 
-how often will we get in touch on each channel, and what we will discuss there:
+| **Channel**  | **How often**       | **Discussed there**                |
+|--------------|---------------------|-------------------------------------|
+| Slack        | Checked every two days | Meeting links, Important Announcements |
+| GitHub       | Everyday            | On Project Board and Discussions   |
+| Google Meet  | Twice a week        | Everything                         |
+| WhatsApp     | Everyday            | Scheduling Meeting & Urgent Matters |
 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
++ **Our team also commits to being active and responsive on WhatsApp:**  
+  - To support those without daily computer access.  
+  - Also, to stay in touch between meetings.  
+
++ **Issues:**
+  - **Occurrence:** Whenever necessary  
+  - **Topic:** Tracking challenges and documentation  
+    - Adding tag labels: Documentation, Challenge, Error, Bug, etc.  
+
++ **Pull Requests:**
+  - **Occurrence:** Notifying team through Slack and WhatsApp  
+  - **Topic:**  Reviewing codes and documentation  
+    - Ensuring at least one team member approves before merging  
 
 ______________________________________________________________________
 
 ## Availability
 
-### Availability for calling/messaging
+### Availability for calling/messaging/meetings
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
++ **Time:**  **After 12 PM EST**  
+  _To accommodate all members._  
+
++ **Next Meetings:**   _Scheduled during the prior meeting._  
+  _If unscheduled: Coordinated via WhatsApp or
+  Slack for all team members._
 
 ### How many hours everyone has per day
 
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
++ **We are a flexible team:**  
+  _However, the team is responsive daily on communication
+  channels (WhatsApp and Slack)._
 
 ## Asking for Help
 
-There's a fine line between confidently learning from your mistakes, and
-stubbornly getting no where. Here is a general guide for when to ask for help
-based on how long you've been stuck on the same problem:
+Document your challenge _tag_ to ensure clarity when seeking help.  
 
-1. _0 -> 30 min_: Try on your own
-1. _30 -> 60 min_: Ask your group for help
-1. _60+ min_: Tag your coaches in Slack or GitHub
++ **Step 1:** _0 -> 30 min_: Give it your best shot solo!  
++ **Step 2:** _1 hour_:  Call in the crew!  
++ **Step 3:** _One Day_:  Time to signal the experts on Slack or GitHub.  
+
+<!-- markdownlint-enable -->

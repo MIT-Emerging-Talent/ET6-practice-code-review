@@ -1,3 +1,11 @@
+"""
+Test suite for the roman_to_int function.
+
+This module provides a series of unit tests for the roman_to_int function 
+to ensure it correctly converts Roman numerals to integers and handles 
+invalid inputs appropriately.
+"""
+
 import sys
 
 sys.path.insert(0, "/Users/mushtary/ET6-foundations-group-03/solutions")

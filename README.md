@@ -5,7 +5,7 @@
   alt="Description of the GIF" style="width: 800px;">
 </div>
 
-**Welcome!**
+## **Welcome!**
 
  ![alt text](<assets/Welcome to California.gif>)
 

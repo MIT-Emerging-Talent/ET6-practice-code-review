@@ -36,10 +36,15 @@ def kth_largest(nums: list, k: int) -> str:
 
     """
     # Ensure correct input
-    assert isinstance(nums, list) and len(nums) > 0, "Must be non-empty list"
-    assert all(num.isdigit() for num in nums), "All must be digits only"
-    assert all(num[0] != "0" for num in nums), "No leading zeros"
-    assert 1 <= k <= len(nums), "k must be in range of length of list"
+    assert isinstance(nums, list), "First argument must be a list"
+    assert len(nums) > 0, "List can't be empty"
+    assert all(isinstance(num, str) for num in nums), "List items must be strings"
+    assert all(
+        num.lstrip("+-").isdigit() for num in nums
+    ), "Strings must consists of integers only"
+    assert all(num[0] != "0" for num in nums), "Integers can't have leading zeros"
+    assert isinstance(k, int), "Second argument must be an integer"
+    assert 1 <= k <= len(nums), "k must be in the range (1 <= k <= list length)"
     # Sort numbers as integers in reverse order
     nums = sorted(nums, key=int, reverse=True)
     # Return Kth number after sorting

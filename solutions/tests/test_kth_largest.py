@@ -69,13 +69,13 @@ class TestKthLargest(unittest.TestCase):
         self.assertEqual(actual, expected)
 
     # DEFENSIVE CASES
-    def test_zero_case(self):
+    def test_empty_list(self):
         """It should raise an AssertionError for an empty list"""
         with self.assertRaises(AssertionError):
-            kth_largest([], 1)
+            kth_largest([], 2)
 
     def test_non_numeric_strings(self):
-        """It should raise a AssertionError if non-numeric strings are included"""
+        """It should raise an AssertionError if non-numeric strings are included"""
         with self.assertRaises(AssertionError):
             kth_largest(["apple", "banana", "cherry"], 2)
 
@@ -88,3 +88,33 @@ class TestKthLargest(unittest.TestCase):
         """It should raise a AssertionError if k is zero"""
         with self.assertRaises(AssertionError):
             kth_largest(["3", "2", "3", "1", "2", "4", "5", "5", "6"], 0)
+
+    def test_not_a_list(self):
+        """It should raise an AssertionError if the input is not a list"""
+        with self.assertRaises(AssertionError):
+            kth_largest("3, 2, 1, 5", 2)
+
+    def test_list_items_not_strings(self):
+        """It should raise an AssertionError if the list items are not strings"""
+        with self.assertRaises(AssertionError):
+            kth_largest([3, 2, 1, 5], 2)
+
+    def test_strings_not_integers(self):
+        """It should raise an AssertionError if the strings are not integers"""
+        with self.assertRaises(AssertionError):
+            kth_largest(["3", "2", "a", "5"], 2)
+
+    def test_leading_zeros(self):
+        """It should raise an AssertionError if the strings have leading zeros"""
+        with self.assertRaises(AssertionError):
+            kth_largest(["03", "2", "1", "5"], 2)
+
+    def test_k_not_integer(self):
+        """It should raise an AssertionError if k is not an integer"""
+        with self.assertRaises(AssertionError):
+            kth_largest(["3", "2", "1", "5"], "2")
+
+    def test_k_out_of_range(self):
+        """It should raise an AssertionError if k is out of range"""
+        with self.assertRaises(AssertionError):
+            kth_largest(["3", "2", "1", "5"], 5)

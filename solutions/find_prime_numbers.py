@@ -25,9 +25,11 @@ def is_prime(n: int) -> bool:
         >>> is_prime(4)
         False
     """
-    print(type(n))
+    # Ensure n is an integer
+    if not isinstance(n, int):
+        raise TypeError("Input must be an integer")
 
-    if int(n) <= 1:
+    if n <= 1:
         return False
     for i in range(2, int(n**0.5) + 1):
         if n % i == 0:
@@ -49,8 +51,14 @@ def find_primes_up_to_n(n: int) -> list:
         >>> find_primes_up_to_n(20)
         [2, 3, 5, 7, 11, 13, 17, 19]
     """
+    # Ensure n is an integer and non-negative
+    if not isinstance(n, int):
+        raise TypeError("Input must be an integer")
+    if n < 0:
+        raise ValueError("Input must be a non-negative integer")
+
     primes = []
-    for num in range(2, int(n + 1)):
+    for num in range(2, n + 1):
         if is_prime(num):
             primes.append(num)
     return primes

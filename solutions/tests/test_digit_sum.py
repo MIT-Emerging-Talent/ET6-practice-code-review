@@ -14,6 +14,7 @@ from ..digit_sum import digit_sum  # type: ignore # noqa: E402
 Module contents: TestTestDigitSum: unit tests for the `digit_sum` function.
 """
 
+
 class TestDigitSum(unittest.TestCase):
     """Test the digit_sum function"""
 

@@ -41,9 +41,12 @@ class TestYearInvestment(unittest.TestCase):
         with self.assertRaises(AssertionError):
             year_investment(-1, 5)
 
-    def test_if_number(self):
-        """Test if all variables are numbers"""
+    def test_if_percentage_number(self):
+        """Test if percentage is a number"""
         with self.assertRaises(AssertionError):
             year_investment(1, "y")
+
+    def test_if_amount_number(self):
+        """Test if amount is a number"""
         with self.assertRaises(AssertionError):
             year_investment("y", 2)

@@ -53,13 +53,13 @@ def insertion_sort(arr: list[float | int]) -> None:
 
     assert isinstance(arr, list), "Input must be a list."
 
-    assert all(
-        isinstance(el, (int, float)) for el in arr
-    ), "All elements in the list must be of type int or float."
+    assert all(isinstance(el, (int, float)) for el in arr), (
+        "All elements in the list must be of type int or float."
+    )
 
-    assert not any(
-        isinstance(el, bool) for el in arr
-    ), "Boolean values are not allowed in the list."
+    assert not any(isinstance(el, bool) for el in arr), (
+        "Boolean values are not allowed in the list."
+    )
 
     for i in range(1, len(arr)):
         tmp = arr[i]

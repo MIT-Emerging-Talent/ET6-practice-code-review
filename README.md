@@ -31,15 +31,15 @@ Python skills through collaborative problem-solving.
 | [📂 .github/](.github/) | GitHub workflows and actions.                   |
 | [📂 .vscode/](.vscode/)| VS Code configuration files.                    |
 | [📂 assets/](assets/)| Fun images and GIFs for the README.             |
-| [📂 collaboration/](collaboration/)| Contains our team's collaboration files. |
-| ├── [📂 guide/](collaboration/guide/)| Guidance documents for completing this project effectively. |
-| ├── [communication.md](collaboration/communication.md)| Communication plan for the team.|
-| ├── [constraints.md](collaboration/constraints.md)| Constraints and rules for the project.|
-| ├── [learning_goals.md](collaboration/learning_goals.md)| Shared learning objectives for the team.|
-| ├── [README.md](collaboration/README.md)| Overview of the collaboration folder.|
-| ├── [retrospective.md](collaboration/retrospective.md)| Retrospective summaries of project phases.|
-| [📂 solutions/](solutions/)                               | Python solutions for programming challenges.    |
-| ├── [tests/](solutions/tests/)| Unit tests for the Python solutions.            |
+| [📂 collaboration/](collaboration/)|Team collaboration and documentation files.|
+| ├─[📂 guide/](collaboration/guide/)|Collaboration guidance documents. |
+| ├─[Communication](collaboration/communication.md)|Team communication plan.|
+| ├─[Constraints](collaboration/constraints.md)|Project constraints and rules.|
+| ├─[Learning_goals](collaboration/learning_goals.md)|Team learning objectives.|
+| ├─[README](collaboration/README.md)|Our collaboration norms.|
+| ├─[Retrospective](collaboration/retrospective.md)|Project phases summaries.|
+| [📂 solutions/](solutions/)| Python solutions for programming challenges.|
+| ├── [tests/](solutions/tests/)| Unit tests for the Python solutions.|
 
 ---
 

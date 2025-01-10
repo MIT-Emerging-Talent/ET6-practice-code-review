@@ -55,12 +55,12 @@ def bubble_sort(arr: list[float | int]) -> None:
     arrlen = len(arr)
 
     assert isinstance(arr, list), "Input must be a list."
-    assert all(
-        isinstance(el, (int, float)) for el in arr
-    ), "All elements in the list must be of type int or float."
-    assert not any(
-        isinstance(el, bool) for el in arr
-    ), "Boolean values are not allowed in the list."
+    assert all(isinstance(el, (int, float)) for el in arr), (
+        "All elements in the list must be of type int or float."
+    )
+    assert not any(isinstance(el, bool) for el in arr), (
+        "Boolean values are not allowed in the list."
+    )
 
     # Outer loop: iterate through the entire array
     # With each iteration, the largest unsorted element "bubbles up" to its correct position

@@ -10,7 +10,8 @@ Created on 10-01-2025
 """
 
 import unittest
-from solutions.find_prime_numbers import is_prime, find_primes_up_to_n
+
+from solutions.find_prime_numbers import find_primes_up_to_n, is_prime
 
 
 class TestPrimeFunctions(unittest.TestCase):

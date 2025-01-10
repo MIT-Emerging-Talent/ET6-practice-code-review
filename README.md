@@ -9,11 +9,15 @@
 
  ![alt text](<assets/Welcome to California.gif>)
 
-We are proudly part of the **MIT Computer and Data Science Foundations Track _2024-2025_**.
+We are proudly part of the
+ **MIT Computer and Data Science Foundations Track _2024-2025_**
 
-**California** is dedicated to fostering a culture of trust, respect, and accountability
-while promoting open communication and efficient collaboration. Our goal is to
-create an environment that values diverse perspectives, encourages teamwork, and
+**California** is dedicated to fostering a culture of trust, respect, and
+ accountability
+while promoting open communication and efficient collaboration.
+ Our goal is to
+create an environment that values diverse perspectives,
+ encourages teamwork, and
 drives success. We support continuous learning and innovative thinking.
 Our shared commitment to growth and development empowers
 each member to contribute and learn from collective experiences, ensuring we work

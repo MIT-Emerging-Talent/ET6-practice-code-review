@@ -46,7 +46,7 @@ Python skills through collaborative problem-solving.
 ## ![AltText](assets/cat.gif) **Communication**
 
 - **Slack:** For **Daily** updates on our progress.
-- **Weekly Meetings:** Every **Tuesday at 7 PM Egypt Time** on **Zoom**.
+- **Weekly Meetings:** Every **Saturday at 7 PM Egypt Time** on **Zoom**.
 
 ---
 

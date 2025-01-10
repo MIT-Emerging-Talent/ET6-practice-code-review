@@ -21,7 +21,7 @@ while corresponding test files are maintained in the `tests` folder.
 
 | **Solution File**       | **Description**                   | **Author**|
 |--------------------------|--------------------------------------------------------------|-------------------|
-|`calculate_average.py`| Calculates the average of a list of numbers | Clement |
+| `calculate_average.py`| Calculates the average of a list of numbers | Clement |
 | `spiral_traverse.py` | Traverses a 2D matrix in spiral order | Fahed |
 | `euler_totient.py` | Computes Euler's totient function (ϕ(n))| Fahed |
 | `direction_to_degree.py` | Convert a cardinal direction to degree | Obay |

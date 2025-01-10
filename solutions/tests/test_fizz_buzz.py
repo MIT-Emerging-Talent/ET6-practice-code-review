@@ -1,5 +1,5 @@
 """
-Unit tests for the fizz_buzz function.
+Unit Tests for the fizz_buzz function.
 """
 
 import unittest

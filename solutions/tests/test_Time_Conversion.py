@@ -38,6 +38,6 @@ class TestTimeConversion(unittest.TestCase):
             Time_Conversion("")
 
     def test_mix_types(self):
-        """It should raise AssertionError solutions\tests\test_Time_Conversion for string is empty"""
+        """It should raise AssertionError for string is mix types"""
         with self.assertRaises(AssertionError):
             Time_Conversion("hg:45")

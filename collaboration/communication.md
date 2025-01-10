@@ -46,14 +46,16 @@ use WhatsApp.
 | **Madiha** |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |
 | **Fatima** |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |
 | **Shahroz**|  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |
+| **Mojtaba**|  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |
+|**Mudassra**|  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |  ✓  |
 
 ### Hours Available Per Day
 
 - **Fatima**: _5h_  
 - **Madiha**: _5h_  
 - **M Shahroz**: _4h_  
-- **Member 4**: _4h_  
-- **Member 5**: _3h_  
+- **Mojtaba**: _5h_  
+- **Mudassra**: _5h_  
 
 ---
 

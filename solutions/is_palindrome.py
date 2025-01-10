@@ -10,18 +10,31 @@ def is_palindrome(string):
     Palindrome: a word whose reverse is the same as the original word.
 
      Parameters:
-      string(str): the word to be checked
+      string(str): the string to be checked.
 
-     Returns: string(str) "whether the word is palindrome or not"
+     Returns:
+      string (str): "Palindrome" if the word is a palindrome, otherwise "Not Palindrome".
+
+     Raises:
+      AssertionError: If the argument is not a string or if it's too long.
+
+     >>> is_palindrome("RADAR")
+     'Palindrome'
 
      >>> is_palindrome("radar")
      'Palindrome'
 
-     >>> is_palindrome("hey")
+     >>> is_palindrome("Radar")
+     'Not Palindrome'
+
+     >>> is_palindrome("hello")
      'Not Palindrome'
     """
-    # argument must be a string
-    assert isinstance(string, (str))
+    # Defensive assertions
+    assert isinstance(string, str), "Argument(Input) must be a string"
+    assert (
+        len(string) <= 100
+    ), "Argument (Input) is too long, max allowed length is 100 characters"
 
     if string == string[::-1]:
         return "Palindrome"

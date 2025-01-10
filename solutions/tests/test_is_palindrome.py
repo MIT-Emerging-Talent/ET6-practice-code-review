@@ -9,7 +9,7 @@ import unittest
 from ..is_palindrome import is_palindrome
 
 
-class Testis_palindrome(unittest.TestCase):
+class TestIsPalindrome(unittest.TestCase):
     """Unittests for the is_palindrome function"""
 
     def test_palindrome(self):
@@ -18,9 +18,14 @@ class Testis_palindrome(unittest.TestCase):
     def test_not_palindrome(self):
         self.assertEqual(is_palindrome("world"), "Not Palindrome")
 
+    # Boundary Cases Tests
     def test_empty_string(self):
         "Empty string is considered a Palindrome"
         self.assertEqual(is_palindrome(""), "Palindrome")
+
+    def test_single_character(self):
+        "Any single character is a palindrome as it reads the same backward"
+        self.assertEqual(is_palindrome("t"), "Palindrome")
 
     def test_non_string_entry(self):
         "Raise an error if entry is not a string"

@@ -1,14 +1,9 @@
 """
-Test module for alternate_elements function.
+Test module for Time Conversion function.
 Contains intentionally buggy tests for debugging practice.
 
-Test categories:
-    - Standard cases: typical lists with different lengths
-    - Edge cases: empty lists, single elements
-    - Defensive tests: wrong input types, assertions
-
-Created on 2024-12-06
-Author: Claude AI
+Created on 2024-01-09
+Author: Safaa Osman
 """
 
 import unittest
@@ -18,7 +13,6 @@ from ..Time_Conversion import Time_Conversion
 class TestTimeConversion(unittest.TestCase):
     """Test suite for the Time Conversion function - contains buggy tests!"""
 
-    # Standard test cases
     def test_not_string(self):
         """It should raise AssertionError for input not string"""
         with self.assertRaises(AssertionError):
@@ -42,3 +36,8 @@ class TestTimeConversion(unittest.TestCase):
         """It should raise AssertionError for string is empty"""
         with self.assertRaises(AssertionError):
             Time_Conversion("")
+
+    def test_mix_types(self):
+        """It should raise ValueError solutions\tests\test_Time_Conversion for string is empty"""
+        with self.assertRaises(ValueError):
+            Time_Conversion("hg:45")

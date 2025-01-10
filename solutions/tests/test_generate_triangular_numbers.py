@@ -13,6 +13,7 @@ Author: Nelson
 Created on: 10 01 2025
 """
 
+
 import unittest
 from solutions.generate_triangular_numbers import generate_triangular_numbers
 
@@ -27,6 +28,7 @@ class TestGenerateTriangularNumbers(unittest.TestCase):
     - Verify edge cases.
     """
 
+    
     def test_valid_inputs(self):
         """
         Test the function with valid inputs.
@@ -46,6 +48,7 @@ class TestGenerateTriangularNumbers(unittest.TestCase):
             [1, 3, 6, 10, 15, 21, 28, 36, 45, 55]
         )
 
+    
     def test_invalid_inputs(self):
         """
         Test the function with invalid inputs.
@@ -70,6 +73,7 @@ class TestGenerateTriangularNumbers(unittest.TestCase):
         with self.assertRaises(ValueError):
             generate_triangular_numbers(3.5)
 
+    
     def test_edge_cases(self):
         """
         Test edge cases for the function.

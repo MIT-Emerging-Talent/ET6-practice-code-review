@@ -6,7 +6,7 @@ Created on 04/01/2025
 
 
 def is_palindrome(string):
-    """is_palindrome will return whether the entry given is a palindrome or not.
+    """is_palindrome fuction will return whether the entry given is a palindrome or not.
     Palindrome: a word whose reverse is the same as the original word.
 
      Parameters:

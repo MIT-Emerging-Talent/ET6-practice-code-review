@@ -314,3 +314,48 @@ Having a structure and clear communication is really important. It helps me stay
 on track and be more productive. Working with the team is not only productive,
 but also really educational - we learn a lot from each other. The key takeaway?
 Teamwork and effective communication really make a difference in achieving success.
+
+# Retrospective - Lukmon Olamilekan Alao
+
+## stop doing
+
+I will stop doing the following:
+
+- spending a long hour on finding solutions to technical problem I encountered
+- acknowledge my beginner level and ask for help when I face challenges
+
+## Things I will continuing doing
+
+- dedicating extra time to catch-up with the group activities
+- solving simple problem and increasing the difficulty as I progress
+- using the git commands I have learnt so it become second nature
+- being a good team player
+- using the code review template for all the code I write
+
+## Things I will start doing
+
+I will start doing the following:
+
+- time blocking for programming practice
+- adopting best code writing practice
+- documenting the codes I write
+- communicating my growth and the new skill I learnt on my social media
+- volunteering to teach the skills I have learnt already
+
+### part of my plan that went well
+
+- ensured i complete my tasks against all odds
+- learn as much as possible from my teammates
+- have better understanding of how to use github and git
+
+### plans that did not work out
+
+- to help my teammates a lot
+- to be present in all of the workshop and team meetings
+- to submit all my assignment before the deadline day
+
+### Things I included that were not in my plan
+
+- using extra hour for self study
+- watching lot of youtube videos on git and git command
+- later using AI to learn the git commands effectively

@@ -1,4 +1,3 @@
-
 def minion_game(text):
     """
     Determines the winner of the Minion Game based on the input string.
@@ -14,36 +13,36 @@ def minion_game(text):
         text (str): The input string to play the Minion Game with. The string is converted to lowercase to ensure case-insensitivity.
 
     Returns:
-        tuple or str: 
+        tuple or str:
             - If there is a winner, returns a tuple with the winner's name ('Kevin' or 'Stuart') and their score.
             - If it's a draw, returns 'Draw'.
 
     Example:
-    
+
     >>> minion_game("banana")
     ('Stuart', 12)
-        
+
     >>> minion_game("a")
     ('Kevin', 1)
-    
+
     >>> minion_game("b")
     ('Stuart', 1)
-    
+
     >>> minion_game("aeiou")
     ('Kevin', 15)
-    
+
     """
     kevin_score = 0
     stuart_score = 0
-    vowels = {'a', 'e', 'i', 'o', 'u'}  
+    vowels = {"a", "e", "i", "o", "u"}
     n = len(text)
-    
+
     for i in range(n):
         if text[i] in vowels:
             kevin_score += n - i
         else:
             stuart_score += n - i
-    
+
     if kevin_score > stuart_score:
         return "Kevin", kevin_score
     elif stuart_score > kevin_score:

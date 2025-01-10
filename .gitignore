@@ -8,3 +8,4 @@ venv/
 .DS_Store
 solutions/.DS_Store
 solutions/tests/.DS_Store
+.DS_Store

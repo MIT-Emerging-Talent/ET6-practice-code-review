@@ -33,7 +33,7 @@ class TestDivideTwoNumbers(unittest.TestCase):
         """It should return zero if numerator is zero"""
         self.assertEqual(divide_numbers(0, 5), 0)
 
-    def test_zero_denominator_input(self):
+    def test_zero_denominator(self):
         """It should return Value error for zero in denominator(b)"""
         with self.assertRaises(ValueError):
             divide_numbers(46, 0)
@@ -44,7 +44,7 @@ class TestDivideTwoNumbers(unittest.TestCase):
             divide_numbers()
 
     def test_float_input(self):
-        """It should rise an error for float input"""
+        """It should raise an error for float input"""
         with self.assertRaises(TypeError):
             divide_numbers(6.25, 3)
 

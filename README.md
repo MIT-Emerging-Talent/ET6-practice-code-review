@@ -24,10 +24,29 @@ Python skills through collaborative problem-solving.
 
 ---
 
+## 🗂️ **Repository Files**
+
+| File/Directory                                           | Description     |
+| -------------------------------------------------------- | -----------------|
+| [📂 .github/](.github/) | GitHub workflows and actions.                   |
+| [📂 .vscode/](.vscode/)| VS Code configuration files.                    |
+| [📂 assets/](assets/)| Fun images and GIFs for the README.             |
+| [📂 collaboration/](collaboration/)|Team collaboration and documentation files.|
+| ├─[📂 guide/](collaboration/guide/)|Collaboration guidance documents. |
+| ├─[Communication](collaboration/communication.md)|Team communication plan.|
+| ├─[Constraints](collaboration/constraints.md)|Project constraints and rules.|
+| ├─[Learning_goals](collaboration/learning_goals.md)|Team learning objectives.|
+| ├─[README](collaboration/README.md)|Our collaboration norms.|
+| ├─[Retrospective](collaboration/retrospective.md)|Project phases summaries.|
+| [📂 solutions/](solutions/)| Python solutions for programming challenges.|
+| ├── [tests/](solutions/tests/)| Unit tests for the Python solutions.|
+
+---
+
 ## ![AltText](assets/cat.gif) **Communication**
 
 - **Slack:** For **Daily** updates on our progress.
-- **Weekly Meetings:** Every **Tuesday at 7 PM Egypt Time** on **Zoom**.
+- **Weekly Meetings:** Every **Saturday at 7 PM Egypt Time** on **Zoom**.
 
 ---
 

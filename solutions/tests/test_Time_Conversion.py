@@ -19,13 +19,13 @@ class TestTimeConversion(unittest.TestCase):
             Time_Conversion(1230)
 
     def test_hours_out_of_range(self):
-        """It should raise AssertionError for hours are out of range"""
-        with self.assertRaises(AssertionError):
+        """It should raise ValueError for hours are out of range"""
+        with self.assertRaises(ValueError):
             Time_Conversion("25:30")
 
     def test_minutes_out_of_range(self):
-        """It should raise AssertionError for minutes are out of range"""
-        with self.assertRaises(AssertionError):
+        """It should raise ValueError for minutes are out of range"""
+        with self.assertRaises(ValueError):
             Time_Conversion("12:69")
 
     def test_strings(self):
@@ -38,6 +38,6 @@ class TestTimeConversion(unittest.TestCase):
             Time_Conversion("")
 
     def test_mix_types(self):
-        """It should raise ValueError solutions\tests\test_Time_Conversion for string is empty"""
-        with self.assertRaises(ValueError):
+        """It should raise AssertionError solutions\tests\test_Time_Conversion for string is empty"""
+        with self.assertRaises(AssertionError):
             Time_Conversion("hg:45")

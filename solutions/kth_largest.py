@@ -39,9 +39,9 @@ def kth_largest(nums: list, k: int) -> str:
     assert isinstance(nums, list), "First argument must be a list"
     assert len(nums) > 0, "List can't be empty"
     assert all(isinstance(num, str) for num in nums), "List items must be strings"
-    assert all(
-        num.lstrip("+-").isdigit() for num in nums
-    ), "Strings must consists of integers only"
+    assert all(num.lstrip("+-").isdigit() for num in nums), (
+        "Strings must consists of integers only"
+    )
     assert all(num[0] != "0" for num in nums), "Integers can't have leading zeros"
     assert isinstance(k, int), "Second argument must be an integer"
     assert 1 <= k <= len(nums), "k must be in the range (1 <= k <= list length)"

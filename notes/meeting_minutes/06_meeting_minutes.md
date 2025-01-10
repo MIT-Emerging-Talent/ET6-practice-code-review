@@ -10,7 +10,7 @@ Attendees: 6**
 + Retrospective and Group Checklist  
 
 ### **Topics Discussed**  
-<!-- markdownlint-disable MD033 MD036 MD012 MD013 MD039 MD009 MD033-->
+<!-- markdownlint-disable MD033 MD036 MD012 MD013 MD039 MD009 MD033 MD024 MD032-->
 + Deleted all unnecessary branches after merging.  
 + Tracked the Group Checklist:  
   Documented on [Discussions](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-28/discussions/76).  

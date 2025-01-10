@@ -7,7 +7,11 @@ up to a given integer \( N \). A prime number is greater than 1 and divisible on
 Author: Zeinab Shadabshoar
 Date: 09 01 2025
 """
-
+def find_primes_up_to_n(n):
+    if not isinstance(n, int):
+        raise TypeError("Input must be an integer")
+    if n <= 1:
+        return []
 
 def is_prime(n: int) -> bool:
     r"""

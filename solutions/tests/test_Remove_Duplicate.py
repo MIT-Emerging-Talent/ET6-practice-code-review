@@ -1,3 +1,11 @@
+"""
+Test module for Remove Duplicate function.
+
+Created on 2024-01-10
+Author: Safaa Osman
+
+"""
+
 import unittest
 
 from ..Remove_Duplicates import Remove_Duplicates

@@ -43,6 +43,10 @@ class TestCountVowels(unittest.TestCase):
     def test_empty_string(self):
         """It should return 0 for an empty string."""
         self.assertEqual(count_vowels(""), 0)
+    
+    def test_only_whitespace(self):
+        """It should return 0 for strings with only whitespace."""
+        self.assertEqual(count_vowels("     "), 0)
 
     def test_mixed_case_vowels(self):
         """It should count both uppercase and lowercase vowels in a string."""

@@ -37,10 +37,15 @@ def password_strength(password: str) -> str:
         'Strong password'
         >>> password_strength("weakpass")
         'Missing uppercase letter'
+        >>> password_strength("Short1!")
+        'Password too short'
     """
+    # Make sure password is a string
     if not isinstance(password, str):
         raise AssertionError("Password must be a string")
 
+    # Handle password strength rules
+    # Sequentially validate the password against different strength criteria
     if len(password) < 8:
         return "Password too short"
 
@@ -56,4 +61,5 @@ def password_strength(password: str) -> str:
     if not re.search(r"[@$!%*?&]", password):
         return "Missing special character"
 
+    # If all checks pass, the password is considered strong
     return "Strong password"

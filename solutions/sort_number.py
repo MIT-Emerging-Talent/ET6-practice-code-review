@@ -39,9 +39,9 @@ def sort_number(array: list[int, float]) -> list[int, float]:
     # Ensure the input only contains a list of floats and/or integers
     assert isinstance(array, list), "The array to be sorted must be a list"
 
-    assert all(
-        isinstance(item, (int, float)) for item in array
-    ), "The elements in the array must be either floats and/or integers"
+    assert all(isinstance(item, (int, float)) for item in array), (
+        "The elements in the array must be either floats and/or integers"
+    )
 
     # Sorting strategy: recursive strategy using merge sort algorithm
     # Base case: an array of 1 or 0 elements is already sorted

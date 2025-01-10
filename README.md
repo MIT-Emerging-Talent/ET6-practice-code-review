@@ -30,7 +30,7 @@ Each member brings something special to the table.
 - [**Sadam:**](https://github.com/Urz1) Turning data into dreams with
   the power of AI & ML 🤖✨
 - [**Ibrahim:**](https://github.com/Ibrahim-Elmisbah)
-- [**Anyak:**](https://github.com/Anyak7)
+- [**Anyak:**](https://github.com/Anyak7) Technology is the future, and we are the builders. Let's code, learn, and grow together!
 
 ## About This Repository
 

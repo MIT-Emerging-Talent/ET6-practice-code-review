@@ -5,3 +5,6 @@ venv/
 *.db
 *.idea
 *.ruff_cache
+.DS_Store
+solutions/.DS_Store
+solutions/tests/.DS_Store

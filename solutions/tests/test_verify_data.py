@@ -2,7 +2,7 @@
 
 import unittest
 
-import verify_data
+from ..verify_data import verify_data
 
 
 class TestVerifyData(unittest.TestCase):

@@ -41,12 +41,12 @@ def calculate_max_profit(prices: list) -> int:
     """
 
     assert isinstance(prices, list), "Input should be a list."
-    assert all(
-        isinstance(price, (int, float)) for price in prices
-    ), "Prices should be integers or floats."
-    assert all(
-        price >= 0 for price in prices
-    ), "Prices should be non-negative integers or floats."
+    assert all(isinstance(price, (int, float)) for price in prices), (
+        "Prices should be integers or floats."
+    )
+    assert all(price >= 0 for price in prices), (
+        "Prices should be non-negative integers or floats."
+    )
 
     maximum_profit = 0
 

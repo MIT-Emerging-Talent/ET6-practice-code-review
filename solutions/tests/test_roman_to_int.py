@@ -1,12 +1,14 @@
 import sys
-sys.path.insert(0, '/Users/mushtary/ET6-foundations-group-03/solutions')
+
+sys.path.insert(0, "/Users/mushtary/ET6-foundations-group-03/solutions")
 import unittest
 from solutions.roman_to_int import roman_to_int  # Correct import path
+
 
 class TestRomanToInt(unittest.TestCase):
     """
     Test class for the roman_to_int function.
-    
+
     This class contains unit tests for the roman_to_int function, covering both
     valid and invalid Roman numeral inputs.
     """
@@ -37,6 +39,7 @@ class TestRomanToInt(unittest.TestCase):
             roman_to_int("IIII")  # Invalid Roman numeral
         with self.assertRaises(ValueError):
             roman_to_int("ABC")  # Non-Roman input
+
 
 if __name__ == "__main__":
     unittest.main()

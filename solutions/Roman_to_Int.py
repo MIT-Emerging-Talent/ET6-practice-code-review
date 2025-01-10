@@ -23,11 +23,9 @@ def roman_to_int(s: str) -> int:
     >>> roman_to_int("MCMXCIV")
     1994
     """
-    
+
     roman_values = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
-    invalid_patterns = [
-        "IIII", "VV", "XXXX", "LL", "CCCC", "DD", "MMMM"
-    ]
+    invalid_patterns = ["IIII", "VV", "XXXX", "LL", "CCCC", "DD", "MMMM"]
 
     # Check for invalid characters
     for char in s:
@@ -42,7 +40,7 @@ def roman_to_int(s: str) -> int:
     # Initialize total value and previous numeral's value
     total = 0
     prev_value = 0
-    
+
     # Loop through the string from right to left
     for char in reversed(s):
         current_value = roman_values[char]

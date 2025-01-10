@@ -3,6 +3,12 @@
 This module contains a function to convert voltage to amperes using Ohm's law.
 The formula used is: I = V / R
 
+
+Created on Fri 10/1/2024
+@author: Obay Salih
+Group: ET foundations group 16 (Matrix)
+Module contents:
+
 Where:
 - V is the voltage in volts
 - R is the resistance in ohms

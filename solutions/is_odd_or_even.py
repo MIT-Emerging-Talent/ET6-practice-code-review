@@ -36,10 +36,10 @@ def is_odd_or_even(number: int) -> str:
     """
     if not isinstance(number, int):
         raise ValueError("Input must be an integer.")
-    
     return "Even" if number % 2 == 0 else "Odd"
 
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod()

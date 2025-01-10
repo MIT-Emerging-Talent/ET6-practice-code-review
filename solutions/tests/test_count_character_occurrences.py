@@ -68,7 +68,8 @@ class TestCharacterOccurrences(unittest.TestCase):
         self.assertEqual(str(context.exception), "First parameter must be a string")
 
     def test_char_as_str(self):
-        """It should raise ValueError with a specific message when the input is a number."""
+        """It should raise ValueError with a specific message when the second parameter
+        is not a single character."""
         with self.assertRaises(ValueError) as context:
             count_character_occurrences("unittest is fun", "ab")
 

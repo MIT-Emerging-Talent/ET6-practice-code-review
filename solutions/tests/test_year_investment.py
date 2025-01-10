@@ -1,6 +1,10 @@
 """
 Test for year_investment
 
+Module:
+  -Calculates a yearly investment with desired amount
+  and percantage
+
 created by Dmytro Klymenko
 
 1/8/2025

@@ -19,8 +19,7 @@ Example usage:
 
 
 def miles_to_kilometers(miles: float) -> float:
-    """
-    Convert miles to kilometers.
+    """Convert miles to kilometers.
 
     Parameters:
     miles (float): The distance in miles to be converted.

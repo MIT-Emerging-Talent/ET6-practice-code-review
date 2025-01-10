@@ -49,17 +49,22 @@ jobs:
   py_tests:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Set PYTHONPATH
-        run: echo "PYTHONPATH=$(pwd)/solutions" >> $GITHUB_ENV
-      - name: python version
-        run: python --version
-        shell: bash
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-        shell: bash
-      - name: Python - Run Tests
-        run: python -m unittest discover -s solutions/tests -p "test_roman_to_int.py"
-        shell: bash
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set PYTHONPATH for testing
+      run: echo "PYTHONPATH=$(pwd)/solutions" >> $GITHUB_ENV
+
+    - name: Python version
+      run: python --version
+      shell: bash
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+      shell: bash
+
+    - name: Run tests
+      run: python -m unittest discover -s solutions/tests -p "test_roman_to_int.py"
+      shell: bash

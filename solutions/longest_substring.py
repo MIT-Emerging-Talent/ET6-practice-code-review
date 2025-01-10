@@ -4,7 +4,8 @@
 A module for finding the length of the longest substring without repeating characters.
 
 Module contents:
-    - longest_substring(s): Function to determine the length of the longest substring without repeating characters.
+    - longest_substring(s): Function to determine the length
+    of the longest substring without repeating characters.
 
 Created on 2025-01-07
 @author: Gennadii Ershov
@@ -17,14 +18,16 @@ def longest_substring(s: str) -> int:
 
     Args:
         s (str): The input string to be evaluated. Must have a length between 0 and 5 * 10^4.
-                 The string consists of English letters, digits, symbols, and spaces.
+        The string consists of English letters, digits, symbols, and spaces.
 
     Returns:
-        int: The length of the longest substring without repeating characters. Returns 0 if the input string is empty.
+        int: The length of the longest substring without
+        repeating characters. Returns 0 if the input string is empty.
 
     Raises:
         AssertionError: If the input is not a string.
-        AssertionError: If the input string length is not within the valid range (0 <= len(s) <= 5 * 10^4).
+        AssertionError: If the input string length is
+        not within the valid range (0 <= len(s) <= 5 * 10^4).
 
 
     >>> longest_substring("abcabcbb")

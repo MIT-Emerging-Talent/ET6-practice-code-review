@@ -11,7 +11,6 @@ Date: 09 01 2025
 Author: Zeinab Shadabshoar
 """
 
-
 def is_prime(n: int) -> bool:
     """
     Checks if a given number is prime.
@@ -41,7 +40,6 @@ def is_prime(n: int) -> bool:
             return False
     return True
 
-
 def count_primes(numbers: list) -> int:
     """
     Counts the number of prime numbers in a list.
@@ -70,7 +68,7 @@ def count_primes(numbers: list) -> int:
 
     return prime_count
 
-
 # Example usage
 numbers = [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
 print("Number of prime numbers:", count_primes(numbers))
+

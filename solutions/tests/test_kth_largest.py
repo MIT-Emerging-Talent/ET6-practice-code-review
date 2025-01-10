@@ -72,7 +72,7 @@ class TestKthLargest(unittest.TestCase):
     def test_empty_list(self):
         """It should raise an AssertionError for an empty list"""
         with self.assertRaises(AssertionError):
-            kth_largest([], 2)
+            kth_largest([], 1)
 
     def test_non_numeric_strings(self):
         """It should raise an AssertionError if non-numeric strings are included"""

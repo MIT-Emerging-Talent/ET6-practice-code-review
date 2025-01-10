@@ -1,82 +1,95 @@
 """
-A module for testing the functions decimal_to_binary and binary_to_decimal.
+A module for testing the functions is_prime and find_primes_up_to_n.
 
 Tests included:
-    - decimal_to_binary: tested the cases when the input is a positive random number,
-    input is a negative integer, input is zero, and when the input is a string.
-    - binary_to_decimal: tested the cases when the input is a random binary number,
-    input is a zero, and when the input is a string.
+    - is_prime: tested the cases when the input is a prime number, a non-prime number,
+    input is zero, input is one, input is a negative integer, and when the input is a string.
+    - find_primes_up_to_n: tested the cases when the input is a positive integer,
+    input is zero, and when the input is a string.
 
-Created on 31 12 24
-@author: Abdallah Alnajjar
+Created on 10 01 2025
+@author: Zeinab Shadabshoar
 """
 
 import unittest
 
-from ..num_converter import binary_to_decimal, decimal_to_binary
+from ..prime_checker import is_prime, find_primes_up_to_n
 
 
-class TestBinaryDecimalConversion(unittest.TestCase):
+class TestPrimeFunctions(unittest.TestCase):
     """
-    Tests both functions in num_converter, binary_to_decimal and decimal_to_binary.
+    Tests both functions in prime_checker, is_prime and find_primes_up_to_n.
     """
 
-    def test_decimal_to_binary_247(self):
+    def test_is_prime_prime(self):
         """
-        It should return a binary representation of 11110111
+        It should return True if the input is a prime number
         """
-        actual = decimal_to_binary(247)
-        expected = 11110111
+        actual = is_prime(7)
+        expected = True
         self.assertEqual(actual, expected)
 
-    def test_decimal_to_binary_zero(self):
+    def test_is_prime_non_prime(self):
         """
-        It should return a binary representation of 11110111
+        It should return False if the input is a non-prime number
         """
-        actual = decimal_to_binary(0)
-        expected = 0
+        actual = is_prime(4)
+        expected = False
         self.assertEqual(actual, expected)
 
-    def test_decimal_to_binary_string(self):
+    def test_is_prime_zero(self):
         """
-        It should raise an assertion error if the input is a non-integer
+        It should return False if the input is zero
         """
-        with self.assertRaises(AssertionError):
-            decimal_to_binary("Abdallah")
+        actual = is_prime(0)
+        expected = False
+        self.assertEqual(actual, expected)
 
-    def test_decimal_to_binary_negative(self):
+    def test_is_prime_one(self):
+        """
+        It should return False if the input is one
+        """
+        actual = is_prime(1)
+        expected = False
+        self.assertEqual(actual, expected)
+
+    def test_is_prime_negative(self):
         """
         It should raise an assertion error if the input is a negative integer
         """
         with self.assertRaises(AssertionError):
-            decimal_to_binary(-255)
+            is_prime(-5)
 
-    def test_binary_to_decimal_1111(self):
-        """
-        It should return 15 if the input is 1111
-        """
-        actual = binary_to_decimal(1111)
-        expected = 15
-        self.assertEqual(actual, expected)
-
-    def test_binary_to_decimal_zeros(self):
-        """
-        It should return 0 if the input is zero
-        """
-        actual = binary_to_decimal(0)
-        expected = 0
-        self.assertEqual(actual, expected)
-
-    def test_binary_to_decimal_non_binary(self):
-        """
-        It should raise an assertion error if the input contains digits other than 0 and 1
-        """
-        with self.assertRaises(AssertionError):
-            binary_to_decimal(20105140)
-
-    def test_binary_to_decimal_non_integer(self):
+    def test_is_prime_string(self):
         """
         It should raise an assertion error if the input is a non-integer
         """
         with self.assertRaises(AssertionError):
-            binary_to_decimal("Aboodi")
+            is_prime("Zeinab")
+
+    def test_find_primes_up_to_n_positive(self):
+        """
+        It should return a list of prime numbers up to the given positive integer
+        """
+        actual = find_primes_up_to_n(20)
+        expected = [2, 3, 5, 7, 11, 13, 17, 19]
+        self.assertEqual(actual, expected)
+
+    def test_find_primes_up_to_n_zero(self):
+        """
+        It should return an empty list if the input is zero
+        """
+        actual = find_primes_up_to_n(0)
+        expected = []
+        self.assertEqual(actual, expected)
+
+    def test_find_primes_up_to_n_string(self):
+        """
+        It should raise an assertion error if the input is a non-integer
+        """
+        with self.assertRaises(AssertionError):
+            find_primes_up_to_n("Twenty")
+
+if __name__ == '__main__':
+    unittest.main()
+

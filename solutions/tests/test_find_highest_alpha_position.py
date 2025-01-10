@@ -5,6 +5,7 @@
 """
 
 import unittest
+
 from solutions.find_highest_alpha_position import find_highest_alpha_position
 
 

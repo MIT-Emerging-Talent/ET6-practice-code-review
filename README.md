@@ -109,7 +109,8 @@ _Doctests_ are embedded within the scripts and can be run directly in
 
 This project is licensed under the MIT License.
 For more details, see the `LICENSE` file.
-___
+
+____
 
 <div style="display: flex; justify-content: left;">
   <img src="assets\california-beach.gif"  

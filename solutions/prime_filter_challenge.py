@@ -1,9 +1,8 @@
-# prime_filter_challenge
-
 import math
+from typing import List
 
 
-def filter_primes(numbers: list[int]) -> list[int]:
+def prime_filter(numbers: List[int]) -> List[int]:
     """
     Filters out all non-prime numbers from a given list of integers.
 
@@ -14,10 +13,10 @@ def filter_primes(numbers: list[int]) -> list[int]:
         list of int: A new list containing only the prime numbers, maintaining the original order.
 
     Example:
-        >>> filter_primes([2, 3, 4, 5, 6, 7])
+        >>> prime_filter([2, 3, 4, 5, 6, 7])
         [2, 3, 5, 7]
 
-        >>> filter_primes([10, 15, 17, 19, 20])
+        >>> prime_filter([10, 15, 17, 19, 20])
         [17, 19]
 
     Raises:
@@ -31,7 +30,7 @@ def filter_primes(numbers: list[int]) -> list[int]:
     if not all(isinstance(i, int) for i in numbers):
         raise ValueError("All elements in the list must be integers.")
 
-    def is_prime(n):
+    def is_prime(n: int) -> bool:
         """Helper function to check if a number is prime."""
         if n <= 1:
             return False

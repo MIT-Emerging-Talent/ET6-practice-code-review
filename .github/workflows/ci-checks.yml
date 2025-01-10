@@ -55,12 +55,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Set PYTHONPATH
+        run: echo "PYTHONPATH=$(pwd)/solutions" >> $GITHUB_ENV
       - name: python version
         run: python --version
         shell: bash
-      - name: Set PYTHONPATH
-        run: export PYTHONPATH=$PYTHONPATH:$(pwd)/solutions
-        shell: bash
       - name: Python - Run Tests
-        run: python -m unittest discover -s solutions/tests -p "test_roman_to_int.py"
+        run: python -m unittest
         shell: bash

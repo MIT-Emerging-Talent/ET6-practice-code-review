@@ -1,6 +1,6 @@
 import unittest
 
-from count_vowels import count_vowels
+from ..count_vowels import count_vowels
 
 
 class TestCountVowels(unittest.TestCase):
@@ -26,7 +26,7 @@ class TestCountVowels(unittest.TestCase):
 
     def test_vowels_in_words(self):
         """Test a string with words containing vowels."""
-        self.assertEqual(count_vowels("Python programming is fun!"), 8)
+        self.assertEqual(count_vowels("Python programming is fun!"), 6)
 
 
 if __name__ == "__main__":

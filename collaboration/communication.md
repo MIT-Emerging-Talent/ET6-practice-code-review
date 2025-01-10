@@ -22,6 +22,11 @@ ______________________________________________________________________
 | Sun, 12/22    | Zoom Meeting | Review, Tools and Group Norms                       |
 | Sun, 12/29    | Zoom Meeting | Repository Review and Project Kickoff               |
 | Mon, 12/30    | Zoom Meeting | Issue Discussion and Next Steps                     |
+| Wed, 01/01   | Zoom Meeting  | Strategy discussion: planning challenge solutions, assigning tests, and creating documents for proposals. |
+| Thu, 01/02   | Collaboration | Finalized all communication files on GitHub; officially started working on individual codes.             |
+| Sun, 01/05   | Zoom Meeting  | Addressed difficulties in coding, supported each other, and refined individual implementations.          |
+| Wed, 01/08   | Zoom Meeting  | Reviewed challenges faced during code reviews and assisted with finalizing files for merging.            |
+| Sat, 01/11   | Zoom Meeting  | Final meeting to compile retrospective files, notes, and close the repository.                           |
 
 ## Communication Channels
 
@@ -43,7 +48,7 @@ ______________________________________________________________________
 | Hafiz Hussein | 3-5pm ETZ |  3-5pm ETZ |  3-5pm ETZ|  3-5pm ETZ|  3-5pm ETZ|  3-5pm ETZ  |  3-5pm ETZ   |
 | Jha-mal       |not avaluble         |  3-5pm ETZ   |  3-5pm ETZ     | 3-5pm ETZ   |  3-5pm ETZ   | 3-5pm ETZ    |  3-5pm ETZ  |
 | Maria Cedeño  |  3-5pm ETZ|  3-5pm ETZ|  3-5pm ETZ|  3-5pm ETZ|  3-5pm ETZ| not available  | not available  |
-| Mariia Ermyshina| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ|
+| Mariia Ermishina| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ|
 | Sahar         | -           | -           | -          | -          | -          | -          | -          |
 
 ### How many hours everyone has per day
@@ -54,7 +59,7 @@ ______________________________________________________________________
 | Hafiz Hussein | 3 hours                      | Available all week; Zoom 3-5 pm             |
 | Jha-mal       | 3 hours                      | Available from Tue-Sun|
 | Maria Cedeño  | 4-5 hours                    | Available Mon-Fri; Zoom 3-5 pm        |
-| Mariia Ermyshina| 3-4 hours          | Available 2-12 pm ETZ  |
+| Mariia Ermishina| 3-4 hours          | Available 2-12 pm ETZ  |
 | Sahar         | -                             |                                              |
 
 ## Asking for Help

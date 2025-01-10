@@ -1,3 +1,4 @@
+
 def minion_game(text):
     """
     Determines the winner of the Minion Game based on the input string.
@@ -49,8 +50,3 @@ def minion_game(text):
         return "Stuart", stuart_score
     else:
         return "Draw"
-
-
-if __name__ == "__main__":
-    import doctest
-    doctest.testmod()

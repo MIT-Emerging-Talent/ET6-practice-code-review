@@ -56,7 +56,7 @@ naming convention: `test_solution_name.py`.
 2. **Write Corresponding Tests**:  
    - Add a test file for your solution in the `tests` folder.
    - Use the naming convention: `test_solution_name.py`.
-   - Write comprehensive test cases covering normal, edge, and error scenarios.
+   - Write comprehensive test cases covering normal, and error scenarios.
 
 3. **Submit Your Work**:  
    - Submit a pull request including:

@@ -1,5 +1,4 @@
-"""
-A module for testing the functions `is_prime` and `find_primes_up_to_n`.
+"""A module for testing the functions `is_prime` and `find_primes_up_to_n`.
 
 Tests included:
     - is_prime: tested with prime numbers, non-prime numbers, zero, one,
@@ -11,7 +10,7 @@ Created on 10-01-2025
 """
 
 import unittest
-from find_prime_numbers import find_primes_up_to_n, is_prime
+from solutions.find_prime_numbers import is_prime, find_primes_up_to_n
 
 
 class TestPrimeFunctions(unittest.TestCase):

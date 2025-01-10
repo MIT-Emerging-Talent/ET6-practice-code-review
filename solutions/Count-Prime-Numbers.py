@@ -1,22 +1,24 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-r"""
-The goal of this challenge is to count how many prime numbers are present in a given list of integers.
-A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+"""
+This module provides functions for checking primality and counting prime numbers in a list.
 
 Date: 09 01 2025
 Author: Zeinab Shadabshoar
 """
 
 def is_prime(n: int) -> bool:
-    r"""
+    """
     Checks if a given number is prime.
 
-    Parameters:
-        n (int): The number to check.
+    Args:
+        n: The number to check.
 
     Returns:
-        bool: True if the number is prime, False otherwise.
+        True if the number is prime, False otherwise.
+
+    Raises:
+        AssertionError: If n is not an integer or n is negative.
 
     Examples:
         >>> is_prime(2)
@@ -24,10 +26,7 @@ def is_prime(n: int) -> bool:
         >>> is_prime(4)
         False
     """
-    # validate input type
     assert isinstance(n, int), "Input must be an integer"
-
-    # ensure that the number is positive
     assert n >= 0, "Input must be a non-negative integer"
 
     if n <= 1:
@@ -38,14 +37,14 @@ def is_prime(n: int) -> bool:
     return True
 
 def count_primes(numbers: list) -> int:
-    r"""
+    """
     Counts the number of prime numbers in a list.
 
-    Parameters:
-        numbers (list): The list of numbers to check.
+    Args:
+        numbers: The list of numbers to check.
 
     Returns:
-        int: The count of prime numbers in the list.
+        The count of prime numbers in the list.
 
     Raises:
         AssertionError: If the input is not a list.
@@ -55,15 +54,11 @@ def count_primes(numbers: list) -> int:
         >>> count_primes([2, 3, 4, 5])
         3
     """
-    # validate input type
     assert isinstance(numbers, list), "Input must be a list"
 
     prime_count = 0
-
     for num in numbers:
-        # ensure that each element in the list is an integer
         assert isinstance(num, int), "All elements in the list must be integers"
-
         if is_prime(num):
             prime_count += 1
 

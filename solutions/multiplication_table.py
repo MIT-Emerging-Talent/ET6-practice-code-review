@@ -22,7 +22,8 @@ def multiplication_table(n: int | float, first: int, last: int) -> str:
     first: int, first multiplier in the table, must be in the range (last >= first > 0).
     last: int, last multiplier in the table, must be greater than zero.
 
-    Returns -> string: the output multiplication table
+    Returns -> string: the output multiplication table displayed as a multiline string where:
+
 
     Raises:
         AssertionError: if the number "n" is not integer or float.

@@ -23,13 +23,9 @@ class TestCountVowels(unittest.TestCase):
         """It should count vowels in a regular word with both vowels and consonants."""
         self.assertEqual(count_vowels("hello"), 2)
 
-    def test_no_vowels(self):
-        """It should return 0 for a string with no vowels."""
-        self.assertEqual(count_vowels("fly"), 0)
-
-    def test_all_vowels(self):
-        """It should handle all uppercase and lowercase vowels."""
-        self.assertEqual(count_vowels("aeiouAEIOU"), 10)
+    def test_mixed_case_vowels(self):
+        """It should count both uppercase and lowercase vowels in a string."""
+        self.assertEqual(count_vowels("hellOWorld"), 3)
 
     def test_uppercase_vowels(self):
         """It should count uppercase vowels in the string."""
@@ -38,6 +34,10 @@ class TestCountVowels(unittest.TestCase):
     def test_lowercase_vowels(self):
         """It should count lowercase vowels in the string."""
         self.assertEqual(count_vowels("small"), 1)
+
+    def test_repeated_vowels(self):
+        """It should count all repeated vowels in a string."""
+        self.assertEqual(count_vowels("aaeeiioouuAAEEIIOOUU"), 20)
 
     # Edge Cases
     def test_empty_string(self):
@@ -48,13 +48,9 @@ class TestCountVowels(unittest.TestCase):
         """It should return 0 for strings with only whitespace.."""
         self.assertEqual(count_vowels("     "), 0)
 
-    def test_mixed_case_vowels(self):
-        """It should count both uppercase and lowercase vowels in a string."""
-        self.assertEqual(count_vowels("hellOWorld"), 3)
-
-    def test_repeated_vowels(self):
-        """It should count all repeated vowels in a string."""
-        self.assertEqual(count_vowels("aaeeiioouuAAEEIIOOUU"), 20)
+    def test_no_vowels(self):
+        """It should return 0 for a string with no vowels."""
+        self.assertEqual(count_vowels("fly"), 0)
 
     def test_long_string(self):
         """It should correctly count vowels in a long mixed-case string."""

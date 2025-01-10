@@ -40,19 +40,30 @@ def password_strength(password: str) -> str:
         'Missing special character'
     """
 
+    # Handle password strength rules
+    # Sequentially validate the password against different strength criteria
+    # Return a specific feedback message for each failed rule
+
+    # Check if the password is at least 8 characters long
     if len(password) < 8:
         return "Password too short"
 
+    # Check if the password contains at least one uppercase letter
     if not re.search(r"[A-Z]", password):
         return "Missing uppercase letter"
 
+    # Check if the password contains at least one lowercase letter
     if not re.search(r"[a-z]", password):
         return "Missing lowercase letter"
 
+    # Check if the password contains at least one digit
     if not re.search(r"[0-9]", password):
         return "Missing digit"
 
+    # Check if the password contains at least one special character
+    # Special characters are defined here as @, $, !, %, *, ?, and &
     if not re.search(r"[@$!%*?&]", password):
         return "Missing special character"
 
+    # If all checks pass, the password is considered strong
     return "Strong password"

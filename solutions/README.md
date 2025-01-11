@@ -1,4 +1,4 @@
-# Solutions
+# Python Calculator Application Documentation
 
 ## Simple Basic Calculator
 

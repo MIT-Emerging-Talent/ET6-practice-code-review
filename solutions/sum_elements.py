@@ -20,11 +20,11 @@ def sum_elements(numbers: list) -> int:
 
     Returns:
         int: the sum of the numbers in the list
-    
+
     Raises:
         TypeError: If the input is not a list.
         ValueError: If any element in the list is not an integer.
-        
+
 
     >>> sum_elements([1,2,3])
     6

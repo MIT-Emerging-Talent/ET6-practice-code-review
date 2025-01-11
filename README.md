@@ -1,8 +1,9 @@
 # Push and Pray
 
-Welcome to the repository of **Push and Pray**, standing for Group 19 in the MIT Emerging Talent Program
+Welcome to the repository of **Push and Pray**, standing for Group 19 in the MIT
+Emerging Talent Program.
 
-![unit-tests](https://github.com/user-attachments/assets/d702eae2-fc42-46ed-a403-bc61ca48cc4c)
+![alt text](unit-tests.jpg)
 
 ## Meet The Team 🌟
 

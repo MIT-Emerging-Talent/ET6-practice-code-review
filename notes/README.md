@@ -20,4 +20,4 @@ overcame hurdles as a team.
 - 🎨 **Creative Additions:** Doodles, memes, or anything that adds color to our
 shared experience!
 
-This space is all about **connection** and **growth**. Use it freely to document your learning, share your quirks, or just have fun. Let’s make this a treasure trove of memories and insights!
+This space is all about **connection** and **growth**. Use it freely to document your learning, share your quirks, or just have fun. Let’s make this a treasure trove of memories and insights! 🚀

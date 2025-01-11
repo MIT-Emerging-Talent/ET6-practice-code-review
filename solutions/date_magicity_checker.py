@@ -8,7 +8,8 @@ Created on 05 01 2025
 
 
 def date_magicity_checker(date):
-    """Takes a string representation of a valid date as an argument and returns True if the date is magic, or False otherwise.
+    """Takes a string representation of a valid date as an argument and returns True if the date is magic, or False otherwise
+
     A magic date is a date when the day multiplied by the month equals the number formed by the last two digits of the year.
 
     Parameters:

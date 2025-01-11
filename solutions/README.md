@@ -29,12 +29,16 @@ while corresponding test files are maintained in the `tests` folder.
 | `grading_system.py`| Assigning letter grade to a numeric score.  | Razan |
 | `kronecker_product.py` | Computes the Kronecker ⊗ product of 2 matrices | Fahed|
 | `feet_to_meters.py` | Converting feet to meters| Obay |
+| `area_circle.py`| Calculates the area of the circle | Majd |
+| `multiplication.py`| Calculate the multiple of two numbers | Majd|
+| `square.py`| Find the number power of two | Majd |
 | `volts_to_amperes.py` | Converting volts to amperes| Obay |
 | `miles_to_kilometers.py` | Converting miles to kilometers| Obay |
 | `greatest_number.py` | Finding greatest number in a list| Razan |
 | `common_elements.py`   | finding common elements in two lists       | Mohamed|
 | `simple_calculator.py` | performs simple operations on two integers | Mohamed|
 | `reverse_string.py`    | reverses contents of an input string       | Mohamed|
+| `check_prime_number.py` | Given a positive int if it is a prime number| Özgür |
 
 ---
 

@@ -1,3 +1,11 @@
+"""
+Unit tests for the generate_triangular_numbers function
+in the solutions.generate_triangular_numbers module.
+
+This module contains a set of test cases to ensure the correctness of the
+generate_triangular_numbers function, which generates triangular numbers for given inputs.
+"""
+
 import unittest
 from solutions.generate_triangular_numbers import generate_triangular_numbers
 
@@ -12,7 +20,7 @@ class TestGenerateTriangularNumbers(unittest.TestCase):
     - Verify edge cases.
     """
 
-    def test_valid_inputs(self)-> None:
+    def test_valid_inputs(self) -> None:
         """
         Test the function with valid inputs.
 
@@ -21,9 +29,12 @@ class TestGenerateTriangularNumbers(unittest.TestCase):
         """
         self.assertEqual(generate_triangular_numbers(1), [1])
         self.assertEqual(generate_triangular_numbers(5), [1, 3, 6, 10, 15])
-        self.assertEqual(generate_triangular_numbers(10), [1, 3, 6, 10, 15, 21, 28, 36, 45, 55])
+        self.assertEqual(
+            generate_triangular_numbers(10),
+            [1, 3, 6, 10, 15, 21, 28, 36, 45, 55],
+        )
 
-    def test_invalid_inputs(self)-> None:
+    def test_invalid_inputs(self) -> None:
         """
         Test the function with invalid inputs.
 
@@ -40,7 +51,7 @@ class TestGenerateTriangularNumbers(unittest.TestCase):
         with self.assertRaises(ValueError):
             generate_triangular_numbers(3.5)
 
-    def test_edge_cases(self)-> None:
+    def test_edge_cases(self) -> None:
         """
         Test edge cases for the function.
 

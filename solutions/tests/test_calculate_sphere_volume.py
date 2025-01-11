@@ -14,7 +14,7 @@ Created on 11-Jan-2025
 """
 
 import unittest
-from solutions.calculate_sphere_volume import calculate_sphere_volume
+from ..calculate_sphere_volume import calculate_sphere_volume
 
 
 class TestCalculateSphereVolume(unittest.TestCase):
@@ -34,7 +34,7 @@ class TestCalculateSphereVolume(unittest.TestCase):
 
     def test_large_positive_radius(self):
         """Test the volume of a sphere with a large positive radius."""
-        self.assertAlmostEqual(calculate_sphere_volume(1000), 4188790204786.3905)
+        self.assertAlmostEqual(calculate_sphere_volume(1000), 4188790204.7863903)
 
     def test_none_input(self):
         """Test that None input raises AssertionError."""

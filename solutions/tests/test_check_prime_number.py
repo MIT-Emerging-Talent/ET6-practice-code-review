@@ -91,7 +91,7 @@ class TestCheckPrimeNumber(unittest.TestCase):
         """Test edge case negative number."""
         with self.assertRaises(AssertionError):
             check_prime_number(-1)
-    
+
     def test_non_prime_1(self):
         """Test non-prime number 1."""
         with self.assertRaises(AssertionError):

@@ -1,4 +1,14 @@
-def count_vowels(input_string):
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+A module for calculating the <description of the behavior of the function>
+
+Module contents:
+    - <function name>: <description of the behavior of the function>.
+
+Created on <date created>
+@author: <Your Name>
+"""
     """
     Counts the number of vowels in a given string.
 

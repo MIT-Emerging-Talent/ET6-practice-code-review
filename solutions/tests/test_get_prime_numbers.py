@@ -5,7 +5,7 @@ Unit tests for the get_prime_numbers function.
 This test suite includes:
 - Regular cases: Typical inputs that the function is expected to handle.
 - Edge cases: Inputs that are at the boundary of what the function should handle.
-- Error cases: Inputs that should raise exceptions due to invalid input.
+- Error cases: Inputs that should raise exception due to invalid input.
 
 Created on: January 6, 2025
 @author: Melat Assefa

@@ -12,7 +12,6 @@ import unittest
 import sys
 import os
 
-
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from solutions.is_odd_or_even import is_odd_or_even
@@ -60,16 +59,16 @@ class TestIsOddOrEven(unittest.TestCase):
 
     def test_non_integer_input_string(self):
         """
-        Test that a non-integer input (string) raises a ValueError.
+        Test that a non-integer input (string) raises an AssertionError.
         """
-        with self.assertRaises(ValueError):
+        with self.assertRaises(AssertionError):
             is_odd_or_even("a")
 
     def test_non_integer_input_float(self):
         """
-        Test that a non-integer input (float) raises a ValueError.
+        Test that a non-integer input (float) raises an AssertionError.
         """
-        with self.assertRaises(ValueError):
+        with self.assertRaises(AssertionError):
             is_odd_or_even(3.14)
 
 

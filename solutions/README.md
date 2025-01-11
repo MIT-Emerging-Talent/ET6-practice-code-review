@@ -24,6 +24,7 @@ while corresponding test files are maintained in the `tests` folder.
 | `calculate_average.py`| Calculates the average of a list of numbers | Clement |
 | `spiral_traverse.py` | Traverses a 2D matrix in spiral order | Fahed |
 | `euler_totient.py` | Computes Euler's totient function (ϕ(n))| Fahed |
+| `direction_to_degree.py` | Convert a cardinal direction to degree | Obay |
 | `check_odd_or_even.py` | Checks if a number is odd or even | Clement |
 | `grading_system.py`| Assigning letter grade to a numeric score.  | Razan |
 | `kronecker_product.py` | Computes the Kronecker ⊗ product of 2 matrices | Fahed|
@@ -31,6 +32,10 @@ while corresponding test files are maintained in the `tests` folder.
 | `area_circle.py`| Calculates the area of the circle | Majd |
 | `multiplication.py`| Calculate the multiple of two numbers | Majd|
 | `square.py`| Find the number power of two | Majd |
+| `volts_to_amperes.py` | Converting volts to amperes| Obay |
+| `miles_to_kilometers.py` | Converting miles to kilometers| Obay |
+| `greatest_number.py` | Finding greatest number in a list| Razan |
+| `check_prime_number.py` | Given a positive int if it is a prime number| Özgür |
 
 ---
 

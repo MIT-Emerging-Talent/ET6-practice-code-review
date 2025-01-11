@@ -85,6 +85,8 @@ environment that provides support and help to every member in need.
   - Enhance communication and collaborative skills for a more effective work environment.
 
 - ### **Özgür**
-
- <!-- - goal 1 -->
- <!-- - goal 2 ... etc -->
+  
+  - learning team work.
+  - Write clean python code.
+  - Improve communication skills with team members.
+  - Using unit test.

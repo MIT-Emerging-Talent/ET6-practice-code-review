@@ -49,4 +49,5 @@ class TestMultiplyNumbers(unittest.TestCase):
 
 
 if __name__ == "main":  # noqa: F821
+
     unittest.main()

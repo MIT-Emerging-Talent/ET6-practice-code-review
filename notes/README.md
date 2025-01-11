@@ -9,3 +9,7 @@ Here’s what you’ll find (and what you’re welcome to add):
 
 - 🖋️ **What We're Learning:** Got a cool trick in Git? Learned a new design pattern? Found a clever way to squash bugs? Share it here!  
 - 😂 **Funny Moments:** Code reviews aren’t always serious — if something made you laugh (or cry), jot it down! Laughter is the best debugging tool.
+- 📚 **Resources:** Found a great article, video, or book that helped you level up? Share it with the team!
+- ❤️ **Personal Reflections:** How’s the journey been for you? Whether it’s growth, challenges, or proud moments, we’d love to hear about it.  
+- 🤝 **Collaboration Stories:** Cool ways we’ve helped each other shine or overcame hurdles as a team.  
+- 🎨 **Creative Additions:** Doodles, memes, or anything that adds color to our shared experience!

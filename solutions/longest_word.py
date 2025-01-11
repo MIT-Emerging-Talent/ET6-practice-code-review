@@ -43,9 +43,6 @@ def longest_word(sentence: str) -> str:
     assert isinstance(sentence, str), "Input must be a string."
     assert sentence, "Input string must not be empty."
 
-    # Remove punctuation from the sentence
-    sentence = sentence.translate(str.maketrans("", "", string.punctuation))
-
     # Split the sentence into words based on spaces
     words = sentence.split()
 
@@ -54,6 +51,9 @@ def longest_word(sentence: str) -> str:
 
     # Iterate through each word in the list
     for word in words:
+        # Remove punctuation from the start and end of the word
+        word = word.strip(string.punctuation)
+
         # Check if the current word is longer than the longest found so far
         if len(word) > len(longest):
             longest = word

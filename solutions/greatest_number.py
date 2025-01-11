@@ -16,19 +16,19 @@ def greatest_number(data: list) -> float | int:
     """
     This function receives a list of values and returns the greatest numeric value
     within the list. The list may contain integers and floats. If the list contains
-    valid numeric values, the greatest value is returned. If the list is empty, the
-    function returns None.
+    valid numeric values, the greatest value is returned.
 
     Parameters:
         data: list, a list of values that can include integers, floats, and non-numeric elements.
 
     Returns-> float, the greatest numeric value is a list,
     which will represent either integer or float,
-    depending on the input. Returns None if the list is empty.add()
+    depending on the input.
 
     Raises:
         AssertionError: if the list don't contain either integer or float value
         AssertionError: if the input is not a list.
+        AssertionError: if the input is an empty list.
 
     >>> greatest_number ([10, -5, 3.2, 99, 0])
     99

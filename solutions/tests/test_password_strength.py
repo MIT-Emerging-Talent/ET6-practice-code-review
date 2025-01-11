@@ -11,12 +11,7 @@ Created: 2025-01-05
 """
 
 import unittest
-import os
 from solutions.password_strength import password_strength
-
-
-# Debugging: Print current working directory to ensure proper location
-print("Current working directory:", os.getcwd())
 
 
 class TestPasswordStrength(unittest.TestCase):

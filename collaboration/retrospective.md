@@ -2,10 +2,14 @@
 
 ## ✨ Introduction
 
-This document captures the lessons learned, reflections, and future plans from each team member.  
-Through our shared journey, we've grown both individually and collectively, overcoming challenges  
-and celebrating successes. By identifying what to stop, continue, and start doing, we aim to carry  
-these insights forward into future projects, building on the strong foundation we've created together.
+This document captures the lessons learned, reflections, and future plans from
+each team member.  
+Through our shared journey, we've grown both individually and collectively,
+overcoming challenges  
+and celebrating successes. By identifying what to stop, continue, and start doing,
+we aim to carry  
+these insights forward into future projects, building on the strong foundation
+we've created together.
 
 ---
 
@@ -17,7 +21,8 @@ these insights forward into future projects, building on the strong foundation w
 
 ### ✅ Ahmed - Continue Doing
 
-- Providing helpful feedback during code reviews, which improved code and encouraged shared learning.
+- Providing helpful feedback during code reviews, which improved code and
+- encouraged shared learning.
 - Maintaining a healthy, positive, and collaborative environment.
 - Ensuring equal collaboration among all members.
 - Sharing memes as a fun bonding activity, inspired by Tamara.
@@ -37,8 +42,8 @@ these insights forward into future projects, building on the strong foundation w
 
 ### 🚀 Dadi - Start Doing
 
-- Learning to use GitHub features effectively, such as pull request templates, labels,  
-  and milestones.
+- Learning to use GitHub features effectively, such as pull request templates,
+labels, and milestones.
 
 ### 📚 Dadi - Lessons Learned
 
@@ -60,16 +65,20 @@ these insights forward into future projects, building on the strong foundation w
 
 ### 🚀 Mahmoud - Start Doing
 
-1. Scheduling periodic reviews of pull requests to ensure code quality and knowledge sharing.  
-2. Documenting best practices for writing commit messages and creating branches.  
+1. Scheduling periodic reviews of pull requests to ensure code quality and
+knowledge sharing.  
+2. Documenting best practices for writing commit messages and creating branches.
 3. Providing training or cheat sheets on Git commands and GitHub usage.
 
 ### 📚 Mahmoud - Lessons Learned
 
-1. Clear communication and agreed-upon workflows are crucial when using Git for collaboration.  
-2. Setting up a structure in GitHub, like repositories and access permissions, early on saves time.  
-3. Miscommunication about Git workflows can lead to merge conflicts or work duplication.  
-4. Regular practice is essential for the team to get comfortable with Git commands.
+1. Clear communication and agreed-upon workflows are crucial when using Git for
+collaboration.  
+2. Setting up a structure in GitHub, like repositories and access permissions,
+3. early on saves time.  
+4. Miscommunication about Git workflows can lead to merge conflicts or work
+   duplication.  
+5. Regular practice is essential for the team to get comfortable with Git commands.
 
 ---
 
@@ -82,16 +91,21 @@ these insights forward into future projects, building on the strong foundation w
 
 ### ✅ Paul - Continue Doing
 
-- Consistently documenting my code and tests for better readability and maintainability.  
-- Adhering to proper naming conventions for functions and modules to enhance clarity.  
-- Requesting peer reviews before merging my work into the main branch, especially in group projects.
+- Consistently documenting my code and tests for better readability and
+maintainability.  
+- Adhering to proper naming conventions for functions and modules to enhance
+clarity.  
+- Requesting peer reviews before merging my work into the main branch, especially
+in group projects.
 
 ### 🚀 Paul - Start Doing
 
 - Utilizing Git issues to label and organize my branches effectively.  
 - Actively applying feedback from group members to improve my work.  
-- Incorporating the assert method for error handling and debugging to write more reliable code.  
-- Embracing Test-Driven Development (TDD) principles to design robust and testable solutions.
+- Incorporating the assert method for error handling and debugging to write more
+reliable code.  
+- Embracing Test-Driven Development (TDD) principles to design robust and testable
+  solutions.
 
 ### 📚 Paul - Lessons Learned
 
@@ -115,7 +129,8 @@ these insights forward into future projects, building on the strong foundation w
 
 ### 📚 Rama - Lessons Learned
 
-- Collaborative work and clear communication were really appreciated aspects of the project,  
+- Collaborative work and clear communication were really appreciated aspects of
+the project,  
   as they made collaboration seamless and effective.
 
 ---
@@ -146,8 +161,10 @@ these insights forward into future projects, building on the strong foundation w
 
 ## 🛠️ Mohammed and Raed
 
-> Despite us being the code experts, we learned that Tamara is simply unmatched when it comes  
-> to adding value to a team. We owe her our existence, future income, and children’s happiness.
+> Despite us being the code experts, we learned that Tamara is simply unmatched
+when it comes  
+> to adding value to a team. We owe her our existence, future income,
+> and children’s happiness.
 
 *And yes, she wrote this because we didn’t submit our reflections in time.*
 
@@ -155,6 +172,9 @@ these insights forward into future projects, building on the strong foundation w
 
 ## 🏁 Closing Thoughts
 
-This document reflects the contributions, growth, and lessons learned by every team member.  
-It’s a simple way to acknowledge what worked, what didn’t, and what we’ll carry forward. Here's to future  
-projects built on the same collaboration, humor, and teamwork that made this one so special.
+This document reflects the contributions, growth, and lessons learned by every
+team member.  
+It’s a simple way to acknowledge what worked, what didn’t, and what we’ll carry
+forward. Here's to future  
+projects built on the same collaboration, humor, and teamwork that made this one
+so special.

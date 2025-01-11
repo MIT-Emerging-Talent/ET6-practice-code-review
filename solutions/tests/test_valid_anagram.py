@@ -1,3 +1,23 @@
+"""
+Unit tests for validating the valid_anagram function.
+
+Test Categories:
+    - Standard Cases: Basic anagram checking with various words
+    - Edge Cases: Empty strings and repeated characters
+    - Special Cases: Strings with numbers, spaces, and special characters
+    - Defensive Cases: Invalid input handling
+
+The tests verify that the function:
+    - Correctly identifies anagrams
+    - Handles case sensitivity
+    - Processes special characters and numbers
+    - Validates input types
+    - Manages empty strings and spaces
+
+Created on: 2025-01-11
+@author: Fatima
+"""
+
 import unittest
 from solutions.valid_anagram import valid_anagram
 
@@ -50,6 +70,7 @@ class Testvalidanagram(unittest.TestCase):
         """It should raise AssertionError for non-string second argument."""
         with self.assertRaises(AssertionError):
             valid_anagram("hello", None)
+
 
 if __name__ == "__main__":
     unittest.main()

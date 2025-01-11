@@ -22,11 +22,10 @@ def longest_word(sentence: str) -> str:
 
     Returns:
         str: The longest word in the sentence. If there are multiple longest
-             words, the first one encountered is returned. The returned word
-             will not include punctuation.
+             words, the first one encountered is returned.
 
     Raises:
-        ValueError: If the input is not a string or is an empty string.
+        ValueError: If the input is not a string or if the string is empty.
 
     Example:
         >>> longest_word("I love programming with Python")
@@ -35,12 +34,13 @@ def longest_word(sentence: str) -> str:
         >>> longest_word("apple banana cherry")
         'banana'
 
+        >>> longest_word("Hello world")
+        'world'
+
     """
     # Defensive assertion to check if the sentence is a non-empty string
-    if not isinstance(sentence, str):
-        raise ValueError("Input must be a string.")
-    if not sentence:
-        raise ValueError("Input string must not be empty.")
+    assert isinstance(sentence, str), "Input must be a string."
+    assert sentence, "Input string must not be empty."
 
     # Split the sentence into words based on spaces
     words = sentence.split()

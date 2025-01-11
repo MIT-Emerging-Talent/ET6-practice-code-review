@@ -72,4 +72,6 @@ to raise any number to any power.
 
 ### License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-12/pull/LICENSE) file for more details.
+This project is licensed under the MIT License. See the 
+[LICENSE](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-12/pull/LICENSE) 
+file for more details.

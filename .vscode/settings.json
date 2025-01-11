@@ -112,16 +112,5 @@
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
 
-  //-------- Python Formatting Configuration (Corrected) --------
-  "[python]": {
-    "editor.defaultFormatter": "charliermarsh.ruff",
-    "editor.codeActionsOnSave": {
-      "source.organizeImports.ruff": "explicit",
-      "source.fixAll.ruff": "explicit"
-    },
-    "editor.formatOnSave": true
-  },
 
-  // Enable/disable update table of contents on save
-  "markdown.extension.toc.updateOnSave": false
 }

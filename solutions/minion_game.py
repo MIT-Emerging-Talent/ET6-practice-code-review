@@ -35,6 +35,7 @@ def minion_game(text):
     kevin_score = 0
     stuart_score = 0
     vowels = {"a", "e", "i", "o", "u"}
+    text = text.lower()
     n = len(text)
 
     for i in range(n):
@@ -49,3 +50,4 @@ def minion_game(text):
         return "Stuart", stuart_score
     else:
         return "Draw"
+    

@@ -6,14 +6,11 @@
 
 ### Unhelpful or Counterproductive Practices
 
-- We spent too much time on basic Python syntax, which most team members  
-  already knew. Allocating this time to more advanced topics or practical  
-  coding exercises could have enhanced the learning experience.
-
-- We were afraid to experiment with GitHub, thinking it might cause unfixable  
-  actions. To address this, we implemented a safe practice of creating feature  
-  branches for testing changes and introduced team workshops to boost  
-  confidence in using Git commands.
+- Initially, we hesitated to experiment with GitHub due to concerns about  
+  making unfixable changes to the group project repository. However, this
+  fear hindered our learning. By implementing feature branches and conducting  
+  workshops, we overcame this hesitation and discovered that hands-on  
+  experimentation was essential for mastering GitHub effectively.
 
 - Trying to perfect our code from the first commit; we found that working  
   with the team through code revision helped us code better.
@@ -32,9 +29,6 @@
   and be patient.
 
 ### Repetitive or Redundant Tasks to Avoid
-
-- Revisiting Git commands in every session felt redundant since a quick recap  
-  at the beginning would have been sufficient.
 
 - Manually applying code style corrections in multiple sessions rather than  
   using a code formatter.
@@ -81,6 +75,9 @@ and redundancy.
 - Using GitHub’s issue tracker to assign and manage tasks improved  
   accountability and task management within the team.
 
+- Use labels, milestones, and linked issues/PRs  
+  on GitHub to better organize tasks and track dependencies.
+
 ---
 
 ## Section 3: Practices to Start Doing
@@ -100,8 +97,7 @@ and redundancy.
   members for pairing on complex tasks, promoting skill-sharing and  
   collaboration.
 
-- **Advanced Task Management**: Use labels, milestones, and linked issues/PRs  
-  on GitHub to better organize tasks and track dependencies.
+- **Advanced Task Management**:  
 
 - Create two projects: one advanced and another for beginners. This will cater  
   to varying skill levels and ensure everyone is appropriately challenged.
@@ -202,8 +198,8 @@ and redundancy.
 
 ### Suggestions for Improvement
 
-- Provide pre-session materials so participants can prepare in advance and use  
-  session time efficiently.
+-Regular Motivation Boosters: Share success stories, milestones achieved, or  
+shout-outs for individual contributions to keep participants motivated and appreciated.
 
-- Address the gap between participants with varying levels of prior experience  
-  by offering optional advanced materials or breakout sessions.
+-Provide pre-session materials so participants can prepare in advance and use  
+  session time efficiently.

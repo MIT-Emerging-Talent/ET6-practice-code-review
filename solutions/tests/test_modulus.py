@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Test for modulus of two numbers
+Test for modulus of 2 numbers
 
 Created on 06.01.2025
 

@@ -1,5 +1,5 @@
 # /usr/bin/env python3
-## -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 Summery
 this code is part of group 21 homework assignment for MIT-Emerging-Talent
@@ -50,6 +50,3 @@ def conv_bin_dec(bin: str) -> int:
         dec += bin_list[n] * pow(2, n)
 
     return dec
-
-
-# print (conv_bin_dec("00000110"))

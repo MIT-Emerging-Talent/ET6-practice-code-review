@@ -24,7 +24,7 @@ def count_vowels(input_string):
 
     Returns:
         int: The total number of vowels (a, e, i, o, u) in the string,
-            including both uppercase and lowercase vowels.
+             including both uppercase and lowercase vowels.
 
     Examples:
         >>> count_vowels("Hello, World!")

@@ -4,10 +4,10 @@
 
 # Retrospective
 
-## Stop Doing
+## Stop Doing🚫
 
-- Writing incomplete commit messages
-- Doing too many commits for minor changes
+- Writing incomplete commit messages ✏️
+- Doing too many commits for minor changes📝
 
 ## Continue Doing 🔄
 

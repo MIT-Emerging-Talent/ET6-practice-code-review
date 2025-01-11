@@ -1,9 +1,0 @@
-py_formatting:
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v4
-    - name: Python - Apply Formatting
-      uses: astral-sh/ruff-action@v1
-      with:
-        ruff-version: "0.8.6"  # Replace with your local Ruff version
-        args: "format"  # Remove --check to apply formatting

@@ -32,7 +32,7 @@ Group: ET6-foundations-group-16
 """
 
 import unittest
-from solutions.check_prime_number import check_prime_number
+from ..check_prime_number import check_prime_number
 
 class TestCheckPrimeNumber(unittest.TestCase):
     """Test case for the check_prime_number function."""

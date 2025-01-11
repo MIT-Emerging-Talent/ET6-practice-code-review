@@ -35,6 +35,10 @@ def count_character_occurrences(text: str, char: str = None) -> int | str:
     2
     >>> count_character_occurrences("", "a")
     0
+    >>> count_character_occurrences("california", 4)
+    Traceback (most recent call last):
+    ...
+    AssertionError: Second parameter must be a character
     """
     if char is None:
         return text

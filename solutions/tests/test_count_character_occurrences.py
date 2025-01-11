@@ -33,7 +33,7 @@ class TestCharacterOccurrences(unittest.TestCase):
         self.assertEqual(count_character_occurrences("mississippi", "s"), 4)
 
     def test_empty_second_parameter(self):
-        """It should raise a value error if second parameter is an empty string"""
+        """It should raise a value error if character parameter is an empty value"""
         with self.assertRaises(ValueError) as context:
             count_character_occurrences("Tajikistan", "")
 
@@ -42,33 +42,34 @@ class TestCharacterOccurrences(unittest.TestCase):
         )
 
     def test_empty_first_parameter(self):
-        """It should return 0 if first parameter is an empty string"""
+        """It should return 0 if input string empty"""
         self.assertEqual(count_character_occurrences("", "i"), 0)
 
     def test_char_is_none(self):
-        """It should return the text if second parameter is not provided"""
+        """It should return the input if the character parameter not provided"""
         self.assertEqual(count_character_occurrences("return me"), "return me")
 
     def test_char_as_number(self):
-        """It should raise TypeError with a specific message when the input is not a string"""
+        """It should raise TypeError with a specific message when the
+        character parameter is not a string"""
         with self.assertRaises(AssertionError) as context:
             count_character_occurrences("california", 4)
         self.assertEqual(str(context.exception), "Second parameter must be a character")
 
     def test_text_as_number(self):
-        """It should raise TypeError with a specific message when the text is a number"""
+        """It should raise TypeError with a specific message when the input is a number"""
         with self.assertRaises(AssertionError) as context:
             count_character_occurrences(223, "i")
         self.assertEqual(str(context.exception), "First parameter must be a string")
 
     def test_both_parameters_are_number(self):
-        """It should raise TypeError with a specific message when the parameters are a number"""
+        """It should raise TypeError with a specific message when both parameters are numbers"""
         with self.assertRaises(AssertionError) as context:
             count_character_occurrences(223, 2)
         self.assertEqual(str(context.exception), "First parameter must be a string")
 
     def test_char_as_str(self):
-        """It should raise ValueError with a specific message when the second parameter
+        """It should raise ValueError with a specific message if the character parameter
         is not a single character."""
         with self.assertRaises(ValueError) as context:
             count_character_occurrences("unittest is fun", "ab")

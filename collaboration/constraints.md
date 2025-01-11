@@ -51,6 +51,12 @@ with **Python** and **GitHub**, which may affect task completion speed and code 
 - **Learning Curves:** As this project is part of a learning track, team members
 are still in the process of mastering some of the technologies and practices, which
 may affect productivity.
+- **Health and Well-being:** Team members' health and well-being take priority,
+   and any health-related issues may impact project timelines.
+- **Unforeseen Circumstances:** Unexpected events like personal
+   emergencies may affect team members' availability.
+- **Work-Life Balance:** Team members must balance project work
+  with other personal and professional commitments.
 
 ## Internal: Voluntary
 
@@ -78,6 +84,14 @@ meetings if necessary.
 their personal learning objectives for the project.
 - **Coding Standards:** We will follow a common coding style guide to ensure consistency
 throughout the project. All code must adhere to **PEP8** standards and be well-documented.
+- **Meeting Cadence:** Regular team meetings will be held once
+   a week to ensure alignment and progress tracking.
+- **Documentation Standards:** All code and project documentation must be
+   maintained in a consistent and organized manner.
+- **Code Quality Metrics:** The team will adhere to code quality metrics such as
+   maintaining a certain percentage of test coverage and ensuring minimal code duplication.
+- **Knowledge Sharing:** Team members will share their learnings
+   and insights through regular knowledge-sharing sessions.
 
 ---
 

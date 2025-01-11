@@ -52,12 +52,13 @@ learned Github the professional way :)
 
 _any good ideas we'd like to try out in the next project?_
 + **Solution Review**  
-Each solution can be reviewed by more than one; but merged by one.
+Each solution can be reviewed by **more than one**; but merged by one;  
+_better understanding of codes and gain more knowledge from others_
 + **Conventions**  
-Discussed at an early stage:  
-Branch naming, Issue naming,
-pull request title, messages and commits; challenge
- format when issued.
+Discussed at an early stage:
+Branch naming and Issue naming  
+Pull request title, messages and commits;  
+challenge format when issued.
 + **Organizing files**  
  Every time you make a branch can be linked to an issue. 
 + **Group Support**  

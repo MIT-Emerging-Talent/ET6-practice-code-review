@@ -40,7 +40,9 @@
 
 - 📌 Create a pinned table in Slack with solutions to common errors.  
 - ⏳ Set deadlines for tasks to improve organization.  
-- 📆 Use a shared calendar for tracking task progress.  
+- 📆 Use a shared calendar for tracking task progress.
+- 📝 Introduce clearly defined roles for team members, such as assigning a team
+leader to oversee task assignment.  
 
 ---
 

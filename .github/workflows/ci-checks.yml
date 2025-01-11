@@ -68,4 +68,3 @@ jobs:
         if: steps.check_tests.outputs.has_tests == 'true'
         run: echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
         shell: bash
-

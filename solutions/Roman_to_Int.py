@@ -3,7 +3,8 @@ def roman_to_int(s: str) -> int:
     Convert a Roman numeral string to an integer.
 
     Args:
-    s (str): The Roman numeral string, containing characters from "I", "V", "X", "L", "C", "D", and "M".
+    s (str): The Roman numeral string, containing characters
+    from "I", "V", "X", "L", "C", "D", and "M".
 
     Returns:
     int: The corresponding integer value of the Roman numeral.

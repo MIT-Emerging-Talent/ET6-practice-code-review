@@ -12,6 +12,34 @@ from ..Time_Conversion import Time_Conversion
 
 class TestTimeConversion(unittest.TestCase):
     """Test suite for the Time Conversion function - contains buggy tests!"""
+    
+    #Boundary cases 
+
+    def test_invalid_minutes(self):
+        """It should raise ValueError for minutes are out of range"""
+        with self.assertRaises(ValueError):
+            Time_Conversion("00:60")
+
+    def test_invalid_hours(self):
+        """It should raise ValueError for minutes are out of range"""
+        with self.assertRaises(ValueError):
+            Time_Conversion("24:00")
+
+    #Edge cases
+
+    def test_equal_minutes_hours(self):
+        """It should return the time conversion properly"""
+        self.assertEqual(Time_Conversion("12:12"), "20:12")
+
+    def test_minimum_time(self):
+        """It should return the time conversion properly"""
+        self.assertEqual(Time_Conversion("00:00"), "8:0")
+
+    def test_maximum_time(self):
+        """It should return the time conversion properly"""
+        self.assertEqual(Time_Conversion("23:59"), "7:59")
+
+    #Defensive cases
 
     def test_not_string(self):
         """It should raise AssertionError for input not string"""
@@ -27,10 +55,6 @@ class TestTimeConversion(unittest.TestCase):
         """It should raise ValueError for minutes are out of range"""
         with self.assertRaises(ValueError):
             Time_Conversion("12:69")
-
-    def test_strings(self):
-        """It should return the time conversion properly"""
-        self.assertEqual(Time_Conversion("12:12"), "20:12")
 
     def test_empty_string(self):
         """It should raise AssertionError for string is empty"""

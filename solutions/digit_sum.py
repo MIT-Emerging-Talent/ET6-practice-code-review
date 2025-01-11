@@ -5,9 +5,10 @@ Created on 06 01 25
 
 @author: Alona Niechvieieva
 """
+# Module for calculating the sum of the digits of a natural number
 
 
-def digit_sum(number):
+def digit_sum(number: int) -> int:
     """
     Takes a single natural number and returns the sum of its digits
 
@@ -18,8 +19,8 @@ def digit_sum(number):
         int: The sum of the digits of the number
 
     Raises:
-        TypeError: If number is not an integer
-        ValueError: If number is less than 0
+        AssertionError: If number is not an integer
+        AssertionError: If number is less than 0
 
     Examples:
         >>> print_digit_sum(5)

@@ -10,7 +10,7 @@ import unittest
 
 from ..digit_sum import digit_sum  # type: ignore # noqa: E402
 
-""" A module for testing the function that prints the sum of integers
+""" A module for testing the function that computes the sum of digits of a number
 Module contents: TestTestDigitSum: unit tests for the `digit_sum` function.
 """
 
@@ -45,5 +45,6 @@ class TestDigitSum(unittest.TestCase):
             digit_sum(1.0)
 
 
+# Run the unit tests when the script is executed directly
 if __name__ == "__main__":
     unittest.main()

@@ -21,7 +21,7 @@ def is_odd_or_even(number: int) -> str:
         str: "Even" if the number is even, "Odd" if the number is odd.
 
     Raises:
-        ValueError: If the input is not an integer.
+        AssertionError: If the input is not an integer.
 
     Examples:
         >>> is_odd_or_even(4)
@@ -35,9 +35,8 @@ def is_odd_or_even(number: int) -> str:
         >>> is_odd_or_even(-2)
         'Even'
     """
-    # Defensive check: Ensure the input is an integer
-    if not isinstance(number, int):
-        raise ValueError("Input must be an integer.")
+    # Defensive assertion: Ensure the input is an integer
+    assert isinstance(number, int), "Input must be an integer."
 
     # Return "Even" if divisible by 2, otherwise "Odd"
     return "Even" if number % 2 == 0 else "Odd"

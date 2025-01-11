@@ -56,9 +56,9 @@ def remove_duplicates_from_sorted_list(head: Optional[ListNode]) -> Optional[Lis
         # result is now a list with values: [1, 2]
     """
     # Defensive Assertion
-    assert head is None or isinstance(
-        head, ListNode
-    ), "Input must be a ListNode or None."
+    assert head is None or isinstance(head, ListNode), (
+        "Input must be a ListNode or None."
+    )
 
     current_node = head
     while current_node and current_node.next:

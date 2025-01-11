@@ -162,8 +162,7 @@ the project,
 ## 🛠️ Mohammed and Raed
 
 > Despite us being the code experts, we learned that Tamara is simply unmatched
-when it comes  
-> to adding value to a team. We owe her our existence, future income,
+when it comes   to adding value to a team. We owe her our existence, future income,
 > and children’s happiness.
 
 *And yes, she wrote this because we didn’t submit our reflections in time.*

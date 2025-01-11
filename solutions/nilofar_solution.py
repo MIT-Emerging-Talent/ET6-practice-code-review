@@ -8,9 +8,9 @@ def calculate_bmi(weight, height):
     """
     if height <= 0 or weight <= 0:
         return "Invalid input. Height and weight must be greater than zero."
-    
-    bmi = weight / (height ** 2)
-    
+
+    bmi = weight / (height**2)
+
     if bmi < 18.5:
         return f"Underweight (BMI: {bmi:.2f})"
     elif 18.5 <= bmi < 24.9:

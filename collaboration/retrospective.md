@@ -1,6 +1,7 @@
 # Retrospective
 > "In the midst of chaos, there is also opportunity."  
 > _Sun Tzu, The Art of War_
+
 _Dont know if the quote made sense just wanted
 to quote the art of war, felt like Kanye doing it :')_ 
 <!-- markdownlint-disable MD033 -->

@@ -31,16 +31,19 @@ def draw_tree(height: int = 10, trunk_width: int = 3, trunk_height: int = 3) -> 
             |||
             |||
     """
+    # Create the foliage of the tree
     tree = []
     for i in range(height):
-        spaces = " " * (height - i - 1)
-        stars = "*" * (2 * i + 1)
+        spaces = " " * (height - i - 1)  # Add spaces for alignment
+        stars = "*" * (2 * i + 1)  # Create the stars for the current level
         tree.append(spaces + stars + spaces)
 
+    # Create the trunk of the tree
     trunk = " " * (height - trunk_width // 2 - 1) + "|" * trunk_width
     for _ in range(trunk_height):
         tree.append(trunk)
 
+    # Return the tree as a single string
     return "\n".join(tree)
 
 

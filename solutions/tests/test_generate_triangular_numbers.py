@@ -1,19 +1,3 @@
-"""
-Unit tests for the generate_triangular_numbers function.
-
-This code tests the functionality of the generate_triangular_numbers function 
-from the solutions.generate_triangular_numbers module. It verifies that the 
-function correctly generates triangular numbers for valid inputs and raises 
-appropriate exceptions for invalid inputs.
-
-A triangular number is defined as the sum of the first n natural numbers,
-calculated using the formula: n * (n + 1) / 2.
-
-Author: Nelson
-Created on: 10 01 2025
-"""
-
-
 import unittest
 from solutions.generate_triangular_numbers import generate_triangular_numbers
 

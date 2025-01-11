@@ -53,8 +53,7 @@ def main():
         )
     except ValueError:
         print(
-            "Invalid input. Please enter numeric values for principal, rate, "
-            "and time."
+            "Invalid input. Please enter numeric values for principal, rate, and time."
         )
 
 

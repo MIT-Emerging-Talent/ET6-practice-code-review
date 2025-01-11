@@ -4,6 +4,8 @@ from ..count_vowels import count_vowels
 
 
 class TestCountVowels(unittest.TestCase):
+    """A class to test the number of  vowels in a given string"""
+
     def test_empty_string(self):
         """Test that an empty string returns 0."""
         self.assertEqual(count_vowels(""), 0)

@@ -5,6 +5,7 @@ Test module for hex_to_decimal function.
 Test categories:
     - Standard cases: typical hexadecimal inputs
     - Defensive tests: invalid input types
+Author: Majd ABUALSOUD 
 """
 
 import unittest

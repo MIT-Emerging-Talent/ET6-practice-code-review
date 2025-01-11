@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
 Module to convert hexadecimal to decimal.
+
+Author: Majd Abualsoud
 """
 
 

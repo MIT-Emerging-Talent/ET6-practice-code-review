@@ -1,4 +1,7 @@
 """
+Group: ET6-foundations-group-16
+Author:Majd Abualsoud
+Date: January 11, 2025
 This module provides a function to calculate the area of a circle given its radius.
 """
 

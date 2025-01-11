@@ -1,4 +1,7 @@
 """
+Group: ET6-foundations-group-16
+Author:Majd Abualsoud
+Date: January 11, 2025
 Test suite for the area_of_circle function.
 """
 

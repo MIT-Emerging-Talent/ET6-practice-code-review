@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -- coding: utf-8 --
 """
+Group: ET6-foundations-group-16
+Author:Majd Abualsoud
+Date: January 11, 2025
 A module for multiplying two numbers.
 Module contents:
     - multiply_numbers: Multiplies two numbers and returns the product.

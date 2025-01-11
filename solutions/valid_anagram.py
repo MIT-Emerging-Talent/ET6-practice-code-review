@@ -1,3 +1,14 @@
+"""
+Module for checking if two strings are valid anagrams.
+
+This module provides functionality to determine if two strings are anagrams
+of each other (contain exactly the same characters with the same frequency).
+
+Created on: 2025-01-11
+@author: Fatima
+"""
+
+
 def valid_anagram(str1: str, str2: str) -> bool:
     """
     Determines if two strings are anagrams of each other.
@@ -22,21 +33,23 @@ def valid_anagram(str1: str, str2: str) -> bool:
         >>> valid_anagram("", "")
         True
     """
+
+    # Ensure both inputs are strings
     assert isinstance(str1, str), "First argument must be a string"
     assert isinstance(str2, str), "Second argument must be a string"
 
-    # Quick check for length equality
+    # Anagrams must be of equal length
     if len(str1) != len(str2):
         return False
 
     # Create character frequency dictionary
     char_count = {}
 
-    # Count characters in first string
+    # Count occurrences of each character in str1
     for char in str1:
         char_count[char] = char_count.get(char, 0) + 1
 
-    # Check characters in second string
+    # Decrease character counts and check if any character is missing or overused
     for char in str2:
         if char not in char_count:
             return False
@@ -44,4 +57,5 @@ def valid_anagram(str1: str, str2: str) -> bool:
         if char_count[char] == 0:
             del char_count[char]
 
+    # If all character counts are zero, the strings are anagrams
     return len(char_count) == 0

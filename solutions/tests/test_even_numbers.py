@@ -8,12 +8,11 @@ Created on 2025-01-11
 Author:Martha Yelademe Nyekanga
 """
 
-
 import unittest
-from ..even_numbers import is_even 
+from ..even_numbers import is_even
+
 
 class TestIsEven(unittest.TestCase):
-    
     # Test case for a positive even number
     def test_positive_even(self):
         self.assertTrue(is_even(2))
@@ -79,4 +78,3 @@ class TestIsEven(unittest.TestCase):
     def test_type_error_with_bool(self):
         with self.assertRaises(AssertionError):
             is_even(True)
-

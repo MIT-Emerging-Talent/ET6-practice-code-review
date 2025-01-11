@@ -11,39 +11,39 @@ Created on 2025-01-08
 @author: Martha Yelademe Nyekanga
 """
 
-def add_numbers(first_number:int, second_number:int) -> int:
 
+def add_numbers(first_number: int, second_number: int) -> int:
     """This function takes two numbers and returns their sum.
-    Parameters:
+     Parameters:
 
-   first_number (int): The first number for the function
-    second_number (int): The second number for the function
-    
-    Returns:
-    int: The sum of the two numbers
+    first_number (int): The first number for the function
+     second_number (int): The second number for the function
 
-    Raises:
-    TypeError: If the input is not a number
+     Returns:
+     int: The sum of the two numbers
 
-    Examples:
-    >>> add_numbers(2, 3)
-    5
+     Raises:
+     TypeError: If the input is not a number
 
-    >>> add_numbers(-2, 3)
-    1
+     Examples:
+     >>> add_numbers(2, 3)
+     5
 
-    >>> add_numbers(0, 0)
-    0
+     >>> add_numbers(-2, 3)
+     1
 
-    >>> add_numbers(2, -3)
-    -1
+     >>> add_numbers(0, 0)
+     0
+
+     >>> add_numbers(2, -3)
+     -1
     """
 
-    
     assert isinstance(first_number, int), "Input must be a number."
     assert isinstance(second_number, int), "Input must be a number."
-    
-    #return  the sum of the two numbers
+
+    # return  the sum of the two numbers
     return first_number + second_number
+
 
 print(add_numbers(0, 0))

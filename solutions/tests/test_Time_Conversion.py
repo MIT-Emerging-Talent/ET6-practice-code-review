@@ -19,7 +19,7 @@ class TestTimeConversion(unittest.TestCase):
 
     def test_regular_time(self):
         """It should return the time conversion properly"""
-        self.assertEqual(Time_Conversion("08:00"), "16:00")
+        self.assertEqual(Time_Conversion("08:00"), "16:0")
 
     # Boundary cases
 

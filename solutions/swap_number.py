@@ -4,7 +4,8 @@ Module to swap two numbers.
 
 Author: Majd Abualsoud
 Date: 11th January 2025
-Group: ET6-foundations-group-16"""
+Group: ET6-foundations-group-16
+"""
 
 
 def swap_numbers(a: float, b: float) -> tuple:
@@ -25,10 +26,10 @@ def swap_numbers(a: float, b: float) -> tuple:
         (20, 10)
         >>> swap_numbers(0, 5)
         (5, 0)
-        >>> swap_numbers("10", 20)
+        >>> swap_numbers("10", 20)  # doctest: +ELLIPSIS
         Traceback (most recent call last):
         ...
-
+        AssertionError: Both a and b must be numeric values (int or float)
     """
     # Ensure that both a and b are numeric values (either int or float)
     assert isinstance(

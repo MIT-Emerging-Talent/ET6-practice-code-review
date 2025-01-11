@@ -22,7 +22,7 @@
 - Early project initiation helps the team gain momentum and avoid delays.
 - Maintaining flexibility and using asynchronous communication can resolve scheduling conflicts.
 - GitHub workflows and CI/CD checks are critical components that require attention and troubleshooting.
-----
+---------
 # Strategy vs. Board
 
 ## What parts of your plan went as expected?

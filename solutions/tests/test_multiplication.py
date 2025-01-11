@@ -15,7 +15,7 @@ Test categories:
 
 import unittest
 
-from solutions.multiplication import multiply_numbers
+from ..multiplication import multiply_numbers
 
 
 class TestMultiplyNumbers(unittest.TestCase):
@@ -48,6 +48,6 @@ class TestMultiplyNumbers(unittest.TestCase):
         self.assertEqual(multiply_numbers(2.5, 4), 10.0)
 
 
-if __name__ == "main":  # noqa: F821
+if __name__ == "main":
 
     unittest.main()

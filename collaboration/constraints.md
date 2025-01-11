@@ -69,9 +69,9 @@
 <img style="display: block; width: 500px; float: right; border-radius: 20%"
  alt="blablab" src="../assets/internal-voluntary-constraints.png"/>
 
-- **Collaboration Constraints**:
-- **Quality Assurance Constraints**:
-- **Documentation Constraints**:
+- **Collaboration Constraints**: Set roles, use tools, and ensure teamwork.
+- **Quality Assurance Constraints**: Test, review, and automate checks.
+- **Documentation Constraints**: Maintain clear, and up-to-date documentation.
 - **Coding style & conventions**: Agree on a set of guidelines for consistency
    across the codebase.
 - **Working hours**: Establish a flexible schedule that

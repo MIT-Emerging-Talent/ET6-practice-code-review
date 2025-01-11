@@ -35,7 +35,6 @@ How often we will get in touch on each channel, and what we will discuss there:
 | Özgür  | 5-7 PM | 5-7 PM  | 5-7 PM    | 5-7 PM   | 5-7 PM | 5-7 PM   | 5-7 PM |
 | Razan  | 7-9 PM | 9-10 PM  | 7-9 PM    | 7-9 PM   | 7-9 PM | 7-9 PM  | 7-9 PM |
 
-
 ### How many hours everyone reserves for Code review per day
 
 - Anas: 2 Hours

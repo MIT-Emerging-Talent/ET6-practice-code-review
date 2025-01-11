@@ -4,8 +4,6 @@ r"""
 This module defines the function `find_primes_up_to_n` to identify all prime numbers
 up to a given integer \( N \). A prime number is greater than 1 and divisible only by 1 and itself.
 
-Created on 10 01 2025
-@author: Zeinab Shadabshoar
 """
 
 

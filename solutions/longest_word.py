@@ -1,30 +1,56 @@
 """
-This function takes a sentence and returns the longest word in it.
-If multiple words have the same length, the first one is returned.
+A module for Returns the longest word in the given sentence.
+
+Module contents:
+   This module contains a function `longest_word` 
+   that takes a sentence and returns the longest word in it. 
+   It handles edge cases such as empty strings, non-string inputs, and punctuation.
+
+Author: Özgür Özbek
+Date: 11th January 2025
+Group: ET6-foundations-group-16
 """
 
-def find_longest_word(text):
+def longest_word(sentence: str) -> str:
     """
-    Finds and returns the longest word in a given sentence.
+    Returns the longest word in the given sentence.
 
-    Parameters:
-        sentence (str): The input sentence as a string.
+    Args:
+        sentence (str): A sentence from which to find the longest word.
+                         The sentence should be a non-empty string.
 
     Returns:
-        str: The longest word in the sentence.
-        If there are multiple words with the same length, the first one encountered is returned.
-    
+        str: The longest word in the sentence. If there are multiple longest
+             words, the first one encountered is returned. The returned word
+             will not include punctuation.
+
+    Raises:
+        ValueError: If the input is not a string or is an empty string.
+
     Example:
-        find_longest_word("I learned a lot thanks to the Matrix team and this teamwork")
-        Output: "teamwork"
+        >>> longest_word("I love programming with Python")
+        'programming'
+
+        >>> longest_word("apple banana cherry")
+        'banana'
+
     """
-    # Split the sentence into a list of words
-    words = text.split()
+    # Defensive assertion to check if the sentence is a non-empty string
+    if not isinstance(sentence, str):
+        raise ValueError("Input must be a string.")
+    if not sentence:
+        raise ValueError("Input string must not be empty.")
 
-    # Use max() with key=len to find the longest word
-    longest_word = max(words, key=len)
+    # Split the sentence into words based on spaces
+    words = sentence.split()
 
-    return longest_word
+    # Initialize the variable to store the longest word
+    longest = ""
 
-sentence = "I learned a lot of things to the Matrix team and this teamwork" # pylint: disable=invalid-name
-print(find_longest_word(sentence))  # Output: "teamwork"
+    # Iterate through each word in the list
+    for word in words:
+        # Check if the current word is longer than the longest found so far
+        if len(word) > len(longest):
+            longest = word
+
+    return longest

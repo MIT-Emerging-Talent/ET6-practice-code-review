@@ -24,6 +24,7 @@ def date_magicity_checker(date: str) -> bool:
         AssertionError: If `date` does not have a proper length of 10 characters
         AssertionError: If `date` does not have dots at positions 2 and 5
         AssertionError: If any part of the date is not a valid integer
+        AssertionError: If day or month is out of valid range
 
     Examples:
         >>> date_magicity_checker(06.10.1860)
@@ -56,6 +57,10 @@ def date_magicity_checker(date: str) -> bool:
     day = list_int_day_month_year[0]
     month = list_int_day_month_year[1]
     year = list_int_day_month_year[2] % 100
+
+    # Validate day and month ranges using assertions
+    assert 1 <= day <= 31, f"Day {day} is out of valid range (1-31)"
+    assert 1 <= month <= 12, f"Month {month} is out of valid range (1-12)"
 
     # Ensure the result fits within two digits
     day_month_multiplication = day * month

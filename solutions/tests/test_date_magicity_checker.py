@@ -49,6 +49,16 @@ class TestDateMagicityChecker(unittest.TestCase):
         with self.assertRaises(AssertionError):
             date_magicity_checker("03.0a.1995")
 
+    def test_invalid_day(self):
+        # Invalid day (out of range)
+        with self.assertRaises(AssertionError):
+            date_magicity_checker("32.10.1860")
+
+    def test_invalid_month(self):
+        # Invalid month (out of range)
+        with self.assertRaises(AssertionError):
+            date_magicity_checker("06.13.1860")
+
 
 if __name__ == "__main__":
     unittest.main()

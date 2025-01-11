@@ -11,10 +11,28 @@ from ..Time_Conversion import Time_Conversion
 
 
 class TestTimeConversion(unittest.TestCase):
-    """Test suite for the Time Conversion function - contains buggy tests!"""
+    """Test suite for the Time Conversion function"""
+
+    def test_equal_minutes_hours(self):
+        """It should return the time conversion properly"""
+        self.assertEqual(Time_Conversion("12:12"), "20:12")
+
+    def test_regular_time(self):
+        """It should return the time conversion properly"""
+        self.assertEqual(Time_Conversion("08:00"), "16:00")
 
     # Boundary cases
 
+    def test_minimum_time(self):
+        """It should return the time conversion properly"""
+        self.assertEqual(Time_Conversion("00:00"), "8:0")
+
+    def test_maximum_time(self):
+        """It should return the time conversion properly"""
+        self.assertEqual(Time_Conversion("23:59"), "7:59")
+
+    # Edge cases
+    
     def test_invalid_minutes(self):
         """It should raise ValueError for minutes are out of range"""
         with self.assertRaises(ValueError):
@@ -24,20 +42,6 @@ class TestTimeConversion(unittest.TestCase):
         """It should raise ValueError for minutes are out of range"""
         with self.assertRaises(ValueError):
             Time_Conversion("24:00")
-
-    # Edge cases
-
-    def test_equal_minutes_hours(self):
-        """It should return the time conversion properly"""
-        self.assertEqual(Time_Conversion("12:12"), "20:12")
-
-    def test_minimum_time(self):
-        """It should return the time conversion properly"""
-        self.assertEqual(Time_Conversion("00:00"), "8:0")
-
-    def test_maximum_time(self):
-        """It should return the time conversion properly"""
-        self.assertEqual(Time_Conversion("23:59"), "7:59")
 
     # Defensive cases
 

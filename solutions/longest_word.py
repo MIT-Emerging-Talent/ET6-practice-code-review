@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+
 """
 A module for Returns the longest word in the given sentence.
 
@@ -26,7 +30,7 @@ def longest_word(sentence: str) -> str:
              the first one encountered is returned.
 
     Raises:
-        ValueError: If the input is not a string or if the string is empty.
+        AssertionError: If the input is not a string or if the string is empty.
 
     Example:
         >>> longest_word("I love programming with Python")

@@ -4,7 +4,7 @@ Test suite for the area_of_circle function.
 
 import math
 import unittest
-from area_circle import area_of_circle
+from ..area_circle import area_of_circle
 
 
 class TestAreaOfCircle(unittest.TestCase):

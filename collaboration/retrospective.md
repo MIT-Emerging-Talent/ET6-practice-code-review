@@ -52,7 +52,9 @@ Overall, we completed our project quota. While some minor ideas were not fully i
 we kept the ones with potential and iterated on them as the project progressed.
 
 ### Did you need to add things that weren't in your strategy?
-<!--- add more -->
+
+- Implemented a process for promptly resolving CI check issues.
+- Established a process for efficiently handling merge conflicts.
 
 ### Or remove extra steps?
 

@@ -17,6 +17,39 @@ class Testvalidanagram(unittest.TestCase):
         """It should identify same words as anagrams."""
         self.assertTrue(valid_anagram("word", "word"))
 
+    def test_empty_string(self):
+        """It should identify empty strings as amagrams."""
+        self.assertTrue(valid_anagram("", ""))
+
+    def test_case_sensitive(self):
+        """It should be case sensitive in comparison"""
+        self.assertFalse(valid_anagram("fatima", "Fatima"))
+
+    def test_string_with_numbers(self):
+        """It should identify numbers in a string as anagram"""
+        self.assertTrue(valid_anagram("mad1ha", "aah1dm"))
+
+    def test_repeated_characters(self):
+        """It should handle strings with repeated characters."""
+        self.assertTrue(valid_anagram("aaccbb", "ccaabb"))
+
+    def test_special_characters(self):
+        """It should handle special characters correctly."""
+        self.assertTrue(valid_anagram("a!b@", "b@a!"))
+
+    def test_spaces(self):
+        """It should handle spaces as regular characters."""
+        self.assertTrue(valid_anagram("a b", "b a"))
+
+    def test_non_string_first_arg(self):
+        """It should raise AssertionError for non-string first argument."""
+        with self.assertRaises(AssertionError):
+            valid_anagram(123, "hello")
+
+    def test_non_string_second_arg(self):
+        """It should raise AssertionError for non-string second argument."""
+        with self.assertRaises(AssertionError):
+            valid_anagram("hello", None)
 
 if __name__ == "__main__":
     unittest.main()

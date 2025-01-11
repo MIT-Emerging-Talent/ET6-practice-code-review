@@ -6,8 +6,8 @@
 
 ## Stop Doing
 
-- Writing incomplete commit messages ❌
-- Doing too many commits for minor changes ❌
+- Writing incomplete commit messages
+- Doing too many commits for minor changes
 
 ## Continue Doing
 
@@ -15,16 +15,26 @@
 - Asking teammates if any help is needed.
 - Maintaining a clean and structured repository with clear README documentation.
 - Following the rule: 1 task = 1 branch.
+- Respecting and appreciating each other’s contributions and ideas.
+- Leveraging teamwork to solve complex challenges more effectively.
 
 ## Start Doing
 
 - Optimize amount of branches, commits to avoid cluttering the project.
+- Practicing and honing skills through regular coding exercises and challenges.
+- Writing detailed notes during development for improved knowledge retention.
 
 ## Lessons Learned
 
-- Effective use of pull requests helped improve code quality
-- and catch bugs early ✅
-- Frequent syncing with the remote repository avoided merge conflicts ✅
+- **Effective pull request management**: Improved code quality and helped catch
+   bugs early.
+
+- **Frequent remote repository syncing**: Prevented merge conflicts
+and streamlined collaboration.
+- **Teamwork triumphs**: Collaborative efforts accelerated development
+ and enhanced overall project quality.
+- **Respect wins**: Valuing diverse perspectives fostered creativity
+ and innovation within the team.
 
 ______________________________________________________________________
 
@@ -33,6 +43,8 @@ ______________________________________________________________________
 ### What parts of your plan went as expected?
 
 Pull requests were reviewed and merged according to the workflow plan.
+Deadlines were met consistently, showcasing strong planning and execution.
+Team members actively supported one another, ensuring no one felt stuck or overwhelmed.
 
 ### What parts of your plan did not work out?
 

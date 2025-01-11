@@ -22,6 +22,8 @@ Each team member will:
 
 - 🧩 Solve **two problems** independently.
 - 🛠️ Review and help resolve **two problems** contributed by others.
+- 💬 **Discuss & Improve** solutions collaboratively.  
+- 🎉 **Merge & Celebrate** when a solution is finalized!
 
 ## **Our Goal**
 

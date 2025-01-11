@@ -11,7 +11,7 @@ Attendees: 7**
 
 >FIXING CI CHECKS
 
-![Checks](image/checks.png)
+![Checks](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-28/blob/main/notes/meeting_minutes/image/et_ci_check.PNG)
 
 ### Key discussions
 

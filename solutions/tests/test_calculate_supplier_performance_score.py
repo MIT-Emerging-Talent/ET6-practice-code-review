@@ -51,7 +51,7 @@ class TestCalculatingPerformanceScore(unittest.TestCase):
             calculate_supplier_performance_score(5, 10, 1, 0)
 
     def test_full_performance(self):
-        """Test when all deliveries are on time and there are no defective items,
+        """Test when all deliveries are on time and there are no defective item(s),
         which should return a 100% score."""
         self.assertAlmostEqual(
             calculate_supplier_performance_score(100, 100, 0, 100), 100.0

@@ -14,8 +14,11 @@ import doctest
 
 
 def calculate_supplier_performance_score(
-    on_time_deliveries, total_deliveries, defective_items, total_items
-):
+    on_time_deliveries: int,
+    total_deliveries: int,
+    defective_items: int,
+    total_items: int,
+) -> float:
     """
     Evaluates supplier performance based on delivery reliability and defect rates.
 

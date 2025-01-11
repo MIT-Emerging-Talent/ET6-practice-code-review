@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Welcome to WIT International Bank.
 This program is designed to operate the ATM system, allowing users to perform

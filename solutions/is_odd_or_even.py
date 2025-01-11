@@ -35,12 +35,16 @@ def is_odd_or_even(number: int) -> str:
         >>> is_odd_or_even(-2)
         'Even'
     """
+    # Defensive check: Ensure the input is an integer
     if not isinstance(number, int):
         raise ValueError("Input must be an integer.")
+
+    # Return "Even" if divisible by 2, otherwise "Odd"
     return "Even" if number % 2 == 0 else "Odd"
 
 
 if __name__ == "__main__":
     import doctest
 
+    # Run doctests to validate the function
     doctest.testmod()

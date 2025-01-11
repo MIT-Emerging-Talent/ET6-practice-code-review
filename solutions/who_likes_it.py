@@ -41,9 +41,9 @@ def who_likes_it(names: List[str]) -> str:
 
     # Defensive assertions
     assert isinstance(names, List), "Input names should be of type List"
-    assert all(
-        isinstance(name, str) for name in names
-    ), "All names should be of type string"
+    assert all(isinstance(name, str) for name in names), (
+        "All names should be of type string"
+    )
 
     names_length = len(names)
 

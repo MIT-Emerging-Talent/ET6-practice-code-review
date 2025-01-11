@@ -11,13 +11,13 @@ Created on 2025-01-04
 """
 
 
-def power(base, exponent):
+def int_power_recursive(base, exponent):
     """
     Returns the power of an integer number.
 
     Parameters:
-        base: int
-        exponent: int
+        base: int (any integer values) (exception: cannot be 0 when the exponent is 0 or negative)
+        exponent: int (any integer values) (exception: cannot be 0 or negative when the base is 0)
 
     Returns:
         int
@@ -69,11 +69,11 @@ def power(base, exponent):
     # If the exponent is even:
     elif exponent % 2 == 0:
         # n^p = (n*n)^(p/2)
-        output = power(base * base, exponent // 2)
+        output = int_power_recursive(base * base, exponent // 2)
 
     # If the exponent is odd:
     else:
         # n^p = n * (n*n)^(p-1)/2
-        output = base * (power(base * base, (exponent - 1) // 2))
+        output = base * (int_power_recursive(base * base, (exponent - 1) // 2))
 
     return output

@@ -26,7 +26,12 @@
 
   One team member faced challenges downloading necessary tools like VS Code and
   Git due to their laptop's ARM processor. Extensive research was required to
-  find compatible versions of the software.  
+  find compatible versions of the software.
+
+- **Poor Internet Connection**:
+
+A team member has issues with internet connection, which makes it difficult 
+to carryout the project.
 
 ## Internal: Involuntary  
 

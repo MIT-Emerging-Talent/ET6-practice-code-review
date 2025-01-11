@@ -1,17 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-"""
-A module for modulus of two numbers.
-
-This module contains a function that calculates the remainder when
-one number is divided by another.
-
-Created on 06.01.2025
-@author : Simi-Solola
-"""
-
-
 def modulus(a: float, b: float) -> float:
     """
     Calculates the remainder when one number is divided by another.
@@ -27,9 +13,25 @@ def modulus(a: float, b: float) -> float:
     ValueError: If the denominator 'b' is zero.
     TypeError: If 'a' or 'b' is not a float or int.
 
-    Assumptions:
-    - Both 'a' and 'b' are numeric values (either integers or floats).
-    - If 'a' or 'b' is not a number, a TypeError will be raised.
+    Examples:
+    >>> modulus(10, 3)
+    1
+    >>> modulus(-10, 3)
+    -1
+    >>> modulus(10, -3)
+    1
+    >>> modulus(-10, -3)
+    -1
+    >>> modulus(10.5, 3)
+    1.5
+    >>> modulus(0, 3)
+    0.0
+    >>> modulus(10, 0)  # doctest: +IGNORE_EXCEPTION_DETAIL
+    Traceback (most recent call last):
+    ValueError: Denominator cannot be zero.
+    >>> modulus("10", 3)  # doctest: +IGNORE_EXCEPTION_DETAIL
+    Traceback (most recent call last):
+    TypeError: Both numerator and denominator must be numbers.
     """
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
         raise TypeError("Both numerator and denominator must be numbers.")

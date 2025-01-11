@@ -11,8 +11,8 @@ Date: 11th January 2025
 Group: ET6-foundations-group-16
 """
 
-
 import string
+
 
 def longest_word(sentence: str) -> str:
     """
@@ -22,7 +22,7 @@ def longest_word(sentence: str) -> str:
         sentence (str): A sentence from which to find the longest word.
 
     Returns:
-        str: The longest word in the sentence. If there are multiple longest words, 
+        str: The longest word in the sentence. If there are multiple longest words,
              the first one encountered is returned.
 
     Raises:
@@ -44,7 +44,7 @@ def longest_word(sentence: str) -> str:
     assert sentence, "Input string must not be empty."
 
     # Remove punctuation from the sentence
-    sentence = sentence.translate(str.maketrans('', '', string.punctuation))
+    sentence = sentence.translate(str.maketrans("", "", string.punctuation))
 
     # Split the sentence into words based on spaces
     words = sentence.split()

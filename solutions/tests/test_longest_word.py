@@ -18,8 +18,8 @@ The tests ensure that the function returns the correct longest word, and that it
 import unittest
 from solutions.longest_word import longest_word
 
-class TestLongestWord(unittest.TestCase):
 
+class TestLongestWord(unittest.TestCase):
     """
     Test the behavior of the longest_word function.
     """
@@ -61,6 +61,7 @@ class TestLongestWord(unittest.TestCase):
         """
         result = longest_word("apple banana cherry")
         self.assertEqual(result, "banana")
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -23,7 +23,7 @@ def fizzbuzz(n: int) -> List[str]:
                 - Multiples of 3 are replaced by "Fizz".
                 - Multiples of 5 are replaced by "Buzz".
                 - Multiples of both 3 and 5 are replaced by "FizzBuzz".
-                - Other numbers are converted to their string representation.
+                 - Other numbers are converted to their string representation.
 
     Raises:
         ValueError: If `n` is not a positive integer.

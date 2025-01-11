@@ -36,6 +36,8 @@ while corresponding test files are maintained in the `tests` folder.
 | `miles_to_kilometers.py` | Converting miles to kilometers| Obay |
 | `greatest_number.py` | Finding greatest number in a list| Razan |
 | `check_prime_number.py` | Given a positive int if it is a prime number| Özgür |
+| `password_strength.py` | Checks the strength of a password| Anas |
+| `decimal_to_binary.py` | Converts decimal to its equivalent binary| Anas |
 
 ---
 

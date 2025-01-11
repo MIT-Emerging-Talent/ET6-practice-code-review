@@ -26,13 +26,13 @@ def convert_int_to_roman(num: int) -> str:
 
     Examples:
     >>> convert_int_to_roman(5)
-    "V"
+    'V'
     >>> convert_int_to_roman(100)
-    "C"
+    'C'
     >>> convert_int_to_roman(33)
-    "XXXIII"
+    'XXXIII'
     >>> convert_int_to_roman(1)
-    "I"
+    'I'
     """
     if not (1 <= num <= 3999):
         raise ValueError("Input must be between 1 and 3999.")

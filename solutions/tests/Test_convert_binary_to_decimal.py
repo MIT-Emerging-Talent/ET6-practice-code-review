@@ -6,12 +6,9 @@ Created on 01/01/2025
 
 @author: Taher Shaban
 """
-
 import unittest
 
 from Convert_Binary_To_Decimal import conv_bin_dec
-
-
 class TestConvertBinaryToDecimal(unittest.TestCase):
     """Test the conv_bin_dec function"""
 

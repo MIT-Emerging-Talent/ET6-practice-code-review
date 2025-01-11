@@ -3,8 +3,9 @@ this code is part of group 21 homework assignment for MIT-Emerging-Talent
 Created 01/01/2025
 Author : Taher Shaban
 """
-#/usr/bin/env python3
+# /usr/bin/env python3
 ## -*- coding: utf-8 -*-
+
 
 def conv_dec_bin(dec: float) -> int:
     """this function convert decimal numbers to binary

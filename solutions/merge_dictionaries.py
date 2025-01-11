@@ -1,4 +1,12 @@
-# solutions/merge_dictionaries.py
+"""
+This module contains the implementation of the `merge_dictionaries` function.
+
+The `merge_dictionaries` function allows merging two dictionaries into one,
+with support for resolving key conflicts through a custom resolution function.
+
+Created on 03 01 2025
+@author: Frankline Ambetsa
+"""
 
 
 def merge_dictionaries(dict1, dict2, conflict_resolution=None):
@@ -18,12 +26,26 @@ def merge_dictionaries(dict1, dict2, conflict_resolution=None):
     Returns:
         dict: A merged dictionary.
 
-    Example:
+    Raises:
+        AssertionError: If `dict1` or `dict2` is not a dictionary.
+        AssertionError: If `conflict_resolution` is not callable when provided.
+
+    Examples:
         >>> merge_dictionaries({'a': 1}, {'a': 2, 'b': 3})
         {'a': 2, 'b': 3}
         >>> merge_dictionaries({'a': 1}, {'a': 2, 'b': 3}, max)
         {'a': 2, 'b': 3}
+        >>> merge_dictionaries({'x': 1}, {'y': 2})
+        {'x': 1, 'y': 2}
     """
+    # Defensive assertions
+    assert isinstance(dict1, dict), "dict1 must be a dictionary."
+    assert isinstance(dict2, dict), "dict2 must be a dictionary."
+    if conflict_resolution is not None:
+        assert callable(conflict_resolution), (
+            "conflict_resolution must be a callable function."
+        )
+
     merged = dict1.copy()  # Start with a copy of the first dictionary
 
     for key, value in dict2.items():
@@ -35,15 +57,3 @@ def merge_dictionaries(dict1, dict2, conflict_resolution=None):
             merged[key] = value
 
     return merged
-
-
-if __name__ == "__main__":
-    # Example usage
-    dict_a = {"x": 1, "y": 2}
-    dict_b = {"y": 3, "z": 4}
-
-    print("Default merge (dict_b overwrites):")
-    print(merge_dictionaries(dict_a, dict_b))
-
-    print("\nMerge with conflict resolution (max value):")
-    print(merge_dictionaries(dict_a, dict_b, max))

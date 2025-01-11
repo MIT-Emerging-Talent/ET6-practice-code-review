@@ -101,7 +101,6 @@ limits my availability time.
 
 - Access to Internet and electricity is very limites sometimes.
 - Personal life commitments and long working hours sometimes.
-- Internet is not fast enough sometimes to attend live video sessions. 
 
   ---
   

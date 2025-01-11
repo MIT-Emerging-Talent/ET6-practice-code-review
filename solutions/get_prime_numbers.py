@@ -24,6 +24,7 @@ def get_prime_numbers(n: int) -> List[int]:
 
     Raises:
         ValueError: If n is less than 2.
+        TypeError: If n is not an integer.
 
     Examples:
         >>> get_prime_numbers(10)
@@ -33,6 +34,8 @@ def get_prime_numbers(n: int) -> List[int]:
         >>> get_prime_numbers(1)
         []
     """
+    if not isinstance(n, int):
+        raise TypeError("Input must be an integer.")
     if n < 2:
         return []
 

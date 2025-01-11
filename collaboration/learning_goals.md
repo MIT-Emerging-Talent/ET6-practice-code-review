@@ -21,4 +21,3 @@ Anik: To learn unit testing and predictive testing.
 Momtaz: Learning how to collaborate as a team, working on the same project together.
 
 M. Ahmed: To learn how to use GitHub as a team.
-

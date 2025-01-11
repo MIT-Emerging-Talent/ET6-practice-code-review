@@ -32,7 +32,7 @@ class TestTimeConversion(unittest.TestCase):
         self.assertEqual(Time_Conversion("23:59"), "7:59")
 
     # Edge cases
-    
+
     def test_invalid_minutes(self):
         """It should raise ValueError for minutes are out of range"""
         with self.assertRaises(ValueError):

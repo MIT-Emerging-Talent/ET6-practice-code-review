@@ -11,44 +11,46 @@
 
 ______________________________________________________________________
 
-## Communication Schedule
-
+Communication Schedule
 | Day | How | The topic of discussion | | --- | :-: | ----------------------- |
 | | | |
 
-## Communication Channels
-
+Communication Channels
 how often will we get in touch on each channel, and what we will discuss there:
 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+Issues:
+Pull Requests:
+Slack/Discord:
+Video Calls:
+Availability
+Availability for calling/messaging
 
-______________________________________________________________________
+|  | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
+| -------- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Ammar    | ✔️    | ✔️    | ✔️    | ✔️    |      | ✔️    | ✔️    |
+| Solara   | ✔️    | ✔️    | ✔️    | ✔️    | ✔️    |      |      |
+| Collins  | ✔️    | ✔️    |      | ✔️    | ✔️    | ✔️    |      |
+| Nour     | ✔️    | ✔️    |      |      | ✔️    | ✔️    |      |
+| Fikre    | ✔️    | ✔️    | ✔️    | ✔️    | ✔️    | ✔️    | ✔️    |
 
-## Availability
+How many hours everyone has per day
 
-### Availability for calling/messaging
+Ammar : 2h;
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
+Solara: 3h;
 
-### How many hours everyone has per day
+Collins : 4h;
 
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+Nour: 2h;
 
-## Asking for Help
+Fikre: 6h;
+
+Asking for Help
 
 There's a fine line between confidently learning from your mistakes, and
 stubbornly getting no where. Here is a general guide for when to ask for help
 based on how long you've been stuck on the same problem:
 
-1. _0 -> 30 min_: Try on your own
-1. _30 -> 60 min_: Ask your group for help
-1. _60+ min_: Tag your coaches in Slack or GitHub
+0 -> 30 min: Try on your own
+30 -> 60 min: Ask your group for help
+60+ min: Tag your coaches in Slack or GitHub

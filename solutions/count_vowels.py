@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-A module for calculating the number of vowels in a given string.
+Module: count_vowels
+Description: A module for calculating the number of vowels in a given string.
 
-Module contents:
-    - count_vowels: Counts the number of vowels (a, e, i, o, u) in a string.
+This module contains the following:
+    - count_vowels: A function to count the total number of vowels in a string.
 
-Created on <date created>
-@author: <Your Name>
+Features:
+    - Counts both uppercase and lowercase vowels (a, e, i, o, u).
+    - Provides example usage in the function docstring.
+
+Created on: <date created>
+Author: <Your Name>
 """
 
 def count_vowels(input_string):
@@ -19,7 +24,7 @@ def count_vowels(input_string):
 
     Returns:
         int: The total number of vowels (a, e, i, o, u) in the string,
-             including both uppercase and lowercase vowels.
+            including both uppercase and lowercase vowels.
 
     Examples:
         >>> count_vowels("Hello, World!")

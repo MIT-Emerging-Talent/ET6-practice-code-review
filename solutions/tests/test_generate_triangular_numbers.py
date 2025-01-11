@@ -1,4 +1,5 @@
 import unittest
+sys.path.append("../")
 from solutions.generate_triangular_numbers import generate_triangular_numbers
 
 """
@@ -15,6 +16,7 @@ calculated using the formula: n * (n + 1) / 2.
 Author: Nelson
 Created on: 10 01 2025
 """
+
 
 class TestGenerateTriangularNumbers(unittest.TestCase):
     """
@@ -61,6 +63,7 @@ class TestGenerateTriangularNumbers(unittest.TestCase):
         Verifies that the function handles the smallest valid input correctly.
         """
         self.assertEqual(generate_triangular_numbers(1), [1])
+
 
 if __name__ == "__main__":
     unittest.main()

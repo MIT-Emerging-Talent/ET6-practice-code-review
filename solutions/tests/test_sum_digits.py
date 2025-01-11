@@ -8,9 +8,10 @@ invalid inputs appropriately.
 
 import unittest
 import sys
+import os
 
-sys.path.append("../")
-from sum_digits import sum_digits  # Replace 'your_module' with the actual module name
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
+from solutions.sum_digits import sum_digits  
 
 
 class TestSumDigits(unittest.TestCase):

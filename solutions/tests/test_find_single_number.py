@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Tests for the `find_single_number` module.
 
@@ -7,11 +9,19 @@ This tests the correctness of the function `find_single_number`:
     - Boundary cases like empty and large lists.
 
 Author: Mudassra Taskeen
-Date: 2025-01-10
+Date: 2025-01-07
 """
 
 import unittest
-from solutions.single_number import find_single_number
+import sys
+import os
+
+# Add the solutions directory to the PYTHONPATH
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../solutions")))
+
+from find_single_number import find_single_number
+
+
 
 
 class TestFindSingleNumber(unittest.TestCase):

@@ -6,15 +6,44 @@ is a palindrome (reads the same forward and backward). The check is done
 for multiple inputs using a for loop.
 
 Author: fevziismailsahin
-Created: 01/09/2025
+Created: 01/10/2025
 """
 
-strings_to_check = ["Radar", "12321", "Hello", "1.232.1", "12345", "aA", "Test"]
+from typing import List
 
-for value in strings_to_check:
-    cleaned_value = "".join([char.lower() for char in value if char.isalnum()])
 
-    if cleaned_value == cleaned_value[::-1]:
-        print(f"'{value}' is a palindrome.")
-    else:
-        print(f"'{value}' is not a palindrome.")
+def check_palindromes(words_to_check: List[str]) -> None:
+    """
+    Function check_palindromes checks if each word or number in the list is a palindrome.
+
+    Parameters:
+    words_to_check (List[str]): A list of strings and numbers to check for palindrome
+
+    Returns:
+    None:
+        Prints whether each word or number in the list is a palindrome or not
+
+    Example:
+
+    >>> check_palindromes(["Radar", "12321", "Hello", "1.232.1", "12345", "aA", "Test"])
+    'Radar' is a palindrome.
+    '12321' is a palindrome.
+    'Hello' is not a palindrome.
+    '1.232.1' is a palindrome.
+    '12345' is not a palindrome.
+    'aA' is a palindrome.
+    'Test' is not a palindrome.
+
+    """
+    for value in words_to_check:
+        cleaned_value = "".join(filter(str.isalnum, value)).lower()
+
+        if cleaned_value == cleaned_value[::-1]:
+            print(f"'{value}' is a palindrome.")
+        else:
+            print(f"'{value}' is not a palindrome.")
+
+
+if __name__ == "__main__":
+    words_to_check_list = ["Radar", "12321", "Hello", "1.232.1", "12345", "aA", "Test"]
+    check_palindromes(words_to_check_list)

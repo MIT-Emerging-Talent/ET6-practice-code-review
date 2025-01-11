@@ -13,6 +13,7 @@ Created on Dec 21, 2024
 """
 
 import unittest
+
 from ..largest_element import largest_element
 
 
@@ -47,4 +48,10 @@ class TestLargeNumbers(unittest.TestCase):
         """It should display the number"""
         actual = largest_element([6, 6, 6])
         expected = 6
+        self.assertEqual(actual, expected)
+
+    def test_one_element(self):
+        """It should display the one element"""
+        actual = largest_element([1])
+        expected = 1
         self.assertEqual(actual, expected)

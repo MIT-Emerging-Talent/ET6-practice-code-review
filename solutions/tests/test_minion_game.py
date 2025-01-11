@@ -10,7 +10,7 @@ import unittest
 import sys
 
 sys.path.append("../")
-from minion_game import minion_game
+from solutions.minion_game import minion_game
 
 
 class TestMinionGame(unittest.TestCase):

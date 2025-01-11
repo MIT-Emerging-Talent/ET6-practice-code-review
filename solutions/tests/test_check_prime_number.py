@@ -24,6 +24,9 @@ To run the tests, use the Python `unittest` framework.
 The tests will provide feedback on the correctness
 of the `is_prime` function.
 
+Author: Özgür ÖZBEK
+Date: 11th January 2025
+Group: ET6-foundations-group-16
 
 """
 

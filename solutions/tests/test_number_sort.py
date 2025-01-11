@@ -8,14 +8,15 @@ Test categories:
     - Defensive tests: invalid input types, assertions
 
 Created on 03-01-25
+Updated on 10-01-25
 Author: Cody
 """
 
 import unittest
-
-# When cloning the repo and running the test locally, the test file might fail
-# Just type from solutions.number_sort import sort and the test will run
-from ..number_sort import sort
+import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).parent.parent))
+from number_sort import sort
 
 
 class TestBubbleSort(unittest.TestCase):
@@ -85,6 +86,24 @@ class TestBubbleSort(unittest.TestCase):
         """Test for lists with very large numbers."""
         result = sort([10**6, -(10**6), 0])
         expected = [-(10**6), 0, 10**6]
+        self.assertEqual(result, expected)
+
+    def test_very_large_numbers(self):
+        """Test sorting numbers in the millions range."""
+        result = sort([2000000, 1000000, 3000000])
+        expected = [1000000, 2000000, 3000000]
+        self.assertEqual(result, expected)
+
+    def test_very_small_numbers(self):
+        """Test sorting very small decimal numbers."""
+        result = sort([0.0001, 0.0003, 0.0002])
+        expected = [0.0001, 0.0002, 0.0003]
+        self.assertEqual(result, expected)
+
+    def test_wide_range_numbers(self):
+        """Test sorting numbers with very different magnitudes."""
+        result = sort([1000000, 0.001, 1, 10000])
+        expected = [0.001, 1, 10000, 1000000]
         self.assertEqual(result, expected)
 
 

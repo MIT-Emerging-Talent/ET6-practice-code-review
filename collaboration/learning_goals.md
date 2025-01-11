@@ -65,3 +65,11 @@ understood by all group members
 - Practice documenting and testing skills while writing the solution code for problems.
 - Learn from other members' code, documentation, and tests during the review process.
 - Learn from other members' reviews of my code.
+
+### **Collins' Goals:**
+
+- Improve on my github collaboration skills
+- Learn python programming language and use it in solving various challenges
+- Learn how to debug and fix errors in code
+- Understand behavior, strategy and implementation
+- Learn how to write clean and readable code

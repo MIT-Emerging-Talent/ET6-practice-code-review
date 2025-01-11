@@ -34,6 +34,7 @@ Group: ET6-foundations-group-16
 import unittest
 from ..check_prime_number import check_prime_number
 
+
 class TestCheckPrimeNumber(unittest.TestCase):
     """Test case for the check_prime_number function."""
 
@@ -87,15 +88,18 @@ class TestCheckPrimeNumber(unittest.TestCase):
 
     def test_edge_case_0(self):
         """Test edge case 0."""
-        self.assertFalse(check_prime_number(0))
+        with self.assertRaises(AssertionError):
+            check_prime_number(0)
 
     def test_edge_case_negative(self):
         """Test edge case negative number."""
-        self.assertFalse(check_prime_number(-1))
+        with self.assertRaises(AssertionError):
+            check_prime_number(-1)
 
     def test_edge_case_large_prime(self):
         """Test edge case with large prime."""
         self.assertTrue(check_prime_number(97))
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -7,6 +7,7 @@ Date: 11th January 2025
 Group: ET6-foundations-group-16
 """
 
+
 def check_prime_number(number: int) -> bool:
     """Checks if a number is prime.
 

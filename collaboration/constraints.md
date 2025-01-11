@@ -15,6 +15,15 @@ Some boundaries around our project.
   - ...
 -->
 
+| Member      | External issues  |
+| ----------- | ----------- |
+| Abdallah    | Internet connectivity, work  |
+| Huda  | Internet connectivity       |
+| Mohammad   | Time management        |
+| Kimya      | Time management        |
+| Asia   | Internet connectivity and no laptop    |
+| Shadi  | Work, Internet connectivity|
+
 ## Internal: Involuntary
 
 <!--
@@ -22,6 +31,15 @@ Some boundaries around our project.
   - each of your individual skill levels
   - amount of time available to work on the project
 -->
+
+| Member      | Internal involuntary issues  |
+| ----------- | ----------- |
+| Abdallah | Constraints |
+| Huda   | New to GitHub        |
+| Mohammad    | New to GitHub        |
+| Kimya   | New to Python and Github       |
+| Asia  | Using a phone to do a project      |
+| Shadi  | New to Github & Python        |
 
 ## Internal: Voluntary
 
@@ -32,3 +50,11 @@ Some boundaries around our project.
   - the number of hours you want to spend working
   - only using the colors black and white
 -->
+| Member      | Internal voluntary issues  |
+| ----------- | ----------- |
+| Abdallah | Constraints |
+| Huda   | The code difficulty        |
+| Mohammad   | The code difficulty        |
+| Kimya   | The code difficulty      |
+| Asia  | The organization of the project      |
+| Shadi   | The code difficulty        |

@@ -13,17 +13,33 @@ ______________________________________________________________________
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion | | --- | :-: | ----------------------- |
-| | | |
+| Day       | How              | The Topic of Discussion                       |
+|-----------|------------------|-----------------------------------------------|
+| Monday    | Slack/WhatsApp   | Project Progress Updates and Any Questions    |
+| Tuesday   | Slack/WhatsApp   | Project Progress Updates and Any Questions    |
+| Wednesday | Slack/WhatsApp   | Project Progress Updates and Any Questions    |
+| Thursday  | Slack/WhatsApp   | Project Progress Updates and Any Questions    |
+| Friday    | Google Meet      | Project Progress Updates and Any Questions    |
+| Saturday  | Slack/WhatsApp   | Project Progress Updates and Any Questions    |
+| Sunday    | Slack/WhatsApp   | Project Progress Updates and Any Questions    |
 
 ## Communication Channels
 
-how often will we get in touch on each channel, and what we will discuss there:
+### How often will we get in touch on each channel, and what we will discuss there
 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+- **Issues**: Use GitHub issues for the following:
+  - **Help Wanted**: When you're blocked on certain lines of code and need assistance.
+  - **Meeting Agenda**: To plan and organize topics for meetings.
+  - **New Challenge**: For new tasks or challenges to be added to the TODO
+   column on the project board.
+  - **Question**: For any questions, whether technical or general, that you
+   want to discuss with the team.
+
+- **Pull Requests**: Discuss code changes and feedback.Ensure PRs are linked
+   and reviewed.
+- **Slack/WhatsApp**: For daily updates, quick questions, and general communication.
+- **Google Meet**: Weekly Friday meeting for project progress updates and to
+   address any questions or blockers.
 
 ______________________________________________________________________
 
@@ -31,17 +47,51 @@ ______________________________________________________________________
 
 ### Availability for calling/messaging
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
+#### Monday to Wednesday
+
+| Day          | Monday            | Tuesday           | Wednesday         |
+|--------------|-------------------|-------------------|-------------------|
+| **Huda**     | 10 AM - 12 PM (2h)| 11 AM - 1 PM (2h) | 10 AM - 12 PM (2h)|
+| **Abdallah** | 6 PM - 8 PM (2h)  | 6 PM - 8 PM (2h)  | 6 PM - 8 PM (2h)  |
+| **Kimya**    | 10 AM - 12 PM (2h)| 11 AM - 1 PM (2h) | 10 AM - 12 PM (2h)|
+| **Mohammad** | 2 PM - 4 PM (2h)  | 2 PM - 4 PM (2h)  | 7 PM - 10 PM (2h) |
+| **Member 5** | 5h                | 6h                | 5h                |
+| **Member 6** | 5h                | 6h                | 5h                |
+| **Member 7** | 5h                | 6h                | 5h                |
+
+#### Thursday to Saturday
+
+| Day          | Thursday          | Friday            | Saturday          |
+|--------------|-------------------|-------------------|-------------------|
+| **Huda**     | 10 AM - 12 PM (2h)| 11 AM - 1 PM (2h) | 10 AM - 12 PM (2h)|
+| **Abdallah** | 6 PM - 8 PM (2h)  | 6 PM - 8 PM (2h)  | 10 AM - 17 PM (7h)|
+| **Mohammad** | 10 AM - 12 PM (2h)| 9 AM - 11 PM (2h) | 12 PM - 2 PM (2h) |
+| **Kimya**    | 10 AM - 12 PM     | 11 AM -  1 PM     | 10 AM - 12 PM     |
+| **Member 5** | 4h                | 3h                | 5h                |
+| **Member 6** | 4h                | 3h                | 5h                |
+| **Member 7** | 4h                | 3h                | 5h                |
+
+#### Sunday
+
+| Day          | Sunday              |
+|--------------|---------------------|
+| **Huda**     | 11 AM - 1 PM (2h)   |
+| **Abdallah** | 10 AM - 17 PM (7h)  |
+| **Mohammad** | 2 PM - 4 PM (2h)    |
+| **Kimya**    | 11 AM - 1 PM        |
+| **Member 5** | 4h                  |
+| **Member 6** | 4h                  |
+| **Member 7** | 4h                  |
 
 ### How many hours everyone has per day
 
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- **Huda**: 2h
+- **Abdallah**: 2-3 hrs
+- **Mohammad**: 2h
+- **Kimya**: 2h
+- **Member 5**: 5h
+- **Member 6**: 5h
+- **Member 7**: 5h
 
 ## Asking for Help
 

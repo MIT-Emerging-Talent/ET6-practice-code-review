@@ -29,6 +29,7 @@ Welcome to the repository of **Push and Pray**, standing for Group 19 in the MIT
   sample and plant it at a crime scene without you noticing. 🧬
 
 - Tamara Saqer: A first-rate meme queen, her creativity is out of this world.
-  If she earned a dollar for every meme she created, she would be a multimillionaire. 💰
+  If she earned a dollar for every meme she created,
+  she would be a multimillionaire. 💰
 
 ## Let's design something extraordinary together. 😎

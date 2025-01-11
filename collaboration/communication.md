@@ -10,8 +10,8 @@
 | Jan. 2nd ✅ | Thursday | Google Meet | Final meeting for the collaboration folder|
 | Jan. 4th ✅ | Saturday | Zoom Online Meeting | Problems Delivery |
 | Jan. 6th ✅ | Monday | GitHub | Review Session |
-| Jan. 8th | Wednesday | GitHub | Challenges Delivery Deadline |
-| Jan. 9th | Tuesday  | GitHub | Reviews Deadline |
+| Jan. 8th ✅| Wednesday | GitHub | Challenges Delivery Deadline |
+| Jan. 9th ✅| Tuesday  | GitHub | Reviews Deadline |
 | Jan. 11th | Saturday | Zoom Online Meeting | Retrospective |
 
 ## Communication Channels

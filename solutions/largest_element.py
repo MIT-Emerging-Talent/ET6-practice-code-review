@@ -12,6 +12,8 @@ def largest_element(numbers: list) -> int | float | None:
         numbers (list): list of numbers
     Returns:
         _int/float/None:  Returns the largest number from the list or None if the list is empty
+    Raises:
+        AssertionError: If any element in the list is not an integer or float
     Example:
     >>> largest_element([-1,0,1])
     1
@@ -20,6 +22,7 @@ def largest_element(numbers: list) -> int | float | None:
     >>> largest_element([-1,0,2.5])
     2.5
     >>> largest_element([])
+
     """
     assert all(isinstance(num, (int, float)) for num in numbers), (
         "num must be integer or float"

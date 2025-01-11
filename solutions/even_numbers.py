@@ -2,10 +2,7 @@
 # -- coding: utf-8 --
 
 """
-A module that checks if a number is even.
-
-Module contents: Checks if a given number is even and returns True or False.
-
+This module checks if a given number is even and returns True for even numbers or False otherwise.
 Created on 2025-01-11
 
 @author: Martha Yelademe Nyekanga

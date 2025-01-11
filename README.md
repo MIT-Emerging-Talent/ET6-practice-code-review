@@ -1,4 +1,6 @@
-# **Git it Done** 🚀
+![Get It Done Banner](assets/banner.png)
+
+---
 
 ## **Overview**
 

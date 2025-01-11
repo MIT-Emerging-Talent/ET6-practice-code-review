@@ -5,7 +5,7 @@
 _Dont know if the quote made sense just wanted to quote the art of war, felt like Kanye doing it :')_ 
 
 
-**Deadline: 11/01**  
+**Deadline**  
 _Finished all assigned tasks (challenges) on the 10th Jan_  
 _Finished retrospective (documentation) on the 11th Jan_
 

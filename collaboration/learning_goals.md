@@ -11,8 +11,14 @@ introduction to object-oriented programming to build a solid foundation for codi
 ## Individual
 
 Muqaddas: To learn new data science skills.
+
 Nilofar: To learn about github and how the coding collaboration works.
+
 Shagun: To learn how to effectively collaborate and documentation.
-Anik: To leanr unit testing and predictive testing.
-Momtaz: Learning how to collaborate as a team, working on the same project together 
-M. Ahmed:
+
+Anik: To learn unit testing and predictive testing.
+
+Momtaz: Learning how to collaborate as a team, working on the same project together.
+
+M. Ahmed: To learn how to use GitHub as a team.
+

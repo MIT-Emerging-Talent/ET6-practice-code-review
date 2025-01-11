@@ -75,9 +75,9 @@ def binary_search(
         )
 
     # Ensure that the list is sorted in ascending order
-    assert list_to_be_searched == sorted(
-        list_to_be_searched
-    ), "The list must be sorted in ascending order."
+    assert list_to_be_searched == sorted(list_to_be_searched), (
+        "The list must be sorted in ascending order."
+    )
 
     # Internal function logic: Recursively perform binary search
     def search_recursively(low_index: int, high_index: int) -> int:

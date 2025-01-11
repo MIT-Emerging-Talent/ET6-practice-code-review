@@ -11,7 +11,7 @@ def largest_element(numbers: list) -> int | float | None:
     Parameter:
         numbers (list): list of numbers
     Returns:
-        _int/float/None:  Returns the largest number from the list or None if the list is empty
+        _int/float/None:  Returns none if the list is empty
     Example:
     >>> largest_element([-1,0,1])
     1

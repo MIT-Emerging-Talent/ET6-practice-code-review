@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-A module estimation of delivery time based on 2 arguments
+A module estimation of delivery time based on 2 argument
 
 Module contents:
     - Calculates the estimated delivery time based on the distance and average speed.
@@ -43,13 +43,13 @@ def shipment_time_estimation(distance: float, average_speed: float) -> float:
     """
 
     # Defensive checks with assertions
-    assert isinstance(
-        distance, (int, float)
-    ), "distance must be a number (int or float)."
+    assert isinstance(distance, (int, float)), (
+        "distance must be a number (int or float)."
+    )
     assert distance >= 0, "distance must be non-negative."
-    assert isinstance(
-        average_speed, (int, float)
-    ), "average_speed must be a number (int or float)."
+    assert isinstance(average_speed, (int, float)), (
+        "average_speed must be a number (int or float)."
+    )
     assert average_speed > 0, "average_speed must be greater than zero."
 
     # Assign received arguments to local variables - for debugging purpose only

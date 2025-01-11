@@ -45,7 +45,6 @@ How often we will get in touch on each channel, and what we will discuss there:
 - Mohamed: 2 hours
 - Obey: 2 hours
 - Özgür: 2 hours
-- Obey: $HOURS$
 - Razan: An hour
 
 ## Asking for Help

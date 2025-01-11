@@ -18,8 +18,8 @@
 
 How often will we get in touch on each channel, and what we will discuss there:
 
-- **Issues**:  Used when needed to track tasks, discuss challenges, and document ideas.
- Team members should also check for updates daily.
+- **Issues**:  Used as needed to track tasks, discuss challenges, or document ideas.
+ Team members should also check for updates on a daily basis.
 - **Pull Requests**: Created whenever code is ready for review. All team members
  should aim to review PRs within 24-48 hours.
 - **Slack/WhatsApp**: Active daily for quick updates, questions, and informal discussions.

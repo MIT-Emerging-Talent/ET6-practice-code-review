@@ -14,7 +14,7 @@ def date_magicity_checker(date: str) -> bool:
     Check if a date is 'magic' (day * month == last two digits of year)
 
     Parameters:
-        date: string, expected to be in the format DD.MM.YYYY
+        date: string, expected to be in the format: DD.MM.YYYY
 
     Returns :
         bool: True if the date is magic, False otherwise
@@ -27,15 +27,16 @@ def date_magicity_checker(date: str) -> bool:
         AssertionError: If day or month is out of valid range
 
     Examples:
-        >>> date_magicity_checker(06.10.1860)
+        >>> date_magicity_checker("06.10.1860")
         True
 
-        >>> date_magicity_checker(03.12.1936)
+        >>> date_magicity_checker("03.12.1936")
         True
 
-        >>> date_magicity_checker(01.12.2004):
+        >>> date_magicity_checker("01.12.2004"):
         False
     """
+
     # Assertions for input format
     assert isinstance(date, str), "date is not a string"
     assert len(date) == 10, "date does not have a proper length"

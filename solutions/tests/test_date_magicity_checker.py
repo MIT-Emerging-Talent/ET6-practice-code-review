@@ -19,7 +19,7 @@ class TestDateMagicityChecker(unittest.TestCase):
 
     def test_01(self):
         """It should return True for '01.01.0001' as a minimum date"""
-        self.assertEqual(date_magicity_checker("00.00.0000"), True)
+        self.assertEqual(date_magicity_checker("01.01.0001"), True)
 
     def test_magic_date_true(self):
         """It should return True for valid magic dates"""
@@ -45,7 +45,7 @@ class TestDateMagicityChecker(unittest.TestCase):
             date_magicity_checker("3.103.1978")
 
     def test_string_to_digits(self):
-        """It should raise an assertion error if the argument can not be converted to valid integers"""
+        """It should raise an assertion error if the arg can not be converted to valid integers"""
         with self.assertRaises(AssertionError):
             date_magicity_checker("03.0a.1995")
 

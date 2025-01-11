@@ -184,7 +184,7 @@ where necessary.
 
 1. **Team Collaboration**
    - Work better with others by joining team projects.
-   - Get better at communication.
+   - Get better at communication with teammates.
 
 2. **Learning Git and Version Control**
    - Practice using Git commands for managing versions,

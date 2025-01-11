@@ -19,17 +19,17 @@ class TestTimeConversion(unittest.TestCase):
 
     def test_regular_time(self):
         """It should return the time conversion properly"""
-        self.assertEqual(Time_Conversion("08:00"), "16:0")
+        self.assertEqual(Time_Conversion("08:00"), "16:00")
 
     # Boundary cases
 
     def test_minimum_time(self):
         """It should return the time conversion properly"""
-        self.assertEqual(Time_Conversion("00:00"), "8:0")
+        self.assertEqual(Time_Conversion("00:00"), "08:00")
 
     def test_maximum_time(self):
         """It should return the time conversion properly"""
-        self.assertEqual(Time_Conversion("23:59"), "7:59")
+        self.assertEqual(Time_Conversion("23:59"), "07:59")
 
     # Defensive cases
 

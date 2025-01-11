@@ -29,11 +29,11 @@ def Time_Conversion(est_time: str) -> str:
     >>> Time_Conversion("14:30")
     '22:30'
 
-    >>> Time_Conversion("8:15")
+    >>> Time_Conversion("08:15")
     '16:15'
 
-    >>> Time_Conversion("0:0")
-    '8:0'
+    >>> Time_Conversion("00:00")
+    '08:00'
 
 
     """
@@ -62,4 +62,4 @@ def Time_Conversion(est_time: str) -> str:
     if hours >= 24:
         hours -= 24
 
-    return f"{hours}:{minutes}"
+    return f"{str(hours).zfill(2)}:{str(minutes).zfill(2)}"

@@ -1,54 +1,61 @@
-<!--
-    this template is for inspiration, feel free to change it however you like!
-
-    Careful! be sure to protect your privacy when filling out this document
-        everything you write here will be public
-        so share only what you are comfortable sharing online
-        you can share the rest in confidence with you group by another channel
--->
-
-# Communication
-
-______________________________________________________________________
+# Communication Plan
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion | | --- | :-: | ----------------------- |
-| | | |
+| **Day**          | **How**   | **Topic of Discussion**                          |
+|-------------------|-----------|--------------------------------------------------|
+| December 20       | Zoom Call | Introduction by all                              |
+| December 22       | Zoom Call | Group Norms, Tools for Collaborative Development |
+| December 24       | Zoom Call | Questions to ask Evan                           |
+| December 30       | Zoom Call | Communication strategies, constraints           |
+
+*Meetings will be scheduled based on group needs. Additional meetings can be arranged if requested.*
+
+---
 
 ## Communication Channels
 
-how often will we get in touch on each channel, and what we will discuss there:
+We will use the following channels for collaboration and communication:
 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+- **WhatsApp**  
+  - Primary platform for communication, available 24/7.  
+  - Used for setting meeting times, asking questions, and discussing challenges in group projects.
 
-______________________________________________________________________
+- **Slack**  
+  - Utilized less frequently but serves as a secondary platform for posting updates and key points.  
+  - Important links and agreements will be reposted here for easy access.
+
+- **Google Docs**  
+  - Main platform for collaborative document editing, such as drafting group norms, communication plans, constraints, and learning goals.
+
+- **Zoom/Google Meet**  
+  - Primary platforms for hosting group meetings and discussions.
+
+---
 
 ## Availability
 
-### Availability for calling/messaging
+| **Name**                     | **Availability**                                  |
+|-------------------------------|--------------------------------------------------|
+| Saliha Saadet Kalender        | 10 AM – 8 PM (Every day)                         |
+| Rumiya Ismatova               | 8 AM – 5 PM (Weekdays), All day (Weekends)       |
+| Husna Mansoori                | *[Availability pending]*                         |
+| Mostafa Borhani               | *[Availability pending]*                         |
+| Anna Shumylina                | 7 PM – 10 PM (Weekdays), All day (Weekends)      |
+| Mushtary Alam                 | *[Availability pending]*                         |
+| Mohammad Jawid Mohseni        | *[Availability pending]*                         |
+| Alona Niechvieieva            | 10 AM – 8 PM (Weekdays), All day (Weekends)      |
+| Meklit Mitiku Gebregiorgis    | *[Availability pending]*                         |
+| Masooma Ahmadi                | *[Availability pending]*                         |
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
+---
 
-### How many hours everyone has per day
+## Problem-Solving Protocol
 
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+As a general rule of the group, we will follow these steps when encountering a problem:
 
-## Asking for Help
+1. **0 → 30 minutes**: Work on the problem independently.  
+2. **30 → 60 minutes**: Discuss the problem with the group to gather support and ideas.  
+3. **60+ minutes**: Reach out to coaches via Slack or GitHub for guidance.
 
-There's a fine line between confidently learning from your mistakes, and
-stubbornly getting no where. Here is a general guide for when to ask for help
-based on how long you've been stuck on the same problem:
-
-1. _0 -> 30 min_: Try on your own
-1. _30 -> 60 min_: Ask your group for help
-1. _60+ min_: Tag your coaches in Slack or GitHub
+This approach ensures efficient collaboration and maximizes learning opportunities for all group members.

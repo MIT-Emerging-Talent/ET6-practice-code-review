@@ -289,7 +289,8 @@ If you encounter merge conflicts while merging a PR:
 
 3. **Resolve Conflicts**
 
-   Open the conflicting files in your code editor (e.g., VS Code) and manually resolve the conflicts.
+   Open the conflicting files in your code editor (e.g., VS Code) and manually
+   resolve the conflicts.
 
 4. **Stage the Changes**
 

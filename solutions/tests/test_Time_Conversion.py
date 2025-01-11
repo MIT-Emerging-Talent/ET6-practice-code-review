@@ -31,18 +31,6 @@ class TestTimeConversion(unittest.TestCase):
         """It should return the time conversion properly"""
         self.assertEqual(Time_Conversion("23:59"), "7:59")
 
-    # Edge cases
-
-    def test_invalid_minutes(self):
-        """It should raise ValueError for minutes are out of range"""
-        with self.assertRaises(ValueError):
-            Time_Conversion("00:60")
-
-    def test_invalid_hours(self):
-        """It should raise ValueError for minutes are out of range"""
-        with self.assertRaises(ValueError):
-            Time_Conversion("24:00")
-
     # Defensive cases
 
     def test_not_string(self):
@@ -69,3 +57,13 @@ class TestTimeConversion(unittest.TestCase):
         """It should raise AssertionError for string is mix types"""
         with self.assertRaises(AssertionError):
             Time_Conversion("hg:45")
+
+    def test_invalid_minutes(self):
+        """It should raise ValueError for minutes are out of range"""
+        with self.assertRaises(ValueError):
+            Time_Conversion("00:60")
+
+    def test_invalid_hours(self):
+        """It should raise ValueError for minutes are out of range"""
+        with self.assertRaises(ValueError):
+            Time_Conversion("24:00")

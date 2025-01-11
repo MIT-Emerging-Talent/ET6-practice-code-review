@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 """
 Module to convert hexadecimal to decimal.
-
-Author: Majd Abualsoud
-Date: 11th January 2025
-Group: ET6-foundations-group-16
 """
 
 
@@ -31,6 +27,5 @@ def hex_to_decimal(hex_value: str) -> int:
     assert all(
         c in "0123456789ABCDEFabcdef" for c in hex_value
     ), "Invalid hexadecimal character"
-
     # Convert hexadecimal to decimal
     return int(hex_value, 16)

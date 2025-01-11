@@ -3,7 +3,7 @@
 This module contains unit tests for the word_frequency module.
 
 The tests verify the functionality of the count_word_frequency function,
-which counts the frequency of words in a given text.
+which will count the frequency of words in a given text.
 """
 
 import unittest

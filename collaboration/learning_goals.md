@@ -64,6 +64,13 @@ understanding how they apply to our specific cases and improving our approach.
 
 ---
 
+- ## _Mahmoud Alnouri_
+
+  - [ ] Goal 1: Learn Git
+  - [ ] Goal 2: Improve my Python Skills.
+
+---
+
 - ## _Ahmed Khalifa_
 
   - [ ] Goal 1: Enhance my coding skills by Learning to document files

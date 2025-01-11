@@ -1,12 +1,11 @@
-""" Test module for input temperature
-This unittest contains test 
-and edge cases for the weather condition 
+"""Test module for input temperature
+This unittest contains test
+and edge cases for the weather condition
 
 Created on Sat Jan 10 2025
 
 @author: Yool Malaak
 """
-
 
 import unittest
 

@@ -7,6 +7,7 @@ Created on Fri Jan 10 2025
 @author: Yool Malaak
 """
 
+
 def get_weather_condition(temperature):
     """
     A module for getting the weather condition

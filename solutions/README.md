@@ -28,6 +28,9 @@ while corresponding test files are maintained in the `tests` folder.
 | `grading_system.py`| Assigning letter grade to a numeric score.  | Razan |
 | `kronecker_product.py` | Computes the Kronecker ⊗ product of 2 matrices | Fahed|
 | `feet_to_meters.py` | Converting feet to meters| Obay |
+| `area_circle.py`| Calculates the area of the circle | Majd |
+| `multiplication.py`| Calculate the multiple of two numbers | Majd|
+| `square.py`| Find the number power of two | Majd |
 
 ---
 

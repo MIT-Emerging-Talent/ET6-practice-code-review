@@ -8,7 +8,7 @@ which counts the frequency of words in a given text.
 
 import unittest
 
-from word_frequency import count_word_frequency
+from ..word_frequency import count_word_frequency
 
 
 class TestWordFrequency(unittest.TestCase):

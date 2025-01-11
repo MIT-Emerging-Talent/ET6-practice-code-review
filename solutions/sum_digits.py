@@ -27,12 +27,13 @@ def sum_digits(n):
     15
     """
 
-    if not n.isnumeric():
-        raise ValueError("input must be number")
-    if n == "":
-        raise ValueError("input must not be empty")
+    validate_input(n)
 
     if n == 0:
         return 0
     else:
         return n % 10 + sum_digits(n // 10)
+
+def validate_input(n):
+    if not isinstance(n, int) or n < 0:
+        raise ValueError("Input must be a non-negative integer.")

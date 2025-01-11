@@ -7,7 +7,8 @@ The tests cover various scenarios including valid inputs, defensive assertions, 
 """
 
 import unittest
-from ..multiply import multiply
+from solutions.multiply import multiply
+
 
 class TestMultiplyFunction(unittest.TestCase):
     """Unit tests for the `multiply` function."""
@@ -42,6 +43,7 @@ class TestMultiplyFunction(unittest.TestCase):
         """Test error when the second argument is not a number."""
         with self.assertRaises(TypeError):
             multiply(3, None)
+
 
 if __name__ == "__main__":
     unittest.main()

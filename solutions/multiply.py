@@ -1,13 +1,19 @@
 #!/usr/bin/env python3
 # -- coding: utf-8 --
+"""
+This module contains unit tests for the `multiply` function in `multiply.py`.
+The tests cover various scenarios including valid inputs, defensive assertions, and boundary cases.
+"""
+
+
 def multiply(a: float, b: float) -> float:
     """
     Multiplies two numbers and returns the result.
 
     Args:
-        a (float): The first number to be multiplied. 
+        a (float): The first number to be multiplied.
         Must be a real number (no specific range constraints).
-        b (float): The second number to be multiplied. 
+        b (float): The second number to be multiplied.
         Must be a real number (no specific range constraints).
 
     Returns:
@@ -28,5 +34,5 @@ def multiply(a: float, b: float) -> float:
         raise TypeError("The first argument must be a number.")
     if not isinstance(b, (int, float)):
         raise TypeError("The second argument must be a number.")
-    
+
     return a * b

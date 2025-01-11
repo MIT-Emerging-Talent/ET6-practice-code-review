@@ -10,7 +10,7 @@ Run this module using `unittest` to verify the function's correctness.
 """
 
 import unittest
-from solutions.simple_interest_calculator import (
+from solutions.simple_interest_calculator import (  # type: ignore
     calculate_simple_interest,
 )  # Adjust the import based on your actual function
 

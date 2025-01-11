@@ -130,9 +130,6 @@ where necessary.
    - familiarize with github interface.
    - Gain an understanding of how to use it for effective collaboration.
 
-*Each team member is encouraged to add their individual goals below to document
-their learning objectives for this project.*
-
 ### Zephaniah Okoye
 
 1. **Advanced Git and GitHub Mastery**:
@@ -182,6 +179,28 @@ their learning objectives for this project.*
       to effectively convey ideas and technical concepts.
    - Enhance conflict resolution skills to
       address and resolve team challenges constructively.
+
+### Olubusayo Solola
+
+#### 1. Team Collaboration
+   - Work better with others by joining team projects.
+   - Get better at communication and learn how to work well with people from different backgrounds.
+
+#### 2. Learning Git and Version Control
+   - Practice using Git commands for managing versions and fixing merge conflicts.
+   - Make teamwork easier by keeping everything organized with Git.
+
+#### 3. Improving Code Reviews
+   - Learn how to write cleaner code that others can understand easily.
+   - Get better at reviewing other people's code and giving helpful feedback.
+
+#### 4. Getting Comfortable with GitHub
+   - Explore GitHub and learn how to use its features.
+   - Use GitHub to collaborate with others, track issues, and manage projects.
+
+#### 5. Debugging and Problem Solving
+   - Learn how to debug code more effectively and predict where things might go wrong.
+   - Get better at solving problems by figuring out what’s causing issues in the code.
 
 ---
 

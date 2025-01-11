@@ -14,7 +14,7 @@ Created on 11-Jan-2025
 """
 
 import unittest
-from ..calculate_sphere_volume import calculate_sphere_volume
+from solutions.calculate_sphere_volume import calculate_sphere_volume
 
 
 class TestCalculateSphereVolume(unittest.TestCase):

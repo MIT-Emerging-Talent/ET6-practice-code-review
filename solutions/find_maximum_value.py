@@ -23,7 +23,7 @@ def find_maximum_value(values: list):
     Returns -> number: the highest value from the list of numbers.
 
     Raises:
-        AssertionError: if input is not a list or a non-numerical data
+        TypeError: if input is not a list or a non-numerical data
 
     Examples:
         >>> find_maximum_value([1, 2, 3, 4])
@@ -34,9 +34,7 @@ def find_maximum_value(values: list):
         3.4
     """
 
-    # trunk-ignore(bandit/B101)
     assert isinstance(values, list)
-    # trunk-ignore(bandit/B101)
     assert all(
         isinstance(item, (int, float)) for item in values
     )  # "values must be an int or a float"

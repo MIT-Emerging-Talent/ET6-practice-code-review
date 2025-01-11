@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-The goal of this challenge is to count how many prime numbers are present in a given list of integers.
-A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+r"""
+This module defines the functions `is_prime` and `count_primes` for checking primality
+and counting prime numbers in a list.
 
-Created on: 09/01/25
-@author: Zeinab Shadabshoar
+@uthor: Zeinab Shadabshoar
+Date: 09 01 2025
+
 """
 
 
 def is_prime(n: int) -> bool:
-    """
+    r"""
     Checks if a given number is prime.
 
     Parameters:
@@ -20,8 +21,8 @@ def is_prime(n: int) -> bool:
         bool: True if the number is prime, False otherwise.
 
     Raises:
-        AssertionError: If the input is not an integer.
-        AssertionError: If the input is a negative number.
+        TypeError: If the input is not an integer.
+        ValueError: If the input is a negative integer.
 
     Examples:
         >>> is_prime(2)
@@ -29,24 +30,20 @@ def is_prime(n: int) -> bool:
         >>> is_prime(4)
         False
     """
-    # validate input type
-    assert isinstance(n, int), "Input must be an integer"
-
-    # ensure that the number is positive
-    assert n >= 0, "Input must be a non-negative integer"
-
+    if not isinstance(n, int):
+        raise TypeError("Input must be an integer")
+    if n < 0:
+        raise ValueError("Input must be a non-negative integer")
     if n <= 1:
         return False
-
     for i in range(2, int(n**0.5) + 1):
         if n % i == 0:
             return False
-
     return True
 
 
 def count_primes(numbers: list) -> int:
-    """
+    r"""
     Counts the number of prime numbers in a list.
 
     Parameters:
@@ -56,25 +53,20 @@ def count_primes(numbers: list) -> int:
         int: The count of prime numbers in the list.
 
     Raises:
-        AssertionError: If the input is not a list.
-        AssertionError: If the list contains non-integer elements.
+        TypeError: If the input is not a list or contains non-integer elements.
 
     Examples:
         >>> count_primes([2, 3, 4, 5])
         3
     """
-    # validate input type
-    assert isinstance(numbers, list), "Input must be a list"
-
+    if not isinstance(numbers, list):
+        raise TypeError("Input must be a list")
     prime_count = 0
-
     for num in numbers:
-        # ensure that each element in the list is an integer
-        assert isinstance(num, int), "All elements in the list must be integers"
-
+        if not isinstance(num, int):
+            raise TypeError("All elements in the list must be integers")
         if is_prime(num):
             prime_count += 1
-
     return prime_count
 
 

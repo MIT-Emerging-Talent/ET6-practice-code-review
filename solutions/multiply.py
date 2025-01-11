@@ -6,10 +6,11 @@ A module for multiplication of two numbers.
 
 Module contents:
     multiply: Multiplies two numbers (int or float) and returns the result.
-    
+
 Created on 06.01.2025
 @author : Simi-Solola
 """
+
 
 def multiply(a: float, b: float) -> float:
     """
@@ -20,7 +21,7 @@ def multiply(a: float, b: float) -> float:
     b (int or float): The second number.
 
     Returns:
-    int or float: The result of multiplying `a` and `b`. Returns an `int` if both inputs are integers, 
+    int or float: The result of multiplying `a` and `b`. Returns an `int` if both inputs are integers,
                   otherwise returns a `float`.
 
     Raises:
@@ -44,6 +45,8 @@ def multiply(a: float, b: float) -> float:
     # Return an int if both inputs are integers, else return a float
     return int(result) if isinstance(a, int) and isinstance(b, int) else float(result)
 
+
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod()

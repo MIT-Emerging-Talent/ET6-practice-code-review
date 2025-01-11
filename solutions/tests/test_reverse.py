@@ -1,12 +1,13 @@
 import unittest
 from solutions.reverse import reverse_string
 
+
 class TestReverseString(unittest.TestCase):
     """
     Test class for the reverse_string function.
     This class contains test cases to validate the functionality of the reverse_string function.
     """
-    
+
     def test_reverse_basic(self):
         """
         Test case for a basic string reversal.
@@ -26,6 +27,7 @@ class TestReverseString(unittest.TestCase):
         The expected output is the same single character.
         """
         self.assertEqual(reverse_string("a"), "a")
+
 
 if __name__ == "__main__":
     unittest.main()

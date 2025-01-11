@@ -1,6 +1,10 @@
-"""Created on 11 1 2025
+"""
+A function that reverses a string
+
+Created on 11 1 2025
 @author: momtaz-yaqubi
 """
+
 
 def reverse_string(s: str) -> str:
     """

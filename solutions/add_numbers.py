@@ -1,3 +1,11 @@
+"""
+A module for adding two numbers
+
+Created on 11 1 2025
+@author: momtaz-yaqubi
+"""
+
+
 def add_numbers(a, b):
     """
     Adds two numbers together.

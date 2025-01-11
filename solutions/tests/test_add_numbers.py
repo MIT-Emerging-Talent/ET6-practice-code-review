@@ -1,8 +1,10 @@
 import unittest
 from solutions.add_numbers import add_numbers
 
+
 class TestAddNumbers(unittest.TestCase):
-    """ class of test cases"""
+    """class of test cases"""
+
     def test_add_positive_numbers(self):
         """
         Test adding two positive numbers.
@@ -29,6 +31,7 @@ class TestAddNumbers(unittest.TestCase):
         are zero.
         """
         self.assertEqual(add_numbers(0, 0), 0)
+
 
 if __name__ == "__main__":
     unittest.main()

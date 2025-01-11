@@ -7,7 +7,8 @@ Welcome to the repository of **Push and Pray**, standing for Group 19 in the MIT
 ## Meet The Team 🌟
 
 - Ahmed Khalifa: A second-rate meme lord, but a first-class code reviewer.
-  No detail escapes his eye, and no cricket goes unacknowledged when he drops a punchline. 🔎
+  No detail escapes his eye, and no cricket
+  goes unacknowledged when he drops a punchline. 🔎
 
 - Dadi Ishimwe: Or Daddy, the Rwandan that can do basically anything
   (many people told him to change his name). 🎯
@@ -27,7 +28,7 @@ Welcome to the repository of **Push and Pray**, standing for Group 19 in the MIT
 - Rama Arafeh: THE keen biologist who never uses GUI, but she would steal your DNA
   sample and plant it at a crime scene without you noticing. 🧬
 
-- Tamara Saqer: A first-rate meme queen, her creativity is out of this world. If she earned a
-  dollar for every meme she created, she would be a multimillionaire. 💰
+- Tamara Saqer: A first-rate meme queen, her creativity is out of this world.
+  If she earned a dollar for every meme she created, she would be a multimillionaire. 💰
 
 ## Let's design something extraordinary together. 😎

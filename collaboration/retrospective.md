@@ -18,7 +18,7 @@
 
 ## Start Doing
 
-- Optimize ammount of branches, commits to avoid cluttering the project.
+- Optimize amount of branches, commits to avoid cluttering the project.
 
 ## Lessons Learned
 

@@ -14,5 +14,5 @@ Muqaddas: To learn new data science skills.
 Nilofar: To learn about github and how the coding collaboration works.
 Shagun: To learn how to effectively collaborate and documentation.
 Anik: To leanr unit testing and predictive testing.
-Momtaz:
+Momtaz: Learning how to collaborate as a team, working on the same project together 
 M. Ahmed:

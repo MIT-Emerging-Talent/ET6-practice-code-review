@@ -11,7 +11,7 @@
   // Controls whether the editor should automatically format the pasted content. A formatter must be available.
   "editor.formatOnPaste": true,
 
-  // Controls whether the editor should render indent quides
+  // Controls whether the editor should render indent guides
   "editor.guides.indentation": true,
 
   // Controls whether the editor should highlight the active indent guide.
@@ -53,7 +53,7 @@
 
   //-------- Emmet configuration --------
 
-  // Enables completion when you are writing Emmet appreveation.
+  // Enables completion when you are writing Emmet abbreviation.
   "html-css-class-completion.enableEmmetSupport": true,
 
   //-------- JavaScript configuration --------
@@ -67,7 +67,7 @@
   // Enable/disable automatic updating of import paths when you rename or move a file in VS Code.
   "javascript.updateImportsOnFileMove.enabled": "always",
 
-  // Enable/disable suggestoins for paths in import statement and require calls. (change it to false to be able to use Path Intellisense extension)
+  // Enable/disable suggestions for paths in import statement and require calls. (change it to false to be able to use Path Intellisense extension)
   "javascript.suggest.paths": false,
 
   //-------- TypeScript configuration --------
@@ -81,7 +81,7 @@
   // Enable/disable automatic updating of import paths when you rename or move a file in VS Code.
   "typescript.updateImportsOnFileMove.enabled": "always",
 
-  // Enable/disable suggestoins for paths in import statement and require calls. (change it to false to be able to use Path Intellisense extension)
+  // Enable/disable suggestions for paths in import statement and require calls. (change it to false to be able to use Path Intellisense extension)
   "typescript.suggest.paths": false,
 
   //-------- Work Bench configuration --------
@@ -104,7 +104,7 @@
 
   //-------- Markdown configuration --------
 
-  // Enable path suggestoins while writing links in markdown files
+  // Enable path suggestions while writing links in markdown files
   "markdown.suggest.paths.enabled": true,
 
   // Defines a default markdown formatter which takes precedence over all other formatter settings. Must be the identifier of an extension contributing a formatter
@@ -112,11 +112,16 @@
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
 
+  //-------- Python Formatting Configuration (Corrected) --------
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.ruff": "explicit",
+      "source.fixAll.ruff": "explicit"
+    },
+    "editor.formatOnSave": true
+  },
+
   // Enable/disable update table of contents on save
-  "markdown.extension.toc.updateOnSave": false,
-<<<<<<< HEAD
-  "cSpell.words": ["Jawid", "Meklit"]
-=======
-  "cSpell.words": ["Alona", "Meklit", "Mushtary", "Rumiya", "Sadet"]
->>>>>>> 15a2032496f60104ba220ab4c971ec23a82e3ab6
+  "markdown.extension.toc.updateOnSave": false
 }

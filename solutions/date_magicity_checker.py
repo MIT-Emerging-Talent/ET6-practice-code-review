@@ -63,7 +63,3 @@ def date_magicity_checker(date: str) -> bool:
         day_month_multiplication = day_month_multiplication % 100
 
     return day_month_multiplication == year
-
-
-
-""" """

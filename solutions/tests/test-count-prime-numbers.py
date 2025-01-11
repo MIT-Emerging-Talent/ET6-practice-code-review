@@ -89,7 +89,3 @@ class TestPrimeFunctions(unittest.TestCase):
         """
         with self.assertRaises(AssertionError):
             count_primes([2, 3, "four", 5])
-
-
-if __name__ == "__main__":
-    unittest.main()

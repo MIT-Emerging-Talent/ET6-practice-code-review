@@ -9,46 +9,50 @@
 
 # Communication
 
-______________________________________________________________________
-
-## Communication Schedule
-
-| Day | How | The topic of discussion | | --- | :-: | ----------------------- |
-| | | |
-
 ## Communication Channels
 
-how often will we get in touch on each channel, and what we will discuss there:
+How often we will get in touch on each channel, and what we will discuss there:
 
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
-
-______________________________________________________________________
+- **Issues**: Daily, for asking for help, setting a meeting agenda, creating a
+    new challenge, and asking questions asynchronously.
+- **Pull Requests**: As needed, for code reviews and for other contributions in general.
+- **Slack**: Daily, for quick questions and discussions.
+- **Video Calls**: Weekly, for detailed discussions and planning.
 
 ## Availability
 
-### Availability for calling/messaging
+### Availability for calling/messaging (TIMEZONE: EET - UTC +2)
 
-| Day | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday | |
------- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
-| _name_ | | | | | | | |
+| Day    | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
+|--------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------:|
+| Anas   | 4-6 PM | 5-6 PM  | 5-6 PM    | 4-7 PM   | 5-7 PM | 5-7 PM   | 6-7 PM |
+| Clement| 6-8 PM | 6-8 PM  | 6-8 PM    | 6-8 PM   | 6-8 PM | 6-8 PM   | 6-8 PM |
+| Fahed  | 6-8 PM | 7-9 PM  | 6-8 PM    | 5-7 PM   | 8-9 PM | 8-9 PM   | 6-8 PM |
+| Faisal | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
+| Majd   | 6-8 PM | 5-6 PM  | 7-9 PM    | 5-7 PM   |7-9 PM  | 6-8 PM   | 6-8 PM |
+| Mohamed| 6-9 PM | 6-9 PM  | 6-9 PM    | 6-10 PM  | 2-9 PM | 6-9 PM   | 6-9 PM |
+| Obey   | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
+| Özgür  | $TIME$ | $TIME$  | $TIME$    | $TIME$   | $TIME$ | $TIME$   | $TIME$ |
+| Razan  | 7-9 PM | 9-10 PM  | 7-9 PM    | 7-9 PM   | 7-9 PM | 7-9 PM  | 7-9 PM |
 
-### How many hours everyone has per day
+### How many hours everyone reserves for Code review per day
 
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- Anas: 2 Hours
+- Clement: 1.5 hours
+- Fahed: 1 hour
+- Faisal: $HOURS$
+- Majd: 4 hours
+- Mohamed: 2 hours
+- Obey: $HOURS$
+- Özgür: $HOURS$
+- Razan: An hour
 
 ## Asking for Help
 
 There's a fine line between confidently learning from your mistakes, and
-stubbornly getting no where. Here is a general guide for when to ask for help
+stubbornly getting nowhere. Here is a general guide for when to ask for help
 based on how long you've been stuck on the same problem:
 
 1. _0 -> 30 min_: Try on your own
-1. _30 -> 60 min_: Ask your group for help
-1. _60+ min_: Tag your coaches in Slack or GitHub
+2. _30 -> 60 min_: Ask your group for help
+3. _60+ min_: Tag your coaches in Slack or GitHub

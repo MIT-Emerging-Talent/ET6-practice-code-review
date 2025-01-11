@@ -1,24 +1,30 @@
 # 🐍 MIT Avatars
 
-Welcome to the **MIT Avatars** repository! This is where our group collaborates, learns, and grows together by solving Python challenges, sharing knowledge, and developing innovative coding solutions.
+Welcome to the **MIT Avatars** repository! This is where our group collaborates,
+learns, and grows together by solving Python challenges, sharing knowledge, and
+developing innovative coding solutions.
 
 ---
 
 ## 👥 Meet the Team
 
-We’re a group of passionate and diverse learners united by a love for coding and problem-solving. Here's a brief introduction to our team members:
+We’re a group of passionate and diverse learners united by a love for coding and
+problem-solving. Here's a brief introduction to our team members:
 
 - **Aseel 🎯**  
   *Fun Fact:* "I love playing Sudoku—it’s like a workout for my brain!"
 
 - **Ameen 🏉**  
-  *Fun Fact:* "I am a professional rugby player. I play professional rugby nationally in Lebanon and represent Palestine internationally."
+  *Fun Fact:* "I am a professional rugby player. I play professional rugby nationally
+  in Lebanon and represent Palestine internationally."
 
 - **Maria ✈️**  
-  *Fun Fact:* "I love traveling as much as I love food – the only difference is, one fills my passport and the other fills my stomach!"
+  *Fun Fact:* "I love traveling as much as I love food – the only difference is, one
+  fills my passport and the other fills my stomach!"
 
 - **Muhannad 🧑🏻‍💻**  
-  *Fun Fact:* "When I feel lost in the maze of learning, I just hit the 'code' button because nothing finds the way like programming!"
+  *Fun Fact:* "When I feel lost in the maze of learning, I just hit the 'code' button
+  because nothing finds the way like programming!"
 
 - **Maher 🛣️**  
   *Fun Fact:* "I really like playing rugby."
@@ -27,7 +33,8 @@ We’re a group of passionate and diverse learners united by a love for coding a
   *Fun Fact:* "The city drains me; nature restores me."
 
 - **Abdulrahman 🕊**  
-  *Fun Fact:* "I'm a medical student who codes and leads teams—blending science, tech, and leadership in a unique way! I also love cats."
+  *Fun Fact:* "I'm a medical student who codes and leads teams—blending science, tech,
+  and leadership in a unique way! I also love cats."
 
 ---
 
@@ -35,8 +42,10 @@ We’re a group of passionate and diverse learners united by a love for coding a
 
 This repository is our collaborative space for:
 
-- 📝 **Sharing Python challenges:** Post interesting problems and work together on solutions.
-- 💡 **Collaborating on innovative solutions:** Share diverse approaches and refine them.
+- 📝 **Sharing Python challenges:** Post interesting problems and work together
+  on solutions.
+- 💡 **Collaborating on innovative solutions:** Share diverse approaches and
+  refine them.
 - 📚 **Documenting our learning journey:** Note lessons learned and best practices.
 
 ---
@@ -47,7 +56,8 @@ Here’s how to get involved and contribute:
 
 ### 1️⃣ Fork the Repository
 
-Click the **Fork** button at the top-right of this page to create your copy of the repository.
+Click the **Fork** button at the top-right of this page to create your copy of
+the repository.
 
 ### 2️⃣ Create an Issue
 
@@ -110,4 +120,5 @@ As the MIT Avatars, we aim to:
 - Make it to the MIT program as a team.
 
 🔗 **Group Repository:**  
-Check out our repository: [MIT-Emerging-Talent/ET6-foundations-group-17](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-17)
+Check out our repository:  
+[MIT-Emerging-Talent/ET6-foundations-group-17](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-17)

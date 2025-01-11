@@ -60,7 +60,7 @@ class TestShipmentTimeEstimation(unittest.TestCase):
             shipment_time_estimation(10, -5)
 
     def test_non_numeric_distance(self):
-        """It should raise an assertion error for non-numeric distance"""
+        """It should raise an assertion error for non-numeric distances"""
         with self.assertRaises(AssertionError):
             shipment_time_estimation("ten", 10)
 

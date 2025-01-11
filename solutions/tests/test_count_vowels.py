@@ -1,10 +1,24 @@
-import unittest
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Module: test_count_vowels
+Description: This module contains unit tests for the `count_vowels` function.
 
+The `count_vowels` function takes a string as input and counts the number of vowels
+(a, e, i, o, u) in the string, including both uppercase and lowercase vowels.
+
+This module uses the `unittest` framework to test various cases for correctness.
+
+Author: <Your Name>
+Created on: <Date>
+"""
+
+import unittest
 from ..count_vowels import count_vowels
 
 
 class TestCountVowels(unittest.TestCase):
-    """A class to test the number of  vowels in a given string"""
+    """A class to test the number of vowels in a given string."""
 
     def test_empty_string(self):
         """Test that an empty string returns 0."""
@@ -29,6 +43,33 @@ class TestCountVowels(unittest.TestCase):
     def test_vowels_in_words(self):
         """Test a string with words containing vowels."""
         self.assertEqual(count_vowels("Python programming is fun!"), 6)
+
+
+# Updated count_vowels function with input validation
+def count_vowels(input_string):
+    """
+    Counts the number of vowels in a given string.
+
+    Args:
+        input_string (str): The string to analyze for vowels.
+
+    Returns:
+        int: The total number of vowels (a, e, i, o, u) in the string,
+             including both uppercase and lowercase vowels.
+
+    Raises:
+        TypeError: If the input is not a string.
+    """
+    # Ensure input is a string
+    if not isinstance(input_string, str):
+        raise TypeError("Input must be a string.")
+
+    vowels = "aeiouAEIOU"  # List of vowels (both uppercase and lowercase)
+    count = 0
+    for char in input_string:
+        if char in vowels:
+            count += 1
+    return count
 
 
 if __name__ == "__main__":

@@ -25,18 +25,14 @@ def largest_element(numbers: list) -> int | float | None:
         "num must be integer or float"
     )
 
-    if not numbers:  # checks if the list is empty
-        return None  # if the list is empty returns none
+    if not numbers:  # Return None for empty lists as there is no largest element
+        return None
 
-    largest = numbers[0]  # This takes the first element from the list
+    largest = numbers[
+        0
+    ]  #  # Initialize with the first element to have a comparison point
 
-    for num in numbers:  # This loops through the list
-        largest = max(
-            largest, num
-        )  # This checks if each number is greater than the largest
+    for num in numbers:  # Compare each number to track the largest seen so far
+        largest = max(largest, num)  # Update the largest when a larger number is found
 
     return largest  # return the largest number
-
-
-if __name__ == "__main__":
-    print(largest_element([1, 2, 3]))  # Simple print for debugging

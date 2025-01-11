@@ -30,8 +30,8 @@
 
 - **Poor Internet Connection**:
 
-A team member has issues with internet connection, which makes it difficult
-to carryout the project.
+  A team member has issues with internet connection, which makes it difficult
+  to carry out the project.
 
 ## Internal: Involuntary  
 

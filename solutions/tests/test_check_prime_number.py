@@ -58,10 +58,6 @@ class TestCheckPrimeNumber(unittest.TestCase):
         """Test prime number 13."""
         self.assertTrue(check_prime_number(13))
 
-    def test_non_prime_1(self):
-        """Test non-prime number 1."""
-        self.assertFalse(check_prime_number(1))
-
     def test_non_prime_4(self):
         """Test non-prime number 4."""
         self.assertFalse(check_prime_number(4))
@@ -95,6 +91,11 @@ class TestCheckPrimeNumber(unittest.TestCase):
         """Test edge case negative number."""
         with self.assertRaises(AssertionError):
             check_prime_number(-1)
+    
+    def test_non_prime_1(self):
+        """Test non-prime number 1."""
+        with self.assertRaises(AssertionError):
+            check_prime_number(1)
 
     def test_edge_case_large_prime(self):
         """Test edge case with large prime."""

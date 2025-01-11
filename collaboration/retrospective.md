@@ -69,9 +69,9 @@ _what cool things or general lessons has your team learned?_
 include a buffer in your schedule to manage unforeseen delays and ensure you have a backup plan to tackle unexpected challenges effectively
 Major effect : in deadline, ci checks, challenge
 + **Skills Gained:**
- + Effective collaboration
- + Managing time at the very start
- + A good grasp of asynchronous work and remote collaboration
+  + Effective collaboration
+  + Managing time at the very start
+  + A good grasp of asynchronous work and remote collaboration
 + **Github usage**
 + **Managed human resources effectively as a group**
 ______________________________________________________________________

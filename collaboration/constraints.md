@@ -37,9 +37,14 @@
 
 #### Summary
 
-- **Connectivity issues**: Some team members may experience
-   unreliable network connections
-   impacting real-time collaboration
+- **Connectivity Issues:** Some team members experience unreliable network connections,
+ impacting real-time collaboration.
+- **Time Zone Differences:** Varying time zones cause scheduling conflicts
+ and delays in progress.
+- **External Deadlines:** Academic deadlines like university exams
+ and college applications put pressure on team members' time.
+- **Technical Skills:** Some team members may need additional support
+ to effectively use tools like GitHub.
 
 ## ![indoor](../assets/limited-access.png) Internal: Involuntary
 

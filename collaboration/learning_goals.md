@@ -86,7 +86,7 @@ environment that provides support and help to every member in need.
 
 - ### **Özgür**
 
-  -learning team work.
-  -Write clean python code.
-  -Improve communication skills with team members.
-  -Using unit test.
+  - learning team work.
+  - Write clean python code.
+  - Improve communication skills with team members.
+  - Using unit test.

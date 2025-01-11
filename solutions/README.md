@@ -30,6 +30,7 @@ while corresponding test files are maintained in the `tests` folder.
 | `kronecker_product.py` | Computes the Kronecker ⊗ product of 2 matrices | Fahed|
 | `feet_to_meters.py` | Converting feet to meters| Obay |
 | `volts_to_amperes.py` | Converting volts to amperes| Obay |
+| `miles_to_kilometers.py` | Converting miles to kilometers| Obay |
 | `greatest_number.py` | Finding greatest number in a list| Razan |
 | `common_elements.py`   | finding common elements in two lists       | Mohamed|
 | `simple_calculator.py` | performs simple operations on two integers | Mohamed|

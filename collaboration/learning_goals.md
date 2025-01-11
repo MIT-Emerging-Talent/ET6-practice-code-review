@@ -200,6 +200,29 @@ where necessary.
    - Use GitHub to collaborate with others,
      track issues, and manage projects.
 
+### Ridwan Ayinde
+
+1. **Improve Github Proficiency**:
+   - Gain confidence in collaborating with others on GitHub.
+   - Learn how to efficiently create and manage repository.
+   - Understand how to create branches, commits, pull requests
+     and its uses.
+
+2. **Master VS Code for Deployment**:
+   - Learn to use integrated Git features in VS code for
+     better control version.
+   - Practiced writing code, debugging, and running scripts on
+     VS code.
+
+3. **Problem Solving Skill**:
+   - Learn to ask meaningful questions anytime I am stuck.
+   - Applied problem solving strategy to complete assigned task.
+
+4. **Understand Asynchronous Collaboration**:
+   - Participate in project by contributing to repository meant for my
+     group.
+   - Understand the ability to work with my team asynchronously.
+
 ---
 
 *Each team member is encouraged to add their individual goals below to document

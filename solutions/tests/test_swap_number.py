@@ -17,7 +17,6 @@ import unittest
 
 from ..swap_number import swap_numbers
 
-
 """Test suite for the swap_numbers function"""
 
 

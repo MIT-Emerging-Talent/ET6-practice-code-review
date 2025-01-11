@@ -67,8 +67,27 @@ ______________________________________________________________________
 
 ### What parts of your plan went as expected?
 
+- Our communication strategy, which involved regular team check-ins and updates,
+  worked as planned and ensured everyone stayed aligned with the project goals.
+- The use of a project board to track tasks and progress provided visibility into
+  our workflow and helped prioritize tasks effectively.
+- The initial division of responsibilities among team members was clear and was
+  followed throughout the project.
+
 ### What parts of your plan did not work out?
+
+- Some tasks took longer than expected due to unforeseen challenges,
+  which disrupted our timeline.
+- We faced occasional delays in task reviews, which created bottlenecks in
+ completing dependent tasks.
+- Despite planning, we encountered difficulties in maintaining consistent
+  updates to the project board.
 
 ### Did you need to add things that weren't in your strategy?
 
-### Or remove extra steps?
+- Yes, we added more frequent meetings to resolve blockers and address
+   urgent issues.
+- A feedback session was introduced midway through the project to improve team
+  collaboration and workflow.
+- Documentation was created to clarify technical details and align
+ team members who joined the project later.

@@ -13,7 +13,7 @@ ______________________________________________________________________
 | 27/12/24  | Google Meet  | ET CI Checks                              | [Meeting Minutes 03](notes/meeting_minutes/03_meeting_minutes.md) |
 | 31/12/24  | Google Meet  | ET CI Checks Project Board and Issues     | [Meeting Minutes 04](notes/meeting_minutes/04_meeting_minutes.md) |
 | 08/01/25  | Google Meet  | Project Board and Collaboration file revision | [Meeting Minutes 05](notes/meeting_minutes/05_meeting_minutes.md) |
-| 10/01/25  | Google Meet  | Group Checklist and Retrospective         | [Pending...] |
+| 10/01/25  | Google Meet  | Group Checklist and Retrospective         | [Meeting Minutes 06](notes/meeting_minutes/06_meeting_minutes.md) |
 
 ## Communication Channels
 

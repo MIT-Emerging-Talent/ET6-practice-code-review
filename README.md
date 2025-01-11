@@ -38,13 +38,13 @@ The goal of this project is to:
 We’re a group of eight learners with different skill levels, united by a common
 goal of growth and collaboration. Here are the amazing members of **Git it Done**:
 
-- **Madiha**
-- **Fatima**
-- **Jola**
-- **Mudassara**
-- **Shehroz**
-- **Mujtaba**
-- **Anwar**
-- **Durgesh**
+- [**Madiha**](https://github.com/MadiMalik)
+- [**Fatima**](https://github.com/fatima-malik99)
+- [**Jola**](https://github.com/jola-ds)
+- [**Mudassara**](https://github.com/mudassra-taskeen)
+- [**Shehroz**](https://github.com/Shahroz657)
+- [**Mujtaba**](https://github.com/mojtabafayyaz)
+- [**Anwar**](https://github.com/anwar099)
+- [**Durgesh**](https://github.com/Durgesh976)
 
 Togather we **Get things done**

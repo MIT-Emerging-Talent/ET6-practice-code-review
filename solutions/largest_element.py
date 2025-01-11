@@ -8,7 +8,7 @@ which checks values of numbers in the list and returns the largest value.
 def largest_element(numbers: list) -> int | float | None:
     """
     Returns the largest element in a list
-    parameter:
+    Parameter:
         numbers (list): list of numbers
     Returns:
         _int/float/None:  Returns the largest number from the list or None if the list is empty

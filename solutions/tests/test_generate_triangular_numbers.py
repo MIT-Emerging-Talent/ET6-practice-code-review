@@ -1,5 +1,4 @@
 import unittest
-sys.path.append("../")
 from solutions.generate_triangular_numbers import generate_triangular_numbers
 
 """

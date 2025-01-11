@@ -75,7 +75,7 @@ More support for the rest of the group, checking progress
 _what cool things or general lessons has your team learned?_
 + **Safety Factor in planning**  
 Include a buffer in our schedule to manage unforeseen delays;  
-and ensure you have a backup plan to tackle unexpected challenges effectively
+and ensure you have a backup plan to tackle unexpected challenges effectively  
 Major effect : in deadline, ci checks, challenge
 + **Skills Gained:**
   + Effective collaboration

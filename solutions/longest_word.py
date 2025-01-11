@@ -2,14 +2,15 @@
 A module for Returns the longest word in the given sentence.
 
 Module contents:
-   This module contains a function `longest_word` 
-   that takes a sentence and returns the longest word in it. 
+   This module contains a function `longest_word`
+   that takes a sentence and returns the longest word in it.
    It handles edge cases such as empty strings, non-string inputs, and punctuation.
 
 Author: Özgür Özbek
 Date: 11th January 2025
 Group: ET6-foundations-group-16
 """
+
 
 def longest_word(sentence: str) -> str:
     """

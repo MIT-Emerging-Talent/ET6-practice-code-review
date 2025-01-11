@@ -79,7 +79,7 @@ Major effect : in deadline, ci checks, challenge
   + Effective collaboration
   + Managing time at the very start
   + A good grasp of asynchronous work and remote collaboration
-+ **Github usage**
++ **Github usage**  
 Gained expertise in using GitHub efficiently,
  leveraging its features for better coordination and professionalism
 + **Managed human resources effectively as a group**

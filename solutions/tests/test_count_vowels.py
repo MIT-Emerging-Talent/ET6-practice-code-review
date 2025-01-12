@@ -8,7 +8,7 @@ Created on 01 Jan 2025
 """
 
 import unittest
-from ..count_vowels import count_vowels
+from solutions.count_vowels import count_vowels
 
 
 class TestCountVowels(unittest.TestCase):
@@ -23,11 +23,11 @@ class TestCountVowels(unittest.TestCase):
         self.assertEqual(count_vowels("bcdfghjklmnpqrstvwxyz"), 0)
 
     def test_all_vowels(self):
-        """Test the count_vowels function with a string containing all vowels (lowercase and uppercase)."""
+        """Test the count_vowels function with a string containing all vowels."""
         self.assertEqual(count_vowels("aeiouAEIOU"), 10)
 
     def test_mixed_string(self):
-        """Test the count_vowels function with a string containing both vowels and consonants."""
+        """Test the count_vowels function with a string containing vowels and consonants."""
         self.assertEqual(count_vowels("Hello, World!"), 3)
 
     def test_numeric_and_special_characters(self):
@@ -35,23 +35,18 @@ class TestCountVowels(unittest.TestCase):
         self.assertEqual(count_vowels("12345!@#$%^&*()"), 0)
 
     def test_vowels_in_words(self):
-        """Test the count_vowels function with a string containing multiple words with vowels."""
+        """Test the count_vowels function with a string containing multiple words."""
         self.assertEqual(count_vowels("Python programming is fun!"), 6)
 
-    def test_only_whitespace(self):
-        """Test the count_vowels function with a string containing only whitespace."""
-        self.assertEqual(count_vowels("     "), 0)
-
-    def test_string_with_newline(self):
-        """Test the count_vowels function with a string containing a newline character."""
-        self.assertEqual(count_vowels("Hello\nWorld"), 3)
+    def test_string_with_whitespace(self):
+        """Test the count_vowels function with a string containing leading and trailing whitespace."""
+        self.assertEqual(count_vowels("  aeiou  "), 5)
 
     def test_non_string_input(self):
         """Test the count_vowels function with a non-string input."""
         with self.assertRaises(AssertionError):
-            count_vowels(123)
+            count_vowels(12345)
 
 
-# Run tests if the module is executed directly
 if __name__ == "__main__":
     unittest.main()

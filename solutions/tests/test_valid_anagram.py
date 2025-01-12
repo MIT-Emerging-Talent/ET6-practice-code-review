@@ -64,12 +64,12 @@ class Testvalidanagram(unittest.TestCase):
     def test_non_string_first_arg(self):
         """It should raise AssertionError for non-string first argument."""
         with self.assertRaises(AssertionError):
-            valid_anagram(123, "hello")
+            valid_anagram(1998, "Jola")
 
     def test_non_string_second_arg(self):
         """It should raise AssertionError for non-string second argument."""
         with self.assertRaises(AssertionError):
-            valid_anagram("hello", None)
+            valid_anagram("Evan", None)
 
 
 if __name__ == "__main__":

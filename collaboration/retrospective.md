@@ -11,6 +11,8 @@
 - **KimaciaJnr**: Entertaining imposter syndrome.  
 - **Collyns-Linc**: Procrastinating tasks and doubting my capabilities.  
 - **Nouranaia**: Overcomplicating workflows.  
+- **Ammar**: Keeping some tasks for the last time in the deadline (that makes
+me overwhelmed by them in one day).
 
 ---
 
@@ -21,6 +23,7 @@
 - **KimaciaJnr**: Being consistent.  
 - **Collyns-Linc**: Practicing coding and communication skills.
 - **Nouranaia**: Progress reviews.  
+- **Ammar**: Helping my peers as much as I can.
 
 ---
 
@@ -31,7 +34,9 @@
 - **KimaciaJnr**: Ask for help more often and believe in myself.  
 - **Collyns-Linc**: Ask for help when stuck, embrace a growth mindset.  
 - **Nouranaia**: Set measurable goals.  
-
+- **Ammar**: Practicing more in writing the code in the way
+we learned (readable, simple, and clear) until it becomes a happen and
+I don't need to look at the checklist anymore.
 ---
 
 ## Lessons Learned  
@@ -41,7 +46,8 @@
 - **KimaciaJnr**: Most people are ready to help.  
 - **Collyns-Linc**: Constant practice improves ability; teamwork is key.  
 - **Nouranaia**: Stay flexible.  
-
+- **Ammar**: The time you invest in planning, especially in group work,
+will pay off much more than the effort it takes.
 ---
 
 ## Strategy vs. Board  
@@ -52,6 +58,11 @@
 - **KimaciaJnr**: Understanding PRs and committing.  
 - **Collyns-Linc**: Mastering Python basics and global collaboration.  
 - **Nouranaia**: Met milestones.  
+ **Ammar**: Being able to learn the basic concepts of Git,
+GitHub, documenting, testing, and writing clear code without
+background on them.
+Also the group work and helping between members as much as possible
+was as great as we expected it to be.
 
 ### What parts of your plan did not work out?
 
@@ -59,6 +70,8 @@
 - **KimaciaJnr**: Coordinating with teammates due to time differences.  
 - **Collyns-Linc**: Time management at the start of the project.  
 - **Nouranaia**: Unrealistic timelines.  
+- **Ammar**: being able to collaborate more and setting up meetings to
+follow up the workflow
 
 ### Did you need to add things that weren’t in your strategy?
 

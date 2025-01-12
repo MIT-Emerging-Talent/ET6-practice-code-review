@@ -1,10 +1,28 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-Test module for find_duplicates function.
+Testing Strategy Overview for test_find_duplicates.py:
 
-Created on 2025-01-08
-@author: Karina
+1. Basic Functionality Tests:
+   - Empty list handling
+   - No duplicates case
+   - Single duplicate
+   - Multiple duplicates
+   - All items being duplicates
+
+2. Data Type Tests:
+   - String duplicates
+   - Mixed type handling
+   - Nested list handling
+
+3. Order Preservation Tests:
+   - First appearance order
+   - Case sensitivity
+   - Multiple occurrences
+
+4. Defensive Programming Tests:
+   - None input
+   - Non-list input
+   - Set input
+   - Tuple input
 """
 
 import unittest

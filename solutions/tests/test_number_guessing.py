@@ -8,7 +8,8 @@ Created on: 2025/01/06
 """
 
 import unittest
-from ..number_guessing import (
+
+from play_game import (
     number_guessing,
 )  # Ensure the correct path to the `number_guessing` function.
 

@@ -37,6 +37,7 @@ me overwhelmed by them in one day).
 - **Ammar**: Practicing more in writing the code in the way
 we learned (readable, simple, and clear) until it becomes a happen and
 I don't need to look at the checklist anymore.
+
 ---
 
 ## Lessons Learned  
@@ -48,6 +49,7 @@ I don't need to look at the checklist anymore.
 - **Nouranaia**: Stay flexible.  
 - **Ammar**: The time you invest in planning, especially in group work,
 will pay off much more than the effort it takes.
+
 ---
 
 ## Strategy vs. Board  

@@ -16,7 +16,7 @@ import unittest
 from ..min_integer import min_integer
 
 
-class TestminInteger(unittest.TestCase):
+class TestMinInteger(unittest.TestCase):
     """Define unittests for min_integer([..])."""
 
     def test_ordered_list(self):
@@ -29,7 +29,7 @@ class TestminInteger(unittest.TestCase):
         unordered = [1, 2, 4, 3]
         self.assertEqual(min_integer(unordered), 1)
 
-    def test_min_at_begginning(self):
+    def test_min_at_beginning(self):
         """Test a list with a beginning min value."""
         min_at_beginning = [1, 4, 3, 2]
         self.assertEqual(min_integer(min_at_beginning), 1)

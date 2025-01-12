@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -11,6 +10,7 @@ Created on 2025-01-12
 
 import unittest
 from solutions.count_characters import count_characters
+
 
 class TestCountCharacters(unittest.TestCase):
     """Test the count_characters function"""

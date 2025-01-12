@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -10,6 +9,7 @@ Created on 2025-01-12
 
 @author: Karina
 """
+
 
 def count_characters(input_string: str) -> dict:
     """Count the occurrences of each character in a string.

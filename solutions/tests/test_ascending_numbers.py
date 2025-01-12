@@ -2,6 +2,8 @@
 # -*- coding : utf-8 -*-
 
 """
+This module tests the ascending_numbers function.
+
 Created on 12 25 2024.
 
 @author : Osei Agyemang Sarfo.
@@ -30,3 +32,28 @@ class TestAscendingNumbers(unittest.TestCase):
         )  # Call function with test argument
         expected = [22.1, 27.8, 34.9, 67.9]  # Hand-written answer
         self.assertEqual(actual, expected)
+
+    def ascending_integers_string(self):
+        """Test sorting a string and integers."""
+        with self.assertRaises(AssertionError):
+            ascending_numbers("2", 3, 5, 90, 76)
+
+    def ascending_integers_floats(self):
+        """Test sorting a string and floats."""
+        with self.assertRaises(AssertionError):
+            ascending_numbers("2", 3.8, 5.0, 9.0, 76.9)
+
+    def ascending_integers_string_float(self):
+        """Test sorting a string and integers with floats."""
+        with self.assertRaises(AssertionError):
+            ascending_numbers("2", 3.8, 5.9, 90, 76)
+
+    def ascending_integers_string_boolean(self):
+        """Test sorting a string and integers with boolean."""
+        with self.assertRaises(AssertionError):
+            ascending_numbers("2", 3, 5, 90, 76, True)
+
+    def ascending_integers_boolean(self):
+        """Test sorting a string and integers."""
+        with self.assertRaises(AssertionError):
+            ascending_numbers(False, 3, 5, 90, 76)

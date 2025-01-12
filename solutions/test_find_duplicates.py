@@ -4,7 +4,7 @@
 Test module for find_duplicates function.
 
 Created on 2025-01-08
-@author: AI Developer
+@author: Karina
 """
 
 import unittest

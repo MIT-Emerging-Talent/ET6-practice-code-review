@@ -7,9 +7,10 @@ Module contents:
     - find_duplicates: identifies duplicate items in a list.
 
 Created on 2025-01-08
-@author: AI Developer
+@author: Karina
 """
 
+from collections import Counter
 
 def find_duplicates(items: list) -> list:
     """
@@ -20,10 +21,10 @@ def find_duplicates(items: list) -> list:
 
     Returns:
         list: a list of items that appear more than once in the input list,
-              in order of their first appearance
+              in order of their first appearance.
 
     Raises:
-        AssertionError: if the input is not a list
+        TypeError: if the input is not a list
 
     Examples:
         >>> find_duplicates([1, 2, 2, 3, 3, 3])
@@ -37,34 +38,30 @@ def find_duplicates(items: list) -> list:
         >>> find_duplicates(['hello', 'world', 'hello'])
         ['hello']
     """
-    # Input validation
-    assert isinstance(items, list), "Input must be a list"
+    if not isinstance(items, list):
+        raise TypeError("Input must be a list")
 
-    # Function to convert item to hashable type if needed
-    def to_hashable(item):
-        return tuple(item) if isinstance(item, list) else item
+    # Count occurrences of each item
+    counts = Counter(items)
+    
+    # Filter items that appear more than once in order of first appearance
+    duplicates = [item for item in items if counts[item] > 1]
 
-    # Track both counts and first appearances
-    seen_count = {}  # Track count of items
-    first_seen = []  # Track order of first appearance
-    duplicates = []  # Store duplicates in order
+    # Return unique duplicates preserving the order
+    return list(dict.fromkeys(duplicates))
 
-    # First pass: Track counts and first appearances
-    for item in items:
-        hashable_item = to_hashable(item)
-        if hashable_item not in seen_count:
-            seen_count[hashable_item] = 1
-            first_seen.append(item)  # Keep track of order
-        else:
-            seen_count[hashable_item] += 1
-            if seen_count[hashable_item] == 2:  # Only add when we see it second time
-                duplicates.append(item)
 
-    # Return duplicates in order of first appearance
-    ordered_duplicates = []
-    for item in first_seen:
-        hashable_item = to_hashable(item)
-        if seen_count[hashable_item] > 1 and item not in ordered_duplicates:
-            ordered_duplicates.append(item)
+if __name__ == "__main__":
+    # Example usage
+    examples = [
+        [1, 2, 2, 3, 3, 3],
+        ['a', 'b', 'a', 'c', 'b'],
+        [1, 2, 3, 4],
+        [],
+        ['hello', 'world', 'hello']
+    ]
 
-    return ordered_duplicates
+    for example in examples:
+        print(f"Input: {example}")
+        print(f"Duplicates: {find_duplicates(example)}")
+        print()

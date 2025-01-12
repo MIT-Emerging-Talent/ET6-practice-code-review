@@ -5,8 +5,6 @@ from pathlib import Path
 
 sys.path.append(str(Path(__file__).parent.parent))
 
-
-# Assuming the function is in a file named 'chicken_nugget.py'
 from chicken_nugget_fun_solution import chicken_nugget_fun
 
 

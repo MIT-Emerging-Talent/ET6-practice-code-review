@@ -1,5 +1,5 @@
-python
 import random
+
 
 class TravelPlanner:
     def __init__(self):
@@ -13,7 +13,7 @@ class TravelPlanner:
             "Cairo, Egypt",
             "Sydney, Australia",
             "Reykjavik, Iceland",
-            "Bali, Indonesia"
+            "Bali, Indonesia",
         ]
         self.activities = [
             "exploring ancient ruins",
@@ -25,7 +25,7 @@ class TravelPlanner:
             "attending a cultural festival",
             "snorkeling with vibrant marine life",
             "enjoying a scenic train ride",
-            "visiting world-class museums"
+            "visiting world-class museums",
         ]
         self.tips = [
             "Always pack a portable charger!",
@@ -37,7 +37,7 @@ class TravelPlanner:
             "Research local customs to avoid awkward situations.",
             "Pack light—you’ll thank yourself later.",
             "Wake up early to enjoy tourist spots without crowds.",
-            "Always have some local currency on hand for small purchases."
+            "Always have some local currency on hand for small purchases.",
         ]
 
     def generate_destination(self):
@@ -54,24 +54,22 @@ class TravelPlanner:
         activity = self.generate_activity()
         tip = self.generate_travel_tip()
 
-        return {
-            "destination": destination,
-            "activity": activity,
-            "tip": tip
-        }
+        return {"destination": destination, "activity": activity, "tip": tip}
+
 
 def main():
-    print("Welcome to the Automated Travel Planner! \U0001F30D")
+    print("Welcome to the Automated Travel Planner! \U0001f30d")
     print("Sit back and relax while we plan your next dream trip.\n")
 
     planner = TravelPlanner()
     trip = planner.plan_trip()
 
-    print(f"\U0001F4CD Destination: {trip['destination']}")
-    print(f"\U0001F3C3 Activity: {trip['activity']}")
-    print(f"\U0001F4D6 Travel Tip: {trip['tip']}\n")
+    print(f"\U0001f4cd Destination: {trip['destination']}")
+    print(f"\U0001f3c3 Activity: {trip['activity']}")
+    print(f"\U0001f4d6 Travel Tip: {trip['tip']}\n")
 
-    print("Your virtual getaway is ready! Safe travels! \U0001F30F")
+    print("Your virtual getaway is ready! Safe travels! \U0001f30f")
+
 
 if __name__ == "__main__":
     main()

@@ -1,4 +1,6 @@
-# 🐍 MIT Avatars
+# MIT Avatars
+
+![Team Work](../ET6-foundations-group-17/assets/team-work.jpg)
 
 Welcome to the **MIT Avatars** repository! This is where our group collaborates,
 learns, and grows together by solving Python challenges, sharing knowledge, and
@@ -19,8 +21,8 @@ problem-solving. Here's a brief introduction to our team members:
   in Lebanon and represent Palestine internationally."
 
 - **Maria ✈️**  
-  *Fun Fact:* "I love traveling as much as I love food – the only difference is, one
-  fills my passport and the other fills my stomach!"
+  *Fun Fact:* "I love traveling as much as I love food – the only difference
+   is, one fills my passport and the other fills my stomach!"
 
 - **Muhannad 🧑🏻‍💻**  
   *Fun Fact:* "When I feel lost in the maze of learning, I just hit the 'code' button
@@ -29,12 +31,12 @@ problem-solving. Here's a brief introduction to our team members:
 - **Maher 🛣️**  
   *Fun Fact:* "I really like playing rugby."
 
-- **Malak 🌳**  
-  *Fun Fact:* "The city drains me; nature restores me."
+- **Malak ❇️**  
+  *Fun Fact:* "I look for purpose in almost everything I do."
 
 - **Abdulrahman 🕊**  
-  *Fun Fact:* "I'm a medical student who codes and leads teams—blending science, tech,
-  and leadership in a unique way! I also love cats."
+  *Fun Fact:* "I'm a medical student who codes and leads teams—blending science,
+   tech, and leadership in a unique way! I also love cats."
 
 ---
 

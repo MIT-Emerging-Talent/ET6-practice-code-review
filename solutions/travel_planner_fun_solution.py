@@ -1,8 +1,10 @@
 import random
+from random import choice
 
 
 class TravelPlanner:
     def __init__(self):
+        random.seed()
         self.destinations = [
             "Paris, France",
             "Kyoto, Japan",
@@ -31,23 +33,23 @@ class TravelPlanner:
             "Always pack a portable charger!",
             "Learn a few phrases in the local language to impress locals.",
             "Carry a reusable water bottle to stay hydrated.",
-            "Don’t forget travel insurance—it’s a lifesaver!",
-            "Try street food—it’s often the tastiest and cheapest option.",
+            "Don't forget travel insurance—it's a lifesaver!",
+            "Try street food—it's often the tastiest and cheapest option.",
             "Keep a digital and physical copy of your passport.",
             "Research local customs to avoid awkward situations.",
-            "Pack light—you’ll thank yourself later.",
+            "Pack light—you'll thank yourself later.",
             "Wake up early to enjoy tourist spots without crowds.",
             "Always have some local currency on hand for small purchases.",
         ]
 
     def generate_destination(self):
-        return random.choice(self.destinations)
+        return choice(self.destinations)
 
     def generate_activity(self):
-        return random.choice(self.activities)
+        return choice(self.activities)
 
     def generate_travel_tip(self):
-        return random.choice(self.tips)
+        return choice(self.tips)
 
     def plan_trip(self):
         destination = self.generate_destination()

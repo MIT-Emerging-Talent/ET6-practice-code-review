@@ -1,6 +1,6 @@
 # MIT Avatars
 
-![Team Work](../ET6-foundations-group-17/assets/team-work.jpg)
+![Team Work](assets/team-work.jpg)
 
 Welcome to the **MIT Avatars** repository! This is where our group collaborates,
 learns, and grows together by solving Python challenges, sharing knowledge, and

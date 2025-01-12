@@ -99,7 +99,7 @@ limits my availability time.
 
 ### Mahmoud Alnouri
 
-- Access to Internet and electricity is very limites sometimes.
+- Access to Internet and electricity is very limited sometimes.
 - Personal life commitments and long working hours sometimes.
 
   ---

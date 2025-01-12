@@ -7,7 +7,7 @@ Module contents:
     - calculate_grade: converts a numeric score (0-100) to a letter grade (A-F).
 
 Created on 2025-01-08
-@author: AI Developer
+@author: Karina
 """
 
 

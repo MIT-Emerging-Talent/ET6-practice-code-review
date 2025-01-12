@@ -7,7 +7,8 @@ Created on 11/01/2025
 
 import unittest
 
-from solutions.Remove_Duplicates_from_sorted_Array import remove_suplicates_from_sorted_array
+from ..Remove_Duplicates_from_sorted_Array import remove_suplicates_from_sorted_array
+
 
 class TestRemoveDuplicatesFromSortedArray(unittest.TestCase):
     """Test the remove_duplicates_from_sorted_array function"""

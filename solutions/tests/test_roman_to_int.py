@@ -1,17 +1,21 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
 Test suite for the roman_to_int function.
 
-This module provides a series of unit tests for the roman_to_int function
-to ensure it correctly converts Roman numerals to integers and handles
-invalid inputs appropriately.
+    This module provides a series of unit tests for the roman_to_int function
+    to ensure it correctly converts Roman numerals to integers and handles
+    invalid inputs appropriately.
+
+Created on 2024/12/29
+@author: Mushtary Alam
+
 """
 
-import sys
-
-sys.path.insert(0, "/Users/mushtary/ET6-foundations-group-03/solutions")
 import unittest
 
-from solutions.roman_to_int import roman_to_int  # Correct import path
+from ..roman_to_int import roman_to_int  # Correct import path
 
 
 class TestRomanToInt(unittest.TestCase):

@@ -12,7 +12,7 @@
 
 - Regular Friday meetings to track progress and provide updates. These were effective in aligning team members and ensuring transparency.
 - Using GitHub pull requests for code reviews and collaboration. The process of reviewing changes within 48 hours worked well.
-- Maintaining an inclusive and open communication culture where team members feel free to ask for help, as outlined in the "Asking for Help" section.
+- Maintaining an inclusive and open communication culture where team members feel free to ask for help.
 
 ## Start Doing
 

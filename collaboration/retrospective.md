@@ -55,6 +55,7 @@ I didn’t fully understand the CI checks at
 first, so fixing errors took more time.
 
 ### Did you need to add things that weren't in your strategy?
+
 - Had to spend additional time learning Ruff and its specific linting rules.
 - Learned how to configure pre-commit hooks for automating linting and formatting checks.
 

@@ -85,5 +85,5 @@ class TestHousingAnalysis(unittest.TestCase):
         except Exception as e:
             self.fail(f"Full pipeline failed with error: {e}")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     unittest.main()

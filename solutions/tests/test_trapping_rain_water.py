@@ -40,27 +40,22 @@ class TestTrappingRainWater(unittest.TestCase):
         self.assertEqual(trap([1, 2]), 0, "Failed on two bars")
 
         # Test case 4: Small trapping
-        self.assertEqual(trap([0, 1, 0, 2]), 1,
-                         "Failed on basic trapping case")
+        self.assertEqual(trap([0, 1, 0, 2]), 1, "Failed on basic trapping case")
 
         # Test case 5: Complex trapping
-        self.assertEqual(trap([4, 2, 0, 3, 2, 5]), 9,
-                         "Failed on complex trapping case")
+        self.assertEqual(trap([4, 2, 0, 3, 2, 5]), 9, "Failed on complex trapping case")
 
         # Test case 6: Flat elevation
         self.assertEqual(trap([3, 3, 3]), 0, "Failed on flat elevation")
 
         # Test case 7: Increasing elevation
-        self.assertEqual(trap([1, 2, 3, 4]), 0,
-                         "Failed on increasing elevation")
+        self.assertEqual(trap([1, 2, 3, 4]), 0, "Failed on increasing elevation")
 
         # Test case 8: Decreasing elevation
-        self.assertEqual(trap([4, 3, 2, 1]), 0,
-                         "Failed on decreasing elevation")
+        self.assertEqual(trap([4, 3, 2, 1]), 0, "Failed on decreasing elevation")
 
         # Test case 9: Mixed elevation
-        self.assertEqual(trap([0, 3, 0, 2, 0, 4]), 7,
-                         "Failed on mixed elevation")
+        self.assertEqual(trap([0, 3, 0, 2, 0, 4]), 7, "Failed on mixed elevation")
 
         # Test case 10: Single valley
         self.assertEqual(trap([3, 0, 3]), 3, "Failed on single valley case")

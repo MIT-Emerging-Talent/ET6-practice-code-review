@@ -56,6 +56,6 @@ class TestCompareNumbers(unittest.TestCase):
             compare_numbers("34", 90)
 
     def test_string_float(self):
-        """It should raise an assertion error if the argument is less than 0"""
+        """It should raise an assertion error if the argument contains a string"""
         with self.assertRaises(AssertionError):
             compare_numbers("76", 90.0)

@@ -1,13 +1,12 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-A module for finding duplicate elements in a list.
+A module for finding duplicate elements in a list while preserving order.
 
 Module contents:
-    - find_duplicates: identifies duplicate items in a list.
+    - find_duplicates: identifies duplicate items in a list while maintaining
+      the order of first appearance.
 
-Created on 2025-01-08
-@author: AI Developer
+Created on 2025-01-12
+@author: Karina
 """
 
 
@@ -24,17 +23,23 @@ def to_hashable(item):
 
 
 def find_duplicates(items: list) -> list:
-    """Find duplicate items in a list.
+    """Find duplicate items in a list while preserving order of first appearance.
+
+    This function identifies elements that appear more than once in the input list
+    and returns them in the order of their first appearance. It supports various
+    data types including numbers, strings, and nested lists.
 
     Parameters:
-        items: list, the input list to search for duplicates
+        items: list
+            The input list to search for duplicates. Can contain elements of
+            any hashable type or lists.
 
     Returns:
-        list: a list of items that appear more than once in the input list,
-              in order of their first appearance
+        list: A list of items that appear more than once in the input list,
+              in order of their first appearance.
 
     Raises:
-        AssertionError: if the input is not a list
+        AssertionError: If the input is not a list.
 
     Examples:
         >>> find_duplicates([1, 2, 2, 3, 3, 3])
@@ -45,33 +50,33 @@ def find_duplicates(items: list) -> list:
         []
         >>> find_duplicates([])
         []
-        >>> find_duplicates(['hello', 'world', 'hello'])
-        ['hello']
+        >>> find_duplicates([[1], [2], [1], [3]])
+        [[1]]
     """
     # Input validation
     assert isinstance(items, list), "Input must be a list"
 
-    # Track both counts and first appearances
-    seen_count = {}  # Track count of items
-    first_seen = []  # Track order of first appearance
-    duplicates = []  # Store duplicates in order
+    # Track counts and order
+    seen = {}  # Dictionary to track count and first position of each item
+    first_occurrences = []  # List to track first appearances in order
+    duplicates = []  # List to store duplicates in order of first appearance
 
-    # First pass: Track counts and first appearances
-    for item in items:
-        hashable_item = to_hashable(item)
-        if hashable_item not in seen_count:
-            seen_count[hashable_item] = 1
-            first_seen.append(item)  # Keep track of order
+    # Process each item to track first occurrences
+    for i, item in enumerate(items):
+        # Convert lists to tuples for hashing
+        hashable_item = tuple(item) if isinstance(item, list) else item
+
+        if hashable_item not in seen:
+            seen[hashable_item] = {'count': 1, 'first_pos': i}
+            first_occurrences.append((item, i))  # Track item and its position
         else:
-            seen_count[hashable_item] += 1
-            if seen_count[hashable_item] == 2:  # Only add when we see it second time
-                duplicates.append(item)
+            seen[hashable_item]['count'] += 1
+            # Add to duplicates only on second occurrence
+            if seen[hashable_item]['count'] == 2:
+                duplicates.append((item, seen[hashable_item]['first_pos']))
 
-    # Return duplicates in order of first appearance
-    ordered_duplicates = []
-    for item in first_seen:
-        hashable_item = to_hashable(item)
-        if seen_count[hashable_item] > 1 and item not in ordered_duplicates:
-            ordered_duplicates.append(item)
+    # Sort duplicates by their first occurrence position
+    duplicates.sort(key=lambda x: x[1])
 
-    return ordered_duplicates
+    # Return only the items, maintaining their order of first appearance
+    return [item for item, _ in duplicates]

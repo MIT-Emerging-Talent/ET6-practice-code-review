@@ -19,6 +19,7 @@ Example:
   14, 'FizzBuzz']
 """
 
+
 def fizz_buzz(n: int) -> list:
     """
     Generates a list of numbers from 1 to n with the following rules:
@@ -40,14 +41,13 @@ def fizz_buzz(n: int) -> list:
     Example:
     >>> fizz_buzz(10)
     [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz']
-    """
     
+    """
     # Defensive assertions
     if not isinstance(n, int):
         raise TypeError("Input must be an integer.")
     if n < 1:
         raise ValueError("Input must be greater than or equal to 1.")
-
     results = []  # Initialize an empty list to store the results
     for i in range(1, n + 1):
         if i % 3 == 0 and i % 5 == 0:
@@ -58,5 +58,4 @@ def fizz_buzz(n: int) -> list:
             results.append("Buzz")      # Append "Buzz" for multiples of 5
         else:
             results.append(i)           # Append the number itself if not a multiple of 3 or 5
-
     return results  # Return the list of results

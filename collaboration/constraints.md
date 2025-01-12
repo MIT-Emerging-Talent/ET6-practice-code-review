@@ -97,6 +97,13 @@ limits my availability time.
 
   ---
 
+### Mahmoud Alnouri
+
+- Access to Internet and electricity is very limites sometimes.
+- Personal life commitments and long working hours sometimes.
+
+  ---
+  
 ### Mukuna Kabeya
 
 - I do not have a pc of my own so coding on a consistent basis is not viable.

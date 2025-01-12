@@ -27,6 +27,7 @@ Every test is a guardian of quality. Here's your testing roadmap:
 | 13 | [test_print_triangle_shape.py](./test_print_triangle_shape.py) | Mukuna Kabeya | Validates triangle pattern output 🎨 |
 | 14 | [test_reversed_positive_number.py](./test_reversed_positive_number.py) | Raed Eleyan | Tests number reversal functionality 🔄 |
 | 15 | [test_sum_digits_of_positive_number.py](./test_sum_digits_of_positive_number.py) | Raed Eleyan | Verifies digit sum calculations 🧙‍♂️ |
+| 16 | [test_text_to_morse.py](./test_text_to_morse.py) | Ahmed Hussein | Validates Morse code conversion 📻 |
 
 ---
 

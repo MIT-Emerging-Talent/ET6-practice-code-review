@@ -49,7 +49,7 @@ ______________________________________________________________________
 | Jha-mal       |not avaluble         |  3-5pm ETZ   |  3-5pm ETZ     | 3-5pm ETZ   |  3-5pm ETZ   | 3-5pm ETZ    |  3-5pm ETZ  |
 | Maria Cedeño  |  3-5pm ETZ|  3-5pm ETZ|  3-5pm ETZ|  3-5pm ETZ|  3-5pm ETZ| not available  | not available  |
 | Mariia Ermishina| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ| 2-12pm ETZ|
-| Sahar         | -           | -           | -          | -          | -          | -          | -          |
+| Sahar Omer| 7pm-12am  EST | 7pm-2am  EST | 7pm-2am  EST |7pm-2am  EST|7pm-2am  EST|7pm-2am  EST|7pm-2am  EST|
 
 ### How many hours everyone has per day
 
@@ -60,7 +60,7 @@ ______________________________________________________________________
 | Jha-mal       | 3 hours                      | Available from Tue-Sun|
 | Maria Cedeño  | 4-5 hours                    | Available Mon-Fri; Zoom 3-5 pm        |
 | Mariia Ermishina| 3-4 hours          | Available 2-12 pm ETZ  |
-| Sahar         | -                             |                                              |
+| Sahar         | 4-5 hours                    | Available 7pm-12am EST                      |
 
 ## Asking for Help
 

@@ -34,9 +34,9 @@ def trap(height):
 
     # Defensive assertions for input validation
     assert isinstance(height, list), "Input must be a list."
-    assert all(isinstance(h, int) and h >= 0 for h in height), (
-        "All elements must be non-negative integers."
-    )
+    assert all(
+        isinstance(h, int) and h >= 0 for h in height
+    ), "All elements must be non-negative integers."
 
     # If there are fewer than 3 elements, no water can be trapped.
     if not height or len(height) < 3:

@@ -40,9 +40,9 @@ def date_magicity_checker(date: str) -> bool:
     # Assertions for input format
     assert isinstance(date, str), "date is not a string"
     assert len(date) == 10, "date does not have a proper length"
-    assert date[2] == "." and date[5] == ".", (
-        "The dots are not placed at positions 2 and 5"
-    )
+    assert (
+        date[2] == "." and date[5] == "."
+    ), "The dots are not placed at positions 2 and 5"
 
     # String type input consists checked for the right format
     list_string_day_month_year = date.split(".")

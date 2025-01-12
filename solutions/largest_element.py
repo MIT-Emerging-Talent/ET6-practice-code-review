@@ -24,9 +24,9 @@ def largest_element(numbers: list) -> int | float | None:
     >>> largest_element([])
 
     """
-    assert all(isinstance(num, (int, float)) for num in numbers), (
-        "num must be integer or float"
-    )
+    assert all(
+        isinstance(num, (int, float)) for num in numbers
+    ), "num must be integer or float"
 
     if not numbers:  # Return None for empty lists as there is no largest element
         return None

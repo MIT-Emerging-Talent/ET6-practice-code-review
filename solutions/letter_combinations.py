@@ -23,7 +23,7 @@ def letter_combinations(digits: str) -> list[str]:
     :raises AssertionError: If `digits` contains characters outside '2'..'9'.
     :raises AssertionError: If `digits` is longer than 4 characters.
 
-    >>> letter_combinations('23') 
+    >>> letter_combinations('23')
     ['ad', 'ae', 'af', 'bd', 'be', 'bf', 'cd', 'ce', 'cf']
     >>> letter_combinations('2')
     ['a', 'b', 'c']

@@ -1,5 +1,17 @@
-import unittest
+"""
+Unit tests for the fizzbuzz function from the solutions.fizz_buzz module.
 
+This class uses the unittest framework to validate the behavior of the fizzbuzz function
+across various input values, ensuring it produces the correct output lists. Tests include
+cases for n = 0, 1, 3, 5, and 15, verifying the proper inclusion of Fizz, Buzz, and FizzBuzz 
+in the outputs.
+"""
+
+import unittest
+import sys
+import os
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 from solutions.fizz_buzz import fizz_buzz
 
 
@@ -8,8 +20,6 @@ class TestFizzBuzz(unittest.TestCase):
 
     This class contains unit tests for the fizzbuzz function to ensure
     that it produces the expected output for various input values.
-    It verifies the correctness of the function across different scenarios, 
-    including edge cases.
     """
 
     def test_fizzbuzz_15(self):

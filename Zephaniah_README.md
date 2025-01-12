@@ -99,16 +99,19 @@ accompanies the code to ensure clarity and usability.
 
    ```sh
    git clone https://github.com/your-username/your-repository.git
+   
 2. Navigate to the project directory:
 
    ```sh
    cd your-repository
+   
 3. Set up the virtual environment:
 
    ```sh
       python -m venv venv
       source venv/bin/activate  # On macOS/Linux
       .\venv\Scripts\activate  # On Windows
+   
 4. Install the dependencies:
 
    ```sh

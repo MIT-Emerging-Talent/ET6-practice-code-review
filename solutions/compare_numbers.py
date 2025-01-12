@@ -16,10 +16,10 @@ def compare_numbers(num1: int, num2: int) -> int:
 
     Parameters :
 
-    num1 -> int
-    num2 -> int
+    num1 -> first input of the function(Integer)
+    num2 -> Second input of the function.(Integer)
 
-    Returns: -> int
+    Returns: -> integer.
     The least number if either is less than the other but twice the number if they are the same.
 
     >>> compare_numbers(23,78)

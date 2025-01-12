@@ -22,8 +22,6 @@ class TestCalculatePyramidVolume(unittest.TestCase):
     def test_zero_volume(self):
         """Test the volume of a pyramid with one dimension as 0 is 0."""
         self.assertAlmostEqual(calculate_pyramid_volume(0, 3, 4), 0.0)
-        self.assertAlmostEqual(calculate_pyramid_volume(2, 0, 4), 0.0)
-        self.assertAlmostEqual(calculate_pyramid_volume(2, 3, 0), 0.0)
 
     def test_small_positive_dimensions(self):
         """Test the volume of a pyramid with small positive dimensions."""

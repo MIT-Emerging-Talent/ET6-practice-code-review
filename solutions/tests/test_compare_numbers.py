@@ -38,3 +38,24 @@ class TestCompareNumbers(unittest.TestCase):
         """It should raise an assertion error if the argument is less than 0"""
         with self.assertRaises(AssertionError):
             compare_numbers(34, 90.0)
+
+    def four_digit_integers(self):
+        "It should evaluate (6577,5907) to 6577"
+        actual = compare_numbers(6577, 5907)  # Call function with test argument
+        expected = 6577  # Hand written answer
+        self.assertEqual(actual, expected)
+
+    def test_not_strings(self):
+        """It should raise an assertion error if the argument is less than 0"""
+        with self.assertRaises(AssertionError):
+            compare_numbers("89", "90.0")
+            
+    def test_string_integer(self):
+        """It should raise an assertion error if the argument is less than 0"""
+        with self.assertRaises(AssertionError):
+            compare_numbers("34", 90)
+
+    def test_string_float(self):
+        """It should raise an assertion error if the argument is less than 0"""
+        with self.assertRaises(AssertionError):
+            compare_numbers("76", 90.0)

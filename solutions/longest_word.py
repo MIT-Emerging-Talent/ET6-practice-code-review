@@ -40,7 +40,7 @@ def longest_word(sentence: str) -> str:
         'banana'
 
         >>> longest_word("Hello, world!")
-        'world'
+        'Hello'
 
     """
     # Defensive assertion to check if the sentence is a non-empty string

@@ -14,7 +14,8 @@ def check_number_type(user_input: str) -> str:
 
 
     Parameters:
-        user_input (str):  A string that represents an integer.
+        user_input (str): str
+        A string that represents an integer.
         Floats or non-integer formats are not allowed.
     Raises:
         ValueError: If the input is empty.
@@ -31,9 +32,15 @@ def check_number_type(user_input: str) -> str:
         >>> check_number_type("-11")
         "The number is odd"
         >>> check_number_type("")
-        "Input cannot be empty. Enter a valid number."
+        Traceback (most recent call last):
+        ...
+        .ValueError:"Input cannot be empty. Enter a valid number."
         >>> check_number_type("Eman")
-        "Please enter a valid number"
+        Traceback (most recent call last):
+        ...
+        .ValueError:"Please enter a valid number"
+
+
 
 
     """

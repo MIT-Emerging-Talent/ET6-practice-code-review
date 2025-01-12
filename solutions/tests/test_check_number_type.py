@@ -3,7 +3,7 @@ Unit tests for the check_number_type function.
 
 Test categories:
     - Standard cases: typical lists with different lengths
-    - Edge cases: empty lists, single elements
+    - Edge cases: empty lists, single element
     - Defensive tests: wrong input types, assertions
 
 

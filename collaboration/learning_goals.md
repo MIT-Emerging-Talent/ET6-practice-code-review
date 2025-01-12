@@ -13,7 +13,7 @@ and relevant tests.
 
 ### **Fatima**
 
-- 👀 Learn proper debugging and code Learn to use GitHub like my seniors whom whom
+- 👀 Learn proper debugging and code Learn to use GitHub like my seniors whom
 I’ve always admired 🙊
 - Practice debugging 🐞 to debug my brain with these coding errors.
 - ✅ Learn about unittests and doctests (because it's totally new for me🙈)

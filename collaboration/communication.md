@@ -9,6 +9,11 @@
 
 # Communication Plan
 
+## Communication Channels
+
+All technical discussions will be conducted on Slack. General discussions will
+use WhatsApp.
+
 ## Communication Schedule
 
 This is the schedule for each week, and it will be updated weekly.
@@ -45,6 +50,7 @@ This is the schedule for each week, and it will be updated weekly.
 - **M Shahroz**: _4h_  
 - **Mojtaba**: _5h_  
 - **Mudassra**: _5h_  
+- **Jola**: _3h_  
 
 ---
 

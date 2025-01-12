@@ -34,7 +34,7 @@ class TestCalculateCubeVolume(unittest.TestCase):
 
     def test_large_positive_side_length(self):
         """Test the volume of a cube with a large positive side length."""
-        self.assertAlmostEqual(calculate_cube_volume(1000), 1_000_000.0)
+        self.assertAlmostEqual(calculate_cube_volume(1000), 1_000_000_000.0)
 
     def test_none_input(self):
         """Test that None input raises AssertionError."""

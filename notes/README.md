@@ -1,4 +1,17 @@
 # Notes
+
+## Our Workflow
+
+- Create Issue
+- add to project board
+- create a branch
+- push your code via vscode and  create a pull request for it
+- link the issue with your pull requests
+- wait for someone to assign himself as reviewer and review it.
+- after finish reviewing, merge the PR
+- issue closed immediately, and make sure it also moved to the “DONE”
+   column on the project board
+
 ## How to Create a Branch
 
 Branches are essential to work on new features, bug fixes,

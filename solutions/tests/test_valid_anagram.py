@@ -22,7 +22,7 @@ import unittest
 from solutions.valid_anagram import valid_anagram
 
 
-class Testvalidanagram(unittest.TestCase):
+class TestvalidAnagram(unittest.TestCase):
     """Test cases for valid_anagram function."""
 
     def test_basic_anagram(self):

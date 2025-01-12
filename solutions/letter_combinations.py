@@ -24,7 +24,7 @@ def letter_combinations(digits: str) -> list[str]:
 
     :raises AssertionError: If `digits` is not a string.
     :raises AssertionError: If `digits` contains characters outside '2'..'9'.
-    :raises AssertionError: If `digits` is longer than 4 characters. """
+    :raises AssertionError: If `digits` is longer than 4 characters."""
 
     assert isinstance(digits, str), "digits must be a string"
     assert len(digits) <= 4, "digits can have at most 4 characters"
@@ -47,11 +47,14 @@ def letter_combinations(digits: str) -> list[str]:
 
     result: list[str] = []
 
-    def backtrack(combination: str, remaining_digits: str) -> None:  # recursive combinations
+    def backtrack(
+        combination: str, remaining_digits: str
+    ) -> None:  # recursive combinations
         if not remaining_digits:
             result.append(combination)
         else:
             for letter in phone_map[remaining_digits[0]]:
                 backtrack(combination + letter, remaining_digits[1:])
+
     backtrack("", digits)
     return result

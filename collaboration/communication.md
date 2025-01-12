@@ -14,11 +14,10 @@ ______________________________________________________________________
 
 ## Communication Schedule
 
-| Meeting | Type| Frequency| How| The topic of discussion|
-|----------------|-----|----------------|---------------|-----|
-| Brain Storming | TBD | TBD| Google Meet | Group Norms|
-| Collaboration  | TBD | TBD| Google Meet | Constraints, learning goals|
-| Collaboration  | TBD | TBD| Google Meet | Communication|
+| Meeting | Frequency| How| The topic of discussion|
+|----------------|----------------|---------------|-----|
+| Brain Storming |  Weekly | Google Meet | Define norms, constraints, etc.|
+| Fixing issues  |  On demand | slack, Whatsapp | Fix issues on code and github|
 
 ## Communication Channels
 
@@ -38,7 +37,12 @@ ______________________________________________________________________
         "channel": "Github issues/discussions",
         "purpose": "Discuss changes/code reviews",
         "frequency": "On demand"
-    }
+    },
+        {
+        "channel": "Whatsapp",
+        "purpose": "Discuss general topics",
+        "frequency": "On demand"
+    },
 ]
 ```
 

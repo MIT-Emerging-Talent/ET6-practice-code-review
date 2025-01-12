@@ -1,5 +1,5 @@
 <!-- this template is for inspiration, feel free to change it however you like! -->
-
+<!--
 # Retrospective
 
 ## Stop Doing
@@ -55,12 +55,3 @@ I didn’t fully understand the CI checks at
 first, so fixing errors took more time.
 
 ### Did you need to add things that weren't in your strategy?
-
-Yes, I had to look up tutorials on GitHub
-features like labeling pull requests and managing CI errors.
-
-### Or remove extra steps?
-
-I simplified things by focusing only on the steps
-needed to complete the assignment and skipping
-any unnecessary experiments with GitHub.

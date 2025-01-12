@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-'''
+"""
 Created on 12.01.2025
 @author: Mushtary Alam
-'''
+"""
+
 
 def trap(height):
     """
@@ -32,19 +33,18 @@ def trap(height):
 
     # Defensive assertions for input validation
     assert isinstance(height, list), "Input must be a list."
-    assert all(
-        isinstance(h, int) and h >= 0 for h in height
-    ), "All elements must be non-negative integers."
+    assert all(isinstance(h, int) and h >= 0 for h in height), (
+        "All elements must be non-negative integers."
+    )
 
     # If there are fewer than 3 elements, no water can be trapped.
     if not height or len(height) < 3:
-        return 0 
+        return 0
 
     # Initialize two pointers and variables to track the max heights
-    left, right = 0, len(height) - 1 
-    left_max, right_max = height[left], height[right] 
-    water = 0 
-
+    left, right = 0, len(height) - 1
+    left_max, right_max = height[left], height[right]
+    water = 0
 
     # Traverse the list with two pointers to calculate trapped water
     while left < right:

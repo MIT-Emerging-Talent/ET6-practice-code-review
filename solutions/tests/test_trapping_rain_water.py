@@ -12,12 +12,6 @@ Created on 12.01.2025
 @author: Mushtary Alam
 """
 
-import sys
-import os
-
-# Add the root directory to sys.path explicitly
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
 from ..trapping_rain_water import trap
 
 

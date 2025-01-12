@@ -7,6 +7,7 @@ Created on 05.01.2025
 """
 
 import unittest
+import math
 
 from ..divide import divide
 
@@ -16,52 +17,56 @@ class TestDivide(unittest.TestCase):
 
     def test_divide_integers(self):
         """It should produce the accurate results of a division operation for two integer inputs"""
-
-        actual = divide(10, 2)  # Calling function with test arguments
-        expected = 5.0  # Expected result
-        self.assertEqual(actual, expected)
-
-        actual = divide(9, 3)  # Calling function with test arguments
-        expected = 3.0  # Expected result
-        self.assertEqual(actual, expected)
-
-        actual = divide(0, 1)  # Calling function with test arguments
-        expected = 0.0  # Expected result
-        self.assertEqual(actual, expected)
+        self.assertEqual(divide(10, 2), 5.0)
+        self.assertEqual(divide(9, 3), 3.0)
+        self.assertEqual(divide(0, 1), 0.0)
 
     def test_divide_floats(self):
         """It should produce the accurate results of a division operation for two float inputs"""
-
-        actual = divide(10.5, 2.5)  # Calling function with test arguments
-        expected = 4.2  # Expected result
-        self.assertAlmostEqual(actual, expected)
-
-        actual = divide(-7.0, 2.0)  # Calling function with test arguments
-        expected = -3.5  # Expected result
-        self.assertAlmostEqual(actual, expected)
+        self.assertAlmostEqual(divide(10.5, 2.5), 4.2)
+        self.assertAlmostEqual(divide(-7.0, 2.0), -3.5)
 
     def test_divide_zero(self):
         """It should show a ZeroDivisionError whenever the denominator input is zero"""
-
         with self.assertRaises(ZeroDivisionError) as context:
-            divide(7, 0)  # Calling function with test arguments
-        expected = "Cannot divide by zero"  # Expected result
-        self.assertTrue(expected in str(context.exception))
+            divide(7, 0)
+        self.assertTrue("Cannot divide by zero" in str(context.exception))
 
     def test_divide_type_error(self):
         """It should show a TypeError when either argument is not a number"""
+        with self.assertRaises(TypeError) as context:
+            divide("10", 2)
+        self.assertTrue("Both arguments must be numbers" in str(context.exception))
 
         with self.assertRaises(TypeError) as context:
-            divide("10", 2)  # Calling function with test arguments
-        expected = "Both arguments must be numbers"  # Expected result
-        self.assertTrue(expected in str(context.exception))
+            divide(10, "2")
+        self.assertTrue(
+            "unsupported operand type(s) for /: 'int' and 'str'"
+            in str(context.exception)
+        )
 
         with self.assertRaises(TypeError) as context:
-            divide(10, "2")  # Calling function with test arguments
-        expected = "unsupported operand type(s) for /: 'int' and 'str'"  # Updated expected result
-        self.assertTrue(expected in str(context.exception))
+            divide("10", "2")
+        self.assertTrue("Both arguments must be numbers" in str(context.exception))
 
-        with self.assertRaises(TypeError) as context:
-            divide("10", "2")  # Calling function with test arguments
-        expected = "Both arguments must be numbers"  # Expected result
-        self.assertTrue(expected in str(context.exception))
+    def test_divide_large_number(self):
+        """It should correctly handle very large numbers"""
+        self.assertAlmostEqual(divide(1e308, 1e308), 1.0)
+
+    def test_divide_small_number(self):
+        """It should correctly handle very small numbers"""
+        self.assertAlmostEqual(divide(1e-308, 1e-308), 1.0)
+
+    def test_divide_negative_numbers(self):
+        """It should correctly handle negative numbers"""
+        self.assertAlmostEqual(divide(-10, -2), 5.0)
+        self.assertAlmostEqual(divide(-10, 2), -5.0)
+        self.assertAlmostEqual(divide(10, -2), -5.0)
+
+    def test_divide_infinity(self):
+        """It should correctly handle division with infinity"""
+        self.assertEqual(divide(float("inf"), 1), float("inf"))
+
+    def test_divide_nan(self):
+        """It should correctly handle division with NaN values"""
+        self.assertTrue(math.isnan(divide(float("nan"), 1)))

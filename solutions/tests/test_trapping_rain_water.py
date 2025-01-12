@@ -12,9 +12,13 @@ Created on 12.01.2025
 @author: Mushtary Alam
 """
 
-import unittest
+import sys
+import os
 
-from solutions.trapping_rain_water import trap
+# Add the root directory to sys.path explicitly
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from ..trapping_rain_water import trap
 
 
 def test_trap():

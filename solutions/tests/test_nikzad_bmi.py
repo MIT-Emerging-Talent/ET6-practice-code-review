@@ -11,12 +11,12 @@ BMI calculation function across different scenarios, including:
 - Obesity
 - Invalid inputs
 
-Author: [Your Name]
-Date: [Today's Date]
+Author: (Nilofar Nikzad)
+Date: [Jan 12,2025]
 """
 
 import unittest
-from nilofer_solution import calculate_bmi  # Import the function from the solution file
+from solutions.nilofar_solution import calculate_bmi  # Import the function from the solution file
 
 
 class TestBMICalculator(unittest.TestCase):

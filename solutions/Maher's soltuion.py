@@ -99,7 +99,7 @@ def visualize_results(model, X_test, y_test):
     plt.ylabel('Coefficient Value')
     plt.show()
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     data = load_data()
     data = preprocess_data(data)
     analyze_data(data)

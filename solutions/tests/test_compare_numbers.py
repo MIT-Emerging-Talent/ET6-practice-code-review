@@ -16,19 +16,19 @@ from ..compare_numbers import compare_numbers
 class TestCompareNumbers(unittest.TestCase):
     """Test displays the outcome of comparing two integers"""
 
-    def test1(self):
+    def three_digit_integers(self):
         "It should evaluate (234,786) to 234"
         actual = compare_numbers(234, 786)  # Calls function with test argument.
         expected = 234  # Hand written answer.
         self.assertEqual(actual, expected)
 
-    def test2(self):
+    def two_digit_integers(self):
         "It should evaluate (37,40) to 37"
         actual = compare_numbers(37, 40)  # Call function with test argument
         expected = 37  # Hand written answer
         self.assertEqual(actual, expected)
 
-    def test3(self):
+    def same_integers(self):
         "It should evaluate (7,7) to 14"
         actual = compare_numbers(7, 7)  # Call function with test argument
         expected = 14  # Hand written answer

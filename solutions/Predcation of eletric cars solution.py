@@ -108,7 +108,8 @@ def visualize_results(model, X_test, y_test):
     Visualize the actual vs predicted prices and feature importance.
     """
     import matplotlib.pyplot as plt
-    import numpy as np
+    import numpy
+
 
     try:
         # Actual vs Predicted Prices
@@ -144,9 +145,8 @@ def save_model(model, scaler, filename="electric_car_price_model.pkl"):
         print(f"Model saved as {filename}")
     except Exception as e:
         print(f"Error saving model: {e}")
-
-if _name_ == "_main_":
-    data = load_data()
+    if __name__ == "__main__":
+data = load_data()
     if not data.empty:
         data = preprocess_data(data)
         analyze_data(data)

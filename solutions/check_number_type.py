@@ -14,7 +14,8 @@ def check_number_type(user_input: str) -> str:
 
 
     Parameters:
-        user_input (str):  str
+        user_input (str):  A string that represents an integer.
+        Floats or non-integer formats are not allowed.
     Raises:
         ValueError: If the input is empty.
         ValueError: If the input is not a valid integer.

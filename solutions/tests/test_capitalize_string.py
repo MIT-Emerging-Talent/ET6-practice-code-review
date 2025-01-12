@@ -4,6 +4,8 @@ Created on 0084/01/2025
 
 """
 
+import unittest
+
 
 def capitalize_string(s):
     """
@@ -27,9 +29,6 @@ def capitalize_string(s):
     if not isinstance(s, str):
         raise TypeError("Input must be a string.")
     return s.upper()
-
-
-import unittest
 
 
 class TestCapitalizeString(unittest.TestCase):

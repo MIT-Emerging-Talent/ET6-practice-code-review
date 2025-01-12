@@ -7,15 +7,13 @@ that can be trapped given an elevation map.
 
 The `trap` function is tested with various scenarios, including edge cases,
 to ensure accuracy and robustness.
+
+Created on 12.01.2025
+@author: Mushtary Alam
 """
 
-import os
-import sys
+import unittest
 
-# Add the parent directory to the system path for importing the `trap` function.
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
-
-# Import the `trap` function from the solution file
 from solutions.trapping_rain_water import trap
 
 

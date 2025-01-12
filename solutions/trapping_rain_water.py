@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+'''
+Created on 12.01.2025
+@author: Mushtary Alam
+'''
 
 def trap(height):
     """
@@ -23,12 +27,6 @@ def trap(height):
         9
         >>> trap([1,0,2,1,0,1,3,2,1,2,1])
         6
-        >>> trap([1, 2, 3, 4])
-        0
-        >>> trap([5, 4, 3, 2, 1])
-        0
-        >>> trap([3, 0, 0, 2, 0, 4])
-        10
 
     """
 
@@ -40,14 +38,15 @@ def trap(height):
 
     # If there are fewer than 3 elements, no water can be trapped.
     if not height or len(height) < 3:
-        return 0
+        return 0 
 
-    # Initialize pointers and variables
-    left, right = 0, len(height) - 1
-    left_max, right_max = height[left], height[right]
-    water = 0
+    # Initialize two pointers and variables to track the max heights
+    left, right = 0, len(height) - 1 
+    left_max, right_max = height[left], height[right] 
+    water = 0 
 
-    # Traverse the list with two pointers
+
+    # Traverse the list with two pointers to calculate trapped water
     while left < right:
         if height[left] < height[right]:
             # Move the left pointer and update the left_max

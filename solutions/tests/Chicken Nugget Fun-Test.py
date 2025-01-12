@@ -1,7 +1,6 @@
 import unittest
 from io import StringIO
 import sys
-import random
 
 # Assuming the function is in a file named 'chicken_nugget.py'
 from chicken_nugget import chicken_nugget_fun

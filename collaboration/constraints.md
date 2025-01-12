@@ -2,8 +2,8 @@
 
 ## 🌐 External Constraints
 
-- **Platform**: Use CodeWars, LeetCode, or workshop exercises. Follow platform
-  requirements (unit tests, docs).
+- **Platform**: Use CodeWars, LeetCode, or workshop exercises to source python problems.
+  Follow platform requirements (unit tests, docs).
 - **Deadlines**: Stick to MIT Emerging Talent timelines. Solve & review on time.
 - **Tools**: Use GitHub for version control and docs. Rely on public resources
   for learning.
@@ -31,9 +31,16 @@
 
 - **One Task = One Branch**: Create a branch per task.
 - **Sync First**: Run `git fetch && git merge main` before starting.
-- **Selective Adds**: Use `git add [file]` (avoid `git add .`).
+- **Selective Adds**: Use `git add [file]` (avoid `git add .`). git pull can also
+  be used.
 - **Template Updates**: Use `update_template_files` branch for changes.
 - **Review Fast**: Review pull requests promptly.
+- **Merge Criteria**: No pull request will be merged without proper review
+  and ensuring there are no CI errors.
+- **Review suggestion**: Minimize the use of AI models for reviewing
+  teammates' code.
+- **Checklist Use**: Use the checklist template for pull requests only when addressing
+  actual problems, not for template file changes.
 
 ---
 

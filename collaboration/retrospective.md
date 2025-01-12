@@ -12,7 +12,7 @@
 ## Continue Doing
 
 - Collaborative work.
-- Access to support whenever needed. 
+- Access to support whenever needed.
 - Open to learn and to ask.
 - Consistency with work.
 - Good and organized planning.

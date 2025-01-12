@@ -44,7 +44,7 @@ def find_duplicates(items: list) -> list:
     # Count occurrences of each item
     counts = Counter(items)
     
-    # Filter items that appear more than once in order of first appearance
+    # Filter items that appear more than once
     duplicates = [item for item in items if counts[item] > 1]
 
     # Return unique duplicates preserving the order

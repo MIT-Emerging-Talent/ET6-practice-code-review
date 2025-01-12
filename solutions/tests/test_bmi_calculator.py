@@ -16,7 +16,7 @@ Date: [Jan 12,2025]
 """
 
 import unittest
-from solutions.nilofar_solution import (
+from solutions.bmi_calculator import (
     calculate_bmi,
 )  # Import the function from the solution file
 

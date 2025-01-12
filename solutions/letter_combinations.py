@@ -1,9 +1,6 @@
 """Module for generating letter combinations from a telephone keypad.
 
-This module defines a function that returns all possible letter
-combinations for a string of digits in the range '2'..'9' inclusive.
-
-The mapping follows the typical telephone keypad layout:
+The mapping follows:
     2 -> a, b, c
     3 -> d, e, f
     4 -> g, h, i

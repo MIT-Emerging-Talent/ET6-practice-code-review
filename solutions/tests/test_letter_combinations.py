@@ -1,7 +1,6 @@
 import unittest
 from solutions.letter_combinations import letter_combinations
 
-
 class TestLetterCombinations(unittest.TestCase):
     """Tests for the letter_combinations function using unittest."""
 
@@ -31,11 +30,10 @@ class TestLetterCombinations(unittest.TestCase):
 
     def test6(self):
         """
-        Test '727' returns 48 distinct combinations.
+        Test '727' returns 48 distinct combinations. 
         Therefore, we'll just check the number of combinations to avoid overloading our code"""
-        result = letter_combinations("727")
+        result = letter_combinations("727") #WYSI
         self.assertEqual(len(result), 48)
-
 
 if __name__ == "__main__":
     unittest.main()

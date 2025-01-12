@@ -35,6 +35,8 @@ and streamlined collaboration.
  and enhanced overall project quality.
 - **Respect wins**: Valuing diverse perspectives fostered creativity
  and innovation within the team.
+- **Strict to our rules**: we have should follow some rules we announced in the early
+  stage.
 
 ______________________________________________________________________
 
@@ -50,6 +52,8 @@ ______________________________________________________________________
 
 - Some minor ideas were not fully implemented as planned.
 - Some tasks took longer than expected due to unforeseen challenges and dependencies.
+- We have should divide big feature to smaller features with independent branches
+like collaboration branch.
 
 ### Did you need to add things that weren't in your strategy?
 

@@ -5,31 +5,23 @@ from solutions.water_intake_solution import calculate_water_intake
 class TestWaterIntakeCalculator(unittest.TestCase):
     """To test the calculate_water_intake function."""
 
-    def test_low_activity_temperate():
+    def test_low_activity_temperate(self):
         """Test for low activity in temperate climate."""
-        assert calculate_water_intake(70, "Low", "Temperate") == 2.31
+        self.assertEqual(
+            calculate_water_intake(70, 30),
+            "Recommended daily water intake: 2.67 liters",
+        )
 
-    def test_moderate_activity_hot():
+    def test_moderate_activity_hot(self):
         """Test for moderate activity in hot climate."""
-        assert calculate_water_intake(70, "Moderate", "Hot") == 3.31
+        self.assertEqual(
+            calculate_water_intake(50, 60),
+            "Recommended daily water intake: 2.37 liters",
+        )
 
-    def test_high_activity_cold():
-        """Test for high activity in cold climate."""
-        assert calculate_water_intake(70, "High", "Cold") == 3.13
-
-    def test_invalid_weight():
+    def test_invalid_weight(self):
         """Test for invalid weight input."""
-        with unittest.raises(ValueError, match="Weight must be a positive number."):
-            calculate_water_intake(-10, "Low", "Temperate")
-
-    def test_invalid_activity_level():
-        """Test for invalid activity level input."""
-        with unittest.raises(
-            ValueError, match="Invalid activity level: InvalidActivity."
-        ):
-            calculate_water_intake(70, "InvalidActivity", "Cold")
-
-    def test_invalid_climate():
-        """Test for invalid climate input."""
-        with unittest.raises(ValueError, match="Invalid climate: InvalidClimate."):
-            calculate_water_intake(70, "Low", "InvalidClimate")
+        self.assertEqual(
+            calculate_water_intake(-70, 30),
+            "Invalid input. Weight and activity minutes must be greater than zero.",
+        )

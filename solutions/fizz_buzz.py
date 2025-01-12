@@ -1,5 +1,6 @@
 """
-This module provides a function that generates a list of numbers from 1 to n with specific rules for multiples of 3 and 5.
+This module provides a function that generates a list of numbers from 1 to n 
+with specific rules for multiples of 3 and 5.
 
 For each number in the range:
 - For multiples of 3, "Fizz" is added instead of the number.
@@ -8,12 +9,14 @@ For each number in the range:
 
 Features:
 - Input validation to ensure that the input is a positive integer.
-- Customizable output format (e.g., changing the words "Fizz" and "Buzz" to user-defined strings).
+- Customizable output format (e.g., changing the words "Fizz" and "Buzz" 
+  to user-defined strings).
 - Ability to generate results as a string instead of a list.
 
 Example:
 >>> fizz_buzz(15)
-[1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz']
+[1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 
+  14, 'FizzBuzz']
 """
 
 def fizz_buzz(n: int) -> list:
@@ -27,12 +30,18 @@ def fizz_buzz(n: int) -> list:
     n (int): The upper limit of the range (inclusive) to generate.
 
     Returns:
-    list: A list containing the numbers and/or string representations according to the rules.
+    list: A list containing the numbers and/or string representations according 
+    to the rules.
+
+    Raises:
+    TypeError: If the input is not an integer.
+    ValueError: If the input is less than 1.
 
     Example:
     >>> fizz_buzz(10)
     [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz']
     """
+    
     # Defensive assertions
     if not isinstance(n, int):
         raise TypeError("Input must be an integer.")

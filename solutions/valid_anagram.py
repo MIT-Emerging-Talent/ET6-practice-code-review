@@ -11,7 +11,7 @@ Created on: 2025-01-11
 
 def valid_anagram(str1: str, str2: str) -> bool:
     """
-    Determines if two strings are anagrams of each other.
+    Returns True if two strings are anagrams, otherwise False.
 
     Args:
         str1: First string to compare

@@ -21,7 +21,7 @@ class TestTrappingRainWater(unittest.TestCase):
   """
 
 
-def test_trap():
+def test_trap(self):
     """
     Tests the `trap` function with various input cases.
     Validates the correctness of the implementation for:

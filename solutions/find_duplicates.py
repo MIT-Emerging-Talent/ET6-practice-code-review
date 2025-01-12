@@ -1,37 +1,30 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Key Implementation Features of find_duplicates.py:
+A module for finding duplicate elements in a list.
 
-1. Type Hints and Documentation:
-   - Clear parameter and return type annotations
-   - Comprehensive docstring with examples
-   - Explicit error conditions
+Module contents:
+    - find_duplicates: identifies duplicate items in a list.
 
-2. Data Structure Usage:
-   - Uses dictionary (seen_count) for O(1) lookups
-   - Uses list (first_seen) to maintain order
-   - Uses hashable conversion for nested lists
-
-3. Algorithm Efficiency:
-   - Single pass to track counts
-   - Preserves order of first appearance
-   - Handles duplicate detection without sorting
-
-4. Error Handling:
-   - Input validation with assertions
-   - Clear error messages
-   - Robust handling of nested structures
-
-5. Edge Cases:
-   - Empty list handling
-   - Mixed type support
-   - Nested list support
+Created on 2025-01-08
+@author: AI Developer
 """
 
-def find_duplicates(items: list) -> list:
+
+def to_hashable(item):
+    """Convert an item to a hashable type if needed.
+
+    Parameters:
+        item: any Python object to be converted
+
+    Returns:
+        A hashable version of the input item
     """
-    Find duplicate items in a list.
+    return tuple(item) if isinstance(item, list) else item
+
+
+def find_duplicates(items: list) -> list:
+    """Find duplicate items in a list.
 
     Parameters:
         items: list, the input list to search for duplicates
@@ -57,10 +50,6 @@ def find_duplicates(items: list) -> list:
     """
     # Input validation
     assert isinstance(items, list), "Input must be a list"
-
-    # Function to convert item to hashable type if needed
-    def to_hashable(item):
-        return tuple(item) if isinstance(item, list) else item
 
     # Track both counts and first appearances
     seen_count = {}  # Track count of items

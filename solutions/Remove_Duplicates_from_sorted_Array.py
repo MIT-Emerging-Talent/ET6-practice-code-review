@@ -25,19 +25,19 @@ def remove_suplicates_from_sorted_array(nums: list[int]) -> int:
 
     Examples:
     >>> nums = [1, 1, 2]
-    >>> removeSuplicatesFromSortedArray(nums)
+    >>> remove_suplicates_from_sorted_array(nums)
     2
     >>> nums[:2]
     [1, 2]
 
     >>> nums = [0, 0, 1, 1, 2, 2, 3, 3, 4]
-    >>> removeSuplicatesFromSortedArray(nums)
+    >>> remove_suplicates_from_sorted_array(nums)
     5
     >>> nums[:5]
     [0, 1, 2, 3, 4]
 
     >>> nums = []
-    >>> removeSuplicatesFromSortedArray(nums)
+    >>> remove_suplicates_from_sorted_array(nums)
     0
     """
     if not isinstance(nums, list):

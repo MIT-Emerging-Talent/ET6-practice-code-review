@@ -38,7 +38,7 @@ class TestvalidAnagram(unittest.TestCase):
         self.assertTrue(valid_anagram("word", "word"))
 
     def test_empty_string(self):
-        """It should identify empty strings as amagrams."""
+        """It should identify empty strings as anagrams."""
         self.assertTrue(valid_anagram("", ""))
 
     def test_case_sensitive(self):

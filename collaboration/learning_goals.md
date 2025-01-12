@@ -47,9 +47,9 @@
 
 | **Goal**                           | **Description** | **Progress**   |  
 |------------------------------------|----------------| ----------------|
-| 🛠️ Unleash the Secrets of Git      |Dive deep into Git and GitHub | ![50%](https://progress-bar.xyz/50) |
-| ⚡ TDD: Your New Superpower        | Use Test-Driven Development to code with confidence.| ![20%](https://progress-bar.xyz/20)  |  
-| 🎉 Level Up Your Code Review Game  | Collaborate with your my and grow stronger together.| ![10%](https://progress-bar.xyz/10)  |  
+| 🛠️ Unleash the Secrets of Git      |Dive deep into Git and GitHub | ![90%](https://progress-bar.xyz/90) |
+| ⚡ TDD: Your New Superpower        | Use Test-Driven Development to code with confidence.| ![30%](https://progress-bar.xyz/30)  |  
+| 🎉 Level Up Your Code Review Game  | Collaborate with your my and grow stronger together.| ![70%](https://progress-bar.xyz/70)  |  
 
 ---
 

@@ -1,5 +1,5 @@
 import unittest
-from solutions.water_solutions import calculate_water_intake
+from solutions.water_solution import calculate_water_intake
 
 
 def test_low_activity_temperate():

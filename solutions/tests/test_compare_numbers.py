@@ -35,7 +35,7 @@ class TestCompareNumbers(unittest.TestCase):
         self.assertEqual(actual, expected)
 
     def test_not_integer(self):
-        """It should raise an assertion error if the argument is less than 0"""
+        """It should raise an assertion error if the argument has a float"""
         with self.assertRaises(AssertionError):
             compare_numbers(34, 90.0)
 
@@ -56,6 +56,6 @@ class TestCompareNumbers(unittest.TestCase):
             compare_numbers("34", 90)
 
     def test_string_float(self):
-        """It should raise an assertion error if the argument have both a string and a float"""
+        """It should raise an assertion error if the argument is less than 0"""
         with self.assertRaises(AssertionError):
             compare_numbers("76", 90.0)

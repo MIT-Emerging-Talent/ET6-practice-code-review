@@ -49,3 +49,7 @@ class TestCapitalizeString(unittest.TestCase):
             capitalize_string(123)
         with self.assertRaises(TypeError):
             capitalize_string(["hello", "world"])
+
+
+if __name__ == "__main__":
+    unittest.main()

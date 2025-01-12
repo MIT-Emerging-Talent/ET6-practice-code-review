@@ -31,8 +31,8 @@ def minimize_chocolate_difference(chocolates, k):
 
 
 # Example usage
-if _name_ == "_main_":
-    chocolates = [12, 4, 7, 9, 2, 23, 25, 41, 30, 40, 28, 42, 30, 44, 48, 43, 50]
+if __name__ == "__main__":
+chocolates = [12, 4, 7, 9, 2, 23, 25, 41, 30, 40, 28, 42, 30, 44, 48, 43, 50]
     k = 7
     result = minimize_chocolate_difference(chocolates, k)
     print(f"Minimum difference is {result}")

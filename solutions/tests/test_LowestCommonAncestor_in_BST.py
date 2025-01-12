@@ -1,23 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-<<<<<<< HEAD
-Test module for Lowest Common Ancestor in Binary search tree function.
-
-=======
 Test module for Lowest Common Ancestor in Binary Search Tree function.
 Author: Safia Gibril
 Created on: 2.1.2025
->>>>>>> 2d84195a2d885aeea30f21022568857153a396d5
 """
 
 import unittest
 
-<<<<<<< HEAD
-=======
 from solutions.LowestCommonAncestor_in_BST import lowestCommonAncestor
 
->>>>>>> 2d84195a2d885aeea30f21022568857153a396d5
 
 class TreeNode:
     """Define class for TreeNode"""
@@ -29,36 +21,6 @@ class TreeNode:
 
 
 class TestLowestCommonAncestor(unittest.TestCase):
-<<<<<<< HEAD
-    """Test the Lowest common Ancestor in Binary search tree function
-    Binary Search Tree structure:
-    
-         5
-       /   \
-      3     8
-     / \   / \
-    1   4 7   9
-     \
-      2
-
-    """
-
-
-def setUp_BTS(self):
-    "create Binary search tree from the example"
-    self.root = TreeNode(5)
-    self.root.left = TreeNode(3)
-    self.root.right = TreeNode(8)
-    self.root.left.left = TreeNode(1)
-    self.root.left.right = TreeNode(4)
-    self.root.right.left = TreeNode(7)
-    self.root.right.right = TreeNode(9)
-    self.root.left.left.right = TreeNode(2)
-
-
-def test_case_1(self):
-    "This test case 1"
-=======
     """Test the Lowest Common Ancestor in Binary Search Tree function.
 
     Binary Search Tree structure:
@@ -149,4 +111,3 @@ def test_case_1(self):
         """Test when q is None"""
         with self.assertRaises(ValueError):
             lowestCommonAncestor(self.root, self.root.left, None)
->>>>>>> 2d84195a2d885aeea30f21022568857153a396d5

@@ -10,7 +10,9 @@
 - **Fikre-Mamo**: Wasting time on distractions.  
 - **KimaciaJnr**: Entertaining imposter syndrome.  
 - **Collyns-Linc**: Procrastinating tasks and doubting my capabilities.  
-- **Nouranaia**: Overcomplicating workflows.  
+- **Nouranaia**: Overcomplicating workflows.
+- **Ammar**: Keeping some tasks for the last time in the deadline (that leads
+ me to get overwhelmed by some of them in one day).
 
 ---
 
@@ -20,7 +22,8 @@
 - **Fikre-Mamo**: Developing my skills.  
 - **KimaciaJnr**: Being consistent.  
 - **Collyns-Linc**: Practicing coding and communication skills.
-- **Nouranaia**: Progress reviews.  
+- **Nouranaia**: Progress reviews.
+- **Ammar**: Helping my peers as much as I can.
 
 ---
 
@@ -30,7 +33,10 @@
 - **Fikre-Mamo**: Focus on learning how to learn.  
 - **KimaciaJnr**: Ask for help more often and believe in myself.  
 - **Collyns-Linc**: Ask for help when stuck, embrace a growth mindset.  
-- **Nouranaia**: Set measurable goals.  
+- **Nouranaia**: Set measurable goals.
+- **Ammar**: Practicing more in writing the code in the way
+we learne (readable, simple and clear) until it becomes a happit and
+I don't need to look at the checklist any more
 
 ---
 
@@ -40,7 +46,9 @@
 - **Fikre-Mamo**: Master the art of learning to overcome challenges.  
 - **KimaciaJnr**: Most people are ready to help.  
 - **Collyns-Linc**: Constant practice improves ability; teamwork is key.  
-- **Nouranaia**: Stay flexible.  
+- **Nouranaia**: Stay flexible.
+- **Ammar**: The time you invest in planning, especially in group work,
+will pay off much more than the effort it takes.
 
 ---
 
@@ -51,14 +59,21 @@
 - **Fikre-Mamo**: Learning Git and GitHub.  
 - **KimaciaJnr**: Understanding PRs and committing.  
 - **Collyns-Linc**: Mastering Python basics and global collaboration.  
-- **Nouranaia**: Met milestones.  
+- **Nouranaia**: Met milestones.
+- **Ammar**: Being able to learn the basic concepts of Git,
+GitHub, documenting, testing, and writing clear code without
+backgorung on them.
+Also the group work and helping between members as much as possible
+was great as we expected it to be
 
 ### What parts of your plan did not work out?
 
 - **Fikre-Mamo**: Mastering teamwork and communication>
 - **KimaciaJnr**: Coordinating with teammates due to time differences.  
 - **Collyns-Linc**: Time management at the start of the project.  
-- **Nouranaia**: Unrealistic timelines.  
+- **Nouranaia**: Unrealistic timelines.
+- **Ammar**: being able to collaborate more and setting up meetings to
+follow up the workflow
 
 ### Did you need to add things that weren’t in your strategy?
 

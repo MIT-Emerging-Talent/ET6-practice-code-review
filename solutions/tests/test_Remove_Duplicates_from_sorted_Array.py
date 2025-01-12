@@ -7,7 +7,10 @@ Created on 11/01/2025
 
 import unittest
 
-from solutions.remove_duplicates_from_sorted_array import remove_duplicates_from_sorted_array
+from solutions.Remove_Duplicates_from_Sorted_Array import (
+    Remove_Duplicates_from_Sorted_Array,
+)
+
 
 class TestRemoveDuplicatesFromSortedArray(unittest.TestCase):
     """Test the remove_duplicates_from_sorted_array function"""
@@ -15,9 +18,8 @@ class TestRemoveDuplicatesFromSortedArray(unittest.TestCase):
     def test_basic_example(self):
         """Should remove duplicates in a basic sorted array"""
         nums = [1, 1, 2]
-        length = remove_duplicates_from_sorted_array(nums) 
+        length = remove_duplicates_from_sorted_array(nums)
         self.assertEqual(length, 2)
-        
 
     def test_longer_array_with_duplicates(self):
         """Should remove duplicates from a longer sorted array"""

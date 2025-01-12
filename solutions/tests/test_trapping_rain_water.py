@@ -15,6 +15,9 @@ Created on 12.01.2025
 import unittest
 from ..trapping_rain_water import trap
 
+class TestTrappingRainWater(unittest.TestCase):
+    """Test the trapping_rain_water function """
+
 
 def test_trap():
     """

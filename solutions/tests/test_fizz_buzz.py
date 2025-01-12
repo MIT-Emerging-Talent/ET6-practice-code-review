@@ -1,88 +1,76 @@
 """
-Unit tests for the fizzbuzz function from the solutions.fizz_buzz module.
+Unit tests for the fizz_buzz function from the solutions.fizz_buzz module.
 
-This class uses the unittest framework to validate the behavior of the fizzbuzz function
+This class uses the unittest framework to validate the behavior of the fizz_buzz function
 across various input values, ensuring it produces the correct output lists. Tests include
-cases for n = 0, 1, 3, 5, and 15, verifying the proper inclusion of Fizz, Buzz, and FizzBuzz 
-in the outputs.
+cases for n = 1, 3, 5, 15, and additional edge cases to comprehensively test the function.
 """
 
 import unittest
-import sys
-import os
-
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 from solutions.fizz_buzz import fizz_buzz
 
 
 class TestFizzBuzz(unittest.TestCase):
-    """Test cases for the fizzbuzz function.
+    """Test cases for the fizz_buzz function.
 
-    This class contains unit tests for the fizzbuzz function to ensure
+    This class contains unit tests for the fizz_buzz function to ensure
     that it produces the expected output for various input values.
     """
 
     def test_fizzbuzz_15(self):
-        """Test FizzBuzz for n = 15.
-
-        This test checks that the output for n=15 matches the expected
-        list which includes Fizz, Buzz, and FizzBuzz at the correct
-        positions.
-        """
+        """Test FizzBuzz for n = 15."""
         expected = [
-            1,
-            2,
-            "Fizz",
-            4,
-            "Buzz",
-            "Fizz",
-            7,
-            8,
-            "Fizz",
-            "Buzz",
-            11,
-            "Fizz",
-            13,
-            14,
-            "FizzBuzz",
+            1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz",
+            "Buzz", 11, "Fizz", 13, 14, "FizzBuzz"
         ]
         self.assertEqual(fizz_buzz(15), expected)
 
     def test_fizzbuzz_3(self):
-        """Test FizzBuzz for n = 3.
-
-        This test checks that for n=3, the output should return
-        a list containing the numbers 1, 2, and 'Fizz'.
-        """
+        """Test FizzBuzz for n = 3."""
         expected = [1, 2, "Fizz"]
         self.assertEqual(fizz_buzz(3), expected)
 
     def test_fizzbuzz_5(self):
-        """Test FizzBuzz for n = 5.
-
-        This test verifies that for n=5, the output list includes
-        numbers 1, 2, 'Fizz', 4, and 'Buzz'.
-        """
+        """Test FizzBuzz for n = 5."""
         expected = [1, 2, "Fizz", 4, "Buzz"]
         self.assertEqual(fizz_buzz(5), expected)
 
     def test_fizzbuzz_1(self):
-        """Test FizzBuzz for n = 1.
-
-        This test checks that for n=1, the output should simply be
-        a list containing the number 1.
-        """
+        """Test FizzBuzz for n = 1."""
         expected = [1]
         self.assertEqual(fizz_buzz(1), expected)
 
-    def test_fizzbuzz_0(self):
-        """Test FizzBuzz for n = 0.
+    def test_fizzbuzz_zero(self):
+        """Test FizzBuzz for n = 0."""
+        with self.assertRaises(ValueError):
+            fizz_buzz(0)
 
-        This test checks that for n=0, the output should be an
-        empty list since there are no numbers to include.
-        """
-        expected = []
-        self.assertEqual(fizz_buzz(0), expected)
+    def test_fizzbuzz_negative(self):
+        """Test FizzBuzz for negative n."""
+        with self.assertRaises(ValueError):
+            fizz_buzz(-5)
+
+    def test_fizzbuzz_non_integer(self):
+        """Test FizzBuzz for non-integer n."""
+        non_integers = [3.5, "string", None, [], {}, (), 2.0]
+        for value in non_integers:
+            with self.assertRaises(TypeError):
+                fizz_buzz(value)
+
+    def test_fizzbuzz_large_number(self):
+        """Test FizzBuzz for a larger number n = 30."""
+        expected = [
+            1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz",
+            "Buzz", 11, "Fizz", 13, 14, "FizzBuzz", 16,
+            17, "Fizz", 19, "Buzz", "Fizz", 22, 23, "Fizz",
+            "Buzz", 26, "Fizz", 28, 29, "FizzBuzz"
+        ]
+        self.assertEqual(fizz_buzz(30), expected)
+
+    def test_fizzbuzz_edge_case(self):
+        """Test FizzBuzz for n = 2."""
+        expected = [1, 2]
+        self.assertEqual(fizz_buzz(2), expected)
 
 
 if __name__ == "__main__":

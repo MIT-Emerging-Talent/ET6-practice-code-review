@@ -6,8 +6,6 @@
 
 ## **Overview**
 
-Welcome to the **Git it Done** repository! 🎉
-
 This project is all about:
 
 - **Teamwork** 🤝

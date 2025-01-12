@@ -16,7 +16,9 @@ import unittest
 from ..trapping_rain_water import trap
 
 class TestTrappingRainWater(unittest.TestCase):
-    """Test the trapping_rain_water function """
+  """
+    Test the trapping_rain_water function 
+  """
 
 
 def test_trap():

@@ -52,8 +52,3 @@ def pine_tree_art(height: int = 10, trunk_width: int = 3, trunk_height: int = 3)
 
     # Return the tree as a single string with an extra newline at the end
     return "\n".join(tree) + "\n"
-
-
-# Example usage
-if __name__ == "__main__":
-    print(pine_tree_art())

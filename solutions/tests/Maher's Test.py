@@ -2,7 +2,7 @@ import unittest
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
-import matplotlib.pyplot as plt
+
 
 # Assuming the module is named housing_analysis and the functions are imported
 from housing_analysis import (
@@ -85,5 +85,5 @@ class TestHousingAnalysis(unittest.TestCase):
         except Exception as e:
             self.fail(f"Full pipeline failed with error: {e}")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     unittest.main()

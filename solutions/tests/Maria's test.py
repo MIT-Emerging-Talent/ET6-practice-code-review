@@ -46,5 +46,5 @@ class TestMinimizeChocolateDifference(unittest.TestCase):
         self.assertEqual(result, 2)
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     unittest.main()

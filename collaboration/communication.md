@@ -1,55 +1,87 @@
-<!--
-    this template is for inspiration, feel free to change it however you like!
-
-    Careful! be sure to protect your privacy when filling out this document
-        everything you write here will be public
-        so share only what you are comfortable sharing online
-        you can share the rest in confidence with you group by another channel
--->
 
 # Communication
+
+> In this readme file, we try to list communication-related issues.
+
+## How to navigate this file?
+
+- [Communication Schedule](#communication-schedule)
+- [Communication Channels](#communication-channels)
+- [Availability](#availability)
+- [Asking for Help](#asking-for-help)
 
 ______________________________________________________________________
 
 ## Communication Schedule
 
-| Day  | How | The topic of discussion   |
-|:-----|:---:|:-------------------------:|
-|      |     |                           |
+| Meeting | Frequency| How| The topic of discussion|
+|----------------|----------------|---------------|-----|
+| Brain Storming |  Weekly | Google Meet | Define norms, constraints, etc.|
+| Fixing issues  |  On demand | slack, Whatsapp | Fix issues on code and github|
 
 ## Communication Channels
 
-how often will we get in touch on each channel, and what we will discuss there:
-
-- **Issues**:
-- **Pull Requests**:
-- **Slack/Discord**:
-- **Video Calls**:
+```json
+[
+    {
+        "channel": "slack",
+        "purpose": "Discussions and providing assistance",
+        "frequency": "On demand"
+    },
+    {
+        "channel": "Google Meet",
+        "purpose": "Real time collaboration",
+        "frequency": "Daily/on demand"
+    },
+    {
+        "channel": "Github issues/discussions",
+        "purpose": "Discuss changes/code reviews",
+        "frequency": "On demand"
+    },
+        {
+        "channel": "Whatsapp",
+        "purpose": "Discuss general topics",
+        "frequency": "On demand"
+    },
+]
+```
 
 ______________________________________________________________________
 
 ## Availability
 
-### Availability for calling/messaging
+### Availability for calling/messaging 💬
 
-| Day       | Monday | Tuesday | Wednesday | Thursday | Friday |Saturday | Sunday|
-|-----------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------:|
-| _name_    ||||||||
+- ✅ means "Available at any time"
+- ❌ means "Not available"
+- 🫡 means "On demand"
 
-### How many hours everyone has per day
+| Name| Monday| Tuesday| Wednesday | Thursday | Friday| Saturday| Sunday| Timezone|
+|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+| Nagham al baba| ✅ | ✅| ✅ | ✅ | ✅| ✅| ✅| After 4:00 EET|
+| Salem Amassi | ✅|🫡|✅ | 10:00–13:00| Evening| 13:00–17:00 |❌ | EET (Palestine)|
+| Matvii Morozov| 12:00–15:00|12:00–15:00| 12:00–15:00| 12:00–15:00| 12:00–15:00|✅|✅|GMT+2|
+|Nelson Fodjo|18:00–20:00|18:00–20:00|18:00–20:00|18:00–20:00|18:00–20:00|18:00–20:00|18:00–20:00|WAT(GMT+1)|
 
-- name: _5h_;
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+### How many hours everyone has per day⌚
+
+- Salem: _3–5h_;
+- Nagham: _5h_;
+- Nelson: _3h_;
+- Matvii: _4h_;
 
 ## Asking for Help
 
-There's a fine line between confidently learning from your mistakes, and
-stubbornly getting no where. Here is a general guide for when to ask for help
-based on how long you've been stuck on the same problem:
+### **Knowing When to Seek Help** 🤔💡  
 
-1. _0 -> 30 min_: Try on your own
-1. _30 -> 60 min_: Ask your group for help
-1. _60+ min_: Tag your coaches in Slack or GitHub
+Striking the right balance between confident problem-solving and getting stuck
+in a loop can be tricky.
+Here’s a simple guide to help you decide when it’s time to reach out:  
+
+1. **_0 → 30 minutes_**: 🚀 Dive in and give it your best shot solo!  
+2. **_30 → 60 minutes_**: 🤝 Team up! Discuss with your group and
+brainstorm solutions together.  
+3. **_60+ minutes_**: 🆘 Call in reinforcements! Tag your coaches on **Slack** or
+**GitHub** for expert guidance.
+
+Remember, **404s** are here, we got your back 🫂

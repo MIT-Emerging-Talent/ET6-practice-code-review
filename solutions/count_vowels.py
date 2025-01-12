@@ -6,8 +6,8 @@ Function:
 - count_vowels: Counts vowels in a provided string.
 
 Raises:
-        TypeError: If the input `text` is not a string.
-        ValueError: If the input `text` is an empty string.
+        TypeError: If the input `s` is not a string.
+        ValueError: If the input `s` is an empty string.
 
 Example:
     >>> vowel_counter("Deadline")

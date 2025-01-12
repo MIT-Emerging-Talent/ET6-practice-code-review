@@ -60,6 +60,12 @@ class TestvalidAnagram(unittest.TestCase):
     def test_spaces(self):
         """It should handle spaces as regular characters."""
         self.assertTrue(valid_anagram("a b", "b a"))
+        
+    def test_long_strings(self):
+        """It should handle long strings with repeated characters efficiently."""
+        first_string = "a" * 10000 + "b" * 5000 + "c" * 3000
+        second_string = "c" * 3000 + "a" * 10000 + "b" * 5000
+        self.assertTrue(valid_anagram(first_string, second_string))
 
     def test_non_string_first_arg(self):
         """It should raise AssertionError for non-string first argument."""

@@ -34,11 +34,11 @@ def check_number_type(user_input: str) -> str:
         >>> check_number_type("")
         Traceback (most recent call last):
         ...
-        .ValueError:"Input cannot be empty. Enter a valid number."
+        ValueError:"Input cannot be empty. Enter a valid number."
         >>> check_number_type("Eman")
         Traceback (most recent call last):
         ...
-        .ValueError:"Please enter a valid number"
+        ValueError:"Please enter a valid number"
 
 
 

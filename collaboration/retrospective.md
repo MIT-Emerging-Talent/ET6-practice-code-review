@@ -1,5 +1,5 @@
 <!-- this template is for inspiration, feel free to change it however you like! -->
-<!--
+
 # Retrospective
 
 ## Stop Doing
@@ -55,3 +55,19 @@ I didn’t fully understand the CI checks at
 first, so fixing errors took more time.
 
 ### Did you need to add things that weren't in your strategy?
+- Had to spend additional time learning Ruff and its specific linting rules.
+- Learned how to configure pre-commit hooks for automating linting and formatting checks.
+
+### **Or remove extra steps?**
+
+- Simplified branch management by sticking to a single feature branch for the task instead of overcomplicating with multiple branches.
+- Avoided redundant checks by running all tests and linting together after each major change.
+=======
+Yes, I had to look up tutorials on GitHub
+features like labeling pull requests and managing CI errors.
+
+### Or remove extra steps?
+
+I simplified things by focusing only on the steps
+needed to complete the assignment and skipping
+any unnecessary experiments with GitHub.

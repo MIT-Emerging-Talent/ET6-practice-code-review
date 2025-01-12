@@ -12,7 +12,7 @@ def fizz_buzz(n):
     list: A list containing the numbers and/or string representations according to the rules.
 
     Example:
-    >>> fizzbuzz(15)
+    >>> fizz_buzz(15)
     [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz']
     """
     results = []  # Initialize an empty list to store the results

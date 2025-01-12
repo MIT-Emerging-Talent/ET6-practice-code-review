@@ -13,7 +13,7 @@ Author: Salem Amassi
 """
 
 
-def minion_game(text):
+def minion_game(text : str):
     """
     Determines the winner of the Minion Game based on the input string.
 

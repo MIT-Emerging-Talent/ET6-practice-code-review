@@ -20,8 +20,8 @@ def remove_suplicates_from_sorted_array(nums: list[int]) -> int:
              will contain only unique elements.
 
     Raises:
-        TypeError: If nums is not a list of integers.
-        IndexError: If nums is modified externally during execution.
+        TypeError: If Nums is not a list of integers.
+        IndexError: If Nums is modified externally during execution.
 
     Examples:
     >>> nums = [1, 1, 2]

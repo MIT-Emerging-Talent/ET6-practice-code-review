@@ -1,6 +1,18 @@
+"""
+This module contains unit tests for the count_vowels module.
+It includes test cases for the following function:
+- count_vowels: Test the function that counts vowels in a string.
+
+Tests cover various cases including normal strings, empty strings, and case insensitivity.
+
+Usage:
+    Run tests using unittest framework:
+    >>> python -m unittest test_vowel_counter.py
+"""
+
 import unittest
 
-from solutions.count_vowels import count_vowels  # Import the count_vowels function
+from ..count_vowels import count_vowels  # Import the count_vowels function
 
 
 class TestCountVowels(unittest.TestCase):
@@ -17,14 +29,6 @@ class TestCountVowels(unittest.TestCase):
         typical string with mixed characters.
         """
         self.assertEqual(count_vowels("Nagham"), 2)
-
-    def test_count_vowels_empty(self):
-        """Test counting vowels in an empty string.
-
-        This test verifies that the function returns 0 when the input string
-        is empty.
-        """
-        self.assertEqual(count_vowels(""), 0)
 
     def test_count_vowels_no_vowels(self):
         """Test counting vowels in a string with no vowels.
@@ -49,6 +53,22 @@ class TestCountVowels(unittest.TestCase):
         that contains spaces and punctuation.
         """
         self.assertEqual(count_vowels("Hello World!"), 3)
+
+    # Defensive assertion tests
+    def test_invalid_input_type_integer(self):
+        """Test that the function raises a TypeError for non-string input (integer)."""
+        with self.assertRaises(TypeError):
+            count_vowels(12345)
+
+    def test_invalid_input_type_list(self):
+        """Test that the function raises a TypeError for non-string input (list)."""
+        with self.assertRaises(TypeError):
+            count_vowels(["a", "b", "c"])
+
+    def test_empty_string(self):
+        """Test that the function raises a ValueError for an empty string."""
+        with self.assertRaises(ValueError):
+            count_vowels("")
 
 
 if __name__ == "__main__":

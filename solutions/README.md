@@ -43,7 +43,7 @@ while corresponding test files are maintained in the `tests` folder.
 | `password_strength.py` | Checks the strength of a password| Anas |
 | `decimal_to_binary.py` | Converts decimal to its equivalent binary| Anas |
 | `is_positive.py` | Determines if a given number is positive | Faisal |
-| `is_palindrome.py` | Checks if a string is a palindrome ignoring case and special characters | Faisal |
+| `is_palindrome.py` | Checks string palindrome properties | Faisal |
 
 ---
 

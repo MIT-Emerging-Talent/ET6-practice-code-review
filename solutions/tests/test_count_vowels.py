@@ -12,7 +12,7 @@ Usage:
 
 import unittest
 
-from ..count_vowels import count_vowels  # Import the count_vowels function
+from solutions.count_vowels import count_vowels  # Import the count_vowels function
 
 
 class TestCountVowels(unittest.TestCase):

@@ -21,7 +21,15 @@ def letter_combinations(digits: str) -> list[str]:
 
     :raises AssertionError: If `digits` is not a string.
     :raises AssertionError: If `digits` contains characters outside '2'..'9'.
-    :raises AssertionError: If `digits` is longer than 4 characters."""
+    :raises AssertionError: If `digits` is longer than 4 characters.
+
+    >>> letter_combinations('23') 
+    ['ad', 'ae', 'af', 'bd', 'be', 'bf', 'cd', 'ce', 'cf']
+    >>> letter_combinations('2')
+    ['a', 'b', 'c']
+    >>> letter_combinations('')
+    []
+    """
 
     assert isinstance(digits, str), "digits must be a string"
     assert len(digits) <= 4, "digits can have at most 4 characters"

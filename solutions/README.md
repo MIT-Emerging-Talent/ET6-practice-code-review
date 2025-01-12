@@ -27,6 +27,7 @@ while corresponding test files are maintained in the `tests` folder.
 | `is_prime.py` | determine whether a given number is prime. | Fahed|
 | `gcd.py` | A function to calculate the greatest common divisor (GCD)| Fahed|
 | `kronecker_product.py` | Computes the Kronecker ⊗ product of 2 matrices | Fahed|
+| `fibonacci.py` | Generates Fibonacci sequences up to n terms | Fahed |
 | `direction_to_degree.py` | Convert a cardinal direction to degree | Obay |
 | `check_odd_or_even.py` | Checks if a number is odd or even | Clement |
 | `grading_system.py`| Assigning letter grade to a numeric score.  | Razan |

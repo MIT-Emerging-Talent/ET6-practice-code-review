@@ -3,17 +3,23 @@
 """
 Created on 11/01/2025
 @author: Dorcas Wanja Njeri
+
+Script to check if an integer is a palindrome.
+A palindrome number is one that remains the same when its digits are reversed.
+The script includes basic unit tests to validate the correctness
+of the function with various test cases.
+
 """
 
 def is_palindrome_number(x: int) -> bool:
-    """
+    """"
     Determines if a given integer is a palindrome number.
     
     A palindrome number is one that remains the same when its digits are reversed.
-    
+
     Parameters:
         x (int): The integer to check for palindrome.
-        
+
     Returns:
         bool: True if the number is a palindrome, False otherwise.
         

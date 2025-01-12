@@ -16,16 +16,25 @@ def check_number_type(user_input: str) -> str:
     Parameters:
         user_input (str):  str
     Raises:
-        AssertionError: if the argument is not a integer or empty
+        ValueError: If the input is empty.
+        ValueError: If the input is not a valid integer.
 
     Returns:
         results will be a text whether "The number is even", "The number is odd"
-        or "Enter a valid number "
+        or raises an appropriate error.
         Examples :
         >>> check_number_type("20")
         "The number is even"
         >>> check_number_type("11")
         "The number is odd"
+        >>> check_number_type("-11")
+        "The number is odd"
+        >>> check_number_type("")
+        "Input cannot be empty. Enter a valid number."
+        >>> check_number_type("Eman")
+        "Enter a valid number"
+
+
     """
     user_input = user_input.strip()
     # Check if it is empty

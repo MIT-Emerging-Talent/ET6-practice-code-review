@@ -4,8 +4,9 @@
 Created on 11/01/2025
 @author: Dorcas Wanja Njeri
 """
+from typing import List   
 
-def remove_duplicates_from_sorted_array(nums: list) -> int:
+def Remove_Duplicates_from_Sorted_Array(nums: list[int]) -> int:
     """
     Challenge: Remove Duplicates from Sorted Array
     Removes duplicates from a sorted array in place and returns the new length.

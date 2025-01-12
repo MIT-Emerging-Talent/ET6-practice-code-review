@@ -9,14 +9,14 @@ Created on: 2025-01-11
 """
 
 
-def valid_anagram(str1: str, str2: str) -> bool:
+def valid_anagram(first_word: str, second_word: str) -> bool:
     """
     Returns True if two strings are anagrams, otherwise False.
 
     Args:
-        str1: First string to compare
+        first_word: First string to compare
             Must be a string containing any characters
-        str2: Second string to compare
+        second_word: Second string to compare
             Must be a string containing any characters
 
     Returns:
@@ -35,22 +35,22 @@ def valid_anagram(str1: str, str2: str) -> bool:
     """
 
     # Ensure both inputs are strings
-    assert isinstance(str1, str), "First argument must be a string"
-    assert isinstance(str2, str), "Second argument must be a string"
+    assert isinstance(first_word, str), "First argument must be a string"
+    assert isinstance(second_word, str), "Second argument must be a string"
 
     # Anagrams must be of equal length
-    if len(str1) != len(str2):
+    if len(first_word) != len(second_word):
         return False
 
     # Create character frequency dictionary
     char_count = {}
 
     # Count occurrences of each character in str1
-    for char in str1:
+    for char in first_word:
         char_count[char] = char_count.get(char, 0) + 1
 
     # Decrease character counts and check if any character is missing or overused
-    for char in str2:
+    for char in second_word:
         if char not in char_count:
             return False
         char_count[char] -= 1

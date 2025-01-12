@@ -11,7 +11,7 @@ including handling edge cases and defensive assertions.
 import unittest
 
 
-from check_coprime import check_coprime
+from solutions.check_coprime import check_coprime
 
 
 class TestCoprimeFunction(unittest.TestCase):

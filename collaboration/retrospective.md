@@ -33,7 +33,7 @@ we've created together.
 
 ### 📚 Ahmed - Lessons Learned
 
-- "اليد الواحدة ما بتصفق" (One hand cannot clap by itself).  
+- One hand cannot clap by itself (اليد الواحدة ما بتصفق).
 - We can learn anything with effort and teamwork.
 
 ---

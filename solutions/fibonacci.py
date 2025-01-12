@@ -2,16 +2,16 @@
 # -*- coding: utf-8 -*-
 
 """
-fibonacci.py
+A module for generating Fibonacci sequences.
 
-This module provides a function to generate the Fibonacci sequence up to the given number of terms.
-The Fibonacci sequence is a series of numbers where each number is
-the sum of the two preceding ones,
-starting with 0 and 1.
+Module contents:
+- generate_fibonacci: Generates Fibonacci sequence up to n terms.
+
+The Fibonacci sequence is a series of numbers where each number is the sum of the two
+preceding ones, starting with 0 and 1.
 
 Author: Fahed Daibes
-Date:  Jan 12 2025
-Group: ET6-foundations-group-16
+Created: 12-Jan-2025
 """
 
 

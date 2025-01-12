@@ -33,5 +33,5 @@ class TestChickenNuggetFun(unittest.TestCase):
         # Restore original stdout
         sys.stdout = original_stdout
 
-if _name_ == '_main_':
-    unittest.main()
+if __name__ == "__main__":
+unittest.main()

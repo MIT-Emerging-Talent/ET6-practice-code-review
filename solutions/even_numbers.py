@@ -34,9 +34,9 @@ def is_even(number: int) -> bool:
     >>> is_even(-4)
     True
     """
-    assert isinstance(number, int) and not isinstance(number, bool), (
-        "the input number must be an integer and not a boolean"
-    )
+    assert isinstance(number, int) and not isinstance(
+        number, bool
+    ), "the input number must be an integer and not a boolean"
     # Return True if the number is even, False otherwise
     return number % 2 == 0
 

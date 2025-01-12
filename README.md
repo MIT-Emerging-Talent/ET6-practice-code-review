@@ -23,3 +23,13 @@ _The goal is to demonstrate robust development workflows suitable for profession
 🧑‍💻 **Technologies Used**
 
 Python: 100% of the codebase.
+
+Our Approach-
+
+1. Code Quality: Automated checks enforce clean and consistent code.
+
+2. Early Bug Detection: CI pipeline identifies issues before merging code.
+
+3. Team Collaboration: Standardized practices make it easier for teams to collaborate.
+
+4. Faster Development: Automating testing and formatting saves time during reviews.

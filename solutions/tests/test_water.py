@@ -1,7 +1,11 @@
 import unittest
 from solutions.water_solution import calculate_water_intake
+
+
 class TestWaterIntakeCalculator(unittest.TestCase):
     """To test the calculate_water_intake function."""
+
+
 def test_low_activity_temperate():
     """Test for low activity in temperate climate."""
     assert calculate_water_intake(70, "Low", "Temperate") == 2.31

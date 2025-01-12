@@ -16,7 +16,9 @@ Date: [Jan 12,2025]
 """
 
 import unittest
-from solutions.nilofar_solution import calculate_bmi  # Import the function from the solution file
+from solutions.nilofar_solution import (
+    calculate_bmi,
+)  # Import the function from the solution file
 
 
 class TestBMICalculator(unittest.TestCase):

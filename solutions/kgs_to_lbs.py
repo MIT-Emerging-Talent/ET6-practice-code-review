@@ -67,7 +67,3 @@ class TestKgToLbs(unittest.TestCase):
     def test_large_value(self):
         """Test conversion for large values."""
         self.assertAlmostEqual(kg_to_lbs(1000), 2204.62, places=2)
-
-
-if _name_ == "_main_":
-    unittest.main()

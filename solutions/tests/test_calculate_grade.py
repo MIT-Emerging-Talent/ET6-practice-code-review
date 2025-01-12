@@ -85,9 +85,11 @@ class TestCalculateGrade(unittest.TestCase):
         """Test that float scores are handled correctly."""
         self.assertEqual(calculate_grade(89.99), "B")
 
-    def test_zero_decimal(self):
-        """Test score with zero decimal."""
-        self.assertEqual(calculate_grade(90.0), "A")
+    def test_dict_input(self):
+    """Test that dict input raises AssertionError."""
+    with self.assertRaises(AssertionError) as context:
+        calculate_grade({"score": 90})
+    self.assertEqual(str(context.exception), "Score must be a number")
 
 
 if __name__ == "__main__":

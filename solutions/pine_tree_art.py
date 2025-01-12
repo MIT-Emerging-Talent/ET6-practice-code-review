@@ -9,7 +9,7 @@ Created: 01/09/2025
 """
 
 
-def draw_tree(height: int = 10, trunk_width: int = 3, trunk_height: int = 3) -> str:
+def pine_tree_art(height: int = 10, trunk_width: int = 3, trunk_height: int = 3) -> str:
     """
     Generate an ASCII art representation of a pine tree.
 
@@ -20,17 +20,16 @@ def draw_tree(height: int = 10, trunk_width: int = 3, trunk_height: int = 3) -> 
 
     Returns:
         str: The generated ASCII art as a string.
-
-    Example:
-        >>> print(draw_tree(height=5, trunk_width=3, trunk_height=2))
-             *
-            ***
-           *****
-          *******
-         *********
-            |||
-            |||
     """
+
+    # Type checks
+    if (
+        not isinstance(height, int)
+        or not isinstance(trunk_width, int)
+        or not isinstance(trunk_height, int)
+    ):
+        raise TypeError("Height, trunk_width, and trunk_height must be integers")
+
     # Defensive assertions
     if height <= 0:
         raise ValueError("Height must be a positive integer")
@@ -51,9 +50,10 @@ def draw_tree(height: int = 10, trunk_width: int = 3, trunk_height: int = 3) -> 
     for _ in range(trunk_height):
         tree.append(trunk)
 
-    # Return the tree as a single string
-    return "\n".join(tree)
+    # Return the tree as a single string with an extra newline at the end
+    return "\n".join(tree) + "\n"
 
 
+# Example usage
 if __name__ == "__main__":
-    print(draw_tree())
+    print(pine_tree_art())

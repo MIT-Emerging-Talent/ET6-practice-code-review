@@ -2,8 +2,9 @@ import unittest
 from unittest.mock import patch
 from io import StringIO
 
-# Assume the main Tic-Tac-Toe functions are imported from the main file
-# Example: from tic_tac_toe_game import print_board, check_winner, is_full, tic_tac_toe
+# Assuming the main Tic-Tac-Toe functions are imported from the main file
+# Example import statement: 
+# from tic_tac_toe_game import check_winner, is_full, tic_tac_toe
 
 class TestTicTacToe(unittest.TestCase):
     def test_check_winner_rows(self):

@@ -40,8 +40,12 @@ environment that provides support and help to every member in need.
 
 - ### **Obey**
 
-  - Fully understand python basics from Evan's guides.
   - Write clear code that is easy to be understood even if it is complex.
+  - Master advanced coding skills and best practices.
+  - Collaborate effectively in diverse teams.
+  - Enhance problem-solving and critical thinking abilities.
+  - Gain hands-on experience with industry tools and technologies.
+  - Build a strong professional network with mentors and peers.
 
 - ### **Razan Ibrahim**
 

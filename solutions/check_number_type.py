@@ -33,7 +33,7 @@ def check_number_type(user_input: str) -> str:
         >>> check_number_type("")
         "Input cannot be empty. Enter a valid number."
         >>> check_number_type("Eman")
-        "Enter a valid number"
+        "Please enter a valid number"
 
 
     """
@@ -43,7 +43,7 @@ def check_number_type(user_input: str) -> str:
         raise ValueError("Input cannot be empty. Enter a valid number.")
     # check if it is a number
     if not user_input.lstrip("-").isdigit():
-        raise ValueError("Enter a valid number")
+        raise ValueError("Please enter a valid number")
     number = int(user_input)
     # Check if the number is even or odd
     if number % 2 == 0:

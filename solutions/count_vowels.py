@@ -41,6 +41,6 @@ def count_vowels(input_string: str) -> int:
 
     # Define a set of vowels for quick lookup
     vowels = set("aeiouAEIOU")
-    
+
     # Count and return the number of vowels in the string
     return sum(1 for char in input_string if char in vowels)

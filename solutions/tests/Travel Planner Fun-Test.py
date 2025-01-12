@@ -23,5 +23,5 @@ class TestTravelPlanner(unittest.TestCase):
         self.assertIn(trip["activity"], self.planner.activities)
         self.assertIn(trip["tip"], self.planner.tips)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     unittest.main()

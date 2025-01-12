@@ -66,4 +66,4 @@ goal of growth and collaboration. Here are the amazing members of **Git it Done*
 
 - [**Durgesh**](https://github.com/Durgesh976)
 
-Togather we **Get things done**
+together we **Get things done**

@@ -7,9 +7,6 @@ The nth triangular number can be calculated using the formula: n * (n + 1) / 2.
 This module offers the following functionality:
 
 - `generate_triangular_numbers(n)`: Generates a list of the first n triangular numbers.
-
-Created on XX XX XX
-@author: Nelson Fodjo & Gemini AI
 """
 
 

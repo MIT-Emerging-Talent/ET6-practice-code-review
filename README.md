@@ -38,6 +38,11 @@ problem-solving. Here's a brief introduction to our team members:
   *Fun Fact:* "I'm a medical student who codes and leads teams—blending science,
    tech, and leadership in a unique way! I also love cats."
 
+- **Rouaa 🍲**
+  *Fun Fact:* "With all my responsibilities between home and study, I still find
+  the most fun in cooking up meals for my family—because good food is the best
+  way to bring everyone together!"
+
 ---
 
 ## 📌 Purpose of this Repository
@@ -124,3 +129,5 @@ As the MIT Avatars, we aim to:
 🔗 **Group Repository:**  
 Check out our repository:  
 [MIT-Emerging-Talent/ET6-foundations-group-17](https://github.com/MIT-Emerging-Talent/ET6-foundations-group-17)
+
+![Contributors](https://img.shields.io/github/contributors/MIT-Emerging-Talent/ET6-foundations-group-17)

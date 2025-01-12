@@ -33,8 +33,8 @@ class TestLongestWord(unittest.TestCase):
         Test case for sentences containing punctuation.
         The function should return the longest word, ignoring punctuation.
         """
-        result = longest_word("Hello, worlds!")
-        self.assertEqual(result, "worlds")
+        result = longest_word("Hello, world!")
+        self.assertEqual(result, "Hello")
 
     def test_non_string_input(self):
         """

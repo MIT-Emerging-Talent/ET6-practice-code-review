@@ -31,7 +31,9 @@ def conv_bin_dec(bin: str) -> int:
     AssertionError:"Argument is not a binary number."
     """
     bin = bin.replace(" ", "")  # remove spaces from the argument
-    assert all(char in "01" for char in bin), (
+    assert all(
+        char in "01" for char in bin
+    ), (
         "argument is not a binary number."
     )  # an assertion error raises if the argument is not a binary numbers
     rev_bin = bin[::-1]  # reverse the binary number from left to right

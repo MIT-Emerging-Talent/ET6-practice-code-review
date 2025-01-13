@@ -16,7 +16,7 @@ from solutions.merge_two_sorted_lists import merge_two_sorted_lists
 
 class TestMergeTwoLists(unittest.TestCase):
     """Tests for the merge_two_sorted_lists function"""
-    
+
     def test_two_single_digit_lists(self):
         """Should return a single sorted list merged from the two single-digit lists"""
         actual = merge_two_sorted_lists([1, 3, 5], [2, 4, 6])
@@ -40,13 +40,13 @@ class TestMergeTwoLists(unittest.TestCase):
         actual = merge_two_sorted_lists([1, 4], [2, 3, 5, 6])
         expected = [1, 2, 3, 4, 5, 6]
         self.assertEqual(actual, expected)
-        
+
     def test_equal_length_lists(self):
         """Should return a single sorted list when both lists have the same length"""
         actual = merge_two_sorted_lists([1, 3, 5], [2, 4, 6])
         expected = [1, 2, 3, 4, 5, 6]
         self.assertEqual(actual, expected)
-        
+
     def test_lists_with_negatives(self):
         """Should return a single sorted list with negative numbers"""
         actual = merge_two_sorted_lists([-5, -2, 0], [-4, 1, 3])

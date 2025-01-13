@@ -6,7 +6,7 @@ Created on 11/01/2025
 """
 
 
-def remove_suplicates_from_sorted_array(nums: list[int]) -> int:
+def remove_Duplicates_from_sorted_array(nums: list[int]) -> int:
     """
     Challenge: Remove Duplicates from Sorted Array
     Removes duplicates from a sorted array in place and returns the new length.
@@ -25,19 +25,19 @@ def remove_suplicates_from_sorted_array(nums: list[int]) -> int:
 
     Examples:
     >>> nums = [1, 1, 2]
-    >>> remove_suplicates_from_sorted_array(nums)
+    >>> remove_duplicates_from_sorted_array(nums)
     2
     >>> nums[:2]
     [1, 2]
 
     >>> nums = [0, 0, 1, 1, 2, 2, 3, 3, 4]
-    >>> remove_suplicates_from_sorted_array(nums)
+    >>> remove_duplicates_from_sorted_array(nums)
     5
     >>> nums[:5]
     [0, 1, 2, 3, 4]
 
     >>> nums = []
-    >>> remove_suplicates_from_sorted_array(nums)
+    >>> remove_duplicates_from_sorted_array(nums)
     0
     """
     if not isinstance(nums, list):

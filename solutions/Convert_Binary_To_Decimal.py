@@ -8,10 +8,10 @@ Author : Taher Shaban
 """
 
 
-def conv_bin_dec(bin: str) -> int:
+def conv_bin_dec(biner: str) -> int:
     """this function convert binary numbers to decimal
     Parameters:
-    bin [str] : this string contain 0's and 1's represent the binary number
+    bi [str] : this string contain 0's and 1's represent the binary number
 
     return:
 
@@ -21,20 +21,20 @@ def conv_bin_dec(bin: str) -> int:
 
     if the figure contains characters other than '0' or '1'
 
-    >>> conv_bin_dec("00000110")
+    >>> conv_biner_dec("00000110")
     6
-    >>> conv_bin_dec("00001111")
+    >>> conv_biner_dec("00001111")
     15
-    >>> conv_bin_dec("00010010")
+    >>> conv_biner_dec("00010010")
     18
-    >>> conv_bin_dec("001r001")
+    >>> conv_biner_dec("001r001")
     AssertionError:"Argument is not a binary number."
     """
-    bin = bin.replace(" ", "")  # remove spaces from the argument
-    assert all(char in "01" for char in bin), (
-        "argument is not a binary number."
-    )  # an assertion error raises if the argument is not a binary numbers
-    rev_bin = bin[::-1]  # reverse the binary number from left to right
+    biner = biner.replace(" ", "")  # remove spaces from the argument
+    assert all(
+        char in "01" for char in biner
+    ), "argument is not a binary number."  # an assertion error raises if the argument is not a binary numbers
+    rev_bin = bi[::-1]  # reverse the binary number from left to right
 
     bin_list = list(
         map(int, rev_bin)

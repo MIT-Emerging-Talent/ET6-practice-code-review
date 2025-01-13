@@ -1,8 +1,0 @@
-[tool.ruff]
-line-length = 88
-
-[tool.ruff.lint]
-ignore = [
-    "E501", # Ignore line length issues
-    "F401", # Ignore unused imports
-]

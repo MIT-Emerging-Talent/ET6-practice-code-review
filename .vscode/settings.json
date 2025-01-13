@@ -111,12 +111,19 @@
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
-  
+
+   //--------Python formatting ----------------
+  "[python]": {
+    "editor.defaultFormatter":"charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.ruff": "explicit",
+      "source.fixAll.ruff":"explicit",
+      "sourse.organizeImports.ruff":"explicit"
+    },
+
+    "editor.formatOnSave": true
+  },
+
   // Enable/disable update table of contents on save
   "markdown.extension.toc.updateOnSave": false,
-<<<<<<< HEAD
-  "cSpell.words": ["Jawid", "Meklit"]
-=======
-  "cSpell.words": ["Alona", "Meklit", "Mushtary", "Rumiya", "Sadet"]
->>>>>>> 15a2032496f60104ba220ab4c971ec23a82e3ab6
 }

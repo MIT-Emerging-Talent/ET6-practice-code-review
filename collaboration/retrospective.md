@@ -1,23 +1,65 @@
 <!-- this template is for inspiration, feel free to change it however you like! -->
 
+<!--- In progress...-->
+
 # Retrospective
 
-## Stop Doing
+## Stop Doing🚫
 
-## Continue Doing
+- Writing incomplete commit messages
+- Doing too many commits for minor changes
 
-## Start Doing
+## Continue Doing 🔄
 
-## Lessons Learned
+- Checking the project board regularly.
+- Asking teammates if any help is needed.
+- Maintaining a clean and structured repository with clear README documentation.
+- Following the rule: 1 task = 1 branch.
+- Respecting and appreciating each other’s contributions and ideas.
+- Leveraging teamwork to solve complex challenges more effectively.
+
+## Start Doing🚀
+
+- Optimize amount of branches, commits to avoid cluttering the project.
+- Practicing and honing skills through regular coding exercises and challenges.
+- Writing detailed notes during development for improved knowledge retention.
+
+## Lessons Learned💡
+
+- **Effective pull request management**: Improved code quality and helped catch
+   bugs early.
+
+- **Frequent remote repository syncing**: Prevented merge conflicts
+and streamlined collaboration.
+- **Teamwork triumphs**: Collaborative efforts accelerated development
+ and enhanced overall project quality.
+- **Respect wins**: Valuing diverse perspectives fostered creativity
+ and innovation within the team.
+- **Strict to our rules**: we have should follow some rules we announced in the early
+  stage.
 
 ______________________________________________________________________
 
-## Strategy vs. Board
+## Strategy vs. Board🗂️
 
 ### What parts of your plan went as expected?
 
+- Pull requests were reviewed and merged according to the workflow plan.
+- Deadlines were met consistently, showcasing strong planning and execution.
+- Team members actively supported one another, ensuring no one felt stuck or overwhelmed.
+
 ### What parts of your plan did not work out?
+
+- Some minor ideas were not fully implemented as planned.
+- Some tasks took longer than expected due to unforeseen challenges and dependencies.
+- We have should divide big feature to smaller features with independent branches
+like collaboration branch.
 
 ### Did you need to add things that weren't in your strategy?
 
+- Implemented a process for promptly resolving CI check issues.
+- Established a process for efficiently handling merge conflicts.
+
 ### Or remove extra steps?
+
+- Stopped requiring a review for very small, trivial changes to save time.

@@ -33,8 +33,10 @@ def conv_bin_dec(biner: str) -> int:
     biner = biner.replace(" ", "")  # remove spaces from the argument
     assert all(
         char in "01" for char in biner
-    ), "argument is not a binary number."  # an assertion error raises if the argument is not a binary numbers
-    rev_bin = bi[::-1]  # reverse the binary number from left to right
+    ), (
+        "argument is not a binary number."
+    )  # an assertion error raises if the argument is not a binary numbers
+    rev_bin = biner[::-1]  # reverse the binary number from left to right
 
     bin_list = list(
         map(int, rev_bin)

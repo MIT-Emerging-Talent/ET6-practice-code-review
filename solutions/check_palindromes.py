@@ -35,15 +35,15 @@ def check_palindromes(words_to_check: List[str]) -> None:
     'Test' is not a palindrome.
 
     """
+    if not isinstance(words_to_check, list):
+        raise TypeError("Input must be a list")
+
     for value in words_to_check:
+        if not isinstance(value, str):
+            raise TypeError("List must contain only strings")
         cleaned_value = "".join(filter(str.isalnum, value)).lower()
 
         if cleaned_value == cleaned_value[::-1]:
             print(f"'{value}' is a palindrome.")
         else:
             print(f"'{value}' is not a palindrome.")
-
-
-if __name__ == "__main__":
-    words_to_check_list = ["Radar", "12321", "Hello", "1.232.1", "12345", "aA", "Test"]
-    check_palindromes(words_to_check_list)

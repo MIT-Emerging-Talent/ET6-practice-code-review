@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-A module estimation of delivery time based on 2 arguments
+A module estimation of delivery time based on 2 argument
 
 Module contents:
     - Calculates the estimated delivery time based on the distance and average speed.

@@ -20,8 +20,21 @@ class TestFizzBuzz(unittest.TestCase):
     def test_fizzbuzz_15(self):
         """Test FizzBuzz for n = 15."""
         expected = [
-            1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz",
-            "Buzz", 11, "Fizz", 13, 14, "FizzBuzz"
+            1,
+            2,
+            "Fizz",
+            4,
+            "Buzz",
+            "Fizz",
+            7,
+            8,
+            "Fizz",
+            "Buzz",
+            11,
+            "Fizz",
+            13,
+            14,
+            "FizzBuzz",
         ]
         self.assertEqual(fizz_buzz(15), expected)
 
@@ -60,10 +73,36 @@ class TestFizzBuzz(unittest.TestCase):
     def test_fizzbuzz_large_number(self):
         """Test FizzBuzz for a larger number n = 30."""
         expected = [
-            1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz",
-            "Buzz", 11, "Fizz", 13, 14, "FizzBuzz", 16,
-            17, "Fizz", 19, "Buzz", "Fizz", 22, 23, "Fizz",
-            "Buzz", 26, "Fizz", 28, 29, "FizzBuzz"
+            1,
+            2,
+            "Fizz",
+            4,
+            "Buzz",
+            "Fizz",
+            7,
+            8,
+            "Fizz",
+            "Buzz",
+            11,
+            "Fizz",
+            13,
+            14,
+            "FizzBuzz",
+            16,
+            17,
+            "Fizz",
+            19,
+            "Buzz",
+            "Fizz",
+            22,
+            23,
+            "Fizz",
+            "Buzz",
+            26,
+            "Fizz",
+            28,
+            29,
+            "FizzBuzz",
         ]
         self.assertEqual(fizz_buzz(30), expected)
 

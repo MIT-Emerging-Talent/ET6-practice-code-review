@@ -5,6 +5,7 @@ Created on 11/01/2025
 @author: Dorcas Wanja Njeri
 """
 
+
 def Remove_Duplicates_from_sorted_Array(nums: list) -> int:
     """
     Challenge: Remove Duplicates from sorted Array

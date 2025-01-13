@@ -10,7 +10,6 @@ import unittest
 from ..Remove_Duplicates_from_sorted_Array import Remove_Duplicates_from_sorted_Array
 
 
-
 class TestRemoveDuplicatesFromSortedArray(unittest.TestCase):
     """Test the remove_duplicates_from_sorted_array function"""
 

@@ -34,9 +34,9 @@ def calculate_bmi(weight: float, height: float) -> float:
     31.08
     """
 
-    assert isinstance(weight, (float, int)) and isinstance(height, (float, int)), (
-        "Weight and Height must be a number (float or int)."
-    )
+    assert isinstance(weight, (float, int)) and isinstance(
+        height, (float, int)
+    ), "Weight and Height must be a number (float or int)."
 
     if weight <= 0 or height <= 0:
         raise ValueError("Weight and height must be positive numbers.")

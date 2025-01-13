@@ -5,9 +5,9 @@ Created on 11/01/2025
 @author: Dorcas Wanja Njeri
 """
 
-def remove_duplicates_from_sorted_array(nums: list) -> int:
+def Remove_Duplicates_from_sorted_Array(nums: list) -> int:
     """
-    Challenge: Remove Duplicates from Sorted Array
+    Challenge: Remove Duplicates from sorted Array
     Removes duplicates from a sorted array in place and returns the new length.
 
     Parameters:

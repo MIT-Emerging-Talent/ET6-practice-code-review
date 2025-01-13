@@ -1,50 +1,83 @@
-<!-- this template is for inspiration, feel free to change it however you like! -->
+# ![Alt Text](../assets/task-planner.png) Constraints
 
-# Constraints
+> In this readme, we explain potential **constraints** that limit our
+> productivity and achievement throughout the project.
 
-Some boundaries around our project.
+## ![Alt Text](../assets/outdoor.png) Constraints
 
-## External
+> For each team member, we will explain the constraints.
+
+### _Salem 👀_
+
+| Constraint          | Type     | Description|
+|:-------------------:|:--------:|:--------------------------------------------------:|
+| Power & internet 🛜  | External | I have limited hours when power is available.|
+| Deadlines ❌        | External | I have college deadlines and MET program deadlines.|
+
+### Nagham
+
+| Constraint          | Type     | Description |
+|:-------------------:|:--------:|:--------------------------------------------------:|
+| Internet 🛜        | External | Internet is not always available.|
+| Time Zone Differences 🕒 | External | It causes conflicts and delays progress.|
+
+### Nelson 😎
+
+| Constraint          | Type     | Description|
+|:-------------------:|:--------:|:---------------------------------------------:|
+| Deadline issues ❌  | External | I am preparing my application for college.   |
+| GitHub knowledge ❓ | Internal | I do not know how to use GitHub effectively.|
+
+### Matvii 😊
+
+| Constraint          | Type     | Description|
+|:-------------------:|:--------:|:--------------------------------------------------:|
+| Deadlines ❌        | External | University exams.|
+| Power & internet 🛜  | External | I might not have unlimited access to electricity.|
+
+#### Summary
+
+- **Connectivity Issues:** Some team members experience unreliable network connections,
+ impacting real-time collaboration.
+- **Time Zone Differences:** Varying time zones cause scheduling conflicts
+ and delays in progress.
+- **External Deadlines:** Academic deadlines like university exams
+ and college applications put pressure on team members' time.
+- **Technical Skills:** Some team members may need additional support
+ to effectively use tools like GitHub.
+
+## ![indoor](../assets/limited-access.png) Internal: Involuntary
+
+### Examples
 
 <!--
-  constraints coming from the outside that your team has no control over:
-  - project deadlines
-  - number of unit tests required to pass a code review
-  - technologies (sometimes a client will tell you what to use)
-  - power or connectivity
-  - ...
+  Constraints that come from within your team, and you have no control over:
+  - Each of your individual skill levels
+  - Amount of time available to work on the project
 -->
 
-- **Connectivity issues**: Some team members may experience unreliable network
-  connections, impacting real-time collaboration.
+### 1. Various Skill Levels 🎚️
 
-## Internal: Involuntary
+- Limited experience with specific tools, methodologies, or frameworks.
+- Uneven distribution of skills across team members.
 
-<!--
-  constraints that come from within your team, and you have no control over:
-  - each of your individual skill levels
-  - amount of time available to work on the project
--->
+### 2. Communication Challenges 💬
 
-- **Individual skill levels**: The team has varying levels of
-  programming expertise which may affect task assignments and peer reviews.
-- **Available time for project work**: Due to significant time zone
-  differences, scheduling meetings can be challenging.
+- Communication hardship due to limited resources of power and internet.
 
-## Internal: Voluntary
+### 3. Productivity Instability 🦥
 
-<!--
-  constraints that your team decided on to help scope the project. they may include:
-  - coding style & conventions
-  - agree on a code review checklist for the project repository
-  - the number of hours you want to spend working
-  - only using the colors black and white
--->
+- Due to unstable circumstances ongoing in team members' locations.
 
-- **Coding style & conventions**: Agree on a set of guidelines
-  for consistency across the codebase.
-- **Code review checklist**: Create a checklist to ensure thorough
-  reviews while accommodating varying skill levels.
-- **Desired hours to work per week**: Establish a flexible schedule
-  that considers team members' availability, possibly utilizing
-  asynchronous communication.
+## ![indoor](../assets/scope.png) Internal: Voluntary
+
+<img style="display: block; width: 500px; float: right; border-radius: 20%"
+ alt="blablab" src="../assets/internal-voluntary-constraints.png"/>
+
+- **Collaboration Constraints**: Set roles, use tools, and ensure teamwork.
+- **Quality Assurance Constraints**: Test, review, and automate checks.
+- **Documentation Constraints**: Maintain clear, and up-to-date documentation.
+- **Coding style & conventions**: Agree on a set of guidelines for consistency
+   across the codebase.
+- **Working hours**: Establish a flexible schedule that
+  considers team members' availability, possibly utilizing asynchronous communication.

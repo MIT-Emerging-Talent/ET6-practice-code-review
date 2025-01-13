@@ -6,7 +6,7 @@ Created on 11/01/2025
 """
 
 import unittest
-from ..Palindrome_Number import is_Palindrome_Number
+from solutions.Palindrome_Number import is_Palindrome_Number
 
 
 class TestPalindromeNumber(unittest.TestCase):

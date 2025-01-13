@@ -6,58 +6,53 @@ Created on 11/01/2025
 """
 
 import unittest
+from ..Palindrome_Number import is_Palindrome_Number
 
-from solutions import remove_duplicates_from_sorted_array
 
+class TestPalindromeNumber(unittest.TestCase):
+    """Test the is_palindrome_number function"""
 
-class TestRemoveDuplicatesFromSortedArray(unittest.TestCase):
-    """Test the remove_duplicates_from_sorted_array function"""
+    def test_palindrome_number(self):
+        """Should return True for a number that is a palindrome"""
+        actual = is_Palindrome_Number(121)
+        expected = True
+        self.assertEqual(actual, expected)
 
-    def test_basic_example(self):
-        """Should remove duplicates in a basic sorted array"""
-        nums = [1, 1, 2]
-        length = remove_duplicates_from_sorted_array(nums)
-        expected = [1, 2]
-        self.assertEqual(length, 2)
-        self.assertEqual(nums[:length], expected)
+    def test_negative_palindrome(self):
+        """Should return False for a negative number (never a palindrome)"""
+        actual = is_Palindrome_Number(-121)
+        expected = False
+        self.assertEqual(actual, expected)
 
-    def test_longer_array_with_duplicates(self):
-        """Should remove duplicates from a longer sorted array"""
-        nums = [0, 0, 1, 1, 2, 2, 3, 3, 4]
-        length = remove_duplicates_from_sorted_array(nums)
-        expected = [0, 1, 2, 3, 4]
-        self.assertEqual(length, 5)
-        self.assertEqual(nums[:length], expected)
+    def test_non_palindrome_number(self):
+        """Should return False for a number that is not a palindrome"""
+        actual = is_Palindrome_Number(123)
+        expected = False
+        self.assertEqual(actual, expected)
 
-    def test_no_duplicates(self):
-        """Should return the same list if there are no duplicates"""
-        nums = [1, 2, 3, 4, 5]
-        length = remove_duplicates_from_sorted_array(nums)
-        expected = [1, 2, 3, 4, 5]
-        self.assertEqual(length, 5)
-        self.assertEqual(nums[:length], expected)
+    def test_single_digit_number(self):
+        """Should return True for a single digit number (always a palindrome)"""
+        actual = is_Palindrome_Number(5)
+        expected = True
+        self.assertEqual(actual, expected)
 
-    def test_all_duplicates(self):
-        """Should return a list with a single element if all elements are duplicates"""
-        nums = [2, 2, 2, 2, 2]
-        length = remove_duplicates_from_sorted_array(nums)
-        expected = [2]
-        self.assertEqual(length, 1)
-        self.assertEqual(nums[:length], expected)
+    def test_large_palindrome(self):
+        """Should return True for a large palindrome number"""
+        actual = is_Palindrome_Number(12321)
+        expected = True
+        self.assertEqual(actual, expected)
 
-    def test_empty_array(self):
-        """Should return 0 for an empty array"""
-        nums = []
-        length = remove_duplicates_from_sorted_array(nums)
-        self.assertEqual(length, 0)
+    def test_large_non_palindrome(self):
+        """Should return False for a large non-palindrome number"""
+        actual = is_Palindrome_Number(12345)
+        expected = False
+        self.assertEqual(actual, expected)
 
-    def test_single_element(self):
-        """Should return the same list if there is only one element"""
-        nums = [5]
-        length = remove_duplicates_from_sorted_array(nums)
-        expected = [5]
-        self.assertEqual(length, 1)
-        self.assertEqual(nums[:length], expected)
+    def test_zero(self):
+        """Should return True for zero (considered a palindrome)"""
+        actual = is_Palindrome_Number(0)
+        expected = True
+        self.assertEqual(actual, expected)
 
 
 if __name__ == "__main__":

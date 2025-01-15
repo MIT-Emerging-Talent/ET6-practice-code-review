@@ -6,7 +6,7 @@ Unit tests for the `merge_dictionaries` function.
 These tests ensure correct behavior of the `merge_dictionaries` function,
 including standard merging, conflict resolution, edge cases, and input validation.
 
-Created on 03 01 2025
+Created on 15 01 2025
 @author: Frankline Ambetsa
 """
 

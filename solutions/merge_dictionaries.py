@@ -4,7 +4,7 @@ This module contains the implementation of the `merge_dictionaries` function.
 The `merge_dictionaries` function allows merging two dictionaries into one,
 with support for resolving key conflicts through a custom resolution function.
 
-Created on 03 01 2025
+Created on 15 01 2025
 @author: Frankline Ambetsa
 """
 
